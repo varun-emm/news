@@ -38,7 +38,8 @@ button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
 .chrome > *{pointer-events:auto}
 header{padding:4px 8px 6px 16px;display:flex;align-items:center;gap:10px}
 .date{color:#fff;font-size:13px;font-weight:600;opacity:.85;text-shadow:0 1px 6px rgba(0,0,0,.4)}
-.spacer{flex:1}
+.spacer{flex:1;display:flex;justify-content:center}
+.date{min-width:0;flex:1}
 .iconbtn{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;color:#fff;filter:drop-shadow(0 1px 4px rgba(0,0,0,.5))}
 .iconbtn svg{width:21px;height:21px}
 
@@ -52,97 +53,110 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
 .bars span.seen::after{transform:scaleX(1);opacity:.6}
 .bars span.on::after{transform:scaleX(1)}
 
-/* The feed: vertical, full-screen, one card per swipe */
+/* The feed: stories stack vertically (swipe up); each story is 3 slides side by side (swipe left) */
 .feed{position:absolute;inset:0;overflow-y:scroll;scroll-snap-type:y mandatory;scrollbar-width:none;overscroll-behavior:contain}
 .feed::-webkit-scrollbar{display:none}
 .card{position:relative;height:100%;scroll-snap-align:start;scroll-snap-stop:always;overflow:hidden;background:var(--c);color:#fff;user-select:none;-webkit-user-select:none;cursor:pointer}
-.card .img{position:absolute;inset:-2%;background-size:cover;background-position:center}
-.card.active .img{animation:kenburns 16s ease-out forwards}
-.card.calm.active .img{animation-duration:28s}
-.card .fallback{position:absolute;inset:0;display:grid;place-items:start center;font-size:80px;padding-top:calc(var(--top) + 40px + clamp(120px,22vh,180px) + 24px);
-  background:radial-gradient(circle at 30% 20%,color-mix(in srgb,var(--c) 40%,white),var(--c) 60%,color-mix(in srgb,var(--c) 60%,black))}
-.card .shade{position:absolute;inset:0;background:
-  linear-gradient(180deg,rgba(0,0,0,.3) 0%,transparent 18%,transparent 45%,color-mix(in srgb,var(--c) 65%,transparent) 66%,var(--c) 88%)}
+.track{display:flex;height:100%;overflow-x:scroll;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain}
+.track::-webkit-scrollbar{display:none}
+.slide{position:relative;flex:0 0 100%;height:100%;scroll-snap-align:start;scroll-snap-stop:always;overflow:hidden}
 
-/* Animated data overlay on top of the photo, picked per story */
-.vz{position:absolute;left:50%;top:calc(var(--top) + 40px);width:min(320px,calc(100% - 40px));height:clamp(120px,22vh,180px);
-  transform:translateX(-50%);border-radius:20px;padding:14px 16px;display:flex;flex-direction:column;color:#fff;
-  background:rgba(0,0,0,.28);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);opacity:0;
-  --a:color-mix(in srgb,var(--c) 35%,white); --up:#4ade80; --down:#fb7185}
-.card.active .vz{animation:vzin .6s cubic-bezier(.2,.8,.2,1) .1s forwards}
-.vz-h{display:flex;align-items:baseline;gap:10px;flex:none}
-.vz-h b{font-size:26px;font-weight:800;letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1;white-space:nowrap}
-.vz-h span{font-size:12px;font-weight:500;opacity:.75;line-height:1.25}
-.vz-b{flex:1;position:relative;margin-top:10px;min-height:0}
-.vz-cap{position:absolute;right:0;bottom:-2px;font-size:10.5px;opacity:.65;font-weight:600}
+/* slide 1: the photo, nothing on it */
+.s-photo .img{position:absolute;inset:-2%;background-size:cover;background-position:center}
+.s-photo.on .img{animation:kenburns 16s ease-out forwards}
+.card.calm .s-photo.on .img{animation-duration:28s}
+.s-photo .fallback{position:absolute;inset:0;display:grid;place-items:center;font-size:120px;
+  background:radial-gradient(circle at 30% 20%,color-mix(in srgb,var(--c) 40%,white),var(--c) 60%,color-mix(in srgb,var(--c) 60%,black))}
+.s-photo::after{content:"";position:absolute;inset:0 0 auto;height:110px;background:linear-gradient(180deg,rgba(0,0,0,.35),transparent)}
+
+/* slide 2: the animation */
+.s-viz{display:grid;place-items:center;padding:calc(var(--top) + 8px) 22px calc(env(safe-area-inset-bottom) + 36px);
+  background:radial-gradient(circle at 50% 30%,color-mix(in srgb,var(--c) 80%,white),var(--c) 55%,color-mix(in srgb,var(--c) 65%,black))}
+.vz{width:min(380px,100%);height:min(56vh,430px);display:flex;flex-direction:column;color:#fff;opacity:0;
+  --a:color-mix(in srgb,var(--c) 25%,white); --up:#86efac; --down:#fda4af}
+.slide.on .vz{animation:vzin .5s cubic-bezier(.2,.8,.2,1) forwards}
+.vz-h{display:flex;flex-direction:column;gap:6px;flex:none}
+.vz-h b{font-size:48px;font-weight:800;letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1}
+.vz-h span{font-size:15px;font-weight:500;opacity:.8;line-height:1.3}
+.vz-b{flex:1;position:relative;margin-top:26px;min-height:0}
+.vz-cap{position:absolute;right:0;bottom:-4px;font-size:12px;opacity:.7;font-weight:600}
 /* line chart that draws itself */
 .vz-line{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
-.vz-line .ln{fill:none;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1}
+.vz-line .ln{fill:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1}
 .vz-line .ar{opacity:0}
-.card.active .vz-line .ln{animation:draw 1.5s cubic-bezier(.4,0,.2,1) .35s forwards}
-.card.active .vz-line .ar{animation:fadein .8s ease 1.3s forwards}
-.vz-end{position:absolute;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:currentColor;opacity:0;box-shadow:0 0 0 0 currentColor}
-.card.active .vz-end{animation:fadein .2s 1.8s forwards,ping 1.6s 1.9s ease-out infinite}
+.slide.on .vz-line .ln{animation:draw 1.5s cubic-bezier(.4,0,.2,1) .3s forwards}
+.slide.on .vz-line .ar{animation:fadein .8s ease 1.2s forwards}
+.vz-end{position:absolute;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:50%;background:currentColor;opacity:0}
+.slide.on .vz-end{animation:fadein .2s 1.7s forwards,ping 1.6s 1.8s ease-out infinite}
 /* columns (compare, before/after, money) */
-.vz-cols{position:absolute;inset:0 0 16px;display:flex;align-items:flex-end;justify-content:center;gap:12px}
-.vz-col{flex:1;max-width:84px;height:100%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:5px}
-.vz-col i{display:block;width:100%;height:var(--h);border-radius:9px 9px 3px 3px;background:rgba(255,255,255,.35);transform:scaleY(0);transform-origin:bottom}
-.vz-col.hi i{background:var(--a);box-shadow:0 0 22px -4px var(--a)}
-.vz-col small{font-size:12px;font-weight:800;opacity:0}
-.vz-col em{position:absolute;bottom:-1px;font-style:normal;font-size:10.5px;font-weight:600;opacity:.7}
-.vz-col{position:relative}
-.card.active .vz-col i{animation:grow .9s cubic-bezier(.2,.9,.2,1.05) calc(.35s + var(--d,0s)) forwards}
-.card.active .vz-col small{animation:fadein .4s calc(1s + var(--d,0s)) forwards}
-.vz-cols.money{gap:7px}.vz-cols.money .vz-col{max-width:none}
+.vz-cols{position:absolute;inset:0 0 22px;display:flex;align-items:flex-end;justify-content:center;gap:16px}
+.vz-col{position:relative;flex:1;max-width:110px;height:100%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:6px}
+.vz-col i{display:block;width:100%;height:var(--h);border-radius:12px 12px 4px 4px;background:rgba(255,255,255,.3);transform:scaleY(0);transform-origin:bottom}
+.vz-col.hi i{background:var(--a)}
+.vz-col small{font-size:15px;font-weight:800;opacity:0}
+.vz-col em{position:absolute;bottom:-22px;font-style:normal;font-size:12px;font-weight:600;opacity:.75}
+.slide.on .vz-col i{animation:grow .9s cubic-bezier(.2,.9,.2,1.05) calc(.3s + var(--d,0s)) forwards}
+.slide.on .vz-col small{animation:fadein .4s calc(.95s + var(--d,0s)) forwards}
+.vz-cols.money{gap:9px}.vz-cols.money .vz-col{max-width:none}
 /* horizontal "1x vs 22x" */
-.vz-rows{position:absolute;inset:4px 0 16px;display:flex;flex-direction:column;justify-content:center;gap:14px}
-.vz-row{display:grid;grid-template-columns:46px 1fr;align-items:center;gap:10px;font-size:12px;font-weight:700}
-.vz-row i{display:block;height:22px;border-radius:6px;background:rgba(255,255,255,.35);width:var(--w);transform:scaleX(0);transform-origin:left}
-.vz-row.hi i{background:var(--a);box-shadow:0 0 22px -4px var(--a)}
-.card.active .vz-row i{animation:growx 1.2s cubic-bezier(.2,.9,.2,1) calc(.4s + var(--d,0s)) forwards}
+.vz-rows{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:22px}
+.vz-row{display:grid;grid-template-columns:62px 1fr;align-items:center;gap:12px;font-size:15px;font-weight:700}
+.vz-row i{display:block;height:34px;border-radius:8px;background:rgba(255,255,255,.3);width:var(--w);transform:scaleX(0);transform-origin:left}
+.vz-row.hi i{background:var(--a)}
+.slide.on .vz-row i{animation:growx 1.2s cubic-bezier(.2,.9,.2,1) calc(.35s + var(--d,0s)) forwards}
 /* calendar */
-.vz-cal{position:absolute;inset:0;display:flex;align-items:center;gap:18px;perspective:600px}
-.vz-cal .pg{width:92px;flex:none;border-radius:14px;overflow:hidden;background:#fff;color:#111;text-align:center;transform-origin:top;transform:rotateX(-95deg);box-shadow:0 10px 24px rgba(0,0,0,.35)}
-.vz-cal .pg div{background:#ef4444;color:#fff;font-size:12px;font-weight:800;letter-spacing:.12em;padding:5px 0}
-.vz-cal .pg b{display:block;font-size:42px;font-weight:800;padding:4px 0 8px;letter-spacing:-.03em}
-.vz-cal p{margin:0;font-size:15px;font-weight:700;line-height:1.3;opacity:0}
-.vz-cal p strong{display:block;font-size:30px;letter-spacing:-.03em}
-.card.active .vz-cal .pg{animation:flip .8s cubic-bezier(.2,1.3,.4,1) .35s forwards}
-.card.active .vz-cal p{animation:rise .5s .9s forwards}
+.vz-cal{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;perspective:700px}
+.vz-cal .pg{width:136px;border-radius:20px;overflow:hidden;background:#fff;color:#111;text-align:center;transform-origin:top;transform:rotateX(-95deg);box-shadow:0 14px 30px rgba(0,0,0,.3)}
+.vz-cal .pg div{background:#ef4444;color:#fff;font-size:15px;font-weight:800;letter-spacing:.14em;padding:8px 0}
+.vz-cal .pg b{display:block;font-size:64px;font-weight:800;padding:6px 0 12px;letter-spacing:-.03em}
+.vz-cal p{margin:0;font-size:16px;font-weight:600;text-align:center;opacity:0}
+.vz-cal p strong{display:block;font-size:36px;letter-spacing:-.03em}
+.slide.on .vz-cal .pg{animation:flip .8s cubic-bezier(.2,1.3,.4,1) .3s forwards}
+.slide.on .vz-cal p{animation:rise .5s .85s forwards}
 /* unit dots */
-.vz-dots{position:absolute;inset:0 0 16px;display:flex;flex-wrap:wrap;align-content:center;justify-content:center;gap:var(--g,6px)}
-.vz-dots i{width:var(--s,12px);height:var(--s,12px);border-radius:50%;background:var(--a);opacity:0;transform:scale(0)}
-.card.calm .vz-dots i{background:rgba(255,255,255,.75)}
-.card.active .vz-dots i{animation:popin .35s cubic-bezier(.2,1.6,.4,1) calc(.35s + var(--d)) forwards}
+.vz-dots{position:absolute;inset:0 0 22px;display:flex;flex-wrap:wrap;align-content:center;justify-content:center;gap:var(--g,8px)}
+.vz-dots i{width:var(--s,16px);height:var(--s,16px);border-radius:50%;background:var(--a);opacity:0;transform:scale(0)}
+.slide.on .vz-dots i{animation:popin .35s cubic-bezier(.2,1.6,.4,1) calc(.3s + var(--d)) forwards}
+/* a word, not a number: the emoji and the word pop in */
+.vz-word{justify-content:center;align-items:center;text-align:center}
+.vz-word .em{font-size:96px;line-height:1;opacity:0;transform:scale(.4)}
+.slide.on .vz-word .em{animation:popin .6s cubic-bezier(.2,1.6,.4,1) .2s forwards}
+.vz-word b{font-size:44px;font-weight:800;letter-spacing:-.03em;margin-top:22px;opacity:0}
+.vz-word span{font-size:15px;opacity:0;margin-top:8px}
+.vz-word u{display:block;height:4px;width:0;margin:14px auto 0;background:var(--a);border-radius:4px;text-decoration:none}
+.slide.on .vz-word b{animation:rise .5s .55s forwards}
+.slide.on .vz-word span{animation:rise .5s .7s forwards}
+.slide.on .vz-word u{animation:underline .7s .9s cubic-bezier(.2,.8,.2,1) forwards}
 
-.card .bottom{position:absolute;left:0;right:60px;bottom:0;padding:0 12px calc(env(safe-area-inset-bottom) + 34px) 20px}
+/* slide 3: headline and description */
+.s-text{display:flex;flex-direction:column;justify-content:center;padding:calc(var(--top) + 10px) 24px calc(env(safe-area-inset-bottom) + 40px);
+  background:linear-gradient(180deg,color-mix(in srgb,var(--c) 75%,black),color-mix(in srgb,var(--c) 55%,black))}
 .kicker{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;opacity:.75;display:flex;gap:8px;align-items:center}
 .kicker .em{font-size:15px}
-.card h2{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:clamp(27px,7.6vw,34px);line-height:1.08;letter-spacing:-.02em;margin:8px 0 10px;text-wrap:balance;text-shadow:0 2px 18px rgba(0,0,0,.25)}
-.card p.dek{margin:0;font-size:15px;line-height:1.45;opacity:.85;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-/* text slides up when a card arrives */
-.card .bottom > *{opacity:0;transform:translateY(18px)}
-.card.active .bottom > *{animation:rise .55s cubic-bezier(.2,.8,.2,1) forwards}
-.card.active .bottom > :nth-child(2){animation-delay:.08s}
-.card.active .bottom > :nth-child(3){animation-delay:.16s}
+.s-text h2{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:clamp(30px,8.4vw,40px);line-height:1.08;letter-spacing:-.02em;margin:12px 0 16px;text-wrap:balance}
+.s-text p.dek{margin:0;font-size:17px;line-height:1.5;opacity:.88}
+.acts{display:flex;align-items:center;gap:8px;margin-top:28px}
+.readbtn{flex:1;padding:14px 18px;border-radius:999px;background:#fff;color:#111;font-weight:700;font-size:15px;text-align:left;display:flex;justify-content:space-between}
+.acts .ic{width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.14);display:grid;place-items:center;transition:transform .15s}
+.acts button:active .ic{transform:scale(.88)}
+.acts svg{width:22px;height:22px}
+.acts .save[aria-pressed="true"] .ic{background:var(--save);color:#2b1d00}
+.acts .save[aria-pressed="true"] svg{fill:currentColor}
+.acts .save.bump .ic{animation:pop .45s cubic-bezier(.2,1.6,.4,1)}
+.s-text > *{opacity:0;transform:translateY(18px)}
+.s-text.on > *{animation:rise .5s cubic-bezier(.2,.8,.2,1) forwards}
+.s-text.on > :nth-child(2){animation-delay:.07s}
+.s-text.on > :nth-child(3){animation-delay:.14s}
+.s-text.on > :nth-child(4){animation-delay:.21s}
 
-/* TikTok-style action rail */
-.rail{position:absolute;right:6px;bottom:calc(env(safe-area-inset-bottom) + 34px);display:flex;flex-direction:column;align-items:center;gap:6px;z-index:3}
-.rail button{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:11px;font-weight:700;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.5)}
-.rail .ic{width:48px;height:48px;display:grid;place-items:center;transition:transform .15s;filter:drop-shadow(0 1px 5px rgba(0,0,0,.45))}
-.rail button:active .ic{transform:scale(.88)}
-.rail svg{width:27px;height:27px}
-.rail .save[aria-pressed="true"] .ic{color:var(--save)}
-.rail .save[aria-pressed="true"] svg{fill:currentColor}
-.rail .save.bump .ic{animation:pop .45s cubic-bezier(.2,1.6,.4,1)}
-
+/* slide dots in the header */
+.sdots{display:flex;gap:6px}
+.sdots i{width:6px;height:6px;border-radius:6px;background:rgba(255,255,255,.45);transition:.25s}
+.sdots i.on{width:18px;background:#fff}
 
 /* effects layer */
 .fx{position:absolute;inset:0;pointer-events:none;z-index:4;overflow:hidden}
 .heart{position:absolute;font-size:96px;transform:translate(-50%,-50%);animation:heart .9s ease-out forwards;filter:drop-shadow(0 6px 20px rgba(0,0,0,.4))}
-.swipehint{position:absolute;left:50%;top:58%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:0;font-size:13px;background:rgba(0,0,0,.4);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:8px 16px 10px;border-radius:999px;font-weight:700;color:#fff;z-index:5;pointer-events:none;animation:hintbob 1.4s ease-in-out infinite;text-shadow:0 1px 6px rgba(0,0,0,.5)}
-.swipehint svg{width:26px;height:26px;flex:none}
-.swipehint.gone{opacity:0;transition:opacity .4s;animation:none}
 
 .done{position:relative;height:100%;scroll-snap-align:start;display:grid;place-items:center;text-align:center;padding:30px;
   background:radial-gradient(circle at 50% 30%,#ff8a5b,#ff5a36 45%,#7c2d12);color:#fff}
@@ -198,7 +212,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
 .toggle[aria-checked="true"]{background:var(--accent)}
 .toggle[aria-checked="true"]::after{left:23px}
 .archive a{display:block;padding:10px 0;color:var(--fg);text-decoration:none;border-bottom:1px solid var(--line);font-size:14px}
-.toast{position:fixed;left:50%;top:44%;transform:translateX(-50%) translateY(-10px);background:#fff;color:#111;padding:10px 16px;border-radius:999px;font-weight:700;font-size:14px;opacity:0;transition:.3s;z-index:40;pointer-events:none;box-shadow:0 8px 30px rgba(0,0,0,.3)}
+.toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom) + 28px);text-align:center;max-width:calc(100% - 32px);transform:translateX(-50%) translateY(-10px);background:#fff;color:#111;padding:10px 16px;border-radius:999px;font-weight:700;font-size:14px;opacity:0;transition:.3s;z-index:40;pointer-events:none;box-shadow:0 8px 30px rgba(0,0,0,.3)}
 .toast.on{opacity:1;transform:translateX(-50%)}
 
 @keyframes kenburns{from{transform:scale(1.02) translate(0,0)}to{transform:scale(1.14) translate(-2%,-2%)}}
@@ -206,8 +220,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
 @keyframes pop{0%{transform:scale(.6);opacity:0}100%{transform:scale(1);opacity:1}}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.8)}}
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
-@keyframes marquee{to{transform:translateX(-100%)}}
-@keyframes vzin{from{opacity:0;transform:translateX(-50%) translateY(16px) scale(.95)}to{opacity:1;transform:translateX(-50%)}}
+@keyframes vzin{from{opacity:0;transform:translateY(16px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes underline{to{width:60px}}
 @keyframes draw{to{stroke-dashoffset:0}}
 @keyframes fadein{to{opacity:1}}
 @keyframes grow{to{transform:scaleY(1)}}
@@ -215,13 +229,11 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
 @keyframes flip{to{transform:rotateX(0)}}
 @keyframes popin{to{opacity:1;transform:scale(1)}}
 @keyframes ping{0%{box-shadow:0 0 0 0 color-mix(in srgb,currentColor 70%,transparent)}100%{box-shadow:0 0 0 14px transparent}}
-@keyframes ring{0%{opacity:.9;transform:scale(.6)}100%{opacity:0;transform:scale(3.2)}}
 @keyframes heart{0%{opacity:0;transform:translate(-50%,-50%) scale(.3) rotate(-12deg)}25%{opacity:1;transform:translate(-50%,-50%) scale(1.15) rotate(6deg)}60%{transform:translate(-50%,-50%) scale(1) rotate(0)}100%{opacity:0;transform:translate(-50%,-110%) scale(1.1)}}
-@keyframes hintbob{0%,100%{transform:translate(-50%,0);opacity:.9}50%{transform:translate(-50%,-14px);opacity:.5}}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
-  .card .bottom > *,.vz,.vz *{opacity:1!important;transform:none!important;stroke-dashoffset:0!important}
-  .vz{transform:translateX(-50%)!important}
+  .s-text > *,.vz,.vz *{opacity:1!important;transform:none!important;stroke-dashoffset:0!important}
+  .vz-word u{width:60px}
 }
 </style>
 </head>
@@ -232,7 +244,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     <div class="bars" id="bars"></div>
     <header>
       <div class="date" id="date">Loading…</div>
-      <div class="spacer"></div>
+      <div class="spacer"><div class="sdots" id="sdots"></div></div>
       <button class="iconbtn" id="openSettings" aria-label="Settings">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
       </button>
@@ -252,7 +264,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   <div class="row"><div><b>Show VC angle</b><span>Why it matters for a wealth-builder</span></div><button class="toggle" id="tVc" role="switch" aria-checked="true"></button></div>
   <div class="row"><div><b>Light mode</b><span>For the story sheet and this panel</span></div><button class="toggle" id="tLight" role="switch" aria-checked="false"></button></div>
   <div class="archive"><h4 style="margin:10px 0 4px;color:var(--muted);font-size:11px;letter-spacing:.1em;text-transform:uppercase">Past days</h4><div id="archiveList"><a href="?day=2026-10-24">24 Oct 2026</a></div></div>
-  <p style="font-size:12px;color:var(--muted);margin-top:auto">Swipe up for the next story, down to go back. Tap a card to read it, double-tap or tap 🔖 to save. Saved stories stay on this device. Photos from Unsplash, credited on each card.</p>
+  <p style="font-size:12px;color:var(--muted);margin-top:auto">Each story has three slides: photo, graphic, headline. Swipe left through them, up for the next story. Tap to step forward, double-tap or tap 🔖 to save. Saved stories stay on this device. Photos from Unsplash, credited on each card.</p>
 </aside>
 <div class="toast" id="toast"></div>
 
@@ -327,9 +339,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
 
   const ICON = {
     save:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>',
-    read:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 5h16M4 10h16M4 15h10M4 20h7"/></svg>',
-    share:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="m7 8 5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>',
-    up:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 15 6-6 6 6"/></svg>'
+    share:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="m7 8 5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>'
   };
 
   // ---- animated overlay: pick a graphic that fits the story's stat ----
@@ -353,16 +363,16 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   function trendSVG(s, up){
     const rnd = seeded(s.id||s.headline), N = 11, pts = [];
     for(let i=0;i<N;i++){
-      const k = i/(N-1), base = up ? 88 - k*72 : 14 + k*72;
-      pts.push([4 + k*292, Math.max(6, Math.min(94, base + (rnd()-.5)*(i===N-1?0:26)))]);
+      const k = i/(N-1), base = up ? 212 - k*176 : 28 + k*176;
+      pts.push([4 + k*292, Math.max(10, Math.min(230, base + (rnd()-.5)*(i===N-1?0:56)))]);
     }
     const d = 'M' + pts.map(p => p.map(v => v.toFixed(1)).join(',')).join(' L');
     const col = up ? 'var(--up)' : 'var(--down)', [ex, ey] = pts[N-1], gid = 'g' + (s.id||'x').replace(/\W/g,'');
-    return `<svg class="vz-line" viewBox="0 0 300 100" preserveAspectRatio="none" aria-hidden="true">
+    return `<svg class="vz-line" viewBox="0 0 300 240" preserveAspectRatio="none" aria-hidden="true">
         <defs><linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${up?'#4ade80':'#fb7185'}" stop-opacity=".45"/><stop offset="1" stop-color="${up?'#4ade80':'#fb7185'}" stop-opacity="0"/></linearGradient></defs>
-        <path class="ar" d="${d} L296,100 L4,100 Z" fill="url(#${gid})"/>
+        <path class="ar" d="${d} L296,240 L4,240 Z" fill="url(#${gid})"/>
         <path class="ln" d="${d}" pathLength="1" style="stroke:${col}"/>
-      </svg><span class="vz-end" style="left:${ex/3}%;top:${ey}%;color:${col}"></span>`;
+      </svg><span class="vz-end" style="left:${ex/3}%;top:${ey/2.4}%;color:${col}"></span>`;
   }
 
   function vizHTML(s){
@@ -398,26 +408,27 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
       const size = few ? 22 : 13, step = few ? .09 : .035;
       body = `<div class="vz-dots" style="--s:${size}px;--g:${few?9:6}px">` + Array.from({length:count}, (_, i) => `<i style="--d:${(i*step).toFixed(2)}s"></i>`).join('') + `</div>${few ? '' : `<span class="vz-cap">each dot ≈ ${unit.toLocaleString('en-IN')}</span>`}`;
     }
-    else return ''; // a word, not a number: no graphic, the headline does the work
+    else return `<div class="vz vz-word" aria-hidden="true"><div class="em">${esc(s.emoji||'✨')}</div><b>${esc(t)}</b><u></u><span>${esc(s.statLabel||'')}</span></div>`;
     return `<div class="vz" data-kind="${kind}" aria-hidden="true">${head}<div class="vz-b">${body}</div></div>`;
   }
 
   function cardHTML(s, pos){
     const img = s.image && s.image.url;
-    const on = isSaved(s);
+    const on = isSaved(s), viz = vizHTML(s);
     return `<article class="card${isCalm(s)?' calm':''}" data-pos="${pos}" data-id="${esc(s.id)}" style="--c:${esc(s.color||'#333')}">
-      <div class="fallback">${esc(s.emoji||'📰')}</div>
-      ${img ? `<div class="img" style="background-image:url('${esc(safeUrl(img))}')"></div>` : ''}
-      <div class="shade"></div>
-      ${vizHTML(s)}
-      <div class="bottom">
-        <div class="kicker"><span class="em">${esc(s.emoji||'')}</span>${esc(s.kicker||'')}</div>
-        <h2>${esc(s.headline)}</h2>
-        <p class="dek">${esc((s.body||[])[0]||'')}</p>
-      </div>
-      <div class="rail">
-        <button class="save" data-act="save" aria-pressed="${on}" aria-label="Save story"><span class="ic">${ICON.save}</span></button>
-        <button data-act="share" aria-label="Share story"><span class="ic">${ICON.share}</span></button>
+      <div class="track">
+        <section class="slide s-photo"><div class="fallback">${esc(s.emoji||'📰')}</div>${img ? `<div class="img" style="background-image:url('${esc(safeUrl(img))}')"></div>` : ''}</section>
+        ${viz ? `<section class="slide s-viz">${viz}</section>` : ''}
+        <section class="slide s-text">
+          <div class="kicker"><span class="em">${esc(s.emoji||'')}</span>${esc(s.kicker||'')} · ${esc(s.source||'')}</div>
+          <h2>${esc(s.headline)}</h2>
+          <p class="dek">${esc((s.body||[])[0]||'')}</p>
+          <div class="acts">
+            <button class="readbtn" data-act="read">Read the full story <span>→</span></button>
+            <button class="save" data-act="save" aria-pressed="${on}" aria-label="Save story"><span class="ic">${ICON.save}</span></button>
+            <button data-act="share" aria-label="Share story"><span class="ic">${ICON.share}</span></button>
+          </div>
+        </section>
       </div>
       <div class="fx"></div>
     </article>`;
@@ -428,8 +439,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     list = visible();
     if(io) io.disconnect();
     if(!list.length){
-      feed.innerHTML = `<div class="empty"><div><div style="font-size:48px">${filter==='saved'?'🔖':'🗞️'}</div><p>${filter==='saved'?'Nothing saved yet.<br>Tap 🔖 or double-tap a card to save it.':'No stories here today.'}</p></div></div>`;
-      renderBars(); return;
+      feed.innerHTML = `<div class="empty"><div><div style="font-size:48px">${filter==='saved'?'🔖':'🗞️'}</div><p>${filter==='saved'?'Nothing saved yet.<br>Tap 🔖 or double-tap a story to save it.':'No stories here today.'}</p></div></div>`;
+      renderBars(); $('#sdots').innerHTML = ''; return;
     }
     let html = list.map((s,i) => cardHTML(s,i)).join('');
     html += `<section class="done" data-pos="${list.length}"><div><div class="cup">☕</div><h2>You're all caught up</h2><p>New deck lands every morning.</p><button id="again">Start over</button>${saved.length && filter!=='saved'?'<button id="toSaved">See saved</button>':''}</div></section>`;
@@ -439,28 +450,40 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     feed.querySelectorAll('.card').forEach(c => {
       const im = c.querySelector('.img');
       if(im){ const url = im.style.backgroundImage.slice(5,-2); const t = new Image(); t.onerror = () => im.remove(); t.src = url; }
+      const track = c.querySelector('.track'); let raf = 0;
+      track.addEventListener('scroll', () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(() => updateSlides(c)); }, {passive:true});
       wireCard(c);
     });
-    if(!store.get('hinted', false) && filter!=='saved'){
-      const h = document.createElement('div'); h.className='swipehint'; h.innerHTML = ICON.up + 'Swipe up';
-      feed.querySelector('.card').appendChild(h);
-    }
     io = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting) activate(+e.target.dataset.pos); }), {root:feed, threshold:.6});
     feed.querySelectorAll('[data-pos]').forEach(el => io.observe(el));
     feed.scrollTop = Math.min(idx, list.length) * feed.clientHeight;
     activate(idx, true);
+    if(!store.get('hinted', false) && filter!=='saved'){ store.set('hinted', true); setTimeout(() => toast('Swipe ← for more · ↑ for the next story', 3200), 600); }
+  }
+
+  const curCard = () => feed.querySelector(`.card[data-pos="${idx}"]`);
+  const slideIndex = c => { const t = c.querySelector('.track'); return Math.round(t.scrollLeft / (t.clientWidth || 1)); };
+
+  // mark the visible slide of the active story as "on" so its animation plays
+  function updateSlides(card){
+    const active = card.classList.contains('active'), si = slideIndex(card);
+    card.querySelectorAll('.slide').forEach((sl, j) => {
+      const on = active && j === si;
+      if(on && !sl.classList.contains('on')){ sl.classList.add('on'); countUp(sl.querySelector('[data-stat]')); }
+      else if(!on) sl.classList.remove('on');
+    });
+    if(active){
+      const n = card.querySelectorAll('.slide').length;
+      $('#sdots').innerHTML = Array.from({length:n}, (_, j) => `<i class="${j===si?'on':''}"></i>`).join('');
+    }
   }
 
   function activate(p, force){
     if(p === idx && !force && feed.querySelector('.card.active, .done.active')) return;
     idx = p;
     feed.querySelectorAll('[data-pos]').forEach(el => el.classList.toggle('active', +el.dataset.pos === p));
-    if(p > 0 && !store.get('hinted', false)){ store.set('hinted', true); const h = feed.querySelector('.swipehint'); if(h) h.classList.add('gone'); }
-    const card = feed.querySelector(`.card[data-pos="${p}"]`);
-    if(card){
-      const s = list[p];
-      countUp(card.querySelector('[data-stat]'));
-    }
+    feed.querySelectorAll('.card').forEach(updateSlides);
+    if(!curCard()) $('#sdots').innerHTML = '';
     renderBars();
   }
 
@@ -497,6 +520,13 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     const el = feed.querySelector(`[data-pos="${Math.max(0, Math.min(list.length, p))}"]`);
     if(el) el.scrollIntoView({behavior: motionOK ? 'smooth' : 'auto'});
   }
+  // step through the current story's slides; past the last one, move on to the next story
+  function step(d){
+    const c = curCard(); if(!c) return goTo(idx + (d > 0 ? 1 : -1));
+    const t = c.querySelector('.track'), n = c.querySelectorAll('.slide').length, si = slideIndex(c) + d;
+    if(si < 0 || si >= n) return goTo(idx + d);
+    t.scrollTo({left: si * t.clientWidth, behavior: motionOK ? 'smooth' : 'auto'});
+  }
 
   async function share(s){
     const url = location.origin + location.pathname + `?day=${encodeURIComponent((s.id||'').slice(0,10))}#${encodeURIComponent(s.id)}`;
@@ -527,7 +557,10 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
         return;
       }
       lastTap = now;
-      timer = setTimeout(() => openSheet(s), 300);
+      // single tap: left edge goes back a slide, anywhere else goes forward; on the last slide it opens the story
+      const back = e.clientX - card.getBoundingClientRect().left < card.clientWidth * .25;
+      const last = slideIndex(card) === card.querySelectorAll('.slide').length - 1;
+      timer = setTimeout(() => back ? step(-1) : last ? openSheet(s) : step(1), 300);
     });
   }
 
@@ -562,7 +595,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   }
   function closeSheet(){ $('#sheet').classList.remove('on'); if(!$('#panel').classList.contains('on')) $('#scrim').classList.remove('on'); }
 
-  function toast(t){ const el=$('#toast'); el.textContent=t; el.classList.add('on'); clearTimeout(toast._t); toast._t=setTimeout(()=>el.classList.remove('on'),1600); }
+  function toast(t, ms){ const el=$('#toast'); el.textContent=t; el.classList.add('on'); clearTimeout(toast._t); toast._t=setTimeout(()=>el.classList.remove('on'), ms || 1600); }
 
   function shuffle(){
     for(let i=order.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [order[i],order[j]]=[order[j],order[i]]; }
@@ -583,8 +616,10 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     const open = $('#sheet').classList.contains('on') || $('#panel').classList.contains('on');
     if(e.key==='Escape'){ closeSheet(); closePanel(); return; }
     if(open) return;
-    if(e.key==='ArrowDown' || e.key==='j' || e.key==='ArrowRight') { e.preventDefault(); goTo(idx+1); }
-    else if(e.key==='ArrowUp' || e.key==='k' || e.key==='ArrowLeft') { e.preventDefault(); goTo(idx-1); }
+    if(e.key==='ArrowDown' || e.key==='j') { e.preventDefault(); goTo(idx+1); }
+    else if(e.key==='ArrowUp' || e.key==='k') { e.preventDefault(); goTo(idx-1); }
+    else if(e.key==='ArrowRight' || e.key==='l') { e.preventDefault(); step(1); }
+    else if(e.key==='ArrowLeft' || e.key==='h') { e.preventDefault(); step(-1); }
     else if(e.key==='s') toggleSave(list[idx]);
     else if(e.key==='Enter' || e.key===' ') { e.preventDefault(); openSheet(list[idx]); }
   });
