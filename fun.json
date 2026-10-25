@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T17:30:00+05:30",
+  "items": [
+    {
+      "id": "2026-10-25-f1",
+      "type": "fashion",
+      "source": "Esquire Australia",
+      "emoji": "🏜️",
+      "color": "#8a6a4a",
+      "headline": "Armani and Kith take menswear to the desert",
+      "caption": "Their third collab, Dreams of the Dune, runs from black and deep blue to sand and icy white.",
+      "body": [
+        "Giorgio Armani and Kith showed the third chapter of their menswear collaboration at sunset on 9 October in the Agafay Desert, south of Marrakech.",
+        "The colours move from black and deep blue through dark brown and burnt earth to sand, greige and icy white.",
+        "The Fall/Winter 2026 line uses leather and cashmere, with shoes made with ASICS and Diemme."
+      ],
+      "url": "https://esquire.com.au/fashion-news-october-2026/",
+      "linkLabel": "Esquire Australia"
+    },
+    {
+      "id": "2026-10-25-f2",
+      "type": "good",
+      "source": "MPR News",
+      "emoji": "🚌",
+      "color": "#b45309",
+      "headline": "Store owner stops a runaway school bus with 18 kids aboard",
+      "caption": "Ebro Ahmed, 27, climbed in after the driver had a seizure. Every child was safe.",
+      "body": [
+        "In St. Paul, Minnesota, 27-year-old Ebro Ahmed saw a school bus roll past his store while the driver was having a seizure.",
+        "He climbed aboard, put the bus in neutral, set the parking brake and called for help. None of the 18 children were hurt, and the driver is expected to be OK.",
+        "He credits the TV show Grey's Anatomy for helping him stay calm, and he was given a $1,000 award."
+      ],
+      "url": "https://mprnews.org/story/2026/10/23/st-paul-man-saves-runaway-school-bus-of-kids-gets-1000-reward",
+      "linkLabel": "MPR News"
+    },
+    {
+      "id": "2026-10-25-f3",
+      "type": "fashion",
+      "source": "Highsnobiety",
+      "emoji": "👟",
+      "color": "#be185d",
+      "headline": "This week's sneakers: Saucony collab and bubblegum-pink Vans",
+      "caption": "Highsnobiety's weekly picks include its own Saucony collaboration and a loud pink Vans.",
+      "body": [
+        "Highsnobiety's roundup of the best sneakers for the third week of October includes a Highsnobiety x Saucony collaboration.",
+        "A bubblegum-pink Vans also makes the list, alongside picks from New Balance and others.",
+        "Its drop calendar shows more releases through late October, including Salomon x Maison Margiela."
+      ],
+      "url": "https://www.highsnobiety.com/p/sneaker-releases-2026-october-week-3/",
+      "linkLabel": "Highsnobiety"
+    },
+    {
+      "id": "2026-10-25-f4",
+      "type": "good",
+      "source": "Good Good Good",
+      "emoji": "🌳",
+      "color": "#166534",
+      "headline": "Amazon deforestation falls to its lowest in almost 40 years",
+      "caption": "Clearing in Brazil's Amazon is down nearly 42% from the same period last year.",
+      "body": [
+        "Deforestation in Brazil's Amazon has fallen to its lowest level in almost four decades, according to the latest data.",
+        "That is a drop of nearly 42% compared with the same period last year."
+      ],
+      "url": "https://www.goodgoodgood.co/articles/good-news-this-week-october-24-2026",
+      "linkLabel": "Good Good Good"
+    },
+    {
+      "id": "2026-10-25-f5",
+      "type": "fashion",
+      "source": "Esquire UK",
+      "emoji": "🧥",
+      "color": "#5c3d2e",
+      "headline": "Brown tailoring is this autumn's power move",
+      "caption": "Esquire UK's latest issue backs brown suits and Armani's soft-shouldered greige coat.",
+      "body": [
+        "Esquire UK's September/October issue makes the case for brown tailoring this season.",
+        "It also highlights Armani's soft-shouldered, ankle-length coat cut in washed greige wool.",
+        "Autumn guides point the same way, toward warm browns, heritage checks and soft knitwear."
+      ],
+      "url": "https://www.zinio.com/publications/esquire-uk/2849/issues/714262/articles",
+      "linkLabel": "Esquire UK"
+    },
+    {
+      "id": "2026-10-25-f6",
+      "type": "good",
+      "source": "Good Good Good",
+      "emoji": "🌱",
+      "color": "#0f766e",
+      "headline": "Women in Nigeria plant 150,000 mangroves to heal their coast",
+      "caption": "Women-led groups are replanting mangroves in a polluted part of the country.",
+      "body": [
+        "In a polluted region of Nigeria, women-led groups are replanting mangrove forests.",
+        "One trainee and a dozen other women have planted more than 150,000 mangrove saplings."
+      ],
+      "url": "https://www.goodgoodgood.co/articles/good-news-this-week-october-24-2026",
+      "linkLabel": "Good Good Good"
+    }
+  ]
+}

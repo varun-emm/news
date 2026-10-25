@@ -12,7 +12,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23ff5a36'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='white' font-family='Arial' font-weight='900'>S</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Playfair+Display:wght@800&family=Anton&family=Space+Grotesk:wght@700&family=DM+Serif+Display&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Playfair+Display:wght@800&family=Anton&family=Space+Grotesk:wght@700&family=DM+Serif+Display&family=Source+Serif+4:opsz,wght@8..60,600&family=Bodoni+Moda:ital,opsz,wght@1,6..96,700&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#000; --fg:#f5f5f7; --muted:#8e8e93; --card:#1c1c1e; --card2:#2c2c2e; --line:#38383a;
@@ -44,6 +44,10 @@ header{display:flex;align-items:center;padding:6px 8px 8px 18px;gap:8px}
 .story > .c-photo{flex:1.15 1 0;min-height:88px}
 .story > .c-viz{flex:1 1 0;min-height:196px}
 .story > .c-done{flex:1}
+/* fun stories: one big photo card and a small caption card */
+.story > .c-funphoto{flex:1 1 0;min-height:160px}
+.c-funphoto .fallback{font-size:110px}
+.funtag{position:absolute;top:14px;left:14px;z-index:2;padding:7px 12px;border-radius:999px;background:rgba(0,0,0,.45);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#fff;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .c{position:relative;min-height:0;border-radius:var(--r);overflow:hidden;cursor:pointer;will-change:transform;backface-visibility:hidden}
 
 /* card: headline on the story's colour */
@@ -59,6 +63,7 @@ header{display:flex;align-items:center;padding:6px 8px 8px 18px;gap:8px}
 .hl-tech{font-family:"Space Grotesk",system-ui,sans-serif;font-weight:700;letter-spacing:-.035em}
 .hl-finance{--hs:1.05;font-family:"DM Serif Display",Georgia,serif;font-weight:400;letter-spacing:-.01em}
 .hl-serious{--hs:.96;font-family:"Source Serif 4",Georgia,serif;font-weight:600;letter-spacing:-.01em}
+.hl-style{--hs:1.06;font-family:"Bodoni Moda",Didot,Georgia,serif;font-style:italic;font-weight:700;letter-spacing:-.01em}
 .c-text p{margin:0;font-size:14.5px;line-height:1.42;opacity:.85}
 .c-text .acts{margin-top:auto;padding-top:8px;display:flex;justify-content:flex-end;gap:2px}
 .acts button{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;color:#fff;transition:transform .15s}
@@ -253,7 +258,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   };
   const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["saved","🔖 Saved"]];
   const LABEL = {world:"World", india:"India", money:"Money Desk"};
-  const VERSION = '2.3'; // bump on every change to this page, so it's easy to tell which copy you have
+  const VERSION = '2.4'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
@@ -261,7 +266,14 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
 
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const safeUrl = u => /^https:\/\//.test(u||'') ? u : '#';
-  const isCalm = s => !s.joke; // no joke means a sad story: keep it gentle
+  const FUN = {
+    fashion: {label:'Style', emoji:'👔', font:'style'},
+    good:    {label:'Good news', emoji:'🌈', font:'editorial'},
+    release: {label:'Record release', emoji:'🚀', font:'impact'}
+  };
+  const isFun = s => !!FUN[s.type];
+  const isCalm = s => !isFun(s) && !s.joke; // no joke means a sad story: keep it gentle
+  let fun = [];
   function lighten(hex){
     const n = parseInt((hex||'#888').slice(1),16); let r=n>>16,g=n>>8&255,b=n&255;
     r=Math.round(r+(255-r)*.45); g=Math.round(g+(255-g)*.45); b=Math.round(b+(255-b)*.45);
@@ -283,7 +295,16 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
 
   function visible(){
     if(filter === 'saved') return saved.slice();
-    return order.map(i => all[i]).filter(s => filter==='all' || s.section===filter);
+    const news = order.map(i => all[i]).filter(s => filter==='all' || s.section===filter);
+    return filter === 'all' ? withFun(news) : news;
+  }
+  // drop a fun story in after every 3rd, 4th or 6th news story; the gaps are fixed for the day
+  function withFun(news){
+    if(!fun.length) return news;
+    const rnd = seeded(data.date + '-fun'), gap = () => [3,4,6][Math.floor(rnd() * 3)];
+    const out = []; let k = 0, next = gap();
+    news.forEach(s => { out.push(s); if(--next === 0){ if(k < fun.length) out.push(fun[k++]); next = gap(); } });
+    return out;
   }
   function renderTabs(){
     $('#tabs').innerHTML = SECTIONS.map(([k,l]) => {
@@ -362,9 +383,10 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   };
   // the headline card always fits its words; the photo and graphic share what's left and shrink first
   // headline type: the story can name one, otherwise it's picked from what the story is about
-  const FONTS = ['editorial','news','impact','tech','finance','serious'];
+  const FONTS = ['editorial','news','impact','tech','finance','serious','style'];
   function headFont(s){
     if(FONTS.includes(s.font)) return s.font;
+    if(isFun(s)) return FUN[s.type].font;
     const t = `${s.kicker||''} ${s.headline||''}`.toLowerCase();
     if(isCalm(s) && /death|dead|kill|outbreak|ebola|virus|attack|disaster|injur|flood|quake|fire|crash/.test(t)) return 'serious';
     if(/\b(ai|tech|startup|chips?|software|apps?|agents?|robots?|cloud|saas|crypto|data)\b/.test(t)) return 'tech';
@@ -373,7 +395,25 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     if(s.section === 'money' || /bank|bond|fund|budget|profit|valuation|rates|inflation|economy/.test(t)) return 'finance';
     return isCalm(s) ? 'serious' : 'editorial';
   }
+  function funEl(s){
+    const f = FUN[s.type], img = s.image && s.image.url, on = isSaved(s);
+    const el = document.createElement('div');
+    el.className = 'story fun';
+    el.dataset.id = s.id;
+    el.style.setProperty('--c', s.color || '#333');
+    el.innerHTML = `<article class="c c-photo c-funphoto"><div class="fallback">${esc(s.emoji||f.emoji)}</div>${img ? `<div class="img" style="background-image:url('${esc(safeUrl(img))}')"></div>` : ''}<span class="funtag">${f.emoji} ${f.label}</span></article>
+      <article class="c c-text c-funcap">
+        <div class="kicker">${esc(s.source||'')}</div>
+        <h2 class="hl-${headFont(s)}">${esc(s.headline)}</h2>
+        <p>${esc(s.caption || (s.body||[])[0] || '')}</p>
+        <div class="acts"><button class="save" data-act="save" aria-pressed="${on}" aria-label="Save">${ICON.save}</button><button data-act="share" aria-label="Share">${ICON.share}</button></div>
+      </article>`;
+    const im = el.querySelector('.img');
+    if(im){ const t = new Image(); t.onerror = () => im.remove(); t.src = img; }
+    return el;
+  }
   function storyEl(s){
+    if(isFun(s)) return funEl(s);
     const kinds = ['text','photo','viz'], rnd = seeded(s.id);
     for(let i=kinds.length-1;i>0;i--){ const j=Math.floor(rnd()*(i+1)); [kinds[i],kinds[j]]=[kinds[j],kinds[i]]; }
     const img = s.image && s.image.url, on = isSaved(s);
@@ -565,7 +605,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     sheet.innerHTML = `
       <div class="hero" style="${img}"><span class="grab"></span><button class="close" aria-label="Close">✕</button></div>
       <div class="content">
-        <div class="kicker"><span class="em">${esc(s.emoji)}</span>${esc(LABEL[s.section]||'')} · ${esc(s.kicker)}</div>
+        <div class="kicker"><span class="em">${esc(s.emoji)}</span>${esc(LABEL[s.section] || (isFun(s) ? FUN[s.type].label : ''))} · ${esc(s.kicker || s.source || '')}</div>
         <h3 class="hl-${headFont(s)}">${esc(s.headline)}</h3>
         <ul>${(s.body||[]).map(b=>`<li>${esc(b)}</li>`).join('')}</ul>
         ${s.stat?`<div class="box"><h4>📊 ${esc(s.statLabel||'The number')}</h4><b style="font-size:22px">${esc(s.stat)}</b></div>`:''}
@@ -612,13 +652,27 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   }
   function moreNews(){
     if(isArchive || remaining() <= 0){ toast(isArchive ? "More news works on today's deck" : "That's all for today. More at 4 AM ☕", 2500); return; }
-    const first = all.length;
+    const firstId = extras[store.get(revealedKey(), 0)].id;
     const added = addExtras(store.get(revealedKey(), 0) + Math.min(BATCH, remaining()));
     store.set('order_'+data.date, order);
     if(filter !== 'all') filter = 'all';
     renderTabs(); renderMore(); closePanel();
     toast(`${added} more stories ✨`, 2200);
-    show(order.indexOf(first), 1);
+    show(visible().findIndex(s => s.id === firstId), 1);
+  }
+  // fun stories: today's from fun.json, a past day's from archive/<date>-fun.json; types are mixed so two of a kind don't follow each other
+  async function loadFun(){
+    try{
+      const r = await fetch((isArchive ? `archive/${data.date}-fun.json` : 'fun.json') + '?t=' + Date.now()); if(!r.ok) return;
+      const m = await r.json();
+      if(!m || m.date !== data.date || !Array.isArray(m.items)) return;
+      const groups = {};
+      m.items.filter(x => x && x.id && x.headline && FUN[x.type]).forEach(x => (groups[x.type] = groups[x.type] || []).push(x));
+      const types = Object.keys(groups), rnd = seeded(data.date + '-mix');
+      for(let i=types.length-1;i>0;i--){ const j=Math.floor(rnd()*(i+1)); [types[i],types[j]]=[types[j],types[i]]; }
+      fun = [];
+      for(let n = 0; types.some(t => groups[t][n]); n++) types.forEach(t => { if(groups[t][n]) fun.push(groups[t][n]); });
+    }catch(e){}
   }
   async function loadExtras(){
     try{
@@ -663,9 +717,10 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
       addExtras(Math.min(extras.length, Math.max(store.get(revealedKey(), 0), shared + 1)));
     }
     if(Array.isArray(savedOrder) && savedOrder.length === all.length) order = savedOrder;
-    let start = 0;
-    if(hash){ const i = order.findIndex(j => all[j].id === hash); if(i >= 0) start = i; }
-    renderTabs(); renderMore(); show(start, 1, true);
+    await loadFun();
+    renderTabs(); renderMore();
+    const start = hash ? Math.max(0, visible().findIndex(s => s.id === hash)) : 0;
+    show(start, 1, true);
     if(!store.get('hinted', false)){ store.set('hinted', true); setTimeout(() => toast('Swipe up for the next story · tap to read', 3000), 700); }
     fetch('archive/index.json?t='+Date.now()).then(r=>r.ok?r.json():null).then(a=>{
       if(!a||!a.days) return;
