@@ -39,6 +39,7 @@ STORY_SCHEMA = {
                     "url": {"type": "string"},
                     "linkLabel": {"type": "string"},
                     "color": {"type": "string"},
+                    "font": {"type": "string", "enum": ["editorial", "news", "impact", "tech", "finance", "serious"]},
                     "image": {
                         "type": "object",
                         "properties": {
@@ -51,7 +52,7 @@ STORY_SCHEMA = {
                     },
                 },
                 "required": ["section", "source", "kicker", "emoji", "stat", "statLabel", "headline",
-                             "body", "joke", "vc", "url", "linkLabel", "color", "image"],
+                             "body", "joke", "vc", "url", "linkLabel", "color", "font", "image"],
                 "additionalProperties": False,
             },
         }
@@ -82,6 +83,7 @@ Rules:
 - joke: one light, witty, sarcastic line, never partisan. Use "" for deaths, disasters, attacks or other tragedy.
 - vc: 1-2 sentences on why it matters to a VC or wealth-builder.
 - color: a hex colour that suits THIS story's mood (not its section), dark enough for white text, and different from: {colors}.
+- font: the headline typeface that suits the story: "news" (politics, elections, diplomacy, conflict), "impact" (big market moves, IPOs, surges and crashes), "tech" (AI, startups, software, chips), "finance" (economy, banks, rates, funds, analysis), "serious" (deaths, disasters, health crises), or "editorial" (anything else).
 - image.url: the images.unsplash.com URL with "?auto=format&fit=crop&w=1200&q=70" appended (replace any existing query). credit: photographer. creditUrl: the unsplash.com photo page.
 - Rewrite everything in your own words. No quotes longer than 10 words. Only use facts from the notes; drop a story if the notes are too thin.
 
