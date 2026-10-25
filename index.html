@@ -6,6 +6,8 @@
 <title>Daily Swipe</title>
 <meta name="description" content="Varun's daily news: one story at a time, in three cards.">
 <meta name="theme-color" content="#000000">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
 <meta name="color-scheme" content="dark">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -47,6 +49,8 @@ header{display:flex;align-items:center;padding:6px 8px 8px 18px;gap:8px}
 /* fun stories: one big photo card and a small caption card */
 .story > .c-funphoto{flex:1 1 0;min-height:160px}
 .c-funphoto .fallback{font-size:110px}
+.c-funphoto .img{background-position:center 22%}
+.photocredit{position:absolute;right:12px;bottom:10px;z-index:2;padding:3px 8px;border-radius:6px;background:rgba(0,0,0,.45);color:rgba(255,255,255,.85);font-size:10.5px;font-weight:600}
 .funtag{position:absolute;top:14px;left:14px;z-index:2;padding:7px 12px;border-radius:999px;background:rgba(0,0,0,.45);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#fff;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .c{position:relative;min-height:0;border-radius:var(--r);overflow:hidden;cursor:pointer;will-change:transform;backface-visibility:hidden}
 
@@ -258,7 +262,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   };
   const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["saved","🔖 Saved"]];
   const LABEL = {world:"World", india:"India", money:"Money Desk"};
-  const VERSION = '2.4'; // bump on every change to this page, so it's easy to tell which copy you have
+  const VERSION = '2.5'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
@@ -401,7 +405,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     el.className = 'story fun';
     el.dataset.id = s.id;
     el.style.setProperty('--c', s.color || '#333');
-    el.innerHTML = `<article class="c c-photo c-funphoto"><div class="fallback">${esc(s.emoji||f.emoji)}</div>${img ? `<div class="img" style="background-image:url('${esc(safeUrl(img))}')"></div>` : ''}<span class="funtag">${f.emoji} ${f.label}</span></article>
+    el.innerHTML = `<article class="c c-photo c-funphoto"><div class="fallback">${esc(s.emoji||f.emoji)}</div>${img ? `<div class="img" style="background-image:url('${esc(safeUrl(img))}')"></div>` : ''}<span class="funtag">${f.emoji} ${f.label}</span>${img && s.image.preview ? `<span class="photocredit">📷 ${esc(s.image.credit || s.source || '')}</span>` : ''}</article>
       <article class="c c-text c-funcap">
         <div class="kicker">${esc(s.source||'')}</div>
         <h2 class="hl-${headFont(s)}">${esc(s.headline)}</h2>
@@ -612,7 +616,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
         ${s.joke?`<div class="box"><h4>😏 The quip</h4><i>${esc(s.joke)}</i></div>`:''}
         ${s.vc?`<div class="box"><h4>💼 VC angle</h4>${esc(s.vc)}</div>`:''}
         <a class="src" href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">Read at ${esc(s.linkLabel||s.source)} <span>↗</span></a>
-        ${s.image&&s.image.credit?`<div class="meta">Photo: <a href="${esc(safeUrl(s.image.creditUrl))}" target="_blank" rel="noopener">${esc(s.image.credit)}</a> on Unsplash. Illustrative, not from the story.</div>`:''}
+        ${s.image&&s.image.credit?`<div class="meta">Photo: <a href="${esc(safeUrl(s.image.creditUrl))}" target="_blank" rel="noopener">${esc(s.image.credit)}</a>${s.image.preview ? ", the article's own preview image. © the publisher." : ' on Unsplash. Illustrative, not from the story.'}</div>`:''}
       </div>`;
     sheet.querySelector('.close').onclick = closeSheet;
     let y0 = null; const hero = sheet.querySelector('.hero');
