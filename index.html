@@ -13,7 +13,10 @@
 <meta name="apple-mobile-web-app-title" content="NEWS">
 <meta name="application-name" content="NEWS">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23ff5a36'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='white' font-family='Arial' font-weight='900'>N</text></svg>">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Playfair+Display:wght@800&family=Anton&family=Space+Grotesk:wght@700&family=DM+Serif+Display&family=Source+Serif+4:opsz,wght@8..60,600&family=Bodoni+Moda:ital,opsz,wght@1,6..96,700&display=swap" rel="stylesheet">
@@ -264,10 +267,15 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   };
   const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["saved","🔖 Saved"]];
   const LABEL = {world:"World", india:"India", money:"Money Desk"};
-  const VERSION = '2.6'; // bump on every change to this page, so it's easy to tell which copy you have
+  const VERSION = '2.7'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
+  const RESET = '2026-10-25'; // change this to wipe saved stories, progress and settings on every device once
+  if(store.get('reset', '') !== RESET){
+    try{ Object.keys(localStorage).filter(k => k.startsWith('ds_')).forEach(k => localStorage.removeItem(k)); }catch(e){}
+    store.set('reset', RESET);
+  }
   let saved = store.get('saved', []); if(!Array.isArray(saved)) saved = [];
 
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -480,6 +488,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     p = Math.max(0, Math.min(list.length, p));
     const old = current(), next = p < list.length ? storyEl(list[p]) : doneEl();
     idx = p; renderBars();
+    if(data && list[p] && filter === 'all') store.set('pos_' + data.date, list[p].id);
     stage.appendChild(next);
     if(instant || !old || !motionOK || !next.animate){
       stage.querySelectorAll('.story').forEach(e => { if(e !== next) e.remove(); });
@@ -673,7 +682,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
       const m = await r.json();
       if(!m || m.date !== data.date || !Array.isArray(m.items)) return;
       const groups = {};
-      m.items.filter(x => x && x.id && x.headline && FUN[x.type]).forEach(x => (groups[x.type] = groups[x.type] || []).push(x));
+      m.items.filter(x => x && x.id && x.headline && FUN[x.type] && (x.type !== 'fashion' || (x.image && x.image.url))).forEach(x => (groups[x.type] = groups[x.type] || []).push(x));
       const types = Object.keys(groups), rnd = seeded(data.date + '-mix');
       for(let i=types.length-1;i>0;i--){ const j=Math.floor(rnd()*(i+1)); [types[i],types[j]]=[types[j],types[i]]; }
       fun = [];
@@ -725,12 +734,13 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     if(Array.isArray(savedOrder) && savedOrder.length === all.length) order = savedOrder;
     await loadFun();
     renderTabs(); renderMore();
-    const start = hash ? Math.max(0, visible().findIndex(s => s.id === hash)) : 0;
+    const resume = hash || store.get('pos_' + d.date, ''); // a shared link wins; otherwise pick up where you left off
+    const start = resume ? Math.max(0, visible().findIndex(s => s.id === resume)) : 0;
     show(start, 1, true);
     if(!store.get('hinted', false)){ store.set('hinted', true); setTimeout(() => toast('Swipe up for the next story · tap to read', 3000), 700); }
     fetch('archive/index.json?t='+Date.now()).then(r=>r.ok?r.json():null).then(a=>{
       if(!a||!a.days) return;
-      $('#archiveList').innerHTML = (isArchive?`<a href="./">← Today <small>›</small></a>`:'') + a.days.map(x=>`<a href="?day=${esc(x)}">${new Date(x+'T00:00:00').toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short',year:'numeric'})} <small>›</small></a>`).join('');
+      $('#archiveList').innerHTML = (isArchive?`<a href="./">← Today <small>›</small></a>`:'') + (a.days.length ? '' : '<a>No past days yet <small>first one tomorrow</small></a>') + a.days.map(x=>`<a href="?day=${esc(x)}">${new Date(x+'T00:00:00').toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short',year:'numeric'})} <small>›</small></a>`).join('');
     }).catch(()=>{});
   }).catch(() => { stage.innerHTML = `<div class="empty">Couldn't load today's stories. Try again in a bit.</div>`; $('#date').textContent=''; });
 })();
