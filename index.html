@@ -4,8 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Daily Swipe</title>
-<meta name="description" content="Varun's daily news deck: world, India and the money desk, in swipeable cards.">
+<meta name="description" content="Varun's daily news deck: world, India and the money desk, in full-screen swipeable cards.">
 <meta name="theme-color" content="#0b0b0f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23ff5a36'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='white' font-family='Arial' font-weight='900'>S</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +16,8 @@
 :root{
   --bg:#0b0b0f; --fg:#f5f5f7; --muted:#a1a1aa; --chip:#1c1c22; --chip-on:#f5f5f7; --chip-on-fg:#0b0b0f;
   --sheet:#141418; --line:#2a2a31;
-  --accent:#ff5a36;
+  --accent:#ff5a36; --save:#ffc53d;
+  --top:calc(env(safe-area-inset-top) + 104px);
 }
 :root[data-theme="light"]{
   --bg:#f4f1ec; --fg:#141414; --muted:#5f5f66; --chip:#e6e1d9; --chip-on:#141414; --chip-on-fg:#fff;
@@ -22,63 +25,157 @@
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;overscroll-behavior:none}
-body{display:flex;flex-direction:column;height:100dvh;overflow:hidden}
+body{overflow:hidden}
 button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
 
-/* Top bar */
-header{padding:calc(env(safe-area-inset-top) + 12px) 16px 8px;display:flex;align-items:center;gap:12px}
-.brand{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:22px;letter-spacing:-.02em;display:flex;align-items:center;gap:8px}
-.brand i{width:10px;height:10px;border-radius:50%;background:var(--accent);display:inline-block;box-shadow:0 0 12px var(--accent)}
-.date{color:var(--muted);font-size:13px;font-weight:500}
+/* App frame: the whole screen on phones, a tall phone-width column on desktop */
+.app{position:fixed;inset:0;margin:0 auto;width:100%;max-width:520px;overflow:hidden;background:#000}
+@media (min-width:700px){ .app{max-width:460px;box-shadow:0 0 80px rgba(0,0,0,.5)} }
+
+/* Overlay chrome (floats over the cards) */
+.chrome{position:absolute;left:0;right:0;top:0;z-index:15;color:#fff;pointer-events:none;
+  background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,.25) 70%,transparent)}
+.chrome > *{pointer-events:auto}
+header{padding:calc(env(safe-area-inset-top) + 10px) 14px 6px;display:flex;align-items:center;gap:10px}
+.brand{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:21px;letter-spacing:-.02em;display:flex;align-items:center;gap:8px;text-shadow:0 1px 8px rgba(0,0,0,.4)}
+.brand i{width:9px;height:9px;border-radius:50%;background:var(--accent);display:inline-block;box-shadow:0 0 12px var(--accent);animation:pulse 2.4s ease-in-out infinite}
+.date{color:rgba(255,255,255,.75);font-size:12.5px;font-weight:600}
 .spacer{flex:1}
-.iconbtn{width:40px;height:40px;border-radius:12px;background:var(--chip);display:grid;place-items:center}
-.iconbtn svg{width:20px;height:20px}
+.iconbtn{width:38px;height:38px;border-radius:12px;background:rgba(0,0,0,.35);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);display:grid;place-items:center;color:#fff}
+.iconbtn svg{width:19px;height:19px}
 
-nav{display:flex;gap:8px;padding:4px 16px 10px;overflow-x:auto;scrollbar-width:none}
+nav{display:flex;gap:7px;padding:2px 14px 8px;overflow-x:auto;scrollbar-width:none}
 nav::-webkit-scrollbar{display:none}
-.chip{padding:8px 14px;border-radius:999px;background:var(--chip);font-size:13px;font-weight:600;white-space:nowrap;transition:.2s}
-.chip[aria-pressed="true"]{background:var(--chip-on);color:var(--chip-on-fg)}
+.chip{padding:7px 13px;border-radius:999px;background:rgba(0,0,0,.35);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#fff;font-size:13px;font-weight:600;white-space:nowrap;transition:.2s}
+.chip[aria-pressed="true"]{background:#fff;color:#0b0b0f}
 .chip small{opacity:.6;font-weight:500;margin-left:4px}
+.bars{display:flex;gap:3px;padding:0 14px 8px}
+.bars span{flex:1;height:3px;border-radius:3px;background:rgba(255,255,255,.28);overflow:hidden;position:relative}
+.bars span::after{content:"";position:absolute;inset:0;background:#fff;transform:scaleX(0);transform-origin:left;transition:transform .35s}
+.bars span.seen::after{transform:scaleX(1);opacity:.6}
+.bars span.on::after{transform:scaleX(1)}
 
-/* Deck */
-main{flex:1;position:relative;margin:0 auto;width:100%;max-width:520px;padding:0 16px}
-.deck{position:relative;height:100%;}
-.card{position:absolute;inset:0 0 8px 0;border-radius:28px;overflow:hidden;background:var(--c);
-  box-shadow:0 20px 50px -20px rgba(0,0,0,.6);touch-action:pan-y;user-select:none;
-  transition:transform .35s cubic-bezier(.2,.8,.2,1),opacity .35s;will-change:transform;cursor:pointer}
-.card.behind{transform:scale(.94) translateY(14px);opacity:.55;pointer-events:none}
-.card.behind2{transform:scale(.88) translateY(28px);opacity:.25;pointer-events:none}
-.card.hidden{opacity:0;pointer-events:none;transform:scale(.85)}
-.card.dragging{transition:none}
-.card .img{position:absolute;inset:0;background-size:cover;background-position:center;transform:scale(1.04)}
-.card .fallback{position:absolute;inset:0;display:grid;place-items:center;font-size:140px;
+/* The feed: vertical, full-screen, one card per swipe */
+.feed{position:absolute;inset:0;overflow-y:scroll;scroll-snap-type:y mandatory;scrollbar-width:none;overscroll-behavior:contain}
+.feed::-webkit-scrollbar{display:none}
+.card{position:relative;height:100%;scroll-snap-align:start;scroll-snap-stop:always;overflow:hidden;background:var(--c);color:#fff;user-select:none;-webkit-user-select:none;cursor:pointer}
+.card .img{position:absolute;inset:-2%;background-size:cover;background-position:center}
+.card.active .img{animation:kenburns 16s ease-out forwards}
+.card.calm.active .img{animation-duration:28s}
+.card .fallback{position:absolute;inset:0;display:grid;place-items:start center;font-size:88px;padding-top:calc(var(--top) + 52px + clamp(150px,29vh,236px) + 14px);
   background:radial-gradient(circle at 30% 20%,color-mix(in srgb,var(--c) 40%,white),var(--c) 60%,color-mix(in srgb,var(--c) 60%,black))}
+.card.active .fallback{animation:bob 6s ease-in-out infinite}
 .card .shade{position:absolute;inset:0;background:
-  linear-gradient(180deg,rgba(0,0,0,.35) 0%,transparent 22%,transparent 38%,color-mix(in srgb,var(--c) 70%,transparent) 62%,var(--c) 82%)}
-.card .top{position:absolute;top:16px;left:16px;right:16px;display:flex;justify-content:space-between;align-items:center;gap:8px}
-.pill{background:rgba(0,0,0,.45);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#fff;padding:7px 12px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
-.pill.stat{text-transform:none;letter-spacing:0;font-size:13px}
-.card .bottom{position:absolute;left:0;right:0;bottom:0;padding:22px 22px 24px;color:#fff}
-.kicker{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;opacity:.85;display:flex;gap:8px;align-items:center}
+  linear-gradient(180deg,rgba(0,0,0,.45) 0%,transparent 26%,transparent 40%,color-mix(in srgb,var(--c) 70%,transparent) 62%,var(--c) 84%)}
+.card .top{position:absolute;top:calc(var(--top) + 8px);left:14px;right:14px;display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.pill{background:rgba(0,0,0,.45);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#fff;padding:7px 12px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;display:inline-flex;align-items:center;gap:7px}
+.pill .dot{width:7px;height:7px;border-radius:50%;background:#ff4d4d;animation:pulse 1.6s ease-in-out infinite}
+.credit{position:absolute;right:14px;top:calc(var(--top) + 15px);font-size:10px;color:rgba(255,255,255,.8);text-decoration:none;background:rgba(0,0,0,.35);padding:4px 8px;border-radius:6px;max-width:55%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* Animated data overlay on top of the photo, picked per story */
+.vz{position:absolute;left:50%;top:calc(var(--top) + 52px);width:min(340px,calc(100% - 32px));height:clamp(150px,29vh,236px);
+  transform:translateX(-50%);border-radius:22px;padding:14px 16px 14px;display:flex;flex-direction:column;color:#fff;
+  background:rgba(10,10,14,.36);backdrop-filter:blur(14px) saturate(1.3);-webkit-backdrop-filter:blur(14px) saturate(1.3);
+  border:1px solid rgba(255,255,255,.16);box-shadow:0 18px 40px -18px rgba(0,0,0,.6);opacity:0;
+  --a:color-mix(in srgb,var(--c) 35%,white); --up:#4ade80; --down:#fb7185}
+.card.active .vz{animation:vzin .6s cubic-bezier(.2,.8,.2,1) .1s forwards}
+.vz-h{display:flex;align-items:baseline;gap:10px;flex:none}
+.vz-h b{font-size:30px;font-weight:800;letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1;white-space:nowrap}
+.vz-h span{font-size:12px;font-weight:600;opacity:.8;line-height:1.25}
+.vz-b{flex:1;position:relative;margin-top:10px;min-height:0}
+.vz-cap{position:absolute;right:0;bottom:-2px;font-size:10.5px;opacity:.65;font-weight:600}
+/* line chart that draws itself */
+.vz-line{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.vz-line .ln{fill:none;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1}
+.vz-line .ar{opacity:0}
+.card.active .vz-line .ln{animation:draw 1.5s cubic-bezier(.4,0,.2,1) .35s forwards}
+.card.active .vz-line .ar{animation:fadein .8s ease 1.3s forwards}
+.vz-end{position:absolute;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:currentColor;opacity:0;box-shadow:0 0 0 0 currentColor}
+.card.active .vz-end{animation:fadein .2s 1.8s forwards,ping 1.6s 1.9s ease-out infinite}
+/* columns (compare, before/after, money) */
+.vz-cols{position:absolute;inset:0 0 16px;display:flex;align-items:flex-end;justify-content:center;gap:12px}
+.vz-col{flex:1;max-width:84px;height:100%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:5px}
+.vz-col i{display:block;width:100%;height:var(--h);border-radius:9px 9px 3px 3px;background:rgba(255,255,255,.35);transform:scaleY(0);transform-origin:bottom}
+.vz-col.hi i{background:var(--a);box-shadow:0 0 22px -4px var(--a)}
+.vz-col small{font-size:12px;font-weight:800;opacity:0}
+.vz-col em{position:absolute;bottom:-1px;font-style:normal;font-size:10.5px;font-weight:600;opacity:.7}
+.vz-col{position:relative}
+.card.active .vz-col i{animation:grow .9s cubic-bezier(.2,.9,.2,1.05) calc(.35s + var(--d,0s)) forwards}
+.card.active .vz-col small{animation:fadein .4s calc(1s + var(--d,0s)) forwards}
+.vz-cols.money{gap:7px}.vz-cols.money .vz-col{max-width:none}
+/* horizontal "1x vs 22x" */
+.vz-rows{position:absolute;inset:4px 0 16px;display:flex;flex-direction:column;justify-content:center;gap:14px}
+.vz-row{display:grid;grid-template-columns:46px 1fr;align-items:center;gap:10px;font-size:12px;font-weight:700}
+.vz-row i{display:block;height:22px;border-radius:6px;background:rgba(255,255,255,.35);width:var(--w);transform:scaleX(0);transform-origin:left}
+.vz-row.hi i{background:var(--a);box-shadow:0 0 22px -4px var(--a)}
+.card.active .vz-row i{animation:growx 1.2s cubic-bezier(.2,.9,.2,1) calc(.4s + var(--d,0s)) forwards}
+/* calendar */
+.vz-cal{position:absolute;inset:0;display:flex;align-items:center;gap:18px;perspective:600px}
+.vz-cal .pg{width:92px;flex:none;border-radius:14px;overflow:hidden;background:#fff;color:#111;text-align:center;transform-origin:top;transform:rotateX(-95deg);box-shadow:0 10px 24px rgba(0,0,0,.35)}
+.vz-cal .pg div{background:#ef4444;color:#fff;font-size:12px;font-weight:800;letter-spacing:.12em;padding:5px 0}
+.vz-cal .pg b{display:block;font-size:42px;font-weight:800;padding:4px 0 8px;letter-spacing:-.03em}
+.vz-cal p{margin:0;font-size:15px;font-weight:700;line-height:1.3;opacity:0}
+.vz-cal p strong{display:block;font-size:30px;letter-spacing:-.03em}
+.card.active .vz-cal .pg{animation:flip .8s cubic-bezier(.2,1.3,.4,1) .35s forwards}
+.card.active .vz-cal p{animation:rise .5s .9s forwards}
+/* unit dots */
+.vz-dots{position:absolute;inset:0 0 16px;display:flex;flex-wrap:wrap;align-content:center;justify-content:center;gap:var(--g,6px)}
+.vz-dots i{width:var(--s,12px);height:var(--s,12px);border-radius:50%;background:var(--a);opacity:0;transform:scale(0)}
+.card.calm .vz-dots i{background:rgba(255,255,255,.75)}
+.card.active .vz-dots i{animation:popin .35s cubic-bezier(.2,1.6,.4,1) calc(.35s + var(--d)) forwards}
+/* pulse rings for word stats */
+.vz-pulse{position:absolute;inset:0;display:grid;place-items:center}
+.vz-pulse span{position:absolute;width:64px;height:64px;border-radius:50%;border:2px solid var(--a);opacity:0}
+.card.active .vz-pulse span{animation:ring 2.8s ease-out infinite}
+.card.active .vz-pulse span:nth-child(2){animation-delay:.9s}.card.active .vz-pulse span:nth-child(3){animation-delay:1.8s}
+.card.calm.active .vz-pulse span{animation-duration:4.5s}
+.vz-pulse b{position:relative;font-size:38px;opacity:0}
+.card.active .vz-pulse b{animation:popin .5s cubic-bezier(.2,1.6,.4,1) .4s forwards}
+
+.card .bottom{position:absolute;left:0;right:68px;bottom:0;padding:0 16px calc(env(safe-area-inset-bottom) + 30px) 18px}
+.card.has-ticker .bottom{padding-bottom:calc(env(safe-area-inset-bottom) + 50px)}
+.kicker{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;opacity:.9;display:flex;gap:8px;align-items:center}
 .kicker .em{font-size:18px}
-.card h2{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:clamp(26px,7.4vw,34px);line-height:1.08;letter-spacing:-.02em;margin:8px 0 10px;text-wrap:balance}
+.card h2{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:clamp(27px,7.6vw,34px);line-height:1.08;letter-spacing:-.02em;margin:8px 0 10px;text-wrap:balance;text-shadow:0 2px 18px rgba(0,0,0,.25)}
 .card p.dek{margin:0;font-size:15.5px;line-height:1.45;opacity:.95;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.card .hint{margin-top:14px;font-size:12px;font-weight:600;opacity:.75;display:flex;align-items:center;gap:6px}
-.credit{position:absolute;right:14px;top:56px;font-size:10px;color:rgba(255,255,255,.7);text-decoration:none;background:rgba(0,0,0,.3);padding:3px 7px;border-radius:6px}
+.card .hint{margin-top:12px;font-size:12px;font-weight:600;opacity:.75}
+/* text slides up when a card arrives */
+.card .bottom > *{opacity:0;transform:translateY(18px)}
+.card.active .bottom > *{animation:rise .55s cubic-bezier(.2,.8,.2,1) forwards}
+.card.active .bottom > :nth-child(2){animation-delay:.08s}
+.card.active .bottom > :nth-child(3){animation-delay:.16s}
+.card.active .bottom > :nth-child(4){animation-delay:.24s}
 
-/* swipe stamps */
-.stamp{position:absolute;top:50%;font-weight:800;font-size:13px;letter-spacing:.1em;padding:8px 12px;border-radius:10px;background:rgba(0,0,0,.5);color:#fff;opacity:0;transition:opacity .1s}
-.stamp.l{left:16px}.stamp.r{right:16px}
+/* TikTok-style action rail */
+.rail{position:absolute;right:8px;bottom:calc(env(safe-area-inset-bottom) + 40px);display:flex;flex-direction:column;align-items:center;gap:16px;z-index:3}
+.card.has-ticker .rail{bottom:calc(env(safe-area-inset-bottom) + 60px)}
+.rail button{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:11px;font-weight:700;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.5)}
+.rail .ic{width:48px;height:48px;border-radius:50%;background:rgba(0,0,0,.35);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);display:grid;place-items:center;transition:transform .15s}
+.rail button:active .ic{transform:scale(.88)}
+.rail svg{width:24px;height:24px}
+.rail .save[aria-pressed="true"] .ic{background:var(--save);color:#2b1d00}
+.rail .save[aria-pressed="true"] svg{fill:currentColor}
+.rail .save.bump .ic{animation:pop .45s cubic-bezier(.2,1.6,.4,1)}
 
-/* progress + controls */
-footer{padding:6px 16px calc(env(safe-area-inset-bottom) + 12px);display:flex;align-items:center;gap:12px;max-width:520px;margin:0 auto;width:100%}
-.dots{flex:1;display:flex;gap:4px}
-.dots span{flex:1;height:4px;border-radius:4px;background:var(--line);transition:.3s}
-.dots span.on{background:var(--fg)}
-.dots span.seen{background:var(--muted)}
-.nav-btn{width:44px;height:44px;border-radius:50%;background:var(--chip);display:grid;place-items:center}
-.nav-btn svg{width:20px;height:20px}
-.count{font-size:12px;color:var(--muted);font-weight:600;min-width:38px;text-align:center}
+/* Money Desk ticker tape */
+.ticker{position:absolute;left:0;right:0;bottom:env(safe-area-inset-bottom);height:30px;background:rgba(0,0,0,.45);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);overflow:hidden;display:flex;align-items:center;font-size:12px;font-weight:700;letter-spacing:.02em;white-space:nowrap;z-index:2}
+.ticker div{display:inline-block;padding-left:100%;animation:marquee 26s linear infinite}
+.ticker em{font-style:normal;color:#ffd166;margin-right:6px}
+.ticker i{opacity:.4;margin:0 14px;font-style:normal}
+
+/* effects layer */
+.fx{position:absolute;inset:0;pointer-events:none;z-index:4;overflow:hidden}
+.heart{position:absolute;font-size:96px;transform:translate(-50%,-50%);animation:heart .9s ease-out forwards;filter:drop-shadow(0 6px 20px rgba(0,0,0,.4))}
+.swipehint{position:absolute;left:50%;top:58%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:0;font-size:13px;background:rgba(0,0,0,.4);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:8px 16px 10px;border-radius:999px;font-weight:700;color:#fff;z-index:5;pointer-events:none;animation:hintbob 1.4s ease-in-out infinite;text-shadow:0 1px 6px rgba(0,0,0,.5)}
+.swipehint svg{width:26px;height:26px;flex:none}
+.swipehint.gone{opacity:0;transition:opacity .4s;animation:none}
+
+.done{position:relative;height:100%;scroll-snap-align:start;display:grid;place-items:center;text-align:center;padding:30px;
+  background:radial-gradient(circle at 50% 30%,#ff8a5b,#ff5a36 45%,#7c2d12);color:#fff}
+.done h2{font-family:Fraunces,Georgia,serif;font-size:34px;margin:10px 0}
+.done button{margin:18px 6px 0;background:#fff;color:#111;padding:12px 20px;border-radius:999px;font-weight:800}
+.done .cup{font-size:64px;display:inline-block;animation:bob 3s ease-in-out infinite}
+.empty{height:100%;display:grid;place-items:center;text-align:center;color:#a1a1aa;padding:24px;background:var(--bg)}
 
 /* detail sheet */
 .scrim{position:fixed;inset:0;background:rgba(0,0,0,.55);opacity:0;pointer-events:none;transition:.3s;z-index:20}
@@ -103,7 +200,12 @@ footer{padding:6px 16px calc(env(safe-area-inset-bottom) + 12px);display:flex;al
 .box h4{margin:0 0 4px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .box.joke{background:var(--chip);font-style:italic}
 .box.vc{background:linear-gradient(135deg,color-mix(in srgb,var(--c) 22%,transparent),transparent);border:1px solid var(--line)}
-.src{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:16px;padding:14px 16px;border-radius:16px;background:var(--fg);color:var(--bg);text-decoration:none;font-weight:700;font-size:15px}
+.actions{display:flex;gap:10px;margin-top:16px}
+.src{flex:1;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 16px;border-radius:16px;background:var(--fg);color:var(--bg);text-decoration:none;font-weight:700;font-size:15px}
+.savebtn{flex:none;padding:0 16px;border-radius:16px;background:var(--chip);font-weight:700;font-size:15px;display:flex;align-items:center;gap:8px}
+.savebtn svg{width:18px;height:18px}
+.savebtn[aria-pressed="true"]{background:var(--save);color:#2b1d00}
+.savebtn[aria-pressed="true"] svg{fill:currentColor}
 .meta{font-size:12px;color:var(--muted);margin-top:14px}
 .meta a{color:inherit}
 
@@ -112,6 +214,7 @@ footer{padding:6px 16px calc(env(safe-area-inset-bottom) + 12px);display:flex;al
   padding:calc(env(safe-area-inset-top) + 18px) 20px 24px;display:flex;flex-direction:column;gap:14px;overflow-y:auto}
 .panel.on{transform:none}
 .panel h3{margin:0 0 6px;font-family:Fraunces,Georgia,serif;font-size:26px;display:flex;justify-content:space-between;align-items:center}
+.panel .iconbtn{background:var(--chip);color:var(--fg)}
 .row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;border-radius:16px;background:var(--chip)}
 .row div b{display:block;font-size:15px}.row div span{font-size:12.5px;color:var(--muted)}
 .big{width:100%;padding:16px;border-radius:16px;background:var(--accent);color:#fff;font-weight:800;font-size:16px;display:flex;align-items:center;justify-content:center;gap:10px}
@@ -121,37 +224,53 @@ footer{padding:6px 16px calc(env(safe-area-inset-bottom) + 12px);display:flex;al
 .toggle[aria-checked="true"]{background:var(--accent)}
 .toggle[aria-checked="true"]::after{left:23px}
 .archive a{display:block;padding:10px 0;color:var(--fg);text-decoration:none;border-bottom:1px solid var(--line);font-size:14px}
-.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);background:var(--fg);color:var(--bg);padding:10px 16px;border-radius:999px;font-weight:700;font-size:14px;opacity:0;transition:.3s;z-index:40;pointer-events:none}
+.toast{position:fixed;left:50%;top:44%;transform:translateX(-50%) translateY(-10px);background:#fff;color:#111;padding:10px 16px;border-radius:999px;font-weight:700;font-size:14px;opacity:0;transition:.3s;z-index:40;pointer-events:none;box-shadow:0 8px 30px rgba(0,0,0,.3)}
 .toast.on{opacity:1;transform:translateX(-50%)}
-.empty{position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:var(--muted);padding:24px}
-.done{position:absolute;inset:0 0 8px 0;border-radius:28px;display:grid;place-items:center;text-align:center;padding:30px;
-  background:radial-gradient(circle at 50% 30%,#ff8a5b,#ff5a36 45%,#7c2d12);color:#fff}
-.done h2{font-family:Fraunces,Georgia,serif;font-size:34px;margin:10px 0}
-.done button{margin-top:18px;background:#fff;color:#111;padding:12px 20px;border-radius:999px;font-weight:800}
-@media (min-width:900px){ main{max-width:480px} .card h2{font-size:34px} }
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+@keyframes kenburns{from{transform:scale(1.02) translate(0,0)}to{transform:scale(1.14) translate(-2%,-2%)}}
+@keyframes rise{to{opacity:1;transform:none}}
+@keyframes pop{0%{transform:scale(.6);opacity:0}100%{transform:scale(1);opacity:1}}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.8)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes marquee{to{transform:translateX(-100%)}}
+@keyframes vzin{from{opacity:0;transform:translateX(-50%) translateY(16px) scale(.95)}to{opacity:1;transform:translateX(-50%)}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fadein{to{opacity:1}}
+@keyframes grow{to{transform:scaleY(1)}}
+@keyframes growx{to{transform:scaleX(1)}}
+@keyframes flip{to{transform:rotateX(0)}}
+@keyframes popin{to{opacity:1;transform:scale(1)}}
+@keyframes ping{0%{box-shadow:0 0 0 0 color-mix(in srgb,currentColor 70%,transparent)}100%{box-shadow:0 0 0 14px transparent}}
+@keyframes ring{0%{opacity:.9;transform:scale(.6)}100%{opacity:0;transform:scale(3.2)}}
+@keyframes heart{0%{opacity:0;transform:translate(-50%,-50%) scale(.3) rotate(-12deg)}25%{opacity:1;transform:translate(-50%,-50%) scale(1.15) rotate(6deg)}60%{transform:translate(-50%,-50%) scale(1) rotate(0)}100%{opacity:0;transform:translate(-50%,-110%) scale(1.1)}}
+@keyframes hintbob{0%,100%{transform:translate(-50%,0);opacity:.9}50%{transform:translate(-50%,-14px);opacity:.5}}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .card .bottom > *,.vz,.vz *{opacity:1!important;transform:none!important;stroke-dashoffset:0!important}
+  .vz{transform:translateX(-50%)!important}
+  .vz-pulse span{display:none}
+}
 </style>
 </head>
 <body>
-<header>
-  <div class="brand"><i></i>Daily Swipe</div>
-  <div class="date" id="date">Loading…</div>
-  <div class="spacer"></div>
-  <button class="iconbtn" id="shuffleQuick" aria-label="Shuffle cards" title="Shuffle">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5"/><path d="M4 20 21 3"/><path d="M21 16v5h-5"/><path d="m15 15 6 6"/><path d="M4 4l5 5"/></svg>
-  </button>
-  <button class="iconbtn" id="openSettings" aria-label="Settings">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
-  </button>
-</header>
-<nav id="tabs" aria-label="Sections"></nav>
-<main><div class="deck" id="deck"></div></main>
-<footer>
-  <button class="nav-btn" id="prev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg></button>
-  <div class="dots" id="dots"></div>
-  <span class="count" id="count"></span>
-  <button class="nav-btn" id="next" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg></button>
-</footer>
+<div class="app">
+  <div class="feed" id="feed" aria-label="Stories"></div>
+  <div class="chrome">
+    <header>
+      <div class="brand"><i></i>Daily Swipe</div>
+      <div class="date" id="date">Loading…</div>
+      <div class="spacer"></div>
+      <button class="iconbtn" id="shuffleQuick" aria-label="Shuffle cards" title="Shuffle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5"/><path d="M4 20 21 3"/><path d="M21 16v5h-5"/><path d="m15 15 6 6"/><path d="M4 4l5 5"/></svg>
+      </button>
+      <button class="iconbtn" id="openSettings" aria-label="Settings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+      </button>
+    </header>
+    <nav id="tabs" aria-label="Sections"></nav>
+    <div class="bars" id="bars"></div>
+  </div>
+</div>
 
 <div class="scrim" id="scrim"></div>
 <section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Story details"></section>
@@ -160,11 +279,12 @@ footer{padding:6px 16px calc(env(safe-area-inset-bottom) + 12px);display:flex;al
   <h3>Settings <button class="iconbtn" id="closeSettings" aria-label="Close">✕</button></h3>
   <button class="big" id="shuffleBtn">🔀 Shuffle the deck</button>
   <button class="ghost" id="resetBtn">Back to original order</button>
+  <button class="ghost" id="savedBtn">🔖 Open saved stories</button>
   <div class="row"><div><b>Show jokes</b><span>The one-liner under each story</span></div><button class="toggle" id="tJokes" role="switch" aria-checked="true"></button></div>
   <div class="row"><div><b>Show VC angle</b><span>Why it matters for a wealth-builder</span></div><button class="toggle" id="tVc" role="switch" aria-checked="true"></button></div>
-  <div class="row"><div><b>Light mode</b><span>Easier in daylight</span></div><button class="toggle" id="tLight" role="switch" aria-checked="false"></button></div>
+  <div class="row"><div><b>Light mode</b><span>For the story sheet and this panel</span></div><button class="toggle" id="tLight" role="switch" aria-checked="false"></button></div>
   <div class="archive"><h4 style="margin:10px 0 4px;color:var(--muted);font-size:11px;letter-spacing:.1em;text-transform:uppercase">Past days</h4><div id="archiveList"><a href="?day=2026-10-24">24 Oct 2026</a></div></div>
-  <p style="font-size:12px;color:var(--muted);margin-top:auto">Swipe left for next, right for back. Tap a card to read more. Photos from Unsplash, credited on each card.</p>
+  <p style="font-size:12px;color:var(--muted);margin-top:auto">Swipe up for the next story, down to go back. Tap to read more, double-tap or 🔖 to save. Saved stories stay on this device. Photos from Unsplash, credited on each card.</p>
 </aside>
 <div class="toast" id="toast"></div>
 
@@ -175,10 +295,13 @@ footer{padding:6px 16px calc(env(safe-area-inset-bottom) + 12px);display:flex;al
     get(k, d){ try{ const v = localStorage.getItem('ds_'+k); return v===null?d:JSON.parse(v);}catch(e){return d} },
     set(k, v){ try{ localStorage.setItem('ds_'+k, JSON.stringify(v)); }catch(e){} }
   };
-  const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"]];
+  const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["saved","🔖 Saved"]];
   const LABEL = {world:"World", india:"India", money:"Money Desk"};
-  let data = null, all = [], order = [], filter = store.get('filter','all'), idx = 0;
+  const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let data = null, all = [], order = [], filter = store.get('filter','all'), idx = 0, list = [];
+  let saved = store.get('saved', []); if(!Array.isArray(saved)) saved = [];
   let prefs = { jokes: store.get('jokes', true), vc: store.get('vc', true), light: store.get('light', false) };
+  const feed = $('#feed');
 
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const safeUrl = u => /^https:\/\//.test(u||'') ? u : '#';
@@ -188,6 +311,8 @@ footer{padding:6px 16px calc(env(safe-area-inset-bottom) + 12px);display:flex;al
     const mix = light ? 0 : .45; r=Math.round(r+(255-r)*mix); g=Math.round(g+(255-g)*mix); b=Math.round(b+(255-b)*mix);
     return `rgb(${r},${g},${b})`;
   }
+  // a story with no joke is a sad one: keep its card calm
+  const isCalm = s => !s.joke;
 
   function applyTheme(){
     document.documentElement.dataset.theme = prefs.light ? 'light' : 'dark';
@@ -196,101 +321,259 @@ footer{padding:6px 16px calc(env(safe-area-inset-bottom) + 12px);display:flex;al
     $('#tVc').setAttribute('aria-checked', prefs.vc);
   }
 
-  function visible(){ return order.map(i => all[i]).filter(s => filter==='all' || s.section===filter); }
+  // ---- saving ----
+  const isSaved = s => saved.some(x => x.id === s.id);
+  function toggleSave(s, forceOn){
+    if(!s) return false;
+    const on = isSaved(s);
+    if(on && forceOn) return true;
+    if(on) saved = saved.filter(x => x.id !== s.id);
+    else saved.unshift(s);
+    store.set('saved', saved);
+    feed.querySelectorAll(`.card[data-id="${CSS.escape(s.id)}"] .save`).forEach(b => {
+      b.setAttribute('aria-pressed', !on); b.querySelector('small').textContent = !on ? 'Saved' : 'Save';
+      b.classList.remove('bump'); void b.offsetWidth; b.classList.add('bump');
+    });
+    const sb = $('#sheet .savebtn'); if(sb && sb.dataset.id === s.id){ sb.setAttribute('aria-pressed', !on); sb.lastChild.textContent = !on ? ' Saved' : ' Save'; }
+    renderTabs();
+    toast(on ? 'Removed from saved' : 'Saved 🔖');
+    return !on;
+  }
+
+  function visible(){
+    if(filter === 'saved') return saved.slice();
+    return order.map(i => all[i]).filter(s => filter==='all' || s.section===filter);
+  }
 
   function renderTabs(){
     $('#tabs').innerHTML = SECTIONS.map(([k,l]) => {
-      const n = k==='all' ? all.length : all.filter(s=>s.section===k).length;
+      const n = k==='all' ? all.length : k==='saved' ? saved.length : all.filter(s=>s.section===k).length;
       return `<button class="chip" data-k="${k}" aria-pressed="${filter===k}">${l}<small>${n}</small></button>`;
     }).join('');
-    $('#tabs').querySelectorAll('.chip').forEach(b => b.onclick = () => { filter=b.dataset.k; store.set('filter',filter); idx=0; renderTabs(); renderDeck(); });
+    $('#tabs').querySelectorAll('.chip').forEach(b => b.onclick = () => setFilter(b.dataset.k));
+  }
+  function setFilter(k){ filter=k; store.set('filter',filter); idx=0; renderTabs(); renderFeed(); }
+
+  const ICON = {
+    save:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>',
+    read:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 5h16M4 10h16M4 15h10M4 20h7"/></svg>',
+    share:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="m7 8 5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>',
+    up:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 15 6-6 6 6"/></svg>'
+  };
+
+  function tickerHTML(){
+    const money = all.filter(s => s.section==='money');
+    if(money.length < 2) return '';
+    const items = money.map(s => `<span>${esc(s.emoji)} <em>${esc(s.stat)}</em>${esc(s.kicker)}</span>`).join('<i>•</i>');
+    return `<div class="ticker" aria-hidden="true"><div>${items}<i>•</i>${items}</div></div>`;
   }
 
-  function cardHTML(s, pos){
+  // ---- animated overlay: pick a graphic that fits the story's stat ----
+  const nums = t => (String(t).match(/\d[\d,]*(?:\.\d+)?/g) || []).map(n => parseFloat(n.replace(/,/g,'')));
+  const MONTHS = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
+  function vizKind(s){
+    const t = String(s.stat||'').trim(), n = nums(t);
+    if(s.fx) return s.fx; // a story can choose its own: trend-up, trend-down, compare, fromto, multiple, money, date, count, pulse
+    if(/\bvs\.?\b/i.test(t) && n.length >= 2) return 'compare';
+    if(/→|->/.test(t) && n.length >= 2) return 'fromto';
+    if(/^[-−]|↓/.test(t)) return 'trend-down';
+    if(/^\+|↑/.test(t)) return 'trend-up';
+    if(/^\d+(\.\d+)?\s*x$/i.test(t)) return 'multiple';
+    if(/^[$₹€£]/.test(t) && n.length) return 'money';
+    if(/^[a-z]{3,9}\.?\s+\d{1,2}$/i.test(t) && MONTHS.includes(t.slice(0,3).toLowerCase())) return 'date';
+    if(/^\d[\d,]*\+?$/.test(t)) return 'count';
+    return 'pulse';
+  }
+  function seeded(str){ let h = 2166136261; for(const ch of str) h = Math.imul(h ^ ch.charCodeAt(0), 16777619); return () => ((h = Math.imul(h ^ h >>> 15, 2246822507) ^ Math.imul(h ^ h >>> 13, 3266489909)) >>> 0) / 4294967296; }
+
+  function trendSVG(s, up){
+    const rnd = seeded(s.id||s.headline), N = 11, pts = [];
+    for(let i=0;i<N;i++){
+      const k = i/(N-1), base = up ? 88 - k*72 : 14 + k*72;
+      pts.push([4 + k*292, Math.max(6, Math.min(94, base + (rnd()-.5)*(i===N-1?0:26)))]);
+    }
+    const d = 'M' + pts.map(p => p.map(v => v.toFixed(1)).join(',')).join(' L');
+    const col = up ? 'var(--up)' : 'var(--down)', [ex, ey] = pts[N-1], gid = 'g' + (s.id||'x').replace(/\W/g,'');
+    return `<svg class="vz-line" viewBox="0 0 300 100" preserveAspectRatio="none" aria-hidden="true">
+        <defs><linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${up?'#4ade80':'#fb7185'}" stop-opacity=".45"/><stop offset="1" stop-color="${up?'#4ade80':'#fb7185'}" stop-opacity="0"/></linearGradient></defs>
+        <path class="ar" d="${d} L296,100 L4,100 Z" fill="url(#${gid})"/>
+        <path class="ln" d="${d}" pathLength="1" style="stroke:${col}"/>
+      </svg><span class="vz-end" style="left:${ex/3}%;top:${ey}%;color:${col}"></span>`;
+  }
+
+  function vizHTML(s){
+    if(!s.stat) return '';
+    const kind = vizKind(s), t = String(s.stat), n = nums(t);
+    const head = `<div class="vz-h"><b data-stat="${esc(t)}">${esc(t)}</b><span>${esc(s.statLabel||'')}</span></div>`;
+    let body = '';
+    if(kind === 'trend-up' || kind === 'trend-down') body = trendSVG(s, kind === 'trend-up');
+    else if(kind === 'compare' || kind === 'fromto'){
+      const [a, b] = n, max = Math.max(a, b) || 1, from = kind === 'fromto';
+      const col = (v, label, hi, d) => `<div class="vz-col${hi?' hi':''}" style="--h:${Math.max(6, v/max*100).toFixed(0)}%;--d:${d}s"><small>${esc(v.toLocaleString('en-IN'))}${/%/.test(t)?'%':''}</small><i></i>${label?`<em>${label}</em>`:''}</div>`;
+      body = `<div class="vz-cols">${col(a, from?'Before':'', from ? false : a >= b, 0)}${col(b, from?'Now':'', from ? true : b > a, .15)}</div>`;
+    }
+    else if(kind === 'multiple'){
+      const x = n[0] || 1;
+      body = `<div class="vz-rows"><div class="vz-row" style="--w:${Math.max(3, 100/x).toFixed(1)}%"><span>1x</span><i></i></div><div class="vz-row hi" style="--w:100%;--d:.2s"><span>${esc(t)}</span><i></i></div></div>`;
+    }
+    else if(kind === 'money'){
+      const rnd = seeded(s.id||t); let h = 22;
+      body = `<div class="vz-cols money">` + Array.from({length:7}, (_, i) => { h = i===6 ? 100 : Math.min(88, h + 6 + rnd()*12); return `<div class="vz-col${i===6?' hi':''}" style="--h:${h.toFixed(0)}%;--d:${(i*.08).toFixed(2)}s"><i></i></div>`; }).join('') + `</div>`;
+    }
+    else if(kind === 'date'){
+      const mon = MONTHS.indexOf(t.slice(0,3).toLowerCase()), day = n[0];
+      const ref = new Date((data && data.date || new Date().toISOString().slice(0,10)) + 'T00:00:00');
+      let when = new Date(ref.getFullYear(), mon, day); if(when < ref && ref - when > 180*864e5) when = new Date(ref.getFullYear()+1, mon, day);
+      const days = Math.round((when - ref) / 864e5);
+      const msg = days > 0 ? `<strong>${days} days</strong>to go` : days === 0 ? `<strong>Today</strong>is the day` : `<strong>${-days} days</strong>ago`;
+      body = `<div class="vz-cal"><div class="pg"><div>${esc(t.slice(0,3).toUpperCase())}</div><b>${day}</b></div><p>${msg}</p></div>`;
+      return `<div class="vz" aria-hidden="true"><div class="vz-h"><span>${esc(s.statLabel||'')}</span></div><div class="vz-b">${body}</div></div>`;
+    }
+    else if(kind === 'count'){
+      const v = n[0] || 0, few = v > 0 && v <= 24, count = few ? v : 40, unit = few ? 1 : Math.round(v / 40);
+      const size = few ? 22 : 13, step = few ? .09 : .035;
+      body = `<div class="vz-dots" style="--s:${size}px;--g:${few?9:6}px">` + Array.from({length:count}, (_, i) => `<i style="--d:${(i*step).toFixed(2)}s"></i>`).join('') + `</div>${few ? '' : `<span class="vz-cap">each dot ≈ ${unit.toLocaleString('en-IN')}</span>`}`;
+    }
+    else body = `<div class="vz-pulse"><span></span><span></span><span></span><b>${esc(s.emoji||'✨')}</b></div>`;
+    return `<div class="vz" data-kind="${kind}" aria-hidden="true">${head}<div class="vz-b">${body}</div></div>`;
+  }
+
+  function cardHTML(s, pos, ticker){
     const img = s.image && s.image.url;
-    return `<article class="card" data-pos="${pos}" style="--c:${esc(s.color||'#333')}">
+    const on = isSaved(s);
+    const tick = s.section==='money' && filter!=='saved' ? ticker : '';
+    return `<article class="card${isCalm(s)?' calm':''}${tick?' has-ticker':''}" data-pos="${pos}" data-id="${esc(s.id)}" style="--c:${esc(s.color||'#333')}">
       <div class="fallback">${esc(s.emoji||'📰')}</div>
       ${img ? `<div class="img" style="background-image:url('${esc(safeUrl(img))}')"></div>` : ''}
       <div class="shade"></div>
-      <div class="top"><span class="pill">${esc(LABEL[s.section]||s.section)}</span>${s.stat?`<span class="pill stat">${esc(s.stat)}</span>`:''}</div>
+      <div class="top">
+        <span class="pill">${s.section==='world'?'<span class="dot"></span>':''}${esc(LABEL[s.section]||s.section)}</span>
+      </div>
       ${img && s.image.credit ? `<a class="credit" href="${esc(safeUrl(s.image.creditUrl))}" target="_blank" rel="noopener">📷 ${esc(s.image.credit)} / Unsplash</a>`:''}
-      <span class="stamp l">NEXT →</span><span class="stamp r">← BACK</span>
+      ${vizHTML(s)}
       <div class="bottom">
         <div class="kicker"><span class="em">${esc(s.emoji||'')}</span>${esc(s.kicker||'')} · ${esc(s.source||'')}</div>
         <h2>${esc(s.headline)}</h2>
         <p class="dek">${esc((s.body||[])[0]||'')}</p>
-        <div class="hint">Tap to read more · swipe for next</div>
+        <div class="hint">Tap to read · double-tap to save</div>
       </div>
+      <div class="rail">
+        <button class="save" data-act="save" aria-pressed="${on}" aria-label="Save story"><span class="ic">${ICON.save}</span><small>${on?'Saved':'Save'}</small></button>
+        <button data-act="read" aria-label="Read full story"><span class="ic">${ICON.read}</span><small>Read</small></button>
+        <button data-act="share" aria-label="Share story"><span class="ic">${ICON.share}</span><small>Share</small></button>
+      </div>
+      ${tick}
+      <div class="fx"></div>
     </article>`;
   }
 
-  function renderDeck(){
-    const list = visible();
-    const deck = $('#deck');
-    if(!list.length){ deck.innerHTML = `<div class="empty">No stories here today.</div>`; renderDots(list); return; }
-    if(idx > list.length) idx = list.length;
-    let html = list.map((s,i) => cardHTML(s,i)).join('');
-    html += `<div class="done" data-pos="${list.length}" style="display:${idx===list.length?'grid':'none'}"><div><div style="font-size:64px">☕</div><h2>You're all caught up</h2><p>New deck lands every morning.</p><button id="again">Start over</button></div></div>`;
-    deck.innerHTML = html;
-    const again = $('#again'); if(again) again.onclick = () => { idx=0; layout(); };
-    deck.querySelectorAll('.card').forEach(c => {
+  let io = null;
+  function renderFeed(){
+    list = visible();
+    if(io) io.disconnect();
+    if(!list.length){
+      feed.innerHTML = `<div class="empty"><div><div style="font-size:48px">${filter==='saved'?'🔖':'🗞️'}</div><p>${filter==='saved'?'Nothing saved yet.<br>Tap 🔖 or double-tap a card to save it.':'No stories here today.'}</p></div></div>`;
+      renderBars(); return;
+    }
+    const ticker = tickerHTML();
+    let html = list.map((s,i) => cardHTML(s,i,ticker)).join('');
+    html += `<section class="done" data-pos="${list.length}"><div><div class="cup">☕</div><h2>You're all caught up</h2><p>New deck lands every morning.</p><button id="again">Start over</button>${saved.length && filter!=='saved'?'<button id="toSaved">See saved</button>':''}</div></section>`;
+    feed.innerHTML = html;
+    $('#again').onclick = () => goTo(0);
+    const ts = $('#toSaved'); if(ts) ts.onclick = () => setFilter('saved');
+    feed.querySelectorAll('.card').forEach(c => {
       const im = c.querySelector('.img');
       if(im){ const url = im.style.backgroundImage.slice(5,-2); const t = new Image(); t.onerror = () => { im.remove(); const cr = c.querySelector('.credit'); if(cr) cr.remove(); }; t.src = url; }
-      attachDrag(c);
+      wireCard(c);
     });
-    layout();
+    if(!store.get('hinted', false) && filter!=='saved'){
+      const h = document.createElement('div'); h.className='swipehint'; h.innerHTML = ICON.up + 'Swipe up';
+      feed.querySelector('.card').appendChild(h);
+    }
+    io = new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting) activate(+e.target.dataset.pos); }), {root:feed, threshold:.6});
+    feed.querySelectorAll('[data-pos]').forEach(el => io.observe(el));
+    feed.scrollTop = Math.min(idx, list.length) * feed.clientHeight;
+    activate(idx, true);
   }
 
-  function layout(){
-    const list = visible();
-    $('#deck').querySelectorAll('.card').forEach(c => {
-      const p = +c.dataset.pos; c.style.transform=''; c.className = 'card';
-      if(p < idx) { c.classList.add('hidden'); c.style.transform='translateX(-120%) rotate(-8deg)'; }
-      else if(p === idx) { c.style.zIndex = 10; }
-      else if(p === idx+1) { c.classList.add('behind'); c.style.zIndex = 9; }
-      else if(p === idx+2) { c.classList.add('behind2'); c.style.zIndex = 8; }
-      else { c.classList.add('hidden'); c.style.zIndex = 1; }
-    });
-    const done = $('#deck .done'); if(done) { done.style.display = idx===list.length ? 'grid':'none'; done.style.zIndex = 11; }
-    renderDots(list);
+  function activate(p, force){
+    if(p === idx && !force && feed.querySelector('.card.active, .done.active')) return;
+    idx = p;
+    feed.querySelectorAll('[data-pos]').forEach(el => el.classList.toggle('active', +el.dataset.pos === p));
+    if(p > 0 && !store.get('hinted', false)){ store.set('hinted', true); const h = feed.querySelector('.swipehint'); if(h) h.classList.add('gone'); }
+    const card = feed.querySelector(`.card[data-pos="${p}"]`);
+    if(card){
+      const s = list[p];
+      countUp(card.querySelector('[data-stat]'));
+    }
+    renderBars();
   }
 
-  function renderDots(list){
-    $('#dots').innerHTML = list.map((_,i)=>`<span class="${i===idx?'on':i<idx?'seen':''}"></span>`).join('');
-    $('#count').textContent = list.length ? `${Math.min(idx+1,list.length)}/${list.length}` : '';
-  }
-
-  function go(d){
-    const n = visible().length; const ni = Math.max(0, Math.min(n, idx + d));
-    if(ni !== idx){ idx = ni; layout(); }
-  }
-
-  function attachDrag(card){
-    let sx=0, sy=0, dx=0, dragging=false, moved=false, id=null;
-    card.addEventListener('pointerdown', e => {
-      if(+card.dataset.pos !== idx || e.target.closest('a')) return;
-      sx=e.clientX; sy=e.clientY; dx=0; dragging=true; moved=false; id=e.pointerId;
-    });
-    card.addEventListener('pointermove', e => {
-      if(!dragging || e.pointerId!==id) return;
-      dx = e.clientX - sx; const dy = e.clientY - sy;
-      if(!moved && Math.abs(dx) > 8 && Math.abs(dx) > Math.abs(dy)){ moved=true; card.classList.add('dragging'); try{card.setPointerCapture(id)}catch(_){} }
-      if(moved){
-        card.style.transform = `translateX(${dx}px) rotate(${dx/22}deg)`;
-        card.querySelector('.stamp.l').style.opacity = dx < -40 ? 1 : 0;
-        card.querySelector('.stamp.r').style.opacity = dx > 40 && idx>0 ? 1 : 0;
-      }
-    });
-    const end = e => {
-      if(!dragging) return; dragging=false; card.classList.remove('dragging');
-      card.querySelectorAll('.stamp').forEach(s=>s.style.opacity=0);
-      if(!moved){ return; }
-      if(dx < -90) { card.style.transform = 'translateX(-130%) rotate(-12deg)'; setTimeout(()=>go(1), 10); }
-      else if(dx > 90 && idx>0) { go(-1); }
-      else card.style.transform='';
+  // animate numeric stats (8, 9,700+, 22.19x, -16%, $1B) from zero
+  function countUp(el){
+    if(!el || !motionOK) return;
+    const raw = el.dataset.stat;
+    const m = raw.match(/^([$₹€£+\-−~]*)(\d[\d,]*(?:\.\d+)?)(\D{0,4})$/);
+    if(!m) { el.textContent = raw; return; }
+    const target = parseFloat(m[2].replace(/,/g,'')), dec = (m[2].split('.')[1]||'').length, comma = m[2].includes(',');
+    const t0 = performance.now(), dur = 900;
+    cancelAnimationFrame(el._raf);
+    const step = now => {
+      const k = Math.min(1, (now - t0) / dur), v = target * (1 - Math.pow(1 - k, 3));
+      let n = v.toFixed(dec); if(comma) n = Number(n).toLocaleString('en-US',{minimumFractionDigits:dec,maximumFractionDigits:dec});
+      el.textContent = m[1] + n + m[3];
+      if(k < 1) el._raf = requestAnimationFrame(step); else el.textContent = raw;
     };
-    card.addEventListener('pointerup', e => { const wasMoved = moved; end(e); if(!wasMoved && +card.dataset.pos===idx && !e.target.closest('a')) openSheet(visible()[idx]); });
-    card.addEventListener('pointercancel', end);
+    el._raf = requestAnimationFrame(step);
+  }
+
+  function heartBurst(card, x, y){
+    const r = card.getBoundingClientRect(), fx = card.querySelector('.fx');
+    const h = document.createElement('span'); h.className='heart'; h.textContent='🔖';
+    h.style.left = (x - r.left) + 'px'; h.style.top = (y - r.top) + 'px';
+    h.addEventListener('animationend', () => h.remove()); fx.appendChild(h);
+  }
+
+  function renderBars(){
+    $('#bars').innerHTML = list.map((_,i)=>`<span class="${i===idx?'on':i<idx?'seen':''}"></span>`).join('');
+  }
+
+  function goTo(p){
+    const el = feed.querySelector(`[data-pos="${Math.max(0, Math.min(list.length, p))}"]`);
+    if(el) el.scrollIntoView({behavior: motionOK ? 'smooth' : 'auto'});
+  }
+
+  async function share(s){
+    const url = location.origin + location.pathname + `?day=${encodeURIComponent((s.id||'').slice(0,10))}#${encodeURIComponent(s.id)}`;
+    try{
+      if(navigator.share) { await navigator.share({title: s.headline, text: s.headline, url}); return; }
+      await navigator.clipboard.writeText(url); toast('Link copied 🔗');
+    }catch(e){ if(e && e.name !== 'AbortError') toast('Could not share'); }
+  }
+
+  function wireCard(card){
+    let lastTap = 0, timer = null;
+    card.addEventListener('click', e => {
+      if(e.target.closest('a')) return;
+      const s = list[+card.dataset.pos];
+      const act = e.target.closest('[data-act]');
+      if(act){
+        const a = act.dataset.act;
+        if(a === 'save') toggleSave(s);
+        else if(a === 'read') openSheet(s);
+        else if(a === 'share') share(s);
+        return;
+      }
+      const now = Date.now();
+      if(now - lastTap < 300){ // double-tap saves
+        clearTimeout(timer); lastTap = 0;
+        heartBurst(card, e.clientX, e.clientY);
+        if(!isSaved(s)) toggleSave(s); else toast('Already saved 🔖');
+        return;
+      }
+      lastTap = now;
+      timer = setTimeout(() => openSheet(s), 300);
+    });
   }
 
   function openSheet(s){
@@ -298,6 +581,7 @@ footer{padding:6px 16px calc(env(safe-area-inset-bottom) + 12px);display:flex;al
     const sheet = $('#sheet');
     sheet.style.setProperty('--c', s.color||'#555'); sheet.style.setProperty('--c2', lighten(s.color));
     const img = s.image && s.image.url ? `background-image:url('${esc(safeUrl(s.image.url))}')` : '';
+    const on = isSaved(s);
     sheet.innerHTML = `
       <div class="hero" style="${img}"><span class="grab"></span><button class="close" aria-label="Close">✕</button></div>
       <div class="content">
@@ -307,10 +591,14 @@ footer{padding:6px 16px calc(env(safe-area-inset-bottom) + 12px);display:flex;al
         <ul class="body">${(s.body||[]).map(b=>`<li>${esc(b)}</li>`).join('')}</ul>
         ${prefs.jokes && s.joke ? `<div class="box joke"><h4>😏 The quip</h4>${esc(s.joke)}</div>`:''}
         ${prefs.vc && s.vc ? `<div class="box vc"><h4>💼 VC angle</h4>${esc(s.vc)}</div>`:''}
-        <a class="src" href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">Read at ${esc(s.linkLabel||s.source)} <span>↗</span></a>
+        <div class="actions">
+          <a class="src" href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">Read at ${esc(s.linkLabel||s.source)} <span>↗</span></a>
+          <button class="savebtn" data-id="${esc(s.id)}" aria-pressed="${on}">${ICON.save}<span>${on?' Saved':' Save'}</span></button>
+        </div>
         ${s.image&&s.image.credit?`<div class="meta">Photo: <a href="${esc(safeUrl(s.image.creditUrl))}" target="_blank" rel="noopener">${esc(s.image.credit)}</a> on Unsplash. Illustrative, not from the story.</div>`:''}
       </div>`;
     sheet.querySelector('.close').onclick = closeSheet;
+    sheet.querySelector('.savebtn').onclick = () => toggleSave(s);
     // swipe down on hero to close
     let y0=null; const hero = sheet.querySelector('.hero');
     hero.addEventListener('pointerdown', e=>{y0=e.clientY});
@@ -323,16 +611,15 @@ footer{padding:6px 16px calc(env(safe-area-inset-bottom) + 12px);display:flex;al
 
   function shuffle(){
     for(let i=order.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [order[i],order[j]]=[order[j],order[i]]; }
-    store.set('order_'+data.date, order); idx=0; renderDeck(); toast('Deck shuffled 🔀');
+    store.set('order_'+data.date, order); if(filter==='saved') filter='all'; idx=0; renderTabs(); renderFeed(); toast('Deck shuffled 🔀');
   }
-  function reset(){ order = all.map((_,i)=>i); store.set('order_'+data.date, null); idx=0; renderDeck(); toast('Original order'); }
+  function reset(){ order = all.map((_,i)=>i); store.set('order_'+data.date, null); idx=0; renderFeed(); toast('Original order'); }
 
   // wiring
-  $('#prev').onclick = () => go(-1);
-  $('#next').onclick = () => go(1);
   $('#shuffleQuick').onclick = shuffle;
   $('#shuffleBtn').onclick = () => { shuffle(); closePanel(); };
   $('#resetBtn').onclick = () => { reset(); closePanel(); };
+  $('#savedBtn').onclick = () => { setFilter('saved'); closePanel(); };
   const openPanel = () => { $('#panel').classList.add('on'); $('#scrim').classList.add('on'); };
   const closePanel = () => { $('#panel').classList.remove('on'); if(!$('#sheet').classList.contains('on')) $('#scrim').classList.remove('on'); };
   $('#openSettings').onclick = openPanel; $('#closeSettings').onclick = closePanel;
@@ -340,27 +627,37 @@ footer{padding:6px 16px calc(env(safe-area-inset-bottom) + 12px);display:flex;al
   const tog = (id,key) => $(id).onclick = () => { prefs[key] = !prefs[key]; store.set(key, prefs[key]); applyTheme(); };
   tog('#tJokes','jokes'); tog('#tVc','vc'); tog('#tLight','light');
   document.addEventListener('keydown', e => {
-    if(e.key==='ArrowRight') go(1); else if(e.key==='ArrowLeft') go(-1);
-    else if(e.key==='Enter' || e.key===' ') { if(!$('#sheet').classList.contains('on')) { e.preventDefault(); openSheet(visible()[idx]); } }
-    else if(e.key==='Escape'){ closeSheet(); closePanel(); }
+    const open = $('#sheet').classList.contains('on') || $('#panel').classList.contains('on');
+    if(e.key==='Escape'){ closeSheet(); closePanel(); return; }
+    if(open) return;
+    if(e.key==='ArrowDown' || e.key==='j' || e.key==='ArrowRight') { e.preventDefault(); goTo(idx+1); }
+    else if(e.key==='ArrowUp' || e.key==='k' || e.key==='ArrowLeft') { e.preventDefault(); goTo(idx-1); }
+    else if(e.key==='s') toggleSave(list[idx]);
+    else if(e.key==='Enter' || e.key===' ') { e.preventDefault(); openSheet(list[idx]); }
   });
 
   applyTheme();
   const day = new URLSearchParams(location.search).get('day');
+  const hash = decodeURIComponent(location.hash.slice(1));
   const src = day && /^\d{4}-\d{2}-\d{2}$/.test(day) ? `archive/${day}.json` : 'news.json';
-  fetch(src + '?t=' + Date.now()).then(r => { if(!r.ok) throw 0; return r.json(); }).then(d => {
+  const load = u => fetch(u + '?t=' + Date.now()).then(r => { if(!r.ok) throw 0; return r.json(); });
+  // a shared link for today's deck points at ?day=<today>, which only exists as news.json until tomorrow
+  let isArchive = src !== 'news.json';
+  load(src).catch(() => src === 'news.json' ? Promise.reject() : load('news.json').then(d => { isArchive = false; return d.date === day ? d : Promise.reject(); }))
+  .then(d => {
     data = d; all = d.stories || [];
     const dt = new Date(d.date + 'T00:00:00');
-    $('#date').textContent = dt.toLocaleDateString('en-IN',{weekday:'short', day:'numeric', month:'short'}) + (day ? ' · archive' : '');
-    const saved = store.get('order_'+d.date, null);
-    order = Array.isArray(saved) && saved.length===all.length ? saved : all.map((_,i)=>i);
-    if(!SECTIONS.some(([k])=>k===filter)) filter='all';
-    renderTabs(); renderDeck();
+    $('#date').textContent = dt.toLocaleDateString('en-IN',{weekday:'short', day:'numeric', month:'short'}) + (isArchive ? ' · archive' : '');
+    const savedOrder = store.get('order_'+d.date, null);
+    order = Array.isArray(savedOrder) && savedOrder.length===all.length ? savedOrder : all.map((_,i)=>i);
+    if(!SECTIONS.some(([k])=>k===filter) || filter==='saved') filter='all';
+    if(hash){ filter='all'; const i = order.findIndex(j => all[j].id === hash); if(i >= 0) idx = i; }
+    renderTabs(); renderFeed();
     fetch('archive/index.json?t='+Date.now()).then(r=>r.ok?r.json():null).then(a=>{
       if(!a||!a.days) return;
-      $('#archiveList').innerHTML = (day?`<a href="./">← Today</a>`:'') + a.days.map(x=>`<a href="?day=${esc(x)}">${new Date(x+'T00:00:00').toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'})}</a>`).join('');
+      $('#archiveList').innerHTML = (isArchive?`<a href="./">← Today</a>`:'') + a.days.map(x=>`<a href="?day=${esc(x)}">${new Date(x+'T00:00:00').toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'})}</a>`).join('');
     }).catch(()=>{});
-  }).catch(() => { $('#deck').innerHTML = `<div class="empty">Couldn't load today's stories. Pull to refresh in a bit.</div>`; $('#date').textContent=''; });
+  }).catch(() => { feed.innerHTML = `<div class="empty">Couldn't load today's stories. Pull to refresh in a bit.</div>`; $('#date').textContent=''; });
 })();
 </script>
 </body>
