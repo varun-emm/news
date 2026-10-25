@@ -1,0 +1,426 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T16:30:00+05:30",
+  "stories": [
+    {
+      "id": "2026-10-25-x1",
+      "section": "world",
+      "source": "Times of Israel",
+      "kicker": "Israel votes",
+      "emoji": "🗳️",
+      "stat": "50 vs 52",
+      "statLabel": "seats: Netanyahu bloc vs opposition",
+      "headline": "Israel votes Tuesday, and nobody is winning yet",
+      "body": [
+        "Israel holds a national election on Tuesday, 27 October, and the final polls show no clear winner.",
+        "TV polls give Prime Minister Netanyahu's camp about 50 seats and the opposition about 52, both short of the 61 needed to govern.",
+        "Gadi Eisenkot's new Yashar party leads most polls, with Netanyahu's Likud close behind."
+      ],
+      "joke": "Final polls: 50 vs 52 out of 120. Coalition talks may outlast the campaign.",
+      "vc": "A long coalition fight can keep Israel's markets and its huge tech sector cautious. Watch the shekel and Israeli startup funding after the vote.",
+      "url": "https://www.timesofisrael.com/netanyahu-and-eisenkot-in-dead-heat-five-days-before-election-final-toi-poll-shows/",
+      "linkLabel": "Times of Israel",
+      "color": "#0f3d6e",
+      "font": "news"
+    },
+    {
+      "id": "2026-10-25-x2",
+      "section": "india",
+      "source": "BW Businessworld",
+      "kicker": "Foreign money",
+      "emoji": "💸",
+      "stat": "₹48,056 cr",
+      "statLabel": "pulled out of Indian shares in October",
+      "headline": "Foreign investors keep pulling money out of India",
+      "body": [
+        "Foreign investors pulled ₹48,056 crore out of Indian shares in October so far.",
+        "That takes 2026's total to about ₹3.08 lakh crore, already far more than all of 2025.",
+        "Costly oil, war worries and weaker company earnings are the main reasons, though selling eased late in the week."
+      ],
+      "joke": "2026 is the year foreign funds told India: it's not you, it's oil.",
+      "vc": "When foreign money leaves, valuations cool and good companies get cheaper. Patient local investors and family offices can buy quality at better prices.",
+      "url": "https://www.businessworld.in/article/rupee-crude-bond-yields-shape-fiis-retreat-from-india-2026-outflows-hit-rs-3-trillion-630339",
+      "linkLabel": "BW Businessworld",
+      "color": "#9f1239",
+      "font": "finance"
+    },
+    {
+      "id": "2026-10-25-x3",
+      "section": "money",
+      "source": "TechCrunch",
+      "kicker": "AI labs",
+      "emoji": "🪶",
+      "stat": "$1B",
+      "statLabel": "raised at a $6B valuation",
+      "headline": "Year-old AI lab with no product raises $1 billion",
+      "body": [
+        "Flapping Airplanes, an AI research lab founded in late 2025, raised $1 billion at a $6 billion valuation.",
+        "Index Ventures and Lux Capital led the round, with Sequoia, GV, Kleiner Perkins and Nvidia also joining.",
+        "Its team of a couple dozen people works on training AI with less data and computing power, and has no product or revenue yet."
+      ],
+      "joke": "No product, no revenue, $6 billion. Somewhere a profitable kirana store is rethinking its life choices.",
+      "vc": "Top funds are paying frontier prices for AI 'neolabs' on team and idea alone. That raises the bar for what strong early AI founders can ask for.",
+      "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
+      "linkLabel": "TechCrunch",
+      "color": "#4338ca",
+      "font": "tech"
+    },
+    {
+      "id": "2026-10-25-x4",
+      "section": "world",
+      "source": "The Star / JMA",
+      "kicker": "Japan quake",
+      "emoji": "🌏",
+      "stat": "7.0",
+      "statLabel": "magnitude, about 470 km deep",
+      "headline": "Strong 7.0 quake shakes Japan's Ogasawara Islands",
+      "body": [
+        "A magnitude 7.0 earthquake struck near Japan's Ogasawara Islands on Sunday morning, Japan's weather agency said.",
+        "It hit very deep, about 470 km below the surface, and no tsunami warning was issued.",
+        "It was felt across eastern Japan, and early reports showed no injuries or damage."
+      ],
+      "joke": "",
+      "vc": "Japan is a key supplier of chips, machines and parts. Even quakes without damage are a reminder to keep backup suppliers in your supply chain.",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/25/a-70-magnitude-earthquake-jolts-japan039s-ogasawara-islands",
+      "linkLabel": "The Star",
+      "color": "#44403c",
+      "font": "serious"
+    },
+    {
+      "id": "2026-10-25-x5",
+      "section": "india",
+      "source": "Business Today",
+      "kicker": "IT earnings",
+      "emoji": "💻",
+      "stat": "₹7,823 cr",
+      "statLabel": "quarterly profit, up 6%",
+      "headline": "Infosys profit rises 6%, but it trims its growth forecast",
+      "body": [
+        "Infosys made a profit of ₹7,823 crore in July to September, up about 6% from a year ago.",
+        "Revenue grew about 11% to ₹49,244 crore, and the board declared a dividend of ₹26 per share.",
+        "But it now expects revenue to grow only 1% to 2% this year, a sign that clients are still careful with tech spending."
+      ],
+      "joke": "Dividend up, forecast down: the IT sector's favourite way of saying 'it's complicated.'",
+      "vc": "Slow growth at India's IT giants means services alone won't drive the next decade. The opportunity shifts to AI products and tools that make these firms more efficient.",
+      "url": "https://www.businesstoday.in/markets/stocks/story/infosys-q2-profit-rises-6-yoy-to-rs-7823-crore-announces-rs-26-dividend-per-share-563330-2026-10-23",
+      "linkLabel": "Business Today",
+      "color": "#075985",
+      "font": "finance"
+    },
+    {
+      "id": "2026-10-25-x6",
+      "section": "money",
+      "source": "SiliconANGLE",
+      "kicker": "AI chips",
+      "emoji": "🔲",
+      "stat": "$1.5B",
+      "statLabel": "raised at a $6.2B valuation",
+      "headline": "Jim Keller's chip startup Tenstorrent raises $1.5 billion",
+      "body": [
+        "AI chip startup Tenstorrent raised $1.5 billion at a $6.2 billion valuation, more than double its value in 2024.",
+        "Trace Capital and Innovation X led the round, with ARK Invest, Fidelity and T. Rowe Price joining.",
+        "It had explored a sale to Intel and Qualcomm this year, but chose to stay independent and build more of its Galaxy servers."
+      ],
+      "joke": "Said no to Intel and Qualcomm, then raised $1.5 billion. Peak 'I'm not leaving, I'm upgrading' energy.",
+      "vc": "Investors are funding Nvidia challengers at scale. Cheaper, more open AI hardware could cut costs for every startup that rents computing power.",
+      "url": "https://siliconangle.com/2026/10/19/chip-legend-jim-kellers-tenstorrent-raises-1-5b-to-expand-its-open-compute-ecosystem/",
+      "linkLabel": "SiliconANGLE",
+      "color": "#0f766e",
+      "font": "tech"
+    },
+    {
+      "id": "2026-10-25-x7",
+      "section": "world",
+      "source": "CTV News",
+      "kicker": "Canada vote",
+      "emoji": "🍁",
+      "stat": "62 vs 29",
+      "statLabel": "seats: Conservatives vs NDP",
+      "headline": "British Columbia's snap election hands Conservatives a majority",
+      "body": [
+        "Canada's British Columbia province voted on Saturday, and the B.C. Conservatives won a majority government.",
+        "With most ballots counted, they led in 62 of 93 seats, against 29 for Premier David Eby's NDP.",
+        "Eby had called the early election himself, and he said he will step down as NDP leader."
+      ],
+      "joke": "Calling a snap election to win bigger is bold. So is calling one and losing the job.",
+      "vc": "B.C. is home to Canada's big Pacific ports, mines and forests. A new government could speed up resource and energy projects, worth watching for supply chains.",
+      "url": "https://www.ctvnews.ca/vancouver/article/bc-conservatives-win-majority-government-live-real-time-election-updates-here/",
+      "linkLabel": "CTV News",
+      "color": "#7f1d1d",
+      "font": "news"
+    },
+    {
+      "id": "2026-10-25-x8",
+      "section": "india",
+      "source": "Business Standard",
+      "kicker": "Market rout",
+      "emoji": "📉",
+      "stat": "-7.3%",
+      "statLabel": "Nifty Smallcap 100 this week",
+      "headline": "Smallcaps suffer their worst week in 20 months",
+      "body": [
+        "Indian smallcap shares fell about 7% in the week to 23 October, their worst week since February 2025.",
+        "The Nifty Smallcap 100 dropped 7.3% and the Midcap 100 lost 5.6%.",
+        "Costly oil, war worries, fears of interest rate rises and high prices for small stocks all pushed investors to sell."
+      ],
+      "joke": "Smallcap investors learned the difference between 'long term' and 'long week.'",
+      "vc": "Sharp falls flush out speculative money. That is often when patient investors find good small companies at fair prices.",
+      "url": "https://www.business-standard.com/markets/news/tumultuous-week-midcaps-and-smallcaps-suffer-worst-losses-in-20-months-126102301443_1.html",
+      "linkLabel": "Business Standard",
+      "color": "#c2410c",
+      "font": "impact"
+    },
+    {
+      "id": "2026-10-25-x9",
+      "section": "money",
+      "source": "SpaceWatch.GLOBAL",
+      "kicker": "Space tech",
+      "emoji": "🛰️",
+      "stat": "$250M",
+      "statLabel": "Series D at a $2.45B valuation",
+      "headline": "Xona raises $250 million to build a rival to GPS",
+      "body": [
+        "Xona Space Systems raised $250 million at a $2.45 billion valuation to build a new satellite navigation network.",
+        "Its Pulsar satellites sit in low Earth orbit, and it pitches them as an answer to growing GPS jamming and spoofing.",
+        "Six satellites launched on 20 October, and it plans to start commercial service in 2027."
+      ],
+      "joke": "Finally, a GPS alternative. Now if only it could find parking in Bengaluru.",
+      "vc": "Navigation is critical infrastructure for defence, shipping and phones. Space startups selling to governments and big industry are drawing late-stage money.",
+      "url": "https://spacewatch.global/2026/10/xona-raises-250-million-in-series-d-to-scale-its-pulsar-navigation-constellation/",
+      "linkLabel": "SpaceWatch.GLOBAL",
+      "color": "#1e1b4b",
+      "font": "tech"
+    },
+    {
+      "id": "2026-10-25-x10",
+      "section": "world",
+      "source": "ANI",
+      "kicker": "Iran · Russia",
+      "emoji": "🤝",
+      "stat": "Oct 27",
+      "statLabel": "gas exporters' summit in Moscow",
+      "headline": "Iran's president heads to Moscow to meet Putin",
+      "body": [
+        "Iran's foreign minister said President Masoud Pezeshkian will travel to Moscow next week to meet Vladimir Putin.",
+        "Iran's ambassador said the visit is tied to a summit of gas-exporting countries on Tuesday, 27 October.",
+        "It would be his first trip to Russia to meet Putin since the conflict involving Iran began."
+      ],
+      "joke": "Two heavily sanctioned gas giants, meeting at a gas summit. The small talk writes itself.",
+      "vc": "Closer Iran-Russia ties can keep oil and gas prices jumpy. For an Indian manufacturer, energy and freight costs are the lines to watch.",
+      "url": "https://aninews.in/news/world/middle-east/iranian-president-pezeshkian-to-meet-putin-in-moscow-next-week-fm-araghchi20261024091956/",
+      "linkLabel": "ANI",
+      "color": "#14532d",
+      "font": "news"
+    },
+    {
+      "id": "2026-10-25-x11",
+      "section": "india",
+      "source": "The Week",
+      "kicker": "Bank stake sale",
+      "emoji": "🏦",
+      "stat": "93.85% → 75%",
+      "statLabel": "govt stake in Punjab & Sind Bank",
+      "headline": "Government plans to sell part of its stake in four state banks",
+      "body": [
+        "The government is considering selling shares in four state-run banks to cut its stake to 75%, reports say.",
+        "The banks are Central Bank of India, UCO Bank, Punjab & Sind Bank and Indian Overseas Bank, where it owns 81% to 94% today.",
+        "The sales would likely happen on the stock market within about a year, to meet the rule that at least 25% of shares be public."
+      ],
+      "joke": "Owning 94% of a listed bank is the government's 'it's complicated' relationship status.",
+      "vc": "Stake sales add share supply but can bring more market discipline to state banks. Watch the pricing; discounts often reward early buyers.",
+      "url": "https://www.theweek.in/news/biz-tech/2026/10/23/regulatory-norm-or-disinvestment-strategy-centre-muses-stake-sale-in-4-psbs-after-idbi-sale.html",
+      "linkLabel": "The Week",
+      "color": "#365314",
+      "font": "finance"
+    },
+    {
+      "id": "2026-10-25-x12",
+      "section": "money",
+      "source": "H2S Media",
+      "kicker": "AI drug labs",
+      "emoji": "🧪",
+      "stat": "$215M",
+      "statLabel": "first round, led by Lightspeed",
+      "headline": "Ex-OpenAI science chief raises $215M for robot drug labs",
+      "body": [
+        "Kevin Weil, who led science work at OpenAI, launched Warp Sciences with a $215 million first funding round led by Lightspeed.",
+        "It will make and test new molecules for drug companies in US labs, using chemists, AI and robots.",
+        "The aim is to bring back lab work that drugmakers have long sent to contractors in China."
+      ],
+      "joke": "AI designs it, robots mix it, chemists check it. The lab coat is now a dashboard.",
+      "vc": "This is 'picks and shovels' for biotech plus a supply-chain shift away from China. India's chemistry research firms should watch closely.",
+      "url": "https://www.how2shout.com/news/kevin-weil-launches-warp-sciences-with-215m-to-build-ai-drug-labs.html",
+      "linkLabel": "H2S Media",
+      "color": "#047857",
+      "font": "tech"
+    },
+    {
+      "id": "2026-10-25-x13",
+      "section": "world",
+      "source": "Militarnyi",
+      "kicker": "Ukraine war",
+      "emoji": "🔥",
+      "stat": "2,400+ km",
+      "statLabel": "from Ukraine to the target",
+      "headline": "Ukrainian drones hit a chemical plant deep in Siberia",
+      "body": [
+        "Drones struck the Omsky Kauchuk chemical plant and an Ozon warehouse in Omsk, Siberia, more than 2,400 km from Ukraine, on 24 October.",
+        "The plant makes synthetic rubber and a petrol additive, and reports said it caught fire.",
+        "Ukraine's military also said it hit a big rubber plant in Tolyatti, in central Russia, the same day."
+      ],
+      "joke": "",
+      "vc": "Strikes on Russian refineries and chemical plants keep global fuel and rubber supply tight. Tyre, auto and plastics makers feel it in their input costs.",
+      "url": "https://militarnyi.com/en/news/drones-omsky-kauchuk-ozon-2400-km-ukraine/",
+      "linkLabel": "Militarnyi",
+      "color": "#292524",
+      "font": "news"
+    },
+    {
+      "id": "2026-10-25-x14",
+      "section": "india",
+      "source": "Business Today",
+      "kicker": "Power earnings",
+      "emoji": "⚡",
+      "stat": "+142%",
+      "statLabel": "jump in quarterly profit",
+      "headline": "Adani Power's profit jumps 142%, helped by a one-time boost",
+      "body": [
+        "Adani Power's profit rose 142% to ₹7,019 crore in July to September, from ₹2,906 crore a year earlier.",
+        "About ₹2,422 crore came from a one-time revision of old power charges, while higher demand and tariffs also helped.",
+        "Revenue grew about 30% to ₹17,014 crore, and its debt stood at ₹61,860 crore."
+      ],
+      "joke": "142% growth, one-time edition. Next quarter's sequel may need a better script.",
+      "vc": "Look past headline profit to repeatable earnings. India's power demand story is real, but one-time gains can flatter the numbers.",
+      "url": "https://www.businesstoday.in/markets/stocks/story/adani-power-q2-net-profit-jumps-142-to-rs-7019-crore-debt-at-rs-61860-crore-563272-2026-10-23",
+      "linkLabel": "Business Today",
+      "color": "#92400e",
+      "font": "impact"
+    },
+    {
+      "id": "2026-10-25-x15",
+      "section": "money",
+      "source": "Helion",
+      "kicker": "Fusion energy",
+      "emoji": "☀️",
+      "stat": "$175M",
+      "statLabel": "planned US chips award",
+      "headline": "Fusion startup Helion lines up $225 million for power chips",
+      "body": [
+        "Fusion energy startup Helion signed a letter of intent for up to $175 million from the US government's CHIPS programme.",
+        "It also raised $50 million from a private investor, and the government would get a small non-voting stake.",
+        "The money will fund new power chips that Helion says could double the output of its fusion machines."
+      ],
+      "joke": "The plan: build a small sun. The bottleneck: chips. Some things never change.",
+      "vc": "Deep-tech bets now mix venture money with government cheques. Founders in energy and chips should learn to raise from both.",
+      "url": "https://www.helionenergy.com/newsroom/helion-signs-letter-of-intent-for-175-million-chips-award-to-advance-semiconductor-fusion-energy",
+      "linkLabel": "Helion",
+      "color": "#5b21b6",
+      "font": "tech"
+    },
+    {
+      "id": "2026-10-25-x16",
+      "section": "world",
+      "source": "Africanews",
+      "kicker": "Africa trade",
+      "emoji": "🚢",
+      "stat": "+24%",
+      "statLabel": "South Africa–China trade, May–Aug",
+      "headline": "South Africa's trade with China jumps after tariffs are dropped",
+      "body": [
+        "Trade between South Africa and China reached nearly $15 billion from May to August, up about 24% from a year ago.",
+        "China removed import taxes on goods from 53 African countries in May, and South Africa's exports to China rose about 25%.",
+        "Farm exports jumped more than 35%, but South Africa still buys far more from China than it sells."
+      ],
+      "joke": "Zero tariffs: the only zero everyone in trade is happy to see.",
+      "vc": "Tariff-free access to China changes the maths for African farm and mining exporters. Trade-linked businesses across Africa get a new growth lane.",
+      "url": "https://www.africanews.com/amp/2026/10/23/south-africas-bilateral-trade-with-china-surges-after-zero-tariff-deal/",
+      "linkLabel": "Africanews",
+      "color": "#0369a1",
+      "font": "finance"
+    },
+    {
+      "id": "2026-10-25-x17",
+      "section": "money",
+      "source": "Entrackr",
+      "kicker": "Bengaluru health",
+      "emoji": "🏥",
+      "stat": "$50M",
+      "statLabel": "Series B led by Khosla Ventures",
+      "headline": "Bengaluru's Even Healthcare raises $50M to build hospitals",
+      "body": [
+        "Bengaluru-based Even Healthcare raised $50 million in a round led by its existing investor, Khosla Ventures.",
+        "It will use the money to open five new hospitals in Bengaluru over the next six months.",
+        "Its doctors earn fixed salaries, with bonuses tied to patient results rather than the number of procedures."
+      ],
+      "joke": "A hospital that earns more when you need it less. Your gym has used this model for years.",
+      "vc": "Even bets on fixing incentives in Indian healthcare, a huge and broken market. Watch whether its membership model scales beyond Bengaluru.",
+      "url": "https://entrackr.com/news/even-healthcare-raises-50-mn-in-series-b-led-by-khosla-ventures-12688553",
+      "linkLabel": "Entrackr",
+      "color": "#9d174d",
+      "font": "editorial"
+    },
+    {
+      "id": "2026-10-25-x18",
+      "section": "india",
+      "source": "The Week",
+      "kicker": "Bengaluru metro",
+      "emoji": "🚇",
+      "stat": "6.7 → 96",
+      "statLabel": "km of metro, at launch vs now",
+      "headline": "Namma Metro turns 15 and aims beyond 100 km",
+      "body": [
+        "Bengaluru's Namma Metro has completed 15 years of passenger service.",
+        "It has grown from a 6.7 km line to about 96 km, and plans to cross 100 km.",
+        "Its 57 original trains are getting their first major overhaul, but the city's traffic jams have not gone away."
+      ],
+      "joke": "15 years of metro, and Bengaluru traffic is still undefeated.",
+      "vc": "Metro lines reshape where people live and work. Real estate, retail and logistics near new stations tend to gain first.",
+      "url": "https://www.theweek.in/news/biz-tech/2026/10/21/namma-metro-15-years-bengaluru-transit.html",
+      "linkLabel": "The Week",
+      "color": "#6b21a8",
+      "font": "editorial"
+    },
+    {
+      "id": "2026-10-25-x19",
+      "section": "india",
+      "source": "YourStory",
+      "kicker": "Rural healthtech",
+      "emoji": "🩺",
+      "stat": "₹100 cr",
+      "statLabel": "raised, led by IvyCap Ventures",
+      "headline": "Rural health startup CureBay raises ₹100 crore",
+      "body": [
+        "Bhubaneswar-based CureBay raised about ₹100 crore in a round led by IvyCap Ventures.",
+        "That is ₹69 crore in equity and over ₹30 crore in debt, and part of it will fund a move into Andhra Pradesh.",
+        "CureBay runs more than 250 clinics in seven states, helped by over 1,800 local health workers."
+      ],
+      "joke": "Healthcare that comes to the village, instead of the village taking a bus to the city.",
+      "vc": "Rural health is big and underserved. Mixing equity with venture debt lets founders grow without giving away too much of the company.",
+      "url": "https://yourstory.com/2026/10/curebay-raises-rs-100-cr-in-pre-series-c-round-led-by-ivycap-ventures",
+      "linkLabel": "YourStory",
+      "color": "#3f6212",
+      "font": "editorial"
+    },
+    {
+      "id": "2026-10-25-x20",
+      "section": "world",
+      "source": "The Rio Times",
+      "kicker": "Mexico economy",
+      "emoji": "🇲🇽",
+      "stat": "+3.3%",
+      "statLabel": "economic output, year to August",
+      "headline": "Mexico's economy grows faster than expected",
+      "body": [
+        "Mexico's economic output grew 3.3% in the year to August, above the 3.1% that forecasters expected.",
+        "Mexican shares were steady and the peso firmed at the end of the week.",
+        "Diesel buyers got no tax relief for a sixth week in a row."
+      ],
+      "joke": "Mexico beat forecasts. Economists are now forecasting by how much it will beat forecasts.",
+      "vc": "Mexico gains as companies move factories closer to the US. For Indian manufacturers it is both a rival and a partner market.",
+      "url": "https://riotimesonline.com/latin-american-pulse-for-saturday-october-24-2026",
+      "linkLabel": "The Rio Times",
+      "color": "#a21caf",
+      "font": "finance"
+    }
+  ]
+}

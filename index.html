@@ -192,15 +192,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
 .chip{padding:9px 14px;border-radius:999px;background:var(--card);font-size:14px;font-weight:600}
 .chip[aria-pressed="true"]{background:var(--fg);color:#000}
 .chip small{opacity:.55;margin-left:4px}
-details.group summary{list-style:none;cursor:pointer;border-bottom:0}
-details.group summary::-webkit-details-marker{display:none}
-details .setup{padding:0 16px 16px;font-size:13px;line-height:1.5;color:var(--muted)}
-details .setup input{width:100%;margin:10px 0;padding:12px;border-radius:12px;border:1px solid var(--line);background:#000;color:var(--fg);font:inherit}
-details .setup button{padding:10px 16px;border-radius:12px;background:var(--fg);color:#000;font-weight:700}
-details .setup a{color:var(--fg)}
 .toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom) + 26px);transform:translateX(-50%) translateY(10px);background:#2c2c2e;color:#fff;padding:11px 18px;border-radius:999px;font-weight:600;font-size:14px;opacity:0;transition:.3s;z-index:40;pointer-events:none;text-align:center;max-width:calc(100% - 32px);box-shadow:0 10px 30px rgba(0,0,0,.5)}
 .toast.on{opacity:1;transform:translateX(-50%)}
-.spinner{width:16px;height:16px;border-radius:50%;border:2px solid rgba(255,255,255,.4);border-top-color:#fff;animation:spin .8s linear infinite}
 
 @keyframes kenburns{from{transform:scale(1.02)}to{transform:scale(1.14) translate(-2%,-2%)}}
 @keyframes rise{to{opacity:1;transform:none}}
@@ -213,7 +206,6 @@ details .setup a{color:var(--fg)}
 @keyframes popin{to{opacity:1;transform:scale(1)}}
 @keyframes ping{0%{box-shadow:0 0 0 0 color-mix(in srgb,currentColor 70%,transparent)}100%{box-shadow:0 0 0 12px transparent}}
 @keyframes heart{0%{opacity:0;transform:translate(-50%,-50%) scale(.3) rotate(-12deg)}25%{opacity:1;transform:translate(-50%,-50%) scale(1.15) rotate(6deg)}60%{transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-110%) scale(1.1)}}
-@keyframes spin{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
   .vz *,.c-photo .quip{opacity:1!important;transform:none!important;stroke-dashoffset:0!important}
@@ -248,14 +240,6 @@ details .setup a{color:var(--fg)}
   </div>
   <div class="label">Past days</div>
   <div class="group" id="archiveList"></div>
-  <details class="group" id="setupBox">
-    <summary>More news setup <small id="tokState">not set</small></summary>
-    <div class="setup">
-      More news starts a research run on GitHub. Paste a fine-grained GitHub token for <b>varun-emm/news</b> only, with <b>Actions: read and write</b> and <b>Contents: read</b>. <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Create one ↗</a>. It is stored only in this browser.
-      <input id="tokInput" type="password" autocomplete="off" placeholder="github_pat_…">
-      <button id="tokSave">Save token</button>
-    </div>
-  </details>
   <p style="font-size:12px;color:var(--muted);margin:auto 4px 0">Swipe up for the next story, down to go back. Tap a card to read the full story, double-tap to save. Photos from Unsplash.<br><br><span id="version"></span></p>
 </aside>
 <div class="toast" id="toast"></div>
@@ -269,8 +253,7 @@ details .setup a{color:var(--fg)}
   };
   const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["saved","🔖 Saved"]];
   const LABEL = {world:"World", india:"India", money:"Money Desk"};
-  const GH = 'https://api.github.com/repos/varun-emm/news', WORKFLOW = 'more-news.yml';
-  const VERSION = '2.2'; // bump on every change to this page, so it's easy to tell which copy you have
+  const VERSION = '2.3'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
@@ -415,8 +398,8 @@ details .setup a{color:var(--fg)}
   }
   function doneEl(){
     const el = document.createElement('div'); el.className = 'story';
-    el.innerHTML = `<article class="c c-done"><div><div style="font-size:56px">☕</div><h2>You're all caught up</h2><p>${list.length} stories today.</p>
-      ${isArchive || filter === 'saved' ? '' : '<button class="pillbtn" data-act="more">＋ More news</button>'}<button class="pillbtn alt" data-act="again">Start over</button></div></article>`;
+    el.innerHTML = `<article class="c c-done"><div><div style="font-size:56px">☕</div><h2>You're all caught up</h2><p>${list.length} stories so far today.</p>
+      ${isArchive || filter === 'saved' || remaining() <= 0 ? '' : `<button class="pillbtn" data-act="more">＋ ${Math.min(BATCH, remaining())} more stories</button>`}<button class="pillbtn alt" data-act="again">Start over</button></div></article>`;
     return el;
   }
 
@@ -609,70 +592,41 @@ details .setup a{color:var(--fg)}
   }
   function reset(){ order = all.map((_,i)=>i); store.set('order_'+data.date, null); show(0, -1); toast('Original order'); }
 
-  // ---- More news: start the GitHub workflow, wait for it, then add the new stories ----
-  const token = () => store.get('ghtoken', '');
-  const gh = (path, opts = {}) => fetch(GH + path, { ...opts, headers: { Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', Authorization: 'Bearer ' + token(), ...(opts.headers||{}) } });
-  function setStatus(html, working){
-    $('#moreStatus').innerHTML = html;
-    $('#moreBtn').disabled = !!working;
-    $('#moreBtn').innerHTML = working ? '<span class="spinner"></span> Finding more news…' : '＋ More news';
+  // ---- More news: the nightly run leaves extra stories in more.json; each tap adds the next few ----
+  const BATCH = 5;
+  let extras = [];
+  const revealedKey = () => 'revealed_' + data.date;
+  function remaining(){ return extras.length - store.get(revealedKey(), 0); }
+  function renderMore(){
+    const left = isArchive ? 0 : remaining();
+    $('#moreBtn').disabled = left <= 0;
+    $('#moreBtn').textContent = left > 0 ? `＋ More news (${left} left)` : 'No more news today';
+    $('#moreStatus').textContent = isArchive ? "More news works on today's deck" : left > 0 ? `Adds ${Math.min(BATCH, left)} stories at a time` : 'New stories land every morning around 4 AM';
   }
-  async function moreNews(){
-    if(isArchive){ toast("More news works on today's deck"); return; }
-    if(!token()){ openPanel(); $('#setupBox').open = true; toast('Add a GitHub token first'); return; }
-    if(store.get('pending', null)){ openPanel(); return; }
-    setStatus('Starting…', true);
-    try{
-      const r = await gh(`/actions/workflows/${WORKFLOW}/dispatches`, { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ ref: 'main', inputs: { count: '5' } }) });
-      if(r.status !== 204) throw new Error(r.status === 401 || r.status === 403 ? 'GitHub refused the token' : r.status === 404 ? 'the token cannot see the workflow' : 'GitHub said ' + r.status);
-      store.set('pending', { since: Date.now() });
-      toast('Researching more news… about 5 minutes', 3000);
-      poll();
-    }catch(err){ setStatus('Could not start: ' + esc(err.message), false); }
+  // add extras[from .. to) to the deck
+  function addExtras(to){
+    const from = all.filter(s => extras.includes(s)).length;
+    for(let i = from; i < to; i++){ all.push(extras[i]); order.push(all.length - 1); }
+    store.set(revealedKey(), Math.max(store.get(revealedKey(), 0), to));
+    return to - from;
   }
-  async function poll(){
-    const pending = store.get('pending', null); if(!pending) return;
-    const mins = Math.round((Date.now() - pending.since) / 60000);
-    if(mins > 25){ store.set('pending', null); setStatus('Timed out. Try again later.', false); return; }
-    setStatus(`Researching… ${mins ? mins + ' min' : 'just started'} (usually 3–6 min)`, true);
+  function moreNews(){
+    if(isArchive || remaining() <= 0){ toast(isArchive ? "More news works on today's deck" : "That's all for today. More at 4 AM ☕", 2500); return; }
+    const first = all.length;
+    const added = addExtras(store.get(revealedKey(), 0) + Math.min(BATCH, remaining()));
+    store.set('order_'+data.date, order);
+    if(filter !== 'all') filter = 'all';
+    renderTabs(); renderMore(); closePanel();
+    toast(`${added} more stories ✨`, 2200);
+    show(order.indexOf(first), 1);
+  }
+  async function loadExtras(){
     try{
-      const r = await gh(`/actions/workflows/${WORKFLOW}/runs?event=workflow_dispatch&per_page=5`);
-      const runs = r.ok ? (await r.json()).workflow_runs || [] : [];
-      const run = runs.find(x => new Date(x.created_at).getTime() >= pending.since - 60000);
-      if(run && run.status === 'completed'){
-        store.set('pending', null);
-        if(run.conclusion === 'success'){
-          const added = await loadMore(true);
-          setStatus(added ? `Added ${added} new stories.` : 'No new stories this time.', false);
-          if(added){
-            closePanel(); toast(`${added} new stories added ✨`, 2500);
-            if(filter !== 'all'){ filter = 'all'; renderTabs(); }
-            show(visible().length - added, 1);
-          }
-        } else setStatus(`It didn't work. <a href="${esc(safeUrl(run.html_url))}" target="_blank" rel="noopener">See why ↗</a>`, false);
-        return;
-      }
+      const r = await fetch('more.json?t=' + Date.now()); if(!r.ok) return;
+      const m = await r.json();
+      if(m && m.date === data.date && Array.isArray(m.stories)) extras = m.stories.filter(s => s && s.id && s.headline);
     }catch(e){}
-    setTimeout(poll, 20000);
   }
-  // more.json holds today's extra stories; with a token it's read straight from GitHub so it's fresh
-  async function loadMore(fresh){
-    let m = null;
-    try{
-      if(fresh && token()){
-        const r = await gh('/contents/more.json?ref=main', { headers: { Accept: 'application/vnd.github.raw+json' } });
-        if(r.ok) m = await r.json();
-      }
-      if(!m){ const r = await fetch('more.json?t=' + Date.now()); if(r.ok) m = await r.json(); }
-    }catch(e){}
-    if(!m || m.date !== data.date || !Array.isArray(m.stories)) return 0;
-    const have = new Set(all.map(s => s.id)); let added = 0;
-    m.stories.forEach(s => { if(s && s.id && s.headline && !have.has(s.id)){ all.push(s); order.push(all.length - 1); added++; } });
-    if(added){ store.set('order_'+data.date, order); renderTabs(); list = visible(); renderBars(); }
-    return added;
-  }
-  function renderToken(){ $('#tokState').textContent = token() ? 'saved ✓' : 'not set'; }
-  $('#tokSave').onclick = () => { const v = $('#tokInput').value.trim(); store.set('ghtoken', v || null); $('#tokInput').value = ''; renderToken(); $('#setupBox').open = false; toast(v ? 'Token saved' : 'Token removed'); };
 
   $('#version').textContent = `Daily Swipe v${VERSION}`;
 
@@ -703,14 +657,16 @@ details .setup a{color:var(--fg)}
     data = d; all = (d.stories || []).slice(); order = all.map((_,i)=>i);
     dateText = new Date(d.date + 'T00:00:00').toLocaleDateString('en-IN',{weekday:'short', day:'numeric', month:'short'}) + (isArchive ? ' · archive' : '');
     const savedOrder = store.get('order_'+d.date, null);
-    if(!isArchive) await loadMore(false);
+    if(!isArchive){
+      await loadExtras();
+      const shared = extras.findIndex(s => s.id === hash); // a shared link to an extra story reveals up to it
+      addExtras(Math.min(extras.length, Math.max(store.get(revealedKey(), 0), shared + 1)));
+    }
     if(Array.isArray(savedOrder) && savedOrder.length === all.length) order = savedOrder;
-    if(isArchive) $('#moreBtn').style.display = 'none';
     let start = 0;
     if(hash){ const i = order.findIndex(j => all[j].id === hash); if(i >= 0) start = i; }
-    renderTabs(); renderToken(); show(start, 1, true);
+    renderTabs(); renderMore(); show(start, 1, true);
     if(!store.get('hinted', false)){ store.set('hinted', true); setTimeout(() => toast('Swipe up for the next story · tap to read', 3000), 700); }
-    if(store.get('pending', null)) poll();
     fetch('archive/index.json?t='+Date.now()).then(r=>r.ok?r.json():null).then(a=>{
       if(!a||!a.days) return;
       $('#archiveList').innerHTML = (isArchive?`<a href="./">← Today <small>›</small></a>`:'') + a.days.map(x=>`<a href="?day=${esc(x)}">${new Date(x+'T00:00:00').toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short',year:'numeric'})} <small>›</small></a>`).join('');
