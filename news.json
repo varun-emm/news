@@ -1,0 +1,281 @@
+{
+ "date": "2026-10-25",
+ "generatedAt": "2026-10-25T03:45:39+05:30",
+ "stories": [
+  {
+   "id": "2026-10-25-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Iran war",
+   "emoji": "🕊️",
+   "stat": "8",
+   "statLabel": "foreign ministers met in Istanbul",
+   "headline": "Europe and Gulf ministers tell the US: talk, don't strike Iran",
+   "body": [
+    "Foreign ministers from eight countries, including the UK, France, Germany and Saudi Arabia, met in Istanbul on Friday.",
+    "They said nobody in the room supports another attack on Iran, and that only talks can end the war and reopen the Strait of Hormuz.",
+    "But the US ambassador to Türkiye said a US strike could come as soon as this weekend."
+   ],
+   "joke": "Eight ministers, one message: please use your words.",
+   "vc": "Brent crude touched about $117 this week on this war. High oil means costlier inputs and freight for manufacturers, and nervous investors everywhere.",
+   "url": "https://www.aljazeera.com/news/2026/10/23/european-middle-east-ministers-urge-us-iran-diplomacy-not-new-attacks",
+   "linkLabel": "Al Jazeera",
+   "color": "#b45309",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1755001979854-11a2ac59cc92?auto=format&fit=crop&w=1200&q=70",
+    "credit": "Gabriel Schumacher",
+    "creditUrl": "https://unsplash.com/photos/distant-bridge-over-a-city-skyline-at-dusk-yDCJNBfOjfs"
+   }
+  },
+  {
+   "id": "2026-10-25-w2",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Brazil votes",
+   "emoji": "🇧🇷",
+   "stat": "47% vs 45%",
+   "statLabel": "first-round result",
+   "headline": "Brazil picks a president today in a too-close-to-call run-off",
+   "body": [
+    "Brazil votes today, 25 October, in a run-off between Senator Flavio Bolsonaro, 45, and President Lula, 80.",
+    "In the first round Bolsonaro got about 47% and Lula just over 45%.",
+    "Recent polls show Bolsonaro slightly ahead, but inside the margin of error, so it could go either way."
+   ],
+   "joke": "Polls say 'within the margin of error', which is pollster for 'no idea'.",
+   "vc": "Brazil is Latin America's biggest market. Bolsonaro promises spending cuts and a debt ceiling; Lula points to lower unemployment. Watch the currency and rates after the result.",
+   "url": "https://www.aljazeera.com/news/2026/10/23/what-to-know-as-brazil-prepares-for-tense-presidential-run-off",
+   "linkLabel": "Al Jazeera",
+   "color": "#15803d",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1703540918559-2ac64d38b6c8?auto=format&fit=crop&w=1200&q=70",
+    "credit": "Fernando Dantas",
+    "creditUrl": "https://unsplash.com/photos/a-green-and-yellow-flag-flying-in-the-wind-e3H-jj0Uq28"
+   }
+  },
+  {
+   "id": "2026-10-25-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Ebola",
+   "emoji": "💉",
+   "stat": "9,700+",
+   "statLabel": "Ebola cases in DR Congo",
+   "headline": "First Ebola vaccine trial starts in DR Congo's worst outbreak",
+   "body": [
+    "The WHO has started a vaccine trial in DR Congo, where the worst Ebola outbreak on record has passed 9,700 cases and 4,600 deaths.",
+    "The virus has reached four African countries, its widest spread on the continent so far.",
+    "The approved vaccine targets a different Ebola type, so new shots from Oxford and Moderna will join the trial soon."
+   ],
+   "joke": "",
+   "vc": "Speed of new vaccine platforms (like mRNA) is the real story. Funders like CEPI back them, and that shapes where health-tech money goes.",
+   "url": "https://www.aljazeera.com/news/2026/10/24/who-announces-start-of-ebola-vaccine-clinical-trial-in-dr-congo",
+   "linkLabel": "Al Jazeera",
+   "color": "#6b2137",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1608422050828-485141c98429?auto=format&fit=crop&w=1200&q=70",
+    "credit": "Hakan Nural",
+    "creditUrl": "https://unsplash.com/photos/a-gloved-hand-holding-a-vial-with-a-liquid-inside-of-it-gQd4SRfKs40"
+   }
+  },
+  {
+   "id": "2026-10-25-i1",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Mega IPO",
+   "emoji": "📶",
+   "stat": "22.19x",
+   "statLabel": "times the IPO was oversubscribed",
+   "headline": "Investors rush into Jio Platforms' $3.2 billion IPO",
+   "body": [
+    "Jio Platforms' ₹30,213 crore (about $3.2 billion) IPO closed on Thursday with bids for 22 times the shares on offer.",
+    "Big institutions were hungriest, bidding about 70 times their quota; small investors bid about 2.7 times.",
+    "At the top price, Jio is valued at around ₹10.3 lakh crore, roughly $108 billion."
+   ],
+   "joke": "Institutions bid 70x, retail 2.7x. Guess who gets the bigger slice of the cake.",
+   "vc": "All of it is fresh money, with no existing shareholders selling. It shows India's market can absorb giant tech listings, which keeps the IPO exit door open for late-stage VCs.",
+   "url": "https://inc42.com/buzz/jio-platforms-ipo-booked-6-76x-on-day-3-so-far-qib-portion-subscribed-14-18x/",
+   "linkLabel": "Inc42",
+   "color": "#1d4ed8",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1583408345715-05cccac98ae7?auto=format&fit=crop&w=1200&q=70",
+    "credit": "Ashim D'Silva",
+    "creditUrl": "https://unsplash.com/photos/bird-flying-over-city-buildings-during-daytime-Hq3tRn-GmDs"
+   }
+  },
+  {
+   "id": "2026-10-25-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Quick commerce",
+   "emoji": "🛵",
+   "stat": "-16%",
+   "statLabel": "Swiggy's fall in one day",
+   "headline": "Swiggy hits a 52-week low as Instamart losses grow",
+   "body": [
+    "Swiggy shares fell about 16% on Thursday to ₹176.70, a 52-week low, after its July–September results.",
+    "Its loss was ₹922 crore, more than the ₹791 crore of the quarter before, even though revenue grew 36% from last year.",
+    "The worry is Instamart, its quick-delivery arm, where losses widened while rival Blinkit keeps pushing."
+   ],
+   "joke": "10-minute delivery, 10-year wait for profit.",
+   "vc": "Food delivery makes money; quick commerce burns it. The stock is now about 55% below its ₹390 IPO price, a reminder that listing day is not the finish line.",
+   "url": "https://inc42.com/buzz/swiggy-shares-plunge-17-to-52-week-low-after-q2-brokerages-cut-price-targets/",
+   "linkLabel": "Inc42",
+   "color": "#ea580c",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1711358876889-ed28e5594e2f?auto=format&fit=crop&w=1200&q=70",
+    "credit": "Lukas Kienzler",
+    "creditUrl": "https://unsplash.com/photos/b3TAaBlBdps"
+   }
+  },
+  {
+   "id": "2026-10-25-i3",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Bengaluru defence",
+   "emoji": "🎯",
+   "stat": "+62%",
+   "statLabel": "first-day gain over IPO price",
+   "headline": "Bengaluru's Tonbo Imaging jumps 62% on market debut",
+   "body": [
+    "Bengaluru defence-tech firm Tonbo Imaging closed its first trading day at about ₹1,134, 62% above its ₹700 IPO price.",
+    "It makes thermal cameras, gun sights and missile seekers, and says it supplied about 20,000 of India's roughly 30,000 thermal sights.",
+    "But revenue fell about 23% in FY26, and the ₹852 crore IPO was only existing investors selling shares."
+   ],
+   "joke": "Thermal cameras spotted one hot thing on Thursday: their own stock.",
+   "vc": "The IPO was subscribed about 136 times. Defence tech is India's hottest theme, but at roughly 79x last year's profit at IPO price, early backers chose a good moment to cash out.",
+   "url": "https://inc42.com/features/tonbo-imaging-ipo-gets-a-strong-start-but-does-growth-justify-its-valuation/",
+   "linkLabel": "Inc42",
+   "color": "#be185d",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1767556030465-c4f92dcfa8c7?auto=format&fit=crop&w=1200&q=70",
+    "credit": "Margaret Kester",
+    "creditUrl": "https://unsplash.com/photos/thermographic-view-of-a-persons-back-and-arm-sBA7MGtWdXE"
+   }
+  },
+  {
+   "id": "2026-10-25-m1",
+   "section": "money",
+   "source": "FT Unhedged",
+   "kicker": "Bond markets",
+   "emoji": "📉",
+   "stat": "G7 high",
+   "statLabel": "UK borrowing costs",
+   "headline": "FT Unhedged: the bond market's rough year that few noticed",
+   "body": [
+    "On the FT's Unhedged podcast, Robin Wigglesworth explains why government bonds had a rocky year that most people missed.",
+    "Bond prices set the interest rates for almost everything, from home loans to company debt.",
+    "The hosts also note the UK now has the highest borrowing costs in the G7, so its 28 October budget aims to be boring."
+   ],
+   "joke": "A boring budget: the only speech where a finance minister wants zero applause.",
+   "vc": "When safe government bonds pay more, investors demand more from risky bets like startups. Higher bond yields quietly push valuations down.",
+   "url": "https://shows.acast.com/unhedged/episodes/breaking-down-the-bond-market",
+   "linkLabel": "Acast · FT",
+   "color": "#0e7490",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1568649704650-a6ab20e84311?auto=format&fit=crop&w=1200&q=70",
+    "credit": "Kai Pilger",
+    "creditUrl": "https://unsplash.com/photos/group-of-people-walking-near-buildings-cBsGDi2mQ7c"
+   }
+  },
+  {
+   "id": "2026-10-25-m2",
+   "section": "money",
+   "source": "Axios Pro Rata",
+   "kicker": "US–China biotech",
+   "emoji": "🧬",
+   "stat": "Dec 7",
+   "statLabel": "when public comments close",
+   "headline": "White House plans to curb US–China biotech deals",
+   "body": [
+    "Dan Primack's Pro Rata leads with a White House plan to limit deals between US and Chinese biotech companies over security worries.",
+    "It would cover investments, loans and joint ventures for nearly all drugs, plus tools like brain-computer interfaces; licensing deals seem exempt.",
+    "Nothing changes before comments close on 7 December, and the final rules may be softer."
+   ],
+   "joke": "Cross-border biotech, now with extra paperwork.",
+   "vc": "If US drug makers must look beyond China, non-China partners could gain. Indian contract manufacturers are worth watching.",
+   "url": "https://www.axios.com/newsletters/axios-pro-rata-9cbbf683-f661-4dba-8181-8d618b4c13a7",
+   "linkLabel": "Axios",
+   "color": "#7c3aed",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?auto=format&fit=crop&w=1200&q=70",
+    "credit": "Julia Koblitz",
+    "creditUrl": "https://unsplash.com/photos/scientist-using-pipette-with-test-tubes-in-lab-RlOAwXt2fEA"
+   }
+  },
+  {
+   "id": "2026-10-25-m3",
+   "section": "money",
+   "source": "TechCrunch Venture",
+   "kicker": "AI agents",
+   "emoji": "🤖",
+   "stat": "$1B",
+   "statLabel": "Daytona's new valuation",
+   "headline": "Daytona, a cloud for AI agents, becomes a unicorn",
+   "body": [
+    "Daytona, a three-year-old New York startup, raised a $60 million Series B at a $1 billion valuation, led by FirstMark Growth.",
+    "It gives each AI agent its own safe computer to work in, with Linux, Windows, macOS or GPUs.",
+    "Its angel investors include the founders of Stripe, Shopify, Perplexity and Zoom."
+   ],
+   "joke": "AI agents now get their own computers. Many interns still don't.",
+   "vc": "This is a 'picks and shovels' bet: sell the tools every AI agent needs. FirstMark led both its February round and this one, which signals strong insider belief.",
+   "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels",
+   "linkLabel": "TechCrunch",
+   "color": "#334155",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1584169417032-d34e8d805e8b?auto=format&fit=crop&w=1200&q=70",
+    "credit": "İsmail Enes Ayhan",
+    "creditUrl": "https://unsplash.com/photos/server-room-aisle-with-metal-equipment-racks-lVZjvw-u9V8"
+   }
+  },
+  {
+   "id": "2026-10-25-m4",
+   "section": "money",
+   "source": "Stratechery",
+   "kicker": "Media model",
+   "emoji": "✍️",
+   "stat": "Subs + ads",
+   "statLabel": "Thompson's new business model",
+   "headline": "Ben Thompson brings in Stripe as Stratechery's sole sponsor",
+   "body": [
+    "Ben Thompson made Stripe the only sponsor of Stratechery, his paid tech newsletter.",
+    "He calls mixing subscriptions with ads a 'unified' content business, and says his contract keeps him fully independent.",
+    "His Sharp Tech podcast is also becoming a free video show on YouTube."
+   ],
+   "joke": "Even the man who explains business models needed a new business model.",
+   "vc": "A strong lesson for a future VC: build a trusted audience first, then earn from it twice. Your own reputation is the best deal-flow engine.",
+   "url": "https://stratechery.com/2026/presented-by-stripe/",
+   "linkLabel": "Stratechery",
+   "color": "#a16207",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1745848413041-3eeb106db501?auto=format&fit=crop&w=1200&q=70",
+    "credit": "dlxmedia.hu",
+    "creditUrl": "https://unsplash.com/photos/a-microphone-on-a-stand-against-a-yellow-background-DjGSoA8ubzo"
+   }
+  },
+  {
+   "id": "2026-10-25-m5",
+   "section": "money",
+   "source": "The Economist",
+   "kicker": "Europe's mood",
+   "emoji": "🇪🇺",
+   "stat": "Cover",
+   "statLabel": "'The agony of liberal Europe'",
+   "headline": "The Economist: Europe's centrist leaders are failing voters",
+   "body": [
+    "This week's Economist cover is titled 'The agony of liberal Europe'.",
+    "It says Europe's centrist leaders have fallen badly short, as angry voters protest high prices and stuck government budgets.",
+    "Another piece says 'everything is going wrong' for Saudi Crown Prince Mohammed bin Salman."
+   ],
+   "joke": "",
+   "vc": "Political trouble in Europe and strain in the Gulf both matter: Gulf money backs many VC funds, and global investors are hunting for steadier growth stories like India.",
+   "url": "https://www.economist.com/middle-east-and-africa/2026/10/19/everything-is-going-wrong-for-muhammad-bin-salman",
+   "linkLabel": "The Economist",
+   "color": "#b91c1c",
+   "image": {
+    "url": "https://images.unsplash.com/photo-1608817576152-26bbdb00afb7?auto=format&fit=crop&w=1200&q=70",
+    "credit": "Christian Lue",
+    "creditUrl": "https://unsplash.com/photos/blue-flag-on-pole-near-building-C241mbgtgys"
+   }
+  }
+ ]
+}
