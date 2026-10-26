@@ -1,426 +1,416 @@
 {
-  "date": "2026-10-25",
-  "generatedAt": "2026-10-25T16:30:00+05:30",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T20:30:00+05:30",
   "stories": [
     {
-      "id": "2026-10-25-x1",
+      "id": "2026-10-26-x1",
       "section": "world",
-      "source": "Times of Israel",
-      "kicker": "Israel votes",
-      "emoji": "🗳️",
-      "stat": "50 vs 52",
-      "statLabel": "seats: Netanyahu bloc vs opposition",
-      "headline": "Israel votes Tuesday, and nobody is winning yet",
+      "source": "Washington Post",
+      "kicker": "France protests",
+      "emoji": "✊",
+      "stat": "410,000",
+      "statLabel": "marchers, per the government",
+      "headline": "Over 400,000 march across France; clashes in Paris",
       "body": [
-        "Israel holds a national election on Tuesday, 27 October, and the final polls show no clear winner.",
-        "TV polls give Prime Minister Netanyahu's camp about 50 seats and the opposition about 52, both short of the 61 needed to govern.",
-        "Gadi Eisenkot's new Yashar party leads most polls, with Netanyahu's Likud close behind."
+        "About 410,000 people marched across France on Saturday, the government said; unions said twice as many.",
+        "Most marches were peaceful, but police used tear gas and a water cannon in Paris, with clashes in Marseille, Lyon and other cities.",
+        "Protesters are angry about living costs, school funding and fuel prices, and nearly 1,000 people were detained."
       ],
-      "joke": "Final polls: 50 vs 52 out of 120. Coalition talks may outlast the campaign.",
-      "vc": "A long coalition fight can keep Israel's markets and its huge tech sector cautious. Watch the shekel and Israeli startup funding after the vote.",
-      "url": "https://www.timesofisrael.com/netanyahu-and-eisenkot-in-dead-heat-five-days-before-election-final-toi-poll-shows/",
-      "linkLabel": "Times of Israel",
-      "color": "#0f3d6e",
+      "joke": "",
+      "vc": "Street pressure makes it harder for France to cut spending, which can push up its borrowing costs. European investors will watch French bonds closely.",
+      "url": "https://www.washingtonpost.com/business/2026/10/24/france-protests-paris-unrest/ec8ab56c-cf67-11f1-ac04-9f58578a68b4_story.html",
+      "linkLabel": "Washington Post",
+      "color": "#312e81",
+      "font": "news",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Manifestation_spontan%C3%A9e_%C3%A0_Paris_contre_la_r%C3%A9forme_des_retraites_le_14_avril_2023_%E2%80%94_1.jpg/1280px-Manifestation_spontan%C3%A9e_%C3%A0_Paris_contre_la_r%C3%A9forme_des_retraites_le_14_avril_2023_%E2%80%94_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Jules* / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Manifestation_spontan%C3%A9e_%C3%A0_Paris_contre_la_r%C3%A9forme_des_retraites_le_14_avril_2023_%E2%80%94_1.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "2026-10-26-x2",
+      "section": "world",
+      "source": "PBS NewsHour",
+      "kicker": "Jordan attack",
+      "emoji": "🕯️",
+      "stat": "7",
+      "statLabel": "killed at a church funeral",
+      "headline": "Gunmen kill 7 at a church funeral in southern Jordan",
+      "body": [
+        "Gunmen opened fire during a funeral at a Greek Orthodox church in Jordan's Karak region on Friday, killing seven people.",
+        "Dozens more were wounded, and officials called it a terrorist attack by extremists.",
+        "King Abdullah II vowed the harshest response, and Jordan declared three days of mourning."
+      ],
+      "joke": "",
+      "vc": "Jordan is usually one of the region's calmer countries. Attacks like this raise risk costs for tourism and regional business.",
+      "url": "https://www.pbs.org/newshour/world/gunmen-open-fire-at-a-church-during-a-funeral-in-jordan-killing-7-and-wounding-34",
+      "linkLabel": "PBS NewsHour",
+      "color": "#7f1d1d",
+      "font": "serious",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Saladin_in_Al-Karak_%28Jordan%29_-_%D9%84%D9%88%D8%A7%D8%A1_%D9%82%D8%B5%D8%A8%D8%A9_%D8%A7%D9%84%D9%83%D8%B1%D9%83.jpg/1280px-Saladin_in_Al-Karak_%28Jordan%29_-_%D9%84%D9%88%D8%A7%D8%A1_%D9%82%D8%B5%D8%A8%D8%A9_%D8%A7%D9%84%D9%83%D8%B1%D9%83.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Petar Milošević / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Saladin_in_Al-Karak_(Jordan)_-_%D9%84%D9%88%D8%A7%D8%A1_%D9%82%D8%B5%D8%A8%D8%A9_%D8%A7%D9%84%D9%83%D8%B1%D9%83.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "2026-10-26-x3",
+      "section": "world",
+      "source": "CNBC",
+      "kicker": "Ukraine war",
+      "emoji": "⚡",
+      "stat": "500,000+",
+      "statLabel": "people left without power",
+      "headline": "Russia and Ukraine keep striking even as peace talks return",
+      "body": [
+        "A big Russian attack on Ukraine's energy system cut power to more than 500,000 people, Ukraine's energy ministry said.",
+        "The strikes came less than a day after both sides signalled that US-brokered peace talks were moving forward.",
+        "Russia says it is ready to resume talks next month, and the two sides also swapped the bodies of fallen soldiers."
+      ],
+      "joke": "",
+      "vc": "Grid attacks keep Europe's energy market tense. Repairs, grid equipment and backup power are where rebuilding money will flow.",
+      "url": "https://www.cnbc.com/2026/10/23/russia-ukraine-strikes-peace-talks.html",
+      "linkLabel": "CNBC",
+      "color": "#1e293b",
+      "font": "news",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%93%D0%95%D0%A1.jpg/1280px-%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%93%D0%95%D0%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Ukrhydroenergo / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%93%D0%95%D0%A1.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "2026-10-26-x4",
+      "section": "world",
+      "source": "US News / Reuters",
+      "kicker": "China politics",
+      "emoji": "🏛️",
+      "stat": "300",
+      "statLabel": "party leaders meeting in Beijing",
+      "headline": "China's Communist Party opens a key four-day meeting",
+      "body": [
+        "China's ruling Communist Party opened its fifth plenum in Beijing on Monday, a closed-door meeting that runs until Thursday.",
+        "Xi Jinping presented a work report focused on tightening discipline inside the party.",
+        "Analysts see it as perhaps the last big party meeting before leadership changes in 2027."
+      ],
+      "joke": "Four days behind closed doors to talk about discipline. Sounds like every startup offsite.",
+      "vc": "Big China policy shifts often follow these meetings. Watch for signals on the private sector and tech, which matter for supply chains and Asian markets.",
+      "url": "https://www.usnews.com/news/world/articles/2026-10-25/chinas-communist-party-opens-fifth-plenum",
+      "linkLabel": "US News",
+      "color": "#b45309",
+      "font": "news",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Auditorium_of_the_Great_Hall_of_the_People-20131231-RM-192738.jpg/1280px-Auditorium_of_the_Great_Hall_of_the_People-20131231-RM-192738.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Ermell / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Auditorium_of_the_Great_Hall_of_the_People-20131231-RM-192738.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "2026-10-26-x5",
+      "section": "world",
+      "source": "Dawn",
+      "kicker": "Pakistan · Iran",
+      "emoji": "🚛",
+      "stat": "1 week",
+      "statLabel": "of halted border trade",
+      "headline": "Pakistan reopens a key border crossing with Iran",
+      "body": [
+        "Pakistan reopened the Gabd-Rimdan crossing with Iran on Saturday, ending a week-long halt to trade.",
+        "Trucks carrying LPG and food were stuck during the closure, which came as Pakistan faced record LPG prices.",
+        "Days earlier, gunmen set dozens of parked trucks on fire near the closed crossing."
+      ],
+      "joke": "",
+      "vc": "Border shocks show how fragile regional supply lines are. For importers, a second route or supplier is cheap insurance.",
+      "url": "https://www.dawn.com/news/2039610",
+      "linkLabel": "Dawn",
+      "color": "#0f766e",
+      "font": "news",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/GTOfGwadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "NasratGraphy.webs.com / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:GTOfGwadar.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "2026-10-26-x6",
+      "section": "india",
+      "source": "Inc42",
+      "kicker": "Travel tech",
+      "emoji": "✈️",
+      "stat": "$1.8M",
+      "statLabel": "Q2 profit, from a $5.7M loss",
+      "headline": "MakeMyTrip swings back to profit",
+      "body": [
+        "Travel booking company MakeMyTrip made a net profit of $1.8 million in July to September.",
+        "In the same quarter a year earlier, it lost $5.7 million.",
+        "Revenue rose only 2.5% to $235.2 million, so growth is slow even as it makes money."
+      ],
+      "joke": "Profit is back, growth is on leave. Even the holidays need a holiday.",
+      "vc": "Profitable but slow-growing tech firms get valued more like old-economy companies. The next leg needs new products, not just cost cuts.",
+      "url": "https://inc42.com/buzz/makemytrip-swings-to-1-8-mn-profit-in-q2-fy27-revenue-up-2-5-yoy/",
+      "linkLabel": "Inc42",
+      "color": "#0369a1",
+      "font": "finance",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Terminal_3_Interior_-_Indira_Gandhi_International_Airport_-_New_Delhi_2016-08-08Terminal_3_Interior_-_Indira_Gandhi_International_Airport_-_New_Delhi_2016-08-08_9234.JPG/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Biswarup Ganguly / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Terminal_3_Interior_-_Indira_Gandhi_International_Airport_-_New_Delhi_2016-08-08Terminal_3_Interior_-_Indira_Gandhi_International_Airport_-_New_Delhi_2016-08-08_9234.JPG",
+        "license": "CC BY 3.0"
+      }
+    },
+    {
+      "id": "2026-10-26-x7",
+      "section": "india",
+      "source": "Inc42",
+      "kicker": "Bike taxis",
+      "emoji": "🏍️",
+      "stat": "FIR",
+      "statLabel": "filed against Rapido's parent",
+      "headline": "Pune police ask Google and Apple to pull the Rapido app",
+      "body": [
+        "Police in Pune asked Google and Apple to remove the Rapido app from their app stores.",
+        "It follows a police case against Rapido's parent company for running bike taxis without the needed licence and approvals.",
+        "The case names Roppen Transportation Services, the company behind Rapido."
+      ],
+      "joke": "Rapido's fastest ride yet: from the road straight to the app store exit.",
+      "vc": "Regulation is the biggest risk for mobility and gig startups in India. Check a company's licences state by state before investing.",
+      "url": "https://inc42.com/buzz/pune-police-ask-google-apple-to-remove-rapido-app-over-bike-taxi-operations/",
+      "linkLabel": "Inc42",
+      "color": "#a16207",
       "font": "news"
     },
     {
-      "id": "2026-10-25-x2",
+      "id": "2026-10-26-x8",
       "section": "india",
-      "source": "BW Businessworld",
-      "kicker": "Foreign money",
-      "emoji": "💸",
-      "stat": "₹48,056 cr",
-      "statLabel": "pulled out of Indian shares in October",
-      "headline": "Foreign investors keep pulling money out of India",
+      "source": "The Hindu",
+      "kicker": "Bengaluru rail",
+      "emoji": "🚆",
+      "stat": "Nov 1",
+      "statLabel": "likely launch date",
+      "headline": "Bengaluru–Mumbai Vande Bharat sleeper train likely from Nov 1",
       "body": [
-        "Foreign investors pulled ₹48,056 crore out of Indian shares in October so far.",
-        "That takes 2026's total to about ₹3.08 lakh crore, already far more than all of 2025.",
-        "Costly oil, war worries and weaker company earnings are the main reasons, though selling eased late in the week."
+        "A Vande Bharat sleeper train between Bengaluru and Mumbai is likely to start on 1 November.",
+        "It will run overnight with 16 coaches and stop in Karnataka, Andhra Pradesh and Maharashtra.",
+        "India's first Vande Bharat sleeper train runs from Kamakhya station in Assam."
       ],
-      "joke": "2026 is the year foreign funds told India: it's not you, it's oil.",
-      "vc": "When foreign money leaves, valuations cool and good companies get cheaper. Patient local investors and family offices can buy quality at better prices.",
-      "url": "https://www.businessworld.in/article/rupee-crude-bond-yields-shape-fiis-retreat-from-india-2026-outflows-hit-rs-3-trillion-630339",
-      "linkLabel": "BW Businessworld",
-      "color": "#9f1239",
-      "font": "finance"
+      "joke": "Bengaluru to Mumbai overnight: skip both cities' traffic in one ticket.",
+      "vc": "Faster overnight trains between business hubs cut travel costs for sales and supply teams. Rail upgrades also lift real estate near stations.",
+      "url": "https://www.thehindu.com/news/cities/bangalore/bengalurumumbai-vande-bharat-sleeper-train-likely-to-be-launched-on-november-1/article71604149.ece",
+      "linkLabel": "The Hindu",
+      "color": "#c2410c",
+      "font": "editorial",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Vande_Bharat_Express_around_Mumbai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "Harshul12345 / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Vande_Bharat_Express_around_Mumbai.jpg",
+        "license": "CC BY-SA 4.0"
+      }
     },
     {
-      "id": "2026-10-25-x3",
+      "id": "2026-10-26-x9",
+      "section": "india",
+      "source": "The Hindu",
+      "kicker": "Bengaluru health",
+      "emoji": "🫁",
+      "stat": "10,000+",
+      "statLabel": "frontline workers tested",
+      "headline": "Bengaluru's bus drivers and street workers show weaker lungs",
+      "body": [
+        "A study of more than 10,000 frontline workers in Bengaluru found reduced lung function.",
+        "BMTC bus drivers, traffic police, construction workers and pourakarmikas (city cleaners) were tested.",
+        "It links polluted air to weaker lungs, obesity and diabetes, with pourakarmikas the worst affected."
+      ],
+      "joke": "",
+      "vc": "Air pollution is a health cost that hits workers and productivity. Clean-air tech, electric buses and worker health services are big openings.",
+      "url": "https://www.thehindu.com/news/cities/bangalore/reduced-lung-function-amongbengaluru-bmtc-drivers-traffic-police-pourakarmikas-reveals-survey/article71626729.ece",
+      "linkLabel": "The Hindu",
+      "color": "#475569",
+      "font": "serious",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Bangalore_India_traffic.jpg/1280px-Bangalore_India_traffic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Eirik Refsdal from Trondheim, NORWAY / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bangalore_India_traffic.jpg",
+        "license": "CC BY 2.0"
+      }
+    },
+    {
+      "id": "2026-10-26-x10",
+      "section": "india",
+      "source": "Inc42",
+      "kicker": "Aerospace",
+      "emoji": "🛩️",
+      "stat": "+45%",
+      "statLabel": "revenue growth in Q2",
+      "headline": "Aerospace parts maker Aequs grows fast but loses more",
+      "body": [
+        "Aequs, a maker of aerospace parts, grew its operating revenue about 45% in July to September.",
+        "But its net loss widened to ₹52.4 crore, from ₹20.6 crore a year earlier.",
+        "That is a loss about 2.5 times bigger than last year."
+      ],
+      "joke": "Revenue took off. Profits are still taxiing on the runway.",
+      "vc": "India's aerospace parts makers are growing with global plane demand. Watch for the point where scale turns losses into profit.",
+      "url": "https://inc42.com/buzz/aequs-q2-loss-widens-2-5x-to-%e2%82%b952-4-cr-revenue-jumps-45-yoy/",
+      "linkLabel": "Inc42",
+      "color": "#1d4ed8",
+      "font": "impact",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/F100_F-15_engine.JPG/1280px-F100_F-15_engine.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Shelley Gill / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:F100_F-15_engine.JPG",
+        "license": "Public domain"
+      }
+    },
+    {
+      "id": "2026-10-26-x11",
+      "section": "india",
+      "source": "Inc42",
+      "kicker": "Edtech IPO",
+      "emoji": "🎓",
+      "stat": "₹1,000 cr",
+      "statLabel": "planned IPO size",
+      "headline": "Imarticus Learning plans a ₹1,000 crore IPO",
+      "body": [
+        "Edtech company Imarticus Learning plans to file for a ₹1,000 crore IPO, Inc42 reports.",
+        "It aims to file its papers with SEBI through the confidential route within the next two to three months."
+      ],
+      "joke": "An edtech IPO: finally an exam the founders have to pass.",
+      "vc": "Profitable upskilling firms are reopening the edtech IPO door after the crash. Watch the pricing for clues on how the sector is valued now.",
+      "url": "https://inc42.com/buzz/exclusive-imarticus-eyes-confidential-filing-in-2-3-months-for-%e2%82%b91000-cr-ipo/",
+      "linkLabel": "Inc42",
+      "color": "#6d28d9",
+      "font": "finance",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Students_inside_of_a_classroom_of_a_local_college_in_Howrah_district_of_West_Bengal%2C_India.jpg/1280px-Students_inside_of_a_classroom_of_a_local_college_in_Howrah_district_of_West_Bengal%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Billjones94 / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Students_inside_of_a_classroom_of_a_local_college_in_Howrah_district_of_West_Bengal,_India.jpg",
+        "license": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": "2026-10-26-x12",
       "section": "money",
       "source": "TechCrunch",
-      "kicker": "AI labs",
-      "emoji": "🪶",
-      "stat": "$1B",
-      "statLabel": "raised at a $6B valuation",
-      "headline": "Year-old AI lab with no product raises $1 billion",
+      "kicker": "Defence tech",
+      "emoji": "🐕",
+      "stat": "$200M",
+      "statLabel": "raised at a $1.2B valuation",
+      "headline": "Warhound raises $200M to engineer military dogs",
       "body": [
-        "Flapping Airplanes, an AI research lab founded in late 2025, raised $1 billion at a $6 billion valuation.",
-        "Index Ventures and Lux Capital led the round, with Sequoia, GV, Kleiner Perkins and Nvidia also joining.",
-        "Its team of a couple dozen people works on training AI with less data and computing power, and has no product or revenue yet."
+        "Warhound, started by Colossal's Ben Lamm and Anduril's Palmer Luckey, raised $200 million at a $1.2 billion valuation.",
+        "It plans to genetically engineer dogs for the military, police and rescue teams; the dogs don't exist yet.",
+        "Investors include Sequoia, 8VC and In-Q-Tel, the venture firm backed by US intelligence agencies."
       ],
-      "joke": "No product, no revenue, $6 billion. Somewhere a profitable kirana store is rethinking its life choices.",
-      "vc": "Top funds are paying frontier prices for AI 'neolabs' on team and idea alone. That raises the bar for what strong early AI founders can ask for.",
-      "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
+      "joke": "A $1.2 billion company whose product is still a puppy plan. Very good-boy valuation.",
+      "vc": "Defence tech now spans biology, not just drones and software. Big funds are backing founders with a track record in hard science.",
+      "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
       "linkLabel": "TechCrunch",
-      "color": "#4338ca",
-      "font": "tech"
+      "color": "#78350f",
+      "font": "tech",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/JMSDF_Military_working_dog_%E3%80%8CKouki%E3%80%8D.jpg/1280px-JMSDF_Military_working_dog_%E3%80%8CKouki%E3%80%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "海上自衛隊 / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:JMSDF_Military_working_dog_%E3%80%8CKouki%E3%80%8D.jpg",
+        "license": "CC BY 4.0"
+      }
     },
     {
-      "id": "2026-10-25-x4",
-      "section": "world",
-      "source": "The Star / JMA",
-      "kicker": "Japan quake",
-      "emoji": "🌏",
-      "stat": "7.0",
-      "statLabel": "magnitude, about 470 km deep",
-      "headline": "Strong 7.0 quake shakes Japan's Ogasawara Islands",
-      "body": [
-        "A magnitude 7.0 earthquake struck near Japan's Ogasawara Islands on Sunday morning, Japan's weather agency said.",
-        "It hit very deep, about 470 km below the surface, and no tsunami warning was issued.",
-        "It was felt across eastern Japan, and early reports showed no injuries or damage."
-      ],
-      "joke": "",
-      "vc": "Japan is a key supplier of chips, machines and parts. Even quakes without damage are a reminder to keep backup suppliers in your supply chain.",
-      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/25/a-70-magnitude-earthquake-jolts-japan039s-ogasawara-islands",
-      "linkLabel": "The Star",
-      "color": "#44403c",
-      "font": "serious"
-    },
-    {
-      "id": "2026-10-25-x5",
-      "section": "india",
-      "source": "Business Today",
-      "kicker": "IT earnings",
-      "emoji": "💻",
-      "stat": "₹7,823 cr",
-      "statLabel": "quarterly profit, up 6%",
-      "headline": "Infosys profit rises 6%, but it trims its growth forecast",
-      "body": [
-        "Infosys made a profit of ₹7,823 crore in July to September, up about 6% from a year ago.",
-        "Revenue grew about 11% to ₹49,244 crore, and the board declared a dividend of ₹26 per share.",
-        "But it now expects revenue to grow only 1% to 2% this year, a sign that clients are still careful with tech spending."
-      ],
-      "joke": "Dividend up, forecast down: the IT sector's favourite way of saying 'it's complicated.'",
-      "vc": "Slow growth at India's IT giants means services alone won't drive the next decade. The opportunity shifts to AI products and tools that make these firms more efficient.",
-      "url": "https://www.businesstoday.in/markets/stocks/story/infosys-q2-profit-rises-6-yoy-to-rs-7823-crore-announces-rs-26-dividend-per-share-563330-2026-10-23",
-      "linkLabel": "Business Today",
-      "color": "#075985",
-      "font": "finance"
-    },
-    {
-      "id": "2026-10-25-x6",
+      "id": "2026-10-26-x13",
       "section": "money",
-      "source": "SiliconANGLE",
-      "kicker": "AI chips",
-      "emoji": "🔲",
-      "stat": "$1.5B",
-      "statLabel": "raised at a $6.2B valuation",
-      "headline": "Jim Keller's chip startup Tenstorrent raises $1.5 billion",
+      "source": "TechCrunch",
+      "kicker": "Open AI models",
+      "emoji": "🖥️",
+      "stat": "816B",
+      "statLabel": "parameters, built to run on Macs",
+      "headline": "Meta's new open AI model is built to run on Macs",
       "body": [
-        "AI chip startup Tenstorrent raised $1.5 billion at a $6.2 billion valuation, more than double its value in 2024.",
-        "Trace Capital and Innovation X led the round, with ARK Invest, Fidelity and T. Rowe Price joining.",
-        "It had explored a sale to Intel and Qualcomm this year, but chose to stay independent and build more of its Galaxy servers."
+        "Meta launched Muse Spark Open, which it calls the most capable open-weight AI model made in the US.",
+        "It has 816 billion parameters and was designed with Apple to run locally on linked Mac Studio computers.",
+        "Running AI on your own machines adds security and saves money, the companies say."
       ],
-      "joke": "Said no to Intel and Qualcomm, then raised $1.5 billion. Peak 'I'm not leaving, I'm upgrading' energy.",
-      "vc": "Investors are funding Nvidia challengers at scale. Cheaper, more open AI hardware could cut costs for every startup that rents computing power.",
-      "url": "https://siliconangle.com/2026/10/19/chip-legend-jim-kellers-tenstorrent-raises-1-5b-to-expand-its-open-compute-ecosystem/",
-      "linkLabel": "SiliconANGLE",
-      "color": "#0f766e",
-      "font": "tech"
+      "joke": "Meta and Apple teaming up. Your Mac now needs a bigger desk and a bigger budget.",
+      "vc": "Strong open models shrink the moat of paid AI APIs. Startups can build on them and keep data on their own hardware.",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "linkLabel": "TechCrunch",
+      "color": "#1f2937",
+      "font": "tech",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Mac_Studio_%282023%29_-_detail_of_cooling_airflow_holes_on_rear_side.jpg/1280px-Mac_Studio_%282023%29_-_detail_of_cooling_airflow_holes_on_rear_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Paul Hudson / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Mac_Studio_(2023)_-_detail_of_cooling_airflow_holes_on_rear_side.jpg",
+        "license": "CC BY 2.0"
+      }
     },
     {
-      "id": "2026-10-25-x7",
-      "section": "world",
-      "source": "CTV News",
-      "kicker": "Canada vote",
-      "emoji": "🍁",
-      "stat": "62 vs 29",
-      "statLabel": "seats: Conservatives vs NDP",
-      "headline": "British Columbia's snap election hands Conservatives a majority",
-      "body": [
-        "Canada's British Columbia province voted on Saturday, and the B.C. Conservatives won a majority government.",
-        "With most ballots counted, they led in 62 of 93 seats, against 29 for Premier David Eby's NDP.",
-        "Eby had called the early election himself, and he said he will step down as NDP leader."
-      ],
-      "joke": "Calling a snap election to win bigger is bold. So is calling one and losing the job.",
-      "vc": "B.C. is home to Canada's big Pacific ports, mines and forests. A new government could speed up resource and energy projects, worth watching for supply chains.",
-      "url": "https://www.ctvnews.ca/vancouver/article/bc-conservatives-win-majority-government-live-real-time-election-updates-here/",
-      "linkLabel": "CTV News",
-      "color": "#7f1d1d",
-      "font": "news"
-    },
-    {
-      "id": "2026-10-25-x8",
-      "section": "india",
-      "source": "Business Standard",
-      "kicker": "Market rout",
-      "emoji": "📉",
-      "stat": "-7.3%",
-      "statLabel": "Nifty Smallcap 100 this week",
-      "headline": "Smallcaps suffer their worst week in 20 months",
-      "body": [
-        "Indian smallcap shares fell about 7% in the week to 23 October, their worst week since February 2025.",
-        "The Nifty Smallcap 100 dropped 7.3% and the Midcap 100 lost 5.6%.",
-        "Costly oil, war worries, fears of interest rate rises and high prices for small stocks all pushed investors to sell."
-      ],
-      "joke": "Smallcap investors learned the difference between 'long term' and 'long week.'",
-      "vc": "Sharp falls flush out speculative money. That is often when patient investors find good small companies at fair prices.",
-      "url": "https://www.business-standard.com/markets/news/tumultuous-week-midcaps-and-smallcaps-suffer-worst-losses-in-20-months-126102301443_1.html",
-      "linkLabel": "Business Standard",
-      "color": "#c2410c",
-      "font": "impact"
-    },
-    {
-      "id": "2026-10-25-x9",
+      "id": "2026-10-26-x14",
       "section": "money",
-      "source": "SpaceWatch.GLOBAL",
-      "kicker": "Space tech",
-      "emoji": "🛰️",
-      "stat": "$250M",
-      "statLabel": "Series D at a $2.45B valuation",
-      "headline": "Xona raises $250 million to build a rival to GPS",
+      "source": "Inc42",
+      "kicker": "New fund",
+      "emoji": "🎯",
+      "stat": "₹700 cr",
+      "statLabel": "new AI and deeptech fund",
+      "headline": "Unacademy's founders are raising a ₹700 crore fund",
       "body": [
-        "Xona Space Systems raised $250 million at a $2.45 billion valuation to build a new satellite navigation network.",
-        "Its Pulsar satellites sit in low Earth orbit, and it pitches them as an answer to growing GPS jamming and spoofing.",
-        "Six satellites launched on 20 October, and it plans to start commercial service in 2027."
+        "Unacademy cofounders Gaurav Munjal and Roman Saini are raising ₹700 crore for a new fund, Longshot Capital.",
+        "It will back AI and deeptech startups."
       ],
-      "joke": "Finally, a GPS alternative. Now if only it could find parking in Bengaluru.",
-      "vc": "Navigation is critical infrastructure for defence, shipping and phones. Space startups selling to governments and big industry are drawing late-stage money.",
-      "url": "https://spacewatch.global/2026/10/xona-raises-250-million-in-series-d-to-scale-its-pulsar-navigation-constellation/",
-      "linkLabel": "SpaceWatch.GLOBAL",
-      "color": "#1e1b4b",
-      "font": "tech"
-    },
-    {
-      "id": "2026-10-25-x10",
-      "section": "world",
-      "source": "ANI",
-      "kicker": "Iran · Russia",
-      "emoji": "🤝",
-      "stat": "Oct 27",
-      "statLabel": "gas exporters' summit in Moscow",
-      "headline": "Iran's president heads to Moscow to meet Putin",
-      "body": [
-        "Iran's foreign minister said President Masoud Pezeshkian will travel to Moscow next week to meet Vladimir Putin.",
-        "Iran's ambassador said the visit is tied to a summit of gas-exporting countries on Tuesday, 27 October.",
-        "It would be his first trip to Russia to meet Putin since the conflict involving Iran began."
-      ],
-      "joke": "Two heavily sanctioned gas giants, meeting at a gas summit. The small talk writes itself.",
-      "vc": "Closer Iran-Russia ties can keep oil and gas prices jumpy. For an Indian manufacturer, energy and freight costs are the lines to watch.",
-      "url": "https://aninews.in/news/world/middle-east/iranian-president-pezeshkian-to-meet-putin-in-moscow-next-week-fm-araghchi20261024091956/",
-      "linkLabel": "ANI",
-      "color": "#14532d",
-      "font": "news"
-    },
-    {
-      "id": "2026-10-25-x11",
-      "section": "india",
-      "source": "The Week",
-      "kicker": "Bank stake sale",
-      "emoji": "🏦",
-      "stat": "93.85% → 75%",
-      "statLabel": "govt stake in Punjab & Sind Bank",
-      "headline": "Government plans to sell part of its stake in four state banks",
-      "body": [
-        "The government is considering selling shares in four state-run banks to cut its stake to 75%, reports say.",
-        "The banks are Central Bank of India, UCO Bank, Punjab & Sind Bank and Indian Overseas Bank, where it owns 81% to 94% today.",
-        "The sales would likely happen on the stock market within about a year, to meet the rule that at least 25% of shares be public."
-      ],
-      "joke": "Owning 94% of a listed bank is the government's 'it's complicated' relationship status.",
-      "vc": "Stake sales add share supply but can bring more market discipline to state banks. Watch the pricing; discounts often reward early buyers.",
-      "url": "https://www.theweek.in/news/biz-tech/2026/10/23/regulatory-norm-or-disinvestment-strategy-centre-muses-stake-sale-in-4-psbs-after-idbi-sale.html",
-      "linkLabel": "The Week",
-      "color": "#365314",
-      "font": "finance"
-    },
-    {
-      "id": "2026-10-25-x12",
-      "section": "money",
-      "source": "H2S Media",
-      "kicker": "AI drug labs",
-      "emoji": "🧪",
-      "stat": "$215M",
-      "statLabel": "first round, led by Lightspeed",
-      "headline": "Ex-OpenAI science chief raises $215M for robot drug labs",
-      "body": [
-        "Kevin Weil, who led science work at OpenAI, launched Warp Sciences with a $215 million first funding round led by Lightspeed.",
-        "It will make and test new molecules for drug companies in US labs, using chemists, AI and robots.",
-        "The aim is to bring back lab work that drugmakers have long sent to contractors in China."
-      ],
-      "joke": "AI designs it, robots mix it, chemists check it. The lab coat is now a dashboard.",
-      "vc": "This is 'picks and shovels' for biotech plus a supply-chain shift away from China. India's chemistry research firms should watch closely.",
-      "url": "https://www.how2shout.com/news/kevin-weil-launches-warp-sciences-with-215m-to-build-ai-drug-labs.html",
-      "linkLabel": "H2S Media",
-      "color": "#047857",
-      "font": "tech"
-    },
-    {
-      "id": "2026-10-25-x13",
-      "section": "world",
-      "source": "Militarnyi",
-      "kicker": "Ukraine war",
-      "emoji": "🔥",
-      "stat": "2,400+ km",
-      "statLabel": "from Ukraine to the target",
-      "headline": "Ukrainian drones hit a chemical plant deep in Siberia",
-      "body": [
-        "Drones struck the Omsky Kauchuk chemical plant and an Ozon warehouse in Omsk, Siberia, more than 2,400 km from Ukraine, on 24 October.",
-        "The plant makes synthetic rubber and a petrol additive, and reports said it caught fire.",
-        "Ukraine's military also said it hit a big rubber plant in Tolyatti, in central Russia, the same day."
-      ],
-      "joke": "",
-      "vc": "Strikes on Russian refineries and chemical plants keep global fuel and rubber supply tight. Tyre, auto and plastics makers feel it in their input costs.",
-      "url": "https://militarnyi.com/en/news/drones-omsky-kauchuk-ozon-2400-km-ukraine/",
-      "linkLabel": "Militarnyi",
-      "color": "#292524",
-      "font": "news"
-    },
-    {
-      "id": "2026-10-25-x14",
-      "section": "india",
-      "source": "Business Today",
-      "kicker": "Power earnings",
-      "emoji": "⚡",
-      "stat": "+142%",
-      "statLabel": "jump in quarterly profit",
-      "headline": "Adani Power's profit jumps 142%, helped by a one-time boost",
-      "body": [
-        "Adani Power's profit rose 142% to ₹7,019 crore in July to September, from ₹2,906 crore a year earlier.",
-        "About ₹2,422 crore came from a one-time revision of old power charges, while higher demand and tariffs also helped.",
-        "Revenue grew about 30% to ₹17,014 crore, and its debt stood at ₹61,860 crore."
-      ],
-      "joke": "142% growth, one-time edition. Next quarter's sequel may need a better script.",
-      "vc": "Look past headline profit to repeatable earnings. India's power demand story is real, but one-time gains can flatter the numbers.",
-      "url": "https://www.businesstoday.in/markets/stocks/story/adani-power-q2-net-profit-jumps-142-to-rs-7019-crore-debt-at-rs-61860-crore-563272-2026-10-23",
-      "linkLabel": "Business Today",
-      "color": "#92400e",
-      "font": "impact"
-    },
-    {
-      "id": "2026-10-25-x15",
-      "section": "money",
-      "source": "Helion",
-      "kicker": "Fusion energy",
-      "emoji": "☀️",
-      "stat": "$175M",
-      "statLabel": "planned US chips award",
-      "headline": "Fusion startup Helion lines up $225 million for power chips",
-      "body": [
-        "Fusion energy startup Helion signed a letter of intent for up to $175 million from the US government's CHIPS programme.",
-        "It also raised $50 million from a private investor, and the government would get a small non-voting stake.",
-        "The money will fund new power chips that Helion says could double the output of its fusion machines."
-      ],
-      "joke": "The plan: build a small sun. The bottleneck: chips. Some things never change.",
-      "vc": "Deep-tech bets now mix venture money with government cheques. Founders in energy and chips should learn to raise from both.",
-      "url": "https://www.helionenergy.com/newsroom/helion-signs-letter-of-intent-for-175-million-chips-award-to-advance-semiconductor-fusion-energy",
-      "linkLabel": "Helion",
-      "color": "#5b21b6",
-      "font": "tech"
-    },
-    {
-      "id": "2026-10-25-x16",
-      "section": "world",
-      "source": "Africanews",
-      "kicker": "Africa trade",
-      "emoji": "🚢",
-      "stat": "+24%",
-      "statLabel": "South Africa–China trade, May–Aug",
-      "headline": "South Africa's trade with China jumps after tariffs are dropped",
-      "body": [
-        "Trade between South Africa and China reached nearly $15 billion from May to August, up about 24% from a year ago.",
-        "China removed import taxes on goods from 53 African countries in May, and South Africa's exports to China rose about 25%.",
-        "Farm exports jumped more than 35%, but South Africa still buys far more from China than it sells."
-      ],
-      "joke": "Zero tariffs: the only zero everyone in trade is happy to see.",
-      "vc": "Tariff-free access to China changes the maths for African farm and mining exporters. Trade-linked businesses across Africa get a new growth lane.",
-      "url": "https://www.africanews.com/amp/2026/10/23/south-africas-bilateral-trade-with-china-surges-after-zero-tariff-deal/",
-      "linkLabel": "Africanews",
-      "color": "#0369a1",
-      "font": "finance"
-    },
-    {
-      "id": "2026-10-25-x17",
-      "section": "money",
-      "source": "Entrackr",
-      "kicker": "Bengaluru health",
-      "emoji": "🏥",
-      "stat": "$50M",
-      "statLabel": "Series B led by Khosla Ventures",
-      "headline": "Bengaluru's Even Healthcare raises $50M to build hospitals",
-      "body": [
-        "Bengaluru-based Even Healthcare raised $50 million in a round led by its existing investor, Khosla Ventures.",
-        "It will use the money to open five new hospitals in Bengaluru over the next six months.",
-        "Its doctors earn fixed salaries, with bonuses tied to patient results rather than the number of procedures."
-      ],
-      "joke": "A hospital that earns more when you need it less. Your gym has used this model for years.",
-      "vc": "Even bets on fixing incentives in Indian healthcare, a huge and broken market. Watch whether its membership model scales beyond Bengaluru.",
-      "url": "https://entrackr.com/news/even-healthcare-raises-50-mn-in-series-b-led-by-khosla-ventures-12688553",
-      "linkLabel": "Entrackr",
+      "joke": "From teaching exams to grading pitches: the ultimate career test.",
+      "vc": "Founder-run funds often see deals early through their networks. For founders, an operator investor can help more than a bigger cheque.",
+      "url": "https://inc42.com/buzz/unacademy-cofounders-plan-%e2%82%b9700-cr-ai-deeptech-fund-longshot-capital/",
+      "linkLabel": "Inc42",
       "color": "#9d174d",
-      "font": "editorial"
-    },
-    {
-      "id": "2026-10-25-x18",
-      "section": "india",
-      "source": "The Week",
-      "kicker": "Bengaluru metro",
-      "emoji": "🚇",
-      "stat": "6.7 → 96",
-      "statLabel": "km of metro, at launch vs now",
-      "headline": "Namma Metro turns 15 and aims beyond 100 km",
-      "body": [
-        "Bengaluru's Namma Metro has completed 15 years of passenger service.",
-        "It has grown from a 6.7 km line to about 96 km, and plans to cross 100 km.",
-        "Its 57 original trains are getting their first major overhaul, but the city's traffic jams have not gone away."
-      ],
-      "joke": "15 years of metro, and Bengaluru traffic is still undefeated.",
-      "vc": "Metro lines reshape where people live and work. Real estate, retail and logistics near new stations tend to gain first.",
-      "url": "https://www.theweek.in/news/biz-tech/2026/10/21/namma-metro-15-years-bengaluru-transit.html",
-      "linkLabel": "The Week",
-      "color": "#6b21a8",
-      "font": "editorial"
-    },
-    {
-      "id": "2026-10-25-x19",
-      "section": "india",
-      "source": "YourStory",
-      "kicker": "Rural healthtech",
-      "emoji": "🩺",
-      "stat": "₹100 cr",
-      "statLabel": "raised, led by IvyCap Ventures",
-      "headline": "Rural health startup CureBay raises ₹100 crore",
-      "body": [
-        "Bhubaneswar-based CureBay raised about ₹100 crore in a round led by IvyCap Ventures.",
-        "That is ₹69 crore in equity and over ₹30 crore in debt, and part of it will fund a move into Andhra Pradesh.",
-        "CureBay runs more than 250 clinics in seven states, helped by over 1,800 local health workers."
-      ],
-      "joke": "Healthcare that comes to the village, instead of the village taking a bus to the city.",
-      "vc": "Rural health is big and underserved. Mixing equity with venture debt lets founders grow without giving away too much of the company.",
-      "url": "https://yourstory.com/2026/10/curebay-raises-rs-100-cr-in-pre-series-c-round-led-by-ivycap-ventures",
-      "linkLabel": "YourStory",
-      "color": "#3f6212",
-      "font": "editorial"
-    },
-    {
-      "id": "2026-10-25-x20",
-      "section": "world",
-      "source": "The Rio Times",
-      "kicker": "Mexico economy",
-      "emoji": "🇲🇽",
-      "stat": "+3.3%",
-      "statLabel": "economic output, year to August",
-      "headline": "Mexico's economy grows faster than expected",
-      "body": [
-        "Mexico's economic output grew 3.3% in the year to August, above the 3.1% that forecasters expected.",
-        "Mexican shares were steady and the peso firmed at the end of the week.",
-        "Diesel buyers got no tax relief for a sixth week in a row."
-      ],
-      "joke": "Mexico beat forecasts. Economists are now forecasting by how much it will beat forecasts.",
-      "vc": "Mexico gains as companies move factories closer to the US. For Indian manufacturers it is both a rival and a partner market.",
-      "url": "https://riotimesonline.com/latin-american-pulse-for-saturday-october-24-2026",
-      "linkLabel": "The Rio Times",
-      "color": "#a21caf",
       "font": "finance"
+    },
+    {
+      "id": "2026-10-26-x15",
+      "section": "money",
+      "source": "Inc42",
+      "kicker": "AI shopping",
+      "emoji": "🛍️",
+      "stat": "US",
+      "statLabel": "next market for Glance",
+      "headline": "L Catterton invests in InMobi's Glance for a US push",
+      "body": [
+        "Consumer investment firm L Catterton has made a strategic investment in Glance, an AI shopping platform backed by InMobi.",
+        "Glance will use it to grow its AI shopping business in the US."
+      ],
+      "joke": "Your lock screen wants to sell you things. Now in American English too.",
+      "vc": "Indian consumer-tech firms are taking AI products to the US for bigger wallets. A brand-focused investor like L Catterton can open retail doors there.",
+      "url": "https://inc42.com/buzz/l-catterton-backs-inmobi-backed-glance-to-expand-its-ai-shopping-business-in-us/",
+      "linkLabel": "Inc42",
+      "color": "#be185d",
+      "font": "tech",
+      "image": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Bangalore_Skyline_from_Lal_Bagh.jpg/1280px-Bangalore_Skyline_from_Lal_Bagh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Innocentbunny / Wikimedia Commons",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bangalore_Skyline_from_Lal_Bagh.jpg",
+        "license": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "2026-10-26-x16",
+      "section": "money",
+      "source": "Inc42",
+      "kicker": "Trading AI",
+      "emoji": "📈",
+      "stat": "$4.1M",
+      "statLabel": "seed round",
+      "headline": "AI trading platform Tradl raises a $4.1M seed round",
+      "body": [
+        "AI-powered trading platform Tradl raised $4.1 million in seed funding, Inc42 reports.",
+        "Nexus Venture Partners, Stellaris Venture Partners and a few angel investors put in the money."
+      ],
+      "joke": "An AI that trades. Let's hope it panics less than we do.",
+      "vc": "AI tools for retail traders are crowded, so trust and distribution matter most. Watch how they handle risk and regulation.",
+      "url": "https://inc42.com/buzz/exclusive-ai-powered-trading-platform-tradl-bags-4-1-mn-from-nexus-stellaris/",
+      "linkLabel": "Inc42",
+      "color": "#155e75",
+      "font": "tech"
     }
   ]
 }

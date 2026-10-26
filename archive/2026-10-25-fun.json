@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T17:30:00+05:30",
+  "items": [
+    {
+      "id": "2026-10-25-f2",
+      "type": "good",
+      "source": "MPR News",
+      "emoji": "🚌",
+      "color": "#b45309",
+      "headline": "Store owner stops a runaway school bus with 18 kids aboard",
+      "caption": "Ebro Ahmed, 27, climbed in after the driver had a seizure. Every child was safe.",
+      "body": [
+        "In St. Paul, Minnesota, 27-year-old Ebro Ahmed saw a school bus roll past his store while the driver was having a seizure.",
+        "He climbed aboard, put the bus in neutral, set the parking brake and called for help. None of the 18 children were hurt, and the driver is expected to be OK.",
+        "He credits the TV show Grey's Anatomy for helping him stay calm, and he was given a $1,000 award."
+      ],
+      "url": "https://mprnews.org/story/2026/10/23/st-paul-man-saves-runaway-school-bus-of-kids-gets-1000-reward",
+      "linkLabel": "MPR News"
+    },
+    {
+      "id": "2026-10-25-f4",
+      "type": "good",
+      "source": "Good Good Good",
+      "emoji": "🌳",
+      "color": "#166534",
+      "headline": "Amazon deforestation falls to its lowest in almost 40 years",
+      "caption": "Clearing in Brazil's Amazon is down nearly 42% from the same period last year.",
+      "body": [
+        "Deforestation in Brazil's Amazon has fallen to its lowest level in almost four decades, according to the latest data.",
+        "That is a drop of nearly 42% compared with the same period last year."
+      ],
+      "url": "https://www.goodgoodgood.co/articles/good-news-this-week-october-24-2026",
+      "linkLabel": "Good Good Good"
+    },
+    {
+      "id": "2026-10-25-f6",
+      "type": "good",
+      "source": "Good Good Good",
+      "emoji": "🌱",
+      "color": "#0f766e",
+      "headline": "Women in Nigeria plant 150,000 mangroves to heal their coast",
+      "caption": "Women-led groups are replanting mangroves in a polluted part of the country.",
+      "body": [
+        "In a polluted region of Nigeria, women-led groups are replanting mangrove forests.",
+        "One trainee and a dozen other women have planted more than 150,000 mangrove saplings."
+      ],
+      "url": "https://www.goodgoodgood.co/articles/good-news-this-week-october-24-2026",
+      "linkLabel": "Good Good Good"
+    }
+  ]
+}
