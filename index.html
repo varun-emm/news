@@ -247,6 +247,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   <div class="status" id="moreStatus"></div>
   <div class="label">Show</div>
   <nav id="tabs" aria-label="Show"></nav>
+  <div class="label">Fashion</div>
+  <nav id="fashionEvery" aria-label="Fashion frequency"></nav>
   <div class="label">Deck</div>
   <div class="group">
     <button id="shuffleBtn">Shuffle the deck <small>🔀</small></button>
@@ -267,7 +269,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   };
   const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["saved","🔖 Saved"]];
   const LABEL = {world:"World", india:"India", money:"Money Desk"};
-  const VERSION = '2.8'; // bump on every change to this page, so it's easy to tell which copy you have
+  const VERSION = '2.9'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
@@ -287,7 +289,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   };
   const isFun = s => !!FUN[s.type];
   const isCalm = s => !isFun(s) && !s.joke; // no joke means a sad story: keep it gentle
-  let fun = [];
+  let fun = [], fashion = [];
   function lighten(hex){
     const n = parseInt((hex||'#888').slice(1),16); let r=n>>16,g=n>>8&255,b=n&255;
     r=Math.round(r+(255-r)*.45); g=Math.round(g+(255-g)*.45); b=Math.round(b+(255-b)*.45);
@@ -313,11 +315,17 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     return filter === 'all' ? withFun(news) : news;
   }
   // drop a fun story in after every 3rd, 4th or 6th news story; the gaps are fixed for the day
+  // fashion comes after every Nth news story (set in Settings); good news and releases drop in after every 3rd, 4th or 6th
   function withFun(news){
-    if(!fun.length) return news;
+    if(!fun.length && !fashion.length) return news;
+    const every = store.get('fashionEvery', 2);
     const rnd = seeded(data.date + '-fun'), gap = () => [3,4,6][Math.floor(rnd() * 3)];
-    const out = []; let k = 0, next = gap();
-    news.forEach(s => { out.push(s); if(--next === 0){ if(k < fun.length) out.push(fun[k++]); next = gap(); } });
+    const out = []; let k = 0, f = 0, next = gap();
+    news.forEach((s, i) => {
+      out.push(s);
+      if(every && (i + 1) % every === 0 && f < fashion.length) out.push(fashion[f++]);
+      if(--next === 0){ if(k < fun.length) out.push(fun[k++]); next = gap(); }
+    });
     return out;
   }
   function renderTabs(){
@@ -682,7 +690,9 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
       const m = await r.json();
       if(!m || m.date !== data.date || !Array.isArray(m.items)) return;
       const groups = {};
-      m.items.filter(x => x && x.id && x.headline && FUN[x.type] && (x.type !== 'fashion' || (x.image && x.image.url))).forEach(x => (groups[x.type] = groups[x.type] || []).push(x));
+      const items = m.items.filter(x => x && x.id && x.headline && FUN[x.type]);
+      fashion = items.filter(x => x.type === 'fashion' && x.image && x.image.url); // a fashion card without a photo isn't worth showing
+      items.filter(x => x.type !== 'fashion').forEach(x => (groups[x.type] = groups[x.type] || []).push(x));
       const types = Object.keys(groups), rnd = seeded(data.date + '-mix');
       for(let i=types.length-1;i>0;i--){ const j=Math.floor(rnd()*(i+1)); [types[i],types[j]]=[types[j],types[i]]; }
       fun = [];
@@ -703,6 +713,19 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   $('#moreBtn').onclick = moreNews;
   $('#shuffleBtn').onclick = () => { shuffle(); closePanel(); };
   $('#resetBtn').onclick = () => { reset(); closePanel(); };
+  function renderFashionEvery(){
+    const cur = store.get('fashionEvery', 2);
+    $('#fashionEvery').innerHTML = [[2,'Every 2'],[3,'Every 3'],[4,'Every 4'],[6,'Every 6'],[0,'Off']]
+      .map(([n,l]) => `<button class="chip" data-n="${n}" aria-pressed="${cur===n}">👔 ${l}</button>`).join('');
+    $('#fashionEvery').querySelectorAll('.chip').forEach(b => b.onclick = () => {
+      const keep = list[idx] && list[idx].id; // stay on the same story while the deck re-flows
+      store.set('fashionEvery', +b.dataset.n); renderFashionEvery();
+      const at = visible().findIndex(x => x.id === keep);
+      show(at >= 0 ? at : Math.min(idx, visible().length - 1), 1, true);
+      toast(+b.dataset.n ? `Fashion after every ${b.dataset.n} stories` : 'Fashion cards off');
+    });
+  }
+  renderFashionEvery();
   $('#openSettings').onclick = openPanel; $('#closeSettings').onclick = closePanel;
   $('#scrim').onclick = () => { closeSheet(); closePanel(); };
   document.addEventListener('keydown', e => {

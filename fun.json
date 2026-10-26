@@ -172,6 +172,160 @@
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Yellow_fever_vaccination_05.jpg",
         "license": "CC BY-SA 4.0"
       }
+    },
+    {
+      "id": "2026-10-26-f9",
+      "type": "fashion",
+      "source": "Highsnobiety",
+      "emoji": "👟",
+      "color": "#3b0764",
+      "headline": "This week's best sneakers: SZA's Vans to MM6 Salomons",
+      "caption": "Highsnobiety's seven best sneakers of the week, from a Vans mule to a chunky Pharrell adidas.",
+      "body": [
+        "Highsnobiety picked the seven best sneakers out this week.",
+        "They include SZA's Vans Old Skool Mule, MM6 Maison Margiela's Salomon trail shoe, an OTTO 958 x ASICS pair and a chunky Pharrell Williams adidas.",
+        "How to wear it: trail-style sneakers like the Salomons look sharp with straight trousers, not just hiking gear."
+      ],
+      "url": "https://www.highsnobiety.com/p/sneaker-releases-2026-october-week-4/",
+      "linkLabel": "Highsnobiety",
+      "image": {
+        "url": "https://www.highsnobiety.com/static-assets/dato/1792485842-5x4-otto-bela-nologos-16-1800x-q72.png",
+        "credit": "Highsnobiety",
+        "creditUrl": "https://www.highsnobiety.com/p/sneaker-releases-2026-october-week-4/",
+        "preview": true
+      }
+    },
+    {
+      "id": "2026-10-26-f10",
+      "type": "fashion",
+      "source": "Highsnobiety × Mr Porter",
+      "emoji": "🧶",
+      "color": "#365314",
+      "headline": "Dress like a country gent this winter",
+      "caption": "Chunky knits, sturdy boots and estate-ready layers from Mr Porter, picked by Highsnobiety.",
+      "body": [
+        "Highsnobiety and Mr Porter put together the winter essentials for a 'countryside-core' look.",
+        "Think chunky knit sweaters and sturdy boots, made for long walks and pub lunches.",
+        "How to wear it: one thick knit and good boots do most of the work, even in the city."
+      ],
+      "url": "https://www.highsnobiety.com/p/countryside-core-winter-guide-mr-porter/",
+      "linkLabel": "Highsnobiety × Mr Porter",
+      "image": {
+        "url": "https://www.highsnobiety.com/static-assets/dato/1792758663-mr-porter-oct-landscape.jpg",
+        "credit": "Highsnobiety × Mr Porter",
+        "creditUrl": "https://www.highsnobiety.com/p/countryside-core-winter-guide-mr-porter/",
+        "preview": true
+      }
+    },
+    {
+      "id": "2026-10-26-f11",
+      "type": "fashion",
+      "source": "GQ",
+      "emoji": "👔",
+      "color": "#172554",
+      "headline": "The perfect old-school Oxford shirt still exists",
+      "caption": "J.Press still makes its button-down Oxford with the retro details Ivy-style fans love.",
+      "body": [
+        "GQ says it is hard to find a button-down Oxford shirt made with the old details Ivy-style fans love, but J.Press still makes them.",
+        "Its flap-pocket Oxford is a shirt that works almost anywhere without looking like you tried too hard.",
+        "How to wear it: pale blue goes with nearly everything; tuck it into jeans or wear it under a blazer."
+      ],
+      "url": "https://www.gq.com/story/jpress-flap-pocket-oxford-shirt-three-outfits",
+      "linkLabel": "GQ",
+      "image": {
+        "url": "https://media.gq.com/photos/6ad906ea71fa9a11b2758113/16:9/w_1280,c_limit/LedeDesignOxford-2.jpg",
+        "credit": "GQ",
+        "creditUrl": "https://www.gq.com/story/jpress-flap-pocket-oxford-shirt-three-outfits",
+        "preview": true
+      }
+    },
+    {
+      "id": "2026-10-26-f12",
+      "type": "fashion",
+      "source": "Esquire Australia",
+      "emoji": "🎾",
+      "color": "#14532d",
+      "headline": "BOSS bets on tennis style at the Australian Open",
+      "caption": "BOSS is now the official lifestyle outfitter of the Australian Open.",
+      "body": [
+        "BOSS unveiled its collections as the Official Lifestyle Outfitters of the Australian Open.",
+        "Esquire argues that tennis, with its century-old 'tennis whites', has shaped how we dress more than almost any sport.",
+        "How to wear it: crisp white knits and pleated trousers give you the court look off the court."
+      ],
+      "url": "https://esquire.com.au/australian-open-style-boss/",
+      "linkLabel": "Esquire Australia",
+      "image": {
+        "url": "https://esquire.com.au/wp-content/uploads/2026/10/BOSS_x_AO_Event_Melbourne_001__image-mid-res-1.jpeg",
+        "credit": "Esquire Australia",
+        "creditUrl": "https://esquire.com.au/australian-open-style-boss/",
+        "preview": true
+      }
+    },
+    {
+      "id": "2026-10-26-f13",
+      "type": "fashion",
+      "source": "GQ",
+      "emoji": "⌚",
+      "color": "#422006",
+      "headline": "An $82,000 watch sold out before anyone saw it",
+      "caption": "Fans of indie watchmaker Biver paid deposits from a text description alone.",
+      "body": [
+        "A new $82,000 Biver watch sold out after a New York boutique described it in a fan group chat.",
+        "Buyers wired deposits before even seeing a photo, and it is now sold out until 2029.",
+        "GQ says this kind of buying from private group chats is common among fans of indie watchmakers."
+      ],
+      "url": "https://www.gq.com/story/biver-ab-watch-group-chats-box-and-papers-10-16-2026",
+      "linkLabel": "GQ",
+      "image": {
+        "url": "https://media.gq.com/photos/6ad245b5b7b561aef835dd00/16:9/w_1280,c_limit/b%20&%20p%20copy.jpg",
+        "credit": "GQ",
+        "creditUrl": "https://www.gq.com/story/biver-ab-watch-group-chats-box-and-papers-10-16-2026",
+        "preview": true
+      }
+    },
+    {
+      "id": "2026-10-26-f14",
+      "type": "fashion",
+      "source": "Esquire Australia",
+      "emoji": "🩳",
+      "color": "#0c4a6e",
+      "headline": "Orlebar Brown drops two new swim shorts for summer",
+      "caption": "Meet the Boxer and the Jack, from the brand that made swim shorts cut like tailored trousers.",
+      "body": [
+        "Orlebar Brown released two new swim shorts ahead of summer, the Boxer and the Jack.",
+        "The brand began in 2007 with swim shorts cut like tailored trousers, with side adjusters and a flat front.",
+        "How to wear it: a tailored swim short works from the pool to lunch with a linen shirt on top."
+      ],
+      "url": "https://esquire.com.au/orlebar-brown-swimwear/",
+      "linkLabel": "Esquire Australia",
+      "image": {
+        "url": "https://esquire.com.au/wp-content/uploads/2026/10/SQUARE-20260412_ORLEBAR_BROWN_LAKE_COMO_SHOT_12_047-copy.jpg",
+        "credit": "Esquire Australia",
+        "creditUrl": "https://esquire.com.au/orlebar-brown-swimwear/",
+        "preview": true
+      }
+    },
+    {
+      "id": "2026-10-26-f15",
+      "type": "fashion",
+      "source": "Highsnobiety",
+      "emoji": "🖤",
+      "color": "#18181b",
+      "headline": "Top designers all wore the same uniform this season",
+      "caption": "At Milan and Paris shows, a dozen designers bowed in loose tops, dark belts and faded jeans.",
+      "body": [
+        "After the Spring/Summer 2027 shows in Milan and Paris, more than a dozen designers took their bows in nearly the same outfit.",
+        "That meant a loose top half-tucked with rolled sleeves, often black, plus a dark leather belt and faded straight-ish jeans.",
+        "How to wear it: copy it exactly; it is the easiest designer look you will ever pull off."
+      ],
+      "url": "https://www.highsnobiety.com/p/designer-uniforms-ss27/",
+      "linkLabel": "Highsnobiety",
+      "image": {
+        "url": "https://www.highsnobiety.com/static-assets/dato/1791319197-designer-uniforms-ss27-1.jpg",
+        "credit": "Highsnobiety",
+        "creditUrl": "https://www.highsnobiety.com/p/designer-uniforms-ss27/",
+        "preview": true
+      }
     }
   ]
 }
