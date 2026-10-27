@@ -22,7 +22,8 @@
     "credit": "Highsnobiety",
     "creditUrl": "https://www.highsnobiety.com/p/adidas-tokyo-ballerina-fruition/",
     "preview": true
-   }
+   },
+   "embed": false
   },
   {
    "id": "2026-10-27-f2",
@@ -44,7 +45,8 @@
     "credit": "Highsnobiety",
     "creditUrl": "https://www.highsnobiety.com/p/alo-fleece-hype/",
     "preview": true
-   }
+   },
+   "embed": false
   },
   {
    "id": "2026-10-27-f3",
@@ -66,7 +68,8 @@
     "credit": "Highsnobiety",
     "creditUrl": "https://www.highsnobiety.com/p/nike-air-force-1-square-toe/",
     "preview": true
-   }
+   },
+   "embed": false
   },
   {
    "id": "2026-10-27-f4",
@@ -88,7 +91,8 @@
     "credit": "Highsnobiety",
     "creditUrl": "https://www.highsnobiety.com/p/nike-p-6000-cordura-thunder-blue/",
     "preview": true
-   }
+   },
+   "embed": false
   },
   {
    "id": "2026-10-27-f5",
@@ -110,7 +114,8 @@
     "credit": "Highsnobiety",
     "creditUrl": "https://www.highsnobiety.com/p/prada-frank-ocean-sneaker-new/",
     "preview": true
-   }
+   },
+   "embed": false
   },
   {
    "id": "2026-10-27-f6",
@@ -132,7 +137,8 @@
     "credit": "GQ",
     "creditUrl": "https://www.gq.com/story/new-balance-990v7-release-date",
     "preview": true
-   }
+   },
+   "embed": false
   },
   {
    "id": "2026-10-27-f7",
@@ -154,7 +160,8 @@
     "credit": "Highsnobiety",
     "creditUrl": "https://www.highsnobiety.com/p/the-best-liner-jackets-and-vests-guide/",
     "preview": true
-   }
+   },
+   "embed": false
   },
   {
    "id": "2026-10-27-f8",
@@ -176,7 +183,8 @@
     "credit": "Highsnobiety",
     "creditUrl": "https://www.highsnobiety.com/p/eckhaus-latta-les-new-store/",
     "preview": true
-   }
+   },
+   "embed": false
   },
   {
    "id": "2026-10-27-f9",
@@ -198,7 +206,8 @@
     "credit": "Highsnobiety",
     "creditUrl": "https://www.highsnobiety.com/p/monad-brand-interview/",
     "preview": true
-   }
+   },
+   "embed": false
   },
   {
    "id": "2026-10-27-f10",
@@ -220,7 +229,8 @@
     "credit": "Highsnobiety",
     "creditUrl": "https://www.highsnobiety.com/p/polofest-reimagined/",
     "preview": true
-   }
+   },
+   "embed": false
   },
   {
    "id": "2026-10-27-f11",
@@ -242,7 +252,8 @@
     "credit": "Highsnobiety",
     "creditUrl": "https://www.highsnobiety.com/p/artist-uniform-for-hiroshi-fujiwara-the-uniform-is-everything/",
     "preview": true
-   }
+   },
+   "embed": false
   },
   {
    "id": "2026-10-27-f12",
@@ -264,7 +275,8 @@
     "credit": "Esquire Australia",
     "creditUrl": "https://esquire.com.au/jarrod-scott-day-in-the-life/",
     "preview": true
-   }
+   },
+   "embed": true
   },
   {
    "id": "2026-10-27-f13",
@@ -286,7 +298,8 @@
     "credit": "GQ",
     "creditUrl": "https://www.gq.com/story/gold-watches-for-your-consideration-2026",
     "preview": true
-   }
+   },
+   "embed": false
   },
   {
    "id": "2026-10-27-f14",
@@ -308,7 +321,8 @@
     "credit": "Good News Network",
     "creditUrl": "https://www.goodnewsnetwork.org/numbers-of-endangered-and-sacred-river-dolphin-grow-by-6-after-successful-breeding-season/",
     "preview": true
-   }
+   },
+   "embed": true
   },
   {
    "id": "2026-10-27-f15",
@@ -330,7 +344,8 @@
     "credit": "Good News Network",
     "creditUrl": "https://www.goodnewsnetwork.org/man-named-service-cleans-up-nyc-dumping-site-on-his-own-initiative/",
     "preview": true
-   }
+   },
+   "embed": true
   },
   {
    "id": "2026-10-27-f16",
@@ -352,7 +367,8 @@
     "credit": "Positive News",
     "creditUrl": "https://www.positive.news/society/good-news-stories-from-week-43-of-2026/",
     "preview": true
-   }
+   },
+   "embed": false
   },
   {
    "id": "2026-10-27-f17",
@@ -374,7 +390,8 @@
     "credit": "Good News Network",
     "creditUrl": "https://www.goodnewsnetwork.org/stunning-new-opera-house-welcomes-you-with-gravity-defying-grand-staircase-look/",
     "preview": true
-   }
+   },
+   "embed": true
   }
  ]
 }

@@ -188,6 +188,22 @@ header{display:flex;align-items:center;padding:6px 8px 8px 18px;gap:8px}
 .meta{font-size:12px;color:var(--muted);margin-top:14px}
 .meta a{color:inherit}
 
+/* mini browser for fun cards: like Instagram's in-app browser */
+.web{position:fixed;left:0;right:0;bottom:0;top:calc(env(safe-area-inset-top) + 10px);margin:0 auto;max-width:560px;background:#fff;border-radius:var(--r) var(--r) 0 0;
+  transform:translateY(105%);transition:transform .4s cubic-bezier(.2,.85,.2,1);z-index:22;overflow:hidden;display:flex;flex-direction:column}
+.web.on{transform:none}
+.web .bar{flex:none;display:grid;grid-template-columns:64px 1fr 64px;align-items:center;padding:12px 10px 10px;background:#1c1c1e;color:#fff;position:relative;touch-action:none}
+.web .bar::before{content:"";position:absolute;top:5px;left:50%;transform:translateX(-50%);width:36px;height:4px;border-radius:4px;background:rgba(255,255,255,.35)}
+.web .bar button{font-size:15px;font-weight:600;color:#fff;padding:6px;justify-self:start}
+.web .bar button.ext{justify-self:end;font-size:18px}
+.web .addr{text-align:center;min-width:0}
+.web .addr b{display:block;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.web .addr small{display:block;font-size:11px;color:#98989d;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.web .prog{position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--accent);transition:width 8s cubic-bezier(.1,.7,.1,1),opacity .3s}
+.web.loading .prog{width:85%}
+.web.loaded .prog{width:100%;opacity:0;transition:width .2s,opacity .4s .2s}
+.web iframe{flex:1;width:100%;border:0;background:#fff}
+
 /* settings */
 .panel{position:fixed;top:0;right:0;bottom:0;width:min(370px,100%);background:#111;z-index:31;transform:translateX(105%);transition:.38s cubic-bezier(.2,.85,.2,1);
   padding:calc(env(safe-area-inset-top) + 16px) 18px calc(env(safe-area-inset-bottom) + 20px);display:flex;flex-direction:column;gap:12px;overflow-y:auto}
@@ -240,6 +256,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
 
 <div class="scrim" id="scrim"></div>
 <section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Story details"></section>
+<section class="web" id="web" role="dialog" aria-modal="true" aria-label="Article"></section>
 
 <aside class="panel" id="panel" aria-label="Settings">
   <h3>NEWS <button class="iconbtn" id="closeSettings" aria-label="Close">✕</button></h3>
@@ -269,7 +286,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   };
   const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["saved","🔖 Saved"]];
   const LABEL = {world:"World", india:"India", money:"Money Desk"};
-  const VERSION = '2.9'; // bump on every change to this page, so it's easy to tell which copy you have
+  const VERSION = '3.0'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
@@ -601,7 +618,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
       return;
     }
     lastTap = now;
-    tapTimer = setTimeout(() => openSheet(s), 290);
+    const onPhoto = isFun(s) && e.target.closest('.c-funphoto'); // photo opens the article itself, the caption opens the write-up
+    tapTimer = setTimeout(() => onPhoto ? openWeb(s) : openSheet(s), 290);
   }
 
   let wheelLock = 0, wheelSum = 0;
@@ -642,6 +660,27 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     hero.addEventListener('pointerdown', e => { y0 = e.clientY; });
     hero.addEventListener('pointerup', e => { if(y0 !== null && e.clientY - y0 > 60) closeSheet(); y0 = null; });
     sheet.classList.add('on'); $('#scrim').classList.add('on');
+  }
+  // ---- mini browser: sites that allow framing open in place; the rest open in the system's in-app browser ----
+  function openWeb(s){
+    const url = safeUrl(s.url);
+    if(!s.embed || !/^https:/.test(url)){ window.open(url, '_blank', 'noopener'); return; }
+    const web = $('#web'), host = new URL(url).hostname.replace(/^www\./, '');
+    web.className = 'web loading';
+    web.innerHTML = `<div class="bar"><button class="done">Done</button><div class="addr"><b>${esc(s.headline)}</b><small>🔒 ${esc(host)}</small></div><button class="ext" aria-label="Open in browser">↗</button><span class="prog"></span></div>
+      <iframe src="${esc(url)}" referrerpolicy="no-referrer" allow="fullscreen" title="${esc(s.headline)}"></iframe>`;
+    web.querySelector('iframe').onload = () => web.classList.replace('loading', 'loaded');
+    web.querySelector('.done').onclick = closeWeb;
+    web.querySelector('.ext').onclick = () => { window.open(url, '_blank', 'noopener'); };
+    let y0 = null; const bar = web.querySelector('.bar');
+    bar.addEventListener('pointerdown', e => { y0 = e.clientY; });
+    bar.addEventListener('pointerup', e => { if(y0 !== null && e.clientY - y0 > 60) closeWeb(); y0 = null; });
+    requestAnimationFrame(() => web.classList.add('on')); $('#scrim').classList.add('on');
+  }
+  function closeWeb(){
+    const web = $('#web'); if(!web.classList.contains('on')) return;
+    web.classList.remove('on'); if(!$('#sheet').classList.contains('on') && !$('#panel').classList.contains('on')) $('#scrim').classList.remove('on');
+    setTimeout(() => { if(!web.classList.contains('on')) web.innerHTML = ''; }, 450); // stop the page (and any video) once it's hidden
   }
   function closeSheet(){ $('#sheet').classList.remove('on'); if(!$('#panel').classList.contains('on')) $('#scrim').classList.remove('on'); }
   const openPanel = () => { $('#panel').classList.add('on'); $('#scrim').classList.add('on'); };
@@ -727,9 +766,9 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   }
   renderFashionEvery();
   $('#openSettings').onclick = openPanel; $('#closeSettings').onclick = closePanel;
-  $('#scrim').onclick = () => { closeSheet(); closePanel(); };
+  $('#scrim').onclick = () => { closeWeb(); closeSheet(); closePanel(); };
   document.addEventListener('keydown', e => {
-    if(e.key === 'Escape'){ closeSheet(); closePanel(); return; }
+    if(e.key === 'Escape'){ closeWeb(); closeSheet(); closePanel(); return; }
     if($('#sheet').classList.contains('on') || $('#panel').classList.contains('on') || e.target.tagName === 'INPUT') return;
     if(['ArrowDown','ArrowRight','j',' '].includes(e.key)){ e.preventDefault(); go(1); }
     else if(['ArrowUp','ArrowLeft','k'].includes(e.key)){ e.preventDefault(); go(-1); }
