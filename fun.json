@@ -1,394 +1,371 @@
 {
- "date": "2026-10-27",
- "generatedAt": "2026-10-26T22:23:36Z",
+ "date": "2026-10-28",
+ "generatedAt": "2026-10-28T03:52:08+05:30",
  "items": [
   {
-   "id": "2026-10-27-f1",
+   "id": "2026-10-28-f1",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🩰",
-   "color": "#7c2d12",
-   "headline": "adidas Tokyo goes full ballerina",
-   "caption": "Taipei label Fruition turns the slim adidas Tokyo into a luxe ballet sneaker.",
+   "emoji": "🛌",
+   "color": "#78350f",
+   "headline": "AURALEE and Tekla make luxe loungewear again",
+   "caption": "Wool-cashmere knits, check flannel pyjamas and shearling slippers.",
    "body": [
-    "Fruition's Tokyo Ballerina uses top suede, stitched leather stripes and quilted insoles.",
-    "Sheer ribbons replace laces, and the scrunched upper gives a real ballet-shoe feel.",
-    "How to wear it: cropped wide trousers so the ribbons show."
+    "Danish textile brand Tekla and Japanese label AURALEE are back with a second collaboration.",
+    "Both are known for top-quality fabrics, and the range is all about cosy.",
+    "How to wear it: flannel PJ trousers with a chunky knit, at home and proud."
    ],
-   "url": "https://www.highsnobiety.com/p/adidas-tokyo-ballerina-fruition/",
+   "url": "https://www.highsnobiety.com/p/auralee-tekla-2026/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793032979-adidas-tokyo-ballet-fruition-0.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1793112831-tekla-auralee-02-1.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/adidas-tokyo-ballerina-fruition/",
+    "creditUrl": "https://www.highsnobiety.com/p/auralee-tekla-2026/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-10-27-f2",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "🧥",
-   "color": "#3f6212",
-   "headline": "Is the luxury fleece era over?",
-   "caption": "A$AP Rocky keeps wearing a $148 Alo half-zip instead of designer fleece.",
-   "body": [
-    "Rocky stepped out again in Alo, the LA athleisure brand better known for leggings.",
-    "Highsnobiety reads it as a sign that very expensive look-alike designer fleece is losing its pull.",
-    "How to wear it: a plain half-zip over a tee, with straight-leg trousers."
-   ],
-   "url": "https://www.highsnobiety.com/p/alo-fleece-hype/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793021693-alo-asap-rocky-01.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/alo-fleece-hype/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-10-27-f3",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "👟",
-   "color": "#1f2937",
-   "headline": "Nike squares off the Air Force 1",
-   "caption": "The 'Squair Toe' AF1 Low lands in black and white textured leather.",
-   "body": [
-    "It keeps the classic perforations and Air sole but slims and squares the toe box.",
-    "Premium textured leather leans into a dressier, almost formal look.",
-    "How to wear it: with tailored trousers where you'd normally wear loafers."
-   ],
-   "url": "https://www.highsnobiety.com/p/nike-air-force-1-square-toe/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793032717-nike-air-force-1-square-toe-0.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/nike-air-force-1-square-toe/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-10-27-f4",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "👖",
-   "color": "#1e3a8a",
-   "headline": "Nike's P-6000 dresses in 'Thunder Blue'",
-   "caption": "Cordura that looks like denim gives the dad sneaker a workwear edge.",
-   "body": [
-    "It isn't denim but Cordura, a tough nylon-like fabric used in workwear and army uniforms.",
-    "It's the first Cordura P-6000 in a while, and Highsnobiety calls these the best versions.",
-    "How to wear it: carpenter trousers and a chore jacket."
-   ],
-   "url": "https://www.highsnobiety.com/p/nike-p-6000-cordura-thunder-blue/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793032830-nike-p-6000-cordura-thunder-blue-0.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/nike-p-6000-cordura-thunder-blue/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-10-27-f5",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "⛵",
-   "color": "#0c4a6e",
-   "headline": "Frank Ocean's new Prada sneaker",
-   "caption": "A rare Instagram Story shows Frank in Prada's updated America's Cup.",
-   "body": [
-    "The shoe updates Prada's 1997 sailing sneaker made for the Luna Rossa team.",
-    "The new one uses brushed leather and bike fabric and is lighter and sleeker.",
-    "How to wear it: a crisp white shirt and relaxed navy trousers."
-   ],
-   "url": "https://www.highsnobiety.com/p/prada-frank-ocean-sneaker-new/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793038727-hero_frankieo_prada.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/prada-frank-ocean-sneaker-new/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-10-27-f6",
-   "type": "fashion",
-   "source": "GQ",
-   "emoji": "🏃",
-   "color": "#57534e",
-   "headline": "New Balance 990v7 breaks the dad-shoe mold",
-   "caption": "Only the seventh version of New Balance's flagship since 1982.",
-   "body": [
-    "New Balance rarely updates the 990; the last version was the v6 in 2022.",
-    "GQ says the v7 might be the best one yet.",
-    "How to wear it: grey 990s, grey sweats, navy overcoat. Classic."
-   ],
-   "url": "https://www.gq.com/story/new-balance-990v7-release-date",
-   "linkLabel": "GQ",
-   "image": {
-    "url": "https://media.gq.com/photos/6ada16bf44a2c1e239f17950/16:9/w_1280,c_limit/1022-New-Balance-Shoes-Lede.jpg",
-    "credit": "GQ",
-    "creditUrl": "https://www.gq.com/story/new-balance-990v7-release-date",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-10-27-f7",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "🧶",
-   "color": "#365314",
-   "headline": "The liner: a jacket for your jacket",
-   "caption": "Highsnobiety's picks of quilted liner jackets and vests for the cold snap.",
-   "body": [
-    "A liner is a light, usually quilted layer you wear under your outerwear.",
-    "It's for days when a rain jacket isn't enough and a puffer is too much.",
-    "How to wear it: an olive quilted vest under an open mac."
-   ],
-   "url": "https://www.highsnobiety.com/p/the-best-liner-jackets-and-vests-guide/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1792767317-best-liner-vests-2.png",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/the-best-liner-jackets-and-vests-guide/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-10-27-f8",
+   "id": "2026-10-28-f2",
    "type": "fashion",
    "source": "Highsnobiety",
    "emoji": "🏬",
-   "color": "#9d174d",
-   "headline": "Eckhaus Latta moves to the Lower East Side",
-   "caption": "The label's new Ludlow Street shop is built to be a hangout.",
+   "color": "#1f2937",
+   "headline": "Human Made opens a giant Harajuku flagship",
+   "caption": "NIGO brings back the space-age feel of 2000s BAPE stores.",
    "body": [
-    "Eckhaus Latta has left its tiny Chinatown Mall store for the heart of the Lower East Side.",
-    "'We've graduated from the Chinatown Mall,' the brand's press manager says.",
-    "The space keeps the neighbourhood's scrappy charm, graffiti included."
+    "Human Made's first proper flagship spans three floors in Tokyo's Harajuku.",
+    "It updates the bold, futuristic store design NIGO made famous with A Bathing Ape.",
+    "Worth a stop on any Tokyo trip."
    ],
-   "url": "https://www.highsnobiety.com/p/eckhaus-latta-les-new-store/",
+   "url": "https://www.highsnobiety.com/p/human-made-tokyo/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793037374-el-27-ludlow-3.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1792490079-human-made-flagship-01.avif",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/eckhaus-latta-les-new-store/",
+    "creditUrl": "https://www.highsnobiety.com/p/human-made-tokyo/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-10-27-f9",
+   "id": "2026-10-28-f3",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🪡",
-   "color": "#78350f",
-   "headline": "Monad at 10: still refusing to scale up",
-   "caption": "Designer Daniel Olatunji keeps making clothes the slow, hard way.",
+   "emoji": "🥾",
+   "color": "#0f172a",
+   "headline": "MM6 × Salomon Crossderby: a dress shoe for trails",
+   "caption": "A glossy derby upper on a chunky Salomon outsole.",
    "body": [
-    "The Nigeria-born, London-based Central Saint Martins graduate turned down outside investment early on.",
-    "'I'm really stubborn,' he says, even when it hurts the business.",
-    "The label is known for extreme handcraft."
+    "It mixes a classic lace-up derby with Salomon's grippy trail sole and quick-pull laces.",
+    "The shiny finish keeps it dressy.",
+    "How to wear it: wide-leg wool trousers that just touch the sole."
    ],
-   "url": "https://www.highsnobiety.com/p/monad-brand-interview/",
+   "url": "https://www.highsnobiety.com/p/mm6-salomon-crossderby-sneaker-black/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793005510-monadedit02-copy.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1792467290-salomon-crossderby.jpeg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/monad-brand-interview/",
+    "creditUrl": "https://www.highsnobiety.com/p/mm6-salomon-crossderby-sneaker-black/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-10-27-f10",
+   "id": "2026-10-28-f4",
+   "type": "fashion",
+   "source": "Highsnobiety",
+   "emoji": "💙",
+   "color": "#1e40af",
+   "headline": "Nike's all-blue Air Force 1 'Deep Royal'",
+   "caption": "Glossy blue panels on blue leather, with a crisp white sole.",
+   "body": [
+    "Blue laces, blue Swoosh, blue outsole: only the white midsole breaks it up.",
+    "Glossy panels add depth to the classic AF1 shape.",
+    "How to wear it: everything else neutral, grey or white."
+   ],
+   "url": "https://www.highsnobiety.com/p/nike-deep-royal-blue-air-force-1-07-lv-8-sneaker/",
+   "linkLabel": "Highsnobiety",
+   "image": {
+    "url": "https://www.highsnobiety.com/static-assets/dato/1792995171-nike-deep-royal-blue-air-force-1-sneaker.jpeg",
+    "credit": "Highsnobiety",
+    "creditUrl": "https://www.highsnobiety.com/p/nike-deep-royal-blue-air-force-1-07-lv-8-sneaker/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-10-28-f5",
+   "type": "fashion",
+   "source": "Highsnobiety",
+   "emoji": "🖤",
+   "color": "#27272a",
+   "headline": "Nike Lahar Low: a hiking boot for the city",
+   "caption": "A chunky all-black winter stomper.",
+   "body": [
+    "Thick laces and a sturdy shape give it attitude.",
+    "You don't need a full outdoor wardrobe to pull it off.",
+    "How to wear it: loose denim, baggy cargos or cords."
+   ],
+   "url": "https://www.highsnobiety.com/p/nike-lahar-low-black/",
+   "linkLabel": "Highsnobiety",
+   "image": {
+    "url": "https://www.highsnobiety.com/static-assets/dato/1792682658-nike-lahar-low.png",
+    "credit": "Highsnobiety",
+    "creditUrl": "https://www.highsnobiety.com/p/nike-lahar-low-black/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-10-28-f6",
+   "type": "fashion",
+   "source": "Highsnobiety",
+   "emoji": "🌑",
+   "color": "#111827",
+   "headline": "Ten C × Comoli: all-black winterwear done gently",
+   "caption": "Eight black pieces mixing performance shapes with soft Japanese fabrics.",
+   "body": [
+    "The FW26 collaboration pairs Ten C's Japanese jersey with Comoli's cotton flannel and crinkled nylon.",
+    "It's black, but soft and practical rather than severe.",
+    "How to wear it: head-to-toe black in different textures."
+   ],
+   "url": "https://www.highsnobiety.com/p/tenc-comoli-new-collab/",
+   "linkLabel": "Highsnobiety",
+   "image": {
+    "url": "https://www.highsnobiety.com/static-assets/dato/1793111166-hero_tenc-comoli.jpg",
+    "credit": "Highsnobiety",
+    "creditUrl": "https://www.highsnobiety.com/p/tenc-comoli-new-collab/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-10-28-f7",
    "type": "fashion",
    "source": "Highsnobiety",
    "emoji": "🧵",
-   "color": "#1e40af",
-   "headline": "Japanese artisans remake old Polo Ralph Lauren",
-   "caption": "Mended, patched and embroidered classics at the first PoloFest in Tokyo.",
+   "color": "#713f12",
+   "headline": "Carter Young: the suit label everyone's talking about",
+   "caption": "American designer Carter Altman's London brand does relaxed tailoring.",
    "body": [
-    "The Reimagined collection uses traditional Japanese mending on classic Polo pieces.",
-    "Highlights include chinos embroidered with smiley faces and patchwork ties.",
-    "How to wear it: one repaired piece with otherwise plain clothes."
+    "The label is American at heart but made in an East London studio.",
+    "Think easy, lived-in tailoring rather than stiff suits.",
+    "How to wear it: an unstructured jacket with a tee."
    ],
-   "url": "https://www.highsnobiety.com/p/polofest-reimagined/",
+   "url": "https://www.highsnobiety.com/p/carter-young-designer-interview/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1792686197-polofest-reimagined-04.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1791881451-jonoxcarteryoung_6.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/polofest-reimagined/",
+    "creditUrl": "https://www.highsnobiety.com/p/carter-young-designer-interview/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-10-27-f11",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "🎸",
-   "color": "#18181b",
-   "headline": "Hiroshi Fujiwara's wardrobe is his résumé",
-   "caption": "How the 'godfather of streetwear' dresses, and why it matters.",
-   "body": [
-    "Fujiwara brought hip-hop and skate culture to Tokyo in the 1980s.",
-    "He mentored Undercover's Jun Takahashi and worked with Loro Piana and Eric Clapton.",
-    "His look: simple, precise and endlessly copied."
-   ],
-   "url": "https://www.highsnobiety.com/p/artist-uniform-for-hiroshi-fujiwara-the-uniform-is-everything/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1779118376-bang-olufsen-fragment-design-hiroshi-fujiwara-interview-3.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/artist-uniform-for-hiroshi-fujiwara-the-uniform-is-everything/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-10-27-f12",
-   "type": "fashion",
-   "source": "Esquire Australia",
-   "emoji": "☕",
-   "color": "#b45309",
-   "headline": "A day in Paris with model Jarrod Scott",
-   "caption": "The Chanel Allure Homme Sport face shares his coffee, dinner and negroni spots.",
-   "body": [
-    "The Melbourne-born model has walked Paris menswear runways since his early 20s.",
-    "His first coffee stop: Café Nuances.",
-    "He now splits time between Melbourne and the south of France, running a cocktail brand, Goldenbird."
-   ],
-   "url": "https://esquire.com.au/jarrod-scott-day-in-the-life/",
-   "linkLabel": "Esquire AU",
-   "image": {
-    "url": "https://esquire.com.au/wp-content/uploads/2026/10/SQUARE-DSC_37155-copy.jpg",
-    "credit": "Esquire Australia",
-    "creditUrl": "https://esquire.com.au/jarrod-scott-day-in-the-life/",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-10-27-f13",
+   "id": "2026-10-28-f8",
    "type": "fashion",
    "source": "GQ",
-   "emoji": "⌚",
-   "color": "#a16207",
-   "headline": "Yes, you can wear a gold watch every day",
-   "caption": "GQ argues 18-karat shouldn't be saved for special occasions.",
+   "emoji": "✨",
+   "color": "#7e22ce",
+   "headline": "The shiny dress shirt is back",
+   "caption": "Glossy going-out shirts from the early 2000s return, worn by Pedro Pascal and Riz Ahmed.",
    "body": [
-    "Wear it to lunch, parties and lazy days in the park, GQ says.",
-    "A gold watch dresses up a plain tee and jeans more than you'd think.",
-    "How to wear it: no other jewellery, let it be the one thing."
+    "Pedro Pascal wore a lime-green shiny shirt by label Aubero on a red carpet.",
+    "Riz Ahmed also wore sheen on a recent press tour.",
+    "How to wear it: one shiny piece, everything else matte."
    ],
-   "url": "https://www.gq.com/story/gold-watches-for-your-consideration-2026",
+   "url": "https://www.gq.com/story/the-return-of-the-shiny-dress-shirt-trend",
    "linkLabel": "GQ",
    "image": {
-    "url": "https://media.gq.com/photos/6ab131ad6cf1e5903aec239e/16:9/w_1280,c_limit/GQ1026_FYC_01_Final.jpg",
+    "url": "https://media.gq.com/photos/6adfa259aefc8b8aea6093be/16:9/w_1280,c_limit/1026-Glossy-Dress-Shirts-Lede.jpg",
     "credit": "GQ",
-    "creditUrl": "https://www.gq.com/story/gold-watches-for-your-consideration-2026",
+    "creditUrl": "https://www.gq.com/story/the-return-of-the-shiny-dress-shirt-trend",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-10-27-f14",
-   "type": "good",
-   "source": "Good News Network",
-   "emoji": "🐬",
-   "color": "#0e7490",
-   "headline": "Six baby river dolphins born in the Mekong",
-   "caption": "Cambodia's endangered Irrawaddy dolphins grow to 118.",
+   "id": "2026-10-28-f9",
+   "type": "fashion",
+   "source": "GQ",
+   "emoji": "🎩",
+   "color": "#1e293b",
+   "headline": "HBO's 'War' goes all in on Savile Row",
+   "caption": "Dominic West's tech heir dresses like he's always heading to a board meeting.",
    "body": [
-    "The calving season brought six calves to a 75-mile stretch of the Mekong in northeast Cambodia.",
-    "Local people see the dolphins as reincarnated ancestors, which has helped protect them.",
-    "Conservationists say it shows the species can recover if threats are curbed."
+    "The British divorce drama stars Dominic West and Sienna Miller.",
+    "Costume designer Matt Price uses classic British tailoring to show class and power.",
+    "How to wear it: a navy suit, white shirt, no tie."
    ],
-   "url": "https://www.goodnewsnetwork.org/numbers-of-endangered-and-sacred-river-dolphin-grow-by-6-after-successful-breeding-season/",
-   "linkLabel": "GNN",
+   "url": "https://www.gq.com/story/hbo-war-costumes-savile-row-suits",
+   "linkLabel": "GQ",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Irrawaddy-dolphin-CC-4.0.-Int-Stefan-Brending.jpg",
-    "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/numbers-of-endangered-and-sacred-river-dolphin-grow-by-6-after-successful-breeding-season/",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-10-27-f15",
-   "type": "good",
-   "source": "Good News Network",
-   "emoji": "🧹",
-   "color": "#15803d",
-   "headline": "A man named Service cleans up a dump himself",
-   "caption": "Told to stop filming and clean it himself, Joshua Service did.",
-   "body": [
-    "The Queens resident filmed piles of rubbish under a rail bridge in Crown Heights and called out the city.",
-    "Commenters told him to clean it himself, so he showed up with gloves and a rake.",
-    "He filled about 10 trash bags."
-   ],
-   "url": "https://www.goodnewsnetwork.org/man-named-service-cleans-up-nyc-dumping-site-on-his-own-initiative/",
-   "linkLabel": "GNN",
-   "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/credit-@thegeneraljo_-via-Instagram.jpg",
-    "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/man-named-service-cleans-up-nyc-dumping-site-on-his-own-initiative/",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-10-27-f16",
-   "type": "good",
-   "source": "Positive News",
-   "emoji": "🐦",
-   "color": "#047857",
-   "headline": "Seabirds could help islands survive rising seas",
-   "caption": "Reefs near seabird-rich atolls grew up to 2.5 times faster.",
-   "body": [
-    "Lancaster University scientists studied 28 islands in the Pacific and Indian oceans.",
-    "Bird droppings fertilise reefs, which act as breakwaters and supply sand that builds islands.",
-    "Restoring seabirds and native plants could help some atolls keep pace with sea level rise."
-   ],
-   "url": "https://www.positive.news/society/good-news-stories-from-week-43-of-2026/",
-   "linkLabel": "Positive News",
-   "image": {
-    "url": "https://positivenews.kinsta.cloud/wp-content/uploads/2026/10/iStock-900706714.jpg",
-    "credit": "Positive News",
-    "creditUrl": "https://www.positive.news/society/good-news-stories-from-week-43-of-2026/",
+    "url": "https://media.gq.com/photos/6adb770fbc867284c24eca25/16:9/w_1280,c_limit/TV-show-still.jpg",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/hbo-war-costumes-savile-row-suits",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-10-27-f17",
-   "type": "good",
-   "source": "Good News Network",
+   "id": "2026-10-28-f10",
+   "type": "fashion",
+   "source": "GQ",
    "emoji": "🎭",
-   "color": "#6d28d9",
-   "headline": "Shanghai's new opera house has a staircase for everyone",
-   "caption": "Snøhetta's Grand Opera House opens with a spiral stair anyone can climb.",
+   "color": "#9f1239",
+   "headline": "SNL's Please Don't Destroy model for J.Crew",
+   "caption": "The comedy trio front J.Crew's new suiting campaign.",
    "body": [
-    "The building rises on the banks of the Huangpu River.",
-    "Its fan-inspired outdoor staircase leads to a public viewing platform, ticket or not.",
-    "The architects wanted to remove the barriers that keep people out of opera houses."
+    "John Higgins, Ben Marshall and Martin Herlihy went viral on TikTok before joining SNL in 2021.",
+    "Fashion's playful mood is putting comedians in big campaigns.",
+    "How to wear it: a relaxed suit, worn like you're in on the joke."
    ],
-   "url": "https://www.goodnewsnetwork.org/stunning-new-opera-house-welcomes-you-with-gravity-defying-grand-staircase-look/",
+   "url": "https://www.gq.com/story/please-dont-destroy-jcrew",
+   "linkLabel": "GQ",
+   "image": {
+    "url": "https://media.gq.com/photos/6ad76a00a408ec79dc3e00b5/16:9/w_1280,c_limit/Copy%20of%2026HO_NovemberPDDSuiting_M_L003_021.jpg",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/please-dont-destroy-jcrew",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-10-28-f11",
+   "type": "fashion",
+   "source": "GQ",
+   "emoji": "👖",
+   "color": "#1e3a8a",
+   "headline": "American selvedge denim is back",
+   "caption": "Mount Vernon Mills is shipping its first US-made selvedge rolls.",
+   "body": [
+    "The mill bought Cone White Oak's famous old looms less than a year ago.",
+    "Brands are lining up for the flat, classic mid-century style denim.",
+    "How to wear it: raw selvedge, cuffed once, with boots."
+   ],
+   "url": "https://www.gq.com/story/mount-vernon-mills-selvedge-denim-10-16-2026",
+   "linkLabel": "GQ",
+   "image": {
+    "url": "https://media.gq.com/photos/6ad24b2945f5e72d3a8a2d63/16:9/w_1280,c_limit/Mount-Vernon-Mills-Lede.jpg",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/mount-vernon-mills-selvedge-denim-10-16-2026",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-10-28-f12",
+   "type": "fashion",
+   "source": "GQ",
+   "emoji": "⚽",
+   "color": "#a21caf",
+   "headline": "Tyler, the Creator designs Barcelona's special kit",
+   "caption": "Golf Wang takes over FC Barcelona's shirt for a big match.",
+   "body": [
+    "Through Spotify's artist takeover deal, Barça wears a limited artist jersey twice a season.",
+    "Past artists include Rosalía, Travis Scott and Olivia Rodrigo.",
+    "How to wear it: a football shirt with wide trousers and loafers."
+   ],
+   "url": "https://www.gq.com/story/tyler-the-creator-barcelona-jerseys-golf-wang-10-15-2026",
+   "linkLabel": "GQ",
+   "image": {
+    "url": "https://media.gq.com/photos/6ad0f33e07d823fa793d0c94/16:9/w_1280,c_limit/Golf-Shirt-Lede.jpg",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/tyler-the-creator-barcelona-jerseys-golf-wang-10-15-2026",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-10-28-f13",
+   "type": "fashion",
+   "source": "GQ",
+   "emoji": "🍂",
+   "color": "#92400e",
+   "headline": "Ethan Hawke nails the brown corduroy suit",
+   "caption": "The easiest autumn look: a brown cord two-piece.",
+   "body": [
+    "Hawke wore it while promoting season two of The Lowdown in New York.",
+    "Corduroy suits are back, helped by fans like Wes Anderson.",
+    "How to wear it: brown cord, an open-collar shirt, loafers."
+   ],
+   "url": "https://www.gq.com/story/ethan-hawke-corduroy-suit-10-14-2026",
+   "linkLabel": "GQ",
+   "image": {
+    "url": "https://media.gq.com/photos/6acfc2d8a18118b8e0ae1a71/16:9/w_1280,c_limit/2299601041",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/ethan-hawke-corduroy-suit-10-14-2026",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-10-28-f14",
+   "type": "good",
+   "source": "Good News Network",
+   "emoji": "🦷",
+   "color": "#0e7490",
+   "headline": "A no-drill cavity treatment nears US approval",
+   "caption": "A painless liquid could spare kids from drilling and surgery.",
+   "body": [
+    "Silver diamine fluoride is brushed onto a cavity in seconds and stops decay, with no shots or sedation.",
+    "Dentists in many countries have used it for decades.",
+    "A big Phase 3 trial could now win it FDA approval to treat cavities."
+   ],
+   "url": "https://www.goodnewsnetwork.org/fda-approval-for-drill-free-cavity-care-may-be-imminent-after-great-phase-3-treatment-trial/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/2016299_OS_N814.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2018/01/Teeth-dentist-caveties-by-Ozkan-Guner-lQNl2Vdn0fs-unsplash.jpeg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/stunning-new-opera-house-welcomes-you-with-gravity-defying-grand-staircase-look/",
+    "creditUrl": "https://www.goodnewsnetwork.org/fda-approval-for-drill-free-cavity-care-may-be-imminent-after-great-phase-3-treatment-trial/",
+    "preview": true
+   },
+   "embed": true
+  },
+  {
+   "id": "2026-10-28-f15",
+   "type": "good",
+   "source": "Good News Network",
+   "emoji": "🐆",
+   "color": "#166534",
+   "headline": "A 715,000-acre Amazon reserve protects a 'link of life'",
+   "caption": "Bolivia's Iténez River corridor gets protection for jaguars, river dolphins and giant otters.",
+   "body": [
+    "Rainforest Trust helped create the reserve along the river that borders Bolivia and Brazil.",
+    "The river is home to 260 fish species, 25 found nowhere else.",
+    "It links protected areas so animals can keep migrating."
+   ],
+   "url": "https://www.goodnewsnetwork.org/ngo-celebrates-70-million-amazon-acres-conserved-after-protecting-are-called-a-link-of-life/",
+   "linkLabel": "GNN",
+   "image": {
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Sunrise-on-the-Itenez-River-credit-Gabriela-Villaneuva-CC-4.0.-BY-SA-e1793094098653.jpg",
+    "credit": "Good News Network",
+    "creditUrl": "https://www.goodnewsnetwork.org/ngo-celebrates-70-million-amazon-acres-conserved-after-protecting-are-called-a-link-of-life/",
+    "preview": true
+   },
+   "embed": true
+  },
+  {
+   "id": "2026-10-28-f16",
+   "type": "good",
+   "source": "Good News Network",
+   "emoji": "🚒",
+   "color": "#c2410c",
+   "headline": "A wrong turn saves a big foster family from a fire",
+   "caption": "A stranger's GPS sent him down the wrong road, right past a burning house.",
+   "body": [
+    "Casey spotted smoke and woke James Burke, asleep in his recliner, in rural Georgia.",
+    "The Burkes, who have fostered about 500 children, had 11 kids and a grandchild at home.",
+    "Everyone got out."
+   ],
+   "url": "https://www.goodnewsnetwork.org/family-thats-fostered-500-children-saved-from-housefire-thanks-to-strangers-wrong-turn/",
+   "linkLabel": "GNN",
+   "image": {
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/The-Burke-Family-credit-Flourish-Foster-Care-Closet-Support.jpg",
+    "credit": "Good News Network",
+    "creditUrl": "https://www.goodnewsnetwork.org/family-thats-fostered-500-children-saved-from-housefire-thanks-to-strangers-wrong-turn/",
     "preview": true
    },
    "embed": true

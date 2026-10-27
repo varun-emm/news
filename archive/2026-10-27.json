@@ -1,0 +1,300 @@
+{
+ "date": "2026-10-27",
+ "generatedAt": "2026-10-26T22:23:36Z",
+ "stories": [
+  {
+   "id": "2026-10-27-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Israel votes",
+   "emoji": "🇮🇱",
+   "stat": "3.25%",
+   "statLabel": "threshold to enter the Knesset",
+   "headline": "Israel votes today in an election that could end Netanyahu's run",
+   "body": [
+    "Israelis vote today for all 120 seats in the Knesset, the first election since the 7 October 2023 attacks and the Gaza war.",
+    "Netanyahu's Likud-led bloc with far-right and ultra-Orthodox parties faces a four-party opposition alliance led by ex-army chief Gadi Eisenkot.",
+    "Polls show a close race, and no party has ever won 61 seats alone, so smaller parties, including Palestinian-led ones, could decide who governs."
+   ],
+   "joke": "Polls say it's a dead heat. Coalition talks say: see you in three months.",
+   "vc": "A change in government could reshape Israel's defence-tech and cyber spending, which feeds one of the world's busiest startup scenes.",
+   "url": "https://www.aljazeera.com/news/2026/10/26/israels-election-five-key-things-to-know",
+   "linkLabel": "Al Jazeera",
+   "color": "#1e3a8a",
+   "font": "news"
+  },
+  {
+   "id": "2026-10-27-w2",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Serbia votes",
+   "emoji": "🇷🇸",
+   "stat": "14",
+   "statLabel": "years of Vučić rule ended",
+   "headline": "Serbia's student movement beats Vučić's party in a historic upset",
+   "body": [
+    "The Student List, put forward by Serbia's long-running youth protest movement, won more than half the votes in Sunday's parliamentary election.",
+    "President Aleksandar Vučić conceded, and his Serbian Progressive Party came a distant second after 14 years in charge.",
+    "The students are now preparing coalition talks, with a presidential election due in December."
+   ],
+   "joke": "Students skipped class for two years and still aced the final exam.",
+   "vc": "A cleaner, more predictable Serbia could speed EU talks and open the door to more Western investment in the Balkans.",
+   "url": "https://www.npr.org/2026/10/26/nx-s1-6016298/serbia-student-list-vucic-election",
+   "linkLabel": "NPR",
+   "color": "#9f1239",
+   "font": "editorial",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/House_of_the_National_Assembly_of_the_Republic_of_Serbia_Belgrade_2.jpg/1280px-House_of_the_National_Assembly_of_the_Republic_of_Serbia_Belgrade_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "kallerna / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:House_of_the_National_Assembly_of_the_Republic_of_Serbia_Belgrade_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "title": "File:House of the National Assembly of the Republic of Serbia Belgrade 2.jpg"
+   }
+  },
+  {
+   "id": "2026-10-27-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Iran diplomacy",
+   "emoji": "🕊️",
+   "stat": "3",
+   "statLabel": "nations' envoys in Tehran",
+   "headline": "Saudi, Pakistani and Turkish chiefs fly to Tehran to calm US–Iran tensions",
+   "body": [
+    "Top officials from the three countries behind the Mecca defence pact met Iran's President Masoud Pezeshkian in Tehran on Monday.",
+    "The group includes Saudi defence minister Khalid bin Salman, Pakistani army chief Asim Munir and Turkish spy chief Ibrahim Kalin.",
+    "The visit comes as the US threatens new strikes on Iran and fighting with Yemen's Houthis worries Riyadh."
+   ],
+   "joke": "Three neighbours walk into Tehran. The punchline depends on Washington.",
+   "vc": "Any easing around the Strait of Hormuz would cool oil and fertiliser prices, a relief for India's import bill.",
+   "url": "https://www.aljazeera.com/news/2026/10/26/mecca-defence-alliance-members-in-tehran-to-defuse-iran-us-yemen-tensions",
+   "linkLabel": "Al Jazeera",
+   "color": "#44403c",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Vista_de_Teher%C3%A1n_desde_la_Torre_Milad%2C_Ir%C3%A1n%2C_2016-09-17%2C_DD_74.jpg/1280px-Vista_de_Teher%C3%A1n_desde_la_Torre_Milad%2C_Ir%C3%A1n%2C_2016-09-17%2C_DD_74.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Diego Delso / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Vista_de_Teher%C3%A1n_desde_la_Torre_Milad,_Ir%C3%A1n,_2016-09-17,_DD_74.jpg",
+    "license": "CC BY-SA 4.0",
+    "title": "File:Vista de Teherán desde la Torre Milad, Irán, 2016-09-17, DD 74.jpg"
+   }
+  },
+  {
+   "id": "2026-10-27-i1",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Press freedom",
+   "emoji": "⚖️",
+   "stat": "21",
+   "statLabel": "publishers in court",
+   "headline": "21 news publishers take India's data protection law to the Supreme Court",
+   "body": [
+    "A group of 21 news publishers has challenged the Digital Personal Data Protection (DPDP) Act in the Supreme Court.",
+    "They say its consent and erasure rules could force journalists to ask investigation subjects for permission and delete true stories.",
+    "The case is due to be heard today. Most of the law's provisions take effect in May 2027."
+   ],
+   "joke": "Dear corrupt official, may we please have your consent to expose you?",
+   "vc": "Startups handling personal data are watching closely: how the court reads the consent rules will shape compliance costs for everyone.",
+   "url": "https://inc42.com/buzz/news-publishers-move-sc-to-challenge-the-dpdp-act/",
+   "linkLabel": "Inc42",
+   "color": "#334155",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Supreme_Court_of_India%2C_inside_buildings_02.jpg/1280px-Supreme_Court_of_India%2C_inside_buildings_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Pinakpani / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Supreme_Court_of_India,_inside_buildings_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "title": "File:Supreme Court of India, inside buildings 02.jpg"
+   }
+  },
+  {
+   "id": "2026-10-27-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Earnings",
+   "emoji": "💳",
+   "stat": "₹225 cr",
+   "statLabel": "Q2 net profit",
+   "headline": "Paytm's quarterly profit jumps more than 10x to ₹225 crore",
+   "body": [
+    "Paytm made a net profit of ₹225 crore in the July–September quarter, up from ₹21 crore a year earlier.",
+    "Operating revenue rose 28% to ₹2,648 crore, and profit edged up from ₹220 crore in the previous quarter.",
+    "Total expenses rose 23% to ₹2,531 crore, slower than revenue."
+   ],
+   "joke": "Remember when Paytm's only profitable product was cashback? Times change.",
+   "vc": "Steady profits make Paytm a test case for whether India's listed new-age tech firms can grow and earn at the same time.",
+   "url": "https://inc42.com/buzz/paytm-q2-profit-skyrockets-over-10x-yoy-to-%e2%82%b9225-cr-revenue-up-28/",
+   "linkLabel": "Inc42",
+   "color": "#0369a1",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Vijay_Shekhar_Sharma%2C_Founder_and_Chief_Executive_Officer%2C_Paytm.jpg/1280px-Vijay_Shekhar_Sharma%2C_Founder_and_Chief_Executive_Officer%2C_Paytm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Richter Frank-Jurgen / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Vijay_Shekhar_Sharma,_Founder_and_Chief_Executive_Officer,_Paytm.jpg",
+    "license": "CC BY-SA 2.0",
+    "title": "File:Vijay Shekhar Sharma, Founder and Chief Executive Officer, Paytm.jpg"
+   }
+  },
+  {
+   "id": "2026-10-27-i3",
+   "section": "india",
+   "source": "Equitymaster",
+   "kicker": "Markets",
+   "emoji": "📈",
+   "stat": "+483",
+   "statLabel": "Sensex points",
+   "headline": "Sensex and Nifty snap a four-day losing streak",
+   "body": [
+    "The Sensex rose 482.92 points to 73,606.75 on Monday, and the Nifty gained 153.20 to 22,753.20.",
+    "Metal and oil and gas stocks led the gains, while banking and insurance stocks were sold.",
+    "Midcap and smallcap indices both rose about 1%."
+   ],
+   "joke": "Four red days, one green day. Investors are calling it a trend.",
+   "vc": "Mid and small caps outrunning the index hints that risk appetite is back, good news for upcoming startup IPOs.",
+   "url": "https://www.equitymaster.com/indian-share-markets/10/26/2026/Sensex-Today-Ends-483-Points-Higher--Nifty-Above-22750--Apollo-Micro-Systems-Up-10",
+   "linkLabel": "Equitymaster",
+   "color": "#047857",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1280px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Niyantha Shekhar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+    "license": "CC BY 2.0",
+    "title": "File:BSE - Bombay Stock Exchange Building.jpg"
+   }
+  },
+  {
+   "id": "2026-10-27-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Anthropic IPO",
+   "emoji": "📄",
+   "stat": "$16.3B",
+   "statLabel": "H1 2026 revenue",
+   "headline": "Anthropic officially files to go public under the ticker ANT",
+   "body": [
+    "Anthropic filed for its IPO on Monday, showing $16.3 billion in revenue for the first half of 2026, up from $1.2 billion a year earlier.",
+    "Its operating loss shrank to $693 million, though its net loss hit $80.7 billion, mostly from noncash accounting for convertible debt.",
+    "About 250 customers spend $10 million or more a year, and over half of $100k+ customers use both the API and apps like Claude Code."
+   ],
+   "joke": "An $80.7 billion loss that's mostly paperwork. Accountants have never felt so seen.",
+   "vc": "Revenue up roughly 13x in a year sets the bar for every AI IPO that follows, and gives private AI rounds a public price to point at.",
+   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "linkLabel": "TechCrunch",
+   "color": "#9a3412",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854098999333%29.jpg/1280px-Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854098999333%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Department for Science, Innovation and Technology / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._(54098999333).jpg",
+    "license": "CC BY 2.0",
+    "title": "File:Secretary of State Peter Kyle visits Anthropic in San Francisco. (54098999333).jpg"
+   }
+  },
+  {
+   "id": "2026-10-27-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI chips",
+   "emoji": "🚀",
+   "stat": "$40B",
+   "statLabel": "GPU financing",
+   "headline": "SpaceX lines up $40 billion from Apollo to lease AI chips",
+   "body": [
+    "SpaceX has a binding commitment for about $40 billion to fund AI chips and data centre equipment, calling it the largest committed GPU financing.",
+    "An Apollo-managed entity will buy the hardware and lease it to SpaceX for about five years per batch.",
+    "The deal should close by year-end, with leases starting in the first half of 2027."
+   ],
+   "joke": "Rockets were too cheap a hobby, so SpaceX picked up GPUs.",
+   "vc": "Leasing instead of buying is becoming the standard way to fund AI compute, and private credit firms like Apollo are the new landlords.",
+   "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+   "linkLabel": "TechCrunch",
+   "color": "#1e293b",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/SpaceX_Starbase_integration_tower_quick_disconnect_arm.jpg/1280px-SpaceX_Starbase_integration_tower_quick_disconnect_arm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Jenny Hautmann / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:SpaceX_Starbase_integration_tower_quick_disconnect_arm.jpg",
+    "license": "CC BY-SA 4.0",
+    "title": "File:SpaceX Starbase integration tower quick disconnect arm.jpg"
+   }
+  },
+  {
+   "id": "2026-10-27-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Big Tech jobs",
+   "emoji": "💼",
+   "stat": "60,000",
+   "statLabel": "staff offered buyouts",
+   "headline": "Microsoft offers voluntary buyouts to about 60,000 employees",
+   "body": [
+    "Microsoft confirmed it is offering buyouts to around 60,000 staff as it cuts costs for the AI era.",
+    "Employees at vice-president level and below on select teams in the US, Canada, India and the UK are eligible.",
+    "Xbox, Windows, Copilot and Finance are reported to be included, while data centre, sales and marketing staff are excluded."
+   ],
+   "joke": "Copilot, write me a farewell email. Make it sound voluntary.",
+   "vc": "Big Tech trimming headcount to fund AI spending frees up experienced engineers, a hiring opening for startups, including in India.",
+   "url": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+   "linkLabel": "TechCrunch",
+   "color": "#0e7490",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Building92microsoft.jpg/1280px-Building92microsoft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Coolcaesar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Building92microsoft.jpg",
+    "license": "CC BY-SA 4.0",
+    "title": "File:Building92microsoft.jpg"
+   }
+  },
+  {
+   "id": "2026-10-27-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Robotics",
+   "emoji": "🚜",
+   "stat": "$4.1B",
+   "statLabel": "valuation",
+   "headline": "Bedrock Robotics raises $600M for self-driving excavators",
+   "body": [
+    "Two-year-old Bedrock Robotics raised a $600 million Series C at a $4.1 billion valuation, co-led by CapitalG and Emergence Capital.",
+    "Its kit retrofits existing excavators to drive themselves, and they now work on paid construction sites in Nevada and Texas.",
+    "The company has raised nearly $1 billion since its 2024 founding."
+   ],
+   "joke": "Finally, a robot that wants the job nobody else wanted.",
+   "vc": "Retrofit kits sell into a huge installed base without building new machines, which is why investors pay up for physical AI that ships.",
+   "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+   "linkLabel": "TechCrunch",
+   "color": "#a16207",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Caterpillar_330_excavator_on_a_pile_of_dirt.jpg/1280px-Caterpillar_330_excavator_on_a_pile_of_dirt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Matthew T Rader / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Caterpillar_330_excavator_on_a_pile_of_dirt.jpg",
+    "license": "CC BY-SA 4.0",
+    "title": "File:Caterpillar 330 excavator on a pile of dirt.jpg"
+   }
+  },
+  {
+   "id": "2026-10-27-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Creators",
+   "emoji": "🎬",
+   "stat": "90 min",
+   "statLabel": "max video length",
+   "headline": "Instagram tests 90-minute videos to take on YouTube",
+   "body": [
+    "Instagram is testing a new upload type called Features that lets creators post videos up to 90 minutes long.",
+    "It is a sharp turn after years of pushing short, vertical Reels.",
+    "Creators mostly earn little directly from Instagram today, while YouTube pays them a share of ad revenue."
+   ],
+   "joke": "Reels taught us 30 seconds was too long. Now here's an hour and a half.",
+   "vc": "Long video means more ad inventory, so how Meta shares that money will decide whether creators actually move over.",
+   "url": "https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/",
+   "linkLabel": "TechCrunch",
+   "color": "#86198f",
+   "font": "tech"
+  }
+ ]
+}
