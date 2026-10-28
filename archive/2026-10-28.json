@@ -1,0 +1,273 @@
+{
+ "date": "2026-10-28",
+ "generatedAt": "2026-10-28T03:52:08+05:30",
+ "stories": [
+  {
+   "id": "2026-10-28-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Israel votes",
+   "emoji": "🇮🇱",
+   "stat": "52–53",
+   "statLabel": "seats for Eisenkot's bloc (exit polls)",
+   "headline": "Israel's election ends in a near-deadlock, exit polls show",
+   "body": [
+    "Exit polls give Gadi Eisenkot's opposition bloc 52 or 53 of the Knesset's 120 seats, slightly ahead of Netanyahu's camp.",
+    "Neither side is near the 61 seats needed to govern, though Netanyahu's Likud is still the biggest single party.",
+    "Turnout was the highest in decades, and weeks of coalition talks are likely while Netanyahu stays on as caretaker."
+   ],
+   "joke": "Both sides claim victory. The maths claims a sequel.",
+   "vc": "A long caretaker period means policy limbo for Israel's defence-tech and cyber startups, which rely on government contracts.",
+   "url": "https://www.aljazeera.com/news/2026/10/27/exit-polls-following-israeli-elections-indicate-no-clear-winner",
+   "linkLabel": "Al Jazeera",
+   "color": "#1e3a8a",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Israeli_legislative_election_2019_ballots_%288%29.jpg/1280px-Israeli_legislative_election_2019_ballots_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Laliv g / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Israeli_legislative_election_2019_ballots_(8).jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-10-28-w2",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Ukraine",
+   "emoji": "🕊️",
+   "stat": "3 a.m.",
+   "statLabel": "local ceasefire began",
+   "headline": "A one-town ceasefire in Ukraine opens the way for aid",
+   "body": [
+    "A local ceasefire began early Tuesday around Oleshky, a Russian-occupied town in southern Ukraine, so an aid mission can enter.",
+    "US first lady Melania Trump led the talks with civilian negotiators from both sides, her office says.",
+    "Missile attacks resumed on Kyiv, and wider US-brokered peace talks are expected next month."
+   ],
+   "joke": "",
+   "vc": "Small humanitarian deals are often the test runs for bigger ceasefires, which markets watch for any sign of a rebuilding boom.",
+   "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+   "linkLabel": "NPR",
+   "color": "#0e7490",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Dnipro_River_in_Dnipro_%28city%29.jpg/1280px-Dnipro_River_in_Dnipro_%28city%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Sergiy Klymenko / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Dnipro_River_in_Dnipro_(city).jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-10-28-w3",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Health",
+   "emoji": "🦠",
+   "stat": "10,000+",
+   "statLabel": "Ebola infections since May",
+   "headline": "Congo's Ebola outbreak passes 10,000 cases, the fastest ever",
+   "body": [
+    "More than 10,000 people have been infected in the Democratic Republic of Congo since the outbreak was declared in May.",
+    "It is the fastest-spreading Ebola outbreak on record and the largest ever by area.",
+    "At the same stage of the 2014–2016 West Africa outbreak, about 4,000 people had been infected."
+   ],
+   "joke": "",
+   "vc": "Outbreaks like this pull funding toward vaccines, rapid tests and cold-chain logistics in Africa.",
+   "url": "https://www.npr.org/2026/10/27/g-s1-150136/ebola-outbreak-milestone-democratic-republic-congo-vaccine",
+   "linkLabel": "NPR",
+   "color": "#7f1d1d",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/CDC_worker_exposed_to_Ebola_virus.jpg/1280px-CDC_worker_exposed_to_Ebola_virus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Unknown photographer, Centers for Disease Control / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:CDC_worker_exposed_to_Ebola_virus.jpg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-10-28-i1",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Bengaluru",
+   "emoji": "🗳️",
+   "stat": "1.03 cr → 59 lakh",
+   "statLabel": "voters on Bengaluru's roll",
+   "headline": "Bengaluru loses 43 lakh voters in the electoral roll clean-up",
+   "body": [
+    "Bengaluru's electorate has shrunk from 1.03 crore to 59.08 lakh after the Special Intensive Revision (SIR) of voter lists.",
+    "More than 43 lakh names were removed, the most of any area in Karnataka.",
+    "Nearly half of all notices issued across the state during the checks were in Bengaluru."
+   ],
+   "joke": "Bengaluru traffic is still the same. Apparently the voters were the ones who left.",
+   "vc": "A smaller roll changes the maths for the city's coming civic polls and how parties court Bengaluru's voters.",
+   "url": "https://www.thehindu.com/news/cities/bangalore/bengalurus-electorate-plunges-from-103-crore-to-59-lakh-after-sir/article71632927.ece",
+   "linkLabel": "The Hindu",
+   "color": "#9a3412",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Gate_3_%28East%29%2C_Vidhana_Soudha_%2801%29.jpg/1280px-Gate_3_%28East%29%2C_Vidhana_Soudha_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Moheen Reeyad / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Gate_3_(East),_Vidhana_Soudha_(01).jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-10-28-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Defence AI",
+   "emoji": "🛡️",
+   "stat": "3",
+   "statLabel": "armed forces covered",
+   "headline": "Sarvam signs a deal to bring AI to India's armed forces",
+   "body": [
+    "Bengaluru AI startup Sarvam signed an agreement with the Defence Ministry to work on AI for the Army, Navy and Air Force.",
+    "It covers AI applications, research, training and decision support.",
+    "It is Sarvam's first move into defence, as the government pushes homegrown defence tech."
+   ],
+   "joke": "Next up: a chatbot that replies 'Yes, sir' in 22 languages.",
+   "vc": "Government contracts give Indian AI labs steady revenue and a strong 'sovereign AI' story for investors.",
+   "url": "https://inc42.com/buzz/ministry-of-defence-partners-with-sarvam-to-drive-ai-adoption-for-armed-forces/",
+   "linkLabel": "Inc42",
+   "color": "#3f6212",
+   "font": "tech"
+  },
+  {
+   "id": "2026-10-28-i3",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "EVs",
+   "emoji": "🛵",
+   "stat": "12.9% → 11.7%",
+   "statLabel": "SoftBank's Ola Electric stake",
+   "headline": "SoftBank keeps selling Ola Electric shares",
+   "body": [
+    "SoftBank sold 5.55 crore Ola Electric shares between January and October, cutting its stake to 11.7% from 12.9%.",
+    "It also sold 1.12 crore rights entitlements in Ola's nearly ₹1,000 crore rights issue.",
+    "Ola is raising money to repay debt as its revenue and market share fall."
+   ],
+   "joke": "When your biggest backer is quietly heading for the exit, it's not a scooter problem.",
+   "vc": "Early investors trimming stakes tells the market they see limited upside, which weighs on the share price and future fundraising.",
+   "url": "https://inc42.com/buzz/softbank-sells-1-2-stake-in-ola-electric-offloads-1-12-cr-rights-entitlements/",
+   "linkLabel": "Inc42",
+   "color": "#047857",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Ola_S1_Pro.jpg/1280px-Ola_S1_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Ganesh Mohan T / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Ola_S1_Pro.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-10-28-m1",
+   "section": "money",
+   "source": "The Guardian",
+   "kicker": "China tech",
+   "emoji": "📉",
+   "stat": "-40%",
+   "statLabel": "STAR 50 index since June",
+   "headline": "China's AI stock boom wipes out $2.4 trillion",
+   "body": [
+    "Chinese stock markets have lost about $2.4 trillion since May as worries grow about the AI race with the US.",
+    "Shanghai's tech-heavy STAR 50 index has fallen 40% since June, and other major indexes are down about 20%.",
+    "AI stocks make up over 40% of market value in China and Hong Kong, Goldman Sachs says."
+   ],
+   "joke": "Turns out 'beat America at AI' isn't a profit forecast.",
+   "vc": "If AI valuations crack in China, investors will ask whether US AI prices rest on firmer ground. Profits will decide it.",
+   "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
+   "linkLabel": "The Guardian",
+   "color": "#b91c1c",
+   "font": "finance"
+  },
+  {
+   "id": "2026-10-28-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Venture",
+   "emoji": "💰",
+   "stat": "$10B",
+   "statLabel": "new fund",
+   "headline": "Disruptive raises a $10 billion fund for big AI and defence bets",
+   "body": [
+    "Dallas-based Disruptive raised $10 billion to back at least 10 companies, mainly in AI and defence.",
+    "It is among the year's biggest venture funds and the largest ever raised in Texas.",
+    "The firm, founded by Alex Davis in 2012, is known for backing Groq and ElevenLabs."
+   ],
+   "joke": "Ten companies, ten billion. Easy maths, scary cheques.",
+   "vc": "Fewer, bigger bets is the new VC model for capital-hungry AI; it leaves less room for small early-stage cheques.",
+   "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+   "linkLabel": "TechCrunch",
+   "color": "#854d0e",
+   "font": "impact"
+  },
+  {
+   "id": "2026-10-28-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Manufacturing",
+   "emoji": "🏭",
+   "stat": "$2.1B",
+   "statLabel": "raised",
+   "headline": "Re:Build, the factory startup behind Slate Auto, raises $2.1B",
+   "body": [
+    "Massachusetts-based Re:Build, which spun out EV maker Slate Auto, raised $2.1 billion led by General Catalyst and JPMorganChase.",
+    "It will use the money to make more hard-tech products and start new industrial companies.",
+    "Investors are pouring money into US manufacturing as a hedge against China."
+   ],
+   "joke": "America wants to make things again. Step one: raise $2 billion.",
+   "vc": "'Reshoring' is now a funded category; factory-as-a-service startups could pull Indian component suppliers into US supply chains too.",
+   "url": "https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/",
+   "linkLabel": "TechCrunch",
+   "color": "#334155",
+   "font": "impact"
+  },
+  {
+   "id": "2026-10-28-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI cloud",
+   "emoji": "☁️",
+   "stat": "$100M",
+   "statLabel": "Series A",
+   "headline": "General Compute raises $100M as 'neocloud' fears grow",
+   "body": [
+    "AI cloud startup General Compute raised a $100 million Series A, renting out computing power built on specialised inference chips.",
+    "It comes as rival CoreWeave's stock hits a 12-month low and Elon Musk predicts many such clouds will die.",
+    "Its CEO says the fears are overblown and demand for compute is still huge."
+   ],
+   "joke": "Everyone says the bubble's popping. He says: here's $100 million.",
+   "vc": "Inference, running AI models rather than training them, is where steady cloud demand is shifting.",
+   "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+   "linkLabel": "TechCrunch",
+   "color": "#4c1d95",
+   "font": "tech"
+  },
+  {
+   "id": "2026-10-28-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Anthropic IPO",
+   "emoji": "🏛️",
+   "stat": "PBC",
+   "statLabel": "public benefit company",
+   "headline": "Anthropic's IPO buyers will get little say over the company",
+   "body": [
+    "Anthropic's filing shows public shareholders will have little control over big decisions, including who sits on its board.",
+    "It is a public benefit company, a for-profit legally allowed to weigh its AI safety mission alongside profit.",
+    "Founder-control setups are common in tech, but TechCrunch calls Anthropic's unusually complex."
+   ],
+   "joke": "You can buy the stock. You just can't tell it what to do. Like a cat.",
+   "vc": "Investors usually discount shares with weak voting rights; Anthropic is betting its growth outweighs that.",
+   "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+   "linkLabel": "TechCrunch",
+   "color": "#c2410c",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Dario_Amodei_at_TechCrunch_Disrupt_2023_06.jpg/1280px-Dario_Amodei_at_TechCrunch_Disrupt_2023_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "TechCrunch / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_06.jpg",
+    "license": "CC BY 2.0"
+   }
+  }
+ ]
+}
