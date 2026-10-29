@@ -284,9 +284,9 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     get(k, d){ try{ const v = localStorage.getItem('ds_'+k); return v===null?d:JSON.parse(v);}catch(e){return d} },
     set(k, v){ try{ v===null ? localStorage.removeItem('ds_'+k) : localStorage.setItem('ds_'+k, JSON.stringify(v)); }catch(e){} }
   };
-  const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["saved","🔖 Saved"]];
-  const LABEL = {world:"World", india:"India", money:"Money Desk"};
-  const VERSION = '3.0'; // bump on every change to this page, so it's easy to tell which copy you have
+  const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["women","Women"],["saved","🔖 Saved"]];
+  const LABEL = {world:"World", india:"India", money:"Money Desk", women:"Women"};
+  const VERSION = '3.1'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
@@ -348,6 +348,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   function renderTabs(){
     $('#tabs').innerHTML = SECTIONS.map(([k,l]) => {
       const n = k==='all' ? all.length : k==='saved' ? saved.length : all.filter(s=>s.section===k).length;
+      if(!n && k !== 'all' && k !== 'saved' && filter !== k) return ''; // days before a section existed don't show its tab
       return `<button class="chip" data-k="${k}" aria-pressed="${filter===k}">${l}<small>${n}</small></button>`;
     }).join('');
     $('#tabs').querySelectorAll('.chip').forEach(b => b.onclick = () => { filter = b.dataset.k; renderTabs(); show(0, 1, true); closePanel(); });
