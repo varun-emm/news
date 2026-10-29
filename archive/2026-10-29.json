@@ -1,0 +1,273 @@
+{
+ "date": "2026-10-29",
+ "generatedAt": "2026-10-29T03:52:11+05:30",
+ "stories": [
+  {
+   "id": "2026-10-29-w1",
+   "section": "world",
+   "source": "The Guardian",
+   "kicker": "Spain",
+   "emoji": "🚆",
+   "stat": "68",
+   "statLabel": "people killed",
+   "headline": "High-speed train crash in Spain kills at least 68",
+   "body": [
+    "At least 68 people died when a high-speed train from Madrid slammed into the back of another near Urda, in Toledo province.",
+    "Officials suggested an 'inexplicable' error at the central control centre; dozens more were injured.",
+    "Prime Minister Pedro Sánchez declared three days of mourning. It is Spain's second deadly high-speed crash this year."
+   ],
+   "joke": "",
+   "vc": "Two fatal crashes in a year will push Spain to spend on rail signalling and safety systems, a niche where rail-tech suppliers compete.",
+   "url": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo",
+   "linkLabel": "The Guardian",
+   "color": "#3f3f46",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Spain_Sevilla_AVE_train_station.jpg/1280px-Spain_Sevilla_AVE_train_station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Takeaway / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Spain_Sevilla_AVE_train_station.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-10-29-w2",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Israel votes",
+   "emoji": "🇮🇱",
+   "stat": "61",
+   "statLabel": "seats needed to govern",
+   "headline": "Israel's count shows Netanyahu leading, but no majority",
+   "body": [
+    "With most votes counted, Netanyahu's Likud leads Gadi Eisenkot's party, but no side has a clear path to a majority.",
+    "Opposition parties together, including two Arab-led factions, won more votes than Netanyahu's right-wing bloc.",
+    "Both leaders claimed success overnight; coalition talks will decide who governs."
+   ],
+   "joke": "Both sides say they won. The 61-seat maths says: not yet.",
+   "vc": "Political limbo delays big budget and defence decisions that Israel's tech sector watches closely.",
+   "url": "https://www.npr.org/2026/10/28/nx-s1-6019423/israel-election-results",
+   "linkLabel": "NPR",
+   "color": "#1e3a8a",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Knesset_front_side_-_2022.jpg/1280px-Knesset_front_side_-_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Clema12 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Knesset_front_side_-_2022.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-10-29-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Middle East",
+   "emoji": "🤝",
+   "stat": "1st",
+   "statLabel": "Iraqi PM visit since Assad fell",
+   "headline": "Iraq's prime minister makes a historic visit to Syria",
+   "body": [
+    "Iraqi PM Ali al-Zaidi met Syrian President Ahmed al-Sharaa in Damascus, the first such visit since Bashar al-Assad fell.",
+    "They discussed sending Iraqi oil through Syria's Baniyas pipeline, more trade and farming projects.",
+    "Iraq began exporting small amounts of oil via Syria after the US-led war on Iran disrupted routes."
+   ],
+   "joke": "Old neighbours, new pipeline, same complicated group chat.",
+   "vc": "A working Iraq–Syria oil route would add supply outside the Strait of Hormuz, good for oil importers like India.",
+   "url": "https://www.aljazeera.com/news/2026/10/28/iraqi-pm-ali-al-zaidi-meets-ahmed-al-sharaa-in-historic-syria-visit",
+   "linkLabel": "Al Jazeera",
+   "color": "#92400e",
+   "font": "editorial"
+  },
+  {
+   "id": "2026-10-29-i1",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Markets",
+   "emoji": "📶",
+   "stat": "+26.66%",
+   "statLabel": "above IPO price on day one",
+   "headline": "Jio Platforms jumps 27% on its stock market debut",
+   "body": [
+    "Jio Platforms closed its first trading day at ₹1,417.35, up 26.66% from its IPO price of ₹1,119.",
+    "That makes it India's second-most valuable listed company, worth about ₹13.05 lakh crore, behind parent Reliance.",
+    "The ₹30,213 crore IPO, India's largest, was subscribed 22 times; most of the money will repay debt."
+   ],
+   "joke": "Most of us can't get a Jio refund. Investors got 27% on day one.",
+   "vc": "A blockbuster listing revives India's IPO pipeline and gives later tech listings a strong benchmark.",
+   "url": "https://inc42.com/buzz/jio-platforms-lists-at-21-36-premium-after-indias-largest-ipo/",
+   "linkLabel": "Inc42",
+   "color": "#1e40af",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Jio_sim.jpg/1280px-Jio_sim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Jim Carter / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Jio_sim.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-10-29-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "AI funding",
+   "emoji": "🤖",
+   "stat": "$1.5B → $4B",
+   "statLabel": "Sarvam's possible valuation jump",
+   "headline": "Cognizant may invest in Sarvam at up to $4 billion valuation",
+   "body": [
+    "IT giant Cognizant is reportedly in talks to invest in Bengaluru AI startup Sarvam as part of a $300 million raise.",
+    "The deal could value Sarvam at $3.5–4 billion, more than double its $1.5 billion valuation in June.",
+    "HCLTech already put $150 million into Sarvam; Cognizant would be the second IT services major on board."
+   ],
+   "joke": "Indian IT's new strategy: if you can't build the AI, buy a slice of it.",
+   "vc": "Strategic money from IT firms gives Indian AI labs both cash and a built-in sales channel to enterprise clients.",
+   "url": "https://inc42.com/buzz/cognizant-in-talks-to-invest-in-sarvam-at-3-5-bn-to-4-bn-valuation-report/",
+   "linkLabel": "Inc42",
+   "color": "#6d28d9",
+   "font": "tech"
+  },
+  {
+   "id": "2026-10-29-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Bengaluru",
+   "emoji": "🚇",
+   "stat": "7.5 km",
+   "statLabel": "elevated stretch cleared",
+   "headline": "Namma Metro's Pink Line may open on 15 November",
+   "body": [
+    "The 7.5-km elevated stretch of the Pink Line between Kalena Agrahara and Tavarekere got its safety clearance on Wednesday.",
+    "Chief Minister D.K. Shivakumar hinted PM Modi may inaugurate it on 15 November.",
+    "Minister Krishna Byre Gowda says the date is not yet confirmed."
+   ],
+   "joke": "Bengaluru metro: arriving soon™ since forever. This time with a safety certificate.",
+   "vc": "Each new metro line lifts property and retail demand around its stations, a big theme for Bengaluru real estate.",
+   "url": "https://www.thehindu.com/news/cities/bangalore/pink-line-elevated-corridor-likely-to-be-inaugurated-on-november-15-cm-page-one/article71637448.ece",
+   "linkLabel": "The Hindu",
+   "color": "#be185d",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Interior_of_Namma_metro_train_%282024%29.jpg/1280px-Interior_of_Namma_metro_train_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Gpkp / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_Namma_metro_train_(2024).jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-10-29-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Big Tech",
+   "emoji": "💸",
+   "stat": "$10B",
+   "statLabel": "Microsoft revenue from OpenAI in a quarter",
+   "headline": "Microsoft made $10 billion from OpenAI in one quarter",
+   "body": [
+    "Microsoft earned $10 billion from deals with OpenAI in July–September, nearly 11% of its $92.3 billion revenue.",
+    "At that pace it would make about $40 billion a year from OpenAI.",
+    "OpenAI also owed Microsoft $7.2 billion at the end of September, up from $6 billion in June."
+   ],
+   "joke": "Partners, rivals and now 11% of the bill. Complicated.",
+   "vc": "Shows how much of Big Tech's AI revenue rests on a few labs; if OpenAI slows, Microsoft feels it.",
+   "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+   "linkLabel": "TechCrunch",
+   "color": "#0e7490",
+   "font": "finance"
+  },
+  {
+   "id": "2026-10-29-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Cloud",
+   "emoji": "☁️",
+   "stat": "$33.2B vs $30.7B",
+   "statLabel": "Azure vs Google Cloud",
+   "headline": "Microsoft reveals Azure's revenue for the first time: $33.2B",
+   "body": [
+    "Microsoft disclosed Azure's quarterly revenue in dollars for the first time: $33.2 billion, up 48%.",
+    "Google Cloud made $30.7 billion in the same quarter, but grew about twice as fast.",
+    "It was Microsoft's 10th record quarter in a row."
+   ],
+   "joke": "After years of 'trust us, it's growing', Microsoft finally showed the receipt.",
+   "vc": "Clear numbers make cloud stocks easier to compare, and show AI demand is still pushing cloud spending up fast.",
+   "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+   "linkLabel": "TechCrunch",
+   "color": "#1d4ed8",
+   "font": "tech"
+  },
+  {
+   "id": "2026-10-29-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Search",
+   "emoji": "🔎",
+   "stat": "-8%",
+   "statLabel": "Alphabet shares after results",
+   "headline": "Alphabet stock falls 8% as search ad growth slows",
+   "body": [
+    "Alphabet's revenue rose 25% to $127.6 billion, but search revenue grew only 12%, down from 19% in the first quarter.",
+    "Shares fell 8% after the results.",
+    "Google is now rolling out ads inside its AI search answers in more countries."
+   ],
+   "joke": "When your AI answers the question, nobody clicks the ad. Awkward.",
+   "vc": "If AI answers eat search ads, the whole web's ad economy shifts; startups that sell AI ad tools stand to gain.",
+   "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+   "linkLabel": "TechCrunch",
+   "color": "#b91c1c",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Googleplex_with_Pride_colors_2015.gk.jpg/1280px-Googleplex_with_Pride_colors_2015.gk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Grendelkhan / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Googleplex_with_Pride_colors_2015.gk.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-10-29-m4",
+   "section": "money",
+   "source": "Al Jazeera",
+   "kicker": "Interest rates",
+   "emoji": "🏦",
+   "stat": "3.75–4%",
+   "statLabel": "US rate, unchanged",
+   "headline": "The US Fed keeps interest rates on hold",
+   "body": [
+    "The Federal Reserve held its key rate at 3.75–4% in a 10–2 vote, its last decision before the US midterms.",
+    "It said the economy is growing strongly and spending has held up, despite rising inflation.",
+    "Markets had priced in a more than 90% chance of no change."
+   ],
+   "joke": "The Fed's big announcement: nothing. Markets: 'Thank you.'",
+   "vc": "Higher-for-longer US rates keep the dollar strong and make funding costlier for emerging-market startups.",
+   "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us",
+   "linkLabel": "Al Jazeera",
+   "color": "#065f46",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg/1280px-Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "AgnosticPreachersKid / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-10-29-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Autonomy",
+   "emoji": "🚛",
+   "stat": "75",
+   "statLabel": "driverless trucks ordered",
+   "headline": "Kodiak lands its first big deal for driverless highway trucks",
+   "body": [
+    "Self-driving truck firm Kodiak AI will deliver 75 driverless trucks to freight company DTL Transport from 2028.",
+    "It is Kodiak's first binding deal for big rigs on public highways.",
+    "In December it plans to start hauling Ikea goods between Dallas and Houston with no safety driver."
+   ],
+   "joke": "The truck will drive itself. The playlist is still up to you.",
+   "vc": "Binding orders, not pilots, are what investors need to believe autonomous trucking makes money.",
+   "url": "https://techcrunch.com/2026/10/28/kodiak-lands-first-commercial-deal-to-supply-driverless-trucks-for-public-highways/",
+   "linkLabel": "TechCrunch",
+   "color": "#a16207",
+   "font": "impact"
+  }
+ ]
+}
