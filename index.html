@@ -64,6 +64,11 @@ header{display:flex;align-items:center;padding:6px 8px 8px 18px;gap:8px}
   color:#fff;padding:18px 20px 14px;display:flex;flex-direction:column}
 .kicker{font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;opacity:.75;display:flex;gap:7px;align-items:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .kicker .em{font-size:14px}
+.sec{align-self:flex-start;padding:5px 11px;border-radius:999px;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#fff;white-space:nowrap}
+.sec-text{margin-bottom:9px;background:rgba(255,255,255,.18)}
+.sec-photo,.sec-viz{position:absolute;top:12px;z-index:3;background:rgba(0,0,0,.5);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.sec-photo{left:12px}.sec-viz{right:12px}
+.c-viz:has(.sec-viz) .vz-h{padding-right:140px}
 .c-text h2{font-size:calc(var(--hs,1) * clamp(21px,6vw,28px));line-height:1.1;margin:10px 0 8px;text-wrap:balance}
 /* headline type, picked per story */
 .hl-editorial{font-family:Fraunces,Georgia,serif;font-weight:800;letter-spacing:-.02em}
@@ -286,7 +291,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   };
   const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["women","Women"],["saved","🔖 Saved"]];
   const LABEL = {world:"World", india:"India", money:"Money Desk", women:"Women"};
-  const VERSION = '3.1'; // bump on every change to this page, so it's easy to tell which copy you have
+  const SEC_ICON = {world:"🌍", india:"🇮🇳", money:"💰", women:"♀️"};
+  const VERSION = '3.2'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
@@ -472,6 +478,11 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     el.dataset.id = s.id;
     el.style.setProperty('--c', s.color || '#333');
     el.innerHTML = kinds.map(k => cards[k]).join('');
+    if(LABEL[s.section]){ // section tag on whichever card sits on top
+      const top = el.firstElementChild, tag = document.createElement('span');
+      tag.className = 'sec sec-' + kinds[0]; tag.textContent = `${SEC_ICON[s.section] || ''} ${LABEL[s.section]}`;
+      top.insertBefore(tag, top.firstChild);
+    }
     const im = el.querySelector('.img');
     if(im){ const t = new Image(); t.onerror = () => im.remove(); t.src = img; }
     return el;
