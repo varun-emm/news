@@ -1,0 +1,435 @@
+{
+ "date": "2026-10-31",
+ "generatedAt": "2026-10-31T03:51:26+05:30",
+ "stories": [
+  {
+   "id": "2026-10-31-w1",
+   "section": "world",
+   "source": "The Guardian",
+   "kicker": "Ukraine",
+   "emoji": "🚌",
+   "stat": "25",
+   "statLabel": "buses and ambulances in the convoy",
+   "headline": "Civilians evacuated from besieged Oleshky in first joint relief mission",
+   "body": [
+    "People in Russian-held Oleshky, across the Dnipro from Kherson, were evacuated on Friday in a joint relief operation.",
+    "It is the first of its kind in more than four and a half years of war.",
+    "A convoy of 25 buses and ambulances brought food and medicine for the few thousand people left, including about 50 children."
+   ],
+   "joke": "",
+   "vc": "Humanitarian deals like this are tests for wider ceasefire talks, which markets watch for signs of a rebuilding boom.",
+   "url": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
+   "linkLabel": "The Guardian",
+   "color": "#0e7490",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/View_of_Kherson_and_Antonovskiy_bridge%2C_2006.jpg/1280px-View_of_Kherson_and_Antonovskiy_bridge%2C_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Uaquantum at Russian Wikipedia / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:View_of_Kherson_and_Antonovskiy_bridge,_2006.jpg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-10-31-w2",
+   "section": "world",
+   "source": "The Guardian",
+   "kicker": "Trade",
+   "emoji": "🤝",
+   "stat": "27",
+   "statLabel": "EU countries in the partnership",
+   "headline": "Canada and the EU launch an 'Alliance for the Future'",
+   "body": [
+    "Canada's Mark Carney and the EU's Ursula von der Leyen announced a new alliance at their summit in Montreal.",
+    "They call it a hedge against unpredictable geopolitics and a source of stability for citizens.",
+    "Other like-minded countries are invited to join."
+   ],
+   "joke": "Two friends start a club. Membership open, one neighbour pointedly not mentioned.",
+   "vc": "Deeper Canada–EU ties could redirect trade and investment away from the US, a shift India's exporters will watch.",
+   "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+   "linkLabel": "The Guardian",
+   "color": "#991b1b",
+   "font": "news"
+  },
+  {
+   "id": "2026-10-31-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Iran diplomacy",
+   "emoji": "🕊️",
+   "stat": "Oct 30",
+   "statLabel": "Qatari team lands in Tehran",
+   "headline": "Qatari mediators fly to Tehran to revive the US–Iran ceasefire",
+   "body": [
+    "A Qatari delegation working with US officials arrived in Tehran on Friday to try to revive a ceasefire.",
+    "JD Vance's letter to Iran's security chief has reportedly been well received.",
+    "But Trump has told Gulf allies to prepare, and Pakistan's army says it is 'cautiously optimistic' on mediation."
+   ],
+   "joke": "Mixed signals so loud even the mediators need mediators.",
+   "vc": "Any ceasefire would ease oil and shipping costs through Hormuz, good news for India's fuel import bill.",
+   "url": "https://www.aljazeera.com/news/2026/10/30/qatari-officials-in-iran-in-bid-to-revive-ceasefire-deal-with-us",
+   "linkLabel": "Al Jazeera",
+   "color": "#a16207",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Doha_Skyline_10.jpg/1280px-Doha_Skyline_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Zairon / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Doha_Skyline_10.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-10-31-i1",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "AI policy",
+   "emoji": "🗂️",
+   "stat": "DEPA",
+   "statLabel": "new AI data framework",
+   "headline": "India proposes a privacy-first way to share data for AI training",
+   "body": [
+    "The IT ministry has proposed a consent-based framework, DEPA for AI training, to help build AI models on Indian data.",
+    "Companies could train models together without handing over the underlying data.",
+    "Trained models would need independent checks for bias, fairness, safety and explainability."
+   ],
+   "joke": "Finally, a plan to feed AI without feeding it your Aadhaar.",
+   "vc": "Access to large Indian datasets is the main edge local AI startups lack; this could lower that barrier.",
+   "url": "https://inc42.com/buzz/meity-floats-new-privacy-led-framework-to-unlock-data-for-training-ai-models/",
+   "linkLabel": "Inc42",
+   "color": "#312e81",
+   "font": "tech"
+  },
+  {
+   "id": "2026-10-31-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Gig workers",
+   "emoji": "🛵",
+   "stat": "9",
+   "statLabel": "labour laws merged into one code",
+   "headline": "India sets up a social security board for gig workers",
+   "body": [
+    "The Labour Ministry has formed a National Social Security Board for unorganised, gig and platform workers.",
+    "It falls under the 2020 Code on Social Security, which merged nine labour laws.",
+    "Platforms, unions, worker groups and governments will all have seats, chaired by the Labour Minister."
+   ],
+   "joke": "Your delivery partner may finally get benefits faster than your order.",
+   "vc": "Welfare contributions could raise costs for Zomato, Swiggy, Uber and others, a key margin question for investors.",
+   "url": "https://inc42.com/buzz/labour-ministry-notifies-national-social-security-board-for-gig-platform-workers/",
+   "linkLabel": "Inc42",
+   "color": "#c2410c",
+   "font": "news"
+  },
+  {
+   "id": "2026-10-31-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Karnataka",
+   "emoji": "🏙️",
+   "stat": "7",
+   "statLabel": "new growth hubs outside Bengaluru",
+   "headline": "Karnataka plans to grow seven cities beyond Bengaluru",
+   "body": [
+    "Chief Minister D.K. Shivakumar unveiled the Karnataka State Regional Urbanisation Plan 2047.",
+    "It names Mysuru, Mangaluru, Hubballi-Dharwad, Belagavi, Kalaburagi, Ballari and Shivamogga as growth hubs.",
+    "The aim is to spread jobs and infrastructure so growth isn't only in Bengaluru."
+   ],
+   "joke": "Plan 2047: so Bengaluru traffic can finally get some company.",
+   "vc": "Tier-2 hubs with good infra could pull startups and offices out of Bengaluru, cutting costs for companies.",
+   "url": "https://www.thehindu.com/news/cities/bangalore/government-plans-balanced-urban-growth-beyond-bengaluru-as-demography-shifts/article71645707.ece",
+   "linkLabel": "The Hindu",
+   "color": "#065f46",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Mysuru_Palace_-_East_Side.jpg/1280px-Mysuru_Palace_-_East_Side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Ingo Mehling / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Mysuru_Palace_-_East_Side.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-10-31-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Crypto",
+   "emoji": "🔓",
+   "stat": "$6.3B",
+   "statLabel": "stolen in the hack",
+   "headline": "North Korea blamed for record $6.3B Binance crypto heist",
+   "body": [
+    "Hackers linked to North Korea stole at least $6.3 billion from Binance, the biggest crypto theft on record.",
+    "About half has been frozen, and Binance says it will cover all user losses.",
+    "Binance says the attack began with a compromised engineer's laptop; most of it unfolded in about 20 minutes."
+   ],
+   "joke": "One laptop, 20 minutes, $6.3 billion. Worst IT ticket ever.",
+   "vc": "Hacks this big push regulators to tighten exchange security rules, raising costs across crypto platforms.",
+   "url": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/",
+   "linkLabel": "TechCrunch",
+   "color": "#ca8a04",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Binance_t-shirt_and_bag_-_2022-07-09.jpg/1280px-Binance_t-shirt_and_bag_-_2022-07-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Bretwa / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Binance_t-shirt_and_bag_-_2022-07-09.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-10-31-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI boom",
+   "emoji": "📉",
+   "stat": "$740B+",
+   "statLabel": "Big Tech capex this year",
+   "headline": "Investors get nervous about Big Tech's $740B AI spending",
+   "body": [
+    "Alphabet, Amazon, Meta and Microsoft plan to spend over $740 billion this year, mostly on AI data centres and chips.",
+    "Investors now worry about negative cash flow, rising debt and whether it will pay off.",
+    "The Nasdaq fell 2.9% on Friday and chip stocks were hit hard."
+   ],
+   "joke": "Spending like there's no tomorrow, until tomorrow asks for returns.",
+   "vc": "If Big Tech slows AI spending, chipmakers and data-centre suppliers feel it first, including Indian IT and infra plays.",
+   "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+   "linkLabel": "TechCrunch",
+   "color": "#b91c1c",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Nasdaq_MarketSite_%2851494550508%29.jpg/1280px-Nasdaq_MarketSite_%2851494550508%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "ajay_suresh / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Nasdaq_MarketSite_(51494550508).jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-10-31-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Chips",
+   "emoji": "💥",
+   "stat": "-28%",
+   "statLabel": "Intel shares in one day",
+   "headline": "Intel crashes 28%, wiping $12B off the US government's stake",
+   "body": [
+    "Intel's stock fell about 28% on Friday after a weak fourth-quarter forecast of $15–16 billion in revenue.",
+    "That cut the value of the US government's 10% stake by about $12 billion.",
+    "Even so, the stock is still up more than 70% this year."
+   ],
+   "joke": "The government bought the dip. Then the dip bought the government.",
+   "vc": "Government stakes in companies add political risk; a bad quarter now becomes a taxpayer headline.",
+   "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+   "linkLabel": "TechCrunch",
+   "color": "#1d4ed8",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/2023_Intel_Core_i7_12700KF_%285%29.jpg/1280px-2023_Intel_Core_i7_12700KF_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Jacek Halicki / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:2023_Intel_Core_i7_12700KF_(5).jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-10-31-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Anthropic IPO",
+   "emoji": "🏷️",
+   "stat": "BB",
+   "statLabel": "expected credit rating",
+   "headline": "Anthropic may get a 'junk' credit rating after its IPO, FT reports",
+   "body": [
+    "Blackstone told investors it expects Anthropic to get a high 'junk' rating, in the double-B range, after its IPO.",
+    "It had earlier said Anthropic would get an investment-grade rating before 2027.",
+    "Blackstone anchored a recent $63 billion deal to finance Anthropic's chips."
+   ],
+   "joke": "Huge revenue, huge losses, and now a credit score like a college student's.",
+   "vc": "A junk rating means pricier borrowing for the chips AI labs need, a cost that eats into future profits.",
+   "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+   "linkLabel": "TechCrunch",
+   "color": "#7c2d12",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854099081629%29.jpg/1280px-Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854099081629%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Department for Science, Innovation and Technology / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._(54099081629).jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-10-31-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Robotaxis",
+   "emoji": "🚕",
+   "stat": "2027",
+   "statLabel": "bZ4X model year",
+   "headline": "Waymo picks Toyota to build its robotaxis for Japan and the UK",
+   "body": [
+    "Toyota will build 2027 bZ4X electric cars fitted with Waymo's self-driving system at its Takaoka factory.",
+    "Testing starts in Japan next year, where Waymo plans a robotaxi service.",
+    "The cars are meant for right-hand-drive markets like the UK, where Waymo already tests in London."
+   ],
+   "joke": "Japan gets robotaxis. Bengaluru gets a fourth flyover tender.",
+   "vc": "Pairing with big carmakers lets robotaxi firms scale without building factories, a model others will copy.",
+   "url": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/",
+   "linkLabel": "TechCrunch",
+   "color": "#0f766e",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg/1280px-Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Dllu / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-10-31-v1",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "US politics",
+   "emoji": "🏛️",
+   "stat": "1st",
+   "statLabel": "woman elected LA mayor (Bass, 2022)",
+   "headline": "Two women battle to lead Los Angeles",
+   "body": [
+    "Karen Bass, the first woman elected mayor of Los Angeles, is running for a second term.",
+    "Her challenger is council member Nithya Raman, a former ally who entered on the last day to register.",
+    "The race pits Bass's experience against Raman's promise of bigger change."
+   ],
+   "joke": "Whoever wins, LA's mayor is a woman. Patriarchy, please sit this one out.",
+   "vc": "LA's next mayor controls a huge budget for housing and homelessness, sectors that draw large public and private spending.",
+   "url": "https://19thnews.org/2026/10/los-angeles-mayor-race-progressive-bass-raman/",
+   "linkLabel": "The 19th",
+   "color": "#9d174d",
+   "font": "editorial",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Los_Angeles_City_Hall_up-close_%28April_2025%29.jpg/1280px-Los_Angeles_City_Hall_up-close_%28April_2025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Busition / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Los_Angeles_City_Hall_up-close_(April_2025).jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-10-31-v2",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "Politics",
+   "emoji": "🧕",
+   "stat": "2022",
+   "statLabel": "when she entered office",
+   "headline": "Muslim women lawmakers face a wave of online hate before the vote",
+   "body": [
+    "Ohio lawmaker Munira Abdullahi, the state's first Muslim woman legislator, says this is the worst Islamophobia she has faced.",
+    "She says far-right activist Laura Loomer has posted about her nonstop, including AI-edited photos.",
+    "Muslim women in office say they want to be judged on their work, not their faith."
+   ],
+   "joke": "",
+   "vc": "Online abuse pushes women out of public life; platforms face growing pressure to spend on moderation.",
+   "url": "https://19thnews.org/2026/10/elected-muslim-women-islamophobia/",
+   "linkLabel": "The 19th",
+   "color": "#4c1d95",
+   "font": "serious"
+  },
+  {
+   "id": "2026-10-31-v3",
+   "section": "women",
+   "source": "The Hindu",
+   "kicker": "Bengaluru safety",
+   "emoji": "🚇",
+   "stat": "38",
+   "statLabel": "year-old accused questioned",
+   "headline": "Man accused of secretly filming a woman on Namma Metro questioned",
+   "body": [
+    "Bengaluru police questioned a 38-year-old man accused of secretly filming a woman passenger on the Metro.",
+    "His phone has been seized for forensic checks; he denies it.",
+    "The alleged filming happened near Pattandur Agrahara station; he has anticipatory bail but must cooperate."
+   ],
+   "joke": "",
+   "vc": "Women's safety on public transport shapes how many women can commute to work, and so their job options.",
+   "url": "https://www.thehindu.com/news/cities/bangalore/man-accused-of-secretly-filming-woman-on-namma-metro-questioned/article71646315.ece",
+   "linkLabel": "The Hindu",
+   "color": "#44403c",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Interior_of_Namma_metro_train_%282024%29.jpg/1280px-Interior_of_Namma_metro_train_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Gpkp / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_Namma_metro_train_(2024).jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-10-31-h1",
+   "section": "health",
+   "source": "Express Healthcare",
+   "kicker": "Bengaluru",
+   "emoji": "🏥",
+   "stat": "110 → ~150",
+   "statLabel": "beds, with room to grow",
+   "headline": "Fortis buys Bengaluru's 110-bed Suguna Hospital",
+   "body": [
+    "Fortis Healthcare has bought Suguna Hospital on Dr Rajkumar Road in Rajajinagar, north-west Bengaluru, in an all-cash deal.",
+    "The 110-bed hospital, opened in 2006, can grow to about 150 beds; Fortis gets the land and building too.",
+    "It fits Fortis's plan to grow in city clusters by buying hospitals."
+   ],
+   "joke": "Bengaluru's newest Fortis branch comes with a pre-installed neighbourhood.",
+   "vc": "Buying running hospitals is faster and cheaper than building new ones, which is why chains are on an acquisition spree.",
+   "url": "https://www.expresshealthcare.in/news/fortis-acquires-110-bedded-suguna-hospital-rajajinagar-bengaluru/455701/",
+   "linkLabel": "Express Healthcare",
+   "color": "#115e59",
+   "font": "news"
+  },
+  {
+   "id": "2026-10-31-h2",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Hospital chains",
+   "emoji": "🛏️",
+   "stat": "+758",
+   "statLabel": "beds added in a year",
+   "headline": "Max Healthcare grows to 5,518 beds as profit rises 10%",
+   "body": [
+    "Max Healthcare's gross revenue rose 20% to ₹3,219 crore in the September quarter, and profit grew 10% to ₹448 crore.",
+    "It now runs 5,518 beds, 758 more than a year ago, with 77% occupancy.",
+    "Average revenue per patient rose 8% to ₹2.31 lakh."
+   ],
+   "joke": "Business is booming. Ideally, that's not a sign you should be happy about.",
+   "vc": "Bed additions plus rising revenue per patient is the growth formula investors pay for in Indian hospital stocks.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/max-healthcare-posts-3219-cr-in-q2-fy27-profit-climbs-10/135384706",
+   "linkLabel": "ET HealthWorld",
+   "color": "#1e40af",
+   "font": "finance",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/A_hospital_ward_in_Assam_in_response_to_the_2020_COVID-19_pandemic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "AnjanBorah / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:A_hospital_ward_in_Assam_in_response_to_the_2020_COVID-19_pandemic.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-10-31-h3",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Delhi",
+   "emoji": "🏗️",
+   "stat": "1,538 → 2,204",
+   "statLabel": "beds at RML Hospital",
+   "headline": "Delhi's RML Hospital clears a big hurdle for its 666-bed block",
+   "body": [
+    "The new 666-bed super speciality block at Delhi's Ram Manohar Lohia Hospital has got fire safety clearance.",
+    "Built for ₹482 crore, it has 18 operating theatres, 99 ICU beds and cancer treatment machines.",
+    "It will raise the hospital's capacity from 1,538 to 2,204 beds."
+   ],
+   "joke": "",
+   "vc": "Big public hospital expansions keep advanced care affordable and set the price benchmark private chains compete against.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/rml-hospitals-666-bed-super-speciality-block-gets-fire-safety-clearance/135194148",
+   "linkLabel": "ET HealthWorld",
+   "color": "#881337",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Laparoscopic_operating_theatre.jpg/1280px-Laparoscopic_operating_theatre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Dr.jayesh amin / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Laparoscopic_operating_theatre.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  }
+ ]
+}

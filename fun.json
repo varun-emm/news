@@ -1,348 +1,302 @@
 {
- "date": "2026-10-31",
- "generatedAt": "2026-10-31T03:51:26+05:30",
+ "date": "2026-11-01",
+ "generatedAt": "2026-11-01T03:50:03+05:30",
  "items": [
   {
-   "id": "2026-10-31-f1",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "🇬🇧",
-   "color": "#78350f",
-   "headline": "Palace × Burberry: peak British collab",
-   "caption": "A surprise 10-piece capsule from two UK icons.",
-   "body": [
-    "The skate brand and the heritage house dropped the collab with no warning.",
-    "It continues Burberry's comeback by leaning into its Britishness.",
-    "How to wear it: a check scarf with a skate hoodie."
-   ],
-   "url": "https://www.highsnobiety.com/p/palace-burberry/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793377593-palace-burberry-01-1.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/palace-burberry/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-10-31-f2",
+   "id": "2026-11-01-f1",
    "type": "fashion",
    "source": "Highsnobiety",
    "emoji": "🥾",
-   "color": "#7c2d12",
-   "headline": "Red Wing and BEAMS bring back a '90s boot",
-   "caption": "A fan-favourite boot unseen for 30 years, for BEAMS' 50th.",
+   "color": "#3f3f46",
+   "headline": "adidas' Wetherlam boot is built for bad weather",
+   "caption": "A waterproof outdoor boot that looks just as good in town.",
    "body": [
-    "BEAMS reinterprets American style through a Japanese lens.",
-    "This revival plays straight to long-time fans.",
-    "How to wear it: raw denim, cuffed, and a flannel shirt."
+    "It uses adidas' Aditex, the brand's own take on Gore-Tex.",
+    "It joins the SPZL line of winter boots like the Helvellyn.",
+    "How to wear it: with straight-leg cords and a fleece."
    ],
-   "url": "https://www.highsnobiety.com/p/red-wing-beams-2026/",
+   "url": "https://www.highsnobiety.com/p/adidas-wetherlam-spzl/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793291672-red-wing-beams-2026-2.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1793458551-adidas-wetherlam-spzl-0.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/red-wing-beams-2026/",
+    "creditUrl": "https://www.highsnobiety.com/p/adidas-wetherlam-spzl/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-10-31-f3",
-   "type": "fashion",
-   "source": "GQ UK",
-   "emoji": "👟",
-   "color": "#27272a",
-   "headline": "Comme des Garçons tones down New Balance's wildest shoe",
-   "caption": "The 1890A 'snocassin', half sneaker, half moccasin, now in calm black and white.",
-   "body": [
-    "The 1890A launched this summer in loud snakeskin, cow print and silver mesh.",
-    "CDG Homme keeps the odd shape but turns the colour right down, as it has with Nike and Asics.",
-    "How to wear it: wide black trousers and a white tee."
-   ],
-   "url": "https://www.gq-magazine.co.uk/article/comme-des-garcons-homme-new-balance-1890a-31-10-26",
-   "linkLabel": "GQ UK",
-   "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6ae48590207c30d9f030a0d1/16:9/w_1280,c_limit/144-NB.jpg",
-    "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/comme-des-garcons-homme-new-balance-1890a-31-10-26",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-10-31-f4",
+   "id": "2026-11-01-f2",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🖼️",
-   "color": "#57534e",
-   "headline": "Lemaire's best product may be its art shows",
-   "caption": "A Surrealist exhibition in its Paris flagship, with a matching capsule.",
+   "emoji": "🎭",
+   "color": "#4c1d95",
+   "headline": "Luxury brands now sell characters, not uniforms",
+   "caption": "Highsnobiety calls it 'charactermaxxing'.",
    "body": [
-    "The Paris store shows work by painter Roland Topor.",
-    "Lemaire's shops feel like a stylish friend's home.",
-    "How to wear it: Lemaire's relaxed tailoring, muted colours, nothing tight."
+    "Fashion has moved from signature uniforms like the Chanel suit to whole personalities you can try on.",
+    "Louis Vuitton's latest men's pre-collection is one example.",
+    "How to wear it: pick a character and commit to it, head to toe."
    ],
-   "url": "https://www.highsnobiety.com/p/lemaire-art-shows/",
+   "url": "https://www.highsnobiety.com/p/luxury-charactermaxxing-2026/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793025364-lemaire-art-exhibition-01-1.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1793301900-3x2hero_oliverhadleepearch_louis-vuitton-spring-summer-2027-men8217s-pre-collection-campaign-image-3.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/lemaire-art-shows/",
+    "creditUrl": "https://www.highsnobiety.com/p/luxury-charactermaxxing-2026/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-10-31-f5",
+   "id": "2026-11-01-f3",
    "type": "fashion",
-   "source": "GQ UK",
-   "emoji": "🚧",
-   "color": "#c2410c",
-   "headline": "Nike's Air Max Plus 'Glasgow' nods to the traffic cone",
-   "caption": "A city sneaker with in-jokes only Glaswegians will spot.",
+   "source": "Highsnobiety",
+   "emoji": "🧶",
+   "color": "#78350f",
+   "headline": "New Balance 991 goes half tweed, half leather",
+   "caption": "A luxe Made in UK dad shoe.",
    "body": [
-    "It follows last month's Air Max 95 'Liverpool' made with JD Sports.",
-    "It honours the famous cone that sits on the Duke of Wellington statue.",
-    "How to wear it: tracksuit, Air Max, and a straight face."
+    "Brown tweed under black leather, made at New Balance's England factory.",
+    "It's soft and fuzzy in places, sleek in others.",
+    "How to wear it: grey flannel trousers and a navy overcoat."
    ],
-   "url": "https://www.gq-magazine.co.uk/article/nike-air-max-plus-glasgow-30-10-26",
-   "linkLabel": "GQ UK",
+   "url": "https://www.highsnobiety.com/p/new-balance-991v1-tweed-luxe-leather/",
+   "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6ae47764405a8bb49f1d5ea6/16:9/w_1280,c_limit/145-Nike-Glasgow.jpg",
-    "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/nike-air-max-plus-glasgow-30-10-26",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1793458326-new-balance-991v1-tweed-luxe-leather-0.jpg",
+    "credit": "Highsnobiety",
+    "creditUrl": "https://www.highsnobiety.com/p/new-balance-991v1-tweed-luxe-leather/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-10-31-f6",
+   "id": "2026-11-01-f4",
    "type": "fashion",
-   "source": "GQ UK",
+   "source": "Highsnobiety",
    "emoji": "🧸",
-   "color": "#b45309",
-   "headline": "Onitsuka Tiger's furry Mexico 66",
-   "caption": "The classic sneaker covered in faux fur, in five colours.",
+   "color": "#57534e",
+   "headline": "Nike's 24.7 boot is basically a sporty UGG",
+   "caption": "A cushioned recovery boot with a rippled heel.",
    "body": [
-    "The Mexico 66 Paraty comes in shades like 'Cotton Candy', 'Airy Blue' and 'Brown Storm'.",
-    "Faux fur runs across the upper and inside the shoe.",
-    "How to wear it: brave move; keep the rest of the outfit very plain."
+    "Matte leather uppers and lots of padding make it a cosy ankle boot.",
+    "Nike made it on its own, not with UGG.",
+    "How to wear it: joggers and a hoodie, weekends only."
    ],
-   "url": "https://www.gq-magazine.co.uk/article/onitsuka-tiger-mexico-66-paraty-30-10-26",
-   "linkLabel": "GQ UK",
-   "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6ae3776affb78cb611fe5485/16:9/w_1280,c_limit/143-PArty-Asics.jpg",
-    "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/onitsuka-tiger-mexico-66-paraty-30-10-26",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-10-31-f7",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "🩰",
-   "color": "#9f1239",
-   "headline": "Nike's Moon Shoe goes balletcore",
-   "caption": "Pink satin uppers and frilly laces on Nike's oldest sneaker.",
-   "body": [
-    "The 'Light Carnation' Moon Shoe keeps its slim Waffle sole.",
-    "Satin replaces the usual nylon.",
-    "How to wear it: if you dare, with black trousers to let it shine."
-   ],
-   "url": "https://www.highsnobiety.com/p/nike-moon-shoe-satin-pink/",
+   "url": "https://www.highsnobiety.com/p/nike-24-7-boot/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793376745-nike-moon-shoe-satin-pink-0.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1793458146-nike-24-7-boot-0.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/nike-moon-shoe-satin-pink/",
+    "creditUrl": "https://www.highsnobiety.com/p/nike-24-7-boot/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-10-31-f8",
+   "id": "2026-11-01-f5",
    "type": "fashion",
-   "source": "GQ",
-   "emoji": "⌚",
-   "color": "#1e293b",
-   "headline": "GQ's four big new watches this month",
-   "caption": "Moser goes retrograde, Lange brings back a bracelet, Biver goes hand-wound, Breitling goes vintage.",
+   "source": "GQ UK",
+   "emoji": "🐦",
+   "color": "#0369a1",
+   "headline": "New Balance's 2010 goes Gore-Tex in kingfisher colours",
+   "caption": "A waterproof winter sneaker with Tokyo shop The Apartment.",
    "body": [
-    "H. Moser & Cie adds three models with retrograde seconds to its Streamliner line.",
-    "A. Lange & Söhne revives a much-loved bracelet; Biver drops its first hand-wound three-hand watch.",
-    "How to wear it: one serious watch, simple clothes, no other wrist clutter."
+    "Bright blue, turquoise and orange, inspired by the kingfisher bird.",
+    "It's built to handle bad weather and still look good.",
+    "How to wear it: let the shoes be the only colour."
    ],
-   "url": "https://www.gq.com/story/watch-guy-watches-october-2026",
-   "linkLabel": "GQ",
+   "url": "https://www.gq-magazine.co.uk/article/the-apartment-new-balance-2010-gore-tex-kingfisher-29-10-26",
+   "linkLabel": "GQ UK",
    "image": {
-    "url": "https://media.gq.com/photos/6ae3a501e31624258a6aaa6e/16:9/w_1280,c_limit/HMoser_6252-1200_Streamliner_Retrograde_Seconds__Lifestyle_Detail_Dial.jpg",
-    "credit": "GQ",
-    "creditUrl": "https://www.gq.com/story/watch-guy-watches-october-2026",
+    "url": "https://media.gq-magazine.co.uk/photos/6ae35987d68d8461f67297a3/16:9/w_1280,c_limit/01_Mode-The%20Apartment%20x%20New%20Balance%202010%20GORE-TEX%20%E2%80%9EKingfisher%E2%80%9C.png",
+    "credit": "GQ UK",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/the-apartment-new-balance-2010-gore-tex-kingfisher-29-10-26",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-10-31-f9",
+   "id": "2026-11-01-f6",
    "type": "fashion",
-   "source": "Esquire UK",
-   "emoji": "🏆",
-   "color": "#1e3a8a",
-   "headline": "Ballon d'Or trophies arrive in Louis Vuitton trunks",
-   "caption": "Harry Kane and Alexia Putellas's trophies came in bespoke LV cases.",
-   "body": [
-    "The custom trunks are now a Ballon d'Or tradition.",
-    "This year's ceremony was in London.",
-    "Style lesson: good luggage is a statement."
-   ],
-   "url": "https://www.esquire.com/uk/style/fashion/a74259238/ballon-dor-trophies-bespoke-louis-vuitton-trunks/",
-   "linkLabel": "Esquire UK",
-   "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/3766b16b-0319-497e-b0a4-658ef9a3d52d.jpg?crop=1xw:0.8888888888888888xh;center,top&resize=1200:*",
-    "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74259238/ballon-dor-trophies-bespoke-louis-vuitton-trunks/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-10-31-f10",
-   "type": "fashion",
-   "source": "Esquire UK",
-   "emoji": "⚽",
-   "color": "#7f1d1d",
-   "headline": "Michael Carrick's touchline style",
-   "caption": "Man United are struggling, but their manager's wardrobe isn't.",
-   "body": [
-    "United sit 16th after a 3–0 home loss to Bournemouth.",
-    "Carrick's sideline outfits are still sharp.",
-    "How to wear it: a dark overcoat over a fine knit."
-   ],
-   "url": "https://www.esquire.com/uk/style/fashion/a74249480/michael-carrick-wardrobe/",
-   "linkLabel": "Esquire UK",
-   "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/ba96c4ea-77b5-45f4-9681-7bfae27fac45.jpg?crop=1xw:0.7613314447592068xh;center,top&resize=1200:*",
-    "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74249480/michael-carrick-wardrobe/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-10-31-f11",
-   "type": "fashion",
-   "source": "Esquire UK",
+   "source": "GQ UK",
    "emoji": "🧥",
-   "color": "#1c1917",
-   "headline": "Tom Hardy's 'MobLand' jackets",
-   "caption": "From field jackets to leather, how to dress like the show's fixer.",
+   "color": "#365314",
+   "headline": "King Kenny's vintage Carhartt jacket",
+   "caption": "A Carhartt J97 Detroit in 'Moss' stole a scene on The Celebrity Traitors.",
    "body": [
-    "Hardy plays Harry Da Souza in Guy Ritchie's mob drama, now in season two.",
-    "His outerwear does a lot of the talking.",
-    "How to wear it: a worn-in leather jacket over a plain tee."
+    "Short, wide olive canvas with a brown collar.",
+    "Vintage Detroit jackets are prized by workwear fans.",
+    "How to wear it: over a hoodie with straight jeans."
    ],
-   "url": "https://www.esquire.com/uk/style/fashion/a74206444/tom-hardy-mobland-s2-jackets/",
-   "linkLabel": "Esquire UK",
+   "url": "https://www.gq-magazine.co.uk/article/king-kenny-carhartt-detroit-30-10-26",
+   "linkLabel": "GQ UK",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/370da040-6aa1-428b-85e6-f4bed714964d.jpeg?crop=0.859xw:0.644xh;0.141xw,0.0192xh&resize=1200:*",
-    "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74206444/tom-hardy-mobland-s2-jackets/",
+    "url": "https://media.gq-magazine.co.uk/photos/6ae4750f207c30d9f030998f/16:9/w_1280,c_limit/Header%20GQ.jpeg",
+    "credit": "GQ UK",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/king-kenny-carhartt-detroit-30-10-26",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-10-31-f12",
+   "id": "2026-11-01-f7",
+   "type": "fashion",
+   "source": "GQ UK",
+   "emoji": "🎉",
+   "color": "#9f1239",
+   "headline": "What to wear to a house party",
+   "caption": "GQ's new column dresses you for every kind of party.",
+   "body": [
+    "From warehouse all-nighters to proper dinner parties.",
+    "Matching the vibe matters as much as the clothes.",
+    "How to wear it: dark trousers, a good knit, clean trainers; adjust up or down."
+   ],
+   "url": "https://www.gq-magazine.co.uk/article/house-party-outfit-ideas",
+   "linkLabel": "GQ UK",
+   "image": {
+    "url": "https://media.gq-magazine.co.uk/photos/6ae1e899b226e095c2a65e62/16:9/w_1280,c_limit/GQ1126_The%20Invitation_ONLINE_HEADER.jpg",
+    "credit": "GQ UK",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/house-party-outfit-ideas",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-01-f8",
+   "type": "fashion",
+   "source": "Esquire UK",
+   "emoji": "💍",
+   "color": "#713f12",
+   "headline": "Tom Hardy's guide to wearing jewellery",
+   "caption": "His lesson: restraint.",
+   "body": [
+    "Hardy used to pile on rings, bracelets and beads.",
+    "Now he wears a few pieces that each mean something.",
+    "How to wear it: one ring, one watch, maybe one chain. Stop there."
+   ],
+   "url": "https://www.esquire.com/uk/style/fashion/a74203710/tom-hardy-jewellery/",
+   "linkLabel": "Esquire UK",
+   "image": {
+    "url": "https://hips.hearstapps.com/hmg-prod/images/758266b9-5c9a-47a3-8832-38a6d337d05d.jpg?crop=1xw:0.762582613116421xh;center,top&resize=1200:*",
+    "credit": "Esquire UK",
+    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74203710/tom-hardy-jewellery/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-01-f9",
+   "type": "fashion",
+   "source": "Esquire UK",
+   "emoji": "🍺",
+   "color": "#292524",
+   "headline": "Jack O'Connell's perfect pub leather jacket",
+   "caption": "Leather that looks lived-in, from red carpet to the bar.",
+   "body": [
+    "Esquire calls him the actor you'd want to go for a pint with.",
+    "His jackets look like they have a story.",
+    "How to wear it: worn-in leather, plain tee, dark jeans."
+   ],
+   "url": "https://www.esquire.com/uk/style/fashion/a74157135/jack-oconnell-leather-jacket/",
+   "linkLabel": "Esquire UK",
+   "image": {
+    "url": "https://hips.hearstapps.com/hmg-prod/images/07e3cc0a-d842-4452-8027-227c585749c2.jpg?crop=1.00xw:0.649xh;0,0.0249xh&resize=1200:*",
+    "credit": "Esquire UK",
+    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74157135/jack-oconnell-leather-jacket/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-01-f10",
    "type": "fashion",
    "source": "The Rake",
-   "emoji": "🥃",
-   "color": "#422006",
-   "headline": "Church's turns a Marylebone pub into a shoe club",
-   "caption": "British shoemaker Church's hosted a gin-and-leather evening at The Hart in London.",
+   "emoji": "🎩",
+   "color": "#1e293b",
+   "headline": "The Rake's 'Street Smarts' shoot",
+   "caption": "Classic tailoring made for city boulevards.",
    "body": [
-    "Church's Club brought its traditional style to a cosy pub lock-in in Marylebone.",
-    "The night mixed British heritage, gin tasting and very good footwear.",
-    "How to wear it: polished brogues, grey flannel trousers and a navy knit."
+    "The magazine's Issue 108 fashion story celebrates the 'boulevardier'.",
+    "Its idea: a well-dressed man doesn't pose, he just is himself.",
+    "How to wear it: a soft-shouldered jacket, open collar, unhurried pace."
    ],
-   "url": "https://therake.com/default/stories/church-s-club-the-hart-and-sole-of-the-party",
+   "url": "https://therake.com/default/stories/street-smarts-issue-108-s-fashion-feature",
    "linkLabel": "The Rake",
    "image": {
-    "url": "https://therake.com/media/blog/Church_s_Club_Atmosphere_5_.jpg",
+    "url": "https://therake.com/media/blog/2026_09_11_RAKE30149_S_2.jpg",
     "credit": "The Rake",
-    "creditUrl": "https://therake.com/default/stories/church-s-club-the-hart-and-sole-of-the-party",
+    "creditUrl": "https://therake.com/default/stories/street-smarts-issue-108-s-fashion-feature",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-10-31-f13",
+   "id": "2026-11-01-f11",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🥔",
-   "color": "#854d0e",
-   "headline": "Japan's best potato harvest in a decade",
-   "caption": "Hokkaido bucked a summer of crop failures.",
+   "emoji": "🪑",
+   "color": "#c2410c",
+   "headline": "A couple builds a bench for a girl at their bus stop",
+   "caption": "She'd been sitting in the dirt; their camera caught her jumping for joy.",
    "body": [
-    "Ideal heat and rain made Hokkaido almost the only Northern Hemisphere region to grow more potatoes.",
-    "Snack maker Calbee expects to hit its usual 250,000 tons.",
-    "Good news for crisps everywhere."
+    "Florida teachers Maren and David Douglass saw a schoolgirl waiting on the ground at the end of their driveway.",
+    "With no sidewalk nearby, they installed a bench for her.",
+    "Her happy reaction went viral."
    ],
-   "url": "https://www.goodnewsnetwork.org/best-spud-harvest-in-a-decade-clears-the-gloom-of-crops-failing-from-scorching-summer/",
+   "url": "https://www.goodnewsnetwork.org/girl-sitting-in-dirt-at-bus-stop-gets-surprise-bench-from-couple/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2022/12/potato-unsplash.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Bus-stop-kindness-Courtesy-of-TikTok-Teacher-and-Traveler.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/best-spud-harvest-in-a-decade-clears-the-gloom-of-crops-failing-from-scorching-summer/",
+    "creditUrl": "https://www.goodnewsnetwork.org/girl-sitting-in-dirt-at-bus-stop-gets-surprise-bench-from-couple/",
     "preview": true
    },
    "embed": true
   },
   {
-   "id": "2026-10-31-f14",
+   "id": "2026-11-01-f12",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🏫",
+   "emoji": "🧴",
+   "color": "#0e7490",
+   "headline": "A vitamin B5 compound may help treat psoriasis",
+   "caption": "Early results show promise for a skin condition with no cure.",
+   "body": [
+    "Researchers in China found pantethine limits immune cells that drive autoimmune disease.",
+    "It reduced symptoms in studies with humans and mice.",
+    "More research is needed, but it's an encouraging start."
+   ],
+   "url": "https://www.goodnewsnetwork.org/b-vitamin-supplement-can-treat-psoriasis/",
+   "linkLabel": "GNN",
+   "image": {
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Skin-psoriasis-before-after-by-2026-Cao-at-State-Key-Laboratory-of-Biomedical-Analysis-via-SWNS.jpeg",
+    "credit": "Good News Network",
+    "creditUrl": "https://www.goodnewsnetwork.org/b-vitamin-supplement-can-treat-psoriasis/",
+    "preview": true
+   },
+   "embed": true
+  },
+  {
+   "id": "2026-11-01-f13",
+   "type": "good",
+   "source": "Good News Network",
+   "emoji": "💕",
    "color": "#be185d",
-   "headline": "A Texas school is named after its janitor",
-   "caption": "'Miss Marilyn' Hampton worked 39 years at Aubrey schools.",
+   "headline": "Two 88-year-olds fall in love at the gym",
+   "caption": "Both widowed, Barbara and Fred met among the barbells.",
    "body": [
-    "She was the first of seven siblings to graduate high school, but often felt like a failure for not going to college.",
-    "The district honoured her by naming a new school after her.",
-    "Her superintendent says she 'is truly Aubrey ISD'."
+    "Barbara Thompson lost her husband and moved to a Birmingham retirement village a decade ago.",
+    "Fred Jenkins, a former Army PT instructor, lost his wife three years ago.",
+    "They met during a workout and never expected to find love again."
    ],
-   "url": "https://www.goodnewsnetwork.org/new-texas-school-is-named-for-longtime-janitor-miss-marilyn-watch-her-reaction/",
+   "url": "https://www.goodnewsnetwork.org/retirees-who-lost-spouses-fall-in-love-again-at-88-meeting-in-gym/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Marilyn-Hampton-when-she-graduated-high-school-credit-family-photo.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Seniors-working-out-w-weights-in-gym-by-ExtraCare-Charitable-Trust-via-SWNS.jpeg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/new-texas-school-is-named-for-longtime-janitor-miss-marilyn-watch-her-reaction/",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-10-31-f15",
-   "type": "good",
-   "source": "Good News Network",
-   "emoji": "🍓",
-   "color": "#dc2626",
-   "headline": "An exam question led a student to a mentor",
-   "caption": "A strawberry farmer's number in an English test inspired a future AI student.",
-   "body": [
-    "He Ziqi called the Beijing farmer's number from a reading passage, just to check it.",
-    "The farmer turned the calls into chances to inspire students.",
-    "He is now a postgraduate student in AI."
-   ],
-   "url": "https://www.goodnewsnetwork.org/a-farmer-didnt-know-his-cell-number-was-on-an-exam-question-now-uses-the-calls-he-gets-as-opportunities-to-inspire/",
-   "linkLabel": "GNN",
-   "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Left-Mr.-He-and-Mr.-Wang-shake-hands-6-years-after-meeting-through-an-English-exam-question-credit-retrieved-from-social-media-Douyin.jpg",
-    "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/a-farmer-didnt-know-his-cell-number-was-on-an-exam-question-now-uses-the-calls-he-gets-as-opportunities-to-inspire/",
+    "creditUrl": "https://www.goodnewsnetwork.org/retirees-who-lost-spouses-fall-in-love-again-at-88-meeting-in-gym/",
     "preview": true
    },
    "embed": true
