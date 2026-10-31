@@ -325,7 +325,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     <label class="field"><span>Model</span><input type="text" id="orModel" list="orModels" autocomplete="off" spellcheck="false"></label>
     <label class="field row"><span>Search reputed news sources only</span><input type="checkbox" id="orTrusted"></label>
   </div>
-  <datalist id="orModels"><option value="anthropic/claude-sonnet-5.5"><option value="anthropic/claude-haiku-5.5"><option value="anthropic/claude-opus-5.5"><option value="openai/gpt-5.6-terra"><option value="google/gemini-3.8-flash"></datalist>
+  <datalist id="orModels"><option value="openai/gpt-oss-120b"><option value="openai/gpt-oss-20b"><option value="anthropic/claude-sonnet-5.5"><option value="anthropic/claude-haiku-5.5"><option value="anthropic/claude-opus-5.5"><option value="openai/gpt-5.6-terra"><option value="google/gemini-3.8-flash"></datalist>
   <div class="label">App</div>
   <div class="group">
     <button id="updateBtn">Check for updates <small id="updateNote">↻</small></button>
@@ -344,7 +344,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["women","Women"],["health","Hospitals"],["saved","🔖 Saved"]];
   const LABEL = {world:"World", india:"India", money:"Money Desk", women:"Women", health:"Hospitals"};
   const SEC_ICON = {world:"🌍", india:"🇮🇳", money:"💰", women:"♀️", health:"🏥"};
-  const VERSION = '3.4'; // bump on every change to this page, so it's easy to tell which copy you have
+  const VERSION = '3.5'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
@@ -753,7 +753,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     'theguardian.com','npr.org','aljazeera.com','cnbc.com','axios.com','politico.com','theatlantic.com','techcrunch.com','theverge.com','wired.com','nature.com','who.int',
     'thehindu.com','indianexpress.com','hindustantimes.com','livemint.com','economictimes.indiatimes.com','business-standard.com','moneycontrol.com',
     'thehindubusinessline.com','inc42.com','scroll.in','theprint.in','pib.gov.in','rbi.org.in','sebi.gov.in'];
-  const DEFAULT_MODEL = 'anthropic/claude-sonnet-5.5';
+  const DEFAULT_MODEL = 'openai/gpt-oss-120b';
   const chats = {}; // story id -> [{role, content, sources?}], kept for this visit
   let chatStory = null, chatBusy = false;
   const host = u => { try{ return new URL(u).hostname.replace(/^www\./, ''); }catch(e){ return ''; } };
