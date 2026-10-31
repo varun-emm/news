@@ -355,6 +355,81 @@
     "creditUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_Namma_metro_train_(2024).jpg",
     "license": "CC BY-SA 4.0"
    }
+  },
+  {
+   "id": "2026-10-31-h1",
+   "section": "health",
+   "source": "Express Healthcare",
+   "kicker": "Bengaluru",
+   "emoji": "🏥",
+   "stat": "110 → ~150",
+   "statLabel": "beds, with room to grow",
+   "headline": "Fortis buys Bengaluru's 110-bed Suguna Hospital",
+   "body": [
+    "Fortis Healthcare has bought Suguna Hospital on Dr Rajkumar Road in Rajajinagar, north-west Bengaluru, in an all-cash deal.",
+    "The 110-bed hospital, opened in 2006, can grow to about 150 beds; Fortis gets the land and building too.",
+    "It fits Fortis's plan to grow in city clusters by buying hospitals."
+   ],
+   "joke": "Bengaluru's newest Fortis branch comes with a pre-installed neighbourhood.",
+   "vc": "Buying running hospitals is faster and cheaper than building new ones, which is why chains are on an acquisition spree.",
+   "url": "https://www.expresshealthcare.in/news/fortis-acquires-110-bedded-suguna-hospital-rajajinagar-bengaluru/455701/",
+   "linkLabel": "Express Healthcare",
+   "color": "#115e59",
+   "font": "news"
+  },
+  {
+   "id": "2026-10-31-h2",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Hospital chains",
+   "emoji": "🛏️",
+   "stat": "+758",
+   "statLabel": "beds added in a year",
+   "headline": "Max Healthcare grows to 5,518 beds as profit rises 10%",
+   "body": [
+    "Max Healthcare's gross revenue rose 20% to ₹3,219 crore in the September quarter, and profit grew 10% to ₹448 crore.",
+    "It now runs 5,518 beds, 758 more than a year ago, with 77% occupancy.",
+    "Average revenue per patient rose 8% to ₹2.31 lakh."
+   ],
+   "joke": "Business is booming. Ideally, that's not a sign you should be happy about.",
+   "vc": "Bed additions plus rising revenue per patient is the growth formula investors pay for in Indian hospital stocks.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/max-healthcare-posts-3219-cr-in-q2-fy27-profit-climbs-10/135384706",
+   "linkLabel": "ET HealthWorld",
+   "color": "#1e40af",
+   "font": "finance",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/A_hospital_ward_in_Assam_in_response_to_the_2020_COVID-19_pandemic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "AnjanBorah / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:A_hospital_ward_in_Assam_in_response_to_the_2020_COVID-19_pandemic.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-10-31-h3",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Delhi",
+   "emoji": "🏗️",
+   "stat": "1,538 → 2,204",
+   "statLabel": "beds at RML Hospital",
+   "headline": "Delhi's RML Hospital clears a big hurdle for its 666-bed block",
+   "body": [
+    "The new 666-bed super speciality block at Delhi's Ram Manohar Lohia Hospital has got fire safety clearance.",
+    "Built for ₹482 crore, it has 18 operating theatres, 99 ICU beds and cancer treatment machines.",
+    "It will raise the hospital's capacity from 1,538 to 2,204 beds."
+   ],
+   "joke": "",
+   "vc": "Big public hospital expansions keep advanced care affordable and set the price benchmark private chains compete against.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/rml-hospitals-666-bed-super-speciality-block-gets-fire-safety-clearance/135194148",
+   "linkLabel": "ET HealthWorld",
+   "color": "#881337",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Laparoscopic_operating_theatre.jpg/1280px-Laparoscopic_operating_theatre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Dr.jayesh amin / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Laparoscopic_operating_theatre.jpg",
+    "license": "CC BY-SA 3.0"
+   }
   }
  ]
 }

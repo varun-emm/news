@@ -346,6 +346,54 @@
    "linkLabel": "The 19th",
    "color": "#be185d",
    "font": "news"
+  },
+  {
+   "id": "2026-10-31-x16",
+   "section": "health",
+   "source": "Nagpur Today",
+   "kicker": "Nagpur",
+   "emoji": "🏥",
+   "stat": "300",
+   "statLabel": "beds in the new flagship",
+   "headline": "Maharashtra CM opens NEWERA Hospitals' 300-bed flagship in Nagpur",
+   "body": [
+    "Devendra Fadnavis inaugurated NEWERA Hospitals' 300-bed flagship at Wardhaman Nagar, Nagpur, on 23 October.",
+    "It offers robotic surgery and AI-enabled diagnostics for central India.",
+    "NEWERA started in 2016 as a 50-bed hospital."
+   ],
+   "joke": "From 50 beds to 300 in a decade. That's a growth chart.",
+   "vc": "Mid-sized regional chains expanding in tier-2 cities are prime targets for private equity and big hospital groups.",
+   "url": "https://www.nagpurtoday.in/cm-devendra-fadnavis-inaugurates-newera-hospitals-300-bedded-flagship-facility-in-nagpur/",
+   "linkLabel": "Nagpur Today",
+   "color": "#0e7490",
+   "font": "news"
+  },
+  {
+   "id": "2026-10-31-x17",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Tamil Nadu",
+   "emoji": "🏥",
+   "stat": "150",
+   "statLabel": "beds from January 2027",
+   "headline": "AIIMS Madurai to open with 150 beds in January 2027",
+   "body": [
+    "AIIMS Madurai will start with 150 beds from January 2027, an MP on its governing body says.",
+    "The Centre told the Madras High Court outpatient services start on 1 January 2027.",
+    "Phase I construction was 88% complete in its latest status report."
+   ],
+   "joke": "Announced years ago, arriving next year. Better late than never.",
+   "vc": "A new AIIMS raises the bar for affordable specialist care in southern Tamil Nadu.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/aiims-madurai-set-to-start-150-bed-services-in-january-2027-mp-confirms/135108818",
+   "linkLabel": "ET HealthWorld",
+   "color": "#4d7c0f",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Madurai%2C_India.jpg/1280px-Madurai%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Bernard Gagnon / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Madurai,_India.jpg",
+    "license": "CC BY-SA 3.0"
+   }
   }
  ]
 }
