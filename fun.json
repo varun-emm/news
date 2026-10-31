@@ -258,22 +258,22 @@
   {
    "id": "2026-10-31-f12",
    "type": "fashion",
-   "source": "Esquire UK",
-   "emoji": "💇",
-   "color": "#a16207",
-   "headline": "Timothée Chalamet's curly cut is back",
-   "caption": "One of the easiest haircuts for curly hair.",
+   "source": "The Rake",
+   "emoji": "🥃",
+   "color": "#422006",
+   "headline": "Church's turns a Marylebone pub into a shoe club",
+   "caption": "British shoemaker Church's hosted a gin-and-leather evening at The Hart in London.",
    "body": [
-    "Chalamet has returned to his signature curly style.",
-    "Esquire calls it low-effort for natural curls.",
-    "How to wear it: ask for length on top, tidy sides, no straightening."
+    "Church's Club brought its traditional style to a cosy pub lock-in in Marylebone.",
+    "The night mixed British heritage, gin tasting and very good footwear.",
+    "How to wear it: polished brogues, grey flannel trousers and a navy knit."
    ],
-   "url": "https://www.esquire.com/uk/style/fashion/a74218972/curl-me-by-your-name-timothee-chalamet-hair/",
-   "linkLabel": "Esquire UK",
+   "url": "https://therake.com/default/stories/church-s-club-the-hart-and-sole-of-the-party",
+   "linkLabel": "The Rake",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/98eda9b7-8ac5-436a-b8e0-e45aa2f5dbcc.jpg?crop=1xw:0.3334181725629931xh;center,top&resize=1200:*",
-    "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74218972/curl-me-by-your-name-timothee-chalamet-hair/",
+    "url": "https://therake.com/media/blog/Church_s_Club_Atmosphere_5_.jpg",
+    "credit": "The Rake",
+    "creditUrl": "https://therake.com/default/stories/church-s-club-the-hart-and-sole-of-the-party",
     "preview": true
    },
    "embed": false
