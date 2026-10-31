@@ -230,11 +230,28 @@ header{display:flex;align-items:center;padding:6px 8px 8px 18px;gap:8px}
 .chat .msg.ai ul,.chat .msg.ai ol{margin:4px 0 8px;padding-left:20px}
 .chat .msg.ai a{color:#64d2ff}
 .chat .msg.err{background:#3a1d1d;color:#ffb4ab}
-.chat .srcs{margin-top:8px;padding-top:8px;border-top:1px solid var(--line);font-size:12.5px;display:flex;flex-wrap:wrap;gap:6px}
+.chat .srcs{margin-top:10px;padding-top:9px;border-top:1px solid var(--line);font-size:12.5px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chat .srcs span{color:var(--muted);margin-right:2px}
+.chat .msg.ai h5{margin:10px 0 4px;font-size:14px}
+.chat .msg.ai li{margin:3px 0}
+.chat .trail{margin:-2px 0 10px;font-size:13px;color:var(--muted)}
+.chat .trail > summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:7px}
+.chat .trail > summary::-webkit-details-marker{display:none}
+.chat .trail > summary em{font-style:normal;opacity:.7;margin-left:auto}
+.chat .trail ol{list-style:none;margin:8px 0 0;padding:0 0 0 4px;border-left:2px solid var(--line)}
+.chat .trail li{position:relative;padding:3px 0 3px 14px;animation:stepin .3s ease-out both}
+@keyframes stepin{from{opacity:0;transform:translateY(4px)}}
+.chat .trail li::before{content:"";position:absolute;left:-6px;top:9px;width:8px;height:8px;border-radius:50%;background:#48484a}
+.chat .trail li.done::before{background:#30d158}
+.chat .trail li.now{color:var(--fg)}
+.chat .trail li.now::before{background:var(--accent);animation:blink 1s infinite}
+.chat .trail li small{display:block;font-size:12px;opacity:.75;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chat .trail .think{margin-top:8px}
+.chat .trail .think summary{cursor:pointer;font-size:12.5px}
+.chat .trail .think div{margin-top:6px;max-height:160px;overflow-y:auto;white-space:pre-wrap;font-size:12px;line-height:1.45;padding:8px 10px;border-radius:10px;background:#1c1c1e}
+.chat .spin{width:12px;height:12px;border-radius:50%;border:2px solid #48484a;border-top-color:var(--accent);animation:spin .8s linear infinite;flex:none}
+@keyframes spin{to{transform:rotate(360deg)}}
 .chat .srcs a{padding:3px 9px;border-radius:999px;background:#3a3a3c;color:var(--fg);text-decoration:none;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.chat .think{color:var(--muted);font-size:14px}
-.chat .think i{display:inline-block;width:6px;height:6px;margin-left:3px;border-radius:50%;background:currentColor;animation:blink 1.2s infinite}
-.chat .think i:nth-child(2){animation-delay:.2s}.chat .think i:nth-child(3){animation-delay:.4s}
 @keyframes blink{0%,80%,100%{opacity:.2}40%{opacity:1}}
 .chat .sugg{display:flex;flex-wrap:wrap;gap:8px}
 .chat .sugg button{padding:8px 12px;border-radius:999px;background:var(--card2);color:var(--fg);font-size:13.5px}
@@ -344,7 +361,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["women","Women"],["health","Hospitals"],["saved","🔖 Saved"]];
   const LABEL = {world:"World", india:"India", money:"Money Desk", women:"Women", health:"Hospitals"};
   const SEC_ICON = {world:"🌍", india:"🇮🇳", money:"💰", women:"♀️", health:"🏥"};
-  const VERSION = '3.5'; // bump on every change to this page, so it's easy to tell which copy you have
+  const VERSION = '3.6'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
@@ -758,16 +775,24 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   let chatStory = null, chatBusy = false;
   const host = u => { try{ return new URL(u).hostname.replace(/^www\./, ''); }catch(e){ return ''; } };
   function md(text){ // small, safe markdown: escape first, then links, bold, italics, lists, paragraphs
-    const inline = s => esc(s)
-      .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (m, l, u) => `<a href="${u}" target="_blank" rel="noopener">${l}</a>`)
-      .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>').replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<i>$2</i>');
+    const label = (l, u) => /^(https?:\/\/|www\.)/i.test(l.trim()) || l.trim() === u ? host(u) || 'source' : l; // never show a raw URL as link text
+    const inline = s => {
+      const links = [];
+      s = String(s).replace(/【[^】]*】/g, '') // stray citation markers some models emit
+        .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (m, l, u) => { links.push([label(l, u), u]); return `\u0000${links.length - 1}\u0000`; })
+        .replace(/\(?(https?:\/\/[^\s)<]+[^\s)<.,;:!?'"])\)?/g, (m, u) => { links.push([host(u) || 'source', u]); return ` \u0000${links.length - 1}\u0000`; });
+      return esc(s).replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>').replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<i>$2</i>')
+        .replace(/\u0000(\d+)\u0000/g, (m, i) => `<a href="${esc(links[i][1])}" target="_blank" rel="noopener">${esc(links[i][0])}</a>`)
+        .replace(/ +(<a )/g, ' $1');
+    };
     const out = []; let list = null;
     for(const raw of String(text || '').split('\n')){
       const line = raw.trim(), li = line.match(/^(?:[-*•]|\d+[.)])\s+(.*)/), tag = /^\d/.test(line) ? 'ol' : 'ul';
       if(li){ if(!list){ list = tag; out.push(`<${tag}>`); } out.push(`<li>${inline(li[1])}</li>`); continue; }
       if(list){ out.push(`</${list}>`); list = null; }
-      if(!line) continue;
-      out.push(`<p>${inline(line.replace(/^#{1,6}\s*(.*)$/, '**$1**'))}</p>`);
+      if(!line || /^[-*_]{3,}$/.test(line)) continue;
+      const h = line.match(/^#{1,6}\s*(.*)$/);
+      out.push(h ? `<h5>${inline(h[1].replace(/\*\*/g, ''))}</h5>` : `<p>${inline(line)}</p>`);
     }
     if(list) out.push(`</${list}>`);
     return out.join('');
@@ -796,58 +821,113 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     renderChat();
     requestAnimationFrame(() => c.classList.add('on')); $('#scrim').classList.add('on');
   }
+  // the research trail: live while working, then folded into a one-line summary you can open
+  function trailHTML(m, live){
+    const steps = m.steps || [], secs = Math.max(1, Math.round(((m.t1 || Date.now()) - m.t0) / 1000));
+    const n = (m.sources || []).length;
+    const head = live ? `<span class="spin"></span>${esc(steps.length ? steps[steps.length - 1].t : 'Starting')}… <em>${secs}s</em>`
+      : `✓ Researched${n ? ` ${n} source${n > 1 ? 's' : ''}` : ''} · ${secs}s`;
+    return `<details class="trail"${live ? ' open' : ''}><summary>${head}</summary><ol>${steps.map((s, i) =>
+      `<li class="${live && i === steps.length - 1 ? 'now' : 'done'}">${esc(s.t)}${s.d ? `<small>${esc(s.d)}</small>` : ''}</li>`).join('')}</ol>${m.thinking ?
+      `<details class="think"><summary>Thought process</summary><div>${esc(m.thinking.slice(-4000))}</div></details>` : ''}</details>`;
+  }
+  function msgHTML(m, live){
+    if(m.role === 'user') return `<div class="msg me">${esc(m.content)}</div>`;
+    if(m.error) return `<div class="msg ai err">${esc(m.content)}</div>`;
+    return `<div class="msg ai">${m.steps ? trailHTML(m, live) : ''}${m.content ? md(m.content) : ''}${m.sources && m.sources.length && !live ?
+      `<div class="srcs"><span>Sources</span>${m.sources.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener" title="${esc(x.title || '')}">${esc(host(x.url))}</a>`).join('')}</div>` : ''}</div>`;
+  }
   function renderChat(){
     const s = chatStory, log = $('#chat .log'); if(!s || !log) return;
-    const msgs = chats[s.id];
+    const msgs = chats[s.id], atBottom = log.scrollHeight - log.scrollTop - log.clientHeight < 80;
     log.innerHTML = `<div class="ctx">${esc(LABEL[s.section] || (isFun(s) ? FUN[s.type].label : ''))} · ${esc(s.source || '')}<b>${esc(s.headline)}</b></div>` +
       (msgs.length ? '' : `<div class="sugg">${['Tell me more about this', 'Why does this matter?', 'What happens next?', 'Explain it simply', 'What are the latest updates?']
         .map(q => `<button>${q}</button>`).join('')}</div>`) +
-      msgs.map(m => m.role === 'user' ? `<div class="msg me">${esc(m.content)}</div>`
-        : `<div class="msg ai${m.error ? ' err' : ''}">${m.error ? esc(m.content) : md(m.content)}${m.sources && m.sources.length ? `<div class="srcs">${m.sources.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title ? host(x.url) + ' · ' + x.title : host(x.url))}</a>`).join('')}</div>` : ''}</div>`).join('') +
-      (chatBusy ? '<div class="msg ai think">Searching and reading<i></i><i></i><i></i></div>' : '');
+      msgs.map((m, i) => msgHTML(m, chatBusy && i === msgs.length - 1 && m.role === 'assistant')).join('');
     log.querySelectorAll('.sugg button').forEach(b => b.onclick = () => ask(b.textContent));
-    log.scrollTop = log.scrollHeight;
+    if(atBottom || chatBusy) log.scrollTop = log.scrollHeight;
     const send = $('#chat form button'); if(send) send.disabled = chatBusy;
   }
+  let paint = 0; const repaint = () => { if(!paint) paint = requestAnimationFrame(() => { paint = 0; renderChat(); }); };
   async function ask(q){
     const s = chatStory, key = store.get('orKey', '');
     if(!key){ toast('Add your OpenRouter key in Settings first', 2600); closeChat(); openPanel(); setTimeout(() => $('#orKey').focus(), 400); return; }
-    const msgs = chats[s.id]; msgs.push({role: 'user', content: q}); chatBusy = true; renderChat();
+    const msgs = chats[s.id], history = msgs.filter(m => !m.error && m.content).map(m => ({role: m.role, content: m.content}));
+    msgs.push({role: 'user', content: q}); history.push({role: 'user', content: q});
+    const m = {role: 'assistant', content: '', thinking: '', sources: [], steps: [{t: 'Reading the story', d: s.headline}], t0: Date.now()};
+    msgs.push(m); chatBusy = true; renderChat();
+    const step = (t, d) => { const last = m.steps[m.steps.length - 1]; if(last && last.t === t && !d) return; m.steps.push({t, d}); repaint(); };
+    const tick = setInterval(repaint, 1000);
     const today = new Date().toLocaleDateString('en-IN', {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'});
     const sys = `You are the research assistant inside NEWS, a personal news reader for a reader in Bengaluru, India. Today is ${today}.
 The reader is looking at this story and their questions are about it unless they say otherwise:
 
 ${storyContext(s)}
 
-How to answer:
-- Use web search to check facts and find what's new; search more than once when the question needs research.
+How to research:
+- Use web search to check the facts and find what's new; search more than once when the question needs it.
 - Rely on reputable news organisations and official sources; never treat social media posts or rumours as fact.
-- Cite sources inline as markdown links named after the outlet, e.g. [Reuters](https://...).
-- Plain, simple English. Lead with the answer, then the key details. Keep it under about 200 words unless asked for more; use short bullet lists where they help.
+
+How to answer (a proper summary, not a wall of text):
+- Start with one bold line that answers the question directly.
+- Then 3–5 short bullet points with the key facts, numbers and dates, each with its source as a markdown link named after the outlet, e.g. [Reuters](https://...). Never paste a bare URL.
+- If useful, end with one short line starting "**Why it matters:**" or "**What's next:**".
+- Plain, simple English; explain jargon. Keep it under about 180 words unless asked for more.
 - Separate facts from analysis, say clearly when something is unconfirmed or disputed, and never make up facts, numbers or quotes.`;
     const params = {max_uses: 4, max_results: 5};
     if(store.get('orTrusted', true)) params.allowed_domains = [...new Set([...TRUSTED, host(s.url)].filter(Boolean))];
+    const seen = new Set(), addSources = list => (list || []).forEach(a => {
+      const c = a && (a.url_citation || a); if(!c || !/^https?:/.test(c.url || '') || seen.has(c.url)) return;
+      seen.add(c.url); m.sources.push({url: c.url, title: c.title || ''}); step('Reading ' + host(c.url), c.title || '');
+    });
+    const toolArgs = {};
     try{
+      step('Searching reputed news sources');
       const r = await fetch('https://openrouter.ai/api/v1/chat/completions', {
         method: 'POST',
         headers: {'Authorization': 'Bearer ' + key, 'Content-Type': 'application/json', 'HTTP-Referer': location.origin + location.pathname, 'X-Title': 'NEWS'},
         body: JSON.stringify({
-          model: store.get('orModel', '') || DEFAULT_MODEL,
-          messages: [{role: 'system', content: sys}, ...msgs.filter(m => !m.error).map(m => ({role: m.role, content: m.content}))],
+          model: store.get('orModel', '') || DEFAULT_MODEL, stream: true,
+          messages: [{role: 'system', content: sys}, ...history],
           tools: [{type: 'openrouter:web_search', parameters: params}],
-          max_tokens: 1500
+          reasoning: {effort: 'medium'}, max_tokens: 2500
         })
       });
-      const j = await r.json().catch(() => ({}));
-      if(!r.ok || j.error) throw new Error((j.error && j.error.message) || `OpenRouter said ${r.status}`);
-      const m = (j.choices && j.choices[0] && j.choices[0].message) || {};
-      const seen = new Set(), sources = (m.annotations || []).filter(a => a.type === 'url_citation' && a.url_citation)
-        .map(a => a.url_citation).filter(x => /^https?:/.test(x.url) && !seen.has(x.url) && seen.add(x.url)).slice(0, 8);
-      msgs.push({role: 'assistant', content: m.content || 'No answer came back. Try asking again.', sources});
+      if(!r.ok){ const j = await r.json().catch(() => ({})); throw new Error((j.error && j.error.message) || `OpenRouter said ${r.status}`); }
+      const handle = j => {
+        if(j.error) throw new Error(j.error.message || 'stream error');
+        const ch = j.choices && j.choices[0]; if(!ch) return;
+        const d = ch.delta || ch.message || {};
+        const think = d.reasoning || (d.reasoning_details || []).map(x => x.text || x.summary || '').join('');
+        if(think){ if(!m.thinking) step('Thinking it through'); m.thinking += think; repaint(); }
+        (d.tool_calls || []).forEach(tc => { // if the search calls are streamed, show what it's looking up
+          const k = tc.index || 0; toolArgs[k] = (toolArgs[k] || '') + ((tc.function && tc.function.arguments) || '');
+          try{ const a = JSON.parse(toolArgs[k]); if(a.query) step('Searching', '“' + a.query + '”'); }catch(e){}
+        });
+        addSources(d.annotations); addSources(ch.annotations);
+        if(d.content){ if(!m.content) step('Writing the answer'); m.content += d.content; repaint(); }
+      };
+      const ct = r.headers.get('content-type') || '';
+      if(!r.body || !/event-stream/.test(ct)){ handle(await r.json()); }
+      else {
+        const reader = r.body.getReader(), dec = new TextDecoder(); let buf = '', waits = 0;
+        for(;;){
+          const {done, value} = await reader.read(); if(done) break;
+          buf += dec.decode(value, {stream: true});
+          let nl; while((nl = buf.indexOf('\n')) >= 0){
+            const line = buf.slice(0, nl).trim(); buf = buf.slice(nl + 1);
+            if(line.startsWith(':')){ if(++waits % 4 === 0 && !m.content) step(m.sources.length ? 'Reading more sources' : 'Still searching'); continue; } // keep-alive while it works
+            if(!line.startsWith('data:')) continue;
+            const data = line.slice(5).trim(); if(data === '[DONE]') continue;
+            try{ handle(JSON.parse(data)); }catch(e){ if(!(e instanceof SyntaxError)) throw e; }
+          }
+        }
+      }
+      if(!m.content) m.content = 'No answer came back. Try asking again.';
     }catch(e){
-      msgs.push({role: 'assistant', error: true, content: /401|auth|key/i.test(e.message) ? 'That key was not accepted. Check it in Settings.' : 'Something went wrong: ' + e.message});
+      msgs.pop(); msgs.push({role: 'assistant', error: true, content: /401|auth|key/i.test(e.message) ? 'That key was not accepted. Check it in Settings.' : 'Something went wrong: ' + e.message});
     }
-    chatBusy = false; if(chatStory === s) renderChat();
+    clearInterval(tick); m.t1 = Date.now(); chatBusy = false; if(chatStory === s) renderChat();
   }
   function closeChat(){
     const c = $('#chat'); if(!c.classList.contains('on')) return;
