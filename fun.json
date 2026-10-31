@@ -122,7 +122,7 @@
    "type": "fashion",
    "source": "GQ UK",
    "emoji": "🧸",
-   "color": "#a16207",
+   "color": "#b45309",
    "headline": "Onitsuka Tiger's furry Mexico 66",
    "caption": "The classic sneaker covered in faux fur, in five colours.",
    "body": [
@@ -166,22 +166,22 @@
   {
    "id": "2026-10-31-f8",
    "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "👞",
-   "color": "#292524",
-   "headline": "od.A: the shoe brand proud of 'nothing new'",
-   "caption": "Trail shoes studied from the past, made in nappa and waxed nubuck.",
+   "source": "GQ",
+   "emoji": "⌚",
+   "color": "#1e293b",
+   "headline": "GQ's four big new watches this month",
+   "caption": "Moser goes retrograde, Lange brings back a bracelet, Biver goes hand-wound, Breitling goes vintage.",
    "body": [
-    "The young brand believes the best hiking shoes were already designed.",
-    "Its debut collection sells at Dover Street Market.",
-    "How to wear it: with tailored wool trousers for a city-trail mix."
+    "H. Moser & Cie adds three models with retrograde seconds to its Streamliner line.",
+    "A. Lange & Söhne revives a much-loved bracelet; Biver drops its first hand-wound three-hand watch.",
+    "How to wear it: one serious watch, simple clothes, no other wrist clutter."
    ],
-   "url": "https://www.highsnobiety.com/p/oda-shoes-interview/",
-   "linkLabel": "Highsnobiety",
+   "url": "https://www.gq.com/story/watch-guy-watches-october-2026",
+   "linkLabel": "GQ",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793052896-od-1.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/oda-shoes-interview/",
+    "url": "https://media.gq.com/photos/6ae3a501e31624258a6aaa6e/16:9/w_1280,c_limit/HMoser_6252-1200_Streamliner_Retrograde_Seconds__Lifestyle_Detail_Dial.jpg",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/watch-guy-watches-october-2026",
     "preview": true
    },
    "embed": false
