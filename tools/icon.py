@@ -1,5 +1,5 @@
-# Builds the app icon: a periodic-table style "Ne" tile set in Inter (the app's sans-serif).
-# usage: python3 tools/icon.py inter-600.ttf inter-800.ttf out_dir
+# Builds the app icon: a periodic-table style "Ne" tile, the symbol in Fraunces (the masthead serif), labels in Inter.
+# usage: python3 tools/icon.py inter-600.ttf fraunces-800.ttf out_dir
 import sys
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
