@@ -209,6 +209,46 @@ header{display:flex;align-items:center;padding:6px 8px 8px 18px;gap:8px}
 .web.loaded .prog{width:100%;opacity:0;transition:width .2s,opacity .4s .2s}
 .web iframe{flex:1;width:100%;border:0;background:#fff}
 
+/* chat: ask about the story you're on */
+.chat{position:fixed;left:0;right:0;bottom:0;top:calc(env(safe-area-inset-top) + 10px);margin:0 auto;max-width:560px;background:#111;border-radius:var(--r) var(--r) 0 0;
+  transform:translateY(105%);transition:transform .4s cubic-bezier(.2,.85,.2,1);z-index:23;overflow:hidden;display:flex;flex-direction:column}
+.chat.on{transform:none}
+.chat .bar{flex:none;display:grid;grid-template-columns:64px 1fr 64px;align-items:center;padding:12px 10px 10px;border-bottom:1px solid var(--line);position:relative;touch-action:none}
+.chat .bar::before{content:"";position:absolute;top:5px;left:50%;transform:translateX(-50%);width:36px;height:4px;border-radius:4px;background:rgba(255,255,255,.3)}
+.chat .bar button{font-size:15px;font-weight:600;color:var(--fg);padding:6px;justify-self:start}
+.chat .bar button.clear{justify-self:end;font-size:13px;color:var(--muted)}
+.chat .bar .ttl{text-align:center;min-width:0}
+.chat .bar .ttl b{display:block;font-size:14px}
+.chat .bar .ttl small{display:block;font-size:11.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chat .log{flex:1;overflow-y:auto;padding:16px 16px 8px;display:flex;flex-direction:column;gap:12px;-webkit-overflow-scrolling:touch}
+.chat .ctx{align-self:stretch;border-radius:16px;padding:12px 14px;background:linear-gradient(160deg,color-mix(in srgb,var(--c) 80%,white 5%),var(--c));color:#fff;font-size:13px;line-height:1.4}
+.chat .ctx b{display:block;font-size:15px;margin-top:3px}
+.chat .msg{max-width:88%;padding:10px 14px;border-radius:18px;font-size:15px;line-height:1.5;overflow-wrap:anywhere}
+.chat .msg.me{align-self:flex-end;background:var(--accent);color:#fff;border-bottom-right-radius:6px}
+.chat .msg.ai{align-self:flex-start;background:var(--card2);border-bottom-left-radius:6px}
+.chat .msg.ai p{margin:0 0 8px}.chat .msg.ai p:last-child{margin-bottom:0}
+.chat .msg.ai ul,.chat .msg.ai ol{margin:4px 0 8px;padding-left:20px}
+.chat .msg.ai a{color:#64d2ff}
+.chat .msg.err{background:#3a1d1d;color:#ffb4ab}
+.chat .srcs{margin-top:8px;padding-top:8px;border-top:1px solid var(--line);font-size:12.5px;display:flex;flex-wrap:wrap;gap:6px}
+.chat .srcs a{padding:3px 9px;border-radius:999px;background:#3a3a3c;color:var(--fg);text-decoration:none;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chat .think{color:var(--muted);font-size:14px}
+.chat .think i{display:inline-block;width:6px;height:6px;margin-left:3px;border-radius:50%;background:currentColor;animation:blink 1.2s infinite}
+.chat .think i:nth-child(2){animation-delay:.2s}.chat .think i:nth-child(3){animation-delay:.4s}
+@keyframes blink{0%,80%,100%{opacity:.2}40%{opacity:1}}
+.chat .sugg{display:flex;flex-wrap:wrap;gap:8px}
+.chat .sugg button{padding:8px 12px;border-radius:999px;background:var(--card2);color:var(--fg);font-size:13.5px}
+.chat form{flex:none;display:flex;gap:8px;align-items:flex-end;padding:10px 12px calc(env(safe-area-inset-bottom) + 10px);border-top:1px solid var(--line)}
+.chat textarea{flex:1;resize:none;max-height:120px;min-height:42px;padding:10px 14px;border-radius:21px;border:1px solid var(--line);background:var(--card);color:var(--fg);font:inherit;font-size:16px;line-height:1.35}
+.chat form button{width:42px;height:42px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;flex:none}
+.chat form button:disabled{opacity:.4}
+.field{display:flex;flex-direction:column;gap:6px;padding:12px 16px;border-bottom:1px solid var(--line)}
+.field:last-child{border-bottom:0}
+.field span{font-size:13px;color:var(--muted)}
+.field input[type=password],.field input[type=text]{padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:#000;color:var(--fg);font-size:15px;width:100%}
+.field.row{flex-direction:row;align-items:center;justify-content:space-between}
+.field a{color:#64d2ff}
+
 /* settings */
 .panel{position:fixed;top:0;right:0;bottom:0;width:min(370px,100%);background:#111;z-index:31;transform:translateX(105%);transition:.38s cubic-bezier(.2,.85,.2,1);
   padding:calc(env(safe-area-inset-top) + 16px) 18px calc(env(safe-area-inset-bottom) + 20px);display:flex;flex-direction:column;gap:12px;overflow-y:auto}
@@ -262,6 +302,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
 <div class="scrim" id="scrim"></div>
 <section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Story details"></section>
 <section class="web" id="web" role="dialog" aria-modal="true" aria-label="Article"></section>
+<section class="chat" id="chat" role="dialog" aria-modal="true" aria-label="Ask about this story"></section>
 
 <aside class="panel" id="panel" aria-label="Settings">
   <h3>NEWS <button class="iconbtn" id="closeSettings" aria-label="Close">✕</button></h3>
@@ -278,6 +319,17 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   </div>
   <div class="label">Past days</div>
   <div class="group" id="archiveList"></div>
+  <div class="label">Ask AI 💬</div>
+  <div class="group">
+    <label class="field"><span>OpenRouter API key · stays on this device, sent only to openrouter.ai · <a href="https://openrouter.ai/keys" target="_blank" rel="noopener">get one</a></span><input type="password" id="orKey" autocomplete="off" spellcheck="false" placeholder="sk-or-…"></label>
+    <label class="field"><span>Model</span><input type="text" id="orModel" list="orModels" autocomplete="off" spellcheck="false"></label>
+    <label class="field row"><span>Search reputed news sources only</span><input type="checkbox" id="orTrusted"></label>
+  </div>
+  <datalist id="orModels"><option value="anthropic/claude-sonnet-5.5"><option value="anthropic/claude-haiku-5.5"><option value="anthropic/claude-opus-5.5"><option value="openai/gpt-5.6-terra"><option value="google/gemini-3.8-flash"></datalist>
+  <div class="label">App</div>
+  <div class="group">
+    <button id="updateBtn">Check for updates <small id="updateNote">↻</small></button>
+  </div>
   <p style="font-size:12px;color:var(--muted);margin:auto 4px 0">Swipe up for the next story, down to go back. Tap a card to read the full story, double-tap to save. Photos from Wikimedia Commons, Unsplash and the publishers credited.<br><br><span id="version"></span></p>
 </aside>
 <div class="toast" id="toast"></div>
@@ -292,7 +344,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["women","Women"],["health","Hospitals"],["saved","🔖 Saved"]];
   const LABEL = {world:"World", india:"India", money:"Money Desk", women:"Women", health:"Hospitals"};
   const SEC_ICON = {world:"🌍", india:"🇮🇳", money:"💰", women:"♀️", health:"🏥"};
-  const VERSION = '3.3'; // bump on every change to this page, so it's easy to tell which copy you have
+  const VERSION = '3.4'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
@@ -425,6 +477,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   // ---- one story = three cards, in a shuffled order ----
   const ICON = {
     save:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>',
+    chat:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.9A8 8 0 1 1 21 12z"/></svg>',
     share:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="m7 8 5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>'
   };
   // the headline card always fits its words; the photo and graphic share what's left and shrink first
@@ -452,7 +505,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
         <div class="kicker">${esc(s.source||'')}</div>
         <h2 class="hl-${headFont(s)}">${esc(s.headline)}</h2>
         <p>${esc(s.caption || (s.body||[])[0] || '')}</p>
-        <div class="acts"><button class="save" data-act="save" aria-pressed="${on}" aria-label="Save">${ICON.save}</button><button data-act="share" aria-label="Share">${ICON.share}</button></div>
+        <div class="acts"><button data-act="chat" aria-label="Ask about this story">${ICON.chat}</button><button class="save" data-act="save" aria-pressed="${on}" aria-label="Save">${ICON.save}</button><button data-act="share" aria-label="Share">${ICON.share}</button></div>
       </article>`;
     const im = el.querySelector('.img');
     if(im){ const t = new Image(); t.onerror = () => im.remove(); t.src = img; }
@@ -468,7 +521,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
           <div class="kicker"><span class="em">${esc(s.emoji||'')}</span>${esc(s.kicker||'')} · ${esc(s.source||'')}</div>
           <h2 class="hl-${headFont(s)}">${esc(s.headline)}</h2>
           <p>${esc((s.body||[])[0]||'')}</p>
-          <div class="acts"><button class="save" data-act="save" aria-pressed="${on}" aria-label="Save">${ICON.save}</button><button data-act="share" aria-label="Share">${ICON.share}</button></div>
+          <div class="acts"><button data-act="chat" aria-label="Ask about this story">${ICON.chat}</button><button class="save" data-act="save" aria-pressed="${on}" aria-label="Save">${ICON.save}</button><button data-act="share" aria-label="Share">${ICON.share}</button></div>
         </article>`,
       photo: `<article class="c c-photo"><div class="fallback">${esc(s.emoji||'📰')}</div>${img ? `<div class="img" style="background-image:url('${esc(safeUrl(img))}')"></div>` : ''}${s.joke ? `<div class="quip"><span>${esc(s.joke)}</span></div>` : ''}</article>`,
       viz: `<article class="c c-viz">${vizHTML(s)}${s.vc ? `<div class="vc"><b>💼</b>${esc(s.vc)}</div>` : ''}</article>`
@@ -615,6 +668,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
       const a = act.dataset.act;
       if(a === 'save') toggleSave(s);
       else if(a === 'share') share(s);
+      else if(a === 'chat') openChat(s);
       else if(a === 'more') moreNews();
       else if(a === 'again') show(0, -1);
       return;
@@ -694,6 +748,145 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     web.classList.remove('on'); if(!$('#sheet').classList.contains('on') && !$('#panel').classList.contains('on')) $('#scrim').classList.remove('on');
     setTimeout(() => { if(!web.classList.contains('on')) web.innerHTML = ''; }, 450); // stop the page (and any video) once it's hidden
   }
+  // ---- chat: ask an AI (via OpenRouter, with web search) about the story on screen ----
+  const TRUSTED = ['reuters.com','apnews.com','bbc.com','bbc.co.uk','ft.com','economist.com','bloomberg.com','wsj.com','nytimes.com','washingtonpost.com',
+    'theguardian.com','npr.org','aljazeera.com','cnbc.com','axios.com','politico.com','theatlantic.com','techcrunch.com','theverge.com','wired.com','nature.com','who.int',
+    'thehindu.com','indianexpress.com','hindustantimes.com','livemint.com','economictimes.indiatimes.com','business-standard.com','moneycontrol.com',
+    'thehindubusinessline.com','inc42.com','scroll.in','theprint.in','pib.gov.in','rbi.org.in','sebi.gov.in'];
+  const DEFAULT_MODEL = 'anthropic/claude-sonnet-5.5';
+  const chats = {}; // story id -> [{role, content, sources?}], kept for this visit
+  let chatStory = null, chatBusy = false;
+  const host = u => { try{ return new URL(u).hostname.replace(/^www\./, ''); }catch(e){ return ''; } };
+  function md(text){ // small, safe markdown: escape first, then links, bold, italics, lists, paragraphs
+    const inline = s => esc(s)
+      .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (m, l, u) => `<a href="${u}" target="_blank" rel="noopener">${l}</a>`)
+      .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>').replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<i>$2</i>');
+    const out = []; let list = null;
+    for(const raw of String(text || '').split('\n')){
+      const line = raw.trim(), li = line.match(/^(?:[-*•]|\d+[.)])\s+(.*)/), tag = /^\d/.test(line) ? 'ol' : 'ul';
+      if(li){ if(!list){ list = tag; out.push(`<${tag}>`); } out.push(`<li>${inline(li[1])}</li>`); continue; }
+      if(list){ out.push(`</${list}>`); list = null; }
+      if(!line) continue;
+      out.push(`<p>${inline(line.replace(/^#{1,6}\s*(.*)$/, '**$1**'))}</p>`);
+    }
+    if(list) out.push(`</${list}>`);
+    return out.join('');
+  }
+  function storyContext(s){
+    const sec = LABEL[s.section] || (isFun(s) ? FUN[s.type].label : 'News');
+    return [`Section: ${sec}${s.kicker ? ' · ' + s.kicker : ''}`, `Headline: ${s.headline}`, s.caption ? `Caption: ${s.caption}` : '',
+      `Summary:\n- ${(s.body || []).join('\n- ')}`, s.stat ? `Key number: ${s.stat} (${s.statLabel || ''})` : '', s.vc ? `Investor angle shown in the app: ${s.vc}` : '',
+      `Source: ${s.source || s.linkLabel || ''} · ${s.url}`, `Edition date: ${(s.id || '').slice(0, 10)}`].filter(Boolean).join('\n');
+  }
+  function openChat(s){
+    chatStory = s; chats[s.id] = chats[s.id] || [];
+    const c = $('#chat'); c.style.setProperty('--c', s.color || '#333');
+    c.innerHTML = `<div class="bar"><button class="done">Done</button><div class="ttl"><b>Ask about this story</b><small>${esc(s.headline)}</small></div><button class="clear">Clear</button></div>
+      <div class="log"></div>
+      <form><textarea rows="1" placeholder="Ask anything about this story…" enterkeyhint="send"></textarea><button type="submit" aria-label="Send"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg></button></form>`;
+    const ta = c.querySelector('textarea'), form = c.querySelector('form');
+    c.querySelector('.done').onclick = closeChat;
+    c.querySelector('.clear').onclick = () => { chats[s.id] = []; renderChat(); };
+    ta.addEventListener('input', () => { ta.style.height = 'auto'; ta.style.height = Math.min(ta.scrollHeight, 120) + 'px'; });
+    ta.addEventListener('keydown', e => { if(e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); form.requestSubmit(); } });
+    form.onsubmit = e => { e.preventDefault(); const q = ta.value.trim(); if(q && !chatBusy){ ta.value = ''; ta.style.height = ''; ask(q); } };
+    let y0 = null; const bar = c.querySelector('.bar');
+    bar.addEventListener('pointerdown', e => { y0 = e.clientY; });
+    bar.addEventListener('pointerup', e => { if(y0 !== null && e.clientY - y0 > 60) closeChat(); y0 = null; });
+    renderChat();
+    requestAnimationFrame(() => c.classList.add('on')); $('#scrim').classList.add('on');
+  }
+  function renderChat(){
+    const s = chatStory, log = $('#chat .log'); if(!s || !log) return;
+    const msgs = chats[s.id];
+    log.innerHTML = `<div class="ctx">${esc(LABEL[s.section] || (isFun(s) ? FUN[s.type].label : ''))} · ${esc(s.source || '')}<b>${esc(s.headline)}</b></div>` +
+      (msgs.length ? '' : `<div class="sugg">${['Tell me more about this', 'Why does this matter?', 'What happens next?', 'Explain it simply', 'What are the latest updates?']
+        .map(q => `<button>${q}</button>`).join('')}</div>`) +
+      msgs.map(m => m.role === 'user' ? `<div class="msg me">${esc(m.content)}</div>`
+        : `<div class="msg ai${m.error ? ' err' : ''}">${m.error ? esc(m.content) : md(m.content)}${m.sources && m.sources.length ? `<div class="srcs">${m.sources.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title ? host(x.url) + ' · ' + x.title : host(x.url))}</a>`).join('')}</div>` : ''}</div>`).join('') +
+      (chatBusy ? '<div class="msg ai think">Searching and reading<i></i><i></i><i></i></div>' : '');
+    log.querySelectorAll('.sugg button').forEach(b => b.onclick = () => ask(b.textContent));
+    log.scrollTop = log.scrollHeight;
+    const send = $('#chat form button'); if(send) send.disabled = chatBusy;
+  }
+  async function ask(q){
+    const s = chatStory, key = store.get('orKey', '');
+    if(!key){ toast('Add your OpenRouter key in Settings first', 2600); closeChat(); openPanel(); setTimeout(() => $('#orKey').focus(), 400); return; }
+    const msgs = chats[s.id]; msgs.push({role: 'user', content: q}); chatBusy = true; renderChat();
+    const today = new Date().toLocaleDateString('en-IN', {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'});
+    const sys = `You are the research assistant inside NEWS, a personal news reader for a reader in Bengaluru, India. Today is ${today}.
+The reader is looking at this story and their questions are about it unless they say otherwise:
+
+${storyContext(s)}
+
+How to answer:
+- Use web search to check facts and find what's new; search more than once when the question needs research.
+- Rely on reputable news organisations and official sources; never treat social media posts or rumours as fact.
+- Cite sources inline as markdown links named after the outlet, e.g. [Reuters](https://...).
+- Plain, simple English. Lead with the answer, then the key details. Keep it under about 200 words unless asked for more; use short bullet lists where they help.
+- Separate facts from analysis, say clearly when something is unconfirmed or disputed, and never make up facts, numbers or quotes.`;
+    const params = {max_uses: 4, max_results: 5};
+    if(store.get('orTrusted', true)) params.allowed_domains = [...new Set([...TRUSTED, host(s.url)].filter(Boolean))];
+    try{
+      const r = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+        method: 'POST',
+        headers: {'Authorization': 'Bearer ' + key, 'Content-Type': 'application/json', 'HTTP-Referer': location.origin + location.pathname, 'X-Title': 'NEWS'},
+        body: JSON.stringify({
+          model: store.get('orModel', '') || DEFAULT_MODEL,
+          messages: [{role: 'system', content: sys}, ...msgs.filter(m => !m.error).map(m => ({role: m.role, content: m.content}))],
+          tools: [{type: 'openrouter:web_search', parameters: params}],
+          max_tokens: 1500
+        })
+      });
+      const j = await r.json().catch(() => ({}));
+      if(!r.ok || j.error) throw new Error((j.error && j.error.message) || `OpenRouter said ${r.status}`);
+      const m = (j.choices && j.choices[0] && j.choices[0].message) || {};
+      const seen = new Set(), sources = (m.annotations || []).filter(a => a.type === 'url_citation' && a.url_citation)
+        .map(a => a.url_citation).filter(x => /^https?:/.test(x.url) && !seen.has(x.url) && seen.add(x.url)).slice(0, 8);
+      msgs.push({role: 'assistant', content: m.content || 'No answer came back. Try asking again.', sources});
+    }catch(e){
+      msgs.push({role: 'assistant', error: true, content: /401|auth|key/i.test(e.message) ? 'That key was not accepted. Check it in Settings.' : 'Something went wrong: ' + e.message});
+    }
+    chatBusy = false; if(chatStory === s) renderChat();
+  }
+  function closeChat(){
+    const c = $('#chat'); if(!c.classList.contains('on')) return;
+    c.classList.remove('on'); if(!$('#sheet').classList.contains('on') && !$('#panel').classList.contains('on') && !$('#web').classList.contains('on')) $('#scrim').classList.remove('on');
+  }
+
+  // ---- updates: compare this page's version (and today's edition) with what's on the server ----
+  const newer = (a, b) => { const x = a.split('.').map(Number), y = b.split('.').map(Number);
+    for(let i = 0; i < Math.max(x.length, y.length); i++){ if((x[i] || 0) !== (y[i] || 0)) return (x[i] || 0) > (y[i] || 0); } return false; };
+  let pendingUpdate = null;
+  async function checkUpdates(){
+    const btn = $('#updateBtn'), note = $('#updateNote');
+    if(pendingUpdate){ applyUpdate(pendingUpdate); return; }
+    btn.disabled = true; note.textContent = 'checking…';
+    try{
+      const html = await fetch(location.pathname + '?check=' + Date.now(), {cache: 'no-store'}).then(r => r.text());
+      const v = (html.match(/const VERSION = '([\d.]+)'/) || [])[1];
+      const today = await fetch('news.json?t=' + Date.now(), {cache: 'no-store'}).then(r => r.json()).then(d => d.date).catch(() => null);
+      const appNew = v && newer(v, VERSION), newsNew = !isArchive && today && data && today > data.date;
+      if(appNew || newsNew){
+        pendingUpdate = v || String(Date.now());
+        btn.firstChild.textContent = appNew ? `Update to v${v} ` : 'Load the new edition ';
+        note.textContent = appNew ? 'tap to update' : `${today}`;
+        toast(appNew ? `Version ${v} is available` : 'A new edition is out', 2200);
+      } else {
+        note.textContent = `up to date · v${VERSION}`; toast("You're on the latest version ✓");
+      }
+    }catch(e){ note.textContent = "couldn't check"; toast("Couldn't reach the server"); }
+    btn.disabled = false;
+  }
+  async function applyUpdate(v){
+    try{
+      if(navigator.serviceWorker) (await navigator.serviceWorker.getRegistrations()).forEach(r => r.update());
+      if(window.caches) (await caches.keys()).forEach(k => caches.delete(k));
+    }catch(e){}
+    const q = new URLSearchParams(location.search); q.set('v', v);
+    location.replace(location.pathname + '?' + q + location.hash);
+  }
+
   function closeSheet(){ $('#sheet').classList.remove('on'); if(!$('#panel').classList.contains('on')) $('#scrim').classList.remove('on'); }
   const openPanel = () => { $('#panel').classList.add('on'); $('#scrim').classList.add('on'); };
   const closePanel = () => { $('#panel').classList.remove('on'); if(!$('#sheet').classList.contains('on')) $('#scrim').classList.remove('on'); };
@@ -762,6 +955,13 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
 
   // ---- wiring ----
   $('#moreBtn').onclick = moreNews;
+  $('#updateBtn').onclick = checkUpdates;
+  $('#orKey').value = store.get('orKey', '');
+  $('#orKey').onchange = e => { store.set('orKey', e.target.value.trim() || null); toast(e.target.value.trim() ? 'Key saved on this device 🔑' : 'Key removed'); };
+  $('#orModel').value = store.get('orModel', '') || DEFAULT_MODEL;
+  $('#orModel').onchange = e => { const m = e.target.value.trim(); store.set('orModel', m && m !== DEFAULT_MODEL ? m : null); if(!m) e.target.value = DEFAULT_MODEL; toast('Model: ' + (m || DEFAULT_MODEL)); };
+  $('#orTrusted').checked = store.get('orTrusted', true);
+  $('#orTrusted').onchange = e => store.set('orTrusted', e.target.checked);
   $('#shuffleBtn').onclick = () => { shuffle(); closePanel(); };
   $('#resetBtn').onclick = () => { reset(); closePanel(); };
   function renderFashionEvery(){
@@ -778,10 +978,10 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   }
   renderFashionEvery();
   $('#openSettings').onclick = openPanel; $('#closeSettings').onclick = closePanel;
-  $('#scrim').onclick = () => { closeWeb(); closeSheet(); closePanel(); };
+  $('#scrim').onclick = () => { closeChat(); closeWeb(); closeSheet(); closePanel(); };
   document.addEventListener('keydown', e => {
-    if(e.key === 'Escape'){ closeWeb(); closeSheet(); closePanel(); return; }
-    if($('#sheet').classList.contains('on') || $('#panel').classList.contains('on') || e.target.tagName === 'INPUT') return;
+    if(e.key === 'Escape'){ closeChat(); closeWeb(); closeSheet(); closePanel(); return; }
+    if($('#sheet').classList.contains('on') || $('#panel').classList.contains('on') || $('#chat').classList.contains('on') || ['INPUT','TEXTAREA'].includes(e.target.tagName)) return;
     if(['ArrowDown','ArrowRight','j',' '].includes(e.key)){ e.preventDefault(); go(1); }
     else if(['ArrowUp','ArrowLeft','k'].includes(e.key)){ e.preventDefault(); go(-1); }
     else if(e.key === 'Enter' && list[idx]) openSheet(list[idx]);
