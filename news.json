@@ -427,6 +427,33 @@
    "linkLabel": "ET HealthWorld",
    "color": "#312e81",
    "font": "news"
+  },
+  {
+   "id": "2026-11-01-r1",
+   "section": "f1",
+   "source": "Al Jazeera",
+   "kicker": "Mexico City GP",
+   "emoji": "🏎️",
+   "stat": "1,197",
+   "statLabel": "days since Hamilton's last GP pole",
+   "headline": "Hamilton takes his first Ferrari pole as Antonelli eyes the title",
+   "body": [
+    "Lewis Hamilton, 41, took his first Grand Prix pole for Ferrari in Mexico City, his 105th career pole and first in 1,197 days.",
+    "George Russell starts second and Charles Leclerc third.",
+    "Kimi Antonelli starts fourth after Verstappen's grid penalty and needs only ninth place on Sunday to become F1's youngest champion and Italy's first since 1953."
+   ],
+   "joke": "Hamilton waited 1,197 days for this. Antonelli just needs to not crash.",
+   "vc": "A first title for a 20-year-old Italian at Mercedes, and a Hamilton–Ferrari revival, are gold for F1's sponsors and TV deals.",
+   "url": "https://www.aljazeera.com/sports/2026/11/1/f1-hamilton-takes-first-ferrari-pole-antonelli-starts-fourth-in-mexico",
+   "linkLabel": "Al Jazeera",
+   "color": "#b91c1c",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez%2C_June_4%2C_2018_SkySat_%28cropped%29.jpg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez%2C_June_4%2C_2018_SkySat_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Planet Labs, Inc. / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez,_June_4,_2018_SkySat_(cropped).jpg",
+    "license": "CC BY-SA 4.0"
+   }
   }
  ]
 }

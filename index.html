@@ -284,6 +284,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
 .chip{padding:9px 14px;border-radius:999px;background:var(--card);font-size:14px;font-weight:600}
 .chip[aria-pressed="true"]{background:var(--fg);color:#000}
 .chip small{opacity:.55;margin-left:4px}
+.chip.done{background:#173d22;color:#30d158}
+.chip.done[aria-pressed="true"]{background:#30d158;color:#000}
 .toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom) + 26px);transform:translateX(-50%) translateY(10px);background:#2c2c2e;color:#fff;padding:11px 18px;border-radius:999px;font-weight:600;font-size:14px;opacity:0;transition:.3s;z-index:40;pointer-events:none;text-align:center;max-width:calc(100% - 32px);box-shadow:0 10px 30px rgba(0,0,0,.5)}
 .toast.on{opacity:1;transform:translateX(-50%)}
 
@@ -309,8 +311,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   <div class="bars" id="bars"></div>
   <header>
     <div class="date" id="date">Loading…</div>
-    <button class="iconbtn" id="openSettings" aria-label="Settings">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+    <button class="iconbtn" id="openSettings" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
     </button>
   </header>
   <main class="stage" id="stage" aria-live="polite"></main>
@@ -358,10 +360,10 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     get(k, d){ try{ const v = localStorage.getItem('ds_'+k); return v===null?d:JSON.parse(v);}catch(e){return d} },
     set(k, v){ try{ v===null ? localStorage.removeItem('ds_'+k) : localStorage.setItem('ds_'+k, JSON.stringify(v)); }catch(e){} }
   };
-  const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["women","Women"],["health","Hospitals"],["saved","🔖 Saved"]];
-  const LABEL = {world:"World", india:"India", money:"Money Desk", women:"Women", health:"Hospitals"};
-  const SEC_ICON = {world:"🌍", india:"🇮🇳", money:"💰", women:"♀️", health:"🏥"};
-  const VERSION = '3.8'; // bump on every change to this page, so it's easy to tell which copy you have
+  const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["women","Women"],["health","Hospitals"],["f1","F1"],["saved","🔖 Saved"]];
+  const LABEL = {world:"World", india:"India", money:"Money Desk", women:"Women", health:"Hospitals", f1:"F1"};
+  const SEC_ICON = {world:"🌍", india:"🇮🇳", money:"💰", women:"♀️", health:"🏥", f1:"🏎️"};
+  const VERSION = '3.9'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
@@ -420,11 +422,23 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     });
     return out;
   }
+  // stories you've seen today, so Settings can colour a section once you've read all of it
+  const seenKey = () => 'seen_' + (data ? data.date : '');
+  let seen = null;
+  function markSeen(s){
+    if(!seen) seen = new Set(store.get(seenKey(), []));
+    if(seen.has(s.id)) return;
+    seen.add(s.id); store.set(seenKey(), [...seen]);
+    if(!isFun(s) && LABEL[s.section] && all.filter(x => x.section === s.section).every(x => seen.has(x.id))) toast(`${SEC_ICON[s.section] || ''} ${LABEL[s.section]} done for today ✓`);
+  }
   function renderTabs(){
+    if(!seen && data) seen = new Set(store.get(seenKey(), []));
     $('#tabs').innerHTML = SECTIONS.map(([k,l]) => {
       const n = k==='all' ? all.length : k==='saved' ? saved.length : all.filter(s=>s.section===k).length;
       if(!n && k !== 'all' && k !== 'saved' && filter !== k) return ''; // days before a section existed don't show its tab
-      return `<button class="chip" data-k="${k}" aria-pressed="${filter===k}">${l}<small>${n}</small></button>`;
+      const pool = k === 'all' ? all.filter(s => !isFun(s)) : k === 'saved' ? [] : all.filter(s => s.section === k);
+      const done = !isArchive && seen && pool.length && pool.every(s => seen.has(s.id));
+      return `<button class="chip${done ? ' done' : ''}" data-k="${k}" aria-pressed="${filter===k}">${done ? '✓ ' : ''}${l}<small>${n}</small></button>`;
     }).join('');
     $('#tabs').querySelectorAll('.chip').forEach(b => b.onclick = () => { filter = b.dataset.k; renderTabs(); show(0, 1, true); closePanel(); });
     const f = SECTIONS.find(([k]) => k === filter);
@@ -596,6 +610,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     const old = current(), next = p < list.length ? storyEl(list[p]) : doneEl();
     idx = p; renderBars();
     if(data && list[p] && filter === 'all') store.set('pos_' + data.date, list[p].id);
+    if(data && list[p] && !isArchive) markSeen(list[p]);
     stage.appendChild(next);
     if(instant || !old || !motionOK || !next.animate){
       stage.querySelectorAll('.story').forEach(e => { if(e !== next) e.remove(); });
@@ -968,7 +983,7 @@ How to answer (a proper summary, not a wall of text):
   }
 
   function closeSheet(){ $('#sheet').classList.remove('on'); if(!$('#panel').classList.contains('on')) $('#scrim').classList.remove('on'); }
-  const openPanel = () => { $('#panel').classList.add('on'); $('#scrim').classList.add('on'); };
+  const openPanel = () => { renderTabs(); $('#panel').classList.add('on'); $('#scrim').classList.add('on'); };
   const closePanel = () => { $('#panel').classList.remove('on'); if(!$('#sheet').classList.contains('on')) $('#scrim').classList.remove('on'); };
   function toast(t, ms){ const el=$('#toast'); el.textContent=t; el.classList.add('on'); clearTimeout(toast._t); toast._t=setTimeout(()=>el.classList.remove('on'), ms || 1700); }
 
