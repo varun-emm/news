@@ -1,459 +1,465 @@
 {
- "date": "2026-11-01",
- "generatedAt": "2026-11-01T03:50:03+05:30",
+ "date": "2026-11-02",
+ "generatedAt": "2026-11-02T03:49:29+05:30",
  "stories": [
   {
-   "id": "2026-11-01-w1",
+   "id": "2026-11-02-w1",
    "section": "world",
    "source": "The Guardian",
-   "kicker": "G20",
-   "emoji": "📸",
-   "stat": "~1/3",
-   "statLabel": "of countries threatened a boycott",
-   "headline": "US cancels G20 group photo as allies refuse to stand with Russia",
+   "kicker": "Ukraine",
+   "emoji": "🛢️",
+   "stat": "2",
+   "statLabel": "Russian refineries hit",
+   "headline": "Ukraine resumes drone strikes on Russian oil refineries",
    "body": [
-    "Marco Rubio scrapped the traditional 'family photo' at the G20 foreign ministers' meeting in Atlanta.",
-    "About a third of countries, including the UK and Australia, said they would boycott or walk out rather than pose with Russia's Sergei Lavrov.",
-    "Rubio still opened the talks with a call for unity on global security and trade."
+    "Ukraine has restarted attacks on Russian oil refineries, despite pressure from Donald Trump before the US midterms.",
+    "Russian state media said drones set fire to the Kstovo refinery, after a big strike on a Rosneft refinery in Samara.",
+    "The local ceasefire in occupied Oleshky ended on Sunday night."
    ],
-   "joke": "Nobody wanted to be in the photo. The group chat is going to be awkward.",
-   "vc": "Open splits at the G20 make global trade deals harder, which keeps markets wary of new tariffs.",
-   "url": "https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia",
+   "joke": "",
+   "vc": "Hits on Russian refineries tighten fuel supply and can push up diesel prices worldwide.",
+   "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil",
    "linkLabel": "The Guardian",
-   "color": "#1e3a8a",
-   "font": "news",
-   "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Secretary_Marco_Rubio_aboard_Air_Force_Three.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "credit": "Embassy of the United States of America to Italy / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:Secretary_Marco_Rubio_aboard_Air_Force_Three.jpg",
-    "license": "Public domain"
-   }
-  },
-  {
-   "id": "2026-11-01-w2",
-   "section": "world",
-   "source": "Al Jazeera",
-   "kicker": "US–Iran",
-   "emoji": "🕊️",
-   "stat": "8",
-   "statLabel": "months of war",
-   "headline": "Iran calls US outreach 'a positive step' as talks move to Qatar",
-   "body": [
-    "Iran's foreign minister Abbas Araghchi said a US push to open dialogue is a positive step, but no meetings with US officials are planned yet.",
-    "Iran studied JD Vance's letter and set out its conditions for reopening the Strait of Hormuz.",
-    "An Iranian delegation went to Doha, a day after Qatari mediators visited Tehran."
-   ],
-   "joke": "Progress in diplomacy: everyone's now talking about talking.",
-   "vc": "Hormuz reopening would ease oil prices fast, the single biggest swing factor for India's import bill.",
-   "url": "https://www.aljazeera.com/news/2026/10/31/iran-fm-says-us-outreach-a-positive-step-as-delegation-in-qatar-for-talks",
-   "linkLabel": "Al Jazeera",
-   "color": "#a16207",
-   "font": "serious",
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Meeting_Dr._Seyed_Abbas_Araghchi_%2801911589%29_%2851160900217%29.jpg/1280px-Meeting_Dr._Seyed_Abbas_Araghchi_%2801911589%29_%2851160900217%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "IAEA Imagebank / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:Meeting_Dr._Seyed_Abbas_Araghchi_(01911589)_(51160900217).jpg",
-    "license": "CC BY 2.0"
-   }
-  },
-  {
-   "id": "2026-11-01-w3",
-   "section": "world",
-   "source": "The Guardian",
-   "kicker": "Poland",
-   "emoji": "⚖️",
-   "stat": "10",
-   "statLabel": "years of dispute over the court",
-   "headline": "Riot police at Poland's top court after its chief judge is suspended",
-   "body": [
-    "Riot police faced protesters outside Poland's constitutional court after its contested president and his deputy were suspended.",
-    "Government-appointed judges made the move in a decade-long fight over whether the court is legitimate.",
-    "President Karol Nawrocki was seen struggling to enter the building; the opposition PiS party reacted furiously."
-   ],
-   "joke": "When the court needs a court to decide if it's a court.",
-   "vc": "Rule-of-law fights affect EU funding for Poland, one of Europe's fastest-growing economies.",
-   "url": "https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended",
-   "linkLabel": "The Guardian",
-   "color": "#7f1d1d",
-   "font": "serious",
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Trybuna%C5%82_Konstytucyjny_%2812009449535%29.jpg/1280px-Trybuna%C5%82_Konstytucyjny_%2812009449535%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Lukas Plewnia from Berlin, Deutschland / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:Trybuna%C5%82_Konstytucyjny_(12009449535).jpg",
-    "license": "CC BY-SA 2.0"
-   }
-  },
-  {
-   "id": "2026-11-01-i1",
-   "section": "india",
-   "source": "Inc42",
-   "kicker": "Governance",
-   "emoji": "🛒",
-   "stat": "₹150 cr",
-   "statLabel": "alleged kickbacks",
-   "headline": "Walmart probes Flipkart staff over ₹150 crore in alleged kickbacks",
-   "body": [
-    "Walmart is investigating whistleblower claims that Flipkart employees took over ₹150 crore from vendors.",
-    "Vendors allegedly got better visibility on the platform in return, in the smartphones and luggage categories.",
-    "It is Walmart's third such probe at Flipkart in under three years; Flipkart says it is committed to governance."
-   ],
-   "joke": "Paid placement, just not the kind the finance team signed off on.",
-   "vc": "Governance issues before a likely Flipkart IPO could weigh on its valuation with public investors.",
-   "url": "https://inc42.com/buzz/walmart-probes-flipkart-employees-over-alleged-%e2%82%b9150-cr-kickbacks-report/",
-   "linkLabel": "Inc42",
-   "color": "#9a3412",
-   "font": "news"
-  },
-  {
-   "id": "2026-11-01-i2",
-   "section": "india",
-   "source": "Inc42",
-   "kicker": "EVs",
-   "emoji": "🛵",
-   "stat": "2.15 lakh",
-   "statLabel": "e-scooters registered in October",
-   "headline": "Electric two-wheeler sales rise again; TVS and Hero gain",
-   "body": [
-    "India registered 2.15 lakh electric two-wheelers in October, up 2.9% from September and 48% from a year ago.",
-    "TVS leads with a 27.2% share; Hero MotoCorp grew fastest, reaching 13.4% and closing in on Ather.",
-    "Bajaj, Ather and Ola saw monthly declines, with Ola down 13.7%."
-   ],
-   "joke": "The scooter wars: old giants are quietly lapping the startups.",
-   "vc": "Legacy makers winning EV share puts pressure on startups like Ola and Ather to show profits, not just growth.",
-   "url": "https://inc42.com/buzz/e2w-registrations-rise-2-9-mom-to-2-15-lakh-in-october-tvs-hero-gain-market-share/",
-   "linkLabel": "Inc42",
-   "color": "#047857",
-   "font": "finance"
-  },
-  {
-   "id": "2026-11-01-i3",
-   "section": "india",
-   "source": "The Hindu",
-   "kicker": "Bengaluru",
-   "emoji": "🚦",
-   "stat": "43",
-   "statLabel": "wards in the 'Ward One' drive",
-   "headline": "Bengaluru plans a full makeover of Silk Board junction",
-   "body": [
-    "Minister Krishna Byre Gowda told officials to draw up a permanent plan for the Central Silk Board junction.",
-    "It should improve traffic flow, pedestrian paths and public spaces.",
-    "He also launched 'Ward One', a campaign to fix junctions and local infrastructure across 43 wards."
-   ],
-   "joke": "Silk Board: Bengaluru's most famous traffic jam may finally get a glow-up.",
-   "vc": "Better junctions around the Outer Ring Road help the tech parks that sit along it.",
-   "url": "https://www.thehindu.com/news/cities/bangalore/kbg-launches-ward-one-initiative/article71650634.ece",
-   "linkLabel": "The Hindu",
-   "color": "#be185d",
-   "font": "news"
-  },
-  {
-   "id": "2026-11-01-m1",
-   "section": "money",
-   "source": "TechCrunch",
-   "kicker": "AI funding",
-   "emoji": "📉",
-   "stat": "$30B → $20B",
-   "statLabel": "OpenAI's funding target",
-   "headline": "OpenAI reportedly cuts its new funding target to $20 billion",
-   "body": [
-    "OpenAI has lowered the target for its new round to $20 billion, from a reported $30 billion, the FT says.",
-    "The WSJ says it has secured $11 billion so far, led by investors from the UAE.",
-    "It had been reported raising at valuations of $1.25–1.4 trillion ahead of a planned IPO."
-   ],
-   "joke": "Even trillion-dollar companies have to settle for a smaller cheque sometimes.",
-   "vc": "A softer raise for the leading AI lab hints investors are getting pickier about AI valuations.",
-   "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
-   "linkLabel": "TechCrunch",
-   "color": "#18181b",
-   "font": "finance",
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Visit_of_OpenAI_representatives_to_the_European_Commission_-_P061880-380830.jpg/1280px-Visit_of_OpenAI_representatives_to_the_European_Commission_-_P061880-380830.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "European Commission - Photographer: Aurore Martignoni / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:Visit_of_OpenAI_representatives_to_the_European_Commission_-_P061880-380830.jpg",
-    "license": "CC BY 4.0"
-   }
-  },
-  {
-   "id": "2026-11-01-m2",
-   "section": "money",
-   "source": "FT Unhedged",
-   "kicker": "Wall Street",
-   "emoji": "🤝",
-   "stat": "$111B",
-   "statLabel": "Paramount–Warner Bros deal",
-   "headline": "Unhedged: why Wall Street's dealmaking boom is fading",
-   "body": [
-    "The FT's Unhedged podcast says the year's merger boom has started to slow.",
-    "There were megadeals like the $111 billion Paramount–Warner Bros Discovery tie-up.",
-    "But higher borrowing costs and softer markets have cooled the appetite for new deals."
-   ],
-   "joke": "Bankers' bonuses are watching this trend very closely.",
-   "vc": "Fewer M&A deals mean fewer exits for VCs and private equity, which slows new fundraising.",
-   "url": "https://shows.acast.com/unhedged/episodes/why-the-slowdown-in-wall-street-deals",
-   "linkLabel": "FT Unhedged",
    "color": "#0e7490",
-   "font": "finance",
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/New_York_Stock_Exchange_August_2017_02.jpg/1280px-New_York_Stock_Exchange_August_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Arild Vågen / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_August_2017_02.jpg",
-    "license": "CC BY-SA 4.0"
-   }
-  },
-  {
-   "id": "2026-11-01-m3",
-   "section": "money",
-   "source": "TechCrunch",
-   "kicker": "Big Tech",
-   "emoji": "📱",
-   "stat": "1",
-   "statLabel": "app to do everything",
-   "headline": "TikTok is quietly turning into a super app",
-   "body": [
-    "TikTok has added restaurant guides and is reportedly building in-app payments over direct messages.",
-    "It already has TikTok Shop, local maps, games and better search.",
-    "The goal looks like a 'super app', like China's WeChat."
-   ],
-   "joke": "First it took your evenings. Now it wants your wallet and your dinner plans.",
-   "vc": "Super apps keep users and payments in one place, a model India's Paytm and PhonePe also chase.",
-   "url": "https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/",
-   "linkLabel": "TechCrunch",
-   "color": "#be123c",
-   "font": "tech",
-   "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/TikTok_and_other_ByteDance_apps.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "credit": "App Store / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:TikTok_and_other_ByteDance_apps.jpg",
-    "license": "Public domain"
-   }
-  },
-  {
-   "id": "2026-11-01-m4",
-   "section": "money",
-   "source": "TechCrunch",
-   "kicker": "Apple",
-   "emoji": "🍎",
-   "stat": "Sept",
-   "statLabel": "when John Ternus became CEO",
-   "headline": "Apple's new CEO: we won't ship AI for AI's sake",
-   "body": [
-    "Apple CEO John Ternus told Wired he likes where Apple stands in AI, despite criticism that it's behind.",
-    "Apple will 'absolutely' use AI in products, he said, but only where it truly helps users.",
-    "Ternus took over as CEO at the start of September."
-   ],
-   "joke": "Translation: we'll ship AI when it's ready, and it'll be called something else.",
-   "vc": "Investors want proof Apple's slower AI approach won't cost it iPhone upgrades.",
-   "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
-   "linkLabel": "TechCrunch",
-   "color": "#52525b",
-   "font": "tech"
-  },
-  {
-   "id": "2026-11-01-m5",
-   "section": "money",
-   "source": "TechCrunch",
-   "kicker": "AI & climate",
-   "emoji": "🏭",
-   "stat": "35",
-   "statLabel": "turbines without permits, NAACP says",
-   "headline": "Judge lets NAACP lawsuit over xAI's data centre pollution go ahead",
-   "body": [
-    "A federal judge refused to dismiss an NAACP lawsuit against xAI over its Colossus data centre near Memphis.",
-    "The suit says xAI ran at least 35 gas turbines without required air permits.",
-    "xAI argued the turbines were mobile and exempt."
-   ],
-   "joke": "Turns out 'they have wheels' isn't a permit.",
-   "vc": "Power and permits are now the real bottlenecks for AI data centres, and a growing legal risk for investors.",
-   "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
-   "linkLabel": "TechCrunch",
-   "color": "#3f6212",
-   "font": "news",
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Skyline_of_Memphis%2C_TN.jpg/1280px-Skyline_of_Memphis%2C_TN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Quintin Soloviev / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:Skyline_of_Memphis,_TN.jpg",
-    "license": "CC BY 4.0"
-   }
-  },
-  {
-   "id": "2026-11-01-v1",
-   "section": "women",
-   "source": "Al Jazeera",
-   "kicker": "Yemen",
-   "emoji": "🤰",
-   "stat": "6,100",
-   "statLabel": "pregnant women displaced",
-   "headline": "Yemen's new fighting puts thousands of pregnant women at risk",
-   "body": [
-    "At least 290,000 people have been displaced in Yemen since fighting flared again in August, the UN says.",
-    "Among them are 6,100 pregnant women, 600 of them due to give birth within two weeks.",
-    "The UN has sent mobile teams and midwives to camps as food and fuel prices soar."
-   ],
-   "joke": "",
-   "vc": "Maternal care is among the first services to collapse in conflict; aid funding for it is chronically short.",
-   "url": "https://www.aljazeera.com/news/2026/10/31/new-yemen-fighting-displaces-290000-says-un-with-pregnant-women-at-risk",
-   "linkLabel": "Al Jazeera",
-   "color": "#44403c",
    "font": "serious",
    "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Taiz_%2815182373707%29.jpg/1280px-Taiz_%2815182373707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "المصور أنس الحاج / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:Taiz_(15182373707).jpg",
-    "license": "CC BY-SA 2.0"
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/E7157-Kstovo-industrial-left.jpg/1280px-E7157-Kstovo-industrial-left.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Vmenkov\nother_versions=Image:E7158-Kstovo-industrial-center. / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:E7157-Kstovo-industrial-left.jpg",
+    "license": "CC BY-SA 3.0"
    }
   },
   {
-   "id": "2026-11-01-v2",
-   "section": "women",
-   "source": "NPR",
-   "kicker": "Money",
-   "emoji": "💔",
-   "stat": "Divorce",
-   "statLabel": "hits women's finances harder",
-   "headline": "Why divorce is financially harder on women",
+   "id": "2026-11-02-w2",
+   "section": "world",
+   "source": "The Guardian",
+   "kicker": "US–Iran",
+   "emoji": "⛴️",
+   "stat": "$6B+",
+   "statLabel": "Iranian assets in play",
+   "headline": "Gulf states 'braced for the worst' as Hormuz talks drag on",
    "body": [
-    "Journalist Melinda Wenner Moyer told NPR that divorce often leaves women much worse off financially.",
-    "Her reporting for New York Magazine was titled 'The Strong, Empowered, Secretly Broke Divorcee'.",
-    "She argues 'equal' divorce laws can still be unfair in a society where women earn less."
+    "Indirect US–Iran talks in Doha went into a third day as Qatar tries to free more than $6 billion in Iranian assets.",
+    "That could lead to reopening the Strait of Hormuz and restarting nuclear talks.",
+    "Gulf officials are waiting for Washington's reply before Tuesday's US midterms."
    ],
-   "joke": "Freedom feels great. Splitting the bills, less so.",
-   "vc": "Women's lower earnings and career gaps for care work compound over a lifetime; planning tools for women are an underserved market.",
-   "url": "https://www.npr.org/2026/10/30/nx-s1-6022279/why-is-divorce-financially-harder-on-women",
-   "linkLabel": "NPR",
-   "color": "#9d174d",
-   "font": "editorial"
-  },
-  {
-   "id": "2026-11-01-v3",
-   "section": "women",
-   "source": "The 19th",
-   "kicker": "US politics",
-   "emoji": "📺",
-   "stat": "82",
-   "statLabel": "year-old former clinic manager interviewed",
-   "headline": "An Ohio ad about a candidate's childhood abuse angers women voters",
-   "body": [
-    "A Vivek Ramaswamy ad features Democrat Amy Acton's estranged mother saying Acton lied about documented childhood abuse.",
-    "Ohio women told The 19th they felt revulsion, but not surprise.",
-    "They question whether using sexual abuse against women in politics is ever disqualifying."
-   ],
-   "joke": "",
-   "vc": "How voters react to such tactics shapes whether more women run for office at all.",
-   "url": "https://19thnews.org/2026/10/amy-acton-ohio-ad-politicians-abuse-trump/",
-   "linkLabel": "The 19th",
-   "color": "#6b21a8",
+   "joke": "Everyone's waiting on one reply. It's the world's most stressful group chat.",
+   "vc": "A Hormuz deal would cut oil and shipping costs fast; no deal keeps India's fuel import bill high.",
+   "url": "https://www.theguardian.com/world/2026/nov/01/negotiators-braced-for-worst-over-us-iran-talks-to-reopen-strait-of-hormuz",
+   "linkLabel": "The Guardian",
+   "color": "#a16207",
    "font": "serious"
   },
   {
-   "id": "2026-11-01-h1",
-   "section": "health",
-   "source": "Whalesbook",
-   "kicker": "Delhi NCR",
-   "emoji": "🛏️",
-   "stat": "+209",
-   "statLabel": "beds planned",
-   "headline": "Max Healthcare to add 209 beds with ₹415 crore",
+   "id": "2026-11-02-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Trade",
+   "emoji": "🍁",
+   "stat": "Nov 3",
+   "statLabel": "US midterms",
+   "headline": "Canada's Carney says US trade talks are making progress",
    "body": [
-    "Max Healthcare approved ₹415 crore to add 209 beds across three hospitals in the Delhi region.",
-    "That's 85 beds at Max Noida, 60 at Vaishali and 64 at BLK-Max, plus a multi-level car park at BLK-Max.",
-    "It follows a quarter with 20% revenue growth."
+    "Canadian PM Mark Carney said he had a good conversation with Trump about the future of Canada–US trade.",
+    "Both countries have hit each other with billions of dollars in tariffs in recent months.",
+    "The news came two days before the US midterm elections."
    ],
-   "joke": "More beds, and finally somewhere to park.",
-   "vc": "Adding beds to existing hospitals is the cheapest, fastest way for chains to grow, and investors reward it.",
-   "url": "https://www.whalesbook.com/news/English/healthcarebiotech/Max-Healthcare-Plans-Rs-415-Crore-Hospital-Expansion/6ae46fe44fc30694db53df94",
-   "linkLabel": "Whalesbook",
-   "color": "#1d4ed8",
-   "font": "finance"
-  },
-  {
-   "id": "2026-11-01-h2",
-   "section": "health",
-   "source": "ET HealthWorld",
-   "kicker": "Kerala",
-   "emoji": "👶",
-   "stat": "₹1,300 cr",
-   "statLabel": "possible deal value",
-   "headline": "Indira IVF in talks to buy Kerala's Sabine Hospital",
-   "body": [
-    "Indira IVF, India's largest IVF hospital chain, is in talks to buy Sabine Hospital, a Kerala chain for fertility and mother-and-child care.",
-    "The deal could value Sabine at ₹1,200–1,300 crore; Indira IVF may take a 70–75% stake.",
-    "Owner CX Partners bought about 54% in 2024 at a valuation of about ₹835 crore."
-   ],
-   "joke": "Fertility clinics: the one healthcare business literally built on growth.",
-   "vc": "Private equity is consolidating specialty hospital chains, with fertility care among the hottest segments.",
-   "url": "https://health.economictimes.indiatimes.com/news/hospitals/indira-ivf-in-talks-to-acquire-sabine-in-nearly-rs-1300-crore-deal/135255986",
-   "linkLabel": "ET HealthWorld",
-   "color": "#0f766e",
-   "font": "finance"
-  },
-  {
-   "id": "2026-11-01-h3",
-   "section": "health",
-   "source": "ET HealthWorld",
-   "kicker": "Listings",
-   "emoji": "📈",
-   "stat": "₹8,007 cr",
-   "statLabel": "market value on debut",
-   "headline": "Paras Healthcare lists at a 4% premium",
-   "body": [
-    "Shares of hospital chain Paras Healthcare listed at ₹720, about 4% above the ₹693 issue price.",
-    "They rose as much as 7.9% during the day, valuing the company at about ₹8,007 crore.",
-    "The IPO raised ₹500 crore in fresh money and was subscribed 2.23 times."
-   ],
-   "joke": "A steady debut. Exactly what you want from a hospital.",
-   "vc": "Hospital IPOs give chains cash to build new beds; a calm debut keeps the listing window open for others.",
-   "url": "https://health.economictimes.indiatimes.com/news/hospitals/paras-healthcare-shares-climb-nearly-4-pc-in-market-debut-trade/135263688",
-   "linkLabel": "ET HealthWorld",
-   "color": "#065f46",
-   "font": "finance"
-  },
-  {
-   "id": "2026-11-01-h4",
-   "section": "health",
-   "source": "ET HealthWorld",
-   "kicker": "Nagpur",
-   "emoji": "🧪",
-   "stat": "₹30 cr",
-   "statLabel": "sanctioned",
-   "headline": "AIIMS Nagpur gets ₹30 crore for a high-security virus lab",
-   "body": [
-    "AIIMS Nagpur got ₹30 crore from the National Centre for Disease Control to build a Biosafety Level-3 lab.",
-    "It will help detect and study high-risk infectious diseases in the region.",
-    "It should be ready in about a year and cut reliance on NIV Pune."
-   ],
-   "joke": "Not a new wing for patients, but one for the germs, under strict lock.",
-   "vc": "Regional testing labs shorten outbreak response times, which lowers the cost of epidemics.",
-   "url": "https://health.economictimes.indiatimes.com/news/hospitals/aiims-gets-rs-30cr-nod-for-biosafety-level-three-lab/135200604",
-   "linkLabel": "ET HealthWorld",
-   "color": "#312e81",
+   "joke": "Two neighbours, one long call, and a lot of 'good conversation'.",
+   "vc": "A Canada–US deal would ease North American supply chains and lower costs for auto and metals firms.",
+   "url": "https://www.aljazeera.com/news/2026/11/1/carney-signals-progress-on-canada-us-trade-deal-talks-as-midterms-loom",
+   "linkLabel": "Al Jazeera",
+   "color": "#991b1b",
    "font": "news"
   },
   {
-   "id": "2026-11-01-r1",
-   "section": "f1",
-   "source": "Al Jazeera",
-   "kicker": "Mexico City GP",
-   "emoji": "🏎️",
-   "stat": "1,197",
-   "statLabel": "days since Hamilton's last GP pole",
-   "headline": "Hamilton takes his first Ferrari pole as Antonelli eyes the title",
+   "id": "2026-11-02-i1",
+   "section": "india",
+   "source": "The Guardian",
+   "kicker": "Politics",
+   "emoji": "🗳️",
+   "stat": "130M",
+   "statLabel": "names removed from voter rolls",
+   "headline": "Opposition rallies in Delhi over 130 million deleted voters",
    "body": [
-    "Lewis Hamilton, 41, took his first Grand Prix pole for Ferrari in Mexico City, his 105th career pole and first in 1,197 days.",
-    "George Russell starts second and Charles Leclerc third.",
-    "Kimi Antonelli starts fourth after Verstappen's grid penalty and needs only ninth place on Sunday to become F1's youngest champion and Italy's first since 1953."
+    "Thousands of opposition supporters rallied in Delhi as protests against the Modi government grow.",
+    "The Congress-led alliance is angry about a voter-roll revision that removed 130 million names.",
+    "Leaders say it helps the BJP and have called for the chief election commissioner to resign."
    ],
-   "joke": "Hamilton waited 1,197 days for this. Antonelli just needs to not crash.",
-   "vc": "A first title for a 20-year-old Italian at Mercedes, and a Hamilton–Ferrari revival, are gold for F1's sponsors and TV deals.",
-   "url": "https://www.aljazeera.com/sports/2026/11/1/f1-hamilton-takes-first-ferrari-pole-antonelli-starts-fourth-in-mexico",
-   "linkLabel": "Al Jazeera",
-   "color": "#b91c1c",
+   "joke": "",
+   "vc": "Political uncertainty around elections can make foreign investors cautious about Indian markets.",
+   "url": "https://www.theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi",
+   "linkLabel": "The Guardian",
+   "color": "#7c2d12",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-02-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Betting probe",
+   "emoji": "🎰",
+   "stat": "₹9 cr",
+   "statLabel": "frozen in bank accounts",
+   "headline": "ED arrests Armstrong Exchange founder in betting scam probe",
+   "body": [
+    "The Enforcement Directorate arrested Armstrong Exchange founder Sagar Dash over an alleged online gaming and betting scam.",
+    "It says mule accounts and shell firms moved hundreds of crores of illegal money.",
+    "About ₹9 crore was frozen and Edsom Fintech's CEO was also arrested."
+   ],
+   "joke": "Turns out the house always wins, until the ED shows up.",
+   "vc": "Crackdowns on betting-linked fintech raise compliance costs for payment startups that handle gaming money.",
+   "url": "https://inc42.com/buzz/ed-arrests-armstrong-exchange-founder-over-alleged-online-betting-scam/",
+   "linkLabel": "Inc42",
+   "color": "#9f1239",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-02-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Bengaluru",
+   "emoji": "🗼",
+   "stat": "250 m",
+   "statLabel": "skydeck height",
+   "headline": "Work begins on Bengaluru's 250-metre skydeck",
+   "body": [
+    "The Bangalore Development Authority has finalised land for a 250-metre skydeck and started work to invite designs.",
+    "The project, estimated at up to ₹500 crore, was approved by the Cabinet in August 2024.",
+    "Land prices around the site in Nadaprabhu Kempegowda Layout may more than double, BDA sources say."
+   ],
+   "joke": "Bengaluru will finally have a place high enough to see the end of the traffic jam.",
+   "vc": "Landmark projects lift nearby land values, good for owners, harder for first-time buyers.",
+   "url": "https://www.thehindu.com/news/cities/bangalore/skydeck-project-gathers-pace-as-bda-begins-preparatory-works/article71652644.ece",
+   "linkLabel": "The Hindu",
+   "color": "#be185d",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Bangalore_Skyline_from_Lal_Bagh.jpg/1280px-Bangalore_Skyline_from_Lal_Bagh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Innocentbunny / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Bangalore_Skyline_from_Lal_Bagh.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-02-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Crypto",
+   "emoji": "🔓",
+   "stat": "95%",
+   "statLabel": "of stolen assets covered",
+   "headline": "Binance restarts withdrawals after its $6.3B hack",
+   "body": [
+    "Binance is letting users withdraw again, in phases, after hackers stole $6.3 billion.",
+    "It says it has covered 95% of the stolen assets and is buying the rest.",
+    "It promises users will not bear any losses."
+   ],
+   "joke": "Binance just ate a $6.3 billion loss and said 'we're fine'. Must be nice.",
+   "vc": "Covering losses in full protects trust, but shows how much capital big exchanges must hold for security failures.",
+   "url": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+   "linkLabel": "TechCrunch",
+   "color": "#ca8a04",
    "font": "impact",
    "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez%2C_June_4%2C_2018_SkySat_%28cropped%29.jpg/1280px-Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez%2C_June_4%2C_2018_SkySat_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Planet Labs, Inc. / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez,_June_4,_2018_SkySat_(cropped).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Binance_t-shirt_and_bag_-_2022-07-09.jpg/1280px-Binance_t-shirt_and_bag_-_2022-07-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Bretwa / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Binance_t-shirt_and_bag_-_2022-07-09.jpg",
     "license": "CC BY-SA 4.0"
    }
+  },
+  {
+   "id": "2026-11-02-m2",
+   "section": "money",
+   "source": "TechCrunch / Axios",
+   "kicker": "AI politics",
+   "emoji": "🏗️",
+   "stat": "2028",
+   "statLabel": "when AI may be 'the issue', OpenAI says",
+   "headline": "OpenAI may rename data centres 'AI compute campuses'",
+   "body": [
+    "Axios reports OpenAI is planning a PR push after Tuesday's midterms, as data centres grow unpopular.",
+    "Its global affairs chief Chris Lehane expects AI to be the big issue in the 2028 election.",
+    "Ideas include AI 'speed limits' and showing people how AI helps their daily lives."
+   ],
+   "joke": "Same buildings, nicer name. It worked for 'cloud'.",
+   "vc": "Public backlash is now a real cost for AI infrastructure; how labs manage it affects build-out timelines.",
+   "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+   "linkLabel": "TechCrunch",
+   "color": "#18181b",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-02-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Autonomy",
+   "emoji": "🚕",
+   "stat": "81",
+   "statLabel": "AV startups pitched to one VC this year",
+   "headline": "The self-driving startup boom is back, bigger than 2016",
+   "body": [
+    "Trucks VC has seen pitches from 81 new autonomous vehicle startups so far in 2026.",
+    "Its partner says this year may be even hotter than the frothy 2016–17 deal days.",
+    "TechCrunch's mobility newsletter says a new, bigger AV boom is here."
+   ],
+   "joke": "Robotaxis: always five years away, now with more pitch decks.",
+   "vc": "Hot sectors attract crowded rounds and high prices; investors will need to pick winners carefully.",
+   "url": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
+   "linkLabel": "TechCrunch",
+   "color": "#0f766e",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Waymo_Zeekr_Vehicle_at_Bayshore_Depot_front_view_dllu.jpg/1280px-Waymo_Zeekr_Vehicle_at_Bayshore_Depot_front_view_dllu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Dllu / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Waymo_Zeekr_Vehicle_at_Bayshore_Depot_front_view_dllu.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-02-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Materials",
+   "emoji": "🧶",
+   "stat": "25",
+   "statLabel": "years since the last new fibre",
+   "headline": "Renoa: a startup's new fibre takes on cashmere",
+   "body": [
+    "Startup Everbloom has made renoa, which TechCrunch calls the first new fibre in 25 years.",
+    "It aims to be a cheaper, easier-care alternative to cashmere.",
+    "Cashmere goats have been damaging rangelands across Central Asia."
+   ],
+   "joke": "Finally, softness without the goat guilt.",
+   "vc": "Materials startups are a quiet bet on luxury: Loro Piana's cashmere-heavy business is worth over €11 billion.",
+   "url": "https://techcrunch.com/2026/11/01/heres-what-renoa-the-first-new-fiber-in-25-years-feels-like/",
+   "linkLabel": "TechCrunch",
+   "color": "#78350f",
+   "font": "tech",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Australian_Cashmere_Goat_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Paul Esson from Bacchus Marsh, Australia / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Australian_Cashmere_Goat_2.jpg",
+    "license": "CC BY-SA 2.0"
+   }
+  },
+  {
+   "id": "2026-11-02-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI",
+   "emoji": "🤖",
+   "stat": "3",
+   "statLabel": "CEOs criticised for AI parenting tips",
+   "headline": "Are AI bosses too out of touch to build for normal people?",
+   "body": [
+    "Marissa Mayer drew criticism for using AI to describe her daughter for a school task.",
+    "Sam Altman has suggested AI podcasts for kids' school runs; Mark Zuckerberg says AI may meet social needs.",
+    "TechCrunch asks whether AI leaders understand ordinary users."
+   ],
+   "joke": "Step 1: be a billionaire. Step 2: wonder why people don't love your parenting app.",
+   "vc": "Products built for executives often miss mass markets; consumer AI winners will be the ones that understand everyday life.",
+   "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+   "linkLabel": "TechCrunch",
+   "color": "#4c1d95",
+   "font": "editorial",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Marissa_Mayer%2C_2011_Interview.jpg/1280px-Marissa_Mayer%2C_2011_Interview.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Original photography by Magnus Höij\nDerivative work by Kerau / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Marissa_Mayer,_2011_Interview.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-02-v1",
+   "section": "women",
+   "source": "Al Jazeera",
+   "kicker": "Bulgaria",
+   "emoji": "🗳️",
+   "stat": "51% vs 44%",
+   "statLabel": "exit polls",
+   "headline": "Bulgaria set to elect its first woman president",
+   "body": [
+    "Acting President Iliana Iotova leads Bulgaria's presidential run-off with about 51%, exit polls show.",
+    "If confirmed on Monday, she will be the country's first elected female president.",
+    "Turnout was low at about 27–29%; the role is largely ceremonial."
+   ],
+   "joke": "A first for Bulgaria, decided by under a third of voters.",
+   "vc": "Women heads of state remain rare in Europe's east; each one shifts who gets seen as presidential.",
+   "url": "https://www.aljazeera.com/news/2026/11/1/bulgarian-president-yotova-leads-runoff-exit-polls-show",
+   "linkLabel": "Al Jazeera",
+   "color": "#1e3a8a",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Iliana_Iotova_-_Bulgarian_part-_Citizens%27_Corner_debate-_With_or_without_Schengen%3F_%2825936144804%29.jpg/1280px-Iliana_Iotova_-_Bulgarian_part-_Citizens%27_Corner_debate-_With_or_without_Schengen%3F_%2825936144804%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "euranet_plus / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Iliana_Iotova_-_Bulgarian_part-_Citizens%27_Corner_debate-_With_or_without_Schengen%3F_(25936144804).jpg",
+    "license": "CC BY-SA 2.0"
+   }
+  },
+  {
+   "id": "2026-11-02-v2",
+   "section": "women",
+   "source": "The Guardian",
+   "kicker": "Delhi",
+   "emoji": "🌳",
+   "stat": "50 m",
+   "statLabel": "from home, still questioned",
+   "headline": "Delhi women push to reclaim their right to enjoy nature",
+   "body": [
+    "On a wildlife walk in Delhi, women shared stories of being harassed just for enjoying parks and forests.",
+    "Ecologist Vallari Sheel was shouted at for photographing a tree 50 metres from her home.",
+    "She tells female interns not to engage when men question them."
+   ],
+   "joke": "",
+   "vc": "Safe public spaces decide whether women can work in fields like ecology at all.",
+   "url": "https://www.theguardian.com/global-development/2026/oct/31/delhi-women-natureleopards-its-a-man-you-dont-want-run-in-to-the-delhi-women-trying-to-reclaim-their-right-to-nature",
+   "linkLabel": "The Guardian",
+   "color": "#166534",
+   "font": "editorial"
+  },
+  {
+   "id": "2026-11-02-v3",
+   "section": "women",
+   "source": "The Guardian",
+   "kicker": "Leadership",
+   "emoji": "🎤",
+   "stat": "1",
+   "statLabel": "big message for politicians",
+   "headline": "Jacinda Ardern: rebuild trust through financial security",
+   "body": [
+    "Former New Zealand PM Jacinda Ardern told a Sydney Opera House audience that politicians are making polarisation worse.",
+    "She urged leaders to avoid binary thinking and the language of violence.",
+    "She said trust can be rebuilt by giving people financial security."
+   ],
+   "joke": "Advice from the one politician people still quote kindly.",
+   "vc": "Economic insecurity fuels political anger; policies on wages and housing are now trust policies too.",
+   "url": "https://www.theguardian.com/world/2026/nov/01/jacinda-ardern-sydney-opera-house-talk-advises-politicians-to-rebuild-trust",
+   "linkLabel": "The Guardian",
+   "color": "#6b21a8",
+   "font": "editorial",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Jacinda_Ardern_with_Pacific_Women_MPs.jpg/1280px-Jacinda_Ardern_with_Pacific_Women_MPs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Office of the Clerk, NZ Parliament / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Jacinda_Ardern_with_Pacific_Women_MPs.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-02-h1",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Andhra Pradesh",
+   "emoji": "🏥",
+   "stat": "250 → 500",
+   "statLabel": "beds at KIMS Anantapur",
+   "headline": "KIMS doubles its Anantapur hospital to 500 beds",
+   "body": [
+    "KIMS Hospitals expanded KIMS Saveera in Anantapur from 250 to 500 beds, taking the group to 9,117 beds.",
+    "The expansion adds a cancer block with a linear accelerator and PET-CT, plus a mother-and-child block with a neonatal ICU.",
+    "It was due to be formally opened on 1 November."
+   ],
+   "joke": "Twice the beds, and one less reason to travel to Hyderabad.",
+   "vc": "Regional chains growing in tier-2 cities like Anantapur are where much of India's new hospital capacity is coming from.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/kims-hospitals-doubles-anantapur-hospitals-bed-capacity-to-500-182393",
+   "linkLabel": "Medical Dialogues",
+   "color": "#0369a1",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-02-h2",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "West Bengal",
+   "emoji": "🏛️",
+   "stat": "2",
+   "statLabel": "new hospitals proposed",
+   "headline": "West Bengal seeks an AIIMS in Raiganj and a cancer hospital",
+   "body": [
+    "West Bengal will ask the Centre to set up an AIIMS in Raiganj, Chief Minister Suvendu Adhikari said.",
+    "The state also plans a full cancer hospital in Jalpaiguri.",
+    "An AIIMS in North Bengal was a BJP poll promise; the state's only AIIMS is in Kalyani."
+   ],
+   "joke": "North Bengal's long wait for an AIIMS may finally be getting a postcode.",
+   "vc": "A new AIIMS anchors medical colleges, jobs and private clinics around it for decades.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/west-bengal-govt-plans-aiims-in-raiganj-cancer-hospital-in-jalpaiguri-182269",
+   "linkLabel": "Medical Dialogues",
+   "color": "#065f46",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-02-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Telangana",
+   "emoji": "🧲",
+   "stat": "Free",
+   "statLabel": "MRI scans planned",
+   "headline": "Telangana to offer free MRI scans in government hospitals",
+   "body": [
+    "Telangana will add MRI services to government hospitals through a public–private partnership.",
+    "Mahbubnagar Government General Hospital will run the first pilot.",
+    "The health minister asked officials to plan a phased rollout."
+   ],
+   "joke": "",
+   "vc": "PPP diagnostics let states add costly machines fast, a steady business for imaging companies.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/telangana-to-roll-out-free-mri-services-in-government-hospitals-under-ppp-model-182424",
+   "linkLabel": "Medical Dialogues",
+   "color": "#1d4ed8",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/MRI-Philips.JPG/1280px-MRI-Philips.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Jan Ainali / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:MRI-Philips.JPG",
+    "license": "CC BY 3.0"
+   }
+  },
+  {
+   "id": "2026-11-02-h4",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Andhra Pradesh",
+   "emoji": "🛏️",
+   "stat": "Deadlines",
+   "statLabel": "set for ICU upgrades",
+   "headline": "Andhra Pradesh orders all government hospitals to upgrade ICUs",
+   "body": [
+    "Government hospitals in Andhra Pradesh must upgrade their ICUs to national standards by set deadlines.",
+    "The order covers buildings, equipment, staff hiring and patient safety.",
+    "It follows Supreme Court directions from September on ICU guidelines."
+   ],
+   "joke": "",
+   "vc": "Upgrading public ICUs creates demand for equipment makers and trained critical-care staff.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/andhra-pradesh-sets-deadlines-for-govt-hospitals-to-upgrade-icus-182410",
+   "linkLabel": "Medical Dialogues",
+   "color": "#312e81",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/20250808_Intensive_care_unit_bed.jpg/1280px-20250808_Intensive_care_unit_bed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Ismael Olea / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:20250808_Intensive_care_unit_bed.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-02-r1",
+   "section": "f1",
+   "source": "BBC Sport",
+   "kicker": "Haas",
+   "emoji": "🏎️",
+   "stat": "1",
+   "statLabel": "race weekend dropped",
+   "headline": "Haas drops Ocon for Mexico; he denies a physical row",
+   "body": [
+    "Haas replaced Esteban Ocon with reserve driver Ryo Hirakawa for the rest of the Mexico City GP weekend.",
+    "It followed a radio dispute with his race engineer Laura Mueller over tyre choice in practice.",
+    "Ocon, who leaves Haas at season's end, denied a French report that a meeting with the team boss turned physical."
+   ],
+   "joke": "Asked for softs, got benched. Tyre arguments have consequences.",
+   "vc": "Driver-team blowups hurt sponsor value; Haas will want a calm line-up as it chases midfield points money.",
+   "url": "https://www.bbc.com/sport/formula1/articles/c3n04vjjpkv4o",
+   "linkLabel": "BBC Sport",
+   "color": "#b91c1c",
+   "font": "impact"
   }
  ]
 }
