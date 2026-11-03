@@ -1,302 +1,279 @@
 {
- "date": "2026-11-03",
- "generatedAt": "2026-11-03T03:49:14+05:30",
+ "date": "2026-11-04",
+ "generatedAt": "2026-11-04T03:49:05+05:30",
  "items": [
   {
-   "id": "2026-11-03-f1",
+   "id": "2026-11-04-f1",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🇧🇪",
-   "color": "#27272a",
-   "headline": "A documentary on fashion's Antwerp Six",
-   "caption": "A film and book tell the story of Belgium's legendary designers.",
-   "body": [
-    "The Six include Ann Demeulemeester, Dries Van Noten and Walter Van Beirendonck.",
-    "They graduated from Antwerp's Royal Academy in the '80s and put the city on the fashion map.",
-    "Style lesson: dark, layered, unexpected."
-   ],
-   "url": "https://www.highsnobiety.com/p/antwerp-six-documentary-new-fashion/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793651869-hero_gettyimages-170557676.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/antwerp-six-documentary-new-fashion/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-03-f2",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "🎬",
-   "color": "#7c2d12",
-   "headline": "Ferragamo's Hollywood comeback with Criterion",
-   "caption": "The shoemaker who started in silent films returns to cinema.",
-   "body": [
-    "Salvatore Ferragamo began making shoes for films before becoming a luxury label.",
-    "A Criterion collaboration taps that Hollywood history.",
-    "How to wear it: classic loafers, cropped trousers, film-star posture."
-   ],
-   "url": "https://www.highsnobiety.com/p/ferragamo-criterion/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793635962-ferragamo-criterion-01.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/ferragamo-criterion/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-03-f3",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "🫒",
+   "emoji": "🥾",
    "color": "#3f6212",
-   "headline": "Nike puts the Air Max 90 in a puffer jacket",
-   "caption": "Padded leather in 'Medium Olive'.",
+   "headline": "Carhartt WIP × Nike are back with a boot",
+   "caption": "Their first sneaker collab in eight years: the Air Max Goadome Low.",
    "body": [
-    "The uppers are stitched like a puffer coat.",
-    "An all-black version is also coming.",
-    "How to wear it: with a matching olive jacket for full puffer energy."
+    "It comes in 'Twilight Marsh', 'Black' and a third colourway.",
+    "It looks more sneaker than boot.",
+    "How to wear it: double-knee work pants and a chore coat."
    ],
-   "url": "https://www.highsnobiety.com/p/nike-air-max-90-medium-olive/",
+   "url": "https://www.highsnobiety.com/p/carhartt-nike-air-max-goadome-low/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793640261-nike-air-max-90-medium-olive-0.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1793729156-carhartt-nike-air-max-goadome-0.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/nike-air-max-90-medium-olive/",
+    "creditUrl": "https://www.highsnobiety.com/p/carhartt-nike-air-max-goadome-low/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-03-f4",
+   "id": "2026-11-04-f2",
+   "type": "fashion",
+   "source": "Highsnobiety",
+   "emoji": "👨‍🍳",
+   "color": "#27272a",
+   "headline": "Converse made Chuck Taylors for chefs",
+   "caption": "'At Your Service' Chucks have non-slip soles and water-repellent canvas.",
+   "body": [
+    "The workplace line adds CX cushioning for long shifts.",
+    "From courts to streets to kitchens.",
+    "How to wear it: with an apron, or with jeans off-shift."
+   ],
+   "url": "https://www.highsnobiety.com/p/converse-at-your-service-chuck-taylors/",
+   "linkLabel": "Highsnobiety",
+   "image": {
+    "url": "https://www.highsnobiety.com/static-assets/dato/1793729667-converse-at-your-service-chuck-taylors-0.jpg",
+    "credit": "Highsnobiety",
+    "creditUrl": "https://www.highsnobiety.com/p/converse-at-your-service-chuck-taylors/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-04-f3",
+   "type": "fashion",
+   "source": "Highsnobiety",
+   "emoji": "🌧️",
+   "color": "#0f172a",
+   "headline": "Graphpaper × Descente: tech gear without the cosplay",
+   "caption": "Weather-ready staples that don't look like hiking kit.",
+   "body": [
+    "The Japanese labels give everyday pieces a technical upgrade.",
+    "It's performance wear without the tactical look.",
+    "How to wear it: a clean shell over tailored trousers."
+   ],
+   "url": "https://www.highsnobiety.com/p/graphpaper-x-descente-gorp-collab/",
+   "linkLabel": "Highsnobiety",
+   "image": {
+    "url": "https://www.highsnobiety.com/static-assets/dato/1792703962-hero_graphpaper1.jpg",
+    "credit": "Highsnobiety",
+    "creditUrl": "https://www.highsnobiety.com/p/graphpaper-x-descente-gorp-collab/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-04-f4",
    "type": "fashion",
    "source": "Highsnobiety",
    "emoji": "🏃",
-   "color": "#1e40af",
-   "headline": "Wales Bonner is making athleisure grown-up",
-   "caption": "Comfortable clothes that are smart enough nobody questions it.",
+   "color": "#7c2d12",
+   "headline": "Runners in suits and Oxfords at the NYC Marathon",
+   "caption": "Santoni's 295g Easy Run Oxford, tested at 26.2 miles.",
    "body": [
-    "Collaborations like adidas × Wales Bonner show where athleisure is heading.",
-    "Outerwear is the standout.",
-    "How to wear it: a track jacket over tailored trousers."
+    "Three racers ran in suits, ties and the new shoes.",
+    "They weigh about as much as a running shoe.",
+    "How to wear it: to the office, not the marathon."
    ],
-   "url": "https://www.highsnobiety.com/p/wales-bonner-adidas-athleisure-new/",
+   "url": "https://www.highsnobiety.com/p/santoni-easy-run-nyc-marathon/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793642145-hero_aobywb_fw26_campaign_03.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1793714442-santoni.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/wales-bonner-adidas-athleisure-new/",
+    "creditUrl": "https://www.highsnobiety.com/p/santoni-easy-run-nyc-marathon/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-03-f5",
+   "id": "2026-11-04-f5",
    "type": "fashion",
    "source": "GQ UK",
-   "emoji": "👟",
-   "color": "#0f766e",
-   "headline": "The £70 adidas Antonelli wore to win the F1 title",
-   "caption": "A very normal pair of Handball Spezials.",
+   "emoji": "👖",
+   "color": "#1e3a8a",
+   "headline": "Slim trousers are back, say the CFDA red carpets",
+   "caption": "Men at the US fashion awards swapped wide legs for slimmer cuts.",
    "body": [
-    "Antonelli walked the paddock in Handball Spezials with his 11-year-old sister.",
-    "No rare collab, just a classic everyday sneaker.",
-    "How to wear it: with straight jeans and a team jacket."
+    "Blazers and ties were expected; the slim trousers weren't.",
+    "GQ asks if it's a real comeback.",
+    "How to wear it: slim, not skinny, with a cropped hem."
    ],
-   "url": "https://www.gq-magazine.co.uk/article/kimi-antonelli-adidas-handball-spezial-2-11-26",
+   "url": "https://www.gq-magazine.co.uk/article/cfda-awards-slim-trousers-03-11-26",
    "linkLabel": "GQ UK",
    "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6ae8709edb33a54453b79e09/16:9/w_1280,c_limit/153-Kim-Adidas.jpg",
+    "url": "https://media.gq-magazine.co.uk/photos/6ae9c02036a3198c2c720236/16:9/w_1280,c_limit/007-Slim-trousers%20(1).jpg",
     "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/kimi-antonelli-adidas-handball-spezial-2-11-26",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/cfda-awards-slim-trousers-03-11-26",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-03-f6",
+   "id": "2026-11-04-f6",
    "type": "fashion",
-   "source": "GQ UK",
-   "emoji": "🥾",
+   "source": "GQ",
+   "emoji": "🚲",
+   "color": "#78350f",
+   "headline": "Style lessons from JFK Jr.",
+   "caption": "A writer who studied his wardrobe for a book shares five lessons.",
+   "body": [
+    "He biked in suits and wore waistcoats with jeans.",
+    "He didn't invent these looks, he just did them better.",
+    "How to wear it: a navy suit, worn like casual clothes."
+   ],
+   "url": "https://www.gq.com/story/jfk-jr-lessons-in-style-11-02-2026",
+   "linkLabel": "GQ",
+   "image": {
+    "url": "https://media.gq.com/photos/6ae8eecc72e165b672b038c2/16:9/w_1280,c_limit/1102-JFK-Jr-Style-Lede.jpg",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/jfk-jr-lessons-in-style-11-02-2026",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-04-f7",
+   "type": "fashion",
+   "source": "GQ",
+   "emoji": "⚽",
    "color": "#57534e",
-   "headline": "Nike's Lahar Low is back to take on Paraboot",
-   "caption": "A hiking classic returns after five years.",
+   "headline": "Jude Bellingham fronts Calvin Klein underwear",
+   "caption": "The Real Madrid star joins CK's long line of athlete models.",
    "body": [
-    "It traces back to the 1989 Lahar Escape boot.",
-    "Hiking style is everywhere, from Vomeros to Jordans.",
-    "How to wear it: grey flannels and a chunky knit."
+    "Oliver Hadlee Pearch shot the campaign on a hot Madrid day.",
+    "A teaser clip drove Instagram wild first.",
+    "Style lesson: good basics are the foundation."
    ],
-   "url": "https://www.gq-magazine.co.uk/article/nike-lahar-low-2-11-26",
-   "linkLabel": "GQ UK",
+   "url": "https://www.gq.com/story/jude-bellingham-calvin-klein-underwear-11-02-2026",
+   "linkLabel": "GQ",
    "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6ae87b875186240767b2cf46/16:9/w_1280,c_limit/154-Hiking-Nikes.jpg",
-    "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/nike-lahar-low-2-11-26",
+    "url": "https://media.gq.com/photos/6ae89a6c72e165b672b0354a/16:9/w_1280,c_limit/WI26_JB_PR_JPGs_nologo_2.jpg",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/jude-bellingham-calvin-klein-underwear-11-02-2026",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-03-f7",
+   "id": "2026-11-04-f8",
    "type": "fashion",
    "source": "Esquire UK",
-   "emoji": "🕶️",
-   "color": "#1c1917",
-   "headline": "Noughties Tom Hardy is your 2026 suit inspiration",
-   "caption": "Printed tees and flyaway collars under tailoring.",
+   "emoji": "🧥",
+   "color": "#365314",
+   "headline": "Pierce Brosnan dresses like landed gentry in 'MobLand'",
+   "caption": "His gangster dresses to blend in, not to stand out.",
    "body": [
-    "Young Hardy wore suits loosely, like today's best-dressed guys.",
-    "Esquire shows how to do it 20 years on.",
-    "How to wear it: a relaxed suit with a graphic tee."
+    "Conrad Harrigan's look is quiet country tailoring.",
+    "Esquire shows how to steal it.",
+    "How to wear it: tweed jacket, knit tie, brogues."
    ],
-   "url": "https://www.esquire.com/uk/style/fashion/a74284609/tom-hardy-suits/",
+   "url": "https://www.esquire.com/uk/style/fashion/a74270438/pierce-brosnans-style-mobland/",
    "linkLabel": "Esquire UK",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/fcfa0b4a-3110-4b5a-b082-e437e46d337b.jpeg?crop=1.00xw:0.328xh;0,0.0430xh&resize=1200:*",
+    "url": "https://hips.hearstapps.com/hmg-prod/images/35909b22-f677-4a9a-a17e-9c7313b014a2.jpg?crop=1xw:0.7496513249651325xh;center,top&resize=1200:*",
     "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74284609/tom-hardy-suits/",
+    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74270438/pierce-brosnans-style-mobland/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-03-f8",
+   "id": "2026-11-04-f9",
    "type": "fashion",
-   "source": "Esquire",
-   "emoji": "🦸",
-   "color": "#1d4ed8",
-   "headline": "Skyler Gisondo dresses like '90s Harrison Ford",
-   "caption": "The 'Primetime' and 'Superman' actor fronts a new Bonobos campaign.",
+   "source": "The Rake",
+   "emoji": "🎬",
+   "color": "#422006",
+   "headline": "Adam Brody, The Rake's cover star",
+   "caption": "From 'The O.C.' to 'Nobody Wants This', a new kind of leading man.",
    "body": [
-    "Gisondo plays Jimmy Olsen in Superman.",
-    "He's channelling '90s Harrison Ford for his look.",
-    "How to wear it: a chore coat, khakis and a crisp tee."
+    "Brody talks about fame, what he lost and why this time is different.",
+    "He's the cover of The Rake's Issue 108.",
+    "Style lesson: grown-up tailoring, worn easy."
    ],
-   "url": "https://www.esquire.com/style/mens-fashion/a74314806/skyler-gisondo-primetime-bonobos-superman-interview/",
-   "linkLabel": "Esquire",
+   "url": "https://therake.com/default/stories/everybody-wants-him-adam-brody-is-the-rake-s-issue-108-cover-star",
+   "linkLabel": "The Rake",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/1b6bf94c-f946-41cf-b545-36a2421198d3.jpg?crop=1xw:0.75xh;0xw,0.12xh&resize=1200:*",
-    "credit": "Esquire",
-    "creditUrl": "https://www.esquire.com/style/mens-fashion/a74314806/skyler-gisondo-primetime-bonobos-superman-interview/",
+    "url": "https://therake.com/media/blog/Adam_Brody_landscape.png",
+    "credit": "The Rake",
+    "creditUrl": "https://therake.com/default/stories/everybody-wants-him-adam-brody-is-the-rake-s-issue-108-cover-star",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-03-f9",
-   "type": "fashion",
-   "source": "Esquire",
-   "emoji": "🐎",
-   "color": "#9f1239",
-   "headline": "Inside Ralph Lauren's first PoloFest in Tokyo",
-   "caption": "50 years of Ralph Lauren in Japan, celebrated with vintage.",
-   "body": [
-    "The three-day event was part museum, part vintage market.",
-    "Fans came from around the world.",
-    "How to wear it: a vintage Polo cable knit over a button-down."
-   ],
-   "url": "https://www.esquire.com/style/mens-fashion/a74244401/polofest-ralph-lauren-japan-tokyo-vintage/",
-   "linkLabel": "Esquire",
-   "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/22b20115-b19d-440e-bec2-50e816b22e0e.jpg?crop=0.869333333333xw:1xh;center,top&resize=1200:*",
-    "credit": "Esquire",
-    "creditUrl": "https://www.esquire.com/style/mens-fashion/a74244401/polofest-ralph-lauren-japan-tokyo-vintage/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-03-f10",
-   "type": "fashion",
-   "source": "Hodinkee",
-   "emoji": "⌚",
-   "color": "#713f12",
-   "headline": "A. Lange & Söhne's history show in New York",
-   "caption": "Watches from across the German maker's history, marking 32 years since its revival.",
-   "body": [
-    "The exhibition celebrated the brand's 1994 re-founding.",
-    "It traced how its designs evolved.",
-    "Style lesson: one great watch outlasts every trend."
-   ],
-   "url": "https://www.hodinkee.com/articles/a-lange-and-sohne-celebrates-32-years-of-german-watchmaking-in-new-york-city",
-   "linkLabel": "Hodinkee",
-   "image": {
-    "url": "https://hodinkee.imgix.net/uploads/articles/462af331-813e-4070-92a2-d15f044fbb54/P1022711.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
-    "credit": "Hodinkee",
-    "creditUrl": "https://www.hodinkee.com/articles/a-lange-and-sohne-celebrates-32-years-of-german-watchmaking-in-new-york-city",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-03-f11",
+   "id": "2026-11-04-f10",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🐋",
-   "color": "#0369a1",
-   "headline": "A festival celebrates the right whales' return",
-   "caption": "Florida's Amelia Island welcomes one of the largest whale species back south.",
-   "body": [
-    "The Right Whale Festival has run every year since 2009.",
-    "It marks the whales' migration to subtropical breeding grounds.",
-    "It's on at Fernandina Beach's Main Beach Park."
-   ],
-   "url": "https://www.goodnewsnetwork.org/whale-festival-to-kick-off-amelia-island-in-florida-to-celebrate-the-return-of-the-right-whale/",
-   "linkLabel": "GNN",
-   "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Right-Whale-Festival-supplied.jpg",
-    "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/whale-festival-to-kick-off-amelia-island-in-florida-to-celebrate-the-return-of-the-right-whale/",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-11-03-f12",
-   "type": "good",
-   "source": "Good News Network",
-   "emoji": "🎓",
-   "color": "#c2410c",
-   "headline": "Rescued from a burning car, a family now funds hero scholarships",
-   "caption": "Strangers saved Kenli Riney; her mom now rewards people like them.",
-   "body": [
-    "Five years ago, Mike Argote and three men pulled 18-year-old Kenli from a burning car in Texas.",
-    "Mike, burned himself, started CPR; his 14-year-old daughter Ema took over.",
-    "Kenli's mother now funds scholarships for everyday heroes."
-   ],
-   "url": "https://www.goodnewsnetwork.org/strangers-ran-toward-burning-car-to-save-teen-her-mom-now-funds-scholarships-for-heroes-like-them/",
-   "linkLabel": "GNN",
-   "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/supplied-by-Marjohn-Riney.jpg",
-    "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/strangers-ran-toward-burning-car-to-save-teen-her-mom-now-funds-scholarships-for-heroes-like-them/",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-11-03-f13",
-   "type": "good",
-   "source": "Good News Network",
-   "emoji": "🐾",
+   "emoji": "🦫",
    "color": "#854d0e",
-   "headline": "A weather app made just for dogs",
-   "caption": "Pawcast forecasts conditions at paw and head height.",
+   "headline": "Beavers return to Loch Ness after 500 years",
+   "caption": "Scotland approves bringing the 'ecosystem engineers' back.",
    "body": [
-    "It reports temperatures for asphalt, grass and concrete.",
-    "Forecasts adjust for breed, size and coat length.",
-    "It helps owners plan safer walks."
+    "Beavers were last seen around Loch Ness in 1526–27.",
+    "NatureScot granted a licence on 30 October to release a pair.",
+    "They help create wetlands that support other wildlife."
    ],
-   "url": "https://www.goodnewsnetwork.org/weather-pet-app-generates-forecasts-for-dogs-head-and-paws-based-on-ground-temps-and-more/",
+   "url": "https://www.goodnewsnetwork.org/loch-ness-is-about-to-welcome-a-new-monster-the-beaver-500-years-since-it-last-lived-there/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-retrieved-from-Pawcast.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-NatureScot.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/weather-pet-app-generates-forecasts-for-dogs-head-and-paws-based-on-ground-temps-and-more/",
+    "creditUrl": "https://www.goodnewsnetwork.org/loch-ness-is-about-to-welcome-a-new-monster-the-beaver-500-years-since-it-last-lived-there/",
+    "preview": true
+   },
+   "embed": true
+  },
+  {
+   "id": "2026-11-04-f11",
+   "type": "good",
+   "source": "Good News Network",
+   "emoji": "🩸",
+   "color": "#b91c1c",
+   "headline": "A rare-blood donor gives at all 85 Australian blood banks",
+   "caption": "Trevor Bergman has donated 545 times.",
+   "body": [
+    "He's one of about 150 Australians with the anti-D antibody.",
+    "Anti-D helps protect babies of pregnant mothers.",
+    "The 59-year-old police officer finished his tour of every donation centre."
+   ],
+   "url": "https://www.goodnewsnetwork.org/ultra-rare-blood-carrier-finishes-grand-tour-around-australia-to-donate-at-all-85-blood-banks/",
+   "linkLabel": "GNN",
+   "image": {
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/supplied-to-ABC-News-by-Trevor-Bergman.jpg",
+    "credit": "Good News Network",
+    "creditUrl": "https://www.goodnewsnetwork.org/ultra-rare-blood-carrier-finishes-grand-tour-around-australia-to-donate-at-all-85-blood-banks/",
+    "preview": true
+   },
+   "embed": true
+  },
+  {
+   "id": "2026-11-04-f12",
+   "type": "good",
+   "source": "Good News Network",
+   "emoji": "🛹",
+   "color": "#0369a1",
+   "headline": "A wheelchair athlete now teaches wheelchair skateboarding",
+   "caption": "Xie Junwu climbed mountains and ran marathons. Now he coaches.",
+   "body": [
+    "He runs what is likely China's first wheelchair skateboarding training centre.",
+    "He helps others build confidence moving in their chairs.",
+    "Barriers, broken."
+   ],
+   "url": "https://www.goodnewsnetwork.org/he-conquered-mountains-and-marathons-now-he-teaches-wheelchair-skateboarding-watch/",
+   "linkLabel": "GNN",
+   "image": {
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/YouTube-screengrab-credit-Xie-Junwu-.jpg",
+    "credit": "Good News Network",
+    "creditUrl": "https://www.goodnewsnetwork.org/he-conquered-mountains-and-marathons-now-he-teaches-wheelchair-skateboarding-watch/",
     "preview": true
    },
    "embed": true

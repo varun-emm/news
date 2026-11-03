@@ -1,0 +1,465 @@
+{
+ "date": "2026-11-03",
+ "generatedAt": "2026-11-03T03:49:14+05:30",
+ "stories": [
+  {
+   "id": "2026-11-03-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Ukraine",
+   "emoji": "🕯️",
+   "stat": "24",
+   "statLabel": "people killed",
+   "headline": "Russian bombs kill 24 at a Ukrainian aid centre",
+   "body": [
+    "A Russian bomb attack on a school used as an aid centre in Komyshuvakha, Zaporizhia, killed 24 people.",
+    "Zelenskyy said a second wave of nine bombs hit the shelter where people had gathered.",
+    "Five others were injured; he called it proof Russia doesn't want de-escalation."
+   ],
+   "joke": "",
+   "vc": "Attacks like this dim hopes for the US-led peace talks that markets have been watching.",
+   "url": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy",
+   "linkLabel": "Al Jazeera",
+   "color": "#44403c",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Destructions_in_Zaporizhzhia_after_Russian_attack%2C_2023-12-29_%2801%29.jpg/1280px-Destructions_in_Zaporizhzhia_after_Russian_attack%2C_2023-12-29_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "National Police of Ukraine / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Destructions_in_Zaporizhzhia_after_Russian_attack,_2023-12-29_(01).jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-03-w2",
+   "section": "world",
+   "source": "The Guardian",
+   "kicker": "Cyber",
+   "emoji": "🧊",
+   "stat": "50°C",
+   "statLabel": "fridge temperatures reached",
+   "headline": "Hackers hit supermarket fridges across seven European countries",
+   "body": [
+    "Supermarkets in Belgium, Estonia, Ireland, Finland, Luxembourg, the Netherlands and Sweden saw fridge and freezer temperatures soar overnight.",
+    "Some reached 50°C, destroying food; Ikea was among the shops hit.",
+    "It echoes a cyber-attack on French shops last month that caused millions of euros in damage."
+   ],
+   "joke": "Your ice cream's biggest enemy is now a hacker.",
+   "vc": "Connected building systems are a growing cyber weak spot, pushing retailers to spend more on industrial security.",
+   "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+   "linkLabel": "The Guardian",
+   "color": "#0369a1",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Meny_supermarket_T%C3%B8nsberg_Norway_frysedisk_for_frukt_og_b%C3%A6r_Eldorado_skogsb%C3%A6r_bj%C3%B8rneb%C3%A6r_jordb%C3%A6r_fruit_berries_supermarket_chest_freezer_2017-09-20.jpg/1280px-Meny_supermarket_T%C3%B8nsberg_Norway_frysedisk_for_frukt_og_b%C3%A6r_Eldorado_skogsb%C3%A6r_bj%C3%B8rneb%C3%A6r_jordb%C3%A6r_fruit_berries_supermarket_chest_freezer_2017-09-20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Wolfmann / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Meny_supermarket_T%C3%B8nsberg_Norway_frysedisk_for_frukt_og_b%C3%A6r_Eldorado_skogsb%C3%A6r_bj%C3%B8rneb%C3%A6r_jordb%C3%A6r_fruit_berries_supermarket_chest_freezer_2017-09-20.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-03-w3",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Africa",
+   "emoji": "🏜️",
+   "stat": "35",
+   "statLabel": "years of UN peacekeeping",
+   "headline": "UN ends its 35-year Western Sahara peacekeeping mission",
+   "body": [
+    "The UN mission in disputed Western Sahara stopped work on Sunday after 35 years.",
+    "It ended because of a US–Russia standoff at the UN over the territory's future.",
+    "Morocco and the pro-independence Polisario Front both claim the mineral-rich territory."
+   ],
+   "joke": "",
+   "vc": "Instability in Western Sahara could affect phosphate and fishing deals that Morocco depends on.",
+   "url": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends",
+   "linkLabel": "NPR",
+   "color": "#a16207",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Commandant_Padraic_Kennedy_from_Dublin_serving_with_MINURSO_in_Western_Sahara.jpg/1280px-Commandant_Padraic_Kennedy_from_Dublin_serving_with_MINURSO_in_Western_Sahara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Óglaigh na hÉireann / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Commandant_Padraic_Kennedy_from_Dublin_serving_with_MINURSO_in_Western_Sahara.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-03-i1",
+   "section": "india",
+   "source": "Equitymaster",
+   "kicker": "Markets",
+   "emoji": "🚀",
+   "stat": "+1,233",
+   "statLabel": "Sensex points",
+   "headline": "Sensex jumps 1,233 points; Nifty crosses 23,400",
+   "body": [
+    "The Sensex rose 1,233 points on Monday, and the Nifty gained 388 points to 23,440.",
+    "It was the third straight day of gains, helped by a sharp rise in Reliance shares.",
+    "Brent crude fell 3% to about $110 a barrel on hopes for US–Iran talks, easing India's import worries."
+   ],
+   "joke": "The Sensex had a great Monday. Most of us just had Monday.",
+   "vc": "Strong rallies help the queue of upcoming IPOs and lift startup valuations tied to listed peers.",
+   "url": "https://www.equitymaster.com/indian-share-markets/11/02/2026/Sensex-Today-Rallies-1233-Points--Nifty-Above-23400--5-Reasons-Why-Indian-Share-Markets-Are-Rising",
+   "linkLabel": "Equitymaster",
+   "color": "#047857",
+   "font": "finance",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/BSE%2C_Dalal_Street_%2854401248%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Rakesh from Bangalore / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:BSE,_Dalal_Street_(54401248).jpg",
+    "license": "CC BY-SA 2.0"
+   }
+  },
+  {
+   "id": "2026-11-03-i2",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Bengaluru",
+   "emoji": "🏙️",
+   "stat": "9",
+   "statLabel": "villages acquired",
+   "headline": "Global firms bid to design India's first 'AI township' near Bengaluru",
+   "body": [
+    "Global companies have bid to design and plan the Bidadi township, billed as India's first AI-powered township.",
+    "Karnataka has now issued final land notifications for all nine villages needed.",
+    "Farmers opposing the project have protested for over 560 days."
+   ],
+   "joke": "",
+   "vc": "A planned AI city could pull data centres and tech firms west of Bengaluru, if the land fight is resolved.",
+   "url": "https://www.thehindu.com/news/cities/bangalore/global-players-bid-for-design-planning-of-bidadi-ai-township/article71657363.ece",
+   "linkLabel": "The Hindu",
+   "color": "#4c1d95",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-03-i3",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Insurance",
+   "emoji": "📉",
+   "stat": "-48%",
+   "statLabel": "PB Fintech shares since Sept 23",
+   "headline": "Policybazaar parent hits new low over insurance rule fears",
+   "body": [
+    "PB Fintech shares fell about 8% to a 52-week low of ₹926, down 48% since 23 September.",
+    "That's when insurance regulator IRDAI proposed an overhaul of insurance rules.",
+    "Brokerages are split, with ratings from 'Reduce' to 'Outperform'."
+   ],
+   "joke": "Comparing insurance plans is easy. Comparing regulator drafts, less so.",
+   "vc": "Regulatory risk can wipe out half a company's value fast, a key lesson for fintech investors.",
+   "url": "https://inc42.com/buzz/pb-fintechs-shares-hit-fresh-low-of-%e2%82%b9928-1-down-48-since-irdais-proposed-insurance-overhaul/",
+   "linkLabel": "Inc42",
+   "color": "#9a3412",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-03-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Chips M&A",
+   "emoji": "🔗",
+   "stat": "$115B",
+   "statLabel": "deal value",
+   "headline": "Marvell buys Lumentum in one of tech's biggest deals ever",
+   "body": [
+    "Chip designer Marvell will buy optical chip maker Lumentum in an all-stock deal worth $115 billion including debt.",
+    "It's bigger than Microsoft's $68.7 billion Activision deal.",
+    "Both companies count Nvidia as a major shareholder."
+   ],
+   "joke": "Two chip firms, one Nvidia-shaped friend in common.",
+   "vc": "Optical links that move data between AI chips are the next bottleneck, and that's what Marvell is buying.",
+   "url": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b/",
+   "linkLabel": "TechCrunch",
+   "color": "#1e3a8a",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/CES_2012_-_Marvell_%286937708043%29.jpg/1280px-CES_2012_-_Marvell_%286937708043%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "The Conmunity -  Pop Culture Geek from Los Angeles, CA, USA / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:CES_2012_-_Marvell_(6937708043).jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-03-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Telecom",
+   "emoji": "📡",
+   "stat": "4th",
+   "statLabel": "biggest US carrier it could become",
+   "headline": "SpaceX reportedly wants to buy Boost Mobile",
+   "body": [
+    "SpaceX is looking to buy Boost Mobile from EchoStar, the Washington Post reports.",
+    "It would help build a mixed cellular–satellite network and could make SpaceX the fourth-biggest US carrier.",
+    "SpaceX already bought $17 billion of wireless spectrum from EchoStar last year."
+   ],
+   "joke": "Rockets, satellites, AI chips, and now your phone plan.",
+   "vc": "Satellite-plus-cellular could shake up telecom pricing everywhere, including India where Starlink is entering.",
+   "url": "https://techcrunch.com/2026/11/02/spacex-reportedly-wants-to-buy-boost-mobile-to-compete-with-att-t-mobile-and-verizon/",
+   "linkLabel": "TechCrunch",
+   "color": "#18181b",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-03-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI & copyright",
+   "emoji": "⚖️",
+   "stat": "5",
+   "statLabel": "AI firms named in the suit",
+   "headline": "New York Times sues Brave over scraping its content for AI",
+   "body": [
+    "The New York Times sued privacy browser Brave, saying it scraped its content and passed it to AI firms.",
+    "The suit names Anthropic, Perplexity, Mistral, xAI and Cohere as customers.",
+    "The Daily News, Chicago Tribune and Orlando Sentinel filed a similar suit."
+   ],
+   "joke": "The newspaper vs the browser. Plot twist: the AI is the reader.",
+   "vc": "Copyright suits could force AI firms to pay for news data, a new revenue stream for publishers.",
+   "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+   "linkLabel": "TechCrunch",
+   "color": "#3f3f46",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-03-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI costs",
+   "emoji": "💸",
+   "stat": "50% → 100%",
+   "statLabel": "some users' usage jumped overnight",
+   "headline": "Musk throttles Grok Bot because it costs too much to run",
+   "body": [
+    "Grok Bot users found their weekly limits suddenly maxed out over the weekend.",
+    "Elon Musk said serving Grok Bot was 'unsustainably high' in cost relative to revenue.",
+    "Some users said their usage jumped from 50% to 100% overnight."
+   ],
+   "joke": "Even AI agents have a spending limit now. Relatable.",
+   "vc": "AI agents are expensive to run; pricing them profitably is the next big test for every AI company.",
+   "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+   "linkLabel": "TechCrunch",
+   "color": "#7c2d12",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Grok_chatbot_describe_Wikipedia.jpg/1280px-Grok_chatbot_describe_Wikipedia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Autor: Grok / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Grok_chatbot_describe_Wikipedia.jpg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-11-03-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Layoffs",
+   "emoji": "✂️",
+   "stat": "19%",
+   "statLabel": "of staff cut",
+   "headline": "Squarespace lays off about 300 people",
+   "body": [
+    "Website builder Squarespace is cutting about 19% of its workforce, roughly 300 jobs.",
+    "It says it wants to simplify and move faster.",
+    "Website building has changed a lot as AI tools spread."
+   ],
+   "joke": "",
+   "vc": "AI site builders are squeezing older web platforms, forcing cost cuts across the sector.",
+   "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
+   "linkLabel": "TechCrunch",
+   "color": "#57534e",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Squarespace_Headquarters_%2848072707963%29.jpg/1280px-Squarespace_Headquarters_%2848072707963%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Ajay Suresh from New York, NY, USA / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Squarespace_Headquarters_(48072707963).jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-03-v1",
+   "section": "women",
+   "source": "TechCrunch",
+   "kicker": "Founders",
+   "emoji": "🛰️",
+   "stat": "$2B",
+   "statLabel": "Northwood Space valuation",
+   "headline": "Bridgit Mendler's space startup hits a $2 billion valuation",
+   "body": [
+    "Northwood Space raised $375 million led by a16z and DFJ Growth, valuing it at $2 billion.",
+    "It builds antennas and software that help satellites talk to Earth.",
+    "Its CEO and co-founder is former actress Bridgit Mendler; it also has a near-$50 million US Space Force contract."
+   ],
+   "joke": "From Disney Channel to deep space. Quite the career pivot.",
+   "vc": "Women still lead a small share of venture-backed hard-tech firms; big rounds like this help change the pattern.",
+   "url": "https://techcrunch.com/2026/11/02/northwood-space-raises-375m-series-c-at-a-2b-valuation-from-a16z-and-dfj-growth/",
+   "linkLabel": "TechCrunch",
+   "color": "#9d174d",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Bridgit_Mendler_%2833541153526%29.jpg/1280px-Bridgit_Mendler_%2833541153526%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "friedoxygen / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Bridgit_Mendler_(33541153526).jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-03-v2",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "US elections",
+   "emoji": "🏛️",
+   "stat": "1st",
+   "statLabel": "Native woman governor possible",
+   "headline": "Women who could make history in Tuesday's US elections",
+   "body": [
+    "The 19th is tracking women who could break barriers in Tuesday's midterms.",
+    "Deb Haaland is favoured in New Mexico and would be the first Native woman to lead any US state.",
+    "Two other women are likely to become the first women governors of their states."
+   ],
+   "joke": "Firsts in 2026. Better late than never.",
+   "vc": "More women governors tend to prioritise childcare and healthcare budgets, shaping state spending.",
+   "url": "https://19thnews.org/2026/11/what-to-watch-election-night-results/",
+   "linkLabel": "The 19th",
+   "color": "#6b21a8",
+   "font": "editorial",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Deb_Haaland_on_KKOB-FM_in_2019.jpg/1280px-Deb_Haaland_on_KKOB-FM_in_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Deb Haaland / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Deb_Haaland_on_KKOB-FM_in_2019.jpg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-11-03-v3",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "Abortion rights",
+   "emoji": "⚖️",
+   "stat": "30",
+   "statLabel": "states electing attorneys general",
+   "headline": "State attorney general races could decide abortion access",
+   "body": [
+    "Thirty US states are electing attorneys general, their top lawyers, this year.",
+    "Since Roe was overturned, they have defended or challenged abortion access, even across state lines.",
+    "Some are suing states with shield laws that protect doctors who mail abortion pills."
+   ],
+   "joke": "",
+   "vc": "Legal fights over abortion pills shape the market for telehealth and reproductive-health startups.",
+   "url": "https://19thnews.org/2026/11/state-attorney-general-abortion-election/",
+   "linkLabel": "The 19th",
+   "color": "#065f46",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-03-h1",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Karnataka",
+   "emoji": "🏥",
+   "stat": "Nov 3",
+   "statLabel": "date talks set",
+   "headline": "Udupi's new district hospital nears its opening",
+   "body": [
+    "The opening date for Udupi's new district hospital will be decided at a meeting with Karnataka's health minister in Bengaluru.",
+    "District minister Rizwan Arshad said he will inspect the hospital first.",
+    "Officials and elected representatives will join talks on its issues."
+   ],
+   "joke": "",
+   "vc": "New district hospitals bring specialist care closer to home and cut costly trips to big cities.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/udupi-district-hospital-inauguration-date-likely-to-be-finalised-after-talks-with-karnataka-health-minister-182610",
+   "linkLabel": "Medical Dialogues",
+   "color": "#0e7490",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-03-h2",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Tamil Nadu",
+   "emoji": "🎓",
+   "stat": "1",
+   "statLabel": "new medical college planned",
+   "headline": "Tamil Nadu may turn Tambaram hospital into a medical college",
+   "body": [
+    "Tamil Nadu is considering upgrading Tambaram District Government Hospital into a full medical college.",
+    "Health minister KG Arunraj will discuss it with the Chief Minister before announcing it.",
+    "The state also plans advance slot booking for medicines on its Nalam AI health platform."
+   ],
+   "joke": "",
+   "vc": "Medical colleges add beds and doctors at once, the fastest way to grow public hospital capacity.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/tamil-nadu-plans-to-upgrade-tambaram-government-hospital-into-medical-college-182508",
+   "linkLabel": "Medical Dialogues",
+   "color": "#be185d",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-03-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Kerala",
+   "emoji": "🏛️",
+   "stat": "10",
+   "statLabel": "possible AIIMS sites",
+   "headline": "Kerala shortlists 10 sites for its long-awaited AIIMS",
+   "body": [
+    "Kerala has shared about 10 possible sites for an AIIMS with the Union health minister.",
+    "It is studying feasibility reports from district authorities.",
+    "The state first proposed an AIIMS in 2014."
+   ],
+   "joke": "Twelve years of waiting. Ten options. One AIIMS.",
+   "vc": "An AIIMS anchors a whole health ecosystem of colleges, clinics and jobs around it.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/kerala-identifies-10-potential-sites-for-aiims-establishment-health-minister-k-muraleedharan-182492",
+   "linkLabel": "Medical Dialogues",
+   "color": "#15803d",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-03-h4",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Gujarat",
+   "emoji": "🎗️",
+   "stat": "₹22 cr",
+   "statLabel": "radiotherapy machine",
+   "headline": "Gujarat opens a new cancer hospital in Patan",
+   "body": [
+    "Chief Minister Bhupendra Patel opened the PB Patan Janata Cancer Hospital, run by a charitable trust.",
+    "It has a ₹22 crore linear accelerator for radiotherapy.",
+    "It brings PET scans to North Gujarat for the first time, free for Ayushman Bharat cardholders."
+   ],
+   "joke": "",
+   "vc": "Charity-run cancer centres fill big gaps outside metros, where private chains rarely build.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/gujarat-cm-inaugurates-cancer-hospital-in-patan/135452027",
+   "linkLabel": "ET HealthWorld",
+   "color": "#881337",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-03-r1",
+   "section": "f1",
+   "source": "Al Jazeera",
+   "kicker": "Champion",
+   "emoji": "🏆",
+   "stat": "20y 68d",
+   "statLabel": "youngest F1 champion ever",
+   "headline": "Kimi Antonelli becomes F1's youngest world champion",
+   "body": [
+    "Mercedes' Kimi Antonelli clinched the title at 20 years and 68 days by finishing third in Mexico City.",
+    "He is Italy's first champion since 1953 and beats Sebastian Vettel's record as the youngest.",
+    "Max Verstappen won the red-flagged race; Lewis Hamilton was second after clashing with teammate Leclerc."
+   ],
+   "joke": "Most 20-year-olds celebrate passing exams. He won the world.",
+   "vc": "A young, charismatic champion is gold for F1's sponsors, TV deals and Mercedes' brand value.",
+   "url": "https://www.aljazeera.com/sports/2026/11/2/kimi-antonelli-becomes-formula-ones-youngest-world-champion-in-mexico-city",
+   "linkLabel": "Al Jazeera",
+   "color": "#0f766e",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/2026_Chinese_GP_-_Mercedes_-_Kimi_Antonelli_-_Qualifying.jpg/1280px-2026_Chinese_GP_-_Mercedes_-_Kimi_Antonelli_-_Qualifying.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Liauzh / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_Mercedes_-_Kimi_Antonelli_-_Qualifying.jpg",
+    "license": "CC BY 4.0"
+   }
+  }
+ ]
+}
