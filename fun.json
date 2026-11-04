@@ -1,279 +1,345 @@
 {
- "date": "2026-11-04",
- "generatedAt": "2026-11-04T03:49:05+05:30",
+ "date": "2026-11-05",
+ "generatedAt": "2026-11-05T03:49:49+05:30",
  "items": [
   {
-   "id": "2026-11-04-f1",
+   "id": "2026-11-05-f1",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🥾",
-   "color": "#3f6212",
-   "headline": "Carhartt WIP × Nike are back with a boot",
-   "caption": "Their first sneaker collab in eight years: the Air Max Goadome Low.",
+   "emoji": "🧵",
+   "color": "#1e3a8a",
+   "headline": "Japanese grandmothers hand-stitch a rare Air Jordan 1",
+   "caption": "The Sashiko Gals turned a colette Jordan into a one-off.",
    "body": [
-    "It comes in 'Twilight Marsh', 'Black' and a third colourway.",
-    "It looks more sneaker than boot.",
-    "How to wear it: double-knee work pants and a chore coat."
+    "Only about 213 pairs of the colette Jordan 1 were made in 2017.",
+    "The 15-woman collective, aged 40 to 80, covered one in colourful sashiko stitching.",
+    "How to wear it: keep it on a shelf, honestly."
    ],
-   "url": "https://www.highsnobiety.com/p/carhartt-nike-air-max-goadome-low/",
+   "url": "https://www.highsnobiety.com/p/colette-jordan-1-sashiko-gals/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793729156-carhartt-nike-air-max-goadome-0.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1793729378-colette-jordan-1-sashiko-gals-0.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/carhartt-nike-air-max-goadome-low/",
+    "creditUrl": "https://www.highsnobiety.com/p/colette-jordan-1-sashiko-gals/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-04-f2",
+   "id": "2026-11-05-f2",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "👨‍🍳",
-   "color": "#27272a",
-   "headline": "Converse made Chuck Taylors for chefs",
-   "caption": "'At Your Service' Chucks have non-slip soles and water-repellent canvas.",
+   "emoji": "🛣️",
+   "color": "#78350f",
+   "headline": "Romeo Beckham's road-trip denim for Tommy Jeans",
+   "caption": "Lived-in denim and big outerwear for the winter campaign.",
    "body": [
-    "The workplace line adds CX cushioning for long shifts.",
-    "From courts to streets to kitchens.",
-    "How to wear it: with an apron, or with jeans off-shift."
+    "He fronts Tommy Jeans' winter 2026 campaign with Yasmin Wijnaldum.",
+    "Think plaid, teddy textures and relaxed layers.",
+    "How to wear it: worn-in jeans under an oversized coat."
    ],
-   "url": "https://www.highsnobiety.com/p/converse-at-your-service-chuck-taylors/",
+   "url": "https://www.highsnobiety.com/p/romeo-beckham-tommy-jeans/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793729667-converse-at-your-service-chuck-taylors-0.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1793799441-wi26_tj_flagdenim_msw_singlemsw_kw.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/converse-at-your-service-chuck-taylors/",
+    "creditUrl": "https://www.highsnobiety.com/p/romeo-beckham-tommy-jeans/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-04-f3",
+   "id": "2026-11-05-f3",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🌧️",
-   "color": "#0f172a",
-   "headline": "Graphpaper × Descente: tech gear without the cosplay",
-   "caption": "Weather-ready staples that don't look like hiking kit.",
+   "emoji": "🩰",
+   "color": "#57534e",
+   "headline": "Kith turns adidas ballet flats to suede",
+   "caption": "The Stan Smith Ballet gets a cosy winter makeover.",
    "body": [
-    "The Japanese labels give everyday pieces a technical upgrade.",
-    "It's performance wear without the tactical look.",
-    "How to wear it: a clean shell over tailored trousers."
+    "It's the first collab on the shoe, in brown suede.",
+    "Two colourways drop on 6 November.",
+    "How to wear it: with wide trousers and thick socks."
    ],
-   "url": "https://www.highsnobiety.com/p/graphpaper-x-descente-gorp-collab/",
+   "url": "https://www.highsnobiety.com/p/kith-adidas-stan-smith-ballet/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1792703962-hero_graphpaper1.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1793730386-kith-adidas-stan-smith-suede-ballet-0.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/graphpaper-x-descente-gorp-collab/",
+    "creditUrl": "https://www.highsnobiety.com/p/kith-adidas-stan-smith-ballet/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-04-f4",
+   "id": "2026-11-05-f4",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🏃",
-   "color": "#7c2d12",
-   "headline": "Runners in suits and Oxfords at the NYC Marathon",
-   "caption": "Santoni's 295g Easy Run Oxford, tested at 26.2 miles.",
+   "emoji": "👟",
+   "color": "#3f3f46",
+   "headline": "Our Legacy on its Nike partnership",
+   "caption": "'Look slow, feel fast': the cofounder explains what's coming.",
    "body": [
-    "Three racers ran in suits, ties and the new shoes.",
-    "They weigh about as much as a running shoe.",
-    "How to wear it: to the office, not the marathon."
+    "Our Legacy and Nike have finally confirmed their long-rumoured team-up.",
+    "Cofounder Jockum Hallin talks about the first pop-up in New York.",
+    "How to wear it: quiet sportswear with good trousers."
    ],
-   "url": "https://www.highsnobiety.com/p/santoni-easy-run-nyc-marathon/",
+   "url": "https://www.highsnobiety.com/p/our-legacy-nike-procell/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1793714442-santoni.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1793306687-our-legacy-nike-procell-interview-1.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/santoni-easy-run-nyc-marathon/",
+    "creditUrl": "https://www.highsnobiety.com/p/our-legacy-nike-procell/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-04-f5",
+   "id": "2026-11-05-f5",
    "type": "fashion",
    "source": "GQ UK",
-   "emoji": "👖",
-   "color": "#1e3a8a",
-   "headline": "Slim trousers are back, say the CFDA red carpets",
-   "caption": "Men at the US fashion awards swapped wide legs for slimmer cuts.",
+   "emoji": "🫒",
+   "color": "#3f6212",
+   "headline": "Nike's Air Max 90 drops the logos",
+   "caption": "A soft-leather version in olive with less branding.",
    "body": [
-    "Blazers and ties were expected; the slim trousers weren't.",
-    "GQ asks if it's a real comeback.",
-    "How to wear it: slim, not skinny, with a cropped hem."
+    "The 'Air Max' badge and heel lettering are gone.",
+    "Padded panels make it feel more luxurious.",
+    "How to wear it: olive chinos and a grey knit."
    ],
-   "url": "https://www.gq-magazine.co.uk/article/cfda-awards-slim-trousers-03-11-26",
+   "url": "https://www.gq-magazine.co.uk/article/nike-air-max-90-sp-medium-olive-4-11-26",
    "linkLabel": "GQ UK",
    "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6ae9c02036a3198c2c720236/16:9/w_1280,c_limit/007-Slim-trousers%20(1).jpg",
+    "url": "https://media.gq-magazine.co.uk/photos/6aeb46202eabe5d21eae2318/16:9/w_1280,c_limit/01_Mode-Nike%20Air%20Max%2090%20SP-Medium%20Olive:Sequoia.png",
     "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/cfda-awards-slim-trousers-03-11-26",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/nike-air-max-90-sp-medium-olive-4-11-26",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-04-f6",
+   "id": "2026-11-05-f6",
+   "type": "fashion",
+   "source": "GQ UK",
+   "emoji": "🍽️",
+   "color": "#18181b",
+   "headline": "An adidas Samba dressed for dinner",
+   "caption": "Invincible adds brogue details to the football classic.",
+   "body": [
+    "The all-black 'Samba Dress Shoe' adds wingtip punching.",
+    "The heel has ruched leather instead of the usual panel.",
+    "How to wear it: with a black suit, no tie."
+   ],
+   "url": "https://www.gq-magazine.co.uk/article/invincible-adidas-samba-form-in-motion-4-11-26",
+   "linkLabel": "GQ UK",
+   "image": {
+    "url": "https://media.gq-magazine.co.uk/photos/6aeb0e1052d87cdc5e00136d/16:9/w_1280,c_limit/017-Invincibles-Adidas.jpg",
+    "credit": "GQ UK",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/invincible-adidas-samba-form-in-motion-4-11-26",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-05-f7",
+   "type": "fashion",
+   "source": "GQ UK",
+   "emoji": "🥾",
+   "color": "#a16207",
+   "headline": "The Clarks Wallabee goes hiking",
+   "caption": "Diemme gives it rope laces and a chunky lugged sole.",
+   "body": [
+    "It's made in pale champagne suede.",
+    "A mountain Desert Boot and Desert Trek drop too.",
+    "How to wear it: with cords and a fleece."
+   ],
+   "url": "https://www.gq-magazine.co.uk/article/diemme-clarks-collection-3-11-26",
+   "linkLabel": "GQ UK",
+   "image": {
+    "url": "https://media.gq-magazine.co.uk/photos/6aea1c3a5bd868aa67456a43/16:9/w_1280,c_limit/MOON_DIEMME_CLARKS_COLOR_12_1.jpg",
+    "credit": "GQ UK",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/diemme-clarks-collection-3-11-26",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-05-f8",
    "type": "fashion",
    "source": "GQ",
-   "emoji": "🚲",
-   "color": "#78350f",
-   "headline": "Style lessons from JFK Jr.",
-   "caption": "A writer who studied his wardrobe for a book shares five lessons.",
+   "emoji": "⌚",
+   "color": "#1e293b",
+   "headline": "A senator-elect's watch-nerd pick",
+   "caption": "Abdul El-Sayed wore a limited Grand Seiko on election night.",
    "body": [
-    "He biked in suits and wore waistcoats with jeans.",
-    "He didn't invent these looks, he just did them better.",
-    "How to wear it: a navy suit, worn like casual clothes."
+    "It is a Spring Drive Chronograph GMT.",
+    "GQ calls him the first real watch nerd in the Senate.",
+    "Style lesson: one good watch says more than five."
    ],
-   "url": "https://www.gq.com/story/jfk-jr-lessons-in-style-11-02-2026",
+   "url": "https://www.gq.com/story/abdul-el-sayed-grand-seiko-watch-midterms-11-04-2026",
    "linkLabel": "GQ",
    "image": {
-    "url": "https://media.gq.com/photos/6ae8eecc72e165b672b038c2/16:9/w_1280,c_limit/1102-JFK-Jr-Style-Lede.jpg",
+    "url": "https://media.gq.com/photos/6aeb5f429f7e08a9c9cbfa32/16:9/w_1280,c_limit/Abdul-El-Sayed-Watch-Lede.jpg",
     "credit": "GQ",
-    "creditUrl": "https://www.gq.com/story/jfk-jr-lessons-in-style-11-02-2026",
+    "creditUrl": "https://www.gq.com/story/abdul-el-sayed-grand-seiko-watch-midterms-11-04-2026",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-04-f7",
-   "type": "fashion",
-   "source": "GQ",
-   "emoji": "⚽",
-   "color": "#57534e",
-   "headline": "Jude Bellingham fronts Calvin Klein underwear",
-   "caption": "The Real Madrid star joins CK's long line of athlete models.",
-   "body": [
-    "Oliver Hadlee Pearch shot the campaign on a hot Madrid day.",
-    "A teaser clip drove Instagram wild first.",
-    "Style lesson: good basics are the foundation."
-   ],
-   "url": "https://www.gq.com/story/jude-bellingham-calvin-klein-underwear-11-02-2026",
-   "linkLabel": "GQ",
-   "image": {
-    "url": "https://media.gq.com/photos/6ae89a6c72e165b672b0354a/16:9/w_1280,c_limit/WI26_JB_PR_JPGs_nologo_2.jpg",
-    "credit": "GQ",
-    "creditUrl": "https://www.gq.com/story/jude-bellingham-calvin-klein-underwear-11-02-2026",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-04-f8",
+   "id": "2026-11-05-f9",
    "type": "fashion",
    "source": "Esquire UK",
    "emoji": "🧥",
-   "color": "#365314",
-   "headline": "Pierce Brosnan dresses like landed gentry in 'MobLand'",
-   "caption": "His gangster dresses to blend in, not to stand out.",
+   "color": "#44403c",
+   "headline": "Tom Hardy's case for a trench coat",
+   "caption": "Black for big nights, navy for dinner, tan for everything.",
    "body": [
-    "Conrad Harrigan's look is quiet country tailoring.",
-    "Esquire shows how to steal it.",
-    "How to wear it: tweed jacket, knit tie, brogues."
+    "Hardy has worn trenches on press tours for years.",
+    "Esquire picks nine affordable options.",
+    "How to wear it: belted, over a suit or a hoodie."
    ],
-   "url": "https://www.esquire.com/uk/style/fashion/a74270438/pierce-brosnans-style-mobland/",
+   "url": "https://www.esquire.com/uk/style/fashion/a74291620/tom-hardy-trench-coat/",
    "linkLabel": "Esquire UK",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/35909b22-f677-4a9a-a17e-9c7313b014a2.jpg?crop=1xw:0.7496513249651325xh;center,top&resize=1200:*",
+    "url": "https://hips.hearstapps.com/hmg-prod/images/38a1c51d-32ef-4c47-8c3a-4f94498f7be0.jpeg?crop=1.00xw:0.692xh;0,0.0686xh&resize=1200:*",
     "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74270438/pierce-brosnans-style-mobland/",
+    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74291620/tom-hardy-trench-coat/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-04-f9",
+   "id": "2026-11-05-f10",
+   "type": "fashion",
+   "source": "Esquire UK",
+   "emoji": "🧭",
+   "color": "#0f766e",
+   "headline": "Casio's £290 mechanical field watch",
+   "caption": "The CMK-100 looks like a Rolex Explorer for a fraction of the price.",
+   "body": [
+    "It's Casio's first mainline automatic watch.",
+    "It has a 38mm titanium case.",
+    "How to wear it: on a canvas strap, every day."
+   ],
+   "url": "https://www.esquire.com/uk/watches/a74323186/casio-rolex-explorer-alternative-watch/",
+   "linkLabel": "Esquire UK",
+   "image": {
+    "url": "https://hips.hearstapps.com/hmg-prod/images/80234f15-f60e-4af6-8bc0-fd9478202ebc.png?crop=1.00xw:0.502xh;0,0.190xh&resize=1200:*",
+    "credit": "Esquire UK",
+    "creditUrl": "https://www.esquire.com/uk/watches/a74323186/casio-rolex-explorer-alternative-watch/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-05-f11",
+   "type": "fashion",
+   "source": "Esquire UK",
+   "emoji": "🎮",
+   "color": "#312e81",
+   "headline": "Seiko made watches for Hideo Kojima fans",
+   "caption": "Two limited watches for Kojima Productions' tenth anniversary.",
+   "body": [
+    "They're inspired by the studio's spacesuit mascot, Ludens.",
+    "Only 300 of each colour, sold in Japan.",
+    "Style lesson: let a fun watch be the only loud thing."
+   ],
+   "url": "https://www.esquire.com/uk/watches/a74330973/seikos-new-affordable-hideo-kojima-watches/",
+   "linkLabel": "Esquire UK",
+   "image": {
+    "url": "https://hips.hearstapps.com/hmg-prod/images/969816f8-e340-4053-8e46-8f546e71315f.jpeg?crop=1.00xw:0.669xh;0,0&resize=1200:*",
+    "credit": "Esquire UK",
+    "creditUrl": "https://www.esquire.com/uk/watches/a74330973/seikos-new-affordable-hideo-kojima-watches/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-05-f12",
    "type": "fashion",
    "source": "The Rake",
-   "emoji": "🎬",
+   "emoji": "🍺",
    "color": "#422006",
-   "headline": "Adam Brody, The Rake's cover star",
-   "caption": "From 'The O.C.' to 'Nobody Wants This', a new kind of leading man.",
+   "headline": "Church's turns a London pub into a shoe club",
+   "caption": "A night of British shoes, gin and heritage in Marylebone.",
    "body": [
-    "Brody talks about fame, what he lost and why this time is different.",
-    "He's the cover of The Rake's Issue 108.",
-    "Style lesson: grown-up tailoring, worn easy."
+    "Church's hosted 'Church's Club' at The Hart pub.",
+    "Think rustic rooms, gin tastings and very good shoes.",
+    "How to wear it: polished brogues with tweed."
    ],
-   "url": "https://therake.com/default/stories/everybody-wants-him-adam-brody-is-the-rake-s-issue-108-cover-star",
+   "url": "https://therake.com/default/stories/church-s-club-the-hart-and-sole-of-the-party",
    "linkLabel": "The Rake",
    "image": {
-    "url": "https://therake.com/media/blog/Adam_Brody_landscape.png",
+    "url": "https://therake.com/media/blog/Church_s_Club_Atmosphere_5_.jpg",
     "credit": "The Rake",
-    "creditUrl": "https://therake.com/default/stories/everybody-wants-him-adam-brody-is-the-rake-s-issue-108-cover-star",
+    "creditUrl": "https://therake.com/default/stories/church-s-club-the-hart-and-sole-of-the-party",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-04-f10",
+   "id": "2026-11-05-f13",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🦫",
-   "color": "#854d0e",
-   "headline": "Beavers return to Loch Ness after 500 years",
-   "caption": "Scotland approves bringing the 'ecosystem engineers' back.",
+   "emoji": "🐊",
+   "color": "#166534",
+   "headline": "Brazil enlarges a Pantanal national park by a third",
+   "caption": "185 more square miles of the world's largest tropical wetland protected.",
    "body": [
-    "Beavers were last seen around Loch Ness in 1526–27.",
-    "NatureScot granted a licence on 30 October to release a pair.",
-    "They help create wetlands that support other wildlife."
+    "The park grew from 523 to over 700 square miles.",
+    "The Pantanal is home to jaguars, giant otters and hundreds of bird species."
    ],
-   "url": "https://www.goodnewsnetwork.org/loch-ness-is-about-to-welcome-a-new-monster-the-beaver-500-years-since-it-last-lived-there/",
+   "url": "https://www.goodnewsnetwork.org/brazil-expands-protected-area-for-one-of-the-richest-and-most-sensitive-biomes-on-the-planet/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-NatureScot.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-Pantanal-landscape-credit-Filipe-Frazao-CC-3.0-BY-SA-1.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/loch-ness-is-about-to-welcome-a-new-monster-the-beaver-500-years-since-it-last-lived-there/",
+    "creditUrl": "https://www.goodnewsnetwork.org/brazil-expands-protected-area-for-one-of-the-richest-and-most-sensitive-biomes-on-the-planet/",
     "preview": true
    },
    "embed": true
   },
   {
-   "id": "2026-11-04-f11",
+   "id": "2026-11-05-f14",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🩸",
-   "color": "#b91c1c",
-   "headline": "A rare-blood donor gives at all 85 Australian blood banks",
-   "caption": "Trevor Bergman has donated 545 times.",
+   "emoji": "🏊‍♀️",
+   "color": "#0284c7",
+   "headline": "First person to swim the whole California coast",
+   "caption": "Catherine Breed swam 900 miles in 111 days.",
    "body": [
-    "He's one of about 150 Australians with the anti-D antibody.",
-    "Anti-D helps protect babies of pregnant mothers.",
-    "The 59-year-old police officer finished his tour of every donation centre."
+    "She faced storms, tough currents and 8 shark encounters.",
+    "She has also swum the English Channel."
    ],
-   "url": "https://www.goodnewsnetwork.org/ultra-rare-blood-carrier-finishes-grand-tour-around-australia-to-donate-at-all-85-blood-banks/",
+   "url": "https://www.goodnewsnetwork.org/woman-becomes-first-person-to-swim-the-entire-california-coastline/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/supplied-to-ABC-News-by-Trevor-Bergman.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Catherine-Breed-swins-in-the-open-ocean-south-of-the-Golden-Gate-Bridge-credit-Catherine-Breed-press-photo.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/ultra-rare-blood-carrier-finishes-grand-tour-around-australia-to-donate-at-all-85-blood-banks/",
+    "creditUrl": "https://www.goodnewsnetwork.org/woman-becomes-first-person-to-swim-the-entire-california-coastline/",
     "preview": true
    },
    "embed": true
   },
   {
-   "id": "2026-11-04-f12",
+   "id": "2026-11-05-f15",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🛹",
-   "color": "#0369a1",
-   "headline": "A wheelchair athlete now teaches wheelchair skateboarding",
-   "caption": "Xie Junwu climbed mountains and ran marathons. Now he coaches.",
+   "emoji": "🔧",
+   "color": "#b45309",
+   "headline": "Houston students open a public auto shop",
+   "caption": "High schoolers change your oil while learning a trade.",
    "body": [
-    "He runs what is likely China's first wheelchair skateboarding training centre.",
-    "He helps others build confidence moving in their chairs.",
-    "Barriers, broken."
+    "The shop in Houston's Fifth Ward is run by the Barbara Jordan Career Center.",
+    "The centre serves over 1,200 students from 12 campuses."
    ],
-   "url": "https://www.goodnewsnetwork.org/he-conquered-mountains-and-marathons-now-he-teaches-wheelchair-skateboarding-watch/",
+   "url": "https://www.goodnewsnetwork.org/student-run-automotive-shop-opens-to-the-public-in-houston-where-every-oil-change-helps-the-next-generation/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/YouTube-screengrab-credit-Xie-Junwu-.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/YouTube-Screengrab-Houston-Independent-School-District.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/he-conquered-mountains-and-marathons-now-he-teaches-wheelchair-skateboarding-watch/",
+    "creditUrl": "https://www.goodnewsnetwork.org/student-run-automotive-shop-opens-to-the-public-in-houston-where-every-oil-change-helps-the-next-generation/",
     "preview": true
    },
    "embed": true
