@@ -1,0 +1,426 @@
+{
+ "date": "2026-11-06",
+ "generatedAt": "2026-11-06T03:50:04+05:30",
+ "stories": [
+  {
+   "id": "2026-11-06-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Iran war",
+   "emoji": "🛢️",
+   "stat": "5",
+   "statLabel": "tankers hit by fires",
+   "headline": "Five oil tankers catch fire in the Strait of Hormuz",
+   "body": [
+    "Iran's forces say five oil tankers and a tugboat caught fire in several incidents in the Strait of Hormuz.",
+    "One tanker hit a mine, Iran's Revolutionary Guards said.",
+    "Iran has sharply limited traffic through the strait, which usually carries a fifth of the world's oil, since the war began in February."
+   ],
+   "joke": "",
+   "vc": "Any threat to Hormuz pushes up oil prices and shipping insurance, which hits India's import bill.",
+   "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack",
+   "linkLabel": "Al Jazeera",
+   "color": "#7c2d12",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-06-w2",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Paraguay",
+   "emoji": "🏦",
+   "stat": "78-0",
+   "statLabel": "impeachment vote",
+   "headline": "Paraguay's president resigns after a bank collapse, then is impeached",
+   "body": [
+    "Paraguay's President Santiago Peña resigned after the collapse of Ueno Bank froze millions of people's savings.",
+    "Minutes later, the lower house voted 78-0 to impeach him.",
+    "His own Colorado Party had turned against him amid big protests."
+   ],
+   "joke": "Resigning and getting impeached in one afternoon is efficient, at least.",
+   "vc": "A digital bank failure toppling a government is a warning on how fast fintech risk can spread.",
+   "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
+   "linkLabel": "NPR",
+   "color": "#1e3a8a",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/President_Santiago_Pe%C3%B1a_with_Senator_Rick_Scott%2C_2025.jpg/1280px-President_Santiago_Pe%C3%B1a_with_Senator_Rick_Scott%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Senator Rick Scott Press Office / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:President_Santiago_Pe%C3%B1a_with_Senator_Rick_Scott,_2025.jpg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-11-06-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "France",
+   "emoji": "✊",
+   "stat": "600,000",
+   "statLabel": "people marched",
+   "headline": "About 600,000 protest across France over pay and prices",
+   "body": [
+    "Hundreds of thousands of French workers went on strike and marched for higher wages.",
+    "About 600,000 people joined nearly 200 protests, the Interior Ministry said; police fired tear gas in some cities.",
+    "The Eiffel Tower and Arc de Triomphe were closed."
+   ],
+   "joke": "Even the Eiffel Tower took the day off.",
+   "vc": "Wage pressure across Europe could keep inflation and interest rates higher for longer.",
+   "url": "https://www.aljazeera.com/news/2026/11/5/workers-strike-across-france-hundreds-of-thousands-expected-to-protest",
+   "linkLabel": "Al Jazeera",
+   "color": "#1d4ed8",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-06-i1",
+   "section": "india",
+   "source": "Equitymaster",
+   "kicker": "Markets",
+   "emoji": "🚀",
+   "stat": "+2,009",
+   "statLabel": "Sensex points",
+   "headline": "Sensex soars 2,009 points as oil prices fall",
+   "body": [
+    "The Sensex jumped 2,009 points (2.6%) to about 79,310, and the Nifty closed near 24,537.",
+    "Oil prices fell on hopes of a faster end to the West Asia conflict after the US midterms.",
+    "Bank and auto shares led the buying."
+   ],
+   "joke": "Oil goes down, Sensex goes up. Rare day the seesaw works for us.",
+   "vc": "Cheaper oil lowers India's import bill and inflation, which helps companies and the rupee.",
+   "url": "https://www.equitymaster.com/indian-share-markets/11/05/2026/Sensex-Today-Rallies-2009-Points--Nifty-Above-24500--3-Reasons-Why-Indian-Share-Markets-Are-Rising",
+   "linkLabel": "Equitymaster",
+   "color": "#047857",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1280px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Niyantha Shekhar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-06-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Earnings",
+   "emoji": "📦",
+   "stat": "₹674 cr",
+   "statLabel": "quarterly revenue",
+   "headline": "Shiprocket turns profitable after listing",
+   "body": [
+    "E-commerce shipping platform Shiprocket made a small ₹0.6 crore profit, against a ₹20.3 crore loss a year ago.",
+    "Revenue rose 35% to ₹674 crore.",
+    "It listed on the stock market in August."
+   ],
+   "joke": "₹60 lakh profit: small parcel, big delivery.",
+   "vc": "Recently listed startups turning profitable supports more Indian tech IPOs.",
+   "url": "https://inc42.com/buzz/shiprocket-turns-profitable-in-q2-revenue-jumps-35-yoy-to-%e2%82%b9674-cr/",
+   "linkLabel": "Inc42",
+   "color": "#0e7490",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-06-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Karnataka",
+   "emoji": "🚌",
+   "stat": "Hike",
+   "statLabel": "in state bus fares",
+   "headline": "Karnataka raises bus fares, and commuters are unhappy",
+   "body": [
+    "Karnataka is raising fares on state-run buses.",
+    "Commuters say it adds to rising costs, after recent milk and curd price hikes.",
+    "Some ask why the state still owes transport corporations money for the free-travel Shakti scheme."
+   ],
+   "joke": "Bengaluru's commute: now pricier, still slow.",
+   "vc": "Higher fares help cash-strapped bus corporations but may push riders back to private vehicles.",
+   "url": "https://www.thehindu.com/news/national/karnataka/karnataka-bus-fare-hike-draws-commuters-ire-concerns-over-rising-cost-of-living/article71666849.ece",
+   "linkLabel": "The Hindu",
+   "color": "#be123c",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Ksrtc_ac_sleeper_cum_seater_bus_in_Bangalore-Mysuru_Expressway.jpg/1280px-Ksrtc_ac_sleeper_cum_seater_bus_in_Bangalore-Mysuru_Expressway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Shaymmm / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Ksrtc_ac_sleeper_cum_seater_bus_in_Bangalore-Mysuru_Expressway.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-06-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Drones",
+   "emoji": "🚁",
+   "stat": "$21.5B",
+   "statLabel": "Zipline valuation",
+   "headline": "Zipline raises $1.5B as Walmart adds 300 drone sites",
+   "body": [
+    "Drone delivery startup Zipline raised $1.5 billion at a $21.5 billion valuation.",
+    "Walmart signed a multi-year deal to add 300 drone delivery sites in the US, up from 21 today.",
+    "Investors include Paradigm, Fidelity, Uber and Tiger Global."
+   ],
+   "joke": "Your toothpaste may soon arrive by air.",
+   "vc": "A retailer of Walmart's size committing to drones makes delivery robotics a serious investment theme.",
+   "url": "https://techcrunch.com/2026/11/05/zipline-hits-21-5b-valuation-as-walmart-expands-bet-on-drone-delivery/",
+   "linkLabel": "TechCrunch",
+   "color": "#0369a1",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Zipline_Drone_Launch.jpg/1280px-Zipline_Drone_Launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Roksenhorn / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Zipline_Drone_Launch.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-06-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI IPOs",
+   "emoji": "📈",
+   "stat": "2027",
+   "statLabel": "possible OpenAI IPO",
+   "headline": "OpenAI could be ready to go public in 2027, says Brockman",
+   "body": [
+    "OpenAI president Greg Brockman said the company could be ready for an IPO in 2027.",
+    "He said OpenAI's sales to businesses are growing fast.",
+    "Rival Anthropic has already gained ground in that market."
+   ],
+   "joke": "The race to IPO is now as tight as the race to AGI.",
+   "vc": "Two AI giants listing within a year would be among the biggest IPO waves ever.",
+   "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+   "linkLabel": "TechCrunch",
+   "color": "#18181b",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-06-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Delivery",
+   "emoji": "🍔",
+   "stat": "$25",
+   "statLabel": "minimum order for free Prime delivery",
+   "headline": "Amazon drops Grubhub and picks Uber Eats for Prime",
+   "body": [
+    "Uber Eats is now Amazon's restaurant delivery partner for US Prime members, replacing Grubhub.",
+    "Prime members can order through Amazon without an Uber account.",
+    "Delivery is free on orders over $25."
+   ],
+   "joke": "Grubhub, it's not you. Actually, it is.",
+   "vc": "Access to Prime's huge user base could shift market share in US food delivery towards Uber.",
+   "url": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime/",
+   "linkLabel": "TechCrunch",
+   "color": "#15803d",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Uber_Eats_-_Gran_Via_-_Madrid_01.jpg/1280px-Uber_Eats_-_Gran_Via_-_Madrid_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Javier Perez Montes / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Uber_Eats_-_Gran_Via_-_Madrid_01.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-06-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "IPOs",
+   "emoji": "🥡",
+   "stat": "2018",
+   "statLabel": "year Wonder was founded",
+   "headline": "Food startup Wonder files to go public",
+   "body": [
+    "Wonder, founded by Marc Lore, has confidentially filed for an IPO.",
+    "It runs food halls where customers order from many restaurant brands at once.",
+    "Share numbers and price have not been set."
+   ],
+   "joke": "Food hall today, ticker symbol tomorrow.",
+   "vc": "Its IPO will test whether investors value food-tech as tech or as restaurants.",
+   "url": "https://techcrunch.com/2026/11/05/food-delivery-startup-wonder-files-for-ipo-as-it-explores-its-next-big-bite/",
+   "linkLabel": "TechCrunch",
+   "color": "#c2410c",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-06-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Funding",
+   "emoji": "🚚",
+   "stat": "$240M",
+   "statLabel": "Series D",
+   "headline": "Electric truck maker Harbinger raises $240M and moves into defence",
+   "body": [
+    "Harbinger raised a $240 million Series D as it expands into battery storage and defence.",
+    "Tiger Global, Capricorn and defence investor Ridgeline led the round.",
+    "It has raised over $650 million in total."
+   ],
+   "joke": "Delivery trucks today, military trucks tomorrow.",
+   "vc": "Climate-tech startups are adding defence work to tap a fast-growing pool of funding.",
+   "url": "https://techcrunch.com/2026/11/05/harbinger-raises-240m-after-expanding-into-defense/",
+   "linkLabel": "TechCrunch",
+   "color": "#3f6212",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-06-v1",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "US politics",
+   "emoji": "🌴",
+   "stat": "1st",
+   "statLabel": "Asian-American mayor of Los Angeles",
+   "headline": "Nithya Raman set to become Los Angeles' first Asian-American mayor",
+   "body": [
+    "Nithya Raman is projected to beat incumbent Karen Bass to lead Los Angeles.",
+    "She will be the city's first Asian-American mayor and second woman elected mayor.",
+    "The urban planner focused on housing, affordability and city services."
+   ],
+   "joke": "",
+   "vc": "Her housing focus could reshape how LA spends on homelessness and city building.",
+   "url": "https://19thnews.org/2026/11/election-results-los-angeles-mayor/",
+   "linkLabel": "The 19th",
+   "color": "#9d174d",
+   "font": "editorial"
+  },
+  {
+   "id": "2026-11-06-v2",
+   "section": "women",
+   "source": "NPR",
+   "kicker": "UK",
+   "emoji": "⚖️",
+   "stat": "4",
+   "statLabel": "women in the case",
+   "headline": "Russell Brand convicted of rape and sexual assault",
+   "body": [
+    "A London court convicted Russell Brand of rape and sexual assault involving four women.",
+    "The allegations date back more than 20 years.",
+    "The judge said he faces a significant prison term and refused him bail before sentencing on Monday."
+   ],
+   "joke": "",
+   "vc": "High-profile convictions push media firms to tighten how they handle abuse complaints.",
+   "url": "https://www.npr.org/2026/11/05/nx-s1-6030720/russell-brand-rape-sexual-assault-prison",
+   "linkLabel": "NPR",
+   "color": "#44403c",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-06-v3",
+   "section": "women",
+   "source": "ThePrint",
+   "kicker": "India",
+   "emoji": "👩‍🌾",
+   "stat": "201M",
+   "statLabel": "working women in India",
+   "headline": "India's working women doubled, but mostly in low-paid jobs",
+   "body": [
+    "India's female workforce grew from about 104 million in 2017-18 to 201 million in 2025, an ICRIER study says.",
+    "Most gains were in farming, self-employment and unpaid family work.",
+    "Rural women earn about 45% of what men earn, and unpaid care work keeps many out."
+   ],
+   "joke": "",
+   "vc": "Better-paid jobs for women could add huge value to India's economy; the study links it to trillions by 2047.",
+   "url": "https://theprint.in/economy/womens-workforce-doubles-to-201-million-but-gains-concentrated-in-low-paid-jobs-says-icrier-report/3088832/",
+   "linkLabel": "ThePrint",
+   "color": "#6b21a8",
+   "font": "editorial"
+  },
+  {
+   "id": "2026-11-06-h1",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Gurugram",
+   "emoji": "🏥",
+   "stat": "500",
+   "statLabel": "beds in phase one",
+   "headline": "Manipal leases land for a 500-bed hospital in Gurugram",
+   "body": [
+    "Manipal Hospitals has leased about 3.5 acres in Gurugram for 30 years to build a multi-speciality hospital.",
+    "The first phase will have up to 500 beds.",
+    "Delhi NCR is a key growth market for the Bengaluru-based chain."
+   ],
+   "joke": "",
+   "vc": "Big chains leasing land instead of buying it lets them expand faster with less capital.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/manipal-hospitals-signs-30-year-lease-to-set-up-500-bed-hospital-in-gurugram-182785",
+   "linkLabel": "Medical Dialogues",
+   "color": "#0f766e",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-06-h2",
+   "section": "health",
+   "source": "Medical Buyer",
+   "kicker": "Ghaziabad",
+   "emoji": "🏗️",
+   "stat": "₹997 cr",
+   "statLabel": "for a 500-bed hospital",
+   "headline": "Medanta approves a ₹997 crore, 500-bed hospital in Ghaziabad",
+   "body": [
+    "Medanta's parent, Global Health, approved ₹997 crore for a new 500-bed hospital in Ghaziabad.",
+    "Its quarterly profit rose 38% to ₹219 crore.",
+    "The company says it has added about 20% bed capacity so far this year."
+   ],
+   "joke": "",
+   "vc": "Strong profits are funding a bed-building race among India's listed hospital chains.",
+   "url": "https://medicalbuyer.co.in/global-health-medanta-q2-net-profit-up-38-34-to-rs-219-14-crore/",
+   "linkLabel": "Medical Buyer",
+   "color": "#1e40af",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-06-h3",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Apollo",
+   "emoji": "📊",
+   "stat": "~5,800",
+   "statLabel": "beds planned in 5 years",
+   "headline": "Apollo plans about 5,800 new beds as profit rises 32%",
+   "body": [
+    "Apollo Hospitals says its expansion is on track to add about 5,800 beds over five years.",
+    "Quarterly revenue rose 23% to ₹7,615 crore, and profit rose 32% to ₹630 crore.",
+    "Bed occupancy rose to 73% from 69%."
+   ],
+   "joke": "",
+   "vc": "High occupancy gives chains the confidence, and cash, to build more beds.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/apollo-posts-7615-crore-in-q2-fy27-profit-increases-32/135556112",
+   "linkLabel": "ET HealthWorld",
+   "color": "#881337",
+   "font": "finance",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Apollo_Proton_Cancer_Centre%2C_Chennai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "HemanthOS / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Apollo_Proton_Cancer_Centre,_Chennai.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-06-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "Title fight",
+   "emoji": "🏆",
+   "stat": "126",
+   "statLabel": "points Mercedes lead Ferrari by",
+   "headline": "Mercedes can clinch the constructors' title in Brazil",
+   "body": [
+    "Mercedes will win the 2026 constructors' title if it outscores Ferrari by three points in Brazil.",
+    "It has won 12 of 19 races and leads Ferrari, the only team that can catch it, by 126 points.",
+    "Kimi Antonelli already won the drivers' title in Mexico."
+   ],
+   "joke": "Ferrari's maths homework: impossible, but due Sunday.",
+   "vc": "A double title boosts Mercedes' sponsorship value and its share of F1 prize money.",
+   "url": "https://www.autosport.com/f1/news/how-mercedes-can-win-the-f1-world-constructors-title-in-brazil/10871661/",
+   "linkLabel": "Autosport",
+   "color": "#0f172a",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/2026_Bahrain_GP_-_Mercedes_-_Kimi_Antonelli_-_Race.jpg/1280px-2026_Bahrain_GP_-_Mercedes_-_Kimi_Antonelli_-_Race.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Liauzh / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:2026_Bahrain_GP_-_Mercedes_-_Kimi_Antonelli_-_Race.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  }
+ ]
+}
