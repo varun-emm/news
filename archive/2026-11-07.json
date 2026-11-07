@@ -1,0 +1,447 @@
+{
+ "date": "2026-11-07",
+ "generatedAt": "2026-11-07T03:48:52+05:30",
+ "stories": [
+  {
+   "id": "2026-11-07-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Iran war",
+   "emoji": "🚢",
+   "stat": "4",
+   "statLabel": "countries exempted",
+   "headline": "Iran lets ships from India and China pass Hormuz freely",
+   "body": [
+    "Iran has exempted ships from India, China, Iraq and Qatar from its Strait of Hormuz restrictions, a senior lawmaker said.",
+    "He said the US does not stop those ships either.",
+    "Iran has largely shut the strait since the war began on 28 February."
+   ],
+   "joke": "A hall pass for the world's busiest oil lane.",
+   "vc": "Free passage for Indian ships lowers freight and insurance costs on India's oil imports.",
+   "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions",
+   "linkLabel": "Al Jazeera",
+   "color": "#7c2d12",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-07-w2",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Kenya",
+   "emoji": "⚖️",
+   "stat": "200",
+   "statLabel": "years in prison",
+   "headline": "Kenyan doomsday cult leader sentenced to 200 years",
+   "body": [
+    "A Kenyan court sentenced pastor Paul Mackenzie to 200 years for the murders of 191 people.",
+    "He was convicted of ordering followers, mostly children, to starve themselves to death.",
+    "His cult is linked to over 400 deaths, and he faces more charges."
+   ],
+   "joke": "",
+   "vc": "The case has pushed Kenya to look at stricter rules on how churches are registered and watched.",
+   "url": "https://www.npr.org/2026/11/06/nx-s1-6032593/kenya-cult-leader-paul-mackenzie-sentenced-murder",
+   "linkLabel": "NPR",
+   "color": "#3f3f46",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-07-w3",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Europe",
+   "emoji": "✈️",
+   "stat": "3",
+   "statLabel": "broadcasters also threatened",
+   "headline": "New wave of bomb threats hits flights across Europe",
+   "body": [
+    "Officials across Europe reported a fresh wave of bomb threats against flights on Friday.",
+    "Three broadcasters also got threats; no bombs were found and no one was hurt.",
+    "It follows drone incursions and attacks on supermarket refrigeration systems."
+   ],
+   "joke": "",
+   "vc": "Repeated hoaxes cost airlines money through diversions and raise security costs.",
+   "url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes",
+   "linkLabel": "NPR",
+   "color": "#1e3a8a",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Prague_V%C3%A1clav_Havel_Airport_in_2019.02.jpg/1280px-Prague_V%C3%A1clav_Havel_Airport_in_2019.02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "CAPTAIN RAJU / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Prague_V%C3%A1clav_Havel_Airport_in_2019.02.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-07-i1",
+   "section": "india",
+   "source": "Equitymaster",
+   "kicker": "Markets",
+   "emoji": "🏔️",
+   "stat": "25,000",
+   "statLabel": "Nifty back above",
+   "headline": "Sensex jumps 1,718 points as Nifty reclaims 25,000",
+   "body": [
+    "The Sensex rose 1,718 points (2.1%) and the Nifty closed above 25,000.",
+    "It was the seventh straight day of gains, Business Standard reported.",
+    "IT and bank shares led the rally."
+   ],
+   "joke": "Seven days up. The bulls are not taking leave this Diwali.",
+   "vc": "A seven-day rally lifts IPO and fundraising plans for Indian companies.",
+   "url": "https://www.equitymaster.com/indian-share-markets/11/06/2026/Sensex-Today-Rallies-1718-Points--Nifty-Above-25000--5-Reasons-Why-Indian-Share-Markets-Are-Rising",
+   "linkLabel": "Equitymaster",
+   "color": "#047857",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1280px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Niyantha Shekhar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-07-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Bengaluru",
+   "emoji": "🚗",
+   "stat": "Majority",
+   "statLabel": "stake bought",
+   "headline": "MakeMyTrip buys Bengaluru carpooling app Quick Ride",
+   "body": [
+    "MakeMyTrip has bought a majority stake in Bengaluru-based carpooling startup Quick Ride.",
+    "The deal amount was not disclosed.",
+    "It takes the travel company into ride-pooling, alongside its bus and cab services."
+   ],
+   "joke": "Your flight, hotel and now your office carpool, one app.",
+   "vc": "Big travel platforms buying niche mobility startups gives founders a clear exit route.",
+   "url": "https://inc42.com/buzz/makemytrip-acquires-majority-stake-in-quick-ride-to-enter-ride-pooling/",
+   "linkLabel": "Inc42",
+   "color": "#be123c",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-07-i3",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Policy",
+   "emoji": "🛰️",
+   "stat": "20",
+   "statLabel": "years licence validity",
+   "headline": "TRAI backs phone service straight from satellites",
+   "body": [
+    "TRAI recommended a new licence that lets satellites connect directly to mobile phones.",
+    "Telecom firms could use satellite partners to extend coverage, and satellite firms could sell capacity.",
+    "The licence would last up to 20 years with an 8% revenue fee."
+   ],
+   "joke": "No signal? Look up.",
+   "vc": "Direct-to-phone satellite service opens a new market for Indian telcos and satellite startups.",
+   "url": "https://inc42.com/buzz/trai-backs-direct-to-device-satellite-connectivity-proposes-new-authorisation-framework/",
+   "linkLabel": "Inc42",
+   "color": "#312e81",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-07-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI spending",
+   "emoji": "📉",
+   "stat": "+1.5%",
+   "statLabel": "AI token spend growth, Aug–Sep",
+   "headline": "Company AI spending stalls just as Anthropic nears IPO",
+   "body": [
+    "Ramp data shows business spending on AI barely grew over late summer, up just 1.5% in August and September.",
+    "In July it had grown 42% in a month.",
+    "Firms use more AI, but price competition may be capping what they pay."
+   ],
+   "joke": "More AI, same bill. Finance teams are thrilled; AI labs less so.",
+   "vc": "If AI spending flattens, investors may rethink sky-high valuations for OpenAI and Anthropic.",
+   "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+   "linkLabel": "TechCrunch",
+   "color": "#18181b",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg/1280px-Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "TechCrunch / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-07-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Media deals",
+   "emoji": "📺",
+   "stat": "$22B",
+   "statLabel": "Roku deal",
+   "headline": "Fox completes its $22B purchase of Roku",
+   "body": [
+    "Fox has completed its $22 billion deal to buy streaming company Roku.",
+    "Fox says the combined company is now the third-largest TV business in the US by viewership.",
+    "Roku's founder Anthony Wood says the teams will keep building as before."
+   ],
+   "joke": "Old TV buys new TV. Remote control included.",
+   "vc": "Traditional broadcasters buying streaming platforms shows where ad money is moving.",
+   "url": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/",
+   "linkLabel": "TechCrunch",
+   "color": "#7c3aed",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Roku_1_2017-02-23.jpg/1280px-Roku_1_2017-02-23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "FASTILY / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Roku_1_2017-02-23.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-07-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "EVs",
+   "emoji": "🛻",
+   "stat": "250,000",
+   "statLabel": "yearly sales Musk once predicted",
+   "headline": "Tesla will stop making the Cybertruck in 2027",
+   "body": [
+    "Elon Musk says Tesla will end Cybertruck production next year.",
+    "The factory space will build more Cybercab robotaxis instead.",
+    "Musk once predicted 250,000 sales a year; Tesla sold only tens of thousands in total."
+   ],
+   "joke": "The truck that looked like the future is now history.",
+   "vc": "Tesla shifting factories to robotaxis shows its bet on autonomy over car sales.",
+   "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+   "linkLabel": "TechCrunch",
+   "color": "#52525b",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-07-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Batteries",
+   "emoji": "🔋",
+   "stat": "$250M",
+   "statLabel": "Pentagon loan offer",
+   "headline": "Pentagon offers battery startup 6K a $250M loan",
+   "body": [
+    "Battery-materials startup 6K won conditional approval for a $250 million Defense Department loan.",
+    "It will build a Tennessee factory using a microwave-powered process.",
+    "The aim is battery materials that don't depend on Chinese suppliers."
+   ],
+   "joke": "Microwaves: not just for leftovers.",
+   "vc": "Defence money is becoming a major funding source for battery and climate-tech startups.",
+   "url": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
+   "linkLabel": "TechCrunch",
+   "color": "#3f6212",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-07-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Seed round",
+   "emoji": "🤖",
+   "stat": "$10M",
+   "statLabel": "seed funding",
+   "headline": "Physicl raises $10M to train robots in realistic simulations",
+   "body": [
+    "Physicl raised a $10 million seed round led by Inovia Capital.",
+    "It builds realistic digital worlds to help train robots and AI world models.",
+    "Its founder turned his old 3D product-imaging team to this new use."
+   ],
+   "joke": "Robots get a video game to practise in.",
+   "vc": "Simulation tools are a fast-growing bet as investors pour money into robotics.",
+   "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+   "linkLabel": "TechCrunch",
+   "color": "#0e7490",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-07-v1",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "Native nations",
+   "emoji": "🏜️",
+   "stat": "1st",
+   "statLabel": "woman president of the Navajo Nation",
+   "headline": "Navajo Nation elects its first woman president",
+   "body": [
+    "Crystalyne Curley is set to become the first woman president of the Navajo Nation.",
+    "She was also its first woman council speaker and has worked on water rights and uranium clean-up.",
+    "The Seneca Nation also elected its first woman president, Tina Abrams."
+   ],
+   "joke": "",
+   "vc": "Tribal leaders control key decisions on land, water and energy projects.",
+   "url": "https://19thnews.org/2026/11/crystalyne-curley-navajo-nation-woman-president/",
+   "linkLabel": "The 19th",
+   "color": "#9a3412",
+   "font": "editorial",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Navajo_Nation_Council_Chamber%2C_January_2019.jpg/1280px-Navajo_Nation_Council_Chamber%2C_January_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Steven Baltakatei Sandoval / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Navajo_Nation_Council_Chamber,_January_2019.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-07-v2",
+   "section": "women",
+   "source": "Medical Dialogues",
+   "kicker": "Tamil Nadu",
+   "emoji": "🛡️",
+   "stat": "2",
+   "statLabel": "days to transfer after police complaint",
+   "headline": "Tiruvannamalai professor moved after nursing student alleges harassment",
+   "body": [
+    "A 20-year-old nursing student accused a senior professor at Tiruvannamalai Medical College of sexual harassment.",
+    "He was transferred two days after she went to the police.",
+    "She says the college's internal complaints committee failed to inquire properly."
+   ],
+   "joke": "",
+   "vc": "Weak complaint committees put institutions at legal risk under India's workplace harassment law.",
+   "url": "https://medicaldialogues.in/news/health/doctors/tiruvannamalai-medical-college-medicine-hod-transferred-after-nursing-student-alleges-sexual-harassment-182820",
+   "linkLabel": "Medical Dialogues",
+   "color": "#6b21a8",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-07-v3",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "US politics",
+   "emoji": "🗳️",
+   "stat": "8 pts",
+   "statLabel": "Amy Acton's winning margin",
+   "headline": "Abuse survivors became a political force in the midterms",
+   "body": [
+    "Advocates call the midterms a win for survivors of sexual violence.",
+    "In Ohio, an ad attacking Amy Acton over her childhood abuse backfired, and she won by 8 points.",
+    "Some candidates accused of abuse also withdrew."
+   ],
+   "joke": "",
+   "vc": "Campaigns that misjudge survivor voters risk wasting millions on ads, as Ohio showed.",
+   "url": "https://19thnews.org/2026/11/midterms-political-constituency-abuse-survivors/",
+   "linkLabel": "The 19th",
+   "color": "#9d174d",
+   "font": "editorial"
+  },
+  {
+   "id": "2026-11-07-h1",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Jammu & Kashmir",
+   "emoji": "🏥",
+   "stat": "Dec",
+   "statLabel": "OPD services due to start",
+   "headline": "AIIMS Awantipora to open its OPD before December",
+   "body": [
+    "AIIMS Awantipora in Kashmir aims to start outpatient services before December, Health Minister JP Nadda said.",
+    "Inpatient services are planned for July 2027, with MBBS classes from 2027-28.",
+    "Equipment worth ₹59.41 crore has been approved."
+   ],
+   "joke": "",
+   "vc": "A full AIIMS in the Valley cuts long trips to Delhi or Chandigarh for specialist care.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/aiims-awantipora-opd-services-likely-to-begin-before-dec-nadda/135590630",
+   "linkLabel": "ET HealthWorld",
+   "color": "#0369a1",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-07-h2",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Fortis",
+   "emoji": "📈",
+   "stat": "31% → 50%+",
+   "statLabel": "IHH stake target",
+   "headline": "IHH wants over half of Fortis, bringing ₹10,000 crore",
+   "body": [
+    "Malaysia's IHH Healthcare wants to raise its Fortis stake from 31% to over 50%, Fortis said.",
+    "That could bring about ₹10,000 crore of new capital into Fortis over time.",
+    "Fortis says a court-ordered forensic audit does not block the move."
+   ],
+   "joke": "",
+   "vc": "More capital from IHH could fund faster bed expansion for one of India's biggest chains.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/forensic-audit-no-hurdle-to-ihh-increasing-stake-in-fortis-dr-raghuvanshi/135601766",
+   "linkLabel": "ET HealthWorld",
+   "color": "#881337",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Fortis_Hospital_Noida_-_panoramio.jpg/1280px-Fortis_Hospital_Noida_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Ali Rizvi / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Fortis_Hospital_Noida_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-07-h3",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Bengaluru",
+   "emoji": "🎗️",
+   "stat": "146",
+   "statLabel": "beds added in six months",
+   "headline": "Bengaluru cancer chain HCG adds 146 beds this year",
+   "body": [
+    "HCG added 25 beds last quarter, in Kenya, Kolkata and Nagpur, and 146 in the first half of the year.",
+    "Revenue rose 16% to ₹732 crore.",
+    "Robotic surgeries were up 37%."
+   ],
+   "joke": "",
+   "vc": "Specialist cancer chains are expanding as more Indians get diagnosed and treated.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/hcg-posts-731-8-crore-in-q2-fy27-pat-falls-9-3-/135590485",
+   "linkLabel": "ET HealthWorld",
+   "color": "#065f46",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-07-h4",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Paras",
+   "emoji": "🏨",
+   "stat": "59% → 73%",
+   "statLabel": "bed occupancy",
+   "headline": "Paras Health's new Srinagar and Kanpur hospitals double revenue",
+   "body": [
+    "Paras Healthcare's new hospitals in Srinagar and Kanpur more than doubled their revenue to ₹84.4 crore.",
+    "Company profit rose 3.3 times to ₹40.4 crore.",
+    "Bed occupancy climbed to 73% from 59%."
+   ],
+   "joke": "",
+   "vc": "Fast-filling hospitals in smaller cities support more expansion in under-served markets.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/paras-health-reports-510-9-crore-in-q2-fy27-profit-rises-3-times/135590496",
+   "linkLabel": "ET HealthWorld",
+   "color": "#a16207",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-07-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "Brazil GP",
+   "emoji": "⏱️",
+   "stat": "1:10.763",
+   "statLabel": "fastest FP2 lap",
+   "headline": "New champion Antonelli tops Friday practice in Brazil",
+   "body": [
+    "Kimi Antonelli was fastest in second practice at Interlagos, ahead of Lando Norris and Max Verstappen.",
+    "His best lap was 1m10.763s on soft tyres.",
+    "Teammate George Russell takes a five-place grid penalty for a new engine."
+   ],
+   "joke": "Champion on Sunday, still fastest on Friday.",
+   "vc": "Mercedes needs just three more points than Ferrari here to lock in the constructors' title and its prize money.",
+   "url": "https://www.autosport.com/f1/news/f1-brazilian-gp-kimi-antonelli-fastest-in-tricky-fp2/10872299/",
+   "linkLabel": "Autosport",
+   "color": "#0f172a",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Aut%C3%B3dromo_de_Interlagos_em_Dezembro_de_2023.jpg/1280px-Aut%C3%B3dromo_de_Interlagos_em_Dezembro_de_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Boaventuravinicius / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_de_Interlagos_em_Dezembro_de_2023.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  }
+ ]
+}
