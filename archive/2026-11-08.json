@@ -1,0 +1,432 @@
+{
+ "date": "2026-11-08",
+ "generatedAt": "2026-11-08T03:47:16+05:30",
+ "stories": [
+  {
+   "id": "2026-11-08-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Israel",
+   "emoji": "🇮🇱",
+   "stat": "67 vs 46",
+   "statLabel": "MPs backing Eisenkot vs Netanyahu",
+   "headline": "Israel's president picks Eisenkot, not Netanyahu, to form a government",
+   "body": [
+    "President Isaac Herzog has asked opposition leader Gadi Eisenkot to form Israel's next government.",
+    "67 lawmakers, including Arab-led parties, backed Eisenkot; 46 backed Netanyahu.",
+    "The former army chief now has 28 days to build a coalition."
+   ],
+   "joke": "28 days to build a coalition. Israel's version of a group project.",
+   "vc": "A change of government could reshape Israel's budget, defence spending and foreign investment mood.",
+   "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government",
+   "linkLabel": "Al Jazeera",
+   "color": "#1e3a8a",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Doron_Amir_and_Gadi_Eisenkot_at_the_Cyber_Negev_competition_2022-04-05.jpg/1280px-Doron_Amir_and_Gadi_Eisenkot_at_the_Cyber_Negev_competition_2022-04-05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "CyTaka company employee / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Doron_Amir_and_Gadi_Eisenkot_at_the_Cyber_Negev_competition_2022-04-05.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-08-w2",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Energy",
+   "emoji": "🛢️",
+   "stat": "0",
+   "statLabel": "litres of Russian diesel delivered to US",
+   "headline": "Russian diesel tankers bound for the US turn back",
+   "body": [
+    "At least three tankers carrying Russian diesel to the US have changed course.",
+    "No diesel has arrived under Trump's October deal with Putin, as buyers fear legal action.",
+    "A US ban on Russian energy imports passed by Congress is still in place."
+   ],
+   "joke": "A deal so good nobody will touch it.",
+   "vc": "With US diesel prices nearly doubled since the Iran war began, failed supply deals keep fuel costs high.",
+   "url": "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal",
+   "linkLabel": "Al Jazeera",
+   "color": "#7c2d12",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-08-w3",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Paraguay",
+   "emoji": "🏦",
+   "stat": "3M",
+   "statLabel": "Ueno Bank customers",
+   "headline": "Ousted Paraguay president placed under house arrest",
+   "body": [
+    "Santiago Peña was impeached and placed under house arrest after the collapse of Ueno Bank.",
+    "He was a shareholder in the digital bank, which served about 3 million people, more than half the country's adults.",
+    "Millions still can't reach their money."
+   ],
+   "joke": "",
+   "vc": "A fintech collapse this big will push regulators everywhere to look harder at digital banks.",
+   "url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
+   "linkLabel": "NPR",
+   "color": "#0f766e",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Mburuvicha_R%C3%B3ga_Asunci%C3%B3n_Paraguay.jpg/1280px-Mburuvicha_R%C3%B3ga_Asunci%C3%B3n_Paraguay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "FF MM / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Mburuvicha_R%C3%B3ga_Asunci%C3%B3n_Paraguay.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-08-i1",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Markets",
+   "emoji": "📈",
+   "stat": "54 of 69",
+   "statLabel": "new-age tech stocks rose",
+   "headline": "Indian startup stocks rally; CarTrade jumps 23%",
+   "body": [
+    "54 of 69 listed new-age tech stocks rose this week, Inc42 data shows.",
+    "Their combined value rose 5.2% to $169.3 billion, as foreign investors bought again.",
+    "CarTrade led with 23.3%, while Lenskart, Nykaa and Ather hit 52-week highs."
+   ],
+   "joke": "Startup stocks finally remembered they're growth stocks.",
+   "vc": "A strong run for listed startups makes it easier for OYO and others to launch IPOs.",
+   "url": "https://inc42.com/buzz/new-age-tech-stocks-extend-rally-cartrade-leads-with-23-3-gain/",
+   "linkLabel": "Inc42",
+   "color": "#047857",
+   "font": "finance",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/National_Stock_Exchange_of_India_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "zadeus / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:National_Stock_Exchange_of_India_2.jpg",
+    "license": "CC BY-SA 2.0"
+   }
+  },
+  {
+   "id": "2026-11-08-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Funding",
+   "emoji": "💰",
+   "stat": "$255M",
+   "statLabel": "raised by 20 startups this week",
+   "headline": "Indian startups raised $255M this week, nearly double last week",
+   "body": [
+    "20 Indian startups raised $255 million between 2 and 6 November, up 96% from the week before.",
+    "But the number of deals fell 38%.",
+    "GIVA's $103 million round made e-commerce the top-funded sector."
+   ],
+   "joke": "More money, fewer cheques. VCs are being picky.",
+   "vc": "Bigger but fewer deals means investors are backing proven winners over new bets.",
+   "url": "https://inc42.com/buzz/from-giva-to-eloelo-group-indian-startups-raised-255-mn-this-week/",
+   "linkLabel": "Inc42",
+   "color": "#a16207",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-08-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Karnataka",
+   "emoji": "⛽",
+   "stat": "31.2%",
+   "statLabel": "ethanol found in 'E20' petrol",
+   "headline": "Karnataka finds up to 31% ethanol in petrol meant to be 20%",
+   "body": [
+    "Karnataka says lab tests found up to 31.2% ethanol in petrol meant to have 20%.",
+    "Samples came from IOCL and HPCL pumps in Bengaluru and five other districts.",
+    "The state says this raises questions about transparency for drivers."
+   ],
+   "joke": "Your car ordered 20% ethanol and got a large.",
+   "vc": "If confirmed, blend problems could affect engine warranties and oil companies' reputations.",
+   "url": "https://www.thehindu.com/news/national/karnataka/lab-tests-show-ethanol-blend-in-petrol-is-as-high-as-31-higher-than-20-e20-petrol-in-karnataka-government/article71673683.ece",
+   "linkLabel": "The Hindu",
+   "color": "#be123c",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-08-m1",
+   "section": "money",
+   "source": "Crunchbase News",
+   "kicker": "Mega-rounds",
+   "emoji": "🛡️",
+   "stat": "$2B",
+   "statLabel": "Shield AI's new funding",
+   "headline": "Defence tech firm Shield AI tops the week with $2B raise",
+   "body": [
+    "Shield AI, which builds autonomy software for defence, raised $2 billion, the week's largest round.",
+    "Zipline was second with $1.5 billion.",
+    "AI, defence and space startups led the week's big deals, Crunchbase says."
+   ],
+   "joke": "Peace talks are slow; defence funding isn't.",
+   "vc": "Defence tech has become one of venture capital's biggest bets this year.",
+   "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline",
+   "linkLabel": "Crunchbase News",
+   "color": "#334155",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Shield_AI_V-BAT_wing_in_NIPPI_booth_of_JA2024_at_Tokyo_Big_Sight_October_19%2C_2024.jpg/1280px-Shield_AI_V-BAT_wing_in_NIPPI_booth_of_JA2024_at_Tokyo_Big_Sight_October_19%2C_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Hunini / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Shield_AI_V-BAT_wing_in_NIPPI_booth_of_JA2024_at_Tokyo_Big_Sight_October_19,_2024.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-08-m2",
+   "section": "money",
+   "source": "Crunchbase News",
+   "kicker": "Space tech",
+   "emoji": "🛰️",
+   "stat": "$4.5B+",
+   "statLabel": "CesiumAstro valuation",
+   "headline": "Space startup CesiumAstro raises $730M",
+   "body": [
+    "CesiumAstro, which builds satellites and space communications for defence, raised a $730 million Series D.",
+    "It is now valued at over $4.5 billion.",
+    "It also got $100 million in debt from the US Export-Import Bank and JP Morgan."
+   ],
+   "joke": "Space is the new office park.",
+   "vc": "Big rounds for satellite makers show investors expect steady government contracts.",
+   "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline",
+   "linkLabel": "Crunchbase News",
+   "color": "#312e81",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-08-m3",
+   "section": "money",
+   "source": "Crunchbase News",
+   "kicker": "AI infra",
+   "emoji": "☁️",
+   "stat": "$100M+",
+   "statLabel": "annual recurring revenue",
+   "headline": "Applied Compute raises $350M at a $3.25B valuation",
+   "body": [
+    "Applied Compute, a cloud platform for training and running big AI models, raised $350 million.",
+    "Elad Gil led the round, with Nvidia among investors.",
+    "The 18-month-old company says yearly revenue already tops $100 million."
+   ],
+   "joke": "Eighteen months old and already earning nine figures. Show-off.",
+   "vc": "AI compute is still drawing huge sums, even as some data shows AI spending slowing.",
+   "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline",
+   "linkLabel": "Crunchbase News",
+   "color": "#0e7490",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-08-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Data centres",
+   "emoji": "🏭",
+   "stat": "Dozens",
+   "statLabel": "local votes against data centres",
+   "headline": "Midterm voters reject data centres in dozens of local votes",
+   "body": [
+    "Voters rejected data centres in dozens of local ballot measures in this week's US midterms.",
+    "Texas' governor-elect campaigned on restricting them.",
+    "TechCrunch's Equity podcast says it is a rocky moment for Elon Musk's companies too."
+   ],
+   "joke": "Everyone loves AI until it moves in next door.",
+   "vc": "Local pushback could slow the AI build-out and raise costs for chip and power investors.",
+   "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+   "linkLabel": "TechCrunch",
+   "color": "#18181b",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Christopher Bowns / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg",
+    "license": "CC BY-SA 2.0"
+   }
+  },
+  {
+   "id": "2026-11-08-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Crypto",
+   "emoji": "🪙",
+   "stat": "$6.3B",
+   "statLabel": "stolen in recent hack",
+   "headline": "Binance's finance chief leaves after $6.3B hack",
+   "body": [
+    "Binance CFO Kaiser Ng is leaving the crypto exchange to start a new venture.",
+    "It comes just over a week after hackers stole $6.3 billion from Binance users.",
+    "Binance says it will cover all losses itself."
+   ],
+   "joke": "",
+   "vc": "Leadership changes after a record hack will test trust in the world's biggest crypto exchange.",
+   "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
+   "linkLabel": "TechCrunch",
+   "color": "#ca8a04",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Binance_t-shirt_and_bag_-_2022-07-09.jpg/1280px-Binance_t-shirt_and_bag_-_2022-07-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Bretwa / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Binance_t-shirt_and_bag_-_2022-07-09.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-08-v1",
+   "section": "women",
+   "source": "Indian Express",
+   "kicker": "India",
+   "emoji": "⚖️",
+   "stat": "AI",
+   "statLabel": "deepfake videos ordered down",
+   "headline": "Delhi HC orders AAP to remove AI videos of CM Rekha Gupta",
+   "body": [
+    "The Delhi High Court ordered AAP to take down AI-made videos of Chief Minister Rekha Gupta.",
+    "The court said the posts were defamatory and attacked the dignity of a woman in constitutional office.",
+    "One deepfake showed her pouring liquor."
+   ],
+   "joke": "",
+   "vc": "Court action on political deepfakes raises pressure on X and Meta to act faster on takedowns.",
+   "url": "https://indianexpress.com/article/legal-news/delhi-hc-orders-aap-takedown-ai-deepfake-videos-cm-rekha-gupta-10953913/",
+   "linkLabel": "Indian Express",
+   "color": "#6b21a8",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-08-v2",
+   "section": "women",
+   "source": "Indian Express",
+   "kicker": "India",
+   "emoji": "🛡️",
+   "stat": "6",
+   "statLabel": "girls rescued",
+   "headline": "Rajasthan police rescue six girls forced into prostitution",
+   "body": [
+    "Police in Rajasthan's Jhalawar district rescued six minor girls from a prostitution racket.",
+    "Five people, including relatives of the girls, were arrested.",
+    "A complaint said families from a denotified tribe were pushing girls into the trade."
+   ],
+   "joke": "",
+   "vc": "Rescue is only step one; rehabilitation needs funding for shelters, schooling and health care.",
+   "url": "https://indianexpress.com/article/india/rajasthan-jhalawar-prostitution-racket-six-minor-girls-rescued-10953621/",
+   "linkLabel": "Indian Express",
+   "color": "#44403c",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-08-v3",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "US politics",
+   "emoji": "🛒",
+   "stat": "Moms",
+   "statLabel": "more in Congress than ever",
+   "headline": "Women voted on prices. Now Congress must deliver",
+   "body": [
+    "Women swung hard towards Democrats in an election shaped by the cost of living, The 19th reports.",
+    "Women make most household purchases and worry more about health care, housing and grocery costs.",
+    "More mothers than ever will serve in the new Congress."
+   ],
+   "joke": "",
+   "vc": "Childcare and health costs are now top policy fights, with big stakes for insurers and care providers.",
+   "url": "https://19thnews.org/2026/11/election-affordability-women-congress/",
+   "linkLabel": "The 19th",
+   "color": "#9d174d",
+   "font": "editorial"
+  },
+  {
+   "id": "2026-11-08-h1",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Chennai",
+   "emoji": "👁️",
+   "stat": "39",
+   "statLabel": "new eye centres in 6 months",
+   "headline": "Chennai's Dr Agarwal's adds 39 eye centres",
+   "body": [
+    "Chennai-based Dr Agarwal's Health Care added 39 eye centres in six months, taking its network to 324.",
+    "Quarterly revenue rose 31% to ₹655 crore, and profit rose 56% to ₹57 crore.",
+    "It did nearly 96,000 surgeries in the quarter."
+   ],
+   "joke": "",
+   "vc": "Eye-care chains grow fast because surgeries like cataract removal are frequent and predictable.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/dr-agarwals-posts-665-crore-in-q2-fy27-pat-improves-55-8/135624418",
+   "linkLabel": "ET HealthWorld",
+   "color": "#0369a1",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Dr._Agarwal%27s_Eye_Hospital_%282024%29_01.jpg/1280px-Dr._Agarwal%27s_Eye_Hospital_%282024%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Gpkp / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Dr._Agarwal%27s_Eye_Hospital_(2024)_01.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-08-h2",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Bengaluru",
+   "emoji": "🏥",
+   "stat": "65% → 68%",
+   "statLabel": "bed occupancy",
+   "headline": "Aster's new hospitals grow 62% as occupancy rises",
+   "body": [
+    "Bengaluru-based Aster DM's newer hospitals, including Kasaragod and Nagercoil, grew revenue 62%.",
+    "Overall revenue rose 19% to ₹2,829 crore, and occupancy climbed to 68%.",
+    "Medical tourism revenue jumped 36%, led by patients from the Maldives and the Gulf."
+   ],
+   "joke": "",
+   "vc": "Patients from abroad are a growing profit source for South Indian hospital chains.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/aster-dm-quality-care-posts-2829-cr-in-q2-fy27-pat-rises-34/135624391",
+   "linkLabel": "ET HealthWorld",
+   "color": "#881337",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-08-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Maharashtra",
+   "emoji": "🎓",
+   "stat": "720",
+   "statLabel": "new PG seats in govt colleges",
+   "headline": "Maharashtra adds 1,066 specialist medical seats, 720 in govt colleges",
+   "body": [
+    "Maharashtra now has 7,615 postgraduate medical seats after adding 1,066 in a year.",
+    "720 were added in government medical colleges in just five weeks.",
+    "The figures come from the NMC's latest seat list."
+   ],
+   "joke": "",
+   "vc": "More specialist seats in public colleges means more doctors for government hospitals over time.",
+   "url": "https://medicaldialogues.in/news/education/maharashtra-gets-1066-additional-pg-medical-seats-720-in-govt-institutes-182904",
+   "linkLabel": "Medical Dialogues",
+   "color": "#065f46",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-08-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "Brazil GP",
+   "emoji": "🌧️",
+   "stat": "1:27.470",
+   "statLabel": "pole lap on intermediates",
+   "headline": "Norris takes pole in a soaking-wet Brazil qualifying",
+   "body": [
+    "Lando Norris took pole for the Brazilian GP in heavy rain, beating George Russell by two tenths.",
+    "Russell drops five places for an engine change, and Leclerc ten.",
+    "That puts Racing Bulls' Liam Lawson third on the grid, with Antonelli second."
+   ],
+   "joke": "Rain delays: F1's way of adding a bonus hour.",
+   "vc": "F1 also signed Sao Paulo up until 2035, locking in a key Latin American market.",
+   "url": "https://www.autosport.com/f1/news/f1-brazilian-gp-lando-norris-takes-pole-in-soaking-wet-qualifying/10872710/",
+   "linkLabel": "Autosport",
+   "color": "#c2410c",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/2026_Chinese_GP_-_McLaren_-_Lando_Norris_-_Qualifying.jpg/1280px-2026_Chinese_GP_-_McLaren_-_Lando_Norris_-_Qualifying.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Liauzh / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_McLaren_-_Lando_Norris_-_Qualifying.jpg",
+    "license": "CC BY 4.0"
+   }
+  }
+ ]
+}
