@@ -1,0 +1,432 @@
+{
+ "date": "2026-11-09",
+ "generatedAt": "2026-11-09T03:46:39+05:30",
+ "stories": [
+  {
+   "id": "2026-11-09-w1",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Ukraine",
+   "emoji": "🕊️",
+   "stat": "UAE",
+   "statLabel": "venue for this week's talks",
+   "headline": "Europe will join US-brokered Ukraine peace talks, despite Russia",
+   "body": [
+    "European officials will attend this week's US-mediated Russia-Ukraine peace talks in the UAE, France says.",
+    "The Kremlin had said there was no role for European powers.",
+    "France's foreign minister says Europe's voice will be heard."
+   ],
+   "joke": "Uninvited guests with a lot to say.",
+   "vc": "Any ceasefire progress could cut energy prices and open Ukraine's huge rebuilding market.",
+   "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
+   "linkLabel": "NPR",
+   "color": "#1e3a8a",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-09-w2",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "New Zealand",
+   "emoji": "🗳️",
+   "stat": "Weeks",
+   "statLabel": "of coalition talks ahead",
+   "headline": "New Zealand's election ends with no clear winner",
+   "body": [
+    "New Zealand's election gave neither the right nor the left a clear win.",
+    "Smaller parties gained ground against National and Labour, the two big parties.",
+    "Weeks of tense talks are expected to form a government."
+   ],
+   "joke": "Kiwis voted; now the minor parties get to name their price.",
+   "vc": "A longer wait for a government can delay budget and investment decisions.",
+   "url": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks",
+   "linkLabel": "NPR",
+   "color": "#0f766e",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/NZ_Parliament_Buildings_2020-06-26.jpg/1280px-NZ_Parliament_Buildings_2020-06-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Tom Ackroyd / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:NZ_Parliament_Buildings_2020-06-26.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-09-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Senegal",
+   "emoji": "🕯️",
+   "stat": "34",
+   "statLabel": "dead as migrant boat sinks",
+   "headline": "At least 34 dead as migrant boat sinks off Senegal",
+   "body": [
+    "A small boat carrying migrants and refugees sank off northwestern Senegal, killing at least 34 people.",
+    "Only one person was rescued, the interior ministry said.",
+    "Thousands have died trying to reach Spain's Canary Islands from West Africa in recent years."
+   ],
+   "joke": "",
+   "vc": "Deadly crossings reflect a lack of jobs at home, pushing young people to risk the sea route to Europe.",
+   "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal",
+   "linkLabel": "Al Jazeera",
+   "color": "#3f3f46",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-09-i1",
+   "section": "india",
+   "source": "Business Today",
+   "kicker": "Welfare",
+   "emoji": "🍚",
+   "stat": "80 crore",
+   "statLabel": "people on free rations",
+   "headline": "Why India still gives free grain to 80 crore people",
+   "body": [
+    "PM's economic adviser Shamika Ravi says free grain for about 80 crore people is about social protection, not just poverty.",
+    "She says growing countries everywhere build safety nets.",
+    "A recent paper says extreme poverty fell to 2.3% in 12 years."
+   ],
+   "joke": "Poverty fell; the ration queue didn't.",
+   "vc": "Free grain is one of India's biggest spending items, shaping how much room is left for other investment.",
+   "url": "https://www.businesstoday.in/latest/economy/story/poverty-down-to-3-9-so-why-free-ration-for-80-crore-pms-economic-advisor-explains-566364-2026-11-08",
+   "linkLabel": "Business Today",
+   "color": "#a16207",
+   "font": "editorial"
+  },
+  {
+   "id": "2026-11-09-i2",
+   "section": "india",
+   "source": "Business Today",
+   "kicker": "Manufacturing",
+   "emoji": "🔌",
+   "stat": "₹7,503 cr",
+   "statLabel": "new electronics projects",
+   "headline": "Govt clears ₹7,503 crore of new electronics component plants",
+   "body": [
+    "The government approved 12 new projects worth ₹7,503 crore under its electronics components scheme.",
+    "They will make battery materials, copper foil, films and special ceramics.",
+    "The aim is to cut imports of key inputs for phones, batteries and chips."
+   ],
+   "joke": "Made in India, now including the parts inside.",
+   "vc": "Local component makers open a new investment theme beyond phone assembly.",
+   "url": "https://www.businesstoday.in/latest/economy/story/govt-clears-12-fresh-proposals-worth-rs7503-cr-under-electronics-components-manufacturing-scheme-566189-2026-11-06",
+   "linkLabel": "Business Today",
+   "color": "#312e81",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-09-i3",
+   "section": "india",
+   "source": "Business Today",
+   "kicker": "E20 row",
+   "emoji": "⛽",
+   "stat": "893",
+   "statLabel": "fuel samples passed, says Centre",
+   "headline": "Centre rejects Karnataka's claim of 31% ethanol in petrol",
+   "body": [
+    "The petroleum ministry says all 893 fuel samples tested in 27 states and UTs met quality standards.",
+    "Oil companies questioned how Karnataka took and tested its samples.",
+    "Karnataka had said some petrol had up to 31% ethanol, above the 20% target."
+   ],
+   "joke": "Two labs, two answers, one confused driver.",
+   "vc": "The dispute matters for car makers and oil companies betting on higher ethanol blends.",
+   "url": "https://www.businesstoday.in/latest/economy/story/e20-petrol-row-centre-rejects-karnatakas-31-ethanol-claim-says-all-893-samples-passed-quality-tests-566319-2026-11-07",
+   "linkLabel": "Business Today",
+   "color": "#be123c",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-09-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Nvidia",
+   "emoji": "🔍",
+   "stat": "Board",
+   "statLabel": "launches independent probe",
+   "headline": "Nvidia's board investigates CEO Jensen Huang",
+   "body": [
+    "Nvidia's board launched an independent investigation after reports Jensen Huang was targeted by a Chinese spy operation.",
+    "Huang admitted an affair with a former executive of a Singapore chip firm and apologised.",
+    "A US memo had claimed she was recruited by Chinese intelligence."
+   ],
+   "joke": "",
+   "vc": "Any doubt over the CEO of the world's most valuable chipmaker is a risk investors will price in.",
+   "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+   "linkLabel": "TechCrunch",
+   "color": "#18181b",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nvidia_sign.jpg/1280px-Nvidia_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Will Buckner / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Nvidia_sign.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-09-m2",
+   "section": "money",
+   "source": "FT Unhedged",
+   "kicker": "Markets",
+   "emoji": "🫧",
+   "stat": "1 day",
+   "statLabel": "length of post-midterm AI rally",
+   "headline": "Unhedged: the post-midterm stock bubble popped in a day",
+   "body": [
+    "The FT's Unhedged podcast says Wednesday's post-midterm rally reversed on Thursday.",
+    "AI companies gave back the previous day's gains.",
+    "The hosts ask whether it's about Democrats in Congress or a wider move away from AI."
+   ],
+   "joke": "Shortest bull market in history?",
+   "vc": "If investors are rotating out of AI, it could hit everything from chip stocks to startup valuations.",
+   "url": "https://shows.acast.com/unhedged/episodes/stocks-tumble-as-the-post-midterm-bubble-pops",
+   "linkLabel": "Unhedged",
+   "color": "#7c2d12",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/New_York_Stock_Exchange_August_2017_02.jpg/1280px-New_York_Stock_Exchange_August_2017_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Arild Vågen / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_August_2017_02.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-09-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Venture",
+   "emoji": "🌲",
+   "stat": "20 years",
+   "statLabel": "of expansion undone",
+   "headline": "Sequoia partners were reportedly blindsided by Botha joining SpaceX's board",
+   "body": [
+    "The FT reports Sequoia's shake-up is partly an effort to undo the legacy of former leader Roelof Botha.",
+    "The split reportedly deepened when Botha joined SpaceX's board this summer.",
+    "Some insiders call the changes an erasure of Sequoia's heritage."
+   ],
+   "joke": "Venture capital's biggest family drama.",
+   "vc": "Turmoil at a top VC firm can change how it backs startups and who leads deals.",
+   "url": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/",
+   "linkLabel": "TechCrunch",
+   "color": "#14532d",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Sand_Hill_Road_Freeway_Exit.jpg/1280px-Sand_Hill_Road_Freeway_Exit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Coolcaesar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Sand_Hill_Road_Freeway_Exit.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-09-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Cybersecurity",
+   "emoji": "🔐",
+   "stat": "$250M",
+   "statLabel": "new fund target",
+   "headline": "Ex-Secret Service agent raises a second $250M cyber fund",
+   "body": [
+    "Brightmind Partners, a two-year-old cybersecurity VC firm, is raising a second $250 million fund.",
+    "Co-founder Stephen Ward spent nine years in the Secret Service.",
+    "He openly says investors should sell stakes on the way up, not wait for IPOs."
+   ],
+   "joke": "From catching hackers to funding the people who stop them.",
+   "vc": "Specialist cyber funds keep growing as AI makes attacks more common.",
+   "url": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
+   "linkLabel": "TechCrunch",
+   "color": "#0e7490",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-09-m5",
+   "section": "money",
+   "source": "Business Today",
+   "kicker": "Gold",
+   "emoji": "🪙",
+   "stat": "$3,800–4,000",
+   "statLabel": "gold's recent range per ounce",
+   "headline": "Jefferies: an AI spending slump could spark the next gold rally",
+   "body": [
+    "Jefferies' Christopher Wood says gold could rally if the AI investment boom slows sharply.",
+    "That could weaken the US economy and push the Fed to cut rates.",
+    "Gold has been trading near the low end of $3,800-4,000 an ounce."
+   ],
+   "joke": "Gold: the asset that wins when the robots lose.",
+   "vc": "A gold rebound would help Indian households, who hold huge amounts of the metal.",
+   "url": "https://www.businesstoday.in/markets/story/gold-at-3800-4000-could-an-ai-spending-crash-trigger-the-next-bullion-rally-jefferies-explains-566338-2026-11-07",
+   "linkLabel": "Business Today",
+   "color": "#ca8a04",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Gold_ingot_and_bar_of_Banque_de_France.jpg/1280px-Gold_ingot_and_bar_of_Banque_de_France.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Ibex73 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Gold_ingot_and_bar_of_Banque_de_France.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-09-v1",
+   "section": "women",
+   "source": "The Hindu",
+   "kicker": "Karnataka",
+   "emoji": "🥛",
+   "stat": "58.5%",
+   "statLabel": "of KMF milk suppliers are women",
+   "headline": "Women are most of Karnataka's milk suppliers, and gain from price hike",
+   "body": [
+    "About 5.85 lakh of KMF's 10 lakh active milk suppliers are women, KMF data shows.",
+    "The recent milk price hike gives them steadier income, a Bamul leader says.",
+    "Many use it for loans, health care and children's education."
+   ],
+   "joke": "",
+   "vc": "Dairy co-operatives are one of rural India's biggest sources of income for women.",
+   "url": "https://www.thehindu.com/news/national/karnataka/women-make-up-585-of-kmfs-milk-suppliers-benefit-from-price-hike/article71678378.ece",
+   "linkLabel": "The Hindu",
+   "color": "#065f46",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-09-v2",
+   "section": "women",
+   "source": "The Wire",
+   "kicker": "Work",
+   "emoji": "📊",
+   "stat": "~12%",
+   "statLabel": "of Indian managers are women",
+   "headline": "Women run fewer than 1 in 10 South Asian firms, says ILO",
+   "body": [
+    "Fewer than one in ten firms in South Asia are led by women, a new ILO report says.",
+    "India is near the bottom in Asia-Pacific for women in management, above only Pakistan and Bangladesh.",
+    "Globally, women hold under a third of management jobs."
+   ],
+   "joke": "",
+   "vc": "The ILO says firms led by women report better business results, a case for investors to push change.",
+   "url": "https://m.thewire.in/article/women/women-lead-fewer-than-one-in-10-firms-in-south-asia-india-sits-near-bottom-of-the-list-ilo-report",
+   "linkLabel": "The Wire",
+   "color": "#6b21a8",
+   "font": "editorial"
+  },
+  {
+   "id": "2026-11-09-v3",
+   "section": "women",
+   "source": "BBC",
+   "kicker": "Somalia",
+   "emoji": "🏖️",
+   "stat": "23",
+   "statLabel": "year-old tour guide",
+   "headline": "A young Somali woman is changing how tourists see Mogadishu",
+   "body": [
+    "Sucdi Abdul Fattah Abdul Khader, 23, is one of a growing number of local guides in Mogadishu.",
+    "She shows visitors beaches, historic sites and the fish market.",
+    "She wants the world to see more than violence when it thinks of her city."
+   ],
+   "joke": "",
+   "vc": "Women in tourism jobs help build a new industry in a country rebuilding after conflict.",
+   "url": "https://www.bbc.com/news/articles/cq0k0lg48705o",
+   "linkLabel": "BBC",
+   "color": "#0369a1",
+   "font": "editorial",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Mogadishu_Liido_beach.JPG/1280px-Mogadishu_Liido_beach.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Khadija Isse / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Mogadishu_Liido_beach.JPG",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-09-h1",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Karnataka",
+   "emoji": "🏥",
+   "stat": "100 → 220",
+   "statLabel": "beds at Puttur hospital",
+   "headline": "Puttur hospital to grow to 220 beds for a new medical college",
+   "body": [
+    "Puttur Government Hospital in Karnataka will expand from 100 to 220 beds.",
+    "It is preparing for a new government medical college due in 2027-28.",
+    "Classes could start in November 2027 with 50 students, in a temporary building."
+   ],
+   "joke": "",
+   "vc": "New government medical colleges add both doctors and hospital beds in smaller towns.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/puttur-government-medical-college-expected-to-begin-operations-in-2027-28-182740",
+   "linkLabel": "Medical Dialogues",
+   "color": "#0c4a6e",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-09-h2",
+   "section": "health",
+   "source": "Amma.org",
+   "kicker": "Mysuru",
+   "emoji": "🏨",
+   "stat": "15 → 115",
+   "statLabel": "beds at Amrita Kripa hospital",
+   "headline": "Mysuru's Amrita Kripa hospital opens a new 100-bed block",
+   "body": [
+    "Amrita Kripa Multi-speciality Hospital in Mysuru opened a new 100-bed block.",
+    "It adds an ICU, modular operating theatres and dialysis units.",
+    "Bengaluru Rural MP Dr C.N. Manjunath opened it."
+   ],
+   "joke": "",
+   "vc": "Charity-run hospitals add critical-care beds in suburbs, easing pressure on city hospitals.",
+   "url": "https://amma.org/news/bharat-yatra-2026-amma-embraces-mysuru/",
+   "linkLabel": "Amma.org",
+   "color": "#881337",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-09-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Delhi",
+   "emoji": "🎆",
+   "stat": "25",
+   "statLabel": "extra emergency beds for Diwali",
+   "headline": "Delhi's GTB Hospital adds 25 emergency beds for Diwali",
+   "body": [
+    "GTB Hospital in Delhi set aside 25 extra beds for Diwali emergencies.",
+    "It sees 160-200 Diwali injury patients a year, mostly burns.",
+    "A special roster covers burns, plastic surgery and eye departments."
+   ],
+   "joke": "",
+   "vc": "Festival surges show why public hospitals need spare capacity built into their plans.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/gtb-hospital-earmarks-25-additional-beds-to-handle-emergencies-during-diwali-182828",
+   "linkLabel": "Medical Dialogues",
+   "color": "#9a3412",
+   "font": "news",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Guru_Tegh_Bahadur_Hospital_%28side_entry%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Vijayantgovinda / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Guru_Tegh_Bahadur_Hospital_(side_entry).jpg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-11-09-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "Brazil GP",
+   "emoji": "🏆",
+   "stat": "3rd",
+   "statLabel": "Norris win of 2026",
+   "headline": "Norris wins wet Brazil GP; Mercedes clinch constructors' title",
+   "body": [
+    "Lando Norris won a wet-dry-wet Brazilian GP, his third win of the year.",
+    "Max Verstappen finished second after starting from the back.",
+    "Mercedes sealed the constructors' title, while champion Antonelli lost the lead with a spin."
+   ],
+   "joke": "Rain, spins and a back-of-grid charge: Brazil never disappoints.",
+   "vc": "A double title lifts Mercedes' prize money and sponsor value for 2027.",
+   "url": "https://www.autosport.com/f1/news/f1-brazilian-gp-lando-norris-wins-in-mixed-conditions-mercedes-clinches-constructors-title/10873048/",
+   "linkLabel": "Autosport",
+   "color": "#c2410c",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/2026_Chinese_GP_-_McLaren_-_Lando_Norris_-_Qualifying.jpg/1280px-2026_Chinese_GP_-_McLaren_-_Lando_Norris_-_Qualifying.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Liauzh / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_McLaren_-_Lando_Norris_-_Qualifying.jpg",
+    "license": "CC BY 4.0"
+   }
+  }
+ ]
+}
