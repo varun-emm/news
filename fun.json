@@ -1,321 +1,299 @@
 {
- "date": "2026-11-10",
- "generatedAt": "2026-11-10T03:48:26+05:30",
+ "date": "2026-11-11",
+ "generatedAt": "2026-11-11T03:54:51+05:30",
  "items": [
   {
-   "id": "2026-11-10-f1",
-   "type": "release",
-   "source": "TechCrunch",
-   "emoji": "🤖",
-   "color": "#1e1b4b",
-   "headline": "Anthropic releases Mythos 5.2 and Fable 5.2",
-   "caption": "Its newest top models, with better coding, reasoning and vision.",
-   "body": [
-    "Fable 5.2 drops to $8 per million input tokens and is about 30% faster.",
-    "It now supports zero data retention for business clients."
-   ],
-   "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-   "linkLabel": "TechCrunch",
-   "image": {
-    "url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2279025960.jpg?w=1024",
-    "credit": "TechCrunch",
-    "creditUrl": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-10-f2",
+   "id": "2026-11-11-f1",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🎧",
-   "color": "#1e3a8a",
-   "headline": "André 3000 scored his own Moncler campaign",
-   "caption": "He's the latest star in Moncler's Re/Icons 2026 series.",
-   "body": [
-    "It follows ads with Cher, Grace Jones and JENNIE.",
-    "Re/Icons now includes a full ready-to-wear line.",
-    "How to wear it: a bold puffer over simple layers."
-   ],
-   "url": "https://www.highsnobiety.com/p/moncler-andre-3000/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1794217273-moncler-reicons-andre-3000-01.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/moncler-andre-3000/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-10-f3",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "👟",
-   "color": "#27272a",
-   "headline": "Nike's tough Cordura P-6000 in 'Anthracite'",
-   "caption": "A quiet black dad shoe that repels water.",
-   "body": [
-    "Cordura gives military-grade toughness.",
-    "It looks rugged but stays simple.",
-    "How to wear it: with black jeans and a field jacket."
-   ],
-   "url": "https://www.highsnobiety.com/p/nike-p-6000-cordura-anthracite/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1794154157-nike-p-6000-cordura-anthracite-0.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/nike-p-6000-cordura-anthracite/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-10-f4",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "❄️",
+   "emoji": "🤎",
    "color": "#78350f",
-   "headline": "adidas turned the Campus into a cosy winter boot",
-   "caption": "The Campus 00s Winter goes laceless and fluffy.",
+   "headline": "A brown suede adidas Gazelle from two Japanese labels",
+   "caption": "ÉDIFICE and IÉNA make a flat-soled Gazelle Lo Pro.",
    "body": [
-    "It keeps the chunky skate-shoe shape.",
-    "It looks a lot like an UGG.",
-    "How to wear it: with joggers on cold weekends."
+    "Rich brown suede with gold branding.",
+    "They've done the Tokyo and long-tongue Samba before.",
+    "How to wear it: with cream trousers and a navy knit."
    ],
-   "url": "https://www.highsnobiety.com/p/adidas-campus-00s-winter/",
+   "url": "https://www.highsnobiety.com/p/edifice-iena-adidas-gazelle-lo-pro/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1794248315-adidas-campus-00s-winter-0.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1794334378-edifice-iena-adidas-gazelle-lo-pro-0.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/adidas-campus-00s-winter/",
+    "creditUrl": "https://www.highsnobiety.com/p/edifice-iena-adidas-gazelle-lo-pro/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-10-f5",
+   "id": "2026-11-11-f2",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🧥",
-   "color": "#0f172a",
-   "headline": "Vans made the Slip-On into a puffer snow boot",
-   "caption": "The Mid-Slip Puff has padded uppers and a fur collar.",
+   "emoji": "🗽",
+   "color": "#991b1b",
+   "headline": "Supreme is now official merch maker for New York City",
+   "caption": "The brand signed a licensing deal with the city government.",
    "body": [
-    "All-Trac soles grip icy streets.",
-    "It's the classic slip-on, winterised.",
-    "How to wear it: with cargo pants and thick socks."
+    "Supreme will make city-official NYC merchandise.",
+    "Highsnobiety calls it Supreme's greatest collab.",
+    "How to wear it: one logo piece, everything else plain."
    ],
-   "url": "https://www.highsnobiety.com/p/vans-mid-slip-puff-shoe/",
+   "url": "https://www.highsnobiety.com/p/supreme-nyc-merchandising-new-deal/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1794248703-vans-mid-slip-puff-shoe-0.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1794327014-realhero_gettyimages-2123614358.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/vans-mid-slip-puff-shoe/",
+    "creditUrl": "https://www.highsnobiety.com/p/supreme-nyc-merchandising-new-deal/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-10-f6",
+   "id": "2026-11-11-f3",
    "type": "fashion",
-   "source": "GQ",
-   "emoji": "🎸",
-   "color": "#18181b",
-   "headline": "Jamie Campbell Bower's real-life wardrobe",
-   "caption": "He only wears suits if they're McQueen.",
+   "source": "Highsnobiety",
+   "emoji": "🐰",
+   "color": "#be185d",
+   "headline": "A Lola Bunny Air Jordan 3 for Space Jam's 30th",
+   "caption": "Clean white leather with soft pink fades.",
    "body": [
-    "The Stranger Things actor talks about his rock-star style icons.",
-    "He's heading to The Rings of Power next.",
-    "Style lesson: if you wear a suit, make it count."
+    "Lola Bunny appears on the insoles.",
+    "It follows a Bugs Bunny pair.",
+    "How to wear it: with light denim to let the pink pop."
    ],
-   "url": "https://www.gq.com/story/real-life-wardrobe-jamie-campbell-bower",
-   "linkLabel": "GQ",
+   "url": "https://www.highsnobiety.com/p/jordan-3-space-jam-lola-bunny/",
+   "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://media.gq.com/photos/6aecddfcbcfec91bcd074896/16:9/w_1280,c_limit/RLW-Social%20Template_bg%20color%20edit.jpg",
-    "credit": "GQ",
-    "creditUrl": "https://www.gq.com/story/real-life-wardrobe-jamie-campbell-bower",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1794334146-jordan-3-space-jam-lola-bunny-0.jpg",
+    "credit": "Highsnobiety",
+    "creditUrl": "https://www.highsnobiety.com/p/jordan-3-space-jam-lola-bunny/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-10-f7",
+   "id": "2026-11-11-f4",
    "type": "fashion",
    "source": "GQ UK",
-   "emoji": "👕",
-   "color": "#57534e",
-   "headline": "The basics Jeremy Allen White and Harry Styles love",
-   "caption": "They come from womenswear brand Leset.",
+   "emoji": "🕴️",
+   "color": "#1e293b",
+   "headline": "James Bond is an adidas guy",
+   "caption": "Daniel Craig wore Gazelles in 2012's Skyfall.",
    "body": [
-    "White wore Leset's layered long-sleeve tee.",
-    "GQ says sizes may now be hard to find.",
-    "How to wear it: a simple layered tee and straight jeans."
+    "The hunt for the next Bond continues.",
+    "GQ says whoever gets the role needs good sneakers too.",
+    "How to wear it: Gazelles with a slim suit, no socks showing."
    ],
-   "url": "https://www.gq-magazine.co.uk/article/leset-basics-brand-9-11-26",
+   "url": "https://www.gq-magazine.co.uk/article/james-bond-skyfall-adidas-gazelle-10-11-26",
    "linkLabel": "GQ UK",
    "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6af1ac078e256f2bdccc7c2f/16:9/w_1280,c_limit/041-basics.jpg",
+    "url": "https://media.gq-magazine.co.uk/photos/6af1ba44dde14aafbbadbdd8/16:9/w_1280,c_limit/039-Bond-Gazelle.jpg",
     "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/leset-basics-brand-9-11-26",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/james-bond-skyfall-adidas-gazelle-10-11-26",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-10-f8",
+   "id": "2026-11-11-f5",
+   "type": "fashion",
+   "source": "GQ UK",
+   "emoji": "🏆",
+   "color": "#0f172a",
+   "headline": "GQ Men of the Year 2026 is on 17 November",
+   "caption": "The 29th edition of Britain's big menswear night.",
+   "body": [
+    "It celebrates the year's top names in culture.",
+    "It takes place in London.",
+    "Style lesson: black tie, done properly."
+   ],
+   "url": "https://www.gq-magazine.co.uk/article/men-of-the-year-2026-everything-you-need-to-know",
+   "linkLabel": "GQ UK",
+   "image": {
+    "url": "https://media.gq-magazine.co.uk/photos/6aee01b62aca8ecf5aca9bc6/16:9/w_1280,c_limit/MOTY_HEADER.mp4",
+    "credit": "GQ UK",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/men-of-the-year-2026-everything-you-need-to-know",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-11-f6",
    "type": "fashion",
    "source": "Esquire UK",
    "emoji": "🧥",
    "color": "#365314",
-   "headline": "15 affordable coats that look expensive",
-   "caption": "Esquire's pick of outerwear that won't break your budget.",
+   "headline": "The 4 coats every man needs, according to Tom Hardy",
+   "caption": "From Bane's shearling to Alfie Solomons' black overcoat.",
    "body": [
-    "Great coats make great screen style, from Casablanca to The Matrix.",
-    "These look pricier than they are.",
-    "How to wear it: a dark wool coat over everything."
+    "Esquire picks his best outerwear moments.",
+    "And shows how to recreate each.",
+    "How to wear it: one shearling, one overcoat, done."
    ],
-   "url": "https://www.esquire.com/uk/style/fashion/a74358540/best-affordable-mens-coats/",
+   "url": "https://www.esquire.com/uk/style/fashion/a74343563/tom-hardy-jackets/",
    "linkLabel": "Esquire UK",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/e1e4e9ab-8359-4f32-820d-87fc426c4aa2.jpg?crop=1.00xw:0.627xh;0,0.185xh&resize=1200:*",
+    "url": "https://hips.hearstapps.com/hmg-prod/images/e7a76531-1708-4b17-b501-2b7c70c3d93f.jpeg?crop=1.00xw:0.751xh;0,0.0756xh&resize=1200:*",
     "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74358540/best-affordable-mens-coats/",
+    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74343563/tom-hardy-jackets/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-10-f9",
+   "id": "2026-11-11-f7",
    "type": "fashion",
    "source": "Esquire UK",
-   "emoji": "🕶️",
-   "color": "#7c2d12",
-   "headline": "King Charles' all-year sunglasses",
-   "caption": "The King keeps wearing the same American-made shades.",
+   "emoji": "⏱️",
+   "color": "#4c1d95",
+   "headline": "Your guide to the Rolex Daytona",
+   "caption": "The world's most wanted watch, and how to buy one.",
    "body": [
-    "Esquire says he likes what he likes.",
-    "His favourites come from brand Serengeti.",
-    "Style lesson: find one great pair and stick with it."
+    "A steel Daytona now sells for about £11,000 over list price.",
+    "Four Daytonas fetched £37.3 million at one charity auction.",
+    "Style lesson: buy the watch you'll actually wear."
    ],
-   "url": "https://www.esquire.com/uk/style/fashion/a74357643/king-charles-cant-get-enough-of-these-all-year-round-sunglasses/",
+   "url": "https://www.esquire.com/uk/watches/a74338205/rolex-daytona/",
    "linkLabel": "Esquire UK",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/0fb84f51-2697-4a6e-940a-8d253c03aebe.jpg?crop=1xw:0.75xh;center,top&resize=1200:*",
+    "url": "https://hips.hearstapps.com/hmg-prod/images/4afaf3e6-7de2-4e15-806e-7fb6552b6fca.jpg?crop=1.00xw:0.401xh;0,0.329xh&resize=1200:*",
     "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74357643/king-charles-cant-get-enough-of-these-all-year-round-sunglasses/",
+    "creditUrl": "https://www.esquire.com/uk/watches/a74338205/rolex-daytona/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-10-f10",
+   "id": "2026-11-11-f8",
+   "type": "fashion",
+   "source": "Esquire UK",
+   "emoji": "🎬",
+   "color": "#57534e",
+   "headline": "Tom Hardy's 'Inception' wardrobe still holds up",
+   "caption": "Prints, great trousers and a mystery vintage watch.",
+   "body": [
+    "Esquire revisits his Eames look 16 years on.",
+    "It's relaxed but sharp.",
+    "How to wear it: a printed shirt with tailored trousers."
+   ],
+   "url": "https://www.esquire.com/uk/style/fashion/a74332112/tom-hardy-inception-wardrobe/",
+   "linkLabel": "Esquire UK",
+   "image": {
+    "url": "https://hips.hearstapps.com/hmg-prod/images/d781731e-593d-4f66-9c4d-b350dde16ae8.jpg?crop=1xw:0.3915929203539823xh;center,top&resize=1200:*",
+    "credit": "Esquire UK",
+    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74332112/tom-hardy-inception-wardrobe/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-11-f9",
    "type": "fashion",
    "source": "Hodinkee",
    "emoji": "⌚",
    "color": "#334155",
-   "headline": "Ming's 'Halo' rethinks the dress watch",
-   "caption": "A stripped-down 51.01 in crystallised titanium.",
+   "headline": "Vacheron's Fiftysix goes grey",
+   "caption": "A new grey two-tone dial and a complete calendar model.",
    "body": [
-    "It's a new material and case for Ming.",
-    "Hodinkee calls it a dramatic departure.",
-    "Style lesson: a dress watch should be slim and quiet."
+    "Both have 40mm steel cases.",
+    "The self-winding one is Vacheron's most affordable watch.",
+    "Style lesson: grey goes with everything."
    ],
-   "url": "https://www.hodinkee.com/articles/ming-5101-halo",
+   "url": "https://www.hodinkee.com/articles/intro-vacheron-fiftysix",
    "linkLabel": "Hodinkee",
    "image": {
-    "url": "https://hodinkee.imgix.net/uploads/articles/43e419c8-8352-4883-a0f6-f60225a29af3/5101-Halo_01.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
+    "url": "https://hodinkee.imgix.net/uploads/images/80eb59b2-f6ba-47ff-8ae3-abf4b8941194/FiftySix_4600E-4000E_Duo_StillLife_Crop_16x9.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
     "credit": "Hodinkee",
-    "creditUrl": "https://www.hodinkee.com/articles/ming-5101-halo",
+    "creditUrl": "https://www.hodinkee.com/articles/intro-vacheron-fiftysix",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-10-f11",
+   "id": "2026-11-11-f10",
    "type": "fashion",
    "source": "Hodinkee",
-   "emoji": "🎨",
-   "color": "#166534",
-   "headline": "Awake adds lacquer-art 'Silver Leaf' watches",
-   "caption": "Three new colours plus a 200-piece limited edition.",
+   "emoji": "🏎️",
+   "color": "#0c4a6e",
+   "headline": "Albishorn's second watch: the Voisin Aérosport",
+   "caption": "A small brand's possible breakout release.",
    "body": [
-    "The Sơn Mài dials are a Métiers d'Art lacquer craft.",
-    "Colours: Java Green, Gentian Blue, Indian Red and Purple Viola.",
-    "Style lesson: let the dial be the jewellery."
+    "Albishorn is run by chronograph collector Sébastien Chaulmontet.",
+    "Its first model was an affordable, clever chronograph.",
+    "Style lesson: small brands often have the best ideas."
    ],
-   "url": "https://www.hodinkee.com/articles/awake-son-mai-silver-leaf-collection",
+   "url": "https://www.hodinkee.com/articles/introducing-albishorn-voisin-aerosport",
    "linkLabel": "Hodinkee",
    "image": {
-    "url": "https://hodinkee.imgix.net/uploads/articles/ddca5c70-862b-4794-8481-7d4541477d12/a-h.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
+    "url": "https://hodinkee.imgix.net/uploads/articles/236af23a-f8a5-4ce3-bca3-589af55c6143/20261108_AlbishornVoisinAerosport_025.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
     "credit": "Hodinkee",
-    "creditUrl": "https://www.hodinkee.com/articles/awake-son-mai-silver-leaf-collection",
+    "creditUrl": "https://www.hodinkee.com/articles/introducing-albishorn-voisin-aerosport",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-10-f12",
+   "id": "2026-11-11-f11",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🐟",
-   "color": "#0369a1",
-   "headline": "A dredging ban brought sea life back to the Summer Isles",
-   "caption": "Protected pink seaweed now shelters fish, whales and dolphins.",
-   "body": [
-    "Locals pushed for the ban on scallop dredging 10 years ago.",
-    "Residents call it the best thing to happen to the islands."
-   ],
-   "url": "https://www.goodnewsnetwork.org/fish-stocks-thrive-thanks-to-this-strange-seaweed-and-locals-who-protected-it/",
-   "linkLabel": "GNN",
-   "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Maerl-beds-in-French-waters-credit-Olivier-Dugornay-CC-4.0.-BY.jpg",
-    "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/fish-stocks-thrive-thanks-to-this-strange-seaweed-and-locals-who-protected-it/",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-11-10-f13",
-   "type": "good",
-   "source": "Good News Network",
-   "emoji": "✨",
-   "color": "#312e81",
-   "headline": "Glowworms return after 100 years, thanks to a garden shed",
-   "caption": "Volunteer Peter Cooper breeds glowworms and releases the larvae.",
-   "body": [
-    "They're back in a North Yorkshire reserve.",
-    "The reserve's manager credits his passion."
-   ],
-   "url": "https://www.goodnewsnetwork.org/glowworms-shine-again-in-the-uk-from-larvae-reared-pro-bono-in-garden-shed/",
-   "linkLabel": "GNN",
-   "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/glowworms-unsplash.jpg",
-    "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/glowworms-shine-again-in-the-uk-from-larvae-reared-pro-bono-in-garden-shed/",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-11-10-f14",
-   "type": "good",
-   "source": "Good News Network",
-   "emoji": "💀",
+   "emoji": "🔴",
    "color": "#9a3412",
-   "headline": "Halloween skeletons cheered a woman through cancer treatment",
-   "caption": "A yard of posed skeletons brightened her weekly drive.",
+   "headline": "Volcanic gas on Mars could point to life",
+   "caption": "Scientists found hydrogen chloride seeping from Martian volcanic rifts.",
    "body": [
-    "The homeowner had received hate mail for his hobby.",
-    "Tammy Wyche loved the creativity on her way to treatment."
+    "It suggests Mars is sleeping, not geologically dead.",
+    "Magma meeting groundwater could create warm, habitable spots."
    ],
-   "url": "https://www.goodnewsnetwork.org/mans-halloween-skeletons-prove-perfect-treat-to-woman-battling-breast-cancer/",
+   "url": "https://www.goodnewsnetwork.org/martian-volcanic-discovery-could-be-smoking-gun-in-search-for-life/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/maxresdefault-3.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/new-evidence-of-1629186.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/mans-halloween-skeletons-prove-perfect-treat-to-woman-battling-breast-cancer/",
+    "creditUrl": "https://www.goodnewsnetwork.org/martian-volcanic-discovery-could-be-smoking-gun-in-search-for-life/",
+    "preview": true
+   },
+   "embed": true
+  },
+  {
+   "id": "2026-11-11-f12",
+   "type": "good",
+   "source": "Good News Network",
+   "emoji": "💛",
+   "color": "#a16207",
+   "headline": "Strangers raised $76,000 for a struggling caregiver",
+   "caption": "A doorbell video of a pizza delivery went viral.",
+   "body": [
+    "Suzanna Metcalf cares for her 82-year-old mother.",
+    "The money helps support her."
+   ],
+   "url": "https://www.goodnewsnetwork.org/viral-video-raises-76000-for-caregiver/",
+   "linkLabel": "GNN",
+   "image": {
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/seiwert-ring-camera-.webp",
+    "credit": "Good News Network",
+    "creditUrl": "https://www.goodnewsnetwork.org/viral-video-raises-76000-for-caregiver/",
+    "preview": true
+   },
+   "embed": true
+  },
+  {
+   "id": "2026-11-11-f13",
+   "type": "good",
+   "source": "Good News Network",
+   "emoji": "🐶",
+   "color": "#166534",
+   "headline": "Boy with autism found safe after 3 days missing",
+   "caption": "Six-year-old Roman Heilman walked out of the bushes with a little dog.",
+   "body": [
+    "A horse-trail rider spotted him in Kentucky.",
+    "He was singing 'Old McDonald'."
+   ],
+   "url": "https://www.goodnewsnetwork.org/nothing-short-of-a-miracle-rescuers-find-boy-with-autism-missing-for-3-days/",
+   "linkLabel": "GNN",
+   "image": {
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/supplied-to-local-news-via-WOWK-13.jpg",
+    "credit": "Good News Network",
+    "creditUrl": "https://www.goodnewsnetwork.org/nothing-short-of-a-miracle-rescuers-find-boy-with-autism-missing-for-3-days/",
     "preview": true
    },
    "embed": true

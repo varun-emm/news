@@ -1,0 +1,438 @@
+{
+ "date": "2026-11-10",
+ "generatedAt": "2026-11-10T03:48:26+05:30",
+ "stories": [
+  {
+   "id": "2026-11-10-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Iran war",
+   "emoji": "🕊️",
+   "stat": "7",
+   "statLabel": "Iranian demands to end the war",
+   "headline": "Trump says new Iran strikes unlikely as peace talks continue",
+   "body": [
+    "Trump says renewed strikes on Iran are unlikely while talks to end the war make progress.",
+    "Iran reported more US strikes on Qeshm island overnight, and insists its seven demands stand.",
+    "Oil prices dipped after Brent fell 17% last week."
+   ],
+   "joke": "",
+   "vc": "A real deal would ease oil prices, a big relief for India's import bill.",
+   "url": "https://www.aljazeera.com/news/2026/11/9/iran-stands-by-demands-to-end-the-war-as-us-ramps-up-military-pressure",
+   "linkLabel": "Al Jazeera",
+   "color": "#7c2d12",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/QeshmIsland_NASA.jpg/1280px-QeshmIsland_NASA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "NASA image using data provided courtesy of the University of / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:QeshmIsland_NASA.jpg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-11-10-w2",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "France",
+   "emoji": "💶",
+   "stat": "+1.6%",
+   "statLabel": "minimum wage rise, now from 1 Dec",
+   "headline": "France brings forward its minimum wage rise to calm protests",
+   "body": [
+    "France will raise its minimum wage by 1.6% from 1 December, a month earlier than planned.",
+    "That lifts it by €24 to about €1,502 a month.",
+    "Unions say it's not enough after weeks of protests over living costs."
+   ],
+   "joke": "€24 a month: enough for a baguette a day, roughly.",
+   "vc": "Wage concessions in France could spread pay pressure across Europe and keep rates higher.",
+   "url": "https://www.aljazeera.com/news/2026/11/9/france-accelerates-minimum-wage-hike-in-bid-to-quell-protest",
+   "linkLabel": "Al Jazeera",
+   "color": "#1d4ed8",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-10-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "South Africa",
+   "emoji": "✈️",
+   "stat": "9",
+   "statLabel": "men stopped at Johannesburg airport",
+   "headline": "South Africa detains nine men suspected of heading to fight for Russia",
+   "body": [
+    "South African police arrested nine foreign nationals they suspect were going to fight in Russia's war on Ukraine.",
+    "The men, aged 20 to 26, were stopped at Johannesburg's airport and a nearby hotel.",
+    "Reports say many Africans have been tricked into joining Russia's forces."
+   ],
+   "joke": "",
+   "vc": "Recruitment scams exploit young job seekers, a sign of how scarce work is for them.",
+   "url": "https://www.aljazeera.com/news/2026/11/9/south-africa-detains-foreigners-suspected-of-heading-to-join-russian-forces",
+   "linkLabel": "Al Jazeera",
+   "color": "#065f46",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/O.R._Tambo_International_Airport_banner_aircraft.jpg/1280px-O.R._Tambo_International_Airport_banner_aircraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Simisa (talk · contribs) / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:O.R._Tambo_International_Airport_banner_aircraft.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-10-i1",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Markets",
+   "emoji": "💸",
+   "stat": "₹45,960 cr",
+   "statLabel": "foreign buying in 5 days",
+   "headline": "Foreign investors are back, buying ₹45,960 crore of Indian shares",
+   "body": [
+    "Foreign investors bought a net ₹45,960 crore of Indian shares in the week to 6 November.",
+    "That more than reversed October's ₹45,162 crore of selling.",
+    "The Nifty rose 8.6% over the period; it closed near 25,045 on Monday."
+   ],
+   "joke": "Foreign money: back from its holiday, wallet open.",
+   "vc": "Returning foreign money supports the rupee and helps companies raise capital.",
+   "url": "https://www.thehindu.com/business/Industry/early-november-trend-indicates-return-of-fpis-into-indian-equities/article71681716.ece",
+   "linkLabel": "The Hindu",
+   "color": "#047857",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1280px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Niyantha Shekhar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-10-i2",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Energy",
+   "emoji": "🛢️",
+   "stat": "40%",
+   "statLabel": "ONGC Videsh stake in San Cristobal",
+   "headline": "ONGC expects to run Venezuelan oil projects within 6 months",
+   "body": [
+    "ONGC Videsh is in advanced talks to take over running two Venezuelan oil projects.",
+    "It owns 40% of San Cristobal, alongside Venezuela's state oil company.",
+    "ONGC says it has the needed approvals, including US sanctions clearance."
+   ],
+   "joke": "Long-distance oil drilling, Indian edition.",
+   "vc": "Running fields abroad gives India more control over its oil supply.",
+   "url": "https://www.thehindu.com/business/Industry/ongc-expects-to-acquire-operatorship-rights-in-venezuelan-oil-projects-in-3-6-months-time/article71675482.ece",
+   "linkLabel": "The Hindu",
+   "color": "#334155",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-10-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Policy",
+   "emoji": "🌾",
+   "stat": "6",
+   "statLabel": "rice categories to declare",
+   "headline": "Centre orders traders to declare rice stocks as prices rise",
+   "body": [
+    "The Centre ordered rice traders, retailers and millers across India to declare their stocks weekly.",
+    "Rice prices are rising after a weak and uneven monsoon.",
+    "Five southern states may set stock limits to stop hoarding."
+   ],
+   "joke": "Rice: now tracked more closely than your parcel.",
+   "vc": "Stock limits can cool prices but squeeze traders' margins.",
+   "url": "https://www.thehindu.com/news/national/amid-price-rise-centre-mandates-rice-paddy-stock-declaration/article71675997.ece",
+   "linkLabel": "The Hindu",
+   "color": "#a16207",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-10-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI power",
+   "emoji": "⚡",
+   "stat": "$3.4B",
+   "statLabel": "on gas turbines",
+   "headline": "Anthropic buys $3.4B of gas turbines to power its AI",
+   "body": [
+    "Anthropic is spending $3.4 billion on Caterpillar natural gas generators, the FT reports.",
+    "They can produce up to 1.7 gigawatts of power.",
+    "The company usually rents computing, but power has become scarce."
+   ],
+   "joke": "Step one: build smart AI. Step two: buy a power plant.",
+   "vc": "AI labs owning power assets shows how energy is becoming the main bottleneck for AI.",
+   "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+   "linkLabel": "TechCrunch",
+   "color": "#18181b",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-10-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Clean energy",
+   "emoji": "🌋",
+   "stat": "$11.9B",
+   "statLabel": "contracted revenue",
+   "headline": "Geothermal firm Fervo now has about $12B in orders",
+   "body": [
+    "Fervo says it now has $11.9 billion of contracted revenue, up from $7.2 billion last quarter.",
+    "It is building a 396-megawatt plant for Google in Utah.",
+    "Its first 100-megawatt plant joined the grid this year."
+   ],
+   "joke": "Turns out the earth's basement has plenty of power.",
+   "vc": "AI's hunger for steady power is making geothermal an investable business.",
+   "url": "https://techcrunch.com/2026/11/09/fervo-now-has-12b-in-orders-for-its-geothermal-power-tech/",
+   "linkLabel": "TechCrunch",
+   "color": "#9a3412",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-10-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Funding",
+   "emoji": "⚙️",
+   "stat": "$1B → $3B",
+   "statLabel": "valuation in 8 months",
+   "headline": "AI hardware-testing startup Nominal triples value to $3B",
+   "body": [
+    "Nominal raised a $240 million Series C at a $3 billion valuation, led by Lightspeed.",
+    "Its AI platform helps test complex hardware like aircraft and reactors.",
+    "It has 80 customers, including defence firm Anduril."
+   ],
+   "joke": "Tripling in 8 months: the hardware is hard, the valuation isn't.",
+   "vc": "Defence and industrial AI is drawing some of the year's fastest valuation jumps.",
+   "url": "https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months/",
+   "linkLabel": "TechCrunch",
+   "color": "#4c1d95",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-10-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Nvidia",
+   "emoji": "🔍",
+   "stat": "Probe",
+   "statLabel": "by Nvidia's board",
+   "headline": "Huang scandal puts Nvidia's China plans under scrutiny",
+   "body": [
+    "Jensen Huang's admitted affair with an alleged Chinese spy is complicating his push to sell AI chips to China.",
+    "Nvidia's independent directors are investigating, and Congress wants answers.",
+    "Huang also pulled out of a speaking event."
+   ],
+   "joke": "",
+   "vc": "China access matters for Nvidia's growth; tighter export rules would hit sales.",
+   "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+   "linkLabel": "TechCrunch",
+   "color": "#3f6212",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Jensen_huang_stanford_2026-04-30_029.jpg/1280px-Jensen_huang_stanford_2026-04-30_029.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Anderseidesvik / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_029.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-10-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Mobility",
+   "emoji": "🅿️",
+   "stat": "13,000",
+   "statLabel": "garages and lots",
+   "headline": "Uber launches parking bookings after buying SpotHero",
+   "body": [
+    "Uber now lets users book and pay for parking in major US cities.",
+    "It uses SpotHero's network of 13,000 garages and lots in 400+ cities.",
+    "Later, the spots could hold robotaxis between rides."
+   ],
+   "joke": "Uber found a way to profit even when you don't take an Uber.",
+   "vc": "Parking networks could become key real estate for robotaxi fleets.",
+   "url": "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/",
+   "linkLabel": "TechCrunch",
+   "color": "#0e7490",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Self_driving_Uber_prototype_in_San_Francisco.jpg/1280px-Self_driving_Uber_prototype_in_San_Francisco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Dllu / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Self_driving_Uber_prototype_in_San_Francisco.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-10-v1",
+   "section": "women",
+   "source": "NPR",
+   "kicker": "UK",
+   "emoji": "⚖️",
+   "stat": "10.5",
+   "statLabel": "years in prison",
+   "headline": "Russell Brand jailed for over 10 years for rape and sexual assault",
+   "body": [
+    "A London judge sentenced Russell Brand to 10 years and six months in prison.",
+    "He was found guilty of one count of rape and three of sexual assault involving four women.",
+    "Brand had denied all the charges."
+   ],
+   "joke": "",
+   "vc": "Big convictions push media firms to act faster on harassment complaints.",
+   "url": "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
+   "linkLabel": "NPR",
+   "color": "#44403c",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/London_Southwark_Crown_Court_%2850604622932%29.jpg/1280px-London_Southwark_Crown_Court_%2850604622932%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Jorge Franganillo / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:London_Southwark_Crown_Court_(50604622932).jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-10-v2",
+   "section": "women",
+   "source": "Indian Express",
+   "kicker": "India",
+   "emoji": "👮‍♀️",
+   "stat": "4",
+   "statLabel": "arrested",
+   "headline": "Woman IPS officer manhandled over Diwali crackers in Cuttack",
+   "body": [
+    "Odisha police arrested four people for allegedly manhandling IPS officer Ananya Awasthi in Cuttack.",
+    "She had stopped residents bursting crackers past the allowed time on Diwali night.",
+    "Firecrackers were allowed only from 7 to 9 pm."
+   ],
+   "joke": "",
+   "vc": "Attacks on women officers on duty add to calls for better protection in policing.",
+   "url": "https://indianexpress.com/article/india/odisha-ips-officer-assault-four-arrested-10956876/",
+   "linkLabel": "Indian Express",
+   "color": "#6b21a8",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-10-v3",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "US",
+   "emoji": "🗳️",
+   "stat": "24",
+   "statLabel": "years her mother couldn't vote",
+   "headline": "Black women's long fight restores voting rights in Virginia",
+   "body": [
+    "Virginians voted to end a Jim Crow-era law that blocked people with felony convictions from voting.",
+    "The change followed a decades-long effort led by Black women like Sheba Williams.",
+    "Williams lost her vote for nine years; her mother lost hers for 24."
+   ],
+   "joke": "",
+   "vc": "Restoring votes to ex-offenders can help them return to work and civic life.",
+   "url": "https://19thnews.org/2026/11/virginia-felony-voting-ballot-measure-black-women/",
+   "linkLabel": "The 19th",
+   "color": "#9d174d",
+   "font": "editorial",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Virginia_State_Capitol_late_morning.JPG/1280px-Virginia_State_Capitol_late_morning.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Martin Falbisoner / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Virginia_State_Capitol_late_morning.JPG",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-10-h1",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Telangana",
+   "emoji": "🏥",
+   "stat": "Dec 15",
+   "statLabel": "full opening expected after",
+   "headline": "Warangal's super speciality hospital nears full opening",
+   "body": [
+    "Telangana's health minister told officials to speed up final works at the Warangal Super Speciality Hospital.",
+    "Outpatient services were set to start on 20 October.",
+    "The chief minister is expected to open the full hospital after 15 December."
+   ],
+   "joke": "",
+   "vc": "A big public hospital in Warangal cuts trips to Hyderabad for specialist care.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/warangal-super-speciality-hospital-nears-inauguration-telangana-health-minister-directs-faster-completion-of-works-182848",
+   "linkLabel": "Medical Dialogues",
+   "color": "#0369a1",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-10-h2",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Telangana",
+   "emoji": "🏗️",
+   "stat": "9 of 25",
+   "statLabel": "hospital buildings done",
+   "headline": "Telangana to finish 25 new hospital buildings by March 2027",
+   "body": [
+    "Telangana says it will complete 25 hospital buildings under its secondary health care department by March 2027.",
+    "Nine are already finished.",
+    "The minister reviewed progress in Hyderabad on Monday."
+   ],
+   "joke": "",
+   "vc": "More district-level hospitals reduce crowding at big city hospitals.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/telangana-speeds-up-hospital-infrastructure-project-sets-march-2027-completion-target-for-25-buildings-182655",
+   "linkLabel": "Medical Dialogues",
+   "color": "#881337",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Telangana_Secretariat_4.jpg/1280px-Telangana_Secretariat_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Yakshitha / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Telangana_Secretariat_4.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-10-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Haryana",
+   "emoji": "👶",
+   "stat": "54 → 73",
+   "statLabel": "newborn ventilators",
+   "headline": "Haryana adds 19 newborn ventilators and mother-baby care units",
+   "body": [
+    "Haryana will add 19 neonatal ventilators to its 54, across 29 newborn care units, for about ₹7 crore.",
+    "It is also upgrading units so mothers can stay with their sick babies.",
+    "The aim is better emergency care for newborns."
+   ],
+   "joke": "",
+   "vc": "Better newborn units cut infant deaths, one of the best-value health investments.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/haryana-to-strengthen-newborn-care-with-19-more-ventilators-at-cost-of-rs-7-crore-182812",
+   "linkLabel": "Medical Dialogues",
+   "color": "#166534",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-10-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "McLaren",
+   "emoji": "🤝",
+   "stat": "9",
+   "statLabel": "career wins for Piastri",
+   "headline": "Oscar Piastri splits with manager Mark Webber",
+   "body": [
+    "Oscar Piastri and Mark Webber have ended their management deal by mutual agreement.",
+    "Webber had managed him since 2019 and helped move him from Alpine to McLaren.",
+    "Piastri has 9 wins and 6 poles in 88 starts."
+   ],
+   "joke": "Even the best partnerships need a pit stop.",
+   "vc": "A new manager could reshape Piastri's sponsorship and future contract talks.",
+   "url": "https://www.autosport.com/f1/news/oscar-piastri-splits-from-mark-webber-management/10873258/",
+   "linkLabel": "Autosport",
+   "color": "#c2410c",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/2026_Chinese_GP_-_McLaren_-_Oscar_Piastri_-_Qualifying.jpg/1280px-2026_Chinese_GP_-_McLaren_-_Oscar_Piastri_-_Qualifying.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Liauzh / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:2026_Chinese_GP_-_McLaren_-_Oscar_Piastri_-_Qualifying.jpg",
+    "license": "CC BY 4.0"
+   }
+  }
+ ]
+}
