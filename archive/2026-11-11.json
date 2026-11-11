@@ -1,0 +1,402 @@
+{
+ "date": "2026-11-11",
+ "generatedAt": "2026-11-11T03:54:51+05:30",
+ "stories": [
+  {
+   "id": "2026-11-11-w1",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Ukraine",
+   "emoji": "🤝",
+   "stat": "4½ yrs",
+   "statLabel": "length of the war",
+   "headline": "Russia and Ukraine hold first US-led talks in nine months",
+   "body": [
+    "Russia and Ukraine held US-mediated peace talks in Abu Dhabi, their first in nine months.",
+    "US Secretary of State Rubio called them very productive; Zelenskyy called them constructive.",
+    "Three earlier rounds this year brought no big breakthrough."
+   ],
+   "joke": "Nine months between meetings: even dentists check in more often.",
+   "vc": "Real progress would cut energy prices and open a huge rebuilding market in Ukraine.",
+   "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
+   "linkLabel": "NPR",
+   "color": "#1e3a8a",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-11-w2",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Indonesia",
+   "emoji": "🏛️",
+   "stat": "39",
+   "statLabel": "VP Gibran's age",
+   "headline": "Indonesia's vice president offers to resign",
+   "body": [
+    "Indonesia's Vice President Gibran Rakabuming Raka offered to resign in a meeting with President Prabowo.",
+    "Questions are growing about whether he was eligible for the job.",
+    "It is not yet clear if Prabowo accepted."
+   ],
+   "joke": "",
+   "vc": "Political turmoil at the top can unsettle investors in Southeast Asia's biggest economy.",
+   "url": "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility",
+   "linkLabel": "NPR",
+   "color": "#b91c1c",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-11-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Iran",
+   "emoji": "🚀",
+   "stat": "2,000 km",
+   "statLabel": "missile range limit lifted",
+   "headline": "Iran drops its 2,000 km limit on missile range",
+   "body": [
+    "Iran's Revolutionary Guards say they have lifted their self-imposed 2,000 km limit on ballistic missiles.",
+    "They did not say if Iran already has longer-range missiles.",
+    "Experts ask whether Iran now eyes targets beyond the Middle East."
+   ],
+   "joke": "",
+   "vc": "Higher military risk keeps oil prices and Gulf shipping insurance elevated.",
+   "url": "https://www.aljazeera.com/news/2026/11/10/iran-lifts-2000km-limit-on-its-ballistic-missiles-what-that-means",
+   "linkLabel": "Al Jazeera",
+   "color": "#7c2d12",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-11-i1",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Markets",
+   "emoji": "🏦",
+   "stat": "+1.5%",
+   "statLabel": "Nifty Bank",
+   "headline": "Bank stocks rise as markets pause after a big rally",
+   "body": [
+    "The Nifty Bank jumped 1.5% on Monday, led by public sector lenders.",
+    "The Nifty closed up 0.23% at 25,045, and the Sensex up 0.13% at 81,107.",
+    "Analysts expect some profit-taking after a 10% rally in seven sessions."
+   ],
+   "joke": "Markets took a breather. Banks didn't get the memo.",
+   "vc": "Strong bank shares show investors expect loan growth to keep lifting profits.",
+   "url": "https://www.thehindu.com/business/banking-stocks-rally-15-as-psu-lenders-lead-broader-markets-pause-after-six-day-bull-run/article71683059.ece",
+   "linkLabel": "The Hindu",
+   "color": "#047857",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-11-i2",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Deals",
+   "emoji": "💼",
+   "stat": "$535M",
+   "statLabel": "for ~16% of IIFL Finance",
+   "headline": "Blackstone to buy 16% of IIFL Finance for $535 million",
+   "body": [
+    "Blackstone will invest ₹5,000 crore for about 16% of lender IIFL Finance.",
+    "It is part of a ₹6,414 crore capital raise.",
+    "The money will lift IIFL's capital ratio to about 30% and fund gold loans."
+   ],
+   "joke": "Gold loans, now with Wall Street sparkle.",
+   "vc": "Big global funds buying into Indian lenders shows confidence in India's credit growth.",
+   "url": "https://www.thehindu.com/business/Industry/blackstone-to-buy-about-16-stake-in-indias-iifl-finance-for-535-million/article71687312.ece",
+   "linkLabel": "The Hindu",
+   "color": "#1e293b",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-11-i3",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Tamil Nadu",
+   "emoji": "⚠️",
+   "stat": "3",
+   "statLabel": "workers died",
+   "headline": "Three workers die from toxic gas at Tata's Hosur iPhone plant",
+   "body": [
+    "Three contract workers died after allegedly inhaling toxic gas at Tata Electronics' iPhone factory in Hosur, Tamil Nadu.",
+    "They were cleaning a tank at the plant's effluent treatment unit.",
+    "The incident raises questions about worker safety in Apple's India supply chain."
+   ],
+   "joke": "",
+   "vc": "Safety lapses can hurt Apple suppliers' push to scale up in India.",
+   "url": "https://inc42.com/buzz/three-workers-die-after-inhaling-toxic-gases-at-tatas-tn-iphone-factory/",
+   "linkLabel": "Inc42",
+   "color": "#44403c",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Hosur_City.JPG/1280px-Hosur_City.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Nileshantony92 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Hosur_City.JPG",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-11-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "IPO",
+   "emoji": "📈",
+   "stat": "$1.404T",
+   "statLabel": "top-end valuation",
+   "headline": "Anthropic sets IPO price range, aiming for $1.4 trillion",
+   "body": [
+    "Anthropic plans to sell 825 million shares at $70 to $78 each.",
+    "That would raise up to $64 billion and value it at up to $1.404 trillion.",
+    "Each of its seven founders will sell shares worth about $250 million."
+   ],
+   "joke": "Seven founders, seven quarter-billion paydays.",
+   "vc": "The biggest IPO ever would test how much public investors will pay for AI.",
+   "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+   "linkLabel": "TechCrunch",
+   "color": "#18181b",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854098999333%29.jpg/1280px-Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854098999333%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Department for Science, Innovation and Technology / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._(54098999333).jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-11-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Health tech",
+   "emoji": "💍",
+   "stat": "$625M",
+   "statLabel": "deal value",
+   "headline": "Oura buys AI primary care startup Counsel Health for $625M",
+   "body": [
+    "Smart-ring maker Oura is buying Counsel Health, which mixes AI chat with real doctors.",
+    "Counsel's service has been inside the Oura app since June.",
+    "The deal comes weeks after Oura shelved its IPO."
+   ],
+   "joke": "Your ring will now ask how you're feeling, professionally.",
+   "vc": "Wearable makers buying care services shows a push into paid health care.",
+   "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+   "linkLabel": "TechCrunch",
+   "color": "#0f766e",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-11-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Nuclear",
+   "emoji": "⚛️",
+   "stat": "4",
+   "statLabel": "reactors approved",
+   "headline": "X-energy wins approval to build its first small nuclear reactors",
+   "body": [
+    "US regulators approved X-energy's permit to build four Xe-100 reactors at a Dow chemical plant in Texas.",
+    "Each makes 80 megawatts of power and 200 megawatts of heat.",
+    "It's the first such approval for an advanced reactor at a US industrial site."
+   ],
+   "joke": "Nuclear power, now available in a smaller size.",
+   "vc": "Small reactors could supply steady power for factories and AI data centres.",
+   "url": "https://techcrunch.com/2026/11/10/x-energy-gets-green-light-to-build-its-first-small-modular-nuclear-reactors/",
+   "linkLabel": "TechCrunch",
+   "color": "#3f6212",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-11-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI rules",
+   "emoji": "📜",
+   "stat": "72 hrs",
+   "statLabel": "to report safety incidents",
+   "headline": "New York's AI safety law starts covering OpenAI and Anthropic",
+   "body": [
+    "New York opened registration for big AI labs under its RAISE Act, due by 1 January 2027.",
+    "Labs with over $500 million revenue must publish safety plans and report serious incidents within 72 hours.",
+    "Fines can reach $1 million per violation."
+   ],
+   "joke": "Paperwork: the one thing AI can't skip.",
+   "vc": "State AI rules add compliance costs that investors will factor into AI lab valuations.",
+   "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+   "linkLabel": "TechCrunch",
+   "color": "#312e81",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-11-m5",
+   "section": "money",
+   "source": "The Hindu",
+   "kicker": "Chips",
+   "emoji": "🧠",
+   "stat": "~100",
+   "statLabel": "Google TPU customers",
+   "headline": "Google launches two new AI chips to challenge Nvidia",
+   "body": [
+    "Google unveiled two new TPU chip systems, one for secure AI inference and one for memory-heavy AI agents.",
+    "TPUs are Google's custom chips for training and running AI models.",
+    "Google's TPU business now has nearly 100 customers."
+   ],
+   "joke": "Nvidia's monopoly now has a Google-shaped dent.",
+   "vc": "More chip competition could lower AI costs and pressure Nvidia's margins.",
+   "url": "https://www.thehindu.com/business/Industry/google-launches-two-ai-chips-as-it-seeks-to-challenge-nvidias-dominance/article71686071.ece",
+   "linkLabel": "The Hindu",
+   "color": "#0369a1",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-11-v1",
+   "section": "women",
+   "source": "Medical Dialogues",
+   "kicker": "West Bengal",
+   "emoji": "🛡️",
+   "stat": "Abhaya",
+   "statLabel": "new name for harassment panels",
+   "headline": "Bengal renames hospital harassment panels 'Abhaya Committees'",
+   "body": [
+    "West Bengal will rename workplace harassment committees in its hospitals and medical colleges as 'Abhaya Committees'.",
+    "The name honours the doctor raped and murdered at RG Kar hospital.",
+    "The health minister ordered one set up at once at Kalyani's medical college."
+   ],
+   "joke": "",
+   "vc": "Working complaint committees reduce legal risk and help hospitals keep women staff.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/west-bengal-to-rename-workplace-harassment-panels-as-abhaya-committees-in-medical-colleges-183006",
+   "linkLabel": "Medical Dialogues",
+   "color": "#6b21a8",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-11-v2",
+   "section": "women",
+   "source": "NPR",
+   "kicker": "North Korea",
+   "emoji": "👑",
+   "stat": "Heir?",
+   "statLabel": "Kim Ju Ae's future role",
+   "headline": "Defectors see Kim Jong Un's daughter as his likely heir",
+   "body": [
+    "Many North Korean defectors believe Kim Jong Un's daughter, reportedly Kim Ju Ae, is being prepared as his heir.",
+    "State TV has often shown her beside her father.",
+    "She was last pictured with him at a military base in March."
+   ],
+   "joke": "",
+   "vc": "A clear succession plan matters for regional stability and markets in East Asia.",
+   "url": "https://www.npr.org/2026/11/10/g-s1-152795/like-gods-reigning-over-humans-many-defectors-see-daughter-of-north-koreas-kim-as-heir-apparent",
+   "linkLabel": "NPR",
+   "color": "#9d174d",
+   "font": "editorial"
+  },
+  {
+   "id": "2026-11-11-v3",
+   "section": "women",
+   "source": "BBC",
+   "kicker": "Accountability",
+   "emoji": "⚖️",
+   "stat": "18",
+   "statLabel": "her age when first sent",
+   "headline": "Epstein survivor says her model agency put her in danger",
+   "body": [
+    "A woman raped by Jeffrey Epstein says her model agency sent her to photoshoots at his Florida home.",
+    "She was 18 and had just arrived in the US from Uzbekistan.",
+    "She wants the agency held accountable."
+   ],
+   "joke": "",
+   "vc": "Cases like this push agencies to adopt stronger safeguarding for young models.",
+   "url": "https://www.bbc.com/news/articles/cm86z6w59gggo",
+   "linkLabel": "BBC",
+   "color": "#57534e",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-11-h1",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Madhya Pradesh",
+   "emoji": "🎓",
+   "stat": "322",
+   "statLabel": "PG seats at MGM Indore",
+   "headline": "MGM Medical College Indore gets 39 more specialist seats",
+   "body": [
+    "MGM Medical College in Indore got approval for 39 more postgraduate seats across nine departments.",
+    "Its total PG seats rise to 322, the most in Madhya Pradesh.",
+    "It also offers 13 super-speciality seats."
+   ],
+   "joke": "",
+   "vc": "More specialist trainees mean more doctors for government hospitals in central India.",
+   "url": "https://medicaldialogues.in/news/education/medical-colleges/mgm-medical-college-indore-gets-39-new-pg-seats-total-intake-rises-to-322-182890",
+   "linkLabel": "Medical Dialogues",
+   "color": "#0c4a6e",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-11-h2",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Delhi",
+   "emoji": "👩‍⚕️",
+   "stat": "1,000+",
+   "statLabel": "vacant hospital posts",
+   "headline": "Court orders fast hiring for Delhi's 1,000+ empty hospital jobs",
+   "body": [
+    "The Delhi High Court told UPSC to start hiring for over 1,000 vacant doctor and staff posts in Delhi government hospitals.",
+    "It should not wait for the next yearly recruitment cycle, the court said.",
+    "Delhi must send revised hiring plans to UPSC within two weeks."
+   ],
+   "joke": "",
+   "vc": "Staff shortages mean beds go unused; filling posts unlocks existing hospital capacity.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/over-1000-hospital-posts-vacant-delhi-hc-directs-upsc-to-begin-recruitment-without-delay-182920",
+   "linkLabel": "Medical Dialogues",
+   "color": "#881337",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-11-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Bihar",
+   "emoji": "🏥",
+   "stat": "11,000+",
+   "statLabel": "health staff to be hired",
+   "headline": "Bihar to hire over 11,000 staff for public health facilities",
+   "body": [
+    "Bihar plans to hire more than 11,000 staff for its government health facilities.",
+    "The jobs cover medical support, technical, admin and clerical roles.",
+    "The official notice is expected in the last week of November."
+   ],
+   "joke": "",
+   "vc": "Better-staffed public hospitals can treat more patients locally instead of sending them to Patna or Delhi.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/bihar-health-department-plans-to-recruit-11000-staff-notification-likely-in-november-182758",
+   "linkLabel": "Medical Dialogues",
+   "color": "#065f46",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-11-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "Calendar",
+   "emoji": "🗓️",
+   "stat": "3",
+   "statLabel": "races left: Vegas, Qatar, Abu Dhabi",
+   "headline": "F1 drops Imola backup and sticks with its Gulf finale",
+   "body": [
+    "F1 will end 2026 with Las Vegas, Qatar and Abu Dhabi, dropping Imola as a backup finale.",
+    "The Iran war already cancelled Saudi Arabia and moved Bahrain's race to Malaysia.",
+    "F1 says safety comes first if the conflict escalates."
+   ],
+   "joke": "Imola gets the night off.",
+   "vc": "Keeping the Gulf races protects big hosting fees for F1's final weekends.",
+   "url": "https://www.autosport.com/f1/news/f1-2026-calendar-update-imola-off-the-table-no-plan-b-if-iran-war-escalates/10873643/",
+   "linkLabel": "Autosport",
+   "color": "#c2410c",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/WTCC08_Dino_ed_Enzo_Ferrari_Circuit_Imola.jpg/1280px-WTCC08_Dino_ed_Enzo_Ferrari_Circuit_Imola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "by Grantuking / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:WTCC08_Dino_ed_Enzo_Ferrari_Circuit_Imola.jpg",
+    "license": "CC BY 2.0"
+   }
+  }
+ ]
+}
