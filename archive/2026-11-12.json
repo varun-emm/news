@@ -1,0 +1,438 @@
+{
+ "date": "2026-11-12",
+ "generatedAt": "2026-11-12T03:47:00+05:30",
+ "stories": [
+  {
+   "id": "2026-11-12-w1",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Spain",
+   "emoji": "🏠",
+   "stat": "14 yrs",
+   "statLabel": "since Spain's last general strike",
+   "headline": "Millions strike across Spain over soaring rents",
+   "body": [
+    "Millions of Spanish workers walked out on Wednesday, shutting businesses and transport over rents and housing prices.",
+    "It was Spain's first general strike in 14 years, and the first driven mainly by housing.",
+    "A national election is due later this month."
+   ],
+   "joke": "When rent costs more than your salary, the strike plans itself.",
+   "vc": "Pressure for rent rules could hit property investors and landlords in Spain.",
+   "url": "https://www.npr.org/2026/11/11/nx-s1-6037314/spain-general-strike",
+   "linkLabel": "NPR",
+   "color": "#b91c1c",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-12-w2",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Congo",
+   "emoji": "🦠",
+   "stat": "11,042",
+   "statLabel": "Ebola cases",
+   "headline": "Congo's Ebola outbreak tops 11,000 cases",
+   "body": [
+    "Congo's Ebola outbreak has passed 11,000 cases, the government said.",
+    "5,387 people have died, nearly half of those infected.",
+    "It is the country's deadliest outbreak, declared in mid-May."
+   ],
+   "joke": "",
+   "vc": "Outbreaks this size strain aid budgets and slow trade and mining in the region.",
+   "url": "https://www.npr.org/2026/11/11/nx-s1-6037304/ebola-congo-outbreak",
+   "linkLabel": "NPR",
+   "color": "#3f3f46",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-12-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Iran war",
+   "emoji": "🌊",
+   "stat": "7",
+   "statLabel": "points in Iran's peace plan",
+   "headline": "Iran says Hormuz will never go back to pre-war rules",
+   "body": [
+    "Iran's top negotiator Ghalibaf says the Strait of Hormuz will never return to its pre-war status.",
+    "He says Iran and Oman have agreed to oversee the waterway, as part of Iran's seven-point peace plan.",
+    "Iran is waiting for a formal US reply."
+   ],
+   "joke": "",
+   "vc": "New rules over Hormuz could permanently raise shipping costs for oil importers like India.",
+   "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf",
+   "linkLabel": "Al Jazeera",
+   "color": "#7c2d12",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg/1280px-STS004-37-716_-_Strait_of_Hormuz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "NASA / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-11-12-i1",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Markets",
+   "emoji": "📈",
+   "stat": "+773",
+   "statLabel": "Sensex points",
+   "headline": "Sensex jumps 773 points as foreign money flows in",
+   "body": [
+    "The Sensex rose 773 points (0.95%) to 81,879, and the Nifty gained 0.84% to 25,255.",
+    "Foreign buying, strong results and softer oil prices helped.",
+    "Mahindra & Mahindra led with a 5% jump."
+   ],
+   "joke": "The market is back to its favourite exercise: going up.",
+   "vc": "Steady foreign inflows support the rupee and IPO pipeline.",
+   "url": "https://www.thehindu.com/business/markets/stock-markets-end-higher-sensex-and-nifty-jump-on-november-11-2026/article71689371.ece",
+   "linkLabel": "The Hindu",
+   "color": "#047857",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1280px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Niyantha Shekhar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-12-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Retail",
+   "emoji": "📱",
+   "stat": "-20%",
+   "statLabel": "Diwali smartphone sales volume",
+   "headline": "Diwali smartphone sales fall up to 20% as prices rise",
+   "body": [
+    "Phone shops sold 18-20% fewer phones over the five-day Diwali period, retailers' body AIMRA says.",
+    "Sales value held steady because phones cost more.",
+    "Memory chips are going to AI servers, pushing phone prices up."
+   ],
+   "joke": "AI ate your new phone's memory chip.",
+   "vc": "Rising part costs could squeeze phone makers' margins and offline retailers.",
+   "url": "https://inc42.com/buzz/retail-smartphone-sales-tanked-20-in-2026-diwali-season-aimra/",
+   "linkLabel": "Inc42",
+   "color": "#0e7490",
+   "font": "finance",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Mobile_phone_madness_Kochi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Esme Vos / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Mobile_phone_madness_Kochi.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-12-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Policy",
+   "emoji": "🔋",
+   "stat": "Ban",
+   "statLabel": "on battery black mass exports",
+   "headline": "India bans export of lithium battery 'black mass'",
+   "body": [
+    "India has barred exports of lithium-ion battery waste containing 'black mass'.",
+    "Black mass is the powder of lithium, nickel, cobalt and graphite left after recycling batteries.",
+    "The aim is to keep these minerals in India for EVs and electronics."
+   ],
+   "joke": "Even battery dust is now too valuable to export.",
+   "vc": "The ban is a boost for India's battery recycling startups.",
+   "url": "https://www.thehindu.com/business/govt-prohibits-export-of-unsorted-lithium-ion-batterywaste-scrap/article71688575.ece",
+   "linkLabel": "The Hindu",
+   "color": "#3f6212",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Battery_Recycling_Container.jpg/1280px-Battery_Recycling_Container.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Daniel Capilla / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Battery_Recycling_Container.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-12-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "OpenAI",
+   "emoji": "💰",
+   "stat": "$10B+",
+   "statLabel": "quarterly revenue",
+   "headline": "OpenAI's quarterly revenue tops $10B for the first time",
+   "body": [
+    "OpenAI's revenue passed $10 billion in a quarter for the first time, Bloomberg reports.",
+    "That is almost 50% more than the $6.7 billion reported for the second quarter.",
+    "Its operating losses also narrowed."
+   ],
+   "joke": "$10 billion in a quarter, and still not profitable. Classic AI.",
+   "vc": "Faster growth strengthens OpenAI's case for a possible 2027 IPO.",
+   "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+   "linkLabel": "TechCrunch",
+   "color": "#18181b",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Visit_of_OpenAI_representatives_to_the_European_Commission_-_P061880-380830.jpg/1280px-Visit_of_OpenAI_representatives_to_the_European_Commission_-_P061880-380830.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "European Commission - Photographer: Aurore Martignoni / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Visit_of_OpenAI_representatives_to_the_European_Commission_-_P061880-380830.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-12-m2",
+   "section": "money",
+   "source": "FT Unhedged",
+   "kicker": "Nvidia",
+   "emoji": "📉",
+   "stat": "Billions",
+   "statLabel": "wiped off Nvidia",
+   "headline": "Unhedged: can Nvidia's board rein in Jensen Huang?",
+   "body": [
+    "The FT's Unhedged says the Huang affair scandal has wiped billions off Nvidia's value.",
+    "It asks whether a board with no chair and no succession plan can control its CEO.",
+    "Congress also plans to call Huang to answer questions."
+   ],
+   "joke": "",
+   "vc": "Weak governance at the world's most important chipmaker is a risk for the whole AI trade.",
+   "url": "https://shows.acast.com/unhedged/episodes/nvidia-shares-down-as-huang-affair-scandal-deepens",
+   "linkLabel": "Unhedged",
+   "color": "#52525b",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Kevin McCarthy / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Nvidia_HQ.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-12-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI chips",
+   "emoji": "🇬🇧",
+   "stat": "$720M",
+   "statLabel": "Series C",
+   "headline": "UK chip startup Fractile raises $720M",
+   "body": [
+    "British AI chip startup Fractile raised a $720 million Series C, backed by the UK's Sovereign AI Fund.",
+    "It builds chips and software to run AI models faster and cheaper.",
+    "It is now one of the best-funded AI chip startups."
+   ],
+   "joke": "Britain wants its own chips. And not the fried kind.",
+   "vc": "Governments funding chip startups shows AI hardware is now a national priority.",
+   "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+   "linkLabel": "TechCrunch",
+   "color": "#1e3a8a",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/A_semiconductor_wafer_being_removed_from_processing_equipment.jpg/1280px-A_semiconductor_wafer_being_removed_from_processing_equipment.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "YouTube — Purdue Engineering / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:A_semiconductor_wafer_being_removed_from_processing_equipment.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-12-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI cloud",
+   "emoji": "☁️",
+   "stat": "+168%",
+   "statLabel": "CoreWeave revenue growth",
+   "headline": "CoreWeave asks customers to pay upfront to fund AI growth",
+   "body": [
+    "CoreWeave's revenue rose 168% to $3.66 billion, but it lost $709 million.",
+    "It now asks customers to prepay and uses shorter contracts.",
+    "It paid $846 million in interest last quarter."
+   ],
+   "joke": "Pay first, compute later.",
+   "vc": "If AI demand cools, firms like CoreWeave carrying heavy debt are most at risk.",
+   "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+   "linkLabel": "TechCrunch",
+   "color": "#0f766e",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "BalticServers.com / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-12-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Venture",
+   "emoji": "🌱",
+   "stat": "4.5%",
+   "statLabel": "of US VC money to first-time funds",
+   "headline": "First-time VC funds face their worst year in a decade",
+   "body": [
+    "First-time funds got just 4.5% of US venture fundraising this year, PitchBook says.",
+    "Established firms on their fourth fund or later took 88%.",
+    "Olaf Sakkers of RedBlue Capital is trying to beat the squeeze."
+   ],
+   "joke": "Venture capital: it's who you know, and how long you've known them.",
+   "vc": "Fewer new funds means fewer backers for unusual early-stage startups.",
+   "url": "https://techcrunch.com/2026/11/11/olaf-sakkers-is-betting-he-can-beat-the-emerging-manager-squeeze/",
+   "linkLabel": "TechCrunch",
+   "color": "#a16207",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Sand_Hill_Road_Eastbound_View.jpg/1280px-Sand_Hill_Road_Eastbound_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Coolcaesar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Sand_Hill_Road_Eastbound_View.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-12-v1",
+   "section": "women",
+   "source": "WAER",
+   "kicker": "Native nations",
+   "emoji": "👑",
+   "stat": "3 of 3",
+   "statLabel": "top Seneca posts held by women",
+   "headline": "Tina Abrams sworn in as Seneca Nation's first woman president",
+   "body": [
+    "Tina Abrams was sworn in as the Seneca Nation's first elected woman president.",
+    "All three of the nation's elected executive posts are now held by women.",
+    "She pledged to keep defending the nation's sovereignty."
+   ],
+   "joke": "",
+   "vc": "Tribal leaders control big gaming and land businesses, so leadership changes matter economically.",
+   "url": "https://www.waer.org/2026-11-10/abrams-sworn-in-as-first-female-seneca-nation-president-pledges-continued-sovereignty-fight",
+   "linkLabel": "WAER",
+   "color": "#9d174d",
+   "font": "editorial"
+  },
+  {
+   "id": "2026-11-12-v2",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "Campus safety",
+   "emoji": "⚖️",
+   "stat": "2",
+   "statLabel": "students in the earlier lawsuit",
+   "headline": "Cornell faces another sexual assault lawsuit",
+   "body": [
+    "A newly uncovered 2023 lawsuit says Cornell's Title IX office ignored repeated sexual assault complaints.",
+    "Two female students say the same male student assaulted them.",
+    "The case may go to trial next year."
+   ],
+   "joke": "",
+   "vc": "Lawsuits like this push universities to spend more on handling complaints properly.",
+   "url": "https://19thnews.org/2026/11/cornell-university-another-sexual-assault-lawsuit/",
+   "linkLabel": "The 19th",
+   "color": "#6b21a8",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-12-v3",
+   "section": "women",
+   "source": "LiveLaw",
+   "kicker": "India",
+   "emoji": "🏛️",
+   "stat": "Nov 23",
+   "statLabel": "new deadline for Centre's reply",
+   "headline": "Supreme Court gives Centre more time on Delhi women's safety plan",
+   "body": [
+    "The Supreme Court extended the Centre's deadline to 23 November in its own case on women's safety in Delhi.",
+    "The case began after a series of rapes in Delhi-NCR.",
+    "The government says it wants a plan that can work across the country."
+   ],
+   "joke": "",
+   "vc": "Safer public spaces help more women take up jobs, a big boost for India's workforce.",
+   "url": "https://www.livelaw.in/amp/news-updates/supreme-court-grants-union-government-file-meaningful-reply-557673",
+   "linkLabel": "LiveLaw",
+   "color": "#44403c",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-12-h1",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Deals",
+   "emoji": "💼",
+   "stat": "₹3,150 cr",
+   "statLabel": "Advent investment",
+   "headline": "CCI clears Advent's ₹3,150 crore bet on Yatharth Hospitals",
+   "body": [
+    "The competition regulator approved Advent International's ₹3,150 crore investment in Yatharth Hospitals.",
+    "Advent will hold a minority stake of 24.9%.",
+    "The money will fund Yatharth's hospital expansion across India."
+   ],
+   "joke": "",
+   "vc": "Big private equity cheques show investors expect strong growth in India's hospital sector.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/cci-clears-advent-internationals-rs-3150-crore-investment-in-yatharth-hospital/135727072",
+   "linkLabel": "ET HealthWorld",
+   "color": "#0369a1",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-12-h2",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "AIIMS",
+   "emoji": "🏥",
+   "stat": "18 of 22",
+   "statLabel": "new AIIMS fully working",
+   "headline": "New AIIMS hospitals pass 6 crore outpatient visits",
+   "body": [
+    "The new AIIMS hospitals have recorded over 6 crore OPD consultations since 2021-22.",
+    "Yearly visits rose from 50 lakh to nearly 1.45 crore in 2025-26.",
+    "18 of the 22 new AIIMS approved are fully functional."
+   ],
+   "joke": "",
+   "vc": "More regional AIIMS reduce the need to travel to Delhi for advanced care.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/new-aiims-hospitals-record-over-6-crore-opd-consultations-since-2021-22/135722784",
+   "linkLabel": "ET HealthWorld",
+   "color": "#881337",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-12-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Tamil Nadu",
+   "emoji": "🩺",
+   "stat": "4",
+   "statLabel": "new regional medical education heads",
+   "headline": "Tamil Nadu to create 4 regional directors for its medical colleges",
+   "body": [
+    "Tamil Nadu will create four Regional Directors of Medical Education and Research posts.",
+    "The state now has only one director, in Chennai, for its growing number of medical colleges.",
+    "The minister also opened a new photopheresis unit at the children's hospital in Chennai."
+   ],
+   "joke": "",
+   "vc": "Better oversight of public medical colleges improves training and hospital services across the state.",
+   "url": "https://medicaldialogues.in/state-news/tamil-nadu/tamil-nadu-to-create-4-regional-directors-of-medical-education-and-research-posts-182922",
+   "linkLabel": "Medical Dialogues",
+   "color": "#065f46",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-12-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "Engines",
+   "emoji": "🔧",
+   "stat": "2–4%",
+   "statLabel": "Mercedes' engine gap to Red Bull Ford",
+   "headline": "FIA's final engine review keeps Red Bull Ford as the benchmark",
+   "body": [
+    "The FIA's final 2026 review of its engine catch-up rules (ADUO) found no change.",
+    "Red Bull Ford remains the benchmark, so it gets no extra upgrades.",
+    "Ferrari, Audi and Honda, over 4% behind, keep their two extra upgrades for 2027."
+   ],
+   "joke": "Best engine, no upgrades. Winning has its penalties.",
+   "vc": "Catch-up rules shape how much makers spend on engines, and who wins in 2027.",
+   "url": "https://www.autosport.com/f1/news/fia-reveals-aduo-results-in-final-review-of-2026-f1-season/10873566/",
+   "linkLabel": "Autosport",
+   "color": "#c2410c",
+   "font": "impact"
+  }
+ ]
+}
