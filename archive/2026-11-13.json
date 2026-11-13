@@ -1,0 +1,432 @@
+{
+ "date": "2026-11-13",
+ "generatedAt": "2026-11-13T03:46:35+05:30",
+ "stories": [
+  {
+   "id": "2026-11-13-w1",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Ukraine",
+   "emoji": "🤝",
+   "stat": "2",
+   "statLabel": "US envoys in the Kremlin",
+   "headline": "Trump's envoys meet Putin after Ukraine talks",
+   "body": [
+    "US envoys Steve Witkoff and Jared Kushner met Vladimir Putin in the Kremlin.",
+    "They had just brokered two days of Russia-Ukraine talks in Abu Dhabi.",
+    "Washington wants new momentum towards ending the war."
+   ],
+   "joke": "Abu Dhabi on Tuesday, Moscow on Thursday: diplomacy's frequent-flyer season.",
+   "vc": "A ceasefire path would lower energy prices and open Ukraine's rebuilding market.",
+   "url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks",
+   "linkLabel": "NPR",
+   "color": "#1e3a8a",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Russia-2007-Moscow-Kremlin_Senate_at_night.jpg/1280px-Russia-2007-Moscow-Kremlin_Senate_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Godot13 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Russia-2007-Moscow-Kremlin_Senate_at_night.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-13-w2",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Gaza",
+   "emoji": "🏥",
+   "stat": "6",
+   "statLabel": "killed in hospital strike",
+   "headline": "Israeli strike on Gaza's Nasser Hospital kills six",
+   "body": [
+    "An Israeli airstrike hit Nasser Hospital in southern Gaza, killing six people including a surgeon and a 13-year-old boy.",
+    "Israel says it targeted a Hamas commander, who was not among the dead.",
+    "The strike hit the hospital's surgical wing."
+   ],
+   "joke": "",
+   "vc": "Attacks on hospitals deepen Gaza's health crisis and raise reconstruction costs.",
+   "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
+   "linkLabel": "NPR",
+   "color": "#44403c",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-13-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Mexico",
+   "emoji": "🚶",
+   "stat": "2x",
+   "statLabel": "tariffs Trump threatens",
+   "headline": "Migrant caravan heads for US; Trump threatens Mexico with tariffs",
+   "body": [
+    "A migrant caravan has set out from southern Mexico towards the US.",
+    "Many migrants say the Democrats' midterm wins gave them new hope.",
+    "Trump says Mexico must stop the caravans or face doubled tariffs."
+   ],
+   "joke": "",
+   "vc": "Tariff threats on Mexico could disrupt North American supply chains.",
+   "url": "https://www.aljazeera.com/news/2026/11/12/migrant-caravan-sets-out-from-southern-mexico-bound-for-us-after-midterms",
+   "linkLabel": "Al Jazeera",
+   "color": "#7c2d12",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-13-i1",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Economy",
+   "emoji": "🔺",
+   "stat": "6.1%",
+   "statLabel": "retail inflation in October",
+   "headline": "India's inflation crosses RBI's 6% limit for the first time in two years",
+   "body": [
+    "Retail inflation rose to 6.1% in October, above the RBI's upper limit of 6%.",
+    "Food and fuel led, but price rises have spread to nearly all sectors.",
+    "It's the highest since October 2024."
+   ],
+   "joke": "",
+   "vc": "Higher inflation makes RBI rate cuts unlikely and squeezes household budgets.",
+   "url": "https://www.thehindu.com/business/Economy/retail-inflation-crosses-rbis-upper-limit-for-first-time-in-two-years-comes-in-at-61-in-october-2026/article71693503.ece",
+   "linkLabel": "The Hindu",
+   "color": "#b45309",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Market_Hyderabad.jpg/1280px-Market_Hyderabad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Iijjccoo at Dutch Wikipedia / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Market_Hyderabad.jpg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-11-13-i2",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Tamil Nadu",
+   "emoji": "🍛",
+   "stat": "$180M",
+   "statLabel": "investment in A2B",
+   "headline": "Chennai's A2B gets $180M from Murdoch and Shankar's Bodhi Tree",
+   "body": [
+    "Food chain Adyar Ananda Bhavan (A2B) has sold a majority stake to Bodhi Tree Systems for $180 million.",
+    "Bodhi Tree was co-founded by James Murdoch and Uday Shankar.",
+    "The deal reportedly values the 50-year-old brand at about $350 million."
+   ],
+   "joke": "Sweets and savouries, now with global media money.",
+   "vc": "Big investors backing Indian restaurant chains signals faith in branded food expansion.",
+   "url": "https://www.thehindu.com/news/national/tamil-nadu/a2b-secures-180-million-investment-from-james-murdoch-uday-shankar-backed-bodhi-tree/article71694799.ece",
+   "linkLabel": "The Hindu",
+   "color": "#be123c",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-13-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Policy",
+   "emoji": "🔋",
+   "stat": "22",
+   "statLabel": "bids for 10 GWh battery capacity",
+   "headline": "22 companies bid to build India's battery cell factories",
+   "body": [
+    "The Centre received 22 bids for 10 GWh of giga-scale battery cell manufacturing under its incentive scheme.",
+    "Bidders include Reliance, Amara Raja, Exide and Vikram Solar.",
+    "The aim is to make India self-reliant in batteries."
+   ],
+   "joke": "Everyone wants to charge India's batteries.",
+   "vc": "Strong demand means more domestic cells for EVs and grid storage soon.",
+   "url": "https://www.thehindu.com/business/Industry/centre-receives-22-bids-for-10-gwh-giga-scale-acc-battery-manufacturing-capacity/article71694200.ece",
+   "linkLabel": "The Hindu",
+   "color": "#3f6212",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/18650_and_21700_lithium_ion_battery_cell.jpg/1280px-18650_and_21700_lithium_ion_battery_cell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Sevenethics / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:18650_and_21700_lithium_ion_battery_cell.jpg",
+    "license": "CC0"
+   }
+  },
+  {
+   "id": "2026-11-13-m1",
+   "section": "money",
+   "source": "Al Jazeera",
+   "kicker": "Nvidia",
+   "emoji": "🔄",
+   "stat": "~90%",
+   "statLabel": "Nvidia's share of AI chip market",
+   "headline": "Jensen Huang resigns as Nvidia CEO; Colette Kress steps in",
+   "body": [
+    "Nvidia CEO Jensen Huang has resigned after revelations of extramarital affairs and possible spying concerns.",
+    "Chief financial officer Colette Kress is now interim CEO.",
+    "Nvidia controls about 90% of the market for advanced AI chips."
+   ],
+   "joke": "",
+   "vc": "Leadership uncertainty at the AI industry's key supplier adds risk for chip stocks worldwide.",
+   "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress",
+   "linkLabel": "Al Jazeera",
+   "color": "#18181b",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-13-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Nvidia",
+   "emoji": "🍎",
+   "stat": "Cook?",
+   "statLabel": "Trump's pick for Nvidia",
+   "headline": "Trump floats Tim Cook as Nvidia's next CEO",
+   "body": [
+    "Trump says Apple chairman Tim Cook is the only one who could replace Jensen Huang.",
+    "Cook stepped down as Apple CEO on 1 September but is still executive chairman.",
+    "Nvidia has not named a permanent CEO."
+   ],
+   "joke": "Job ad: must know chips, China and how to handle Truth Social posts.",
+   "vc": "Who leads Nvidia next will shape investor confidence in the whole AI trade.",
+   "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+   "linkLabel": "TechCrunch",
+   "color": "#52525b",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Tim_Cook_with_Chongqing_Mayor_Huang_in_Apple_Jiefangbei.jpg/1280px-Tim_Cook_with_Chongqing_Mayor_Huang_in_Apple_Jiefangbei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Junyi Lou / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Tim_Cook_with_Chongqing_Mayor_Huang_in_Apple_Jiefangbei.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-13-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Energy",
+   "emoji": "⚡",
+   "stat": "13 GW",
+   "statLabel": "turbines SoftBank reserved",
+   "headline": "SoftBank's turbine over-order hits AI's gas power plans",
+   "body": [
+    "SoftBank reportedly put deposits on over 13 gigawatts of gas turbines, almost 50% more than it needed.",
+    "That has led to a billion-dollar loss, TechCrunch reports.",
+    "It may cap the rush to power AI with natural gas."
+   ],
+   "joke": "Buying turbines like it's Black Friday.",
+   "vc": "Losses like this could make AI firms rethink building their own power plants.",
+   "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+   "linkLabel": "TechCrunch",
+   "color": "#7f1d1d",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-13-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI cloud",
+   "emoji": "🏗️",
+   "stat": "$40B",
+   "statLabel": "planned 2027 spending",
+   "headline": "Nebius plans $40B of spending, far above expectations",
+   "body": [
+    "AI cloud firm Nebius plans to spend $40 billion in 2027.",
+    "It will fund it with customer prepayments and loans backed by contracts.",
+    "Its CEO admits delays are common in the industry."
+   ],
+   "joke": "Spend now, prepay later, hope nobody cancels.",
+   "vc": "Debt-funded AI data centres are a growing risk if demand slows.",
+   "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+   "linkLabel": "TechCrunch",
+   "color": "#0e7490",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-13-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI agents",
+   "emoji": "✈️",
+   "stat": "Blocked",
+   "statLabel": "AI booking agents",
+   "headline": "United Airlines blocks AI agents from booking flights",
+   "body": [
+    "United Airlines will restrict AI agents that book flights for users.",
+    "It cites cybersecurity risks from sharing logins with AI assistants.",
+    "Other big firms have taken similar steps."
+   ],
+   "joke": "Your AI assistant will have to queue like everyone else.",
+   "vc": "Pushback from big companies could slow the business case for AI shopping agents.",
+   "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+   "linkLabel": "TechCrunch",
+   "color": "#1d4ed8",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-13-v1",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "US politics",
+   "emoji": "🌾",
+   "stat": "2",
+   "statLabel": "women governors in a row",
+   "headline": "Kansas will have two women governors back-to-back",
+   "body": [
+    "Democrat Cindy Holscher is projected to become governor of Kansas.",
+    "She will follow Laura Kelly, making it the first time the state has two women governors in a row.",
+    "The race was very close and called only on Thursday."
+   ],
+   "joke": "",
+   "vc": "Holscher ran on lower costs, putting household budgets at the centre of state policy.",
+   "url": "https://19thnews.org/2026/11/election-results-kansas-governor/",
+   "linkLabel": "The 19th",
+   "color": "#9d174d",
+   "font": "editorial",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Kansas_State_Capitol.jpg/1280px-Kansas_State_Capitol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Aviper2k7 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Kansas_State_Capitol.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-13-v2",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "US",
+   "emoji": "⚖️",
+   "stat": "Texas",
+   "statLabel": "largest state with a ban",
+   "headline": "Texas Democrats see a chance to roll back the abortion ban",
+   "body": [
+    "Texas Democrats now control the state House and plan to push to repeal the near-total abortion ban.",
+    "The ban has been linked to the deaths of several women.",
+    "Republicans still control the state Senate."
+   ],
+   "joke": "",
+   "vc": "Abortion rules affect where women choose to live and work, a factor for employers.",
+   "url": "https://19thnews.org/2026/11/texas-abortion-laws-democrats-change/",
+   "linkLabel": "The 19th",
+   "color": "#6b21a8",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/TexasStateCapitol-2010-01.JPG/1280px-TexasStateCapitol-2010-01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "LoneStarMike / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:TexasStateCapitol-2010-01.JPG",
+    "license": "CC BY 3.0"
+   }
+  },
+  {
+   "id": "2026-11-13-v3",
+   "section": "women",
+   "source": "The Hindu",
+   "kicker": "Manipur",
+   "emoji": "🗳️",
+   "stat": "55,437",
+   "statLabel": "more women voters than men",
+   "headline": "Women voters outnumber men by 55,437 in Manipur",
+   "body": [
+    "Manipur's draft voter rolls show 10.25 lakh women and 9.69 lakh men.",
+    "That's 1,057 women for every 1,000 men.",
+    "Assembly elections are due by March 2027."
+   ],
+   "joke": "",
+   "vc": "Women voters' weight could push parties to focus on safety, jobs and relief in the conflict-hit state.",
+   "url": "https://www.thehindu.com/news/national/manipur/manipur-draft-poll-rolls-published-women-voters-outnumber-men-by-55437/article71694232.ece",
+   "linkLabel": "The Hindu",
+   "color": "#065f46",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Imphal_At_Dusk.jpg/1280px-Imphal_At_Dusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "DeepanjanGhosh / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Imphal_At_Dusk.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-13-h1",
+   "section": "health",
+   "source": "The Hindu",
+   "kicker": "Bengaluru",
+   "emoji": "🎗️",
+   "stat": "40",
+   "statLabel": "beds at Samprada Hospital",
+   "headline": "Bengaluru oncologist, 60+, opens his own cancer hospital",
+   "body": [
+    "Oncologist Radheshyam Naik has set up the 40-bed Samprada Hospital in J.P. Nagar, Bengaluru.",
+    "He started it after 60, using much of his savings.",
+    "It focuses on cancer prevention, treatment and family support, after he lost both parents to cancer."
+   ],
+   "joke": "",
+   "vc": "Small specialist hospitals founded by doctors are a growing part of Bengaluru's health market.",
+   "url": "https://www.thehindu.com/news/cities/bangalore/after-losing-parents-to-cancer-oncologist-sets-up-hospital-in-bengaluru-with-a-larger-purpose/article71692484.ece",
+   "linkLabel": "The Hindu",
+   "color": "#0369a1",
+   "font": "editorial"
+  },
+  {
+   "id": "2026-11-13-h2",
+   "section": "health",
+   "source": "News Today",
+   "kicker": "Tamil Nadu",
+   "emoji": "🏥",
+   "stat": "600",
+   "statLabel": "beds in new block",
+   "headline": "Tamil Nadu CM to open ₹134 crore, 600-bed hospital block in Tiruchy",
+   "body": [
+    "Chief Minister C. Joseph Vijay will open a new multi-storey specialty block in Tiruchy on 20 November.",
+    "It cost ₹134 crore and has 600 beds.",
+    "It adds major capacity to the region's public health care."
+   ],
+   "joke": "",
+   "vc": "Large public blocks in tier-2 cities reduce pressure on Chennai's hospitals.",
+   "url": "https://newstodaynet.com/2026/11/11/cm-to-open-rs-134-cr-hospital-block/",
+   "linkLabel": "News Today",
+   "color": "#881337",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-13-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Delhi",
+   "emoji": "🏛️",
+   "stat": "107",
+   "statLabel": "hospitals may owe free EWS care",
+   "headline": "107 Delhi hospitals may have to treat poor patients free",
+   "body": [
+    "Delhi told the Supreme Court that 107 hospitals may have to give free treatment to economically weaker patients.",
+    "That's more than double the 51 already under scrutiny.",
+    "Hospitals given cheap land must reserve 10% of beds for such patients."
+   ],
+   "joke": "",
+   "vc": "Enforcing free-bed rules could cost private hospitals revenue but widen access for the poor.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/107-hospitals-identified-for-mandatory-free-ews-treatment-delhi-government-tells-sc-183092",
+   "linkLabel": "Medical Dialogues",
+   "color": "#0c4a6e",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Supreme_Court_of_India_01.jpg/1280px-Supreme_Court_of_India_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Subhashish Panigrahi / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Supreme_Court_of_India_01.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-13-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "Racing Bulls",
+   "emoji": "🏎️",
+   "stat": "89 vs 38",
+   "statLabel": "Lawson vs Lindblad points",
+   "headline": "Lawson keeps his Racing Bulls seat for 2027",
+   "body": [
+    "Racing Bulls kept Liam Lawson for 2027, alongside Arvid Lindblad.",
+    "Lawson has 89 points to Lindblad's 38, helping the team to fifth, its best-ever result.",
+    "Junior Nikola Tsolov becomes reserve driver instead."
+   ],
+   "joke": "Points talk. Lawson's said 89 things.",
+   "vc": "A best-ever team finish means more prize money for Racing Bulls.",
+   "url": "https://www.autosport.com/f1/news/lawson-to-stay-in-f1-as-racing-bulls-announces-2027-driver-pairing/10874063/",
+   "linkLabel": "Autosport",
+   "color": "#c2410c",
+   "font": "impact"
+  }
+ ]
+}
