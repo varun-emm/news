@@ -1,299 +1,299 @@
 {
- "date": "2026-11-14",
- "generatedAt": "2026-11-14T03:49:22+05:30",
+ "date": "2026-11-15",
+ "generatedAt": "2026-11-15T03:47:11+05:30",
  "items": [
   {
-   "id": "2026-11-14-f1",
+   "id": "2026-11-15-f1",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "👟",
-   "color": "#78350f",
-   "headline": "adidas' new flat suede Halewood SPZL",
-   "caption": "A luxe remake of the Barrington Smash for fall.",
+   "emoji": "☔",
+   "color": "#0f172a",
+   "headline": "adidas made proper Wellington rain boots",
+   "caption": "An all-rubber Rainboot with buckles and grippy lug soles.",
    "body": [
-    "It's inspired by adidas' archive indoor shoes.",
-    "Low sole, soft suede.",
-    "How to wear it: with straight chinos and a knit."
+    "Not a waterproof sneaker: real wellies.",
+    "Three Stripes, no frills.",
+    "How to wear it: with cropped trousers and a rain jacket."
    ],
-   "url": "https://www.highsnobiety.com/p/adidas-halewood-spzl/",
+   "url": "https://www.highsnobiety.com/p/adidas-rainboots/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1794594135-adidas-halewood-spzl-0.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1794672211-adidas-rain-boots-0.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/adidas-halewood-spzl/",
+    "creditUrl": "https://www.highsnobiety.com/p/adidas-rainboots/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-14-f2",
+   "id": "2026-11-15-f2",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🪼",
-   "color": "#0f766e",
-   "headline": "Atlantic Drift x New Balance 600 skate shoe",
-   "caption": "Black leather, teal accents and jellyfish details.",
+   "emoji": "🚀",
+   "color": "#0369a1",
+   "headline": "adidas brings back the bladed Springblade",
+   "caption": "The 'Lucid Blue' runner looks ready for the future.",
    "body": [
-    "Atlantic Drift began as a Thrasher video series.",
-    "Now it's a full skate brand with its own NB.",
-    "How to wear it: with black jeans and a hoodie."
+    "Retro runners are giving way to futuristic shoes.",
+    "The Springblade literally stands tall.",
+    "How to wear it: with technical trousers."
    ],
-   "url": "https://www.highsnobiety.com/p/atlantic-drift-new-balance-numeric-600/",
+   "url": "https://www.highsnobiety.com/p/adidas-springblade-lucid-blue/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1794604291-atlantic-drift-new-balance-numeric-600-0.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1794574807-3-9.png",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/atlantic-drift-new-balance-numeric-600/",
+    "creditUrl": "https://www.highsnobiety.com/p/adidas-springblade-lucid-blue/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-14-f3",
+   "id": "2026-11-15-f3",
    "type": "fashion",
    "source": "Highsnobiety",
+   "emoji": "🧳",
+   "color": "#292524",
+   "headline": "Margiela's Rimowa changes with every trip",
+   "caption": "The first Margiela x RIMOWA case uses the 'Bianchetto' white paint trick.",
+   "body": [
+    "It riffs on painting over things in white.",
+    "Margiela has used it on Tabi boots, bags and its German Army Trainers.",
+    "Style lesson: let your luggage age with you."
+   ],
+   "url": "https://www.highsnobiety.com/p/margiela-x-rimowa/",
+   "linkLabel": "Highsnobiety",
+   "image": {
+    "url": "https://www.highsnobiety.com/static-assets/dato/1794603842-unnamed-2.jpeg",
+    "credit": "Highsnobiety",
+    "creditUrl": "https://www.highsnobiety.com/p/margiela-x-rimowa/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-15-f4",
+   "type": "fashion",
+   "source": "Highsnobiety",
+   "emoji": "👞",
+   "color": "#422006",
+   "headline": "Vans' wingtip brogue skate shoe",
+   "caption": "ABC-Mart gives the Authentic dressy leather brogue details.",
+   "body": [
+    "Comes in black and brown.",
+    "Earlier wingtip Vans came in black-and-white.",
+    "How to wear it: with tailored trousers, sockless."
+   ],
+   "url": "https://www.highsnobiety.com/p/vans-authentic-wingtip-brogue/",
+   "linkLabel": "Highsnobiety",
+   "image": {
+    "url": "https://www.highsnobiety.com/static-assets/dato/1794672750-vans-authentic-wing-tip-brogue-0.jpg",
+    "credit": "Highsnobiety",
+    "creditUrl": "https://www.highsnobiety.com/p/vans-authentic-wingtip-brogue/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-15-f5",
+   "type": "fashion",
+   "source": "GQ",
    "emoji": "👖",
    "color": "#1e3a8a",
-   "headline": "Evisu, BEAMS T and FAF team up on a greatest-hits drop",
-   "caption": "A five-piece collection from Evisu's archive.",
+   "headline": "Your first selvedge jeans: start here",
+   "caption": "GQ's guide to 10 classic raw selvedge denim styles.",
    "body": [
-    "It's the trio's first three-way collab.",
-    "Evisu is a legendary Japanese denim brand.",
-    "How to wear it: Evisu jeans with a plain tee."
+    "Crunchy, indigo raw denim is back.",
+    "The writer once edited a web series about denim fades.",
+    "How to wear it: buy snug, wear often, wash rarely."
    ],
-   "url": "https://www.highsnobiety.com/p/evisu-x-beams-t-x-faf/",
-   "linkLabel": "Highsnobiety",
+   "url": "https://www.gq.com/story/selvedge-denim-icons",
+   "linkLabel": "GQ",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1794519546-evisu-cropped-hero.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/evisu-x-beams-t-x-faf/",
+    "url": "https://media.gq.com/photos/6af768a2a8f749488750796d/16:9/w_1280,c_limit/10RawDenimJeans-3.jpg",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/selvedge-denim-icons",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-14-f4",
+   "id": "2026-11-15-f6",
    "type": "fashion",
    "source": "GQ UK",
-   "emoji": "⛰️",
+   "emoji": "👟",
    "color": "#3f6212",
-   "headline": "adidas x Brain Dead Zuperklimb: hiking style for walks",
-   "caption": "A trail-look trainer made more for strolling than summits.",
+   "headline": "Hi-Tec, the 52-year-old British sneaker, is finally cool",
+   "caption": "Once the 'other' trainer, Hi-Tec now has real hype.",
    "body": [
-    "Puma and Nike also have hiking-style sneakers now.",
-    "Brain Dead adds its playful touch.",
-    "How to wear it: with track pants and a fleece."
+    "A GQ writer with 300-400 pairs started with Hi-Tecs.",
+    "The brand is having a moment.",
+    "How to wear it: retro runners with straight jeans."
    ],
-   "url": "https://www.gq-magazine.co.uk/article/adidas-brain-dead-zuperklimb-trainer-13-11-26",
+   "url": "https://www.gq-magazine.co.uk/article/hi-tec-sneaker-hype",
    "linkLabel": "GQ UK",
    "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6af6ebe818a276a2e8b3ce44/16:9/w_1280,c_limit/063-Adidas.jpg",
+    "url": "https://media.gq-magazine.co.uk/photos/6af33e1373aca48ad53a130c/16:9/w_1280,c_limit/Hi-Tec.jpg",
     "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/adidas-brain-dead-zuperklimb-trainer-13-11-26",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/hi-tec-sneaker-hype",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-14-f5",
+   "id": "2026-11-15-f7",
    "type": "fashion",
-   "source": "GQ UK",
-   "emoji": "💸",
-   "color": "#27272a",
-   "headline": "Nike's new Flyknit Runner costs just £75",
-   "caption": "About half the price of most new Nikes.",
+   "source": "Esquire Australia",
+   "emoji": "🌹",
+   "color": "#7f1d1d",
+   "headline": "The 10 best Amouage fragrances for men",
+   "caption": "A ranked guide to the Omani house's top scents.",
    "body": [
-    "Average new pairs now cost around £160.",
-    "It comes in three colourways.",
-    "How to wear it: daily, without worrying."
+    "Amouage has about 70 fragrances on sale now.",
+    "It's less than 50 years old.",
+    "Style lesson: one signature scent beats ten."
    ],
-   "url": "https://www.gq-magazine.co.uk/article/nike-flyknit-runner-13-11-26",
-   "linkLabel": "GQ UK",
+   "url": "https://esquire.com.au/best-amouage-fragrances-men/",
+   "linkLabel": "Esquire Australia",
    "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6af6eb2a6ce3ee02ba350119/16:9/w_1280,c_limit/064-Flyknit.gif",
-    "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/nike-flyknit-runner-13-11-26",
+    "url": "https://esquire.com.au/wp-content/uploads/2026/11/LONG-TILE-1.jpg",
+    "credit": "Esquire Australia",
+    "creditUrl": "https://esquire.com.au/best-amouage-fragrances-men/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-14-f6",
+   "id": "2026-11-15-f8",
    "type": "fashion",
    "source": "Esquire UK",
-   "emoji": "🕴️",
-   "color": "#1e293b",
-   "headline": "How to wear a suit in 2026, Scandinavian style",
-   "caption": "The founders of Saman Amel and Cavour share their rules.",
-   "body": [
-    "Scandi tailors mix Italian ease with British structure.",
-    "Their suits are having a moment.",
-    "How to wear it: soft shoulders, relaxed trousers."
-   ],
-   "url": "https://www.esquire.com/uk/style/a74413447/how-to-wear-a-suit-in-2026/",
-   "linkLabel": "Esquire UK",
-   "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/08ab27c4-cea4-4c57-a6e2-05b009458b51.jpeg?crop=1.00xw:0.887xh;0,0.113xh&resize=1200:*",
-    "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/a74413447/how-to-wear-a-suit-in-2026/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-14-f7",
-   "type": "fashion",
-   "source": "Esquire UK",
-   "emoji": "🌑",
-   "color": "#312e81",
-   "headline": "Citizen's Star Wars watch has a working Death Star",
-   "caption": "A solar-powered Attesa with a playful sci-fi twist.",
-   "body": [
-    "The Death Star becomes a clever watch feature.",
-    "It's part of Citizen's Attesa line.",
-    "Style lesson: one fun watch is allowed."
-   ],
-   "url": "https://www.esquire.com/uk/watches/a74424550/citizens-new-solar-powered-star-wars-watch-has-a-working-death-star/",
-   "linkLabel": "Esquire UK",
-   "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/e371d764-7600-40a2-827f-8eaae08dc812.png?crop=1.00xw:0.337xh;0,0.279xh&resize=1200:*",
-    "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/watches/a74424550/citizens-new-solar-powered-star-wars-watch-has-a-working-death-star/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-14-f8",
-   "type": "fashion",
-   "source": "Esquire",
-   "emoji": "🛍️",
-   "color": "#9a3412",
-   "headline": "Esquire editors' 27 favourite launches this week",
-   "caption": "The weekly round-up of new products worth knowing.",
-   "body": [
-    "A fresh weekly pick of new launches.",
-    "Good for early gift ideas.",
-    "Style lesson: buy less, buy better."
-   ],
-   "url": "https://www.esquire.com/style/mens-fashion/a74425145/best-of-the-week-november-13-2026/",
-   "linkLabel": "Esquire",
-   "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/5e8cf64c-a525-4990-b3c8-6011c3484222.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
-    "credit": "Esquire",
-    "creditUrl": "https://www.esquire.com/style/mens-fashion/a74425145/best-of-the-week-november-13-2026/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-14-f9",
-   "type": "fashion",
-   "source": "Hodinkee",
-   "emoji": "🏆",
+   "emoji": "⌚",
    "color": "#334155",
-   "headline": "Vacheron Constantin's first watch concours",
-   "caption": "Watchmaking's first event of its kind turned a contest into a celebration.",
+   "headline": "A £380,000 watch never seen in public goes on show",
+   "caption": "A Charles Frodsham 'Hidden Seconds' chronometer debuts at Sotheby's.",
    "body": [
-    "It's the first concours of its kind in watchmaking.",
-    "Hodinkee reports from the inaugural event.",
-    "Style lesson: old watches can still steal the show."
+    "It's the only example in private hands.",
+    "It appears alongside a rare British sports car.",
+    "Style lesson: rarity is the ultimate luxury."
    ],
-   "url": "https://www.hodinkee.com/articles/the-inaugural-vacheron-constantin-concours-delegance-horlogere",
-   "linkLabel": "Hodinkee",
+   "url": "https://www.esquire.com/uk/watches/a74424845/this-380000-watch-has-never-been-seen-in-public-until-now/",
+   "linkLabel": "Esquire UK",
    "image": {
-    "url": "https://hodinkee.imgix.net/uploads/articles/31cbac1d-c1fc-498f-a15e-5edea95feb03/vch.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
-    "credit": "Hodinkee",
-    "creditUrl": "https://www.hodinkee.com/articles/the-inaugural-vacheron-constantin-concours-delegance-horlogere",
+    "url": "https://hips.hearstapps.com/hmg-prod/images/92b53823-3a8f-4807-8ed1-2776af240dd2.jpeg?crop=1.00xw:0.335xh;0,0.354xh&resize=1200:*",
+    "credit": "Esquire UK",
+    "creditUrl": "https://www.esquire.com/uk/watches/a74424845/this-380000-watch-has-never-been-seen-in-public-until-now/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-14-f10",
+   "id": "2026-11-15-f9",
+   "type": "fashion",
+   "source": "Esquire UK",
+   "emoji": "✂️",
+   "color": "#57534e",
+   "headline": "How to get the 'warrior cut'",
+   "caption": "Brad Pitt's Fight Club haircut is still a barber favourite.",
+   "body": [
+    "Esquire asks experts what to tell your barber.",
+    "It's 27 years since Tyler Durden.",
+    "How to wear it: textured top, short sides."
+   ],
+   "url": "https://www.esquire.com/uk/style/fashion/a74421441/how-to-get-the-warrior-cut/",
+   "linkLabel": "Esquire UK",
+   "image": {
+    "url": "https://hips.hearstapps.com/hmg-prod/images/406062f8-0cb0-4a28-a513-4465eaa8e625.jpeg?crop=1.00xw:0.360xh;0,0.0720xh&resize=1200:*",
+    "credit": "Esquire UK",
+    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74421441/how-to-get-the-warrior-cut/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-15-f10",
    "type": "fashion",
    "source": "Hodinkee",
-   "emoji": "📚",
-   "color": "#57534e",
-   "headline": "A new guide for vintage watch collectors",
-   "caption": "Eric Wind and Charlie Dunne's book goes on sale 17 November.",
+   "emoji": "🔍",
+   "color": "#365314",
+   "headline": "This week's vintage watch finds",
+   "caption": "A Piaget dress watch, an Eterna-Matic Super Kontiki and more.",
    "body": [
-    "It aims to help newcomers and veterans alike.",
-    "It's more than pretty pictures.",
-    "Style lesson: learn before you buy."
+    "Hodinkee's 'Bring a Loupe' rounds up what's for sale.",
+    "Also a Girard-Perregaux Olimpico and three Lemania pieces.",
+    "Style lesson: vintage can beat new on value."
    ],
-   "url": "https://www.hodinkee.com/articles/vintage-watches-the-modern-guide-goes-beyond-pretty-pictures-to-help-you-be-a-better-collector",
+   "url": "https://www.hodinkee.com/articles/a-piaget-dress-watch-an-eterna-matic-super-kontiki-a-girard-perregaux-olimpico-and-a-trio-of-lemania",
    "linkLabel": "Hodinkee",
    "image": {
-    "url": "https://hodinkee.imgix.net/uploads/articles/232f731e-4271-4a20-9e69-26a98c96bb7e/Cover-3D.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
+    "url": "https://hodinkee.imgix.net/uploads/articles/bbf45bf8-b3ae-402e-89f6-91f12ea5e84f/A-Piaget-Dress-Watch-An-Eterna-Matic-Super-Kontiki-A-Girard-Perregaux-Olimpico-And-A-Trio-Of-Lemania-Tg-195s.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
     "credit": "Hodinkee",
-    "creditUrl": "https://www.hodinkee.com/articles/vintage-watches-the-modern-guide-goes-beyond-pretty-pictures-to-help-you-be-a-better-collector",
+    "creditUrl": "https://www.hodinkee.com/articles/a-piaget-dress-watch-an-eterna-matic-super-kontiki-a-girard-perregaux-olimpico-and-a-trio-of-lemania",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-14-f11",
+   "id": "2026-11-15-f11",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "📜",
-   "color": "#422006",
-   "headline": "Dr King's lost 'I Have a Dream' draft found in a drawer",
-   "caption": "Seven yellow pages in blue ink, with whole lines crossed out.",
+   "emoji": "🐠",
+   "color": "#0c4a6e",
+   "headline": "Two of the world's last wild coral atolls become sanctuaries",
+   "caption": "Remote Pacific atolls untouched by humans are now protected.",
    "body": [
-    "He wrote it the morning of the speech.",
-    "It resurfaced after six decades."
+    "Scientists call them some of the last healthy ecosystems.",
+    "They are teeming with life."
    ],
-   "url": "https://www.goodnewsnetwork.org/dr-kings-lost-draft-of-i-have-a-dream-emerges-from-a-desk-drawer/",
+   "url": "https://www.goodnewsnetwork.org/two-of-last-wild-ecosystems-untouched-by-humans-declared-new-sanctuaries/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Christies-released-1.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Shark-in-reef-habitat-at-Bikar-in-Marshall-island-in-Pacific-Ocean-by-Manu-San-Felix-via-SWNS.jpeg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/dr-kings-lost-draft-of-i-have-a-dream-emerges-from-a-desk-drawer/",
+    "creditUrl": "https://www.goodnewsnetwork.org/two-of-last-wild-ecosystems-untouched-by-humans-declared-new-sanctuaries/",
     "preview": true
    },
    "embed": true
   },
   {
-   "id": "2026-11-14-f12",
+   "id": "2026-11-15-f12",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "👶",
-   "color": "#0369a1",
-   "headline": "A baby with 110 seizures a day is now seizure-free",
-   "caption": "An experimental drug stopped infant Adnan's seizures in Dubai.",
+   "emoji": "🧽",
+   "color": "#a16207",
+   "headline": "A couple cleans Britain's dirty street signs, for fun",
+   "caption": "Paul and Ruth Richmond-Watson scrub signs as a shared hobby.",
    "body": [
-    "He had a seizure about every 13 minutes since birth.",
-    "Weeks later, they haven't come back."
+    "Both are autistic with ADHD, and love creative projects.",
+    "They dream of cleaning signs across the UK."
    ],
-   "url": "https://www.goodnewsnetwork.org/infant-goes-from-110-seizures-a-day-to-seizure-free-after-rare-treatment/",
+   "url": "https://www.goodnewsnetwork.org/couple-with-autism-and-adhd-find-passion-cleaning-filthy-street-signs/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/NICU-infant-ward-unsplash.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Before-and-after-cleaning-road-signs-in-East-Sussex-SWNS.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/infant-goes-from-110-seizures-a-day-to-seizure-free-after-rare-treatment/",
+    "creditUrl": "https://www.goodnewsnetwork.org/couple-with-autism-and-adhd-find-passion-cleaning-filthy-street-signs/",
     "preview": true
    },
    "embed": true
   },
   {
-   "id": "2026-11-14-f13",
+   "id": "2026-11-15-f13",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🖼️",
-   "color": "#be185d",
-   "headline": "'There's a Georgia O'Keeffe in the closet'",
-   "caption": "An aunt's offhand remark led to a lost painting.",
+   "emoji": "📖",
+   "color": "#14532d",
+   "headline": "Diaries reveal a shopkeeper who hid soldiers from the Nazis",
+   "caption": "Ada Le Poidevin sheltered three British commandos on Guernsey in 1940.",
    "body": [
-    "Years later her niece found the oil painting while clearing an East Village flat.",
-    "It shows soft, rolling hills."
+    "German troops lived next door.",
+    "Her bravery came to light 40 years after her death."
    ],
-   "url": "https://www.goodnewsnetwork.org/theres-a-georgia-okeefe-in-the-closet-words-that-led-to-paintings-joyous-rediscovery/",
+   "url": "https://www.goodnewsnetwork.org/heroic-bravery-of-woman-who-hid-troops-from-nazis-in-wwii/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Christies-released.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Ada-Le-Poidevin-during-WW-and-niece-Liz-Walton-SWNS.jpeg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/theres-a-georgia-okeefe-in-the-closet-words-that-led-to-paintings-joyous-rediscovery/",
+    "creditUrl": "https://www.goodnewsnetwork.org/heroic-bravery-of-woman-who-hid-troops-from-nazis-in-wwii/",
     "preview": true
    },
    "embed": true
