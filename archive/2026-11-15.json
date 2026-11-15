@@ -1,0 +1,414 @@
+{
+ "date": "2026-11-15",
+ "generatedAt": "2026-11-15T03:47:11+05:30",
+ "stories": [
+  {
+   "id": "2026-11-15-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "France",
+   "emoji": "✊",
+   "stat": "106,000",
+   "statLabel": "protesters nationwide",
+   "headline": "Over 100,000 join new Yellow Vest protests in France",
+   "body": [
+    "About 106,000 people marched across France in new cost-of-living protests, the government said.",
+    "Turnout fell from 146,000 the week before, and the protests stayed mostly calm.",
+    "Student unions put the number at 200,000."
+   ],
+   "joke": "Fewer marchers, same grievances.",
+   "vc": "Ongoing protests keep pressure on France to raise wages and cut costs.",
+   "url": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests",
+   "linkLabel": "Al Jazeera",
+   "color": "#1d4ed8",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-15-w2",
+   "section": "world",
+   "source": "NPR",
+   "kicker": "Chile",
+   "emoji": "⛽",
+   "stat": "24%",
+   "statLabel": "Kast's approval rating",
+   "headline": "Fuel crisis and protests hit Chile's far-right president",
+   "body": [
+    "Chile's President José Antonio Kast's approval has fallen to 24% after eight months in power.",
+    "A fuel crisis and student protests over living costs are piling pressure on him.",
+    "Students are also angry over reduced sentences for some sex offenders."
+   ],
+   "joke": "",
+   "vc": "Political instability can unsettle investors in Chile's copper and lithium industries.",
+   "url": "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students",
+   "linkLabel": "NPR",
+   "color": "#b91c1c",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-15-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "APEC",
+   "emoji": "🤝",
+   "stat": "3",
+   "statLabel": "leaders: Trump, Xi, Putin",
+   "headline": "Trump, Xi and Putin to hold first three-way meeting at APEC",
+   "body": [
+    "Trump, Xi Jinping and Vladimir Putin will meet together for the first time at APEC in Shenzhen, China.",
+    "The summit runs on 18-19 November.",
+    "Talks will focus on nuclear weapons, the White House says; the Iran war is also expected to come up."
+   ],
+   "joke": "Three leaders, one table, many egos.",
+   "vc": "Any thaw between the big powers could ease trade tensions and lift global markets.",
+   "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect",
+   "linkLabel": "Al Jazeera",
+   "color": "#7c2d12",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-15-i1",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Markets",
+   "emoji": "📈",
+   "stat": "$177B",
+   "statLabel": "value of listed startups",
+   "headline": "Indian startup stocks add about $8B this week",
+   "body": [
+    "55 of 69 listed new-age tech stocks rose this week, Inc42 data shows.",
+    "Their combined value rose 4.5% to $177 billion.",
+    "E2E Networks, Turtlemint and PB Fintech led; Meesho, Paytm and Groww hit new highs."
+   ],
+   "joke": "Startup stocks are on a winning streak. Don't jinx it.",
+   "vc": "A strong market for listed startups supports Razorpay's and others' IPO plans.",
+   "url": "https://inc42.com/buzz/new-age-tech-stocks-continue-rally-e2e-network-turtlemint-lead-gains/",
+   "linkLabel": "Inc42",
+   "color": "#047857",
+   "font": "finance",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/National_Stock_Exchange_of_India_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "zadeus / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:National_Stock_Exchange_of_India_2.jpg",
+    "license": "CC BY-SA 2.0"
+   }
+  },
+  {
+   "id": "2026-11-15-i2",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "IPO",
+   "emoji": "⛏️",
+   "stat": "₹9,500 cr",
+   "statLabel": "Mahanadi Coalfields IPO size",
+   "headline": "Coal India's Mahanadi Coalfields files for a ₹9,500 crore IPO",
+   "body": [
+    "Mahanadi Coalfields, a Coal India subsidiary, filed its prospectus for an IPO.",
+    "Coal India will sell up to 10% of its stake.",
+    "The issue could raise about ₹9,500 crore."
+   ],
+   "joke": "Coal goes public: a hot listing, literally.",
+   "vc": "Big PSU listings bring fresh supply for investors and cash for the government.",
+   "url": "https://www.thehindu.com/business/markets/mahanadi-coalfields-files-rhp-for-proposed-ipo-worth-nearly-9500-crore/article71702765.ece",
+   "linkLabel": "The Hindu",
+   "color": "#44403c",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-15-i3",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Data privacy",
+   "emoji": "🔐",
+   "stat": "₹2 cr",
+   "statLabel": "minimum net worth for consent managers",
+   "headline": "India opens registration for data 'consent managers'",
+   "body": [
+    "MeitY has opened registration for consent managers under India's data protection law.",
+    "These firms will help people control how their personal data is used.",
+    "The next phase of the law takes effect in May 2027."
+   ],
+   "joke": "Finally, someone to ask permission for you.",
+   "vc": "A new regulated industry for consent management opens up for startups.",
+   "url": "https://inc42.com/buzz/dpdp-act-implementation-meity-opens-consent-manager-registration-portal/",
+   "linkLabel": "Inc42",
+   "color": "#312e81",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-15-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Nvidia",
+   "emoji": "✍️",
+   "stat": "115,000+",
+   "statLabel": "petition signatures",
+   "headline": "Musk and others petition Nvidia to bring back Jensen Huang",
+   "body": [
+    "A petition asking Nvidia to reinstate Jensen Huang has over 115,000 signatures, including about 6,000 Nvidia staff.",
+    "Elon Musk, Replit's Amjad Masad and Epic's Tim Sweeney signed it.",
+    "Signers say Huang was removed without proper process."
+   ],
+   "joke": "",
+   "vc": "Pressure from employees and shareholders adds to uncertainty over Nvidia's leadership.",
+   "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+   "linkLabel": "TechCrunch",
+   "color": "#18181b",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Kevin McCarthy / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Nvidia_HQ.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-15-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Robotaxis",
+   "emoji": "🚖",
+   "stat": "$29,990",
+   "statLabel": "Cybercab price",
+   "headline": "Tesla opens Cybercab pre-orders for personal use",
+   "body": [
+    "Tesla opened pre-orders for its self-driving Cybercab to select customers, priced at $29,990.",
+    "Owners must also pay $299 a month to run it.",
+    "It will work only in certain areas of a few Texas cities at first."
+   ],
+   "joke": "A car you own but pay monthly to drive you. Progress.",
+   "vc": "Subscription fees could become Tesla's new steady income stream.",
+   "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+   "linkLabel": "TechCrunch",
+   "color": "#52525b",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Tesla_Cybercab_at_Santana_Row_side_view_dllu.jpg/1280px-Tesla_Cybercab_at_Santana_Row_side_view_dllu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Dllu / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Tesla_Cybercab_at_Santana_Row_side_view_dllu.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-15-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI",
+   "emoji": "🪦",
+   "stat": "42%",
+   "statLabel": "of company AI projects abandoned",
+   "headline": "The AI graveyard: projects and startups that didn't make it",
+   "body": [
+    "About 42% of company AI projects are abandoned, S&P Global says.",
+    "Chatbot platform Character.ai filed for bankruptcy last month.",
+    "Reasons include funding gaps, tech problems and weak demand."
+   ],
+   "joke": "Even AI has a 'none of the above' option.",
+   "vc": "High failure rates are a warning for investors pricing AI as a sure thing.",
+   "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+   "linkLabel": "TechCrunch",
+   "color": "#3f3f46",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-15-m4",
+   "section": "money",
+   "source": "The Hindu",
+   "kicker": "IPO",
+   "emoji": "🏰",
+   "stat": "$1.4T",
+   "statLabel": "Anthropic's target valuation",
+   "headline": "Analysis: Anthropic's huge valuation can't guarantee its edge",
+   "body": [
+    "Anthropic plans an IPO valuing it at up to $1.4 trillion.",
+    "Its market value on outstanding shares may be nearer $1 trillion.",
+    "The analysis warns a giant valuation doesn't secure its lead over rivals."
+   ],
+   "joke": "A trillion-dollar moat still needs water.",
+   "vc": "IPO buyers must decide if AI leaders can defend their lead over time.",
+   "url": "https://www.thehindu.com/business/Industry/anthropics-valuation-cant-secure-its-moat/article71702866.ece",
+   "linkLabel": "The Hindu",
+   "color": "#4c1d95",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854098999333%29.jpg/1280px-Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854098999333%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Department for Science, Innovation and Technology / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._(54098999333).jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-15-m5",
+   "section": "money",
+   "source": "The Hindu",
+   "kicker": "Commodities",
+   "emoji": "🟠",
+   "stat": "-1.8%",
+   "statLabel": "copper in a day",
+   "headline": "Copper hits near four-month low on rate and AI demand fears",
+   "body": [
+    "Copper fell about 1.8% to $13,462 a tonne, near a four-month low.",
+    "Traders expect higher US interest rates and weaker demand from China and tech.",
+    "Prices had eased since the US midterms."
+   ],
+   "joke": "",
+   "vc": "Copper is a gauge for the AI and power build-out; a slide hints at slowing demand.",
+   "url": "https://www.thehindu.com/business/Industry/copper-prices-slid-to-near-four-month-low-amid-fears-of-hike-in-us-interest-rates-lower-demand-especially-from-ai/article71698830.ece",
+   "linkLabel": "The Hindu",
+   "color": "#9a3412",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-15-v1",
+   "section": "women",
+   "source": "The Hindu",
+   "kicker": "Karnataka",
+   "emoji": "🌸",
+   "stat": "35+",
+   "statLabel": "age group covered",
+   "headline": "Karnataka launches a menopause health programme for women",
+   "body": [
+    "Karnataka will pilot 'Ruthu Taare', a mid-life women's health and menopause programme, in Dakshina Kannada.",
+    "It covers women aged 35 and above.",
+    "Actor and former MP Ramya is the brand ambassador."
+   ],
+   "joke": "",
+   "vc": "Menopause care is a fast-growing women's health market that public programmes can help unlock.",
+   "url": "https://www.thehindu.com/news/national/karnataka/karnataka-to-roll-out-mid-life-womens-health-programme-actor-ramya-named-brand-ambassador/article71696862.ece",
+   "linkLabel": "The Hindu",
+   "color": "#9d174d",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-15-v2",
+   "section": "women",
+   "source": "Medical Dialogues",
+   "kicker": "West Bengal",
+   "emoji": "🤰",
+   "stat": "Night",
+   "statLabel": "admission now mandatory",
+   "headline": "Malda Medical College orders no woman in labour be turned away at night",
+   "body": [
+    "Malda Medical College says no pregnant woman with labour pain can be denied admission at night.",
+    "They must get care and a bed even if birth is not close.",
+    "The order follows criticism over a recent childbirth incident."
+   ],
+   "joke": "",
+   "vc": "Safer maternity care in public hospitals lowers costly emergencies later.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/malda-medical-college-makes-night-admission-mandatory-for-pregnant-woman-183163",
+   "linkLabel": "Medical Dialogues",
+   "color": "#6b21a8",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-15-v3",
+   "section": "women",
+   "source": "Medical Dialogues",
+   "kicker": "Kerala",
+   "emoji": "🛡️",
+   "stat": "1",
+   "statLabel": "senior doctor arrested",
+   "headline": "Kerala doctor arrested over alleged assault attempt on junior woman doctor",
+   "body": [
+    "A senior doctor at Nedumangad District Hospital was arrested for allegedly trying to sexually assault a junior woman doctor.",
+    "She escaped and told colleagues, who helped her go to police.",
+    "She was doing her house surgery training."
+   ],
+   "joke": "",
+   "vc": "Safe workplaces are key to keeping women in medicine.",
+   "url": "https://medicaldialogues.in/news/health/doctors/thiruvananthapuram-hospital-doctor-arrested-over-alleged-sexual-assault-attempt-on-house-surgeon-183219",
+   "linkLabel": "Medical Dialogues",
+   "color": "#292524",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-15-h1",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Delhi",
+   "emoji": "💧",
+   "stat": "7",
+   "statLabel": "MCD hospitals getting dialysis",
+   "headline": "Delhi's MCD to open dialysis centres at 7 hospitals",
+   "body": [
+    "Delhi's MCD will set up dialysis centres at seven of its hospitals under a public-private partnership.",
+    "Treatment will cost less than at private hospitals.",
+    "Ayushman Bharat beneficiaries will get it cashless."
+   ],
+   "joke": "",
+   "vc": "PPP dialysis units expand kidney care fast without big public capital spending.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/7-mcd-hospitals-to-get-dialysis-centres-under-ppp-model-183129",
+   "linkLabel": "Medical Dialogues",
+   "color": "#0369a1",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Dialysis_machines_by_irvin_calicut.jpg/1280px-Dialysis_machines_by_irvin_calicut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Irvin calicut / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Dialysis_machines_by_irvin_calicut.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-15-h2",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Medical seats",
+   "emoji": "🎓",
+   "stat": "+178",
+   "statLabel": "PG seats added",
+   "headline": "178 more specialist seats added in NEET PG round 2",
+   "body": [
+    "The Medical Counselling Committee added 178 postgraduate medical seats to round 2 of NEET PG counselling.",
+    "It also removed 6 seats.",
+    "The changes came from updates sent by medical institutes."
+   ],
+   "joke": "",
+   "vc": "More specialist seats mean more doctors for hospitals in coming years.",
+   "url": "https://medicaldialogues.in/news/education/medical-admissions/mcc-revises-neet-pg-2026-round-2-counselling-seat-matrix-adds-178-removes-6-183175",
+   "linkLabel": "Medical Dialogues",
+   "color": "#881337",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-15-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Kerala–Karnataka",
+   "emoji": "🩺",
+   "stat": "Kasaragod",
+   "statLabel": "border district short of doctors",
+   "headline": "Kerala wants Karnataka-registered doctors to work in Kasaragod",
+   "body": [
+    "Kerala has recommended letting Karnataka-registered doctors practise in Kasaragod district.",
+    "The district faces a shortage of medical staff.",
+    "Kerala also wants more doctors, nurses and technicians for its hospitals there."
+   ],
+   "joke": "",
+   "vc": "Cross-state staffing could quickly fill gaps in border-area hospitals.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/kerala-seeks-approval-for-karnataka-registered-doctors-to-practise-in-kasaragod-183109",
+   "linkLabel": "Medical Dialogues",
+   "color": "#065f46",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-15-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "McLaren",
+   "emoji": "🔧",
+   "stat": "Vegas",
+   "statLabel": "next race for McLaren upgrades",
+   "headline": "McLaren brings upgrades to Las Vegas, its toughest track",
+   "body": [
+    "McLaren will bring upgrades to its MCL40 for the Las Vegas GP.",
+    "The team calls them the foundation for next year's car.",
+    "It comes after Norris won from pole in Brazil."
+   ],
+   "joke": "Fixing your worst track with next year's parts: bold.",
+   "vc": "Early development for 2027 could pay off in prize money next season.",
+   "url": "https://www.autosport.com/f1/news/mclaren-to-upgrade-mcl40-f1-car-at-its-bogey-track-las-vegas/10874450/",
+   "linkLabel": "Autosport",
+   "color": "#c2410c",
+   "font": "impact"
+  }
+ ]
+}
