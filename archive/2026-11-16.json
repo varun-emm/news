@@ -1,0 +1,474 @@
+{
+ "date": "2026-11-16",
+ "generatedAt": "2026-11-16T03:51:06+05:30",
+ "stories": [
+  {
+   "id": "2026-11-16-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Estonia",
+   "emoji": "🚧",
+   "stat": "8",
+   "statLabel": "people arrested",
+   "headline": "Estonia to close its Russia border crossings after attack on drone maker",
+   "body": [
+    "Estonia will close its border crossings with Russia after an attempted arson attack on drone maker Threod Systems.",
+    "Eight people were detained overnight, and Tallinn says Russia's GRU military intelligence ordered the attack.",
+    "Russia called the move 'Russophobia'."
+   ],
+   "joke": "",
+   "vc": "Attacks on defence suppliers raise security costs for Europe's fast-growing drone industry.",
+   "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker",
+   "linkLabel": "Al Jazeera",
+   "color": "#1e3a8a",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Russian-Estonian_border_crossing_via_rail_at_Ivangorod-Narva_%2818273745089%29.jpg/1280px-The_Russian-Estonian_border_crossing_via_rail_at_Ivangorod-Narva_%2818273745089%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "sergejf / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:The_Russian-Estonian_border_crossing_via_rail_at_Ivangorod-Narva_(18273745089).jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-16-w2",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "DR Congo",
+   "emoji": "🦠",
+   "stat": "11,200+",
+   "statLabel": "Ebola cases since May",
+   "headline": "Africa CDC says Congo's Ebola outbreak is still not under control",
+   "body": [
+    "Africa's top health agency says the Ebola outbreak in DR Congo is still not under control, six months on.",
+    "More than 11,200 cases and 5,500 deaths have been recorded since May 15.",
+    "Over 80% of new cases come from outside known contact lists."
+   ],
+   "joke": "",
+   "vc": "Aid and vaccine funding gaps are making the outbreak harder and costlier to stop.",
+   "url": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control",
+   "linkLabel": "Al Jazeera",
+   "color": "#7f1d1d",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/SECRETARY-GENERAL%E2%80%99S_VISIT_TO_THE_DEMOCRATIC_REPUBLIC_OF_THE_CONGO_%2848710365336%29.jpg/1280px-SECRETARY-GENERAL%E2%80%99S_VISIT_TO_THE_DEMOCRATIC_REPUBLIC_OF_THE_CONGO_%2848710365336%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "MONUSCO Photos / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:SECRETARY-GENERAL%E2%80%99S_VISIT_TO_THE_DEMOCRATIC_REPUBLIC_OF_THE_CONGO_(48710365336).jpg",
+    "license": "CC BY-SA 2.0"
+   }
+  },
+  {
+   "id": "2026-11-16-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Gulf",
+   "emoji": "📡",
+   "stat": "6",
+   "statLabel": "drones Iran says it launched",
+   "headline": "Iran says it targeted a US radar in Bahrain again",
+   "body": [
+    "Iran's Revolutionary Guard says it sent six drones at a US air defence radar at Bahrain's Riffa Air Base.",
+    "Sirens sounded and Bahrain told residents to take shelter; it says its air defences stopped several attacks.",
+    "It is the second such claim in three days."
+   ],
+   "joke": "",
+   "vc": "Gulf attacks keep oil shipping and insurance costs high.",
+   "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know",
+   "linkLabel": "Al Jazeera",
+   "color": "#9a3412",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Manama_Qal%27at_al-Bahrain_Courtyard_%26_Skyline_1.jpg/1280px-Manama_Qal%27at_al-Bahrain_Courtyard_%26_Skyline_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Zairon / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Manama_Qal%27at_al-Bahrain_Courtyard_%26_Skyline_1.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-16-i1",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Markets",
+   "emoji": "📦",
+   "stat": "₹1,885 cr",
+   "statLabel": "Meesho shares SoftBank sold",
+   "headline": "SoftBank sells ₹1,885 crore of Meesho shares",
+   "body": [
+    "SoftBank sold 7.6 crore Meesho shares in a block deal at ₹246.75 each.",
+    "The price was a 4% discount to Friday's close.",
+    "Fidelity bought the biggest chunk; Goldman Sachs, Morgan Stanley and Indian mutual funds also bought."
+   ],
+   "joke": "SoftBank books profit; Meesho's cart gets new owners.",
+   "vc": "Early investors cashing out after a stock rally is a normal sign of a healthy IPO market.",
+   "url": "https://inc42.com/buzz/softbank-offloads-meesho-shares-worth-%e2%82%b91855-cr/",
+   "linkLabel": "Inc42",
+   "color": "#065f46",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1280px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Niyantha Shekhar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-16-i2",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Aviation",
+   "emoji": "✈️",
+   "stat": "22 → 17",
+   "statLabel": "hours, Delhi/Mumbai to New York",
+   "headline": "Air India's US flights go non-stop again, saving up to 5 hours",
+   "body": [
+    "Air India has resumed non-stop flights to New York and Newark from Delhi and Mumbai.",
+    "Eased airspace limits mean no more fuel stop in Rome.",
+    "Total travel time falls from about 22 hours to about 17."
+   ],
+   "joke": "Rome wasn't built in a day, and now you don't have to stop there.",
+   "vc": "Shorter routes save fuel and crew costs on Air India's most valuable routes.",
+   "url": "https://www.thehindu.com/news/national/air-india-resumes-direct-flights-to-new-york-newark-after-easing-of-airspace-curbs/article71704583.ece",
+   "linkLabel": "The Hindu",
+   "color": "#b91c1c",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/%28GBR-London%29_Air_India_Airbus_A350-941_VT-JRB_%40_EGLL_2025-06-18.jpg/1280px-%28GBR-London%29_Air_India_Airbus_A350-941_VT-JRB_%40_EGLL_2025-06-18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "S5A-0043 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:(GBR-London)_Air_India_Airbus_A350-941_VT-JRB_@_EGLL_2025-06-18.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-16-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Trade",
+   "emoji": "🤝",
+   "stat": "Lower duties",
+   "statLabel": "than rival countries",
+   "headline": "Goyal: Indian goods will get better US market access than rivals",
+   "body": [
+    "Commerce Minister Piyush Goyal says the US has agreed that Indian goods will face lower duties than competitors' goods.",
+    "Both sides set a framework for the first phase of a trade deal in February.",
+    "Changing US tariffs have pushed back the signing."
+   ],
+   "joke": "Everyone wants a discount; India says it got one.",
+   "vc": "Lower tariffs would help exporters like textiles and electronics win US orders.",
+   "url": "https://www.thehindu.com/news/national/india-us-agreed-on-preferential-market-access-for-indian-goods-in-america-goyal/article71705526.ece",
+   "linkLabel": "The Hindu",
+   "color": "#4338ca",
+   "font": "editorial",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/G20_Summit%2C_Gurugram_2023_-_Piyush_Goyal_%28Union_Minister%2C_India%29.jpg/1280px-G20_Summit%2C_Gurugram_2023_-_Piyush_Goyal_%28Union_Minister%2C_India%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Shariquejamalworld / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:G20_Summit,_Gurugram_2023_-_Piyush_Goyal_(Union_Minister,_India).jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-16-m1",
+   "section": "money",
+   "source": "Al Jazeera",
+   "kicker": "Nvidia",
+   "emoji": "🔍",
+   "stat": "10",
+   "statLabel": "days for Nvidia's board",
+   "headline": "US Treasury chief wants an outsider to run Nvidia",
+   "body": [
+    "Treasury Secretary Scott Bessent says Nvidia should pick its next CEO from outside the company.",
+    "He gave the board 10 days to show it follows US export controls.",
+    "Jensen Huang quit on Thursday after an affair scandal. (The FT and Unhedged had no fresh piece today, so this is Al Jazeera's report.)"
+   ],
+   "joke": "Job ad: must love chips, must not love drama.",
+   "vc": "Washington pressure on the CEO pick adds risk for the world's key AI chip maker.",
+   "url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia",
+   "linkLabel": "Al Jazeera",
+   "color": "#166534",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nvidia_sign.jpg/1280px-Nvidia_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Will Buckner / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Nvidia_sign.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-16-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Equity podcast",
+   "emoji": "🎙️",
+   "stat": "0",
+   "statLabel": "succession plan at Nvidia",
+   "headline": "Is bad news for Jensen Huang bad news for AI?",
+   "body": [
+    "TechCrunch's Equity podcast asks what Huang's exit means for the AI economy.",
+    "The hosts note Nvidia had no succession plan and Huang was its biggest shareholder.",
+    "They wonder what happens to Nvidia's many startup investments. (Axios Pro Rata had nothing checkable, so this is TechCrunch's take.)"
+   ],
+   "joke": "Plan B is a lovely thing to have before you need it.",
+   "vc": "Nvidia is a big investor in AI startups, so changes at the top could slow funding.",
+   "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+   "linkLabel": "TechCrunch",
+   "color": "#0f766e",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-16-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Self-driving",
+   "emoji": "🚕",
+   "stat": "Mid-tier",
+   "statLabel": "chips Pony.ai is turning to",
+   "headline": "China's robotaxi firms plan for life with fewer Nvidia chips",
+   "body": [
+    "Pony.ai's CFO says demand for AI chips already far outstrips supply.",
+    "If US export rules get stricter after Huang's exit, the company will train models on mid-tier hardware.",
+    "Nvidia is a key supplier to self-driving firms worldwide."
+   ],
+   "joke": "Necessity is the mother of efficiency.",
+   "vc": "Chip limits could push Chinese AV firms toward local suppliers.",
+   "url": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
+   "linkLabel": "TechCrunch",
+   "color": "#0369a1",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%28CHN-Guangdong%29_Pony.ai_Lexus_RX450h_P6001_2024-05-24.jpg/1280px-%28CHN-Guangdong%29_Pony.ai_Lexus_RX450h_P6001_2024-05-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "S5A-0043 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:(CHN-Guangdong)_Pony.ai_Lexus_RX450h_P6001_2024-05-24.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-16-m4",
+   "section": "money",
+   "source": "Stratechery",
+   "kicker": "Interview",
+   "emoji": "🎮",
+   "stat": "2004",
+   "statLabel": "year Roblox started",
+   "headline": "Roblox CEO: AI means anyone can now make a game",
+   "body": [
+    "Ben Thompson interviews Roblox CEO David Baszucki for the third time.",
+    "Baszucki says AI has changed what Roblox can do, now that literally anyone can build a game.",
+    "Roblox wants to be the 'Aggregator' that helps players find games; they also discuss ads."
+   ],
+   "joke": "Finally, a game where the boss level is the recommendation algorithm.",
+   "vc": "If AI floods the market with games, the money moves to whoever controls discovery.",
+   "url": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
+   "linkLabel": "Stratechery",
+   "color": "#6d28d9",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Roblox_building_in_San_Mateo_CA_January_2026.jpg/1280px-Roblox_building_in_San_Mateo_CA_January_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "4300streetcar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Roblox_building_in_San_Mateo_CA_January_2026.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-16-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Venture",
+   "emoji": "💰",
+   "stat": "$4B",
+   "statLabel": "Norwest's new fund",
+   "headline": "Norwest raises $4B, its biggest fund, to back AI",
+   "body": [
+    "Norwest, backed only by Wells Fargo, has raised a $4 billion fund, its 18th and largest.",
+    "It will invest in the US, India and Israel.",
+    "Focus areas include physical AI, voice AI, AI for cybersecurity, and aerospace. (No fresh, checkable Economist piece today, so this is TechCrunch's report.)"
+   ],
+   "joke": "Four billion reasons to take your AI pitch meeting.",
+   "vc": "More big funds mean more cash for Indian AI startups too.",
+   "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+   "linkLabel": "TechCrunch",
+   "color": "#a16207",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-16-v1",
+   "section": "women",
+   "source": "Al Jazeera",
+   "kicker": "Switzerland",
+   "emoji": "🙋‍♂️",
+   "stat": "50%",
+   "statLabel": "of men aged 18–24 hold rigid views of manhood",
+   "headline": "Hundreds of Swiss men march against violence toward women",
+   "body": [
+    "Hundreds of men rallied outside parliament in Bern against misogyny and violence toward women.",
+    "Organisers say men must push back against the online 'manosphere'.",
+    "A Swiss study found half of men aged 18 to 24 hold restrictive views of masculinity."
+   ],
+   "joke": "",
+   "vc": "Online platforms face pressure to curb misogynistic content.",
+   "url": "https://www.aljazeera.com/news/2026/11/15/hundreds-of-men-march-in-switzerland-to-protest-violence-against-women",
+   "linkLabel": "Al Jazeera",
+   "color": "#be185d",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Bern_Panorama_von_Rosengarten_20211007.jpg/1280px-Bern_Panorama_von_Rosengarten_20211007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Daniel Kraft / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Bern_Panorama_von_Rosengarten_20211007.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-16-v2",
+   "section": "women",
+   "source": "Human Rights Watch",
+   "kicker": "Hungary",
+   "emoji": "⚖️",
+   "stat": "2013",
+   "statLabel": "year HRW reported 'unless blood flows'",
+   "headline": "Hungary pledges to ratify Europe's treaty on violence against women",
+   "body": [
+    "Hungary's PM Péter Magyar says his government will ratify the Istanbul Convention.",
+    "The treaty requires better protection, shelters, legal aid and counselling for women.",
+    "Human Rights Watch says it's a welcome, overdue step."
+   ],
+   "joke": "",
+   "vc": "Funding for shelters and legal aid will be the real test of the pledge.",
+   "url": "https://www.hrw.org/news/2026/11/13/hungary-pledges-to-ratify-european-treaty-to-protect-women-from-violence",
+   "linkLabel": "HRW",
+   "color": "#7e22ce",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Budapest_Parliament_4604.JPG/1280px-Budapest_Parliament_4604.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Dirk Beyer / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Budapest_Parliament_4604.JPG",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-16-v3",
+   "section": "women",
+   "source": "The Hindu",
+   "kicker": "Tamil Nadu",
+   "emoji": "📱",
+   "stat": "7",
+   "statLabel": "days for police report",
+   "headline": "Women's commission seeks probe into MLA's alleged messages to woman Collector",
+   "body": [
+    "The National Commission for Women has asked Tamil Nadu's police chief for a fair inquiry.",
+    "It concerns claims that Kallakurichi MLA C. Arul Vignesh sent obscene WhatsApp messages to District Collector J.E. Padmaja.",
+    "The NCW wants an action taken report in 7 days."
+   ],
+   "joke": "",
+   "vc": "Safe workplaces matter for keeping women in senior government jobs.",
+   "url": "https://www.thehindu.com/news/national/tamil-nadu/ncw-calls-for-inquiry-seeks-report-from-dgp-over-kallakurichi-issue/article71705800.ece",
+   "linkLabel": "The Hindu",
+   "color": "#9f1239",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-16-h1",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Telangana",
+   "emoji": "🏗️",
+   "stat": "Jun 2, 2027",
+   "statLabel": "deadline for new hospitals",
+   "headline": "Telangana sets June 2027 deadline for TIMS and Warangal hospitals",
+   "body": [
+    "Telangana must finish its TIMS hospitals at Alwal and LB Nagar, the Warangal Super Speciality Hospital and NIMS expansion by June 2, 2027.",
+    "CM Revanth Reddy also set December 2027 for the new Osmania General Hospital.",
+    "He promised funds would be released immediately."
+   ],
+   "joke": "Deadlines: the most optimistic part of any building.",
+   "vc": "New public hospitals should ease the load on NIMS, where surgeries face delays.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/tims-hospitals-warrangal-super-speciality-hospital-to-be-completed-by-june-2027-183131",
+   "linkLabel": "Medical Dialogues",
+   "color": "#0e7490",
+   "font": "news",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Nizam_Institute_of_Medical_Sciences%2C_Hyderabad1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Rajasekhar1961 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Nizam_Institute_of_Medical_Sciences,_Hyderabad1.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-16-h2",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Tamil Nadu",
+   "emoji": "🫀",
+   "stat": "₹22 lakh",
+   "statLabel": "state cover for a liver transplant",
+   "headline": "Tamil Nadu plans liver transplants from living donors at government hospitals",
+   "body": [
+    "Tamil Nadu is planning living-donor liver transplants at government hospitals, Health Minister KG Arunraj said.",
+    "Today only private hospitals in the state do them.",
+    "Sholinganallur's government hospital may also get a new mother-and-newborn emergency care centre."
+   ],
+   "joke": "Good news for livers, and for wallets.",
+   "vc": "Public transplant services could cut costs for families; the state insurance covers up to ₹22 lakh.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/tamil-nadu-govt-hospitals-may-soon-get-living-donor-liver-transplant-services-183164",
+   "linkLabel": "Medical Dialogues",
+   "color": "#15803d",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Government_Kasturba_Gandhi_Hospital_in_Chennai_01.jpg/1280px-Government_Kasturba_Gandhi_Hospital_in_Chennai_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Pinakpani / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Government_Kasturba_Gandhi_Hospital_in_Chennai_01.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-16-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "West Bengal",
+   "emoji": "🩺",
+   "stat": "10,000",
+   "statLabel": "nurses to be hired",
+   "headline": "West Bengal to hire 2,000 doctors and up to 10,000 nurses",
+   "body": [
+    "West Bengal will hire doctors, nurses and other staff on contract for government hospitals, from rural clinics to medical colleges.",
+    "Regular hiring through the public service commission takes 18 months to two years.",
+    "Hospitals can start hiring right away."
+   ],
+   "joke": "Hiring at hospital speed, not paperwork speed.",
+   "vc": "More staff could let existing beds and wards run at full capacity.",
+   "url": "https://medicaldialogues.in/news/health/doctors/west-bengal-to-recruit-2000-doctors-up-to-10000-nurses-on-contractual-basis-183203",
+   "linkLabel": "Medical Dialogues",
+   "color": "#1d4ed8",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Kolkata_Medical_College_Hospital_main_entrance_at_College_Street_in_Kolkata.jpg/1280px-Kolkata_Medical_College_Hospital_main_entrance_at_College_Street_in_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Billjones94 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Kolkata_Medical_College_Hospital_main_entrance_at_College_Street_in_Kolkata.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-16-r1",
+   "section": "f1",
+   "source": "GPblog",
+   "kicker": "Media",
+   "emoji": "📰",
+   "stat": "21",
+   "statLabel": "years McEvoy covered F1",
+   "headline": "Daily Mail boycotts F1 after the FIA bans its reporter",
+   "body": [
+    "The Daily Mail is boycotting Formula 1 after the FIA revoked the accreditation of its correspondent Jonathan McEvoy.",
+    "The FIA said his column about Charles Leclerc failed professional standards.",
+    "The paper calls it an attack on press freedom and will stay away for the rest of the season."
+   ],
+   "joke": "The paper's new F1 coverage: a blank page.",
+   "vc": "Media coverage drives F1's sponsor value, so press rows are bad for business.",
+   "url": "https://gpblog.com/en/news/f1-today-verstappen-loses-key-red-bull-ally-as-fia-faces-newspaper-boycott",
+   "linkLabel": "GPblog",
+   "color": "#dc2626",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/2025_Singapore_GP_-_Ferrari_-_Charles_Leclerc_-_FP2.jpg/1280px-2025_Singapore_GP_-_Ferrari_-_Charles_Leclerc_-_FP2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Liauzh / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:2025_Singapore_GP_-_Ferrari_-_Charles_Leclerc_-_FP2.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  }
+ ]
+}
