@@ -453,6 +453,75 @@
    "font": "news"
   },
   {
+   "id": "2026-11-17-t1",
+   "section": "hft",
+   "source": "Finance Magnates",
+   "kicker": "Graviton",
+   "emoji": "🚀",
+   "stat": "+166%",
+   "statLabel": "Singapore unit's profit jump",
+   "headline": "India's Graviton now earns more in Singapore than at home",
+   "body": [
+    "Graviton Research Capital's Singapore arm nearly tripled its profit to $142.4 million in the year to March 2026.",
+    "Its Indian unit earned 25% less, about $94 million.",
+    "The jump makes co-founders Nishil and Ankit Gupta worth about $1 billion each, Bloomberg reports."
+   ],
+   "joke": "Two IIT Delhi friends, one very fast billion.",
+   "vc": "Indian HFT firms are growing faster abroad than at home.",
+   "url": "https://www.financemagnates.com/institutional-forex/high-speed-trader-graviton-now-earns-more-in-singapore-than-in-india/",
+   "linkLabel": "Finance Magnates",
+   "color": "#115e59",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Skyline_of_the_Central_Business_District_with_the_Old_Parliament_House_in_Singapore.jpg/1280px-Skyline_of_the_Central_Business_District_with_the_Old_Parliament_House_in_Singapore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Basile Morin / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Skyline_of_the_Central_Business_District_with_the_Old_Parliament_House_in_Singapore.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-17-t2",
+   "section": "hft",
+   "source": "Kaohoon International",
+   "kicker": "Thailand",
+   "emoji": "🇹🇭",
+   "stat": "8",
+   "statLabel": "trading rule changes",
+   "headline": "Thailand's stock exchange tightens oversight of high-frequency trading",
+   "body": [
+    "The Stock Exchange of Thailand announced eight revised trading measures.",
+    "They include smaller tick sizes, new short-selling rules and closer watch on high-frequency trading.",
+    "The aim is cheaper, more efficient trading and more investor confidence."
+   ],
+   "joke": "Speed limits, now for algorithms.",
+   "vc": "Smaller ticks can mean tighter prices for investors but thinner margins for market makers.",
+   "url": "https://kaohooninternational.com/markets/594836",
+   "linkLabel": "Kaohoon",
+   "color": "#9a3412",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-17-t3",
+   "section": "hft",
+   "source": "Explainer · Finance Magnates",
+   "kicker": "Explainer",
+   "emoji": "🎓",
+   "stat": "99%",
+   "statLabel": "of the profit went to algo firms",
+   "headline": "Explainer: what is HFT, and why do algos win in India?",
+   "body": [
+    "High-frequency trading (HFT) means computers buying and selling in tiny fractions of a second.",
+    "Many HFT firms are market makers: they offer to buy a bit lower and sell a bit higher, and keep the small gap, called the spread.",
+    "SEBI data show algo firms took 99% of the trading profit made by prop traders and foreign investors last year."
+   ],
+   "joke": "Your thumb versus a server: not a fair race.",
+   "vc": "Speed and tech spending, not hunches, decide who wins in HFT.",
+   "url": "https://www.financemagnates.com/institutional-forex/high-speed-trader-graviton-now-earns-more-in-singapore-than-in-india/",
+   "linkLabel": "Finance Magnates",
+   "color": "#1e1b4b",
+   "font": "tech"
+  },
+  {
    "id": "2026-11-17-r1",
    "section": "f1",
    "source": "Autosport",

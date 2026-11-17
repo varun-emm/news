@@ -434,10 +434,10 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     get(k, d){ try{ const v = localStorage.getItem('ds_'+k); return v===null?d:JSON.parse(v);}catch(e){return d} },
     set(k, v){ try{ v===null ? localStorage.removeItem('ds_'+k) : localStorage.setItem('ds_'+k, JSON.stringify(v)); }catch(e){} }
   };
-  const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["women","Women"],["health","Hospitals"],["f1","F1"],["saved","🔖 Saved"]];
-  const LABEL = {world:"World", india:"India", money:"Money Desk", women:"Women", health:"Hospitals", f1:"F1"};
-  const SEC_ICON = {world:"🌍", india:"🇮🇳", money:"💰", women:"♀️", health:"🏥", f1:"🏎️"};
-  const VERSION = '4.0'; // bump on every change to this page, so it's easy to tell which copy you have
+  const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["women","Women"],["health","Hospitals"],["hft","HFT"],["f1","F1"],["saved","🔖 Saved"]];
+  const LABEL = {world:"World", india:"India", money:"Money Desk", women:"Women", health:"Hospitals", hft:"HFT", f1:"F1"};
+  const SEC_ICON = {world:"🌍", india:"🇮🇳", money:"💰", women:"♀️", health:"🏥", hft:"⚡", f1:"🏎️"};
+  const VERSION = '4.1'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
@@ -625,7 +625,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     if(/\b(ai|tech|startup|chips?|software|apps?|agents?|robots?|cloud|saas|crypto|data)\b/.test(t)) return 'tech';
     if(/ipo|sensex|nifty|stocks?\b|shares|debut|surge|soar|plunge|rally|52-week|jumps|slump|tumble/.test(t)) return 'impact';
     if(/election|vote|president|minister|\bwar\b|talks|summit|protest|court|parliament|government|leaders?\b|king|prime/.test(t)) return 'news';
-    if(s.section === 'money' || /bank|bond|fund|budget|profit|valuation|rates|inflation|economy/.test(t)) return 'finance';
+    if(s.section === 'money' || s.section === 'hft' || /bank|bond|fund|budget|profit|valuation|rates|inflation|economy/.test(t)) return 'finance';
     return isCalm(s) ? 'serious' : 'editorial';
   }
   function funEl(s){
