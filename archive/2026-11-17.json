@@ -1,0 +1,546 @@
+{
+ "date": "2026-11-17",
+ "generatedAt": "2026-11-17T08:22:53+05:30",
+ "stories": [
+  {
+   "id": "2026-11-17-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Britain",
+   "emoji": "🇪🇺",
+   "stat": "10",
+   "statLabel": "years since the Brexit vote",
+   "headline": "UK PM Burnham says Brexit failed and seeks a reset with the EU",
+   "body": [
+    "Prime Minister Andy Burnham says Britain has lost more than it gained from leaving the EU.",
+    "He called the 'hard Brexit' not good enough and compared it to 'The Emperor's New Clothes'.",
+    "A UK-EU summit takes place in Brussels on Friday."
+   ],
+   "joke": "The emperor has noticed the draught.",
+   "vc": "Closer EU ties could cut trade friction for UK exporters and lift the pound.",
+   "url": "https://www.aljazeera.com/news/2026/11/17/uk-seeks-closer-ties-with-eu-after-brexit-fail",
+   "linkLabel": "Al Jazeera",
+   "color": "#1d4ed8",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-17-w2",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Yemen",
+   "emoji": "⚔️",
+   "stat": "661",
+   "statLabel": "attacks reported on Houthis",
+   "headline": "Yemen's army reports 661 attacks as Houthis push toward Aden",
+   "body": [
+    "Yemen's army says it carried out 661 attacks on Houthi positions as the group advances toward Aden.",
+    "They included air strikes, artillery, drones and rockets.",
+    "Government forces have suffered a series of setbacks in the southwest."
+   ],
+   "joke": "",
+   "vc": "Fighting near Bab al-Mandeb threatens one of the world's key shipping lanes.",
+   "url": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden",
+   "linkLabel": "Al Jazeera",
+   "color": "#7f1d1d",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Aden%2C_Yemen_Port.jpg/1280px-Aden%2C_Yemen_Port.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "T3n60 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Aden,_Yemen_Port.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-17-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Paraguay",
+   "emoji": "🏦",
+   "stat": "Ueno Bank",
+   "statLabel": "collapse at the heart of the case",
+   "headline": "Paraguay's ex-president moved to military jail after special-treatment reports",
+   "body": [
+    "A judge ordered former president Santiago Peña moved to a military prison.",
+    "Reports said he had a dining room, furniture and a private gym where he was being held.",
+    "He faces corruption charges linked to the collapse of Ueno Bank."
+   ],
+   "joke": "Downgraded from suite to cell.",
+   "vc": "A big bank collapse shakes savers' trust in Paraguay's financial system.",
+   "url": "https://www.aljazeera.com/news/2026/11/16/paraguay-ex-president-moved-to-military-jail-amid-special-treatment-reports",
+   "linkLabel": "Al Jazeera",
+   "color": "#b45309",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Asunci%C3%B3n_temple_by_Bwood720.jpeg/1280px-Asunci%C3%B3n_temple_by_Bwood720.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Bwood720 at English Wikipedia / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Asunci%C3%B3n_temple_by_Bwood720.jpeg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-11-17-i1",
+   "section": "india",
+   "source": "Upstox",
+   "kicker": "Markets",
+   "emoji": "📈",
+   "stat": "+512",
+   "statLabel": "Sensex points on Monday",
+   "headline": "Sensex jumps 512 points as foreign money flows in",
+   "body": [
+    "The Sensex rose 512 points to 82,104.79 on Monday, and the Nifty closed at 25,291.",
+    "FMCG and bank shares led the gains; Max Healthcare was the top gainer.",
+    "Mid and small caps fell, with the Smallcap 100 down 1.1%."
+   ],
+   "joke": "Big caps party, small caps nap.",
+   "vc": "Foreign inflows and cheaper oil are keeping big Indian stocks in demand.",
+   "url": "https://upstox.com/news/market-news/stocks/market-wrap-nov-16-sensex-rises-512-pts-nifty-50-ends-at-25-291-led-by-fmcg-stocks-max-healthcare-top-gainer/article-203523/",
+   "linkLabel": "Upstox",
+   "color": "#047857",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1280px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Niyantha Shekhar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-17-i2",
+   "section": "india",
+   "source": "TechCrunch",
+   "kicker": "Chips",
+   "emoji": "📷",
+   "stat": "$24M",
+   "statLabel": "seed round",
+   "headline": "Indian chip startup Bharat Semi raises $24M for AI image sensors",
+   "body": [
+    "Bharat Semi has raised $24 million in seed funding to build AI-enabled image sensors.",
+    "It says it has design wins with US defence firm General Atomics and India's Kaynes Semicon.",
+    "It aims to start commercial production in 2027."
+   ],
+   "joke": "Pre-revenue, but already seeing the future.",
+   "vc": "India wants to become a chip hub as firms look beyond China.",
+   "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+   "linkLabel": "TechCrunch",
+   "color": "#4338ca",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/A_semiconductor_wafer_being_removed_from_processing_equipment.jpg/1280px-A_semiconductor_wafer_being_removed_from_processing_equipment.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "YouTube — Purdue Engineering / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:A_semiconductor_wafer_being_removed_from_processing_equipment.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-17-i3",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Bengaluru",
+   "emoji": "🚕",
+   "stat": "100",
+   "statLabel": "Green SM taxis already registered",
+   "headline": "Karnataka halts new Green SM taxi registrations after union protests",
+   "body": [
+    "Karnataka has stopped new registrations for Vietnam-based Green SM's electric taxis, days after clearing it.",
+    "Local taxi unions had protested its entry into Bengaluru.",
+    "The state also plans to make fare meters compulsory for all cabs, including Ola and Uber."
+   ],
+   "joke": "Meters are back. Surge pricing, take note.",
+   "vc": "Policy U-turns add risk for foreign mobility firms entering India.",
+   "url": "https://inc42.com/buzz/karnataka-halts-green-sm-taxi-licensing-to-protect-local-interest/",
+   "linkLabel": "Inc42",
+   "color": "#0e7490",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-17-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Nvidia",
+   "emoji": "📊",
+   "stat": "Nov 17",
+   "statLabel": "Nvidia's Q3 results",
+   "headline": "Nvidia reports its first results without Jensen Huang",
+   "body": [
+    "Nvidia's interim CEO Colette Kress reports third-quarter results on Tuesday, the first since Huang quit.",
+    "Questions include claims that its restricted chips were smuggled into China.",
+    "Nvidia has promised an internal investigation. (The FT's Unhedged had no new episode, so this is TechCrunch's preview.)"
+   ],
+   "joke": "No leather jacket, all spreadsheets.",
+   "vc": "Nvidia's numbers and outlook steer the whole AI stock trade.",
+   "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+   "linkLabel": "TechCrunch",
+   "color": "#166534",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Kevin McCarthy / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Nvidia_HQ.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-17-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Venture",
+   "emoji": "🛡️",
+   "stat": "$1B",
+   "statLabel": "valuation in about 3 months",
+   "headline": "AI security startup Corma hits $1B valuation three months after launch",
+   "body": [
+    "Corma raised a $125 million Series A at a $1 billion valuation, led by NEA.",
+    "It sells AI models and agents trained to defend against cyberattacks.",
+    "Demand jumped after a wave of security flaws on October 21. (Axios Pro Rata had nothing checkable, so this is TechCrunch's deal.)"
+   ],
+   "joke": "From stealth to unicorn faster than a password reset.",
+   "vc": "Investors are rushing into AI security as attacks speed up.",
+   "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+   "linkLabel": "TechCrunch",
+   "color": "#0f172a",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-17-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Startups",
+   "emoji": "🤝",
+   "stat": "$53M",
+   "statLabel": "raised by Dreamteam",
+   "headline": "Ex-Freshworks team raises $53M to take on Salesforce",
+   "body": [
+    "Dreamteam, founded by former Freshworks executives, has raised $53 million for an AI-native CRM.",
+    "Together Fund and Accel led the rounds, with Premji Invest joining.",
+    "Its AI pulls in context from emails and calls so salespeople don't type updates."
+   ],
+   "joke": "Finally, a CRM that does the data entry for you.",
+   "vc": "Indian-origin SaaS teams keep drawing big global rounds.",
+   "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+   "linkLabel": "TechCrunch",
+   "color": "#7c3aed",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-17-m4",
+   "section": "money",
+   "source": "Stratechery",
+   "kicker": "Analysis",
+   "emoji": "🕯️",
+   "stat": "1993",
+   "statLabel": "year Huang founded Nvidia",
+   "headline": "Stratechery: Huang's fall ends more than just a CEO's run",
+   "body": [
+    "Ben Thompson argues Huang's exit marks the end of several things at once.",
+    "He says Nvidia came to be treated like a defence contractor, and Huang never adjusted.",
+    "He links it to Nvidia's long-term prospects and the AI boom."
+   ],
+   "joke": "A eulogy with footnotes.",
+   "vc": "If Nvidia is treated as a defence firm, its China sales and growth face lasting limits.",
+   "url": "https://stratechery.com/2026/obituaries/",
+   "linkLabel": "Stratechery",
+   "color": "#334155",
+   "font": "editorial",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Jensen_huang_stanford_2026-04-30_025.jpg/1280px-Jensen_huang_stanford_2026-04-30_025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Anders Eidesvik / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_025.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-17-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Export rules",
+   "emoji": "🚫",
+   "stat": "22",
+   "statLabel": "embargoed countries in group D:5",
+   "headline": "US moves to stop China renting AI chips abroad",
+   "body": [
+    "The US is rolling out rules requiring licences to send AI chips to data centres anywhere that may serve Chinese firms.",
+    "It targets companies from the D:5 group, including China, Russia, Iran and North Korea.",
+    "The aim is to close the remote-access loophole. (No checkable Economist piece today, so this is TechCrunch's report.)"
+   ],
+   "joke": "Can't buy the chip? Can't rent it either.",
+   "vc": "Cloud firms in Asia and the Gulf face new paperwork and lost Chinese demand.",
+   "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+   "linkLabel": "TechCrunch",
+   "color": "#991b1b",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Department_of_Commerce_flag_flying_Washington_DC_2025-03-26_12-19-48.jpg/1280px-Department_of_Commerce_flag_flying_Washington_DC_2025-03-26_12-19-48.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "G. Edward Johnson / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Department_of_Commerce_flag_flying_Washington_DC_2025-03-26_12-19-48.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-17-v1",
+   "section": "women",
+   "source": "TechCrunch",
+   "kicker": "Investing",
+   "emoji": "🎾",
+   "stat": "$200M",
+   "statLabel": "target for Starfire Ventures",
+   "headline": "Serena Williams launches a new $200M venture fund",
+   "body": [
+    "Serena Williams and partner Beth Ferreira have launched Starfire Ventures, aiming to raise $200 million.",
+    "It will back AI-native startups in areas like fintech and health.",
+    "Her earlier firm, Serena Ventures, backed over 100 companies and has made its last new investment."
+   ],
+   "joke": "Game, set, fund.",
+   "vc": "Women-led funds remain rare, so a $200M fund is a big signal.",
+   "url": "https://techcrunch.com/2026/11/16/serena-williams-winds-down-her-vc-firm-launches-new-fund-targets-200m/",
+   "linkLabel": "TechCrunch",
+   "color": "#be185d",
+   "font": "finance",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Venus_and_Serena_Williams_%282000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "John Mathew Smith & www.celebrity-photos.com / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Venus_and_Serena_Williams_(2000).jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-17-v2",
+   "section": "women",
+   "source": "The Hindu",
+   "kicker": "Justice",
+   "emoji": "⚖️",
+   "stat": "17+",
+   "statLabel": "years the two men were jailed",
+   "headline": "Supreme Court grants bail to two convicts in Bilkis Bano case",
+   "body": [
+    "The Supreme Court has suspended the life sentences of two men convicted in the Bilkis Bano case and granted them bail.",
+    "They were convicted of her gang rape and the murder of her family in 2002.",
+    "The court cited over 17 years in jail and open issues in their appeal."
+   ],
+   "joke": "",
+   "vc": "Survivors' trust in the justice system is the issue at stake.",
+   "url": "https://www.thehindu.com/news/national/bilkis-bano-case-supreme-court-suspends-sentence-grants-bail-to-two-convicts/article71707334.ece",
+   "linkLabel": "The Hindu",
+   "color": "#581c87",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Supreme_Court_of_India_01.jpg/1280px-Supreme_Court_of_India_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Subhashish Panigrahi / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Supreme_Court_of_India_01.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-17-v3",
+   "section": "women",
+   "source": "Medical Dialogues",
+   "kicker": "Maharashtra",
+   "emoji": "🤰",
+   "stat": "59% vs 37%",
+   "statLabel": "C-sections: private vs govt hospitals",
+   "headline": "Maharashtra orders C-section audits as private rates hit 59%",
+   "body": [
+    "Maharashtra has ordered regular audits of caesarean deliveries.",
+    "About 59% of women delivering in private hospitals had C-sections, against 37% in public ones.",
+    "The goal is to make sure surgery happens only when medically needed."
+   ],
+   "joke": "",
+   "vc": "Unneeded C-sections raise costs for families and insurers.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/maharashtra-orders-c-section-audits-as-private-hospitals-record-59-percent-caesarean-deliveries-183339",
+   "linkLabel": "Medical Dialogues",
+   "color": "#9f1239",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Mantralaya%2C_Mumbai.jpg/1280px-Mantralaya%2C_Mumbai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Archies2804 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Mantralaya,_Mumbai.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-17-h1",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Bengaluru",
+   "emoji": "🎗️",
+   "stat": "200",
+   "statLabel": "new beds planned",
+   "headline": "Karnataka to add 200 beds at Bengaluru's Kidwai cancer hospital",
+   "body": [
+    "Karnataka will add 200 beds at the Kidwai Institute of Oncology in Bengaluru, DCM D.K. Shivakumar said.",
+    "It is also weighing 3 acres for housing families of children being treated.",
+    "Kidwai serves patients from across the state."
+   ],
+   "joke": "More beds, shorter waits. That's the plan.",
+   "vc": "More public cancer beds can cut long waits and costly private care.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/karnataka-announces-200-more-beds-at-kidwai-institute-of-oncology-plans-district-level-cancer-care-183298",
+   "linkLabel": "Medical Dialogues",
+   "color": "#0f766e",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-17-h2",
+   "section": "health",
+   "source": "Express Healthcare",
+   "kicker": "Hyderabad",
+   "emoji": "🏥",
+   "stat": "1,700+",
+   "statLabel": "Aster beds in Hyderabad",
+   "headline": "Aster to open a 300-bed hospital in Hyderabad by March 2027",
+   "body": [
+    "Aster DM Quality Care's 300-bed hospital at Kondapur, Hyderabad, will open in March 2027.",
+    "It costs ₹500 crore and takes Aster's Hyderabad beds past 1,700.",
+    "The group plans about ₹4,000 crore of investment over two years."
+   ],
+   "joke": "Hyderabad's skyline gets a few more stethoscopes.",
+   "vc": "Hospital chains are betting big on bed growth in fast-growing cities.",
+   "url": "https://www.expresshealthcare.in/news/aster-dm-quality-care-to-open-300-bed-hyderabad-hospital-in-march-2027/455845/",
+   "linkLabel": "Express Healthcare",
+   "color": "#0369a1",
+   "font": "finance",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Hyderabad_Kondapur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Shishirdasika / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Hyderabad_Kondapur.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-17-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Tamil Nadu",
+   "emoji": "🚑",
+   "stat": "10–15",
+   "statLabel": "accident victims a day",
+   "headline": "Tiruchy's Thuvakudi hospital seeks upgrade to an accident care centre",
+   "body": [
+    "Thuvakudi Government Hospital near Tiruchy wants to become a TAEI accident and emergency centre.",
+    "That would bring more doctors and nurses and a CT scanner.",
+    "It sees 10 to 15 crash victims a day and sends about five to MGMGH."
+   ],
+   "joke": "",
+   "vc": "Local trauma care saves lives and eases load on the city's big hospital.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/thuvakudi-government-hospital-seeks-taei-centre-status-to-boost-emergency-care-183322",
+   "linkLabel": "Medical Dialogues",
+   "color": "#c2410c",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Trichy_corporation.jpg/1280px-Trichy_corporation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "SridharRG / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Trichy_corporation.jpg",
+    "license": "CC0"
+   }
+  },
+  {
+   "id": "2026-11-17-h4",
+   "section": "health",
+   "source": "Express Healthcare",
+   "kicker": "Navi Mumbai",
+   "emoji": "👶",
+   "stat": "24/7",
+   "statLabel": "breathing support",
+   "headline": "NewEra Hospitals opens a newborn ICU in Vashi",
+   "body": [
+    "NewEra Hospitals in Vashi has opened a dedicated neonatal intensive care unit.",
+    "It will care for premature, low-weight and sick newborns.",
+    "It has warmers, monitors, 24/7 breathing support and family-friendly spaces."
+   ],
+   "joke": "Tiny patients, big upgrade.",
+   "vc": "Specialist newborn units help private hospitals win more maternity patients.",
+   "url": "https://www.expresshealthcare.in/news/newera-hospitals-inaugurates-neonatal-intensive-care-unit-in-vashi/455842/",
+   "linkLabel": "Express Healthcare",
+   "color": "#a21caf",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-17-t1",
+   "section": "hft",
+   "source": "Finance Magnates",
+   "kicker": "Graviton",
+   "emoji": "🚀",
+   "stat": "+166%",
+   "statLabel": "Singapore unit's profit jump",
+   "headline": "India's Graviton now earns more in Singapore than at home",
+   "body": [
+    "Graviton Research Capital's Singapore arm nearly tripled its profit to $142.4 million in the year to March 2026.",
+    "Its Indian unit earned 25% less, about $94 million.",
+    "The jump makes co-founders Nishil and Ankit Gupta worth about $1 billion each, Bloomberg reports."
+   ],
+   "joke": "Two IIT Delhi friends, one very fast billion.",
+   "vc": "Indian HFT firms are growing faster abroad than at home.",
+   "url": "https://www.financemagnates.com/institutional-forex/high-speed-trader-graviton-now-earns-more-in-singapore-than-in-india/",
+   "linkLabel": "Finance Magnates",
+   "color": "#115e59",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Skyline_of_the_Central_Business_District_with_the_Old_Parliament_House_in_Singapore.jpg/1280px-Skyline_of_the_Central_Business_District_with_the_Old_Parliament_House_in_Singapore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Basile Morin / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Skyline_of_the_Central_Business_District_with_the_Old_Parliament_House_in_Singapore.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-17-t2",
+   "section": "hft",
+   "source": "Kaohoon International",
+   "kicker": "Thailand",
+   "emoji": "🇹🇭",
+   "stat": "8",
+   "statLabel": "trading rule changes",
+   "headline": "Thailand's stock exchange tightens oversight of high-frequency trading",
+   "body": [
+    "The Stock Exchange of Thailand announced eight revised trading measures.",
+    "They include smaller tick sizes, new short-selling rules and closer watch on high-frequency trading.",
+    "The aim is cheaper, more efficient trading and more investor confidence."
+   ],
+   "joke": "Speed limits, now for algorithms.",
+   "vc": "Smaller ticks can mean tighter prices for investors but thinner margins for market makers.",
+   "url": "https://kaohooninternational.com/markets/594836",
+   "linkLabel": "Kaohoon",
+   "color": "#9a3412",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-17-t3",
+   "section": "hft",
+   "source": "Explainer · Finance Magnates",
+   "kicker": "Explainer",
+   "emoji": "🎓",
+   "stat": "99%",
+   "statLabel": "of the profit went to algo firms",
+   "headline": "Explainer: what is HFT, and why do algos win in India?",
+   "body": [
+    "High-frequency trading (HFT) means computers buying and selling in tiny fractions of a second.",
+    "Many HFT firms are market makers: they offer to buy a bit lower and sell a bit higher, and keep the small gap, called the spread.",
+    "SEBI data show algo firms took 99% of the trading profit made by prop traders and foreign investors last year."
+   ],
+   "joke": "Your thumb versus a server: not a fair race.",
+   "vc": "Speed and tech spending, not hunches, decide who wins in HFT.",
+   "url": "https://www.financemagnates.com/institutional-forex/high-speed-trader-graviton-now-earns-more-in-singapore-than-in-india/",
+   "linkLabel": "Finance Magnates",
+   "color": "#1e1b4b",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-17-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "Las Vegas",
+   "emoji": "🏎️",
+   "stat": "2",
+   "statLabel": "Haas driver changes",
+   "headline": "Haas keeps rookie Câmara in the car for Las Vegas",
+   "body": [
+    "Rafael Câmara will race for Haas again at the Las Vegas Grand Prix.",
+    "Ryo Hirakawa takes Ollie Bearman's car in first practice.",
+    "Haas dropped Esteban Ocon during the Mexico City weekend; Câmara joins full-time next year."
+   ],
+   "joke": "Vegas rule: stick with what's working.",
+   "vc": "Young drivers on cheaper deals help midfield teams manage budgets.",
+   "url": "https://www.autosport.com/f1/news/haas-sticks-with-rafael-camara-for-las-vegas-ryo-hirakawa-in-for-fp1/10874781/",
+   "linkLabel": "Autosport",
+   "color": "#dc2626",
+   "font": "impact"
+  }
+ ]
+}
