@@ -1,0 +1,521 @@
+{
+ "date": "2026-11-19",
+ "generatedAt": "2026-11-19T03:48:23+05:30",
+ "stories": [
+  {
+   "id": "2026-11-19-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Gaza",
+   "emoji": "🛑",
+   "stat": "3",
+   "statLabel": "people killed on the first day",
+   "headline": "Israel launches first ground push in Gaza since the ceasefire",
+   "body": [
+    "Israeli forces began a new operation in central Gaza, the first broad ground offensive since a ceasefire was signed over a year ago.",
+    "At least three Palestinians were killed, hospital officials said.",
+    "Many people fled areas near the Nuseirat and Bureij refugee camps."
+   ],
+   "joke": "",
+   "vc": "Renewed fighting threatens aid deliveries and rebuilding plans.",
+   "url": "https://www.aljazeera.com/news/2026/11/18/palestinians-flee-refugee-camp-as-israel-begins-operation-in-central-gaza",
+   "linkLabel": "Al Jazeera",
+   "color": "#7f1d1d",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Damage_in_Gaza_Strip_during_the_October_2023_-_29.jpg/1280px-Damage_in_Gaza_Strip_during_the_October_2023_-_29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "WAFA in contract with a local company (APAimages)‏‏ / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Damage_in_Gaza_Strip_during_the_October_2023_-_29.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-19-w2",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "United States",
+   "emoji": "🏛️",
+   "stat": "56",
+   "statLabel": "Jeffries' age",
+   "headline": "Hakeem Jeffries nominated as first Black US House speaker",
+   "body": [
+    "Democrats chose Hakeem Jeffries as their nominee for speaker of the US House.",
+    "He is the first Black lawmaker formally nominated for the role.",
+    "Democrats won control of both chambers of Congress in this month's midterms."
+   ],
+   "joke": "The gavel has a new favourite.",
+   "vc": "A Democratic House changes the outlook for tax, trade and tech bills.",
+   "url": "https://www.aljazeera.com/news/2026/11/18/hakeem-jeffries-becomes-first-black-nominee-for-us-house-speaker",
+   "linkLabel": "Al Jazeera",
+   "color": "#1e3a8a",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Hakeem_Jeffries_and_Janno_Lieber_at_a_groundbreaking_ceremony_%28August_5%2C_2024%29.jpg/1280px-Hakeem_Jeffries_and_Janno_Lieber_at_a_groundbreaking_ceremony_%28August_5%2C_2024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Metropolitan Transportation Authority / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Hakeem_Jeffries_and_Janno_Lieber_at_a_groundbreaking_ceremony_(August_5,_2024).jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-19-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Ukraine",
+   "emoji": "🌉",
+   "stat": "200 m",
+   "statLabel": "of bridge road damaged",
+   "headline": "Ukraine knocks out part of the Crimea bridge",
+   "body": [
+    "Ukraine hit the bridge linking Russia to Crimea with heavy drones and cruise missiles in two waves.",
+    "One arch collapsed, cutting car traffic and leaving trains with one track.",
+    "Kyiv spent weeks knocking out the air defences guarding it first."
+   ],
+   "joke": "",
+   "vc": "Cutting Crimea's main supply link raises Russia's military and trade costs.",
+   "url": "https://www.aljazeera.com/news/2026/11/18/crimea-is-turning-into-an-island-how-ukraine-hit-putins-prized-bridge",
+   "linkLabel": "Al Jazeera",
+   "color": "#374151",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/%D0%9A%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_13_%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F_2019_%D0%B3%D0%BE%D0%B4%D0%B0_%281%29.jpg/1280px-%D0%9A%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_13_%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F_2019_%D0%B3%D0%BE%D0%B4%D0%B0_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Росавтодор / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_13_%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F_2019_%D0%B3%D0%BE%D0%B4%D0%B0_(1).jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-19-i1",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Markets",
+   "emoji": "📊",
+   "stat": "₹1,905 cr",
+   "statLabel": "Groww shares Ribbit sold",
+   "headline": "Ribbit Capital sells 1.4% of Groww for ₹1,905 crore",
+   "body": [
+    "US investor Ribbit Capital sold 8.7 crore Groww shares at ₹219 each in block deals.",
+    "Buyers included funds tied to BlackRock and Fidelity, and Kotak Mahindra MF.",
+    "Ribbit has raised about ₹7,871 crore from Groww's IPO and later sales."
+   ],
+   "joke": "Early backer, late profits.",
+   "vc": "Big VCs cashing out of listed startups shows the IPO route is paying off.",
+   "url": "https://inc42.com/buzz/ribbit-capital-sells-1-4-stake-in-groww-for-%e2%82%b91905-cr-via-block-deals/",
+   "linkLabel": "Inc42",
+   "color": "#047857",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1280px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Niyantha Shekhar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-19-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Startups",
+   "emoji": "🤖",
+   "stat": "$47M",
+   "statLabel": "raised by Humyn Labs",
+   "headline": "Humyn Labs raises $47M to gather training data for robots",
+   "body": [
+    "Physical-AI startup Humyn Labs raised $26 million in equity led by Accel and $21 million in debt.",
+    "It says it crossed $50 million in annualised revenue within six months.",
+    "It will expand to Brazil, South Korea and India; Jump Trading also invested."
+   ],
+   "joke": "Teaching robots, one dataset at a time.",
+   "vc": "Robot makers' hunger for data is a new export business for India.",
+   "url": "https://inc42.com/buzz/humyn-labs-raises-47-mn-to-collect-training-data-for-robots/",
+   "linkLabel": "Inc42",
+   "color": "#4338ca",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Halodi_Robotics%27_Perception_Engineer_With_a_Humanoid_Collaborative_Robot.jpg/1280px-Halodi_Robotics%27_Perception_Engineer_With_a_Humanoid_Collaborative_Robot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Nicholas-halodi / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Halodi_Robotics%27_Perception_Engineer_With_a_Humanoid_Collaborative_Robot.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-19-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Pensions",
+   "emoji": "💼",
+   "stat": "₹1.1 lakh cr",
+   "statLabel": "possible extra cost",
+   "headline": "Higher pensions for 4.45 lakh people may cost EPFO ₹1.1 lakh crore",
+   "body": [
+    "EPFO says paying higher pensions under a Supreme Court ruling could cost an extra ₹1.109 lakh crore.",
+    "It has sent demand letters to 4.45 lakh applicants.",
+    "Pension orders have gone to about 1.52 lakh people so far."
+   ],
+   "joke": "Retirement maths just got a lot harder.",
+   "vc": "A big bill could pressure EPFO's finances and future returns.",
+   "url": "https://www.thehindu.com/news/national/higher-pension-to-445-lakh-applicants-may-cost-epfo-11-lakh-crore/article71717109.ece",
+   "linkLabel": "The Hindu",
+   "color": "#0e7490",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-19-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "IPO",
+   "emoji": "🚀",
+   "stat": "$1.5T",
+   "statLabel": "Anthropic's IPO valuation",
+   "headline": "Anthropic prices its IPO at $83, above the range",
+   "body": [
+    "Anthropic reportedly priced its IPO at $83 a share, above its $70–78 range.",
+    "That values it at $1.5 trillion fully diluted.",
+    "It starts trading on Nasdaq on Thursday as 'ANT'. (No new FT/Unhedged piece, so this is TechCrunch's report.)"
+   ],
+   "joke": "Ticker ANT, valuation very much not ant-sized.",
+   "vc": "A strong debut would show investors still trust the AI boom after Nvidia's turmoil.",
+   "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+   "linkLabel": "TechCrunch",
+   "color": "#c2410c",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854098999333%29.jpg/1280px-Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854098999333%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Department for Science, Innovation and Technology / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._(54098999333).jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-19-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Venture",
+   "emoji": "💳",
+   "stat": "$2B",
+   "statLabel": "Payhawk valuation",
+   "headline": "Payhawk raises $280M led by Goldman Sachs",
+   "body": [
+    "UK fintech Payhawk raised a $280 million Series C at a $2 billion valuation.",
+    "Goldman Sachs' growth equity arm led the round.",
+    "It uses AI agents to help companies manage spending in 33 countries. (Axios Pro Rata had nothing checkable, so this is TechCrunch's deal.)"
+   ],
+   "joke": "Expense reports, now with fewer tears.",
+   "vc": "Europe's fintechs are drawing big rounds again.",
+   "url": "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation/",
+   "linkLabel": "TechCrunch",
+   "color": "#0f766e",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-19-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Nvidia",
+   "emoji": "📦",
+   "stat": "$22B → $65.5B",
+   "statLabel": "Nvidia's startup stakes this year",
+   "headline": "Nvidia's startup stakes hit $65.5B, but future deals are in doubt",
+   "body": [
+    "Nvidia says its stakes in private companies are now worth $65.5 billion, up from $22 billion in January.",
+    "It invested $16 billion in equities last quarter alone.",
+    "It's unclear if the deal spree continues without Jensen Huang."
+   ],
+   "joke": "The biggest VC in AI might be a chip company.",
+   "vc": "AI startups that relied on Nvidia money may need new backers.",
+   "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+   "linkLabel": "TechCrunch",
+   "color": "#166534",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Kevin McCarthy / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Nvidia_HQ.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-19-m4",
+   "section": "money",
+   "source": "Stratechery",
+   "kicker": "Analysis",
+   "emoji": "📉",
+   "stat": "Boring",
+   "statLabel": "Ben Thompson's verdict on Nvidia's results",
+   "headline": "Stratechery: Nvidia's dull results show Huang probably isn't coming back",
+   "body": [
+    "Ben Thompson calls Nvidia's earnings boring.",
+    "He argues they explain why Jensen Huang probably won't return.",
+    "He also looks at rival Microsoft and Anthropic operating-system updates."
+   ],
+   "joke": "Boring is the new bullish.",
+   "vc": "Steady results reduce pressure on the board to bring Huang back.",
+   "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+   "linkLabel": "Stratechery",
+   "color": "#334155",
+   "font": "editorial",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Ben_Thompson_-_Innholdprodusentens_d%C3%B8d_og_mulige_gjenoppstandelse_-_NMD_2016_%2826890581672%29_%28cropped%29.jpg/1280px-Ben_Thompson_-_Innholdprodusentens_d%C3%B8d_og_mulige_gjenoppstandelse_-_NMD_2016_%2826890581672%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Thor Brødreskift  /  Nordiske Mediedager / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Ben_Thompson_-_Innholdprodusentens_d%C3%B8d_og_mulige_gjenoppstandelse_-_NMD_2016_(26890581672)_(cropped).jpg",
+    "license": "CC BY-SA 2.0"
+   }
+  },
+  {
+   "id": "2026-11-19-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Nvidia",
+   "emoji": "📄",
+   "stat": "$64.9B",
+   "statLabel": "Nvidia Q3 net income",
+   "headline": "Nvidia delays its routine 10-Q filing, and offers no reason",
+   "body": [
+    "Nvidia says it will file its detailed quarterly report, the 10-Q, 'in the coming weeks' instead of with its results.",
+    "It usually files the same day.",
+    "The 10-Q includes legal proceedings and risk factors. (No checkable Economist piece today, so this is TechCrunch's report.)"
+   ],
+   "joke": "The homework is late, and the class is noticing.",
+   "vc": "Filing delays can spook investors already worried about legal risks.",
+   "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+   "linkLabel": "TechCrunch",
+   "color": "#991b1b",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-19-v1",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "Alaska",
+   "emoji": "🗳️",
+   "stat": "56",
+   "statLabel": "Democratic Senate seats",
+   "headline": "Mary Peltola will be the first Alaska Native in the US Senate",
+   "body": [
+    "Democrat Mary Peltola has won an Alaska Senate seat, beating Republican Dan Sullivan.",
+    "She will be the first Alaska Native elected to the Senate.",
+    "She was also the first Alaska Native in the US House, in 2022."
+   ],
+   "joke": "Two firsts, one very busy résumé.",
+   "vc": "Her focus on fishing and energy matters to Alaska's economy.",
+   "url": "https://19thnews.org/2026/11/election-results-alaska-senate/",
+   "linkLabel": "The 19th",
+   "color": "#be185d",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-19-v2",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "Military",
+   "emoji": "⚖️",
+   "stat": "30+",
+   "statLabel": "Marines discharged after reporting assault",
+   "headline": "Marines who reported sexual assault were later kicked out",
+   "body": [
+    "At least 30 Marines were discharged in five years after reporting they were sexually assaulted, records show.",
+    "The War Horse investigation was republished by The 19th.",
+    "One officer trainee says she was assaulted at a Marine Corps ball in 2023."
+   ],
+   "joke": "",
+   "vc": "Survivor protections affect recruitment and retention in the military.",
+   "url": "https://19thnews.org/2026/11/sexual-assault-marine-corps/",
+   "linkLabel": "The 19th",
+   "color": "#581c87",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-19-v3",
+   "section": "women",
+   "source": "The Hans India",
+   "kicker": "Bengaluru",
+   "emoji": "🏛️",
+   "stat": "1st",
+   "statLabel": "India conference of Commonwealth Women Parliamentarians",
+   "headline": "Shivakumar hopes Parliament passes women's reservation this winter",
+   "body": [
+    "Karnataka CM D.K. Shivakumar hopes the Women's Reservation Bill passes in Parliament's winter session.",
+    "He spoke after opening the first India conference of Commonwealth Women Parliamentarians.",
+    "The event was held at Vidhana Soudha in Bengaluru."
+   ],
+   "joke": "Long struggle, hopefully short session.",
+   "vc": "More women lawmakers could shift spending on health and childcare.",
+   "url": "https://thehansindia.com/news/cities/bengaluru/womens-reservation-expected-to-be-passed-in-parliaments-winter-session-cm-dk-shivakumar-1143062",
+   "linkLabel": "The Hans India",
+   "color": "#9f1239",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-19-h1",
+   "section": "health",
+   "source": "ANI",
+   "kicker": "Tamil Nadu",
+   "emoji": "🏥",
+   "stat": "600",
+   "statLabel": "new beds in Tiruchy",
+   "headline": "Tiruchy government hospital to open 600-bed block on Nov 20",
+   "body": [
+    "CM C. Joseph Vijay will open a new 600-bed super speciality building at Tiruchy's MGM Government Hospital on November 20.",
+    "It has seven floors and about 2.1 lakh sq ft; costs rose from ₹110 crore to ₹134 crore.",
+    "Patients from Karur, Perambalur, Ariyalur and Pudukkottai also use the hospital."
+   ],
+   "joke": "Six hundred beds and zero waiting-room jokes.",
+   "vc": "More public beds ease crowding in one of central Tamil Nadu's busiest hospitals.",
+   "url": "https://newsable.asianetnews.com/india/tamil-nadu-cm-vijay-to-open-new-600-bed-hospital-in-tiruchirappalli-articleshow-1rd3kpq",
+   "linkLabel": "Asianet Newsable",
+   "color": "#115e59",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/MGMGH_Tamil_name.jpg/1280px-MGMGH_Tamil_name.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Balablitz / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:MGMGH_Tamil_name.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-19-h2",
+   "section": "health",
+   "source": "Business News Week",
+   "kicker": "Sikkim",
+   "emoji": "🫀",
+   "stat": "14",
+   "statLabel": "ICU beds added",
+   "headline": "Sikkim opens a 14-bed medical ICU at STNM Hospital",
+   "body": [
+    "Sikkim CM Prem Singh Tamang opened a 14-bed medical intensive care unit at STNM Hospital, Sochakgang.",
+    "It was built through Sun Pharma's CSR programme.",
+    "It will provide specialised critical care."
+   ],
+   "joke": "More ICU beds, fewer long journeys.",
+   "vc": "Corporate CSR is helping fill critical-care gaps in smaller states.",
+   "url": "https://businessnewsweek.in/news/chief-minister-inaugurates-micu-at-stnm-hospital/",
+   "linkLabel": "Business News Week",
+   "color": "#0369a1",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Sikkim_Gangtok.jpg/1280px-Sikkim_Gangtok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Kailas98 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Sikkim_Gangtok.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-19-h3",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Gurugram",
+   "emoji": "🩺",
+   "stat": "90 min",
+   "statLabel": "doctor at your door",
+   "headline": "Apollo opens in Gurugram with a 90-minute doctor-at-home service",
+   "body": [
+    "Apollo Homecare launched a doctor-at-home pilot in Gurugram alongside the opening of Apollo Hospitals Gurgaon.",
+    "It promises a doctor within 90 minutes, for a flat ₹3,500 fee.",
+    "It covers non-emergency needs like fever and chronic-condition check-ups."
+   ],
+   "joke": "House calls are back, with an app.",
+   "vc": "Home visits feed patients into the chain's new hospital.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/apollo-homecare-launches-90-minute-doctor-at-home-service-in-gurugram/135881628",
+   "linkLabel": "ET HealthWorld",
+   "color": "#15803d",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-19-t1",
+   "section": "hft",
+   "source": "The TRADE",
+   "kicker": "Exchanges",
+   "emoji": "📈",
+   "stat": "23",
+   "statLabel": "companies in first KPI options",
+   "headline": "24X files to launch an options market with KPI 'binary' bets",
+   "body": [
+    "24X National Exchange has asked the SEC to approve a new options market, 24X Options.",
+    "It would list normal stock options plus yes-or-no options on whether companies hit targets like revenue or EPS.",
+    "The KPI contracts would start with 23 heavily traded US stocks."
+   ],
+   "joke": "Will they beat earnings? Now there's a contract for that.",
+   "vc": "More venues and new contracts mean more work for market makers.",
+   "url": "https://www.thetradenews.com/24x-national-exchange-files-with-sec-to-launch-options-market/",
+   "linkLabel": "The TRADE",
+   "color": "#1e1b4b",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-19-t2",
+   "section": "hft",
+   "source": "FinanceFeeds",
+   "kicker": "Prop trading",
+   "emoji": "🙅",
+   "stat": "$50.6B",
+   "statLabel": "prediction-market volume, July",
+   "headline": "Prop firm boss says no to prediction markets as regulators close in",
+   "body": [
+    "Select Vantage CEO Daniel Schlaepfer plans a 'Real Trading' platform without prediction markets.",
+    "The CFTC warned this week that bets on what famous people say carry high manipulation risk.",
+    "Global prediction-market volume still hit about $50.6 billion in July."
+   ],
+   "joke": "Trading, not betting. Apparently there's a difference.",
+   "vc": "Tighter rules on event contracts could slow a fast-growing product for brokers.",
+   "url": "https://financefeeds.com/prediction-markets-select-vantage-schlaepfer-real-trading",
+   "linkLabel": "FinanceFeeds",
+   "color": "#9a3412",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Commodity_Futures_Trading_Commission_entrance_Washington_DC_2026-03-15_08-47-48.jpg/1280px-Commodity_Futures_Trading_Commission_entrance_Washington_DC_2026-03-15_08-47-48.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "G. Edward Johnson / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Commodity_Futures_Trading_Commission_entrance_Washington_DC_2026-03-15_08-47-48.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-19-t3",
+   "section": "hft",
+   "source": "The TRADE",
+   "kicker": "Explainer",
+   "emoji": "🎓",
+   "stat": "Yes / No",
+   "statLabel": "the only two outcomes",
+   "headline": "Explainer: What is a yes-or-no bet on the stock market?",
+   "body": [
+    "Imagine you and a friend make a deal: if it rains tomorrow, you get 10 sweets. If it doesn't, you get nothing.",
+    "That's a yes-or-no bet. Grown-ups call it a binary option, or an event contract.",
+    "There are only two endings. You win a fixed prize, or you lose what you paid. Nothing in between.",
+    "Now a stock exchange called 24X wants to sell these bets on big companies, like: will this company earn more money than it promised?",
+    "It sounds simple, but it's easy to lose. That's why the people who make the rules keep a close eye on it."
+   ],
+   "joke": "All or nothing, by design.",
+   "vc": "Simple to understand, easy to lose: why regulators watch these closely.",
+   "url": "https://www.thetradenews.com/24x-national-exchange-files-with-sec-to-launch-options-market/",
+   "linkLabel": "The TRADE",
+   "color": "#6b21a8",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-19-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "Cadillac",
+   "emoji": "🇺🇸",
+   "stat": "2027",
+   "statLabel": "Bottas and Pérez stay",
+   "headline": "Cadillac keeps Bottas for 2027 instead of promoting Herta",
+   "body": [
+    "Cadillac will keep Valtteri Bottas alongside Sergio Pérez for the 2027 F1 season.",
+    "The team decided not to fast-track American test driver Colton Herta.",
+    "Bottas had struggled for pace against Pérez this year."
+   ],
+   "joke": "Experience wins the seat, for now.",
+   "vc": "Two veterans give F1's newest team stability as it builds.",
+   "url": "https://www.autosport.com/f1/news/cadillac-completes-f1-2027-driver-pairing/10875162/",
+   "linkLabel": "Autosport",
+   "color": "#dc2626",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Valtteri_Bottas_on_track%2C_Singapore_Grand_Prix_2024.jpg/1280px-Valtteri_Bottas_on_track%2C_Singapore_Grand_Prix_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Henrikkoh333 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Valtteri_Bottas_on_track,_Singapore_Grand_Prix_2024.jpg",
+    "license": "CC BY 4.0"
+   }
+  }
+ ]
+}

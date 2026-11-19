@@ -1,344 +1,345 @@
 {
- "date": "2026-11-19",
- "generatedAt": "2026-11-19T03:48:23+05:30",
+ "date": "2026-11-20",
+ "generatedAt": "2026-11-20T03:49:11+05:30",
  "items": [
   {
-   "id": "2026-11-19-f1",
+   "id": "2026-11-20-f1",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🧊",
-   "color": "#0f172a",
-   "headline": "66°North gives HOKA's hiking shoe an Icelandic makeover",
-   "caption": "The century-old Icelandic outerwear brand's first footwear collab.",
-   "body": [
-    "66°North began in 1926 making gear for fishermen.",
-    "Built for wind, black sand and ice.",
-    "How to wear it: with a shell jacket and wool socks."
-   ],
-   "url": "https://www.highsnobiety.com/p/66north-gives-hokas-hiking-icon-an-icelandic-makeover/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795012437-28.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/66north-gives-hokas-hiking-icon-an-icelandic-makeover/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-19-f2",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "👟",
+   "emoji": "⬜",
    "color": "#44403c",
-   "headline": "New Balance's 992 in Black/Turtledove",
-   "caption": "A Made in USA pair from Teddy Santis' line.",
+   "headline": "adidas makes the case for a square-toed Forum",
+   "caption": "The Forum SQ Trainer gives the 1984 basketball shoe a cubist reshape.",
    "body": [
-    "The 992 has barely changed since 2006.",
-    "Smart colour blocking keeps it fresh.",
-    "How to wear it: grey sweats, navy coat."
+    "The Forum barely changed in 40 years, until this.",
+    "Clean white makes the odd shape work.",
+    "How to wear it: with wide trousers that show the toe."
    ],
-   "url": "https://www.highsnobiety.com/p/new-balance-992-black-turtledove/",
+   "url": "https://www.highsnobiety.com/p/adidas-forum-sq-trainer-white/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1794829961-6-11.png",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1795011407-2-12.png",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/new-balance-992-black-turtledove/",
+    "creditUrl": "https://www.highsnobiety.com/p/adidas-forum-sq-trainer-white/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-19-f3",
+   "id": "2026-11-20-f2",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🫧",
-   "color": "#0891b2",
-   "headline": "Plastic shoes have entered their luxury era",
-   "caption": "From '90s jelly sandals to high-fashion weirdness.",
-   "body": [
-    "Plastic shoes have quietly thrived for decades.",
-    "Now designers are making them strange and pricey.",
-    "How to wear it: one clear shoe, everything else simple."
-   ],
-   "url": "https://www.highsnobiety.com/p/plastic-shoes/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795036437-newlead_plasticshoe.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/plastic-shoes/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-19-f4",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "🚙",
+   "emoji": "🧗",
    "color": "#3f6212",
-   "headline": "Rivian makes outerwear with Aether",
-   "caption": "The EV maker teams up with L.A.'s performance-meets-polish brand.",
+   "headline": "Brain Dead turns an adidas climbing shoe into an oddball",
+   "caption": "The collab starts with a real Five Ten NIAD climbing shoe.",
    "body": [
-    "Design with a purpose, from cars to coats.",
-    "Utility first, but sleek.",
-    "How to wear it: over a hoodie on cold commutes."
+    "It makes no apologies for its strange shape.",
+    "Not gorpcore cosplay: an actual climbing shoe.",
+    "How to wear it: with cropped cargos."
    ],
-   "url": "https://www.highsnobiety.com/p/rivian-aether-collab/",
+   "url": "https://www.highsnobiety.com/p/adidas-niad-brain-dead/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1794936771-2026-10-14-jonahsmith-aether-65-1mb.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1795084959-adidas-brain-dead.png",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/rivian-aether-collab/",
+    "creditUrl": "https://www.highsnobiety.com/p/adidas-niad-brain-dead/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-19-f5",
+   "id": "2026-11-20-f3",
+   "type": "fashion",
+   "source": "Highsnobiety",
+   "emoji": "❄️",
+   "color": "#0f172a",
+   "headline": "Nike's GORE-TEX Air Max 95 wants to retire your boots",
+   "caption": "The Big Bubble Air Max 95 gets waterproofing for winter.",
+   "body": [
+    "Nike keeps giving classics the GORE-TEX treatment.",
+    "Wear the sneaker you want, even in slush.",
+    "How to wear it: with a puffer and dark denim."
+   ],
+   "url": "https://www.highsnobiety.com/p/nike-air-max-95-big-bubble-gore-tex/",
+   "linkLabel": "Highsnobiety",
+   "image": {
+    "url": "https://www.highsnobiety.com/static-assets/dato/1795082078-nike-big-bubble.png",
+    "credit": "Highsnobiety",
+    "creditUrl": "https://www.highsnobiety.com/p/nike-air-max-95-big-bubble-gore-tex/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-20-f4",
+   "type": "fashion",
+   "source": "Highsnobiety",
+   "emoji": "🎧",
+   "color": "#be123c",
+   "headline": "Eugene Whang and nonnative make clothes with 'Feeling'",
+   "caption": "The designer-DJ and nonnative's founder on their collab line.",
+   "body": [
+    "Great clothes, like great songs, are a vibe.",
+    "Takayuki Fujii co-leads the line.",
+    "How to wear it: relaxed layers, good headphones."
+   ],
+   "url": "https://www.highsnobiety.com/p/eugene-whang-nonnative-interview/",
+   "linkLabel": "Highsnobiety",
+   "image": {
+    "url": "https://www.highsnobiety.com/static-assets/dato/1794854497-eugene-whang-nonnative-feeling-interview-1.jpg",
+    "credit": "Highsnobiety",
+    "creditUrl": "https://www.highsnobiety.com/p/eugene-whang-nonnative-interview/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-20-f5",
+   "type": "fashion",
+   "source": "GQ UK",
+   "emoji": "🎮",
+   "color": "#7c2d12",
+   "headline": "GTA 6's fake Nikes go way beyond Air Force 1s",
+   "caption": "Rockstar's 'Eris' brand is a cheeky Nike parody.",
+   "body": [
+    "Even the name is a joke on Nike's Greek-goddess roots.",
+    "Sneaker stores fill the game's map.",
+    "Style lesson: even games know a good trainer."
+   ],
+   "url": "https://www.gq-magazine.co.uk/article/gta-6-eris-sneakers-19-11-26",
+   "linkLabel": "GQ UK",
+   "image": {
+    "url": "https://media.gq-magazine.co.uk/photos/6afda1e0aa67052be8dc5bf7/16:9/w_1280,c_limit/Jason_and_Lucia_05.jpg",
+    "credit": "GQ UK",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/gta-6-eris-sneakers-19-11-26",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-20-f6",
    "type": "fashion",
    "source": "GQ",
-   "emoji": "🧥",
-   "color": "#78350f",
-   "headline": "How Celine's Michael Rider seized fashion's attention",
-   "caption": "GQ names the quiet DC designer one of its Men of the Year.",
+   "emoji": "🎬",
+   "color": "#a16207",
+   "headline": "Hunger Games star Joseph Zada gets premiere-ready",
+   "caption": "The 21-year-old Australian actor on his New York premiere day.",
    "body": [
-    "His last Paris show was a party, not a crush.",
-    "Preppy '80s croquet met new-wave dancers.",
-    "Style lesson: preppy is back, but loose."
+    "His film Sunrise on the Reaping is out this week.",
+    "He's still getting used to fame.",
+    "Style lesson: confidence is the best accessory."
    ],
-   "url": "https://www.gq.com/story/michael-rider-men-of-the-year-2026",
+   "url": "https://www.gq.com/story/joseph-zada-hunger-games-get-ready-with-me",
    "linkLabel": "GQ",
    "image": {
-    "url": "https://media.gq.com/photos/6ae8b90757885bff413a2ee9/16:9/w_1280,c_limit/Michael-Rider-WM-Web-1.jpg",
+    "url": "https://media.gq.com/photos/6afc7cd6e901397a85749e01/16:9/w_1280,c_limit/2611_JosephZada-GQ-GRWM_BowenFernie_07.jpg",
     "credit": "GQ",
-    "creditUrl": "https://www.gq.com/story/michael-rider-men-of-the-year-2026",
+    "creditUrl": "https://www.gq.com/story/joseph-zada-hunger-games-get-ready-with-me",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-19-f6",
+   "id": "2026-11-20-f7",
    "type": "fashion",
    "source": "GQ UK",
-   "emoji": "🚄",
-   "color": "#71717a",
-   "headline": "Nike brings back the Air Max 97 'Silver Bullet'",
-   "caption": "The classic turns 30 next year and still looks futuristic.",
-   "body": [
-    "Designed by Christian Tresser.",
-    "The wavy lines are often linked to bullet trains.",
-    "How to wear it: with black tailoring for contrast."
-   ],
-   "url": "https://www.gq-magazine.co.uk/article/nike-air-max-97-silver-bullet-18-11-26",
-   "linkLabel": "GQ UK",
-   "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6afda936283906e0520f9d87/16:9/w_1280,c_limit/074-Silver-Bullet.jpg",
-    "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/nike-air-max-97-silver-bullet-18-11-26",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-19-f7",
-   "type": "fashion",
-   "source": "GQ UK",
-   "emoji": "✨",
+   "emoji": "🥂",
    "color": "#1e40af",
-   "headline": "The best fits from GQ Men of the Year 2026",
-   "caption": "From Sebastian Stan's Prada three-piece to Peggy Gou's Schiaparelli.",
+   "headline": "Inside GQ's Men of the Year party under Waterloo",
+   "caption": "A 60-metre red carpet ran through the graffiti-covered Leake Street Arches.",
    "body": [
-    "Some went all out; others wore their own clothes.",
-    "Both approaches worked.",
-    "Style lesson: a three-piece suit is a statement."
+    "Guests couldn't get enough of each other.",
+    "Best fits, stories and late-night antics.",
+    "Style lesson: party looks should move."
    ],
-   "url": "https://www.gq-magazine.co.uk/article/gq-men-of-the-year-2026-best-dressed",
+   "url": "https://www.gq-magazine.co.uk/article/men-of-the-year-2026-inside-party-photos",
    "linkLabel": "GQ UK",
    "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6afcc0a1cd42045e785296c0/16:9/w_1280,c_limit/261117_MOTY_E&A_Agency_SofiAdams_2499.jpg",
+    "url": "https://media.gq-magazine.co.uk/photos/6afd9350fa7ce694d2821a3b/16:9/w_1280,c_limit/GQ_MOTY_2026_@SAMLORT_3999.jpg",
     "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/gq-men-of-the-year-2026-best-dressed",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/men-of-the-year-2026-inside-party-photos",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-19-f8",
+   "id": "2026-11-20-f8",
+   "type": "fashion",
+   "source": "Esquire",
+   "emoji": "🧥",
+   "color": "#57534e",
+   "headline": "Has Zegna cracked modern tailoring?",
+   "caption": "Its new Falcon jacket adds sporty utility to mix-and-match clothes.",
+   "body": [
+    "Artistic director Alessandro Sartori explains the idea.",
+    "Tailoring, but easier to live in.",
+    "How to wear it: over a knit, with smart trousers."
+   ],
+   "url": "https://www.esquire.com/style/mens-fashion/a74479469/zegna-falcon-jacket-alessandro-sartori-interview/",
+   "linkLabel": "Esquire",
+   "image": {
+    "url": "https://hips.hearstapps.com/hmg-prod/images/5def1ae7-7d9c-40e1-8117-0983db6f1330.jpg?crop=0.664xw:0.498xh;0xw,0.099xh&resize=1200:*",
+    "credit": "Esquire",
+    "creditUrl": "https://www.esquire.com/style/mens-fashion/a74479469/zegna-falcon-jacket-alessandro-sartori-interview/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-20-f9",
    "type": "fashion",
    "source": "Esquire UK",
-   "emoji": "🧳",
-   "color": "#7f1d1d",
-   "headline": "Bond's luggage brand Globe-Trotter breaks its own rules",
-   "caption": "Daniel Craig's 007 travelled with it; now it's trying something new.",
+   "emoji": "🏆",
+   "color": "#78350f",
+   "headline": "The first Esquire Watch Awards",
+   "caption": "Twelve categories, from record slimness to cultural impact.",
    "body": [
-    "Over a century making its signature case in Hertfordshire.",
-    "Fans include Kate Moss.",
-    "Style lesson: buy luggage that ages well."
+    "Winners include big names and independents.",
+    "Innovation and design both count.",
+    "Style lesson: buy a watch with a story."
    ],
-   "url": "https://www.esquire.com/uk/style/a74462207/james-bonds-favourite-luggage-brand-has-broken-its-own-rules/",
+   "url": "https://www.esquire.com/uk/watches/a74477561/esquire-watch-awards-2026/",
    "linkLabel": "Esquire UK",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/1467bd34-fdaf-4db3-8c98-9c0a874e06c6.jpg?crop=1.00xw:0.401xh;0,0.460xh&resize=1200:*",
+    "url": "https://hips.hearstapps.com/hmg-prod/images/7582f53b-b08a-43b9-9c0f-7fd59100d58e.jpg?crop=1xw:0.9787037037037037xh;center,top&resize=1200:*",
     "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/a74462207/james-bonds-favourite-luggage-brand-has-broken-its-own-rules/",
+    "creditUrl": "https://www.esquire.com/uk/watches/a74477561/esquire-watch-awards-2026/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-19-f9",
+   "id": "2026-11-20-f10",
    "type": "fashion",
-   "source": "Esquire UK",
-   "emoji": "🏔️",
-   "color": "#155e75",
-   "headline": "Saman Amel x Mytheresa go Alpine again",
-   "caption": "The tailors swap suits for shearling, down and cashmere.",
+   "source": "Esquire Australia",
+   "emoji": "🎄",
+   "color": "#166534",
+   "headline": "Ralph Lauren's Holiday Experience comes to Sydney",
+   "caption": "A 10-metre Christmas tree goes up at The Rocks.",
    "body": [
-    "Their second ski-inspired collection.",
-    "Made for après-ski and chalet evenings.",
-    "How to wear it: shearling over a roll neck."
+    "Runs 21–29 November at First Fleet Park.",
+    "Workshops and gifting included.",
+    "Style lesson: festive can still be classic."
    ],
-   "url": "https://www.esquire.com/uk/style/a74462113/saman-amel-mytheresa/",
-   "linkLabel": "Esquire UK",
+   "url": "https://esquire.com.au/ralph-lauren-christmas/",
+   "linkLabel": "Esquire AU",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/dcf358c3-1ce2-4493-934f-6c27cd735f43.jpg?crop=1.00xw:0.376xh;0,0.0373xh&resize=1200:*",
-    "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/a74462113/saman-amel-mytheresa/",
+    "url": "https://esquire.com.au/wp-content/uploads/2026/11/TILE-RLC_3544C-1.jpg",
+    "credit": "Esquire Australia",
+    "creditUrl": "https://esquire.com.au/ralph-lauren-christmas/",
     "preview": true
    },
-   "embed": false
+   "embed": true
   },
   {
-   "id": "2026-11-19-f10",
+   "id": "2026-11-20-f11",
    "type": "fashion",
    "source": "Hodinkee",
-   "emoji": "👖",
+   "emoji": "🐱",
    "color": "#1d4ed8",
-   "headline": "Hublot makes denim permanent in the Big Bang line",
-   "caption": "The statement watch now comes in denim for good.",
+   "headline": "Oris makes a Doraemon watch",
+   "caption": "The famous robot cat comes to Oris' home in Holstein.",
    "body": [
-    "The Big Bang has always been bold.",
-    "Denim joins the permanent collection.",
-    "Style lesson: match the strap to your jacket."
+    "A limited edition.",
+    "Playful but still Swiss.",
+    "Style lesson: one fun watch is allowed."
    ],
-   "url": "https://www.hodinkee.com/articles/hublot-brings-denim-to-the-big-bang-collection",
+   "url": "https://www.hodinkee.com/articles/oris-doraemon",
    "linkLabel": "Hodinkee",
    "image": {
-    "url": "https://hodinkee.imgix.net/uploads/articles/e83764e6-6f37-401d-88f8-ea96951e0cba/Hublot-Big-Bang-HERO.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
+    "url": "https://hodinkee.imgix.net/uploads/articles/aade4d4e-d02b-4348-b2d4-dd8d4f97840d/oris-doraemon-header.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
     "credit": "Hodinkee",
-    "creditUrl": "https://www.hodinkee.com/articles/hublot-brings-denim-to-the-big-bang-collection",
+    "creditUrl": "https://www.hodinkee.com/articles/oris-doraemon",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-19-f11",
+   "id": "2026-11-20-f12",
    "type": "fashion",
    "source": "Hodinkee",
-   "emoji": "🕰️",
+   "emoji": "⌚",
    "color": "#365314",
-   "headline": "HU-02 revives the Art Deco 'Chronoscope' jump hour",
-   "caption": "A fan-favourite design returns as a disco volante case.",
+   "headline": "All the new indie watches from IAMWATCH 2026",
+   "caption": "Singapore's indie-focused fair brought a pile of new releases.",
    "body": [
-    "A favourite design, brought back.",
-    "Hours jump instead of sweeping.",
-    "Style lesson: odd shapes suit plain cuffs."
+    "Small brands, big ideas.",
+    "Hodinkee rounds them up.",
+    "Style lesson: independents offer value and character."
    ],
-   "url": "https://www.hodinkee.com/articles/introducing-horologically-unique-hu-02",
+   "url": "https://www.hodinkee.com/articles/all-the-new-releases-from-iamwatch-2026",
    "linkLabel": "Hodinkee",
    "image": {
-    "url": "https://hodinkee.imgix.net/uploads/images/a478169b-fcf8-466c-8aef-2ab3f17135cd/HU-02_GROUP_02_HR.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
+    "url": "https://hodinkee.imgix.net/uploads/articles/079c9390-d77d-4e32-bf09-d1c032c4b9e5/IAMWATCH-Releases.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
     "credit": "Hodinkee",
-    "creditUrl": "https://www.hodinkee.com/articles/introducing-horologically-unique-hu-02",
+    "creditUrl": "https://www.hodinkee.com/articles/all-the-new-releases-from-iamwatch-2026",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-19-f12",
+   "id": "2026-11-20-f13",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🐋",
-   "color": "#0c4a6e",
-   "headline": "Antarctic blue whales grew 1,000% since whaling ended",
-   "caption": "From 418 whales to 4,018, about 4.5% growth a year.",
+   "emoji": "🏠",
+   "color": "#9d174d",
+   "headline": "Checking on a 'loud' neighbour raises $109,000 for her",
+   "caption": "Strangers rallied around an 87-year-old woman with Parkinson's.",
    "body": [
-    "Illegal whaling finally stopped in 1973.",
-    "They have about one calf every three years."
+    "She had lived alone with little help.",
+    "One knock on the door changed everything."
    ],
-   "url": "https://www.goodnewsnetwork.org/this-blue-whale-population-grew-1000-since-the-end-of-whaling/",
+   "url": "https://www.goodnewsnetwork.org/loud-neighbor-parkinsons-gofundme/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2023/06/blue-whale-NOAA-pubdomain.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/IMG_8105-2.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/this-blue-whale-population-grew-1000-since-the-end-of-whaling/",
+    "creditUrl": "https://www.goodnewsnetwork.org/loud-neighbor-parkinsons-gofundme/",
     "preview": true
    },
    "embed": true
   },
   {
-   "id": "2026-11-19-f13",
+   "id": "2026-11-20-f14",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🧠",
-   "color": "#6d28d9",
-   "headline": "New therapy wipes out deadly brain tumours in every mouse tested",
-   "caption": "UCSF's immune cells switch on only inside the brain.",
+   "emoji": "🛰️",
+   "color": "#ca8a04",
+   "headline": "Voyager 1 is now one light-day from Earth",
+   "caption": "The Empire State Building glowed gold to mark the milestone.",
    "body": [
-    "They also blocked new tumours weeks later.",
-    "It targets a deadly childhood cancer."
+    "A signal now takes 24 hours to reach home.",
+    "Gold nods to Voyager's golden record."
    ],
-   "url": "https://www.goodnewsnetwork.org/scientists-cure-deadly-brain-tumors-in-every-mouse-tested-with-new-cancer-therapy/",
+   "url": "https://www.goodnewsnetwork.org/empire-state-building-lit-up-with-gold-to-celebrate-nasa-spacecraft-passing-one-light-day-from-earth/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Laboratory-mouse-credit-NIH-pub-domain-e1794992945692.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/NYC-at-night-Empire-State-Building-lit-up-in-gold-SWNS.jpeg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/scientists-cure-deadly-brain-tumors-in-every-mouse-tested-with-new-cancer-therapy/",
+    "creditUrl": "https://www.goodnewsnetwork.org/empire-state-building-lit-up-with-gold-to-celebrate-nasa-spacecraft-passing-one-light-day-from-earth/",
     "preview": true
    },
    "embed": true
   },
   {
-   "id": "2026-11-19-f14",
+   "id": "2026-11-20-f15",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🪜",
-   "color": "#a16207",
-   "headline": "Siblings build a 430-step 'sky ladder' for their mother",
-   "caption": "Their mother refused to leave her mountain home in Zhejiang.",
+   "emoji": "🐻",
+   "color": "#713f12",
+   "headline": "Over 100 cave bear skeletons found in the Alps",
+   "caption": "A mountain guide discovered the cave in Italy's South Tyrol.",
    "body": [
-    "She once held their hands down the old path.",
-    "Now it's their turn."
+    "It was kept secret to stop looting.",
+    "Scientists will study it after the spring thaw."
    ],
-   "url": "https://www.goodnewsnetwork.org/siblings-build-430-step-sky-ladder-for-their-mother-who-refuses-to-live-in-the-city/",
+   "url": "https://www.goodnewsnetwork.org/over-100-cave-bear-skeletons-found-in-sensational-discovery-by-alpine-guide/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/86-year-old-mother-Chen-family-photo.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-USP-Ufficio-Beni-archeologici-released-e1795074752326.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/siblings-build-430-step-sky-ladder-for-their-mother-who-refuses-to-live-in-the-city/",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-11-19-f15",
-   "type": "good",
-   "source": "Good News Network",
-   "emoji": "🌵",
-   "color": "#15803d",
-   "headline": "Students fight to save a poached Silicon Valley wildflower",
-   "caption": "The Santa Clara Valley 'liveforever' grows only near their campus.",
-   "body": [
-    "It feeds pollinators.",
-    "It's one of California's most poached wild plants."
-   ],
-   "url": "https://www.goodnewsnetwork.org/students-fighting-to-save-poached-plant-species-that-only-exists-near-their-campus/",
-   "linkLabel": "GNN",
-   "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Santa-Clara-Valley-Habitat-Authority.jpg",
-    "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/students-fighting-to-save-poached-plant-species-that-only-exists-near-their-campus/",
+    "creditUrl": "https://www.goodnewsnetwork.org/over-100-cave-bear-skeletons-found-in-sensational-discovery-by-alpine-guide/",
     "preview": true
    },
    "embed": true
