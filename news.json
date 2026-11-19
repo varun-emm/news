@@ -475,11 +475,13 @@
    "emoji": "🎓",
    "stat": "Yes / No",
    "statLabel": "the only two outcomes",
-   "headline": "Explainer: what is a binary option, or event contract?",
+   "headline": "Explainer: What is a yes-or-no bet on the stock market?",
    "body": [
-    "A binary option pays a fixed amount if something happens, and nothing if it doesn't.",
-    "24X wants to list ones on whether companies hit revenue or EPS targets.",
-    "Unlike owning a stock, there's no in-between: you're either right or you lose your stake."
+    "Imagine you and a friend make a deal: if it rains tomorrow, you get 10 sweets. If it doesn't, you get nothing.",
+    "That's a yes-or-no bet. Grown-ups call it a binary option, or an event contract.",
+    "There are only two endings. You win a fixed prize, or you lose what you paid. Nothing in between.",
+    "Now a stock exchange called 24X wants to sell these bets on big companies, like: will this company earn more money than it promised?",
+    "It sounds simple, but it's easy to lose. That's why the people who make the rules keep a close eye on it."
    ],
    "joke": "All or nothing, by design.",
    "vc": "Simple to understand, easy to lose: why regulators watch these closely.",
