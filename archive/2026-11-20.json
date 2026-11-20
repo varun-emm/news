@@ -1,0 +1,504 @@
+{
+ "date": "2026-11-20",
+ "generatedAt": "2026-11-20T03:49:11+05:30",
+ "stories": [
+  {
+   "id": "2026-11-20-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "APEC",
+   "emoji": "🤝",
+   "stat": "3",
+   "statLabel": "leaders at one table",
+   "headline": "Trump, Xi and Putin pledge to steady energy and curb nuclear spread",
+   "body": [
+    "The leaders of the US, China and Russia met together for the first time, in Shenzhen, China.",
+    "They said they want to stabilise energy flows and stop nuclear weapons spreading.",
+    "They also agreed to find ways to work more closely together."
+   ],
+   "joke": "Three superpowers, one group photo.",
+   "vc": "Steadier energy flows would ease oil prices and help import-heavy India.",
+   "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways",
+   "linkLabel": "Al Jazeera",
+   "color": "#1e3a8a",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/33rd_APEC_Economic_Leaders%27_Meeting_%28APEC_China_2026%29_group_photo.jpg/1280px-33rd_APEC_Economic_Leaders%27_Meeting_%28APEC_China_2026%29_group_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "President Bongbong Marcos / Presidential Communications Offi / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:33rd_APEC_Economic_Leaders%27_Meeting_(APEC_China_2026)_group_photo.jpg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-11-20-w2",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "The Hague",
+   "emoji": "⚖️",
+   "stat": "2017",
+   "statLabel": "year of the genocide",
+   "headline": "World court rules Myanmar committed genocide against the Rohingya",
+   "body": [
+    "The International Court of Justice ruled Myanmar committed genocide against Rohingya Muslims in 2017.",
+    "It is the first time the court has held a state responsible for genocide.",
+    "Myanmar must pay compensation, with terms set later."
+   ],
+   "joke": "",
+   "vc": "The ruling raises legal risk for firms and investors dealing with Myanmar's military.",
+   "url": "https://www.aljazeera.com/news/2026/11/19/world-reacts-to-icj-finding-myanmar-guilty-of-genocide-against-rohingya",
+   "linkLabel": "Al Jazeera",
+   "color": "#7f1d1d",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/La_haye_palais_paix_jardin_face.JPG/1280px-La_haye_palais_paix_jardin_face.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Velvet / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:La_haye_palais_paix_jardin_face.JPG",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-20-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Saudi Arabia",
+   "emoji": "🏢",
+   "stat": "0",
+   "statLabel": "injuries reported",
+   "headline": "Houthi attack hits a tower in Riyadh's financial district",
+   "body": [
+    "A Houthi attack hit a tower in the financial centre of Saudi Arabia's capital, Riyadh.",
+    "Saudi Civil Defence says it caused damage to the tower and nearby buildings, but no injuries.",
+    "Saudi Arabia condemned the attack."
+   ],
+   "joke": "",
+   "vc": "Strikes on a financial hub could rattle investors in the Gulf.",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz",
+   "linkLabel": "Al Jazeera",
+   "color": "#9a3412",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-20-i1",
+   "section": "india",
+   "source": "Kotak Neo",
+   "kicker": "Markets",
+   "emoji": "📈",
+   "stat": "+990",
+   "statLabel": "Sensex points on Thursday",
+   "headline": "Sensex jumps nearly 1,000 points to 83,022",
+   "body": [
+    "The Sensex rose about 990 points (1.21%) to 83,021.75 on Thursday; the Nifty closed at 25,514.30.",
+    "Mid and small caps also gained.",
+    "The total value of BSE-listed firms hit a record ₹512 lakh crore."
+   ],
+   "joke": "Bulls are back, and they brought friends.",
+   "vc": "Record market value boosts the IPO pipeline, including Razorpay's.",
+   "url": "https://www.kotakneo.com/news/market-news/closing-bell-19-november-2026-sensex-nifty-end-higher-as-bulls-return-to-dalal-street/",
+   "linkLabel": "Kotak Neo",
+   "color": "#047857",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1280px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Niyantha Shekhar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-20-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "IPO",
+   "emoji": "💳",
+   "stat": "$7.5B → $5B",
+   "statLabel": "Razorpay valuation",
+   "headline": "Razorpay eyes a February IPO at about $5 billion",
+   "body": [
+    "Bengaluru fintech Razorpay may publicly file its IPO papers as soon as next week, Bloomberg reports.",
+    "It is targeting a listing by February 2027 and a roughly $600 million issue.",
+    "The IPO could value it near $5 billion, below its $7.5 billion in 2021."
+   ],
+   "joke": "A down-round, but with a bell-ringing ceremony.",
+   "vc": "A big fintech listing would test investor appetite after Groww and Meesho.",
+   "url": "https://inc42.com/buzz/razorpay-to-file-udrhp-by-next-week-eyes-ipo-by-february-2027-report/",
+   "linkLabel": "Inc42",
+   "color": "#4338ca",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-20-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Bengaluru",
+   "emoji": "🚀",
+   "stat": "47%",
+   "statLabel": "of India's startup funding",
+   "headline": "Bengaluru has raised 47% of India's startup funding since 2010",
+   "body": [
+    "Bengaluru startups have raised about $85 billion since 2010, nearly half of India's total, a new report says.",
+    "The city got 36.3% of India's AI startup funding.",
+    "It is home to 71% of India's AI and deep-tech unicorns, the Bengaluru Innovation Report says."
+   ],
+   "joke": "Traffic jams, yes. Funding jams, no.",
+   "vc": "Investors keep concentrating bets in Bengaluru, raising the stakes for its infrastructure.",
+   "url": "https://www.thehindu.com/news/national/karnataka/bengaluru-is-indias-ai-start-up-capital-city-captures-47-of-national-venture-funding/article71717187.ece",
+   "linkLabel": "The Hindu",
+   "color": "#0e7490",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bengaluru_Skyline_from_Tata_Promont.jpg/1280px-Bengaluru_Skyline_from_Tata_Promont.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Kushagra140 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Bengaluru_Skyline_from_Tata_Promont.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-20-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "IPO",
+   "emoji": "🔔",
+   "stat": "+33%",
+   "statLabel": "Anthropic's first trade vs IPO price",
+   "headline": "Anthropic opens on Nasdaq at $111, 33% above its IPO price",
+   "body": [
+    "Anthropic shares opened around $111.50, 33% above the $83 IPO price.",
+    "The offering raises over $81 billion.",
+    "With other funding, it expects about $220 billion in cash. (No new FT/Unhedged piece, so this is TechCrunch's report.)"
+   ],
+   "joke": "A pop big enough to hear from space.",
+   "vc": "A strong debut tells investors the AI boom still has fuel.",
+   "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+   "linkLabel": "TechCrunch",
+   "color": "#c2410c",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Nasdaq_MarketSite_%2851494550508%29.jpg/1280px-Nasdaq_MarketSite_%2851494550508%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "ajay_suresh / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Nasdaq_MarketSite_(51494550508).jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-20-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Venture",
+   "emoji": "🏭",
+   "stat": "$48.5M",
+   "statLabel": "Everful Series A",
+   "headline": "Ex-Alibaba exec's Everful raises $48.5M to link shops with Chinese factories",
+   "body": [
+    "Everful helps small retailers order from Chinese factories and handles delivery.",
+    "Vertex Ventures and January Capital led its $48.5 million Series A.",
+    "It ships over 5 million items a month to 60+ countries. (Axios Pro Rata had nothing checkable, so this is TechCrunch's deal.)"
+   ],
+   "joke": "From factory floor to your shop floor.",
+   "vc": "Small brands get easier access to cheap manufacturing.",
+   "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+   "linkLabel": "TechCrunch",
+   "color": "#0f766e",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Electronics_factory_in_Shenzhen.jpg/1280px-Electronics_factory_in_Shenzhen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Steve Jurvetson from Menlo Park, USA / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Electronics_factory_in_Shenzhen.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-20-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Big Tech",
+   "emoji": "☁️",
+   "stat": "$307.9B",
+   "statLabel": "Amazon + Google stakes",
+   "headline": "Anthropic's IPO is a jackpot for Amazon and Google",
+   "body": [
+    "Amazon and Google, Anthropic's big cloud suppliers, hold stakes worth about $308 billion at the IPO price.",
+    "Amazon's 14.7% stake is worth about $159 billion.",
+    "Nvidia, AMD, Microsoft and others are also buying $26 billion of shares."
+   ],
+   "joke": "Selling shovels, then owning the mine.",
+   "vc": "Critics call it circular financing: suppliers fund customers who buy from them.",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+   "linkLabel": "TechCrunch",
+   "color": "#166534",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Amazon_spheres_W.jpg/1280px-Amazon_spheres_W.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Sea Cow / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Amazon_spheres_W.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-20-m4",
+   "section": "money",
+   "source": "Stratechery",
+   "kicker": "Interview",
+   "emoji": "🛒",
+   "stat": "Ads",
+   "statLabel": "Seufert's answer for agent shopping",
+   "headline": "Stratechery: will ads pay for AI shopping agents?",
+   "body": [
+    "Ben Thompson interviews analyst Eric Seufert about 'agentic commerce', where AI agents shop for you.",
+    "Seufert argues ads will be the answer.",
+    "Thompson says he wants retailers who cater to agents."
+   ],
+   "joke": "Even robots will see banner ads.",
+   "vc": "Whoever controls the shopping agent may control retail ad money.",
+   "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
+   "linkLabel": "Stratechery",
+   "color": "#334155",
+   "font": "editorial"
+  },
+  {
+   "id": "2026-11-20-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Work",
+   "emoji": "💼",
+   "stat": "60,000",
+   "statLabel": "Microsoft staff offered buyouts",
+   "headline": "Nadella explains why Microsoft offered 60,000 staff buyouts",
+   "body": [
+    "Microsoft CEO Satya Nadella says he offered buyouts to give staff 'agency' rather than another big layoff.",
+    "He says the company is reorganising so everyone uses AI and manages it.",
+    "He says AI is changing software jobs fast. (No checkable Economist piece today, so this is TechCrunch's report.)"
+   ],
+   "joke": "Your new boss is an AI. Your new job: its boss.",
+   "vc": "Big Tech's AI shift is reshaping white-collar jobs worldwide, including in India.",
+   "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+   "linkLabel": "TechCrunch",
+   "color": "#991b1b",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Satya_Nadella_Gears_of_War_4_Gold_Master.jpg/1280px-Satya_Nadella_Gears_of_War_4_Gold_Master.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Microsoft Corporation / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Satya_Nadella_Gears_of_War_4_Gold_Master.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-20-v1",
+   "section": "women",
+   "source": "The Hindu",
+   "kicker": "Equality",
+   "emoji": "⚖️",
+   "stat": "1st",
+   "statLabel": "woman CJI in line",
+   "headline": "Justice Nagarathna: women at the top doesn't mean equality for all",
+   "body": [
+    "Justice B.V. Nagarathna, in line to be India's first woman Chief Justice, says a few women in high office don't prove equality.",
+    "Many women still miss out on education, jobs, property and justice, she said.",
+    "She spoke at Oxford's first Cornelia Sorabji lecture."
+   ],
+   "joke": "A glass ceiling crack isn't the whole roof.",
+   "vc": "Women's access to property and credit is key to economic growth.",
+   "url": "https://www.thehindu.com/news/national/women-in-high-public-office-doesnt-mean-equality-throughout-society-justice-nagarathna/article71721273.ece",
+   "linkLabel": "The Hindu",
+   "color": "#be185d",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-20-v2",
+   "section": "women",
+   "source": "Al Jazeera",
+   "kicker": "Deepfakes",
+   "emoji": "🛑",
+   "stat": "10",
+   "statLabel": "months the law has waited",
+   "headline": "AOC and Paris Hilton push back on AI deepfakes of women",
+   "body": [
+    "US Congresswoman Alexandria Ocasio-Cortez and Paris Hilton spoke out against AI deepfakes that target women and girls.",
+    "The Defiance Act passed the US Senate 10 months ago.",
+    "It still hasn't been put into action."
+   ],
+   "joke": "",
+   "vc": "Tech platforms face growing legal pressure over AI abuse tools.",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/paris-hilton-and-aoc-speak-against-ai-generated-deepfakes",
+   "linkLabel": "Al Jazeera",
+   "color": "#9f1239",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-20-v3",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "Politics",
+   "emoji": "🗳️",
+   "stat": "2028",
+   "statLabel": "next presidential race",
+   "headline": "Democrats move past 'Can a woman win?' after midterm sweep",
+   "body": [
+    "Democrats' big midterm wins, many by women and candidates of colour, are changing ideas about who can win.",
+    "The question of a woman president has hung over three elections.",
+    "Many now say the sky's the limit for 2028."
+   ],
+   "joke": "Can a woman win? Check the scoreboard.",
+   "vc": "Women donors and voters are becoming the party's power base.",
+   "url": "https://19thnews.org/2026/11/electability-women-democrats-2028/",
+   "linkLabel": "The 19th",
+   "color": "#7e22ce",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-20-h1",
+   "section": "health",
+   "source": "The Hindu",
+   "kicker": "Bengaluru",
+   "emoji": "🫀",
+   "stat": "1st",
+   "statLabel": "MitraClip at a South Indian govt hospital",
+   "headline": "Bengaluru's Jayadeva fixes a leaky heart valve without open surgery",
+   "body": [
+    "Bengaluru's state-run Jayadeva Institute treated an 80-year-old woman's leaking heart valve with a MitraClip, through a vein.",
+    "It's the first such procedure at a government autonomous hospital in South India, its director says.",
+    "She avoided a risky second open-heart operation."
+   ],
+   "joke": "Heart repair, no chest opening required.",
+   "vc": "Advanced care at public hospitals saves patients big private bills.",
+   "url": "https://www.thehindu.com/news/national/karnataka/karnataka-jayadeva-hospital-treats-80-year-old-woman-for-heart-valve-leakage-without-open-heart-surgery/article71716672.ece",
+   "linkLabel": "The Hindu",
+   "color": "#0369a1",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-20-h2",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "AIIMS Delhi",
+   "emoji": "👶",
+   "stat": "25",
+   "statLabel": "weeks into pregnancy",
+   "headline": "AIIMS Delhi performs India's first open surgery on a baby before birth",
+   "body": [
+    "AIIMS Delhi repaired a severe spinal defect in an unborn baby at 25 weeks, India's first open foetal surgery.",
+    "The six-hour operation took more than five weeks of planning.",
+    "It treated the most severe form of spina bifida."
+   ],
+   "joke": "Surgery so early, the patient hasn't been born.",
+   "vc": "New skills at AIIMS can reduce the need to travel abroad for rare care.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/indias-first-aiims-delhi-performs-6-hour-open-foetal-surgery-to-repair-spinal-defect-183291",
+   "linkLabel": "Medical Dialogues",
+   "color": "#15803d",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/All_India_Institute_of_Medical_Science_New_Delhi_during_COVID-19_pandemic_in_Delhi_IMG_20210316_092102.jpg/1280px-All_India_Institute_of_Medical_Science_New_Delhi_during_COVID-19_pandemic_in_Delhi_IMG_20210316_092102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Sumita Roy Dutta / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:All_India_Institute_of_Medical_Science_New_Delhi_during_COVID-19_pandemic_in_Delhi_IMG_20210316_092102.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-20-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Ahmedabad",
+   "emoji": "🦠",
+   "stat": "10",
+   "statLabel": "infection-control teams",
+   "headline": "Ahmedabad Civil Hospital deploys 10 teams to fight drug-resistant germs",
+   "body": [
+    "Ahmedabad Civil Hospital, with BJ Medical College, has deployed 10 infection prevention and control teams.",
+    "They will check infection practices and how antibiotics are prescribed.",
+    "It launched the drive during Antimicrobial Awareness Week."
+   ],
+   "joke": "Germs, meet the inspection squad.",
+   "vc": "Fewer hospital infections mean shorter stays and lower costs.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/ahmedabad-civil-hospital-launches-drive-to-combat-antimicrobial-resistance-183596",
+   "linkLabel": "Medical Dialogues",
+   "color": "#115e59",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-20-t1",
+   "section": "hft",
+   "source": "The TRADE",
+   "kicker": "Crypto trading",
+   "emoji": "♾️",
+   "stat": "Months → days",
+   "statLabel": "LMAX's claim on setup time",
+   "headline": "LMAX launches institutional perpetual futures for brokers",
+   "body": [
+    "LMAX Group now offers institutional perpetual futures through Fintake's Helio platform.",
+    "Brokers can offer them next to FX and CFDs from one account.",
+    "LMAX says perpetuals make up most institutional digital-asset trading."
+   ],
+   "joke": "Futures that never expire. Unlike our patience.",
+   "vc": "Easier access could pull more brokers, and fast traders, into crypto derivatives.",
+   "url": "https://www.thetradenews.com/lmax-group-launches-institutional-perpetual-futures-on-fintakes-helio-platform/",
+   "linkLabel": "The TRADE",
+   "color": "#1e1b4b",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-20-t2",
+   "section": "hft",
+   "source": "The TRADE",
+   "kicker": "Prime services",
+   "emoji": "🔁",
+   "stat": "US + Europe",
+   "statLabel": "first markets",
+   "headline": "State Street adds equity swaps to its prime services",
+   "body": [
+    "State Street has added equity swaps to its prime services for big investors.",
+    "Clients can now get synthetic exposure to shares through total return swaps.",
+    "It starts with US and key European markets."
+   ],
+   "joke": "Owning the ride without buying the car.",
+   "vc": "More financing choices help hedge funds and quant traders scale up.",
+   "url": "https://www.thetradenews.com/state-street-builds-out-prime-services-to-incorporate-equity-swaps/",
+   "linkLabel": "The TRADE",
+   "color": "#6d28d9",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-20-t3",
+   "section": "hft",
+   "source": "The TRADE",
+   "kicker": "Explainer",
+   "emoji": "🎓",
+   "stat": "∞",
+   "statLabel": "no end date",
+   "headline": "Explainer: What is a deal that never ends?",
+   "body": [
+    "Imagine you and a friend agree on a price for a football card today, but you'll swap it later.",
+    "Grown-ups call that kind of promise a 'future'.",
+    "Most futures have a last day when the deal must be settled, like the end of a school term.",
+    "A perpetual future never ends. You keep the deal going by paying a small fee now and then to keep it fair.",
+    "This week LMAX said these never-ending deals are most of the big-money crypto trading, and it now offers them to brokers.",
+    "They're popular because they're simple, but you can lose money fast if prices go the wrong way."
+   ],
+   "joke": "Forever is a long time.",
+   "vc": "Never-ending deals can mean never-ending risk.",
+   "url": "https://www.thetradenews.com/lmax-group-launches-institutional-perpetual-futures-on-fintakes-helio-platform/",
+   "linkLabel": "The TRADE",
+   "color": "#0c4a6e",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-20-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "FIA",
+   "emoji": "🧑‍⚖️",
+   "stat": "12–15",
+   "statLabel": "full-time stewards planned",
+   "headline": "F1 to get full-time stewards from 2027",
+   "body": [
+    "The FIA will start moving to full-time F1 stewards in 2027.",
+    "It plans a panel of 12 to 15 permanent stewards.",
+    "The aim is more consistent penalty decisions, a long-running complaint in the paddock."
+   ],
+   "joke": "Finally, referees who know the rulebook by heart.",
+   "vc": "Consistent rulings protect the sport's credibility with fans and sponsors.",
+   "url": "https://www.autosport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-to-improve-consistency/10875719/",
+   "linkLabel": "Autosport",
+   "color": "#dc2626",
+   "font": "impact"
+  }
+ ]
+}
