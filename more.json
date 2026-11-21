@@ -1,177 +1,123 @@
 {
- "date": "2026-11-21",
- "generatedAt": "2026-11-21T03:46:12+05:30",
+ "date": "2026-11-22",
+ "generatedAt": "2026-11-22T03:46:29+05:30",
  "stories": [
   {
-   "id": "2026-11-21-x1",
+   "id": "2026-11-22-x1",
    "section": "world",
    "source": "Al Jazeera",
-   "kicker": "Iran",
-   "emoji": "🚢",
-   "stat": "Ship-to-ship",
-   "statLabel": "transfers targeted",
-   "headline": "US tightens Iran blockade to stop ship-to-ship transfers",
+   "kicker": "Hormuz",
+   "emoji": "🛢️",
+   "stat": "2",
+   "statLabel": "tankers struck near Oman",
+   "headline": "Two tankers hit near the Strait of Hormuz",
    "body": [
-    "CENTCOM warned ships taking Iranian cargo via ship-to-ship transfers could be stopped, boarded or seized.",
-    "It aims to close a loophole that let some Iranian fuel reach buyers.",
-    "Tension around Hormuz remains high."
+    "UK maritime authorities say two tankers were struck by unknown projectiles near Khasab, Oman.",
+    "Iran says a tanker caught fire after hitting a naval mine.",
+    "The strait carried nearly a fifth of the world's crude oil before the war."
    ],
    "joke": "",
-   "vc": "Tighter blockades keep oil markets jumpy.",
-   "url": "https://www.aljazeera.com/news/2026/11/20/us-targets-irans-ship-to-ship-transfers-can-tehran-break-the-blockade",
+   "vc": "Attacks keep oil prices and shipping costs high.",
+   "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping",
    "linkLabel": "Al Jazeera",
    "color": "#a16207",
-   "font": "news",
+   "font": "serious",
    "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg/1280px-STS004-37-716_-_Strait_of_Hormuz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "NASA / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/A_port_view_of_the_guided_missile_frigate_USS_TAYLOR_%28FFG-50%29_as_it_passes_a_tanker_after_going_through_the_Strait_of_Hormuz_during_Operation_Desert_Shield_-_DPLA_-_1fb70620034c5304df096b4526972ace.jpeg/1280px-thumbnail.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Department of Defense. American Forces Information Service.  / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:A_port_view_of_the_guided_missile_frigate_USS_TAYLOR_(FFG-50)_as_it_passes_a_tanker_after_going_through_the_Strait_of_Hormuz_during_Operation_Desert_Shield_-_DPLA_-_1fb70620034c5304df096b4526972ace.jpeg",
     "license": "Public domain"
    }
   },
   {
-   "id": "2026-11-21-x2",
+   "id": "2026-11-22-x2",
    "section": "world",
    "source": "Al Jazeera",
-   "kicker": "Gaza",
-   "emoji": "🛑",
-   "stat": "7",
-   "statLabel": "people killed",
-   "headline": "Israeli drone strikes kill seven in central Gaza",
+   "kicker": "US",
+   "emoji": "🔓",
+   "stat": "NCIC",
+   "statLabel": "database reportedly breached",
+   "headline": "FBI crime database suffers a suspected breach",
    "body": [
-    "Israeli attacks killed at least seven Palestinians in central Gaza despite the ceasefire.",
-    "Four died when a drone hit Bureij refugee camp, medical sources said.",
-    "Residents describe fear as drones buzz overhead."
+    "The FBI's National Crime Information Center has suffered a suspected breach, US media report.",
+    "Trump said 'it's not good' when asked about it.",
+    "It's the latest in a string of US government breaches and outages."
    ],
    "joke": "",
-   "vc": "Continued violence delays reconstruction funding.",
-   "url": "https://www.aljazeera.com/news/2026/11/20/israeli-drone-attacks-kill-seven-palestinians-in-central-gaza",
+   "vc": "Government breaches raise the stakes for cybersecurity spending.",
+   "url": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports",
    "linkLabel": "Al Jazeera",
-   "color": "#374151",
+   "color": "#111827",
    "font": "serious",
    "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Damage_in_Gaza_Strip_during_the_October_2023_-_29.jpg/1280px-Damage_in_Gaza_Strip_during_the_October_2023_-_29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "WAFA in contract with a local company (APAimages)‏‏ / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:Damage_in_Gaza_Strip_during_the_October_2023_-_29.jpg",
-    "license": "CC BY-SA 3.0"
-   }
-  },
-  {
-   "id": "2026-11-21-x3",
-   "section": "world",
-   "source": "Al Jazeera",
-   "kicker": "Britain",
-   "emoji": "🇪🇺",
-   "stat": "10",
-   "statLabel": "years since the Brexit vote",
-   "headline": "UK weighs a 'Breturn' to the EU after its Brussels summit",
-   "body": [
-    "PM Andy Burnham is back from a UK-EU summit with a possible new deal.",
-    "A decade after the referendum, the UK shows signs of buyer's remorse.",
-    "The 'Breturn' debate is growing."
-   ],
-   "joke": "It's not you, EU, it's us. Can we talk?",
-   "vc": "Closer EU ties could help UK trade and the pound.",
-   "url": "https://www.aljazeera.com/news/2026/11/20/10-years-after-divisive-brexit-referendum-uk-weighs-a-breturn-to-the-eu",
-   "linkLabel": "Al Jazeera",
-   "color": "#1d4ed8",
-   "font": "news"
-  },
-  {
-   "id": "2026-11-21-x4",
-   "section": "india",
-   "source": "Inc42",
-   "kicker": "Ecommerce",
-   "emoji": "🛒",
-   "stat": "500 bps",
-   "statLabel": "hit to Walmart International growth",
-   "headline": "Flipkart's sale timing dents Walmart's international growth",
-   "body": [
-    "Flipkart's Big Billion Days timing cut about 5 points from Walmart International's Q3 sales growth.",
-    "Walmart expects that to come back in Q4.",
-    "International net sales still rose 7% to $35.9 billion."
-   ],
-   "joke": "Big Billion Days, small billion quarter.",
-   "vc": "Flipkart's festive sales swing results for its US parent.",
-   "url": "https://inc42.com/buzz/flipkarts-bbd-timing-weighs-on-walmart-internationals-q3-growth/",
-   "linkLabel": "Inc42",
-   "color": "#0891b2",
-   "font": "finance",
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Walmart_7.jpg/1280px-Walmart_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Wikideas1 / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:Walmart_7.jpg",
-    "license": "CC0"
-   }
-  },
-  {
-   "id": "2026-11-21-x5",
-   "section": "india",
-   "source": "Inc42",
-   "kicker": "People",
-   "emoji": "👋",
-   "stat": "16",
-   "statLabel": "years at Amazon",
-   "headline": "Amazon Prime India head Abhinav Agarwal quits",
-   "body": [
-    "Abhinav Agarwal, who led Amazon Prime in India, has left after 16 years.",
-    "He ran product, marketing and engineering for Prime.",
-    "His next role will focus on commerce and logistics."
-   ],
-   "joke": "Prime time to move on.",
-   "vc": "Senior exits come as Amazon fights Flipkart and quick commerce.",
-   "url": "https://inc42.com/buzz/amazon-prime-india-head-abhinav-agarwal-quits-after-16-years-at-company/",
-   "linkLabel": "Inc42",
-   "color": "#b45309",
-   "font": "news"
-  },
-  {
-   "id": "2026-11-21-x6",
-   "section": "money",
-   "source": "TechCrunch",
-   "kicker": "Energy",
-   "emoji": "⚛️",
-   "stat": "Feb",
-   "statLabel": "when Europa Fusion was founded",
-   "headline": "Spotify's Daniel Ek backs an AI researcher's fusion startup",
-   "body": [
-    "Daniel Ek is backing Europa Fusion, a UK startup founded in February.",
-    "Founder Nantas Nardelli worked at Google DeepMind and was ML head at Pacific Fusion.",
-    "It's taking a different approach to fusion power."
-   ],
-   "joke": "From playlists to plasma.",
-   "vc": "Tech billionaires are betting on power for AI data centres.",
-   "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
-   "linkLabel": "TechCrunch",
-   "color": "#111827",
-   "font": "tech",
-   "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Daniel_Ek_%28Interview%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "credit": "Magnus Höij / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:Daniel_Ek_(Interview)_(cropped).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29.jpg/1280px-FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "ajay_suresh / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:FBI_Headquarters_-_J._Edgar_Hoover_Building_(53840035941).jpg",
     "license": "CC BY 2.0"
    }
   },
   {
-   "id": "2026-11-21-x7",
-   "section": "women",
-   "source": "The 19th",
-   "kicker": "Gaming",
-   "emoji": "🎮",
-   "stat": "11M+",
-   "statLabel": "GTA 6 pre-sold copies",
-   "headline": "GTA 6 adds a new mission: being a good partner",
+   "id": "2026-11-22-x3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Ukraine",
+   "emoji": "🛑",
+   "stat": "60",
+   "statLabel": "people wounded",
+   "headline": "Russian strike on Zelenskyy's hometown kills two",
    "body": [
-    "GTA 6 challenges the series' hypermasculine traditions on gender and relationships, The 19th says.",
-    "It's the first new instalment since 2013.",
-    "It made over $1 billion in pre-sales."
+    "A Russian attack on Kryvyi Rih killed two people, including a seven-year-old boy, and wounded 60.",
+    "It is President Zelenskyy's hometown.",
+    "Russian missiles also landed in Poland, a NATO member."
    ],
-   "joke": "Side quest: communicate your feelings.",
-   "vc": "Wider appeal to women gamers grows the market.",
-   "url": "https://19thnews.org/2026/11/grand-theft-auto-vi-women-gender-relationships/",
-   "linkLabel": "The 19th",
-   "color": "#db2777",
-   "font": "tech"
+   "joke": "",
+   "vc": "Escalation clouds US-led peace efforts.",
+   "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown",
+   "linkLabel": "Al Jazeera",
+   "color": "#374151",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-22-x4",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Bengaluru",
+   "emoji": "🏍️",
+   "stat": "25",
+   "statLabel": "states already allow bike taxis",
+   "headline": "Bengaluru commuters cheer return of bike taxis",
+   "body": [
+    "Commuters tired of steep auto fares welcomed the Supreme Court ruling allowing bike taxis in Karnataka.",
+    "Drivers who lost work during the ban are relieved too.",
+    "Bike taxis already run in 25 states."
+   ],
+   "joke": "Bengaluru traffic: now 30% more zig-zag.",
+   "vc": "Cheaper rides help daily commuters' budgets.",
+   "url": "https://www.thehindu.com/news/cities/bangalore/bike-taxis-offer-relief-from-steep-auto-fares-say-commuters-after-sc-ruling/article71725377.ece",
+   "linkLabel": "The Hindu",
+   "color": "#0891b2",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-22-x5",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Crypto",
+   "emoji": "🪙",
+   "stat": "$16M",
+   "statLabel": "CoinDCX loss from old wallets",
+   "headline": "India's crypto exchanges face stalled withdrawals and hacks",
+   "body": [
+    "Coinbase, CoinDCX and ZebPay have had rupee withdrawal problems, blaming bank partners.",
+    "CoinDCX lost about $16 million from retired wallets; Unocoin lost $0.2 million.",
+    "The ED has also searched premises linked to CoinDCX and Delta Exchange."
+   ],
+   "joke": "Your keys, your coins, their bank's outage.",
+   "vc": "Weak banking links make crypto exchanges fragile.",
+   "url": "https://inc42.com/buzz/stalled-withdrawals-millions-stolen-inside-indias-crypto-exchange-troubles/",
+   "linkLabel": "Inc42",
+   "color": "#b45309",
+   "font": "finance"
   }
  ]
 }
