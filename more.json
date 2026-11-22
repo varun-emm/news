@@ -1,123 +1,129 @@
 {
- "date": "2026-11-22",
- "generatedAt": "2026-11-22T03:46:29+05:30",
+ "date": "2026-11-23",
+ "generatedAt": "2026-11-23T03:46:03+05:30",
  "stories": [
   {
-   "id": "2026-11-22-x1",
+   "id": "2026-11-23-x1",
    "section": "world",
    "source": "Al Jazeera",
-   "kicker": "Hormuz",
-   "emoji": "🛢️",
-   "stat": "2",
-   "statLabel": "tankers struck near Oman",
-   "headline": "Two tankers hit near the Strait of Hormuz",
+   "kicker": "Sudan",
+   "emoji": "🛑",
+   "stat": "4",
+   "statLabel": "people killed",
+   "headline": "RSF drones kill four near Khartoum and hit a UN building",
    "body": [
-    "UK maritime authorities say two tankers were struck by unknown projectiles near Khasab, Oman.",
-    "Iran says a tanker caught fire after hitting a naval mine.",
-    "The strait carried nearly a fifth of the world's crude oil before the war."
+    "Drone attacks blamed on Sudan's RSF killed four people around Khartoum.",
+    "They damaged a UN building, government buildings and the airport.",
+    "Sudanese air defences responded."
    ],
    "joke": "",
-   "vc": "Attacks keep oil prices and shipping costs high.",
-   "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping",
+   "vc": "Attacks on aid sites make humanitarian work harder.",
+   "url": "https://www.aljazeera.com/news/2026/11/22/rsf-drones-kill-four-in-khartoum",
    "linkLabel": "Al Jazeera",
-   "color": "#a16207",
-   "font": "serious",
+   "color": "#78350f",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-23-x2",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Israel",
+   "emoji": "🏛️",
+   "stat": "0",
+   "statLabel": "deals reached",
+   "headline": "Netanyahu and Eisenkot end coalition talks without a deal",
+   "body": [
+    "Talks between Netanyahu's Likud and Eisenkot's Yashar on a unity government ended without agreement.",
+    "They are split on who leads and whether Itamar Ben-Gvir joins.",
+    "They met in a Herzliya hotel on Sunday."
+   ],
+   "joke": "Unity government: still neither.",
+   "vc": "Political uncertainty weighs on Israel's markets.",
+   "url": "https://www.aljazeera.com/news/2026/11/22/netanyahus-likud-eisenkots-yashar-end-coalition-talks-without-deal",
+   "linkLabel": "Al Jazeera",
+   "color": "#1e40af",
+   "font": "news",
    "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/A_port_view_of_the_guided_missile_frigate_USS_TAYLOR_%28FFG-50%29_as_it_passes_a_tanker_after_going_through_the_Strait_of_Hormuz_during_Operation_Desert_Shield_-_DPLA_-_1fb70620034c5304df096b4526972ace.jpeg/1280px-thumbnail.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Department of Defense. American Forces Information Service.  / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:A_port_view_of_the_guided_missile_frigate_USS_TAYLOR_(FFG-50)_as_it_passes_a_tanker_after_going_through_the_Strait_of_Hormuz_during_Operation_Desert_Shield_-_DPLA_-_1fb70620034c5304df096b4526972ace.jpeg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Benjamin_Netanyahu_Congress.jpg/1280px-Benjamin_Netanyahu_Congress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Speaker of the house Boehner / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Benjamin_Netanyahu_Congress.jpg",
     "license": "Public domain"
    }
   },
   {
-   "id": "2026-11-22-x2",
-   "section": "world",
-   "source": "Al Jazeera",
-   "kicker": "US",
-   "emoji": "🔓",
-   "stat": "NCIC",
-   "statLabel": "database reportedly breached",
-   "headline": "FBI crime database suffers a suspected breach",
-   "body": [
-    "The FBI's National Crime Information Center has suffered a suspected breach, US media report.",
-    "Trump said 'it's not good' when asked about it.",
-    "It's the latest in a string of US government breaches and outages."
-   ],
-   "joke": "",
-   "vc": "Government breaches raise the stakes for cybersecurity spending.",
-   "url": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports",
-   "linkLabel": "Al Jazeera",
-   "color": "#111827",
-   "font": "serious",
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29.jpg/1280px-FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "ajay_suresh / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:FBI_Headquarters_-_J._Edgar_Hoover_Building_(53840035941).jpg",
-    "license": "CC BY 2.0"
-   }
-  },
-  {
-   "id": "2026-11-22-x3",
-   "section": "world",
-   "source": "Al Jazeera",
-   "kicker": "Ukraine",
-   "emoji": "🛑",
-   "stat": "60",
-   "statLabel": "people wounded",
-   "headline": "Russian strike on Zelenskyy's hometown kills two",
-   "body": [
-    "A Russian attack on Kryvyi Rih killed two people, including a seven-year-old boy, and wounded 60.",
-    "It is President Zelenskyy's hometown.",
-    "Russian missiles also landed in Poland, a NATO member."
-   ],
-   "joke": "",
-   "vc": "Escalation clouds US-led peace efforts.",
-   "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown",
-   "linkLabel": "Al Jazeera",
-   "color": "#374151",
-   "font": "serious"
-  },
-  {
-   "id": "2026-11-22-x4",
+   "id": "2026-11-23-x3",
    "section": "india",
    "source": "The Hindu",
-   "kicker": "Bengaluru",
-   "emoji": "🏍️",
-   "stat": "25",
-   "statLabel": "states already allow bike taxis",
-   "headline": "Bengaluru commuters cheer return of bike taxis",
+   "kicker": "Diplomacy",
+   "emoji": "🇳🇵",
+   "stat": "1st",
+   "statLabel": "official visit to India",
+   "headline": "Nepal PM Balendra Shah arrives in Delhi for his first official visit",
    "body": [
-    "Commuters tired of steep auto fares welcomed the Supreme Court ruling allowing bike taxis in Karnataka.",
-    "Drivers who lost work during the ban are relieved too.",
-    "Bike taxis already run in 25 states."
+    "Nepal's Prime Minister Balendra Shah arrived in New Delhi on Sunday.",
+    "He will open several projects and hold talks with PM Modi on Monday.",
+    "Officials say the talks will set direction for ties in coming years."
    ],
-   "joke": "Bengaluru traffic: now 30% more zig-zag.",
-   "vc": "Cheaper rides help daily commuters' budgets.",
-   "url": "https://www.thehindu.com/news/cities/bangalore/bike-taxis-offer-relief-from-steep-auto-fares-say-commuters-after-sc-ruling/article71725377.ece",
+   "joke": "Neighbours, now with an agenda.",
+   "vc": "Closer ties could unlock hydropower and trade deals.",
+   "url": "https://www.thehindu.com/news/national/nepal-pm-balendra-shah-arrives-in-delhi-for-first-official-visit-to-india/article71731829.ece",
    "linkLabel": "The Hindu",
-   "color": "#0891b2",
+   "color": "#b45309",
    "font": "news"
   },
   {
-   "id": "2026-11-22-x5",
+   "id": "2026-11-23-x4",
    "section": "india",
-   "source": "Inc42",
-   "kicker": "Crypto",
-   "emoji": "🪙",
-   "stat": "$16M",
-   "statLabel": "CoinDCX loss from old wallets",
-   "headline": "India's crypto exchanges face stalled withdrawals and hacks",
+   "source": "The Hindu",
+   "kicker": "Border",
+   "emoji": "🏔️",
+   "stat": "Nov 8",
+   "statLabel": "talks began",
+   "headline": "India and China hold talks to ease Arunachal border tensions",
    "body": [
-    "Coinbase, CoinDCX and ZebPay have had rupee withdrawal problems, blaming bank partners.",
-    "CoinDCX lost about $16 million from retired wallets; Unocoin lost $0.2 million.",
-    "The ED has also searched premises linked to CoinDCX and Delta Exchange."
+    "India and China held a second round of Corps Commander-level talks on the LAC in Arunachal Pradesh.",
+    "They aim to prevent friction between troops before harsh winter.",
+    "The talks began on November 8."
    ],
-   "joke": "Your keys, your coins, their bank's outage.",
-   "vc": "Weak banking links make crypto exchanges fragile.",
-   "url": "https://inc42.com/buzz/stalled-withdrawals-millions-stolen-inside-indias-crypto-exchange-troubles/",
-   "linkLabel": "Inc42",
-   "color": "#b45309",
-   "font": "finance"
+   "joke": "Talking beats shouting, especially at altitude.",
+   "vc": "Calmer borders support trade and investment ties.",
+   "url": "https://www.thehindu.com/news/national/india-china-hold-10-day-talks-to-ease-loac-tensions-in-arunachal-pradesh/article71731819.ece",
+   "linkLabel": "The Hindu",
+   "color": "#065f46",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Benjamin_Netanyahu_Congress.jpg/1280px-Benjamin_Netanyahu_Congress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Speaker of the house Boehner / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Benjamin_Netanyahu_Congress.jpg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-11-23-x5",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Tamil Nadu",
+   "emoji": "🍾",
+   "stat": "₹1,000",
+   "statLabel": "cash limit at Tasmac",
+   "headline": "Tasmac goes digital-only for liquor buys above ₹1,000 in Chennai",
+   "body": [
+    "Tasmac liquor shops in parts of Chennai will take only digital payments for purchases above ₹1,000 from November 23.",
+    "Cash stays an option for smaller buys.",
+    "The rule starts in Chennai and Tiruvallur East."
+   ],
+   "joke": "Cheers, now with UPI.",
+   "vc": "Digital payments improve tracking of the state's liquor revenue.",
+   "url": "https://www.thehindu.com/news/national/tamil-nadu/tasmac-to-go-digital-only-for-liquor-purchases-above-1000/article71732280.ece",
+   "linkLabel": "The Hindu",
+   "color": "#0891b2",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/TASMAC_bar.JPG/1280px-TASMAC_bar.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Sodabottle / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:TASMAC_bar.JPG",
+    "license": "CC BY-SA 3.0"
+   }
   }
  ]
 }

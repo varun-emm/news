@@ -1,299 +1,277 @@
 {
- "date": "2026-11-22",
- "generatedAt": "2026-11-22T03:46:29+05:30",
+ "date": "2026-11-23",
+ "generatedAt": "2026-11-23T03:46:03+05:30",
  "items": [
   {
-   "id": "2026-11-22-f1",
+   "id": "2026-11-23-f1",
    "type": "fashion",
    "source": "Highsnobiety",
    "emoji": "👞",
-   "color": "#44403c",
-   "headline": "adidas turns its F50 runner into a loafer",
-   "caption": "The Formotion F50 Loafer keeps chunky running soles under a penny-loafer upper.",
+   "color": "#78350f",
+   "headline": "adidas makes the Handball loafer a moccasin",
+   "caption": "The Handball Loafer Freizeit adds moc touches and chunkier soles.",
    "body": [
-    "Velvety suede and mesh.",
-    "It looks a bit New Balance, on purpose.",
-    "How to wear it: with wide trousers and white socks."
+    "Penny loafer up top, sneaker comfort below.",
+    "A bit more business casual.",
+    "How to wear it: with grey flannels and a cardigan."
    ],
-   "url": "https://www.highsnobiety.com/p/adidas-formotion-f50-loafer/",
+   "url": "https://www.highsnobiety.com/p/adidas-handball-loafer-freizeit/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795279231-adidas-formotion-f50-loafers-0.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1795363956-adidas-handball-loafer-freizeit-0.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/adidas-formotion-f50-loafer/",
+    "creditUrl": "https://www.highsnobiety.com/p/adidas-handball-loafer-freizeit/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-22-f2",
+   "id": "2026-11-23-f2",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🏃",
-   "color": "#0f172a",
-   "headline": "Nike brings back GYAKUSOU with Undercover",
-   "caption": "The experimental running line with Jun Takahashi returns after five years.",
+   "emoji": "🌴",
+   "color": "#0e7490",
+   "headline": "adidas' icy-blue 'Miami' Samba",
+   "caption": "Palm-tree prints and pink 305 branding, landing right as GTA VI launches.",
    "body": [
-    "'Gyakusou' means running in reverse.",
-    "It mixes performance and fashion.",
-    "How to wear it: technical layers, even off the track."
+    "Vice City colours, real-world shoe.",
+    "City-themed Sambas keep coming.",
+    "How to wear it: white tee, light denim."
    ],
-   "url": "https://www.highsnobiety.com/p/nike-undercover-fashion-new/",
+   "url": "https://www.highsnobiety.com/p/adidas-samba-miami/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795201198-header-gyakusou.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1795364350-adidas-samba-miami-0.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/nike-undercover-fashion-new/",
+    "creditUrl": "https://www.highsnobiety.com/p/adidas-samba-miami/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-22-f3",
+   "id": "2026-11-23-f3",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🦘",
-   "color": "#57534e",
-   "headline": "UP THERE makes the New Balance 1890 suave",
-   "caption": "Grey suede and nylon replace the usual mesh.",
+   "emoji": "🔩",
+   "color": "#3f3f46",
+   "headline": "Nati Lopez gives the adidas Superstar a steel toe",
+   "caption": "The LA tattoo artist swaps the shell toe for diamond-plate metal.",
    "body": [
-    "Colours inspired by Australian views.",
-    "A techy runner turned smart.",
-    "How to wear it: with chinos and a knit."
+    "Inspired by her favourite work boots.",
+    "Silver charms add flash.",
+    "How to wear it: with workwear trousers."
    ],
-   "url": "https://www.highsnobiety.com/p/up-there-new-balance-1890-sneakers/",
+   "url": "https://www.highsnobiety.com/p/nati-lopez-adidas-superstar-ii-shoes/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795279410-up-there-new-balance-1890-sneakers-0.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1795364709-nati-lopez-adidas-superstar-ii-shoes.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/up-there-new-balance-1890-sneakers/",
+    "creditUrl": "https://www.highsnobiety.com/p/nati-lopez-adidas-superstar-ii-shoes/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-22-f4",
+   "id": "2026-11-23-f4",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "⌚",
+   "emoji": "🗽",
    "color": "#7f1d1d",
-   "headline": "Why collectors are obsessed with Richard Mille",
-   "caption": "The 25-year-old watchmaker has an allure older brands chase.",
+   "headline": "Meg Stalter leads Marc Jacobs' New York holiday campaign",
+   "caption": "A cast of New York legends stars in the winter campaign.",
    "body": [
-    "Audemars Piguet just turned 150; Richard Mille only 25.",
-    "It was never designed for everyone.",
-    "Style lesson: a bold watch needs a quiet outfit."
+    "It leans into the city's chaotic winters.",
+    "Cosy, funny and very New York.",
+    "Style lesson: big coat, bigger personality."
    ],
-   "url": "https://www.highsnobiety.com/p/richard-mille-watch-collectors/",
+   "url": "https://www.highsnobiety.com/p/meg-stalter-leads-a-cast-of-new-york-legends-in-marc-jacobs-holiday-campaign/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795086350-hx39-richard-mille-hero.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1794948479-featuredimage.jpeg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/richard-mille-watch-collectors/",
+    "creditUrl": "https://www.highsnobiety.com/p/meg-stalter-leads-a-cast-of-new-york-legends-in-marc-jacobs-holiday-campaign/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-22-f5",
+   "id": "2026-11-23-f5",
    "type": "fashion",
    "source": "GQ UK",
-   "emoji": "🟥",
-   "color": "#b91c1c",
-   "headline": "How to wear red, even if you love neutrals",
-   "caption": "Stylist Olivia Creighton says red never really goes out of fashion.",
+   "emoji": "🛹",
+   "color": "#1f2937",
+   "headline": "You're about to get really into Vans again",
+   "caption": "People are hunting down pairs and paying above retail.",
    "body": [
-    "Winter wardrobes don't have to be dark.",
-    "Start small with one red piece.",
-    "How to wear it: a red knit under a grey coat."
+    "Vans used to be the shoe you didn't think about.",
+    "Now new releases are creating real buzz.",
+    "How to wear it: Old Skools with straight jeans."
    ],
-   "url": "https://www.gq-magazine.co.uk/article/how-to-wear-red-19-11-26",
+   "url": "https://www.gq-magazine.co.uk/article/vans-hype-22-11-26",
    "linkLabel": "GQ UK",
    "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6afc77d1cc6054c3a287aeec/16:9/w_1280,c_limit/066-Red%20(1).jpg",
+    "url": "https://media.gq-magazine.co.uk/photos/6afdb113b4b264bc7a9d64b4/16:9/w_1280,c_limit/Vans.jpeg",
     "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/how-to-wear-red-19-11-26",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/vans-hype-22-11-26",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-22-f6",
+   "id": "2026-11-23-f6",
+   "type": "fashion",
+   "source": "GQ",
+   "emoji": "🧥",
+   "color": "#a16207",
+   "headline": "How Celine's Michael Rider took over menswear",
+   "caption": "GQ's Men of the Year pick turned Celine into the brand everyone discusses.",
+   "body": [
+    "His Paris show was a party.",
+    "Preppy '80s energy is back.",
+    "Style lesson: relaxed prep, good knitwear."
+   ],
+   "url": "https://www.gq.com/story/michael-rider-men-of-the-year-2026",
+   "linkLabel": "GQ",
+   "image": {
+    "url": "https://media.gq.com/photos/6ae8b90757885bff413a2ee9/16:9/w_1280,c_limit/Michael-Rider-WM-Web-1.jpg",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/michael-rider-men-of-the-year-2026",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-23-f7",
+   "type": "fashion",
+   "source": "Esquire UK",
+   "emoji": "🎬",
+   "color": "#334155",
+   "headline": "Tom Hardy's most stylish characters, ranked",
+   "caption": "From Inception's sharp con man to RocknRolla's getaway driver.",
+   "body": [
+    "His characters are red flags in great clothes.",
+    "Esquire ranks the best looks.",
+    "Style lesson: a great overcoat covers a multitude of sins."
+   ],
+   "url": "https://www.esquire.com/uk/style/fashion/a74312766/tom-hardy-most-stylish-characters/",
+   "linkLabel": "Esquire UK",
+   "image": {
+    "url": "https://hips.hearstapps.com/hmg-prod/images/a5dc03e9-d953-4124-b2ef-6aedafbca131.jpg?crop=0.806xw:0.294xh;0.0288xw,0.0491xh&resize=1200:*",
+    "credit": "Esquire UK",
+    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74312766/tom-hardy-most-stylish-characters/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-23-f8",
+   "type": "fashion",
+   "source": "Esquire UK",
+   "emoji": "📖",
+   "color": "#365314",
+   "headline": "Esquire's Big Watch Book 2026 is out",
+   "caption": "From Rolex's 70-year-old Day-Date to watches in space.",
+   "body": [
+    "Skiing with Swatch in Japan is inside too.",
+    "The year's best watches in one place.",
+    "Style lesson: one good watch beats many."
+   ],
+   "url": "https://www.esquire.com/uk/watches/a74478002/esquires-big-watch-book-2026/",
+   "linkLabel": "Esquire UK",
+   "image": {
+    "url": "https://hips.hearstapps.com/hmg-prod/images/4c653309-86dd-4536-88c3-6c4febfa0379.jpeg?crop=1.00xw:0.401xh;0,0.205xh&resize=1200:*",
+    "credit": "Esquire UK",
+    "creditUrl": "https://www.esquire.com/uk/watches/a74478002/esquires-big-watch-book-2026/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-23-f9",
    "type": "fashion",
    "source": "Esquire",
-   "emoji": "🎀",
-   "color": "#1e3a8a",
-   "headline": "Thom Browne and Mr Porter launch a 17-piece capsule",
-   "caption": "It debuts on young restaurateur George McNally.",
+   "emoji": "🐑",
+   "color": "#57534e",
+   "headline": "Shearling jackets top Esquire editors' week",
+   "caption": "Three of 13 favourite launches were shearling jackets.",
    "body": [
-    "Browne is known for conceptual runway shows.",
-    "Exclusive to Mr Porter.",
-    "How to wear it: short-cut grey tailoring."
+    "Including Fortela's grizzly jacket reproduction.",
+    "Plus luxury carry-ons.",
+    "How to wear it: shearling over a hoodie and jeans."
    ],
-   "url": "https://www.esquire.com/style/mens-fashion/a74494286/thom-browne-mr-porter-george-mcnally/",
+   "url": "https://www.esquire.com/style/mens-fashion/a74482215/best-of-the-week-november-20-2026/",
    "linkLabel": "Esquire",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/0263a25e-4b6c-4681-b262-d5081249b106.jpg?crop=1xw:0.75xh;center,top&resize=1200:*",
+    "url": "https://hips.hearstapps.com/hmg-prod/images/a8abb8c0-9464-445c-89df-e33d5f3b9d18.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
     "credit": "Esquire",
-    "creditUrl": "https://www.esquire.com/style/mens-fashion/a74494286/thom-browne-mr-porter-george-mcnally/",
+    "creditUrl": "https://www.esquire.com/style/mens-fashion/a74482215/best-of-the-week-november-20-2026/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-22-f7",
-   "type": "fashion",
-   "source": "Esquire UK",
-   "emoji": "🧥",
-   "color": "#3f6212",
-   "headline": "MobLand's tough wax jacket is on sale",
-   "caption": "ThruDark's khaki HeriTech Grange Jacket is 30% off.",
-   "body": [
-    "Worn by Paul O'Donnell's character.",
-    "Built for rough weather.",
-    "How to wear it: over a hoodie and dark denim."
-   ],
-   "url": "https://www.esquire.com/uk/style/a74488474/mobland-thrudark/",
-   "linkLabel": "Esquire UK",
-   "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/af6e308a-9bed-4fbb-b757-a3ff3b8d7fdf.jpg?crop=1.00xw:0.752xh;0,0.106xh&resize=1200:*",
-    "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/a74488474/mobland-thrudark/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-22-f8",
-   "type": "fashion",
-   "source": "Esquire UK",
-   "emoji": "🎮",
-   "color": "#be185d",
-   "headline": "The real watches behind GTA 6",
-   "caption": "From Rolex Day-Dates to Casio digitals in Vice City.",
-   "body": [
-    "Millions are exploring the game's streets.",
-    "Esquire matches in-game watches to real ones.",
-    "Style lesson: a Casio is always cool."
-   ],
-   "url": "https://www.esquire.com/uk/watches/a74476792/grand-theft-auto-6-watches/",
-   "linkLabel": "Esquire UK",
-   "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/a3867912-00ca-44c4-a94d-48945c425c48.png?crop=1xw:0.5xh;center,top&resize=1200:*",
-    "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/watches/a74476792/grand-theft-auto-6-watches/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-22-f9",
+   "id": "2026-11-23-f10",
    "type": "fashion",
    "source": "Hodinkee",
-   "emoji": "✈️",
+   "emoji": "🏀",
    "color": "#0c4a6e",
-   "headline": "Breitling celebrates the Navitimer in SoHo",
-   "caption": "An event on the pilot's watch's past, present and future.",
+   "headline": "Kevin Love's collection, from vintage Rolex to F.P. Journe",
+   "caption": "The NBA champion's watch taste changed when he won a title.",
    "body": [
-    "The Navitimer is Breitling's icon.",
-    "A special event in SoHo, New York.",
-    "Style lesson: a pilot's watch suits a bomber jacket."
+    "Hodinkee's Talking Watches series.",
+    "Milestone watches mean most.",
+    "Style lesson: buy to mark your wins."
    ],
-   "url": "https://www.hodinkee.com/articles/breitling-navitimer-in-soho-gatherings",
+   "url": "https://www.hodinkee.com/articles/talking-watches-kevin-love",
    "linkLabel": "Hodinkee",
    "image": {
-    "url": "https://hodinkee.imgix.net/uploads/images/114a6825-a164-400d-a352-9ac347683155/R2_hero_breitlinggatherings.jpeg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
+    "url": "https://hodinkee.imgix.net/uploads/articles/c34e0df4-b92f-48bc-8f43-76a4cf2c2bea/kevin-love-header.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
     "credit": "Hodinkee",
-    "creditUrl": "https://www.hodinkee.com/articles/breitling-navitimer-in-soho-gatherings",
+    "creditUrl": "https://www.hodinkee.com/articles/talking-watches-kevin-love",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-22-f10",
-   "type": "fashion",
-   "source": "Hodinkee",
-   "emoji": "🔍",
-   "color": "#365314",
-   "headline": "Vintage finds: Movado, Seiko, Universal Genève, Tudor",
-   "caption": "This week's Bring a Loupe round-up of watches for sale.",
-   "body": [
-    "Includes a Tudor Submariner 79090.",
-    "And a Seiko 6159-7001.",
-    "Style lesson: vintage adds character."
-   ],
-   "url": "https://www.hodinkee.com/articles/a-movado-calatrava-a-seiko-6159-7001-a-universal-geneve-polerouter-sub-and-a-tudor-submariner-79090",
-   "linkLabel": "Hodinkee",
-   "image": {
-    "url": "https://hodinkee.imgix.net/uploads/articles/b2b7a5f0-d48c-4509-91ed-fb668367123f/Bring-A-Loupe-Hero-11-19.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
-    "credit": "Hodinkee",
-    "creditUrl": "https://www.hodinkee.com/articles/a-movado-calatrava-a-seiko-6159-7001-a-universal-geneve-polerouter-sub-and-a-tudor-submariner-79090",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-22-f11",
+   "id": "2026-11-23-f11",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🐋",
-   "color": "#0e7490",
-   "headline": "Drone-caught whale breath used to map a whole genome",
-   "caption": "Scientists sequenced a whale's genome without touching it.",
+   "emoji": "🎨",
+   "color": "#9d174d",
+   "headline": "The world's first museum inside a children's hospital opens",
+   "caption": "A dying boy's wish for a place to play during chemo came true.",
    "body": [
-    "A first for non-invasive sequencing.",
-    "St Andrews researchers helped lead it."
+    "The 'Imaginarium' opened at Children's Hospital New Orleans.",
+    "His family's foundation raised the money."
    ],
-   "url": "https://www.goodnewsnetwork.org/breath-of-whale-captured-via-drone-to-complete-genome-sequence/",
+   "url": "https://www.goodnewsnetwork.org/the-first-museum-built-in-a-childrens-hospital-fulfills-dying-boys-wish/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Whale-spout-by-NorthCoastCetaceanSociety-via-SWNS-.jpeg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Music-dance-stage-display-in-kids-museum-Walkers-Imaginarium-released-by-Manning-Family-Childrens.jpeg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/breath-of-whale-captured-via-drone-to-complete-genome-sequence/",
+    "creditUrl": "https://www.goodnewsnetwork.org/the-first-museum-built-in-a-childrens-hospital-fulfills-dying-boys-wish/",
     "preview": true
    },
    "embed": true
   },
   {
-   "id": "2026-11-22-f12",
+   "id": "2026-11-23-f12",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🎄",
+   "emoji": "💊",
    "color": "#166534",
-   "headline": "A pub owner lights up his town to lift spirits",
-   "caption": "Christian Ogley spent thousands on a festive display in Knaresborough.",
+   "headline": "A drug may actually cure hormone-driven high blood pressure",
+   "caption": "Baxdrostat reversed the condition, even years after patients stopped taking it.",
    "body": [
-    "It's been a tough year for locals.",
-    "He wanted to cheer them up."
+    "It is FDA-approved.",
+    "Doctors were stunned by the study."
    ],
-   "url": "https://www.goodnewsnetwork.org/pub-owner-spends-thousands-on-stunning-holiday-display-all-to-cheer-up-depressed-locals/",
+   "url": "https://www.goodnewsnetwork.org/drug-may-actually-cure-high-blood-pressure-caused-by-hormones/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Christian-Ogley-w-Christmas-lights-on-his-pub-SWNS.jpeg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Doctor-takes-blood-pressure-by-Vitaly-Gariev-NDOYHZ_98Rw-unsplash.jpeg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/pub-owner-spends-thousands-on-stunning-holiday-display-all-to-cheer-up-depressed-locals/",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-11-22-f13",
-   "type": "good",
-   "source": "Good News Network",
-   "emoji": "🧬",
-   "color": "#6d28d9",
-   "headline": "One CRISPR shot cut bad cholesterol by half",
-   "caption": "A Cleveland Clinic trial cut LDL by 52%, lasting a year.",
-   "body": [
-    "It was a one-time infusion.",
-    "No side effects were reported."
-   ],
-   "url": "https://www.goodnewsnetwork.org/first-human-trial-to-slash-bad-cholesterol-by-50pt-with-one-crispr-injection/",
-   "linkLabel": "GNN",
-   "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/07/DNA-strand-break-CRISPR-by-Sangharsh-Lohakare-8o_LkMpo8ug-unsplash.jpeg",
-    "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/first-human-trial-to-slash-bad-cholesterol-by-50pt-with-one-crispr-injection/",
+    "creditUrl": "https://www.goodnewsnetwork.org/drug-may-actually-cure-high-blood-pressure-caused-by-hormones/",
     "preview": true
    },
    "embed": true
