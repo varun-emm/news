@@ -48,6 +48,20 @@ header{display:flex;align-items:center;padding:6px 8px 8px 18px;gap:8px}
 .story > .c-viz{flex:1 1 0;min-height:196px}
 .story > .c-done{flex:1}
 .story > .c-learn{flex:1 1 0}
+.story > .c-hindi{flex:1 1 0}
+/* Hindi card: casual Hindi in English letters, the English hidden under a blur until tapped */
+.c-hindi{background:linear-gradient(165deg,color-mix(in srgb,var(--c) 80%,white),var(--c) 45%,color-mix(in srgb,var(--c) 70%,black));
+  color:#fff;padding:22px 22px 14px;display:flex;flex-direction:column;overflow-y:auto}
+.c-hindi .sec{background:rgba(255,255,255,.2);margin-bottom:10px}
+.c-hindi h2{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:clamp(24px,7vw,30px);line-height:1.1;margin:8px 0 4px}
+.c-hindi .lvl{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;opacity:.75}
+.c-hindi .phr{display:flex;flex-direction:column;gap:18px;margin-top:18px}
+.c-hindi .hi-l{font-size:clamp(21px,6vw,25px);font-weight:700;line-height:1.25}
+.c-hindi .hi-en{display:inline-block;margin-top:6px;font-size:clamp(15px,4.3vw,17px);line-height:1.4;padding:4px 10px;border-radius:10px;background:rgba(0,0,0,.18);
+  filter:blur(6px);opacity:.8;cursor:pointer;transition:filter .35s ease,opacity .35s ease;user-select:none;-webkit-user-select:none}
+.c-hindi .hi-en.shown{filter:none;opacity:1}
+.c-hindi .hint{font-size:12px;opacity:.7;margin-top:14px}
+.c-hindi .acts{margin-top:auto;padding-top:14px;display:flex;justify-content:flex-end;gap:2px}
 /* learning card: one full-size card, only a heading and plain text */
 .c-learn{background:linear-gradient(165deg,color-mix(in srgb,var(--c) 85%,white),var(--c) 40%,color-mix(in srgb,var(--c) 75%,black));
   color:#fff;padding:22px 22px 14px;display:flex;flex-direction:column;overflow-y:auto}
@@ -414,6 +428,8 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   <nav id="tabs" aria-label="Show"></nav>
   <div class="label">Fashion</div>
   <nav id="fashionEvery" aria-label="Fashion frequency"></nav>
+  <div class="label">Hindi 🗣️</div>
+  <nav id="hindiLevel" aria-label="Hindi level"></nav>
   <div class="label">Deck</div>
   <div class="group">
     <button id="shuffleBtn">Shuffle the deck <small>🔀</small></button>
@@ -446,7 +462,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   const SECTIONS = [["all","All"],["world","World"],["india","India"],["money","Money Desk"],["women","Women"],["health","Hospitals"],["hft","HFT"],["f1","F1"],["saved","🔖 Saved"]];
   const LABEL = {world:"World", india:"India", money:"Money Desk", women:"Women", health:"Hospitals", hft:"HFT", f1:"F1"};
   const SEC_ICON = {world:"🌍", india:"🇮🇳", money:"💰", women:"♀️", health:"🏥", hft:"⚡", f1:"🏎️"};
-  const VERSION = '4.2'; // bump on every change to this page, so it's easy to tell which copy you have
+  const VERSION = '4.3'; // bump on every change to this page, so it's easy to tell which copy you have
   const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
   const stage = $('#stage');
   let data = null, all = [], order = [], list = [], idx = 0, filter = 'all', dateText = '', isArchive = false;
@@ -462,11 +478,14 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   const FUN = {
     fashion: {label:'Style', emoji:'👔', font:'style'},
     good:    {label:'Good news', emoji:'🌈', font:'editorial'},
-    release: {label:'Record release', emoji:'🚀', font:'impact'}
+    release: {label:'Record release', emoji:'🚀', font:'impact'},
+    hindi:   {label:'Aaj ki Hindi', emoji:'🗣️', font:'editorial'}
   };
   const isFun = s => !!FUN[s.type];
   const isCalm = s => !isFun(s) && !s.joke; // no joke means a sad story: keep it gentle
-  let fun = [], fashion = [];
+  let fun = [], fashion = [], hindi = null;
+  const HINDI_LEVELS = [['basic','Basic Hindi'],['acha','Acha Hindi'],['bahut','Bahut acha Hindi']];
+  const isHindi = s => s && s.type === 'hindi';
   function lighten(hex){
     const n = parseInt((hex||'#888').slice(1),16); let r=n>>16,g=n>>8&255,b=n&255;
     r=Math.round(r+(255-r)*.45); g=Math.round(g+(255-g)*.45); b=Math.round(b+(255-b)*.45);
@@ -494,14 +513,16 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   // drop a fun story in after every 3rd, 4th or 6th news story; the gaps are fixed for the day
   // fashion comes after every Nth news story (set in Settings); good news and releases drop in after every 3rd, 4th or 6th
   function withFun(news){
-    if(!fun.length && !fashion.length) return news;
+    const hc = hindiCards();
+    if(!fun.length && !fashion.length && !hc.length) return news;
     const every = store.get('fashionEvery', 2);
     const rnd = seeded(data.date + '-fun'), gap = () => [3,4,6][Math.floor(rnd() * 3)];
-    const out = []; let k = 0, f = 0, next = gap();
+    const out = []; let k = 0, f = 0, h = 0, next = gap();
     news.forEach((s, i) => {
       out.push(s);
       if(every && (i + 1) % every === 0 && f < fashion.length) out.push(fashion[f++]);
       if(--next === 0){ if(k < fun.length) out.push(fun[k++]); next = gap(); }
+      if((i + 1) % 5 === 0 && h < hc.length) out.push(hc[h++]); // a Hindi card after every 5th news story
     });
     return out;
   }
@@ -654,6 +675,34 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     if(im){ const t = new Image(); t.onerror = () => im.remove(); t.src = img; }
     return el;
   }
+  // today's Hindi phrases for the chosen level, three to a card
+  function hindiCards(){
+    if(!hindi || !data) return [];
+    const lv = store.get('hindiLevel', 'basic'), name = (HINDI_LEVELS.find(x => x[0] === lv) || HINDI_LEVELS[0])[1];
+    const ph = ((hindi.levels || {})[lv] || []).filter(x => x && x.hi && x.en), cols = ['#9a3412','#7c2d12','#a16207','#b45309','#be123c','#c2410c','#854d0e','#9f1239'];
+    const cards = [];
+    for(let i = 0; i + 3 <= ph.length; i += 3){
+      const n = cards.length, set = ph.slice(i, i + 3);
+      cards.push({id: `${data.date}-hindi-${lv}-${n + 1}`, type: 'hindi', level: name, headline: 'Aaj ki Hindi', phrases: set, color: cols[n % cols.length],
+        source: name, url: '', body: set.map(x => `${x.hi} — ${x.en}`), caption: 'Casual Hindi in English letters'});
+    }
+    return cards;
+  }
+  function hindiEl(s){
+    const on = isSaved(s), el = document.createElement('div');
+    el.className = 'story fun hindi-story';
+    el.dataset.id = s.id;
+    el.style.setProperty('--c', s.color || '#9a3412');
+    el.innerHTML = `<article class="c c-hindi">
+        <span class="sec">🗣️ Aaj ki Hindi</span>
+        <div class="lvl">${esc(s.level || '')}</div>
+        <h2>Bolo aise 👇</h2>
+        <div class="phr">${(s.phrases || []).map(x => `<div><div class="hi-l">${esc(x.hi)}</div><span class="hi-en" data-reveal>${esc(x.en)}</span></div>`).join('')}</div>
+        <div class="hint">Tap a blurred line to see the English · type “Hindi” in the chat 💬 to practise</div>
+        <div class="acts"><button data-act="chat" aria-label="Practise Hindi">${ICON.chat}</button><button class="save" data-act="save" aria-pressed="${on}" aria-label="Save">${ICON.save}</button></div>
+      </article>`;
+    return el;
+  }
   const isLesson = s => s.section === 'hft' && /explainer/i.test(s.kicker || '');
   function lessonEl(s){ // the HFT explainer: one full-size card, heading and simple text only
     const on = isSaved(s), el = document.createElement('div');
@@ -670,6 +719,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     return el;
   }
   function storyEl(s){
+    if(isHindi(s)) return hindiEl(s);
     if(isFun(s)) return funEl(s);
     if(isLesson(s)) return lessonEl(s);
     const kinds = ['text','photo','viz'], rnd = seeded(s.id);
@@ -833,7 +883,10 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
       else if(a === 'again') show(0, -1);
       return;
     }
+    const rv = e.target.closest('[data-reveal]');
+    if(rv){ rv.classList.toggle('shown'); return; } // tapping the blurred English shows it
     if(!s || idx >= list.length) return;
+    if(isHindi(s)) return; // the Hindi card has no write-up to open
     const now = Date.now();
     if(now - lastTap < 300){ // double-tap saves
       clearTimeout(tapTimer); lastTap = 0;
@@ -916,6 +969,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
   const DEFAULT_MODEL = 'openai/gpt-oss-120b';
   const chats = {}; // story id -> [{role, content, sources?}], kept for this visit
   let chatStory = null, chatBusy = false;
+  const hindiChat = {}; // story id -> true while practising Hindi in that chat
   const host = u => { try{ return new URL(u).hostname.replace(/^www\./, ''); }catch(e){ return ''; } };
   function md(text){ // small, safe markdown: escape first, then links, bold, italics, lists, paragraphs
     const label = (l, u) => /^(https?:\/\/|www\.)/i.test(l.trim()) || l.trim() === u ? host(u) || 'source' : l; // never show a raw URL as link text
@@ -969,7 +1023,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     const steps = m.steps || [], secs = Math.max(1, Math.round(((m.t1 || Date.now()) - m.t0) / 1000));
     const n = (m.sources || []).length;
     const head = live ? `<span class="spin"></span>${esc(steps.length ? steps[steps.length - 1].t : 'Starting')}… <em>${secs}s</em>`
-      : `✓ Researched${n ? ` ${n} source${n > 1 ? 's' : ''}` : ''} · ${secs}s`;
+      : m.steps[0] && m.steps[0].t === 'Hindi practice' ? `🗣️ Hindi practice · ${secs}s` : `✓ Researched${n ? ` ${n} source${n > 1 ? 's' : ''}` : ''} · ${secs}s`;
     return `<details class="trail"${live ? ' open' : ''}><summary>${head}</summary><ol>${steps.map((s, i) =>
       `<li class="${live && i === steps.length - 1 ? 'now' : 'done'}">${esc(s.t)}${s.d ? `<small>${esc(s.d)}</small>` : ''}</li>`).join('')}</ol>${m.thinking ?
       `<details class="think"><summary>Thought process</summary><div>${esc(m.thinking.slice(-4000))}</div></details>` : ''}</details>`;
@@ -984,7 +1038,7 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     const s = chatStory, log = $('#chat .log'); if(!s || !log) return;
     const msgs = chats[s.id], atBottom = log.scrollHeight - log.scrollTop - log.clientHeight < 80;
     log.innerHTML = `<div class="ctx">${esc(LABEL[s.section] || (isFun(s) ? FUN[s.type].label : ''))} · ${esc(s.source || '')}<b>${esc(s.headline)}</b></div>` +
-      (msgs.length ? '' : `<div class="sugg">${['Tell me more about this', 'Why does this matter?', 'What happens next?', 'Explain it simply', 'What are the latest updates?']
+      (msgs.length ? '' : `<div class="sugg">${(isHindi(s) ? ['Hindi', 'Explain these phrases', 'Give me 3 more like these'] : ['Tell me more about this', 'Why does this matter?', 'What happens next?', 'Explain it simply', 'What are the latest updates?', 'Hindi'])
         .map(q => `<button>${q}</button>`).join('')}</div>`) +
       msgs.map((m, i) => msgHTML(m, chatBusy && i === msgs.length - 1 && m.role === 'assistant')).join('');
     log.querySelectorAll('.sugg button').forEach(b => b.onclick = () => ask(b.textContent));
@@ -996,8 +1050,15 @@ nav{display:flex;flex-wrap:wrap;gap:8px}
     const s = chatStory, key = store.get('orKey', '');
     if(!key){ toast('Add your OpenRouter key in Settings first', 2600); closeChat(); openPanel(); setTimeout(() => $('#orKey').focus(), 400); return; }
     const msgs = chats[s.id], history = msgs.filter(m => !m.error && m.content).map(m => ({role: m.role, content: m.content}));
+    // typing "Hindi" starts casual Hindi practice (English letters only); "English" ends it
+    const word = q.trim().toLowerCase().replace(/[.!?]+$/, '');
+    if(word === 'hindi') hindiChat[s.id] = true;
+    else if(word === 'english' && hindiChat[s.id]){
+      hindiChat[s.id] = false; msgs.push({role: 'user', content: q}, {role: 'assistant', content: 'Okay, back to English 👍 Type **Hindi** any time to practise again.'}); renderChat(); return;
+    }
+    const hi = !!hindiChat[s.id];
     msgs.push({role: 'user', content: q}); history.push({role: 'user', content: q});
-    const m = {role: 'assistant', content: '', thinking: '', sources: [], steps: [{t: 'Reading the story', d: s.headline}], t0: Date.now()};
+    const m = {role: 'assistant', content: '', thinking: '', sources: [], steps: [hi ? {t: 'Hindi practice', d: (HINDI_LEVELS.find(x => x[0] === store.get('hindiLevel', 'basic')) || HINDI_LEVELS[0])[1]} : {t: 'Reading the story', d: s.headline}], t0: Date.now()};
     msgs.push(m); chatBusy = true; renderChat();
     const step = (t, d) => { const last = m.steps[m.steps.length - 1]; if(last && last.t === t && !d) return; m.steps.push({t, d}); repaint(); };
     const tick = setInterval(repaint, 1000);
@@ -1017,6 +1078,17 @@ How to answer (a proper summary, not a wall of text):
 - If useful, end with one short line starting "**Why it matters:**" or "**What's next:**".
 - Plain, simple English; explain jargon. Keep it under about 180 words unless asked for more.
 - Separate facts from analysis, say clearly when something is unconfirmed or disputed, and never make up facts, numbers or quotes.`;
+    const lvl = store.get('hindiLevel', 'basic');
+    const hsys = `You are a friendly Indian friend helping the reader practise casual, everyday spoken Hindi by chatting. Today is ${today}.
+Rules:
+- Write Hindi ONLY in English letters (Romanised Hindi / Hinglish), e.g. "Aaj kya kar raha hai?". Never use Devanagari script.
+- Talk like a real friend: casual, warm, everyday conversation (food, work, weekend plans, family, cricket, movies, traffic, weather). No formal or bookish Hindi.
+- Level: ${lvl === 'bahut' ? 'Bahut acha Hindi: natural, fast, casual Hindi with common slang, idioms and longer sentences.' : lvl === 'acha' ? 'Acha Hindi: everyday sentences with some past and future tense and common slang; mostly Hindi words.' : 'Basic Hindi: very simple, short sentences with common words; mostly present tense; mixing in a few English words is fine.'}
+- Keep each reply short: 1–3 sentences, then ask a simple question back to keep the conversation going.
+- If the reader's last message has a mistake in Hindi, add ONE short last line starting with "✏️ Sahi:" with the corrected Hinglish and a few English words explaining why. If there's no mistake, don't add it.
+- If the reader writes in English or seems stuck, reply in easy Hinglish and add a short English hint in brackets.
+- If this is the start (the reader just typed "Hindi"), greet them casually in Hinglish and ask an easy opening question${isHindi(s) ? ' that uses one of these phrases from the card they are looking at: ' + (s.phrases || []).map(x => x.hi).join(' | ') : ''}.
+- No markdown headings, no lists, no web links.`;
     const params = {max_uses: 4, max_results: 5};
     if(store.get('orTrusted', true)) params.allowed_domains = [...new Set([...TRUSTED, host(s.url)].filter(Boolean))];
     const seen = new Set(), addSources = list => (list || []).forEach(a => {
@@ -1025,15 +1097,15 @@ How to answer (a proper summary, not a wall of text):
     });
     const toolArgs = {};
     try{
-      step('Searching reputed news sources');
+      if(!hi) step('Searching reputed news sources');
       const r = await fetch('https://openrouter.ai/api/v1/chat/completions', {
         method: 'POST',
         headers: {'Authorization': 'Bearer ' + key, 'Content-Type': 'application/json', 'HTTP-Referer': location.origin + location.pathname, 'X-Title': 'NEWS'},
         body: JSON.stringify({
           model: store.get('orModel', '') || DEFAULT_MODEL, stream: true,
-          messages: [{role: 'system', content: sys}, ...history],
-          tools: [{type: 'openrouter:web_search', parameters: params}],
-          reasoning: {effort: 'medium'}, max_tokens: 2500
+          messages: [{role: 'system', content: hi ? hsys : sys}, ...history],
+          ...(hi ? {} : {tools: [{type: 'openrouter:web_search', parameters: params}]}),
+          reasoning: {effort: hi ? 'low' : 'medium'}, max_tokens: hi ? 900 : 2500
         })
       });
       if(!r.ok){ const j = await r.json().catch(() => ({})); throw new Error((j.error && j.error.message) || `OpenRouter said ${r.status}`); }
@@ -1166,6 +1238,14 @@ How to answer (a proper summary, not a wall of text):
       for(let n = 0; types.some(t => groups[t][n]); n++) types.forEach(t => { if(groups[t][n]) fun.push(groups[t][n]); });
     }catch(e){}
   }
+  // today's Hindi phrases from hindi.json, a past day's from archive/<date>-hindi.json
+  async function loadHindi(){
+    try{
+      const r = await fetch((isArchive ? `archive/${data.date}-hindi.json` : 'hindi.json') + '?t=' + Date.now()); if(!r.ok) return;
+      const m = await r.json();
+      if(m && m.date === data.date && m.levels) hindi = m;
+    }catch(e){}
+  }
   async function loadExtras(){
     try{
       const r = await fetch('more.json?t=' + Date.now()); if(!r.ok) return;
@@ -1200,6 +1280,17 @@ How to answer (a proper summary, not a wall of text):
     });
   }
   renderFashionEvery();
+  function renderHindiLevel(){
+    const cur = store.get('hindiLevel', 'basic');
+    $('#hindiLevel').innerHTML = HINDI_LEVELS.map(([k,l]) => `<button class="chip" data-k="${k}" aria-pressed="${cur===k}">${l}</button>`).join('');
+    $('#hindiLevel').querySelectorAll('.chip').forEach(b => b.onclick = () => {
+      const keep = list[idx] && !isHindi(list[idx]) && list[idx].id;
+      store.set('hindiLevel', b.dataset.k); renderHindiLevel();
+      if(data){ const at = keep ? visible().findIndex(x => x.id === keep) : -1; show(at >= 0 ? at : Math.min(idx, visible().length - 1), 1, true); }
+      toast('Hindi level: ' + HINDI_LEVELS.find(x => x[0] === b.dataset.k)[1]);
+    });
+  }
+  renderHindiLevel();
   $('#openSettings').onclick = openPanel; $('#closeSettings').onclick = closePanel;
   $('#scrim').onclick = () => { closeChat(); closeWeb(); closeSheet(); closePanel(); };
   document.addEventListener('keydown', e => {
@@ -1230,6 +1321,7 @@ How to answer (a proper summary, not a wall of text):
     }
     if(Array.isArray(savedOrder) && savedOrder.length === all.length) order = savedOrder;
     await loadFun();
+    await loadHindi();
     renderTabs(); renderMore();
     const resume = hash || store.get('pos_' + d.date, ''); // a shared link wins; otherwise pick up where you left off
     const start = resume ? Math.max(0, visible().findIndex(s => s.id === resume)) : 0;
