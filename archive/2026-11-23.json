@@ -1,0 +1,515 @@
+{
+ "date": "2026-11-23",
+ "generatedAt": "2026-11-23T03:46:03+05:30",
+ "stories": [
+  {
+   "id": "2026-11-23-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Gulf",
+   "emoji": "🛢️",
+   "stat": "25",
+   "statLabel": "tankers hit in 7 days",
+   "headline": "Iran steps up Gulf attacks as US blockade bites",
+   "body": [
+    "At least 25 tankers have been hit in and around the Strait of Hormuz in the past week.",
+    "Iran also claims to have targeted US radars in Bahrain and downed US drones.",
+    "Iran's president calls the US blockade and sanctions a 'silent economic war'."
+   ],
+   "joke": "",
+   "vc": "Gulf oil flows have dropped sharply, pushing up energy risk worldwide.",
+   "url": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf",
+   "linkLabel": "Al Jazeera",
+   "color": "#7f1d1d",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/STS004-37-716_-_Strait_of_Hormuz.jpg/1280px-STS004-37-716_-_Strait_of_Hormuz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "NASA / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-11-23-w2",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Libya",
+   "emoji": "💥",
+   "stat": "3",
+   "statLabel": "drones seen in the attack",
+   "headline": "Suspected drone strike hits Russian warship in Libya's Benghazi",
+   "body": [
+    "A suspected sea-drone attack hit a Russian vessel in Benghazi port, Libya's eastern government says.",
+    "Local sources say Libyan and Russian nationals were killed and the ship carried weapons.",
+    "Satellite images suggest it was the Russian corvette Merkury."
+   ],
+   "joke": "",
+   "vc": "The war's spread to Africa adds risk to Mediterranean shipping.",
+   "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya",
+   "linkLabel": "Al Jazeera",
+   "color": "#374151",
+   "font": "serious",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Port_of_Benghazi_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Salema younus / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Port_of_Benghazi_2.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-23-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "United States",
+   "emoji": "✈️",
+   "stat": "2",
+   "statLabel": "people arrested on a jet bridge",
+   "headline": "Officials condemn ICE arrests at Seattle airport",
+   "body": [
+    "Masked immigration agents detained two people on a Seattle airport jet bridge as passengers boarded.",
+    "A video of the arrests went viral.",
+    "Democratic leaders called the tactics 'atrocious' and want limits on ICE."
+   ],
+   "joke": "",
+   "vc": "Airport enforcement raises concerns for travel and tourism.",
+   "url": "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport",
+   "linkLabel": "Al Jazeera",
+   "color": "#1e3a8a",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Delta_hangars_at_Seattle-Tacoma_International_Airport_May_2026.jpg/1280px-Delta_hangars_at_Seattle-Tacoma_International_Airport_May_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "4300streetcar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Delta_hangars_at_Seattle-Tacoma_International_Airport_May_2026.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-23-i1",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Startups",
+   "emoji": "🍔",
+   "stat": "10x",
+   "statLabel": "Swish revenue growth",
+   "headline": "Bengaluru's Swish grows revenue 10x, but losses nearly quadruple",
+   "body": [
+    "Quick food delivery startup Swish made ₹47.6 crore in operating revenue in FY26, over 10 times the year before.",
+    "Its loss rose nearly 4x to ₹91.1 crore.",
+    "Expenses jumped more than 5x to ₹144.8 crore."
+   ],
+   "joke": "Ten-minute food, ten-times growth, ten-tonne losses.",
+   "vc": "Quick-food startups are burning cash fast to win customers.",
+   "url": "https://inc42.com/buzz/swish-fy26-revenue-surges-close-to-%e2%82%b950-cr-while-loss-widens-to-%e2%82%b991-cr/",
+   "linkLabel": "Inc42",
+   "color": "#047857",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-23-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Tamil Nadu",
+   "emoji": "🛵",
+   "stat": "Early 2027",
+   "statLabel": "first e-scooters due",
+   "headline": "VinFast to build e-scooters at its Tamil Nadu plant",
+   "body": [
+    "Vietnam's VinFast is building an electric scooter line at its Thoothukudi plant in Tamil Nadu.",
+    "It signed for 500 more acres of land with the state last year.",
+    "The first scooters should roll out early next year."
+   ],
+   "joke": "Thoothukudi, now with fewer petrol fumes.",
+   "vc": "More EV plants bring jobs and investment to southern Tamil Nadu.",
+   "url": "https://inc42.com/buzz/vinfast-to-build-dedicated-e-scooter-assembly-line-at-tn-plant/",
+   "linkLabel": "Inc42",
+   "color": "#0e7490",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-23-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Food safety",
+   "emoji": "💧",
+   "stat": "Unsafe",
+   "statLabel": "FSSAI's verdict on the sample",
+   "headline": "FSSAI orders prosecution of Bisleri over unsafe water sample",
+   "body": [
+    "Food regulator FSSAI has approved prosecution of Bisleri International.",
+    "A packaged drinking water sample failed limits for bromate, a chemical, and was declared unsafe.",
+    "The sample was taken from Bisleri's own premises."
+   ],
+   "joke": "Even water needs a background check now.",
+   "vc": "Safety action can hit trust in big consumer brands.",
+   "url": "https://www.thehindu.com/news/national/fssai-orders-prosecution-against-bisleri-international-for-unsafe-packaged-drinking-water/article71732196.ece",
+   "linkLabel": "The Hindu",
+   "color": "#4338ca",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Bisleri_%C3%A9tiquette.JPG/1280px-Bisleri_%C3%A9tiquette.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Gatien Couturier / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Bisleri_%C3%A9tiquette.JPG",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-23-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Data centres",
+   "emoji": "🏭",
+   "stat": "Hyperscale",
+   "statLabel": "Paris Marx's new book",
+   "headline": "Why data centres are the centre of the Big Tech backlash",
+   "body": [
+    "Journalist Paris Marx's book 'Hyperscale' looks inside data centres and the AI boom.",
+    "He calls the build-out 'fundamentally unsustainable'.",
+    "Data-centre anger may have helped drive the midterm blue wave. (No new FT/Unhedged piece, so this is TechCrunch's interview.)"
+   ],
+   "joke": "The cloud has a very real electricity bill.",
+   "vc": "Local pushback could slow and raise the cost of AI infrastructure.",
+   "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+   "linkLabel": "TechCrunch",
+   "color": "#c2410c",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Christopher Bowns / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg",
+    "license": "CC BY-SA 2.0"
+   }
+  },
+  {
+   "id": "2026-11-23-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Robotaxis",
+   "emoji": "🚕",
+   "stat": "1,507 vs 1,345",
+   "statLabel": "Tesla vs Waymo robotaxis in Texas",
+   "headline": "Tesla now has more robotaxis registered in Texas than Waymo",
+   "body": [
+    "Tesla has 1,507 robotaxis registered in Texas, ahead of Waymo's 1,345.",
+    "Waymo has pulled robotaxis off freeways again, while Zoox launched on Uber.",
+    "TechCrunch says paid rides matter more than registrations. (Axios Pro Rata had nothing checkable, so this is TechCrunch's report.)"
+   ],
+   "joke": "Counting cars is easy; counting riders is the test.",
+   "vc": "The robotaxi race will be won on revenue, not fleet size.",
+   "url": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
+   "linkLabel": "TechCrunch",
+   "color": "#0f766e",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg/1280px-Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Dllu / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-23-m3",
+   "section": "money",
+   "source": "Inc42",
+   "kicker": "Crypto",
+   "emoji": "🪙",
+   "stat": "1% + 30%",
+   "statLabel": "TDS and tax on crypto gains",
+   "headline": "Crypto industry asks for tax relief in Budget 2027",
+   "body": [
+    "The Bharat Web3 Association wants the government to rethink the 1% TDS and 30% tax on crypto profits.",
+    "It says clear rules would give compliant Indian platforms certainty.",
+    "Exchanges face bank problems, hacks and scrutiny. (TechCrunch Venture had no fresh deal, so this is Inc42's report.)"
+   ],
+   "joke": "Asking for a discount, crypto-style.",
+   "vc": "Lower taxes could bring trading back to Indian exchanges.",
+   "url": "https://inc42.com/buzz/budget-2027-industry-body-bwa-seeks-tax-relief-for-crypto-startups/",
+   "linkLabel": "Inc42",
+   "color": "#312e81",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Cryptocurrency_Regulation_%26_Laws.jpg/1280px-Cryptocurrency_Regulation_%26_Laws.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "CryptoWallet.com Images / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Cryptocurrency_Regulation_%26_Laws.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-23-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI safety",
+   "emoji": "🧠",
+   "stat": "Perplexity",
+   "statLabel": "the measure he focuses on",
+   "headline": "OpenAI's chief scientist floats ways to limit AI development",
+   "body": [
+    "OpenAI chief scientist Jakub Pachocki wrote about possible limits on AI development.",
+    "He focuses on 'perplexity', a measure of how well a model predicts text.",
+    "Anthropic's Dario Amodei has proposed a plan to 'pace the frontier'. (No new Stratechery post, so this is TechCrunch's report.)"
+   ],
+   "joke": "Brakes, but for brains.",
+   "vc": "Industry-agreed limits could slow the AI spending race.",
+   "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+   "linkLabel": "TechCrunch",
+   "color": "#7c3aed",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-23-m5",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Box office",
+   "emoji": "🎬",
+   "stat": "$102.4M",
+   "statLabel": "worldwide box office",
+   "headline": "Theranos documentary 'You Can See Everything' tops $100M",
+   "body": [
+    "Nathan Fielder and Lance Oppenheim's Elizabeth Holmes documentary has made $102.4 million worldwide.",
+    "Almost all of it came from the US; reported budget was $7 million.",
+    "It opens in Mexico, Brazil and Argentina next week. (No checkable Economist piece, so this is TechCrunch's report.)"
+   ],
+   "joke": "The blood test failed; the movie didn't.",
+   "vc": "Indie studio A24 shows documentaries can be big business.",
+   "url": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/",
+   "linkLabel": "TechCrunch",
+   "color": "#991b1b",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-23-v1",
+   "section": "women",
+   "source": "Deccan Herald",
+   "kicker": "India",
+   "emoji": "🏠",
+   "stat": "1st",
+   "statLabel": "NCW consultation on single women",
+   "headline": "NCW chief calls for equal respect and support for single women",
+   "body": [
+    "NCW chairperson Vijaya Rahatkar says society must support women whatever their marital status.",
+    "She called for economic independence, secure housing, social security and legal help for single women.",
+    "She spoke at a national consultation in New Delhi."
+   ],
+   "joke": "Status: single. Rights: full.",
+   "vc": "Secure housing and jobs help single women stay financially independent.",
+   "url": "https://www.deccanherald.com/india/society-must-equally-recognise-respect-single-women-ncw-chief-vijaya-rahatkar-4227307",
+   "linkLabel": "Deccan Herald",
+   "color": "#be185d",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-23-v2",
+   "section": "women",
+   "source": "Al Jazeera",
+   "kicker": "New York",
+   "emoji": "🗳️",
+   "stat": "74.5%",
+   "statLabel": "her vote share",
+   "headline": "Aber Kawas becomes first Palestinian in New York's state Senate",
+   "body": [
+    "Aber Kawas, 34, won a New York state Senate seat with 74.5% of the vote.",
+    "She is the first Palestinian and first Muslim woman in New York's state legislature.",
+    "She represents a Queens district where nearly half the residents were born abroad."
+   ],
+   "joke": "History made, in a tatreez blazer.",
+   "vc": "Diverse representation can shift local budget priorities.",
+   "url": "https://www.aljazeera.com/news/2026/11/22/aber-kawas-becomes-first-palestinian-in-new-york-state-senate-history",
+   "linkLabel": "Al Jazeera",
+   "color": "#9d174d",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/NYSCapitolPanorama.jpg/1280px-NYSCapitolPanorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "This image or media was taken or created by Matt H. Wade. To / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:NYSCapitolPanorama.jpg",
+    "license": "CC BY 3.0"
+   }
+  },
+  {
+   "id": "2026-11-23-v3",
+   "section": "women",
+   "source": "Al Jazeera",
+   "kicker": "Football",
+   "emoji": "⚽",
+   "stat": "2–1",
+   "statLabel": "final score",
+   "headline": "Kansas City Current win the NWSL title over Washington Spirit",
+   "body": [
+    "Kansas City Current beat Washington Spirit 2–1 to win the women's NWSL championship.",
+    "The Spirit lost their third final in a row, in front of a sold-out home crowd.",
+    "Star Trinity Rodman played through a shoulder injury."
+   ],
+   "joke": "Home advantage, not this time.",
+   "vc": "Sold-out women's finals show the league's growing commercial pull.",
+   "url": "https://www.aljazeera.com/sports/2026/11/22/heartbreak-in-us-capital-as-washington-spirit-lose-womens-football-final",
+   "linkLabel": "Al Jazeera",
+   "color": "#a21caf",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Kansas_City_NWSL_2021.jpg/1280px-Kansas_City_NWSL_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Conman33 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Kansas_City_NWSL_2021.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-23-h1",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Bengaluru",
+   "emoji": "❤️",
+   "stat": "100",
+   "statLabel": "beds for heart care",
+   "headline": "Karnataka approves a 100-bed Jayadeva heart centre in west Bengaluru",
+   "body": [
+    "Karnataka's cabinet approved leasing a 100-bed government hospital in Govindarajanagar to Jayadeva.",
+    "It will become a dedicated cardiac care centre for west Bengaluru.",
+    "Patients there now travel nearly an hour to Jayadeva on Bannerghatta Road."
+   ],
+   "joke": "Shorter drive, stronger heart.",
+   "vc": "A satellite centre spreads specialist care across the city.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/karnataka-government-approves-100-bed-jayadeva-cardiac-care-centre-in-bengaluru-183663",
+   "linkLabel": "Medical Dialogues",
+   "color": "#0369a1",
+   "font": "news",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Public_function_at_Sri_Jayadeva_Institute_of_Cardiology_Bangalore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Vinay Ambali / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Public_function_at_Sri_Jayadeva_Institute_of_Cardiology_Bangalore.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-23-h2",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Punjab",
+   "emoji": "🏥",
+   "stat": "258 → 591",
+   "statLabel": "village clinics",
+   "headline": "Punjab to open 333 new village clinics",
+   "body": [
+    "Punjab will open 333 new Pind Clinics, taking the total to 591.",
+    "These village clinics bring basic healthcare closer to home.",
+    "They add to 1,244 Aam Aadmi Clinics in cities."
+   ],
+   "joke": "Doctor, now one village away.",
+   "vc": "Primary care close to home cuts pressure on big hospitals.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/punjab-to-open-333-new-pind-clinics-taking-total-to-591-dr-balbir-singh-183692",
+   "linkLabel": "Medical Dialogues",
+   "color": "#15803d",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-23-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Indore",
+   "emoji": "💉",
+   "stat": "Nov 27",
+   "statLabel": "centre opens",
+   "headline": "Indore's MY Hospital to open a yellow fever vaccine centre",
+   "body": [
+    "Maharaja Yeshwantrao Hospital in Indore will start yellow fever vaccinations from November 27.",
+    "Travellers now have to go to Bhopal for the vaccine.",
+    "MGM Medical College got central approval for the centre."
+   ],
+   "joke": "Passport, ticket, jab: now all local.",
+   "vc": "Local vaccine centres make international travel easier.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/indores-myh-to-open-yellow-fever-vaccination-centre-from-november-27-183700",
+   "linkLabel": "Medical Dialogues",
+   "color": "#115e59",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-23-t1",
+   "section": "hft",
+   "source": "The TRADE",
+   "kicker": "People",
+   "emoji": "💼",
+   "stat": "25+",
+   "statLabel": "years in electronic trading",
+   "headline": "Liquidnet's US algo chief Vinisha Minocha joins TD Securities",
+   "body": [
+    "Vinisha Minocha has joined TD Securities in New York as a director in electronic trading.",
+    "She spent over eight years as Liquidnet's US head of algos coverage.",
+    "She began her career in 1998 in proprietary trading at JP Morgan."
+   ],
+   "joke": "Algos follow the expert.",
+   "vc": "Banks keep competing for electronic trading talent.",
+   "url": "https://www.thetradenews.com/liquidnet-us-head-of-algos-joins-td-securities-in-e-trading-role/",
+   "linkLabel": "The TRADE",
+   "color": "#1e1b4b",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-23-t2",
+   "section": "hft",
+   "source": "The TRADE",
+   "kicker": "Derivatives",
+   "emoji": "📑",
+   "stat": "FX + futures",
+   "statLabel": "what Kepler Centile covers",
+   "headline": "Kepler Cheuvreux and Centile launch a derivatives broker",
+   "body": [
+    "Kepler Cheuvreux and Centile Partners have launched Kepler Centile, a derivatives brokerage.",
+    "It offers agency execution, trade ideas and market insight in listed derivatives and FX.",
+    "Clients can trade futures and options on major global exchanges."
+   ],
+   "joke": "Two brokers, one brand.",
+   "vc": "More independent brokers give funds choice beyond big banks.",
+   "url": "https://www.thetradenews.com/kepler-cheuvreux-and-centile-partners-launch-derivatives-brokerage/",
+   "linkLabel": "The TRADE",
+   "color": "#6d28d9",
+   "font": "finance",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Kepler_Cheuvreux_Office_implantation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "PBricault / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Kepler_Cheuvreux_Office_implantation.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-23-t3",
+   "section": "hft",
+   "source": "The TRADE",
+   "kicker": "Explainer",
+   "emoji": "🎓",
+   "stat": "Agent",
+   "statLabel": "trades for you",
+   "headline": "Explainer: What's the difference between a broker and a prop trader?",
+   "body": [
+    "Imagine asking a friend to buy sweets for you at the shop. They use your money and bring back your sweets.",
+    "That friend is like a broker. Grown-ups call this agency trading.",
+    "A prop trader is different: they buy and sell with their own money, hoping to profit.",
+    "This week, Kepler Centile launched to do agency trading in futures and options for clients.",
+    "Knowing who you deal with matters: a broker works for you; a prop trader works for themselves."
+   ],
+   "joke": "Your errand vs. their bet.",
+   "vc": "Clear roles protect investors.",
+   "url": "https://www.thetradenews.com/kepler-cheuvreux-and-centile-partners-launch-derivatives-brokerage/",
+   "linkLabel": "The TRADE",
+   "color": "#0c4a6e",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-23-r1",
+   "section": "f1",
+   "source": "Al Jazeera",
+   "kicker": "Las Vegas GP",
+   "emoji": "🏆",
+   "stat": "0.639s",
+   "statLabel": "Verstappen's winning margin",
+   "headline": "Verstappen wins a wild Las Vegas GP with 35 lead changes",
+   "body": [
+    "Max Verstappen won the Las Vegas Grand Prix by 0.639 seconds from Lando Norris, with Oscar Piastri third.",
+    "The race had 35 lead changes in 50 laps as cars slipstreamed nose to tail.",
+    "George Russell hit the barriers late and finished ninth."
+   ],
+   "joke": "Vegas: where even the lead changes hands constantly.",
+   "vc": "A thriller like this is gold for F1's US TV audience and sponsors.",
+   "url": "https://www.aljazeera.com/sports/2026/11/22/max-verstappen-las-vegas-grand-prix-f1-norris-piastri-russell-antonelli",
+   "linkLabel": "Al Jazeera",
+   "color": "#dc2626",
+   "font": "impact"
+  }
+ ]
+}

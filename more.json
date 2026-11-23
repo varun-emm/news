@@ -1,129 +1,48 @@
 {
- "date": "2026-11-23",
- "generatedAt": "2026-11-23T03:46:03+05:30",
+ "date": "2026-11-24",
+ "generatedAt": "2026-11-24T03:51:17+05:30",
  "stories": [
   {
-   "id": "2026-11-23-x1",
-   "section": "world",
-   "source": "Al Jazeera",
-   "kicker": "Sudan",
-   "emoji": "🛑",
-   "stat": "4",
-   "statLabel": "people killed",
-   "headline": "RSF drones kill four near Khartoum and hit a UN building",
+   "id": "2026-11-24-x1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "AI",
+   "emoji": "🚢",
+   "stat": "Auto",
+   "statLabel": "approval of routine code",
+   "headline": "Anthropic launches Claude Ship to review, fix and approve code",
    "body": [
-    "Drone attacks blamed on Sudan's RSF killed four people around Khartoum.",
-    "They damaged a UN building, government buildings and the airport.",
-    "Sudanese air defences responded."
+    "Claude Ship is a suite of AI agents that review code changes and fix problems.",
+    "One agent can approve routine changes automatically, based on rules a team sets.",
+    "It targets the review bottleneck as AI writes more code."
    ],
-   "joke": "",
-   "vc": "Attacks on aid sites make humanitarian work harder.",
-   "url": "https://www.aljazeera.com/news/2026/11/22/rsf-drones-kill-four-in-khartoum",
-   "linkLabel": "Al Jazeera",
-   "color": "#78350f",
-   "font": "serious"
+   "joke": "Code review, now on autopilot.",
+   "vc": "Faster code shipping could cut software development costs.",
+   "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+   "linkLabel": "TechCrunch",
+   "color": "#a16207",
+   "font": "tech"
   },
   {
-   "id": "2026-11-23-x2",
-   "section": "world",
-   "source": "Al Jazeera",
-   "kicker": "Israel",
-   "emoji": "🏛️",
-   "stat": "0",
-   "statLabel": "deals reached",
-   "headline": "Netanyahu and Eisenkot end coalition talks without a deal",
+   "id": "2026-11-24-x2",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "Haas",
+   "emoji": "✍️",
+   "stat": "2027",
+   "statLabel": "the season in question",
+   "headline": "Why Oliver Bearman's 2027 Haas deal is still unsigned",
    "body": [
-    "Talks between Netanyahu's Likud and Eisenkot's Yashar on a unity government ended without agreement.",
-    "They are split on who leads and whether Itamar Ben-Gvir joins.",
-    "They met in a Herzliya hotel on Sunday."
+    "Bearman has ruled out racing elsewhere in 2027 and Haas wants to keep him.",
+    "Autosport says talks have stalled over the financial terms with Haas.",
+    "Ferrari has already exercised its option to keep him in its driver programme."
    ],
-   "joke": "Unity government: still neither.",
-   "vc": "Political uncertainty weighs on Israel's markets.",
-   "url": "https://www.aljazeera.com/news/2026/11/22/netanyahus-likud-eisenkots-yashar-end-coalition-talks-without-deal",
-   "linkLabel": "Al Jazeera",
-   "color": "#1e40af",
-   "font": "news",
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Benjamin_Netanyahu_Congress.jpg/1280px-Benjamin_Netanyahu_Congress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Speaker of the house Boehner / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:Benjamin_Netanyahu_Congress.jpg",
-    "license": "Public domain"
-   }
-  },
-  {
-   "id": "2026-11-23-x3",
-   "section": "india",
-   "source": "The Hindu",
-   "kicker": "Diplomacy",
-   "emoji": "🇳🇵",
-   "stat": "1st",
-   "statLabel": "official visit to India",
-   "headline": "Nepal PM Balendra Shah arrives in Delhi for his first official visit",
-   "body": [
-    "Nepal's Prime Minister Balendra Shah arrived in New Delhi on Sunday.",
-    "He will open several projects and hold talks with PM Modi on Monday.",
-    "Officials say the talks will set direction for ties in coming years."
-   ],
-   "joke": "Neighbours, now with an agenda.",
-   "vc": "Closer ties could unlock hydropower and trade deals.",
-   "url": "https://www.thehindu.com/news/national/nepal-pm-balendra-shah-arrives-in-delhi-for-first-official-visit-to-india/article71731829.ece",
-   "linkLabel": "The Hindu",
-   "color": "#b45309",
-   "font": "news"
-  },
-  {
-   "id": "2026-11-23-x4",
-   "section": "india",
-   "source": "The Hindu",
-   "kicker": "Border",
-   "emoji": "🏔️",
-   "stat": "Nov 8",
-   "statLabel": "talks began",
-   "headline": "India and China hold talks to ease Arunachal border tensions",
-   "body": [
-    "India and China held a second round of Corps Commander-level talks on the LAC in Arunachal Pradesh.",
-    "They aim to prevent friction between troops before harsh winter.",
-    "The talks began on November 8."
-   ],
-   "joke": "Talking beats shouting, especially at altitude.",
-   "vc": "Calmer borders support trade and investment ties.",
-   "url": "https://www.thehindu.com/news/national/india-china-hold-10-day-talks-to-ease-loac-tensions-in-arunachal-pradesh/article71731819.ece",
-   "linkLabel": "The Hindu",
-   "color": "#065f46",
-   "font": "news",
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Benjamin_Netanyahu_Congress.jpg/1280px-Benjamin_Netanyahu_Congress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Speaker of the house Boehner / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:Benjamin_Netanyahu_Congress.jpg",
-    "license": "Public domain"
-   }
-  },
-  {
-   "id": "2026-11-23-x5",
-   "section": "india",
-   "source": "The Hindu",
-   "kicker": "Tamil Nadu",
-   "emoji": "🍾",
-   "stat": "₹1,000",
-   "statLabel": "cash limit at Tasmac",
-   "headline": "Tasmac goes digital-only for liquor buys above ₹1,000 in Chennai",
-   "body": [
-    "Tasmac liquor shops in parts of Chennai will take only digital payments for purchases above ₹1,000 from November 23.",
-    "Cash stays an option for smaller buys.",
-    "The rule starts in Chennai and Tiruvallur East."
-   ],
-   "joke": "Cheers, now with UPI.",
-   "vc": "Digital payments improve tracking of the state's liquor revenue.",
-   "url": "https://www.thehindu.com/news/national/tamil-nadu/tasmac-to-go-digital-only-for-liquor-purchases-above-1000/article71732280.ece",
-   "linkLabel": "The Hindu",
-   "color": "#0891b2",
-   "font": "finance",
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/TASMAC_bar.JPG/1280px-TASMAC_bar.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Sodabottle / Wikimedia Commons",
-    "creditUrl": "https://commons.wikimedia.org/wiki/File:TASMAC_bar.JPG",
-    "license": "CC BY-SA 3.0"
-   }
+   "joke": "Contract: agreed in spirit, not in ink.",
+   "vc": "Driver deals are also money deals between teams.",
+   "url": "https://www.autosport.com/f1/news/why-bearmans-expected-2027-haas-f1-deal-remains-unsigned/10877066/",
+   "linkLabel": "Autosport",
+   "color": "#4338ca",
+   "font": "impact"
   }
  ]
 }

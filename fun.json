@@ -1,277 +1,322 @@
 {
- "date": "2026-11-23",
- "generatedAt": "2026-11-23T03:46:03+05:30",
+ "date": "2026-11-24",
+ "generatedAt": "2026-11-24T03:51:17+05:30",
  "items": [
   {
-   "id": "2026-11-23-f1",
+   "id": "2026-11-24-f1",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "👞",
-   "color": "#78350f",
-   "headline": "adidas makes the Handball loafer a moccasin",
-   "caption": "The Handball Loafer Freizeit adds moc touches and chunkier soles.",
+   "emoji": "👟",
+   "color": "#18181b",
+   "headline": "Nike's Air Max Goadome Low Foam goes all black",
+   "caption": "A sneaker-boot with the wavy Foamposite upper.",
    "body": [
-    "Penny loafer up top, sneaker comfort below.",
-    "A bit more business casual.",
-    "How to wear it: with grey flannels and a cardigan."
+    "Low-top Air Max boot meets hoops DNA.",
+    "The stealthy colour makes it easy to wear.",
+    "How to wear it: black cargo trousers and a puffer."
    ],
-   "url": "https://www.highsnobiety.com/p/adidas-handball-loafer-freizeit/",
+   "url": "https://www.highsnobiety.com/p/nike-air-max-goadome-low-foam-black/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795363956-adidas-handball-loafer-freizeit-0.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1795458897-nike-air-max-goadome-low-foam-black-0.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/adidas-handball-loafer-freizeit/",
+    "creditUrl": "https://www.highsnobiety.com/p/nike-air-max-goadome-low-foam-black/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-23-f2",
+   "id": "2026-11-24-f2",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🌴",
-   "color": "#0e7490",
-   "headline": "adidas' icy-blue 'Miami' Samba",
-   "caption": "Palm-tree prints and pink 305 branding, landing right as GTA VI launches.",
+   "emoji": "🤎",
+   "color": "#ca8a04",
+   "headline": "Nike's Sprint Sister lands in suede 'Flax'",
+   "caption": "Tan suede, creamy leather and frilly laces.",
    "body": [
-    "Vice City colours, real-world shoe.",
-    "City-themed Sambas keep coming.",
-    "How to wear it: white tee, light denim."
+    "Highsnobiety calls it the stylish sibling.",
+    "Vintage, velvety and simple.",
+    "How to wear it: with cream chinos."
    ],
-   "url": "https://www.highsnobiety.com/p/adidas-samba-miami/",
+   "url": "https://www.highsnobiety.com/p/nike-sprint-sister-flax/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795364350-adidas-samba-miami-0.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1795459176-nike-sprint-sister-flax-0.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/adidas-samba-miami/",
+    "creditUrl": "https://www.highsnobiety.com/p/nike-sprint-sister-flax/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-23-f3",
+   "id": "2026-11-24-f3",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🔩",
-   "color": "#3f3f46",
-   "headline": "Nati Lopez gives the adidas Superstar a steel toe",
-   "caption": "The LA tattoo artist swaps the shell toe for diamond-plate metal.",
+   "emoji": "🍷",
+   "color": "#9a3412",
+   "headline": "Million Goods' store sells clothes, wine and a good time",
+   "caption": "The new Fort Greene flagship has natural wine downstairs and a garden out back.",
    "body": [
-    "Inspired by her favourite work boots.",
-    "Silver charms add flash.",
-    "How to wear it: with workwear trousers."
+    "Founders Drew Kaufmann and Matt Reyer built a place to hang out.",
+    "A serious sound system too.",
+    "Style lesson: shop where you'd want to stay."
    ],
-   "url": "https://www.highsnobiety.com/p/nati-lopez-adidas-superstar-ii-shoes/",
+   "url": "https://www.highsnobiety.com/p/million-goods-store-interview/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795364709-nati-lopez-adidas-superstar-ii-shoes.jpg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1795467342-million-goods-new-york-store-9.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/nati-lopez-adidas-superstar-ii-shoes/",
+    "creditUrl": "https://www.highsnobiety.com/p/million-goods-store-interview/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-23-f4",
+   "id": "2026-11-24-f4",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🗽",
-   "color": "#7f1d1d",
-   "headline": "Meg Stalter leads Marc Jacobs' New York holiday campaign",
-   "caption": "A cast of New York legends stars in the winter campaign.",
+   "emoji": "🏃",
+   "color": "#1e3a8a",
+   "headline": "Nike revives Gyakusou with Undercover's Jun Takahashi",
+   "caption": "Fashion's most experimental running line is back after five years.",
    "body": [
-    "It leans into the city's chaotic winters.",
-    "Cosy, funny and very New York.",
-    "Style lesson: big coat, bigger personality."
+    "Gyakusou means 'running in reverse'.",
+    "Nike also recently brought back its Nike Mind line.",
+    "How to wear it: running gear as streetwear."
    ],
-   "url": "https://www.highsnobiety.com/p/meg-stalter-leads-a-cast-of-new-york-legends-in-marc-jacobs-holiday-campaign/",
+   "url": "https://www.highsnobiety.com/p/nike-undercover-fashion-new/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1794948479-featuredimage.jpeg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1795201198-header-gyakusou.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/meg-stalter-leads-a-cast-of-new-york-legends-in-marc-jacobs-holiday-campaign/",
+    "creditUrl": "https://www.highsnobiety.com/p/nike-undercover-fashion-new/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-23-f5",
+   "id": "2026-11-24-f5",
    "type": "fashion",
    "source": "GQ UK",
-   "emoji": "🛹",
-   "color": "#1f2937",
-   "headline": "You're about to get really into Vans again",
-   "caption": "People are hunting down pairs and paying above retail.",
+   "emoji": "💧",
+   "color": "#047857",
+   "headline": "Converse Chuck 70s go Gore-Tex for winter",
+   "caption": "Suede uppers that can handle wet pavements.",
    "body": [
-    "Vans used to be the shoe you didn't think about.",
-    "Now new releases are creating real buzz.",
-    "How to wear it: Old Skools with straight jeans."
+    "The waterproof label sits on the heel.",
+    "Converse joins Nike and New Balance in winterising classics.",
+    "How to wear it: with dark denim and a parka."
    ],
-   "url": "https://www.gq-magazine.co.uk/article/vans-hype-22-11-26",
+   "url": "https://www.gq-magazine.co.uk/article/converse-chuck-taylor-70-23-11-26",
    "linkLabel": "GQ UK",
    "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6afdb113b4b264bc7a9d64b4/16:9/w_1280,c_limit/Vans.jpeg",
+    "url": "https://media.gq-magazine.co.uk/photos/6b042012196b6b7932ca9f55/16:9/w_1280,c_limit/088-Converse.jpg",
     "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/vans-hype-22-11-26",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/converse-chuck-taylor-70-23-11-26",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-23-f6",
+   "id": "2026-11-24-f6",
+   "type": "fashion",
+   "source": "GQ UK",
+   "emoji": "🧩",
+   "color": "#44403c",
+   "headline": "New Balance's 992 'Black Turtledove' looks unfinished on purpose",
+   "caption": "Exposed leather edges for the shoe's 20th anniversary.",
+   "body": [
+    "The midsole looks pre-yellowed.",
+    "It shows what's normally hidden.",
+    "How to wear it: with wide black trousers."
+   ],
+   "url": "https://www.gq-magazine.co.uk/article/new-balance-992-made-in-usa-black-turtledove-20-11-26",
+   "linkLabel": "GQ UK",
+   "image": {
+    "url": "https://media.gq-magazine.co.uk/photos/6b0021a57cb9eb4b5b2eef49/16:9/w_1280,c_limit/01_Mode-new-balance-992-black-turtledove-u992lb-release-info-002.png",
+    "credit": "GQ UK",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/new-balance-992-made-in-usa-black-turtledove-20-11-26",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-24-f7",
+   "type": "fashion",
+   "source": "GQ UK",
+   "emoji": "🥾",
+   "color": "#78350f",
+   "headline": "Timberland's 6-Inch boot gets fancy",
+   "caption": "Woven leather and waterproof suede versions of the 1976 classic.",
+   "body": [
+    "Built for New England workers, adopted by hip-hop.",
+    "Now made for good jeans.",
+    "How to wear it: with selvedge denim."
+   ],
+   "url": "https://www.gq-magazine.co.uk/article/timberlands-new-6-inch-boots-have-a-taste-for-the-finer-things",
+   "linkLabel": "GQ UK",
+   "image": {
+    "url": "https://media.gq-magazine.co.uk/photos/6b0038de3aa462a1343a3f4a/16:9/w_1280,c_limit/Timberland.gif",
+    "credit": "GQ UK",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/timberlands-new-6-inch-boots-have-a-taste-for-the-finer-things",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-24-f8",
    "type": "fashion",
    "source": "GQ",
    "emoji": "🧥",
-   "color": "#a16207",
-   "headline": "How Celine's Michael Rider took over menswear",
-   "caption": "GQ's Men of the Year pick turned Celine into the brand everyone discusses.",
+   "color": "#075985",
+   "headline": "Timothée Chalamet starts puffer season",
+   "caption": "Winter outerwear courtside at MSG on a 68°F day.",
    "body": [
-    "His Paris show was a party.",
-    "Preppy '80s energy is back.",
-    "Style lesson: relaxed prep, good knitwear."
+    "His bench includes North Face, Supreme and Thug Club puffers.",
+    "Plus Visvim, Red Wing and Timberland boots.",
+    "Style lesson: big puffer, sturdy boots."
    ],
-   "url": "https://www.gq.com/story/michael-rider-men-of-the-year-2026",
+   "url": "https://www.gq.com/story/timothee-chalamet-puffer-boots-knicks-courtside-11-23-2026",
    "linkLabel": "GQ",
    "image": {
-    "url": "https://media.gq.com/photos/6ae8b90757885bff413a2ee9/16:9/w_1280,c_limit/Michael-Rider-WM-Web-1.jpg",
+    "url": "https://media.gq.com/photos/6b04ad2d7caa32c455ecf22a/16:9/w_1280,c_limit/2305955101",
     "credit": "GQ",
-    "creditUrl": "https://www.gq.com/story/michael-rider-men-of-the-year-2026",
+    "creditUrl": "https://www.gq.com/story/timothee-chalamet-puffer-boots-knicks-courtside-11-23-2026",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-23-f7",
+   "id": "2026-11-24-f9",
    "type": "fashion",
-   "source": "Esquire UK",
-   "emoji": "🎬",
-   "color": "#334155",
-   "headline": "Tom Hardy's most stylish characters, ranked",
-   "caption": "From Inception's sharp con man to RocknRolla's getaway driver.",
+   "source": "GQ",
+   "emoji": "⚾",
+   "color": "#be123c",
+   "headline": "Shohei Ohtani signs a career-long New Balance deal",
+   "caption": "The Dodgers star commits to the brand until he retires.",
    "body": [
-    "His characters are red flags in great clothes.",
-    "Esquire ranks the best looks.",
-    "Style lesson: a great overcoat covers a multitude of sins."
+    "He's a four-time MVP with two World Series rings.",
+    "The deal runs to the end of his playing career.",
+    "Style lesson: loyalty to what fits."
    ],
-   "url": "https://www.esquire.com/uk/style/fashion/a74312766/tom-hardy-most-stylish-characters/",
-   "linkLabel": "Esquire UK",
+   "url": "https://www.gq.com/story/exclusive-shohei-ohtani-new-balance-career-deal-11-19-2026",
+   "linkLabel": "GQ",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/a5dc03e9-d953-4124-b2ef-6aedafbca131.jpg?crop=0.806xw:0.294xh;0.0288xw,0.0491xh&resize=1200:*",
-    "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74312766/tom-hardy-most-stylish-characters/",
+    "url": "https://media.gq.com/photos/6aff522024c21bf5be97b3e0/16:9/w_1280,c_limit/SO_3.jpg",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/exclusive-shohei-ohtani-new-balance-career-deal-11-19-2026",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-23-f8",
-   "type": "fashion",
-   "source": "Esquire UK",
-   "emoji": "📖",
-   "color": "#365314",
-   "headline": "Esquire's Big Watch Book 2026 is out",
-   "caption": "From Rolex's 70-year-old Day-Date to watches in space.",
-   "body": [
-    "Skiing with Swatch in Japan is inside too.",
-    "The year's best watches in one place.",
-    "Style lesson: one good watch beats many."
-   ],
-   "url": "https://www.esquire.com/uk/watches/a74478002/esquires-big-watch-book-2026/",
-   "linkLabel": "Esquire UK",
-   "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/4c653309-86dd-4536-88c3-6c4febfa0379.jpeg?crop=1.00xw:0.401xh;0,0.205xh&resize=1200:*",
-    "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/watches/a74478002/esquires-big-watch-book-2026/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-23-f9",
+   "id": "2026-11-24-f10",
    "type": "fashion",
    "source": "Esquire",
-   "emoji": "🐑",
-   "color": "#57534e",
-   "headline": "Shearling jackets top Esquire editors' week",
-   "caption": "Three of 13 favourite launches were shearling jackets.",
+   "emoji": "🕶️",
+   "color": "#9f1239",
+   "headline": "A pink-gold Reverso fit for Pattinson's Bond",
+   "caption": "Jaeger-LeCoultre unveils it a week after he was named 007.",
    "body": [
-    "Including Fortela's grizzly jacket reproduction.",
-    "Plus luxury carry-ons.",
-    "How to wear it: shearling over a hoodie and jeans."
+    "He's a JLC ambassador.",
+    "'I definitely like really thin watches,' he says.",
+    "Style lesson: thin watch, sharp cuff."
    ],
-   "url": "https://www.esquire.com/style/mens-fashion/a74482215/best-of-the-week-november-20-2026/",
+   "url": "https://www.esquire.com/style/mens-accessories/a74510821/robert-pattinson-james-bond-jaeger-lecoultre/",
    "linkLabel": "Esquire",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/a8abb8c0-9464-445c-89df-e33d5f3b9d18.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
+    "url": "https://hips.hearstapps.com/hmg-prod/images/74bebdf6-0244-4b0a-bb03-c004a3cfea0d.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
     "credit": "Esquire",
-    "creditUrl": "https://www.esquire.com/style/mens-fashion/a74482215/best-of-the-week-november-20-2026/",
+    "creditUrl": "https://www.esquire.com/style/mens-accessories/a74510821/robert-pattinson-james-bond-jaeger-lecoultre/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-23-f10",
+   "id": "2026-11-24-f11",
    "type": "fashion",
-   "source": "Hodinkee",
-   "emoji": "🏀",
-   "color": "#0c4a6e",
-   "headline": "Kevin Love's collection, from vintage Rolex to F.P. Journe",
-   "caption": "The NBA champion's watch taste changed when he won a title.",
+   "source": "Esquire",
+   "emoji": "🎮",
+   "color": "#4c1d95",
+   "headline": "The watches of GTA 6 and their real-life twins",
+   "caption": "From Rolex Day-Dates to Casio digitals in Vice City.",
    "body": [
-    "Hodinkee's Talking Watches series.",
-    "Milestone watches mean most.",
-    "Style lesson: buy to mark your wins."
+    "Esquire matches the game's watches to real ones.",
+    "A guide for gamers who like watches.",
+    "Style lesson: a Casio is always cool."
    ],
-   "url": "https://www.hodinkee.com/articles/talking-watches-kevin-love",
-   "linkLabel": "Hodinkee",
+   "url": "https://www.esquire.com/style/mens-accessories/a74493603/grand-theft-auto-6-watches/",
+   "linkLabel": "Esquire",
    "image": {
-    "url": "https://hodinkee.imgix.net/uploads/articles/c34e0df4-b92f-48bc-8f43-76a4cf2c2bea/kevin-love-header.jpg?ixlib=rails-1.1.0&fm=jpg&q=55&auto=format&usm=12&w=1200&h=630&fit=crop",
-    "credit": "Hodinkee",
-    "creditUrl": "https://www.hodinkee.com/articles/talking-watches-kevin-love",
+    "url": "https://hips.hearstapps.com/hmg-prod/images/a3867912-00ca-44c4-a94d-48945c425c48.png?crop=1xw:0.5xh;center,top&resize=1200:*",
+    "credit": "Esquire",
+    "creditUrl": "https://www.esquire.com/style/mens-accessories/a74493603/grand-theft-auto-6-watches/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-23-f11",
+   "id": "2026-11-24-f12",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🎨",
-   "color": "#9d174d",
-   "headline": "The world's first museum inside a children's hospital opens",
-   "caption": "A dying boy's wish for a place to play during chemo came true.",
+   "emoji": "🦭",
+   "color": "#155e75",
+   "headline": "A refuge for 200,000 walruses is protected forever",
+   "caption": "Barrier islands off Point Lay, Alaska, are now in a 47,000-acre protected area.",
    "body": [
-    "The 'Imaginarium' opened at Children's Hospital New Orleans.",
-    "His family's foundation raised the money."
+    "They hold North America's largest Pacific walrus gatherings.",
+    "The Interior Alaska Land Trust holds the land."
    ],
-   "url": "https://www.goodnewsnetwork.org/the-first-museum-built-in-a-childrens-hospital-fulfills-dying-boys-wish/",
+   "url": "https://www.goodnewsnetwork.org/one-of-a-kind-refuge-to-200000-walrus-protected-forever-in-alaska/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Music-dance-stage-display-in-kids-museum-Walkers-Imaginarium-released-by-Manning-Family-Childrens.jpeg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Walruses-concentrate-at-Point-Lay-Alaska-public-domain-NOAA-e1795423753131.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/the-first-museum-built-in-a-childrens-hospital-fulfills-dying-boys-wish/",
+    "creditUrl": "https://www.goodnewsnetwork.org/one-of-a-kind-refuge-to-200000-walrus-protected-forever-in-alaska/",
     "preview": true
    },
    "embed": true
   },
   {
-   "id": "2026-11-23-f12",
+   "id": "2026-11-24-f13",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "💊",
-   "color": "#166534",
-   "headline": "A drug may actually cure hormone-driven high blood pressure",
-   "caption": "Baxdrostat reversed the condition, even years after patients stopped taking it.",
+   "emoji": "🌵",
+   "color": "#b45309",
+   "headline": "Volunteer finds a lost toddler in the Arizona desert",
+   "caption": "Two-year-old Vella Campillo wandered off near Eloy at sundown.",
    "body": [
-    "It is FDA-approved.",
-    "Doctors were stunned by the study."
+    "Grandfather Jay Stewart found her in the cold night.",
+    "'She may not be our child, but she could be,' he said."
    ],
-   "url": "https://www.goodnewsnetwork.org/drug-may-actually-cure-high-blood-pressure-caused-by-hormones/",
+   "url": "https://www.goodnewsnetwork.org/determined-volunteer-rescues-lost-toddler-in-the-desert-she-may-not-be-our-child-but-she-could-be/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Doctor-takes-blood-pressure-by-Vitaly-Gariev-NDOYHZ_98Rw-unsplash.jpeg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Pinal-County-Sheriffs-Office.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/drug-may-actually-cure-high-blood-pressure-caused-by-hormones/",
+    "creditUrl": "https://www.goodnewsnetwork.org/determined-volunteer-rescues-lost-toddler-in-the-desert-she-may-not-be-our-child-but-she-could-be/",
+    "preview": true
+   },
+   "embed": true
+  },
+  {
+   "id": "2026-11-24-f14",
+   "type": "good",
+   "source": "Good News Network",
+   "emoji": "🚪",
+   "color": "#166534",
+   "headline": "He waits at the prison gates so no one walks out alone",
+   "caption": "Freddie Nole and his wife Sue meet people leaving prison.",
+   "body": [
+    "A short film rides along with him for a day.",
+    "'Believe me, it never gets old,' he says."
+   ],
+   "url": "https://www.goodnewsnetwork.org/freddie-nole-waits-at-the-prison-gates-so-no-one-walks-out-alone/",
+   "linkLabel": "GNN",
+   "image": {
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-Second-life-of-Freddie-Nole_Press-Image-1.jpg",
+    "credit": "Good News Network",
+    "creditUrl": "https://www.goodnewsnetwork.org/freddie-nole-waits-at-the-prison-gates-so-no-one-walks-out-alone/",
     "preview": true
    },
    "embed": true
