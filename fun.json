@@ -1,322 +1,275 @@
 {
- "date": "2026-11-24",
- "generatedAt": "2026-11-24T03:51:17+05:30",
+ "date": "2026-11-25",
+ "generatedAt": "2026-11-25T03:48:41+05:30",
  "items": [
   {
-   "id": "2026-11-24-f1",
+   "id": "2026-11-25-fw1",
    "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "👟",
-   "color": "#18181b",
-   "headline": "Nike's Air Max Goadome Low Foam goes all black",
-   "caption": "A sneaker-boot with the wavy Foamposite upper.",
+   "source": "Dazed",
+   "emoji": "🧢",
+   "color": "#7c2d12",
+   "headline": "Does a skull cap actually make you hotter?",
+   "caption": "TikTok's new before-and-after trend is men in beanies.",
    "body": [
-    "Low-top Air Max boot meets hoops DNA.",
-    "The stealthy colour makes it easy to wear.",
-    "How to wear it: black cargo trousers and a puffer."
+    "Dazed compares it to 2015's 'Don't Judge' challenge.",
+    "The tight cap frames the face.",
+    "How to wear it: a snug knit beanie, ears covered."
    ],
-   "url": "https://www.highsnobiety.com/p/nike-air-max-goadome-low-foam-black/",
-   "linkLabel": "Highsnobiety",
+   "url": "https://www.dazeddigital.com/fashion/article/71398/1/skull-cap-actually-make-you-hotter-tik-tok-trend-menswear",
+   "linkLabel": "Dazed",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795458897-nike-air-max-goadome-low-foam-black-0.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/nike-air-max-goadome-low-foam-black/",
+    "url": "https://images-prod.dazeddigital.com/1200/azure/dazed-prod/1460/0/1460042.jpg",
+    "credit": "Dazed",
+    "creditUrl": "https://www.dazeddigital.com/fashion/article/71398/1/skull-cap-actually-make-you-hotter-tik-tok-trend-menswear",
     "preview": true
    },
-   "embed": false
+   "embed": true
   },
   {
-   "id": "2026-11-24-f2",
+   "id": "2026-11-25-fw2",
    "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "🤎",
-   "color": "#ca8a04",
-   "headline": "Nike's Sprint Sister lands in suede 'Flax'",
-   "caption": "Tan suede, creamy leather and frilly laces.",
-   "body": [
-    "Highsnobiety calls it the stylish sibling.",
-    "Vintage, velvety and simple.",
-    "How to wear it: with cream chinos."
-   ],
-   "url": "https://www.highsnobiety.com/p/nike-sprint-sister-flax/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795459176-nike-sprint-sister-flax-0.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/nike-sprint-sister-flax/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-24-f3",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "🍷",
-   "color": "#9a3412",
-   "headline": "Million Goods' store sells clothes, wine and a good time",
-   "caption": "The new Fort Greene flagship has natural wine downstairs and a garden out back.",
-   "body": [
-    "Founders Drew Kaufmann and Matt Reyer built a place to hang out.",
-    "A serious sound system too.",
-    "Style lesson: shop where you'd want to stay."
-   ],
-   "url": "https://www.highsnobiety.com/p/million-goods-store-interview/",
-   "linkLabel": "Highsnobiety",
-   "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795467342-million-goods-new-york-store-9.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/million-goods-store-interview/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-24-f4",
-   "type": "fashion",
-   "source": "Highsnobiety",
-   "emoji": "🏃",
+   "source": "Vogue",
+   "emoji": "💎",
    "color": "#1e3a8a",
-   "headline": "Nike revives Gyakusou with Undercover's Jun Takahashi",
-   "caption": "Fashion's most experimental running line is back after five years.",
+   "headline": "The best jewellery on Vogue's Best Dressed list",
+   "caption": "Margot Robbie borrowed Elizabeth Taylor's Taj Mahal diamond.",
    "body": [
-    "Gyakusou means 'running in reverse'.",
-    "Nike also recently brought back its Nike Mind line.",
-    "How to wear it: running gear as streetwear."
+    "Céline Dion recreated her 1997 Oscars Chanel necklace.",
+    "Colman Domingo is on the list too.",
+    "Style lesson: jewellery with a story."
    ],
-   "url": "https://www.highsnobiety.com/p/nike-undercover-fashion-new/",
-   "linkLabel": "Highsnobiety",
+   "url": "https://www.vogue.com/article/jewelry-highlights-from-the-vogue-2026-best-dressed-list",
+   "linkLabel": "Vogue",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795201198-header-gyakusou.jpg",
-    "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/nike-undercover-fashion-new/",
+    "url": "https://assets.vogue.com/photos/6afb6a22c24504cad9817cce/16:9/w_1280,c_limit/Jewelry_16x9.jpg",
+    "credit": "Vogue",
+    "creditUrl": "https://www.vogue.com/article/jewelry-highlights-from-the-vogue-2026-best-dressed-list",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-24-f5",
+   "id": "2026-11-25-fw3",
+   "type": "fashion",
+   "source": "Esquire UK",
+   "emoji": "🖤",
+   "color": "#581c87",
+   "headline": "Jack O'Connell wore all-black McQueen to the Governors Awards",
+   "caption": "Ultra-wide lapels and polished Jermyn brogues.",
+   "body": [
+    "The suit came from McQueen's SS27 pre-collection.",
+    "He stars in 'Sinners'.",
+    "Style lesson: all-black, sharp lapels."
+   ],
+   "url": "https://www.esquire.com/uk/style/fashion/a74490310/jack-oconnell-godzilla-sinners-mcqueen/",
+   "linkLabel": "Esquire UK",
+   "image": {
+    "url": "https://hips.hearstapps.com/hmg-prod/images/d439860f-4145-42dd-a486-e014d282e864.jpg?crop=1.00xw:0.752xh;0,0.0577xh&resize=1200:*",
+    "credit": "Esquire UK",
+    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74490310/jack-oconnell-godzilla-sinners-mcqueen/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-25-fw4",
    "type": "fashion",
    "source": "GQ UK",
-   "emoji": "💧",
-   "color": "#047857",
-   "headline": "Converse Chuck 70s go Gore-Tex for winter",
-   "caption": "Suede uppers that can handle wet pavements.",
-   "body": [
-    "The waterproof label sits on the heel.",
-    "Converse joins Nike and New Balance in winterising classics.",
-    "How to wear it: with dark denim and a parka."
-   ],
-   "url": "https://www.gq-magazine.co.uk/article/converse-chuck-taylor-70-23-11-26",
-   "linkLabel": "GQ UK",
-   "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6b042012196b6b7932ca9f55/16:9/w_1280,c_limit/088-Converse.jpg",
-    "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/converse-chuck-taylor-70-23-11-26",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-24-f6",
-   "type": "fashion",
-   "source": "GQ UK",
-   "emoji": "🧩",
-   "color": "#44403c",
-   "headline": "New Balance's 992 'Black Turtledove' looks unfinished on purpose",
-   "caption": "Exposed leather edges for the shoe's 20th anniversary.",
-   "body": [
-    "The midsole looks pre-yellowed.",
-    "It shows what's normally hidden.",
-    "How to wear it: with wide black trousers."
-   ],
-   "url": "https://www.gq-magazine.co.uk/article/new-balance-992-made-in-usa-black-turtledove-20-11-26",
-   "linkLabel": "GQ UK",
-   "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6b0021a57cb9eb4b5b2eef49/16:9/w_1280,c_limit/01_Mode-new-balance-992-black-turtledove-u992lb-release-info-002.png",
-    "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/new-balance-992-made-in-usa-black-turtledove-20-11-26",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-24-f7",
-   "type": "fashion",
-   "source": "GQ UK",
-   "emoji": "🥾",
-   "color": "#78350f",
-   "headline": "Timberland's 6-Inch boot gets fancy",
-   "caption": "Woven leather and waterproof suede versions of the 1976 classic.",
-   "body": [
-    "Built for New England workers, adopted by hip-hop.",
-    "Now made for good jeans.",
-    "How to wear it: with selvedge denim."
-   ],
-   "url": "https://www.gq-magazine.co.uk/article/timberlands-new-6-inch-boots-have-a-taste-for-the-finer-things",
-   "linkLabel": "GQ UK",
-   "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6b0038de3aa462a1343a3f4a/16:9/w_1280,c_limit/Timberland.gif",
-    "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/timberlands-new-6-inch-boots-have-a-taste-for-the-finer-things",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-24-f8",
-   "type": "fashion",
-   "source": "GQ",
-   "emoji": "🧥",
-   "color": "#075985",
-   "headline": "Timothée Chalamet starts puffer season",
-   "caption": "Winter outerwear courtside at MSG on a 68°F day.",
-   "body": [
-    "His bench includes North Face, Supreme and Thug Club puffers.",
-    "Plus Visvim, Red Wing and Timberland boots.",
-    "Style lesson: big puffer, sturdy boots."
-   ],
-   "url": "https://www.gq.com/story/timothee-chalamet-puffer-boots-knicks-courtside-11-23-2026",
-   "linkLabel": "GQ",
-   "image": {
-    "url": "https://media.gq.com/photos/6b04ad2d7caa32c455ecf22a/16:9/w_1280,c_limit/2305955101",
-    "credit": "GQ",
-    "creditUrl": "https://www.gq.com/story/timothee-chalamet-puffer-boots-knicks-courtside-11-23-2026",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-24-f9",
-   "type": "fashion",
-   "source": "GQ",
-   "emoji": "⚾",
-   "color": "#be123c",
-   "headline": "Shohei Ohtani signs a career-long New Balance deal",
-   "caption": "The Dodgers star commits to the brand until he retires.",
-   "body": [
-    "He's a four-time MVP with two World Series rings.",
-    "The deal runs to the end of his playing career.",
-    "Style lesson: loyalty to what fits."
-   ],
-   "url": "https://www.gq.com/story/exclusive-shohei-ohtani-new-balance-career-deal-11-19-2026",
-   "linkLabel": "GQ",
-   "image": {
-    "url": "https://media.gq.com/photos/6aff522024c21bf5be97b3e0/16:9/w_1280,c_limit/SO_3.jpg",
-    "credit": "GQ",
-    "creditUrl": "https://www.gq.com/story/exclusive-shohei-ohtani-new-balance-career-deal-11-19-2026",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-24-f10",
-   "type": "fashion",
-   "source": "Esquire",
-   "emoji": "🕶️",
+   "emoji": "🌊",
    "color": "#9f1239",
-   "headline": "A pink-gold Reverso fit for Pattinson's Bond",
-   "caption": "Jaeger-LeCoultre unveils it a week after he was named 007.",
+   "headline": "Is Joseph Zada following Jeremy Allen-White's lead again?",
+   "caption": "From curls and backward caps to something more chic.",
    "body": [
-    "He's a JLC ambassador.",
-    "'I definitely like really thin watches,' he says.",
-    "Style lesson: thin watch, sharp cuff."
+    "The 21-year-old stars with Florence Pugh in 'East of Eden'.",
+    "He's in the next Hunger Games film too.",
+    "Style lesson: grow up your look slowly."
    ],
-   "url": "https://www.esquire.com/style/mens-accessories/a74510821/robert-pattinson-james-bond-jaeger-lecoultre/",
-   "linkLabel": "Esquire",
+   "url": "https://www.gq-magazine.co.uk/article/joseph-zada-louis-vuitton-watch-19-11-2026",
+   "linkLabel": "GQ UK",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/74bebdf6-0244-4b0a-bb03-c004a3cfea0d.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
-    "credit": "Esquire",
-    "creditUrl": "https://www.esquire.com/style/mens-accessories/a74510821/robert-pattinson-james-bond-jaeger-lecoultre/",
+    "url": "https://media.gq-magazine.co.uk/photos/6afc76e32cb1d7a4264eb198/16:9/w_1280,c_limit/067-LV-watch.jpg",
+    "credit": "GQ UK",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/joseph-zada-louis-vuitton-watch-19-11-2026",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-24-f11",
+   "id": "2026-11-25-fw5",
+   "type": "fashion",
+   "source": "Vogue",
+   "emoji": "🤠",
+   "color": "#0f766e",
+   "headline": "The Nudie suit is everywhere again",
+   "caption": "Polly Parsons wore a modern take at the Rock & Roll Hall of Fame.",
+   "body": [
+    "Nudie Cohn made famous rhinestone Western suits.",
+    "Vogue shows how to get the look.",
+    "Style lesson: one embroidered jacket is enough."
+   ],
+   "url": "https://www.vogue.com/article/polly-parsons-nudie-suit-style",
+   "linkLabel": "Vogue",
+   "image": {
+    "url": "https://assets.vogue.com/photos/6afcb60d7bb239e20a72004a/16:9/w_1280,c_limit/GettyImages-85238318.jpg",
+    "credit": "Vogue",
+    "creditUrl": "https://www.vogue.com/article/polly-parsons-nudie-suit-style",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-25-fw6",
+   "type": "fashion",
+   "source": "GQ",
+   "emoji": "👟",
+   "color": "#78350f",
+   "headline": "An Air Jordan 1 for Japanese denim lovers",
+   "caption": "Social Status covered it in sashiko stitching.",
+   "body": [
+    "The North Carolina boutique has worked with Nike for years.",
+    "Its last proper Jordan collab was in 2019.",
+    "How to wear it: with raw selvedge jeans."
+   ],
+   "url": "https://www.gq.com/story/social-status-air-jordan-1-low-sashiko-11-17-2026",
+   "linkLabel": "GQ",
+   "image": {
+    "url": "https://media.gq.com/photos/6afc698b5ef96f2d813f5c90/16:9/w_1280,c_limit/Header%20GQ.jpeg",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/social-status-air-jordan-1-low-sashiko-11-17-2026",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-25-fw7",
+   "type": "fashion",
+   "source": "WWD",
+   "emoji": "🏔️",
+   "color": "#334155",
+   "headline": "Stefano Ricci takes Fall 2027 to Bhutan",
+   "caption": "The tenth chapter of its 'SR Explorer' series.",
+   "body": [
+    "The team visited the Tiger's Nest monastery.",
+    "The brand supports Himalayan communities.",
+    "Style lesson: travel can inspire a wardrobe."
+   ],
+   "url": "https://wwd.com/menswear-news/mens-designer-luxury/stefano-ricci-fall-2027-collection-explores-bhutan-1239418782/",
+   "linkLabel": "WWD",
+   "image": {
+    "url": "https://wwd.com/wp-content/uploads/2026/11/LOOK_03_CheleLaPass_4-Steve-McCurry-for-Stefano-Ricci-1.jpg?w=1000&h=563&crop=1",
+    "credit": "WWD",
+    "creditUrl": "https://wwd.com/menswear-news/mens-designer-luxury/stefano-ricci-fall-2027-collection-explores-bhutan-1239418782/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-25-fw8",
    "type": "fashion",
    "source": "Esquire",
-   "emoji": "🎮",
-   "color": "#4c1d95",
-   "headline": "The watches of GTA 6 and their real-life twins",
-   "caption": "From Rolex Day-Dates to Casio digitals in Vice City.",
+   "emoji": "🏎️",
+   "color": "#14532d",
+   "headline": "Inside Louis Vuitton's Dolomites vintage car rally",
+   "caption": "An Esquire writer drove nearly century-old cars through the Alps, and won.",
    "body": [
-    "Esquire matches the game's watches to real ones.",
-    "A guide for gamers who like watches.",
-    "Style lesson: a Casio is always cool."
+    "Some teams navigate with a hundred-page road book.",
+    "The cars stay on the road, not under glass.",
+    "Style lesson: driving gloves and a good jacket."
    ],
-   "url": "https://www.esquire.com/style/mens-accessories/a74493603/grand-theft-auto-6-watches/",
+   "url": "https://www.esquire.com/style/mens-fashion/a74416598/louis-vuitton-dolomites-classic-run-vintage-car-rally/",
    "linkLabel": "Esquire",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/a3867912-00ca-44c4-a94d-48945c425c48.png?crop=1xw:0.5xh;center,top&resize=1200:*",
+    "url": "https://hips.hearstapps.com/hmg-prod/images/3228c888-98f0-4caa-95d1-10536d8f0602.jpg?crop=0.954xw:0.776xh;0.046xw,0.224xh&resize=1200:*",
     "credit": "Esquire",
-    "creditUrl": "https://www.esquire.com/style/mens-accessories/a74493603/grand-theft-auto-6-watches/",
+    "creditUrl": "https://www.esquire.com/style/mens-fashion/a74416598/louis-vuitton-dolomites-classic-run-vintage-car-rally/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-24-f12",
+   "id": "2026-11-25-f1",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🦭",
-   "color": "#155e75",
-   "headline": "A refuge for 200,000 walruses is protected forever",
-   "caption": "Barrier islands off Point Lay, Alaska, are now in a 47,000-acre protected area.",
-   "body": [
-    "They hold North America's largest Pacific walrus gatherings.",
-    "The Interior Alaska Land Trust holds the land."
-   ],
-   "url": "https://www.goodnewsnetwork.org/one-of-a-kind-refuge-to-200000-walrus-protected-forever-in-alaska/",
-   "linkLabel": "GNN",
-   "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Walruses-concentrate-at-Point-Lay-Alaska-public-domain-NOAA-e1795423753131.jpg",
-    "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/one-of-a-kind-refuge-to-200000-walrus-protected-forever-in-alaska/",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-11-24-f13",
-   "type": "good",
-   "source": "Good News Network",
-   "emoji": "🌵",
-   "color": "#b45309",
-   "headline": "Volunteer finds a lost toddler in the Arizona desert",
-   "caption": "Two-year-old Vella Campillo wandered off near Eloy at sundown.",
-   "body": [
-    "Grandfather Jay Stewart found her in the cold night.",
-    "'She may not be our child, but she could be,' he said."
-   ],
-   "url": "https://www.goodnewsnetwork.org/determined-volunteer-rescues-lost-toddler-in-the-desert-she-may-not-be-our-child-but-she-could-be/",
-   "linkLabel": "GNN",
-   "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Pinal-County-Sheriffs-Office.jpg",
-    "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/determined-volunteer-rescues-lost-toddler-in-the-desert-she-may-not-be-our-child-but-she-could-be/",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-11-24-f14",
-   "type": "good",
-   "source": "Good News Network",
-   "emoji": "🚪",
+   "emoji": "🦟",
    "color": "#166534",
-   "headline": "He waits at the prison gates so no one walks out alone",
-   "caption": "Freddie Nole and his wife Sue meet people leaving prison.",
+   "headline": "Dengue-blocking mosquitoes cut infections 68% in Brazil",
+   "caption": "Releasing Wolbachia mosquitoes protected schoolchildren in Belo Horizonte.",
    "body": [
-    "A short film rides along with him for a day.",
-    "'Believe me, it never gets old,' he says."
+    "Wolbachia bacteria stop mosquitoes spreading dengue, Zika and chikungunya.",
+    "It worked even during Brazil's biggest dengue outbreak."
    ],
-   "url": "https://www.goodnewsnetwork.org/freddie-nole-waits-at-the-prison-gates-so-no-one-walks-out-alone/",
+   "url": "https://www.goodnewsnetwork.org/major-success-sees-viral-infections-fall-68-in-brazil-after-releasing-wolbachia-infected-mosquitoes/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-Second-life-of-Freddie-Nole_Press-Image-1.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2015/07/mosquito-Aedes_Albopictus-publicdomain.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/freddie-nole-waits-at-the-prison-gates-so-no-one-walks-out-alone/",
+    "creditUrl": "https://www.goodnewsnetwork.org/major-success-sees-viral-infections-fall-68-in-brazil-after-releasing-wolbachia-infected-mosquitoes/",
+    "preview": true
+   },
+   "embed": true
+  },
+  {
+   "id": "2026-11-25-f2",
+   "type": "good",
+   "source": "Good News Network",
+   "emoji": "🥥",
+   "color": "#065f46",
+   "headline": "A school takes coconuts instead of tuition fees",
+   "caption": "Faith Christian Academy on Micronesia's Yap Island accepts coconuts as fees.",
+   "body": [
+    "Families can pay with what they grow.",
+    "The coconuts help revive the island's coconut oil industry."
+   ],
+   "url": "https://www.goodnewsnetwork.org/charity-swaps-tuition-fees-for-coconuts-so-every-islander-can-afford-school/",
+   "linkLabel": "GNN",
+   "image": {
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/FCA-students-Shaya-Lani-and-Joyleen-with-coconuts.jpg",
+    "credit": "Good News Network",
+    "creditUrl": "https://www.goodnewsnetwork.org/charity-swaps-tuition-fees-for-coconuts-so-every-islander-can-afford-school/",
+    "preview": true
+   },
+   "embed": true
+  },
+  {
+   "id": "2026-11-25-f3",
+   "type": "good",
+   "source": "Good News Network",
+   "emoji": "🎸",
+   "color": "#7c3aed",
+   "headline": "Retired teacher turns old guitars into bird feeders",
+   "caption": "Rob Burke's 'Frets and Feathers Cafe' on Prince Edward Island.",
+   "body": [
+    "People donated six guitars, a violin and drum parts.",
+    "He had to fix the perches when heavier blue jays arrived."
+   ],
+   "url": "https://www.goodnewsnetwork.org/retired-teacher-turns-retired-musical-instruments-into-bird-feeders-look/",
+   "linkLabel": "GNN",
+   "image": {
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Credit-Rob-Burke-retrieved-from-Facebook.jpg",
+    "credit": "Good News Network",
+    "creditUrl": "https://www.goodnewsnetwork.org/retired-teacher-turns-retired-musical-instruments-into-bird-feeders-look/",
+    "preview": true
+   },
+   "embed": true
+  },
+  {
+   "id": "2026-11-25-f4",
+   "type": "good",
+   "source": "Good News Network",
+   "emoji": "✉️",
+   "color": "#1e40af",
+   "headline": "A son is finding the 33 kids who wrote to his wounded dad in 1967",
+   "caption": "Their letters helped a Navy corpsman wounded in Vietnam.",
+   "body": [
+    "Dave Jacobson wants to thank each of them, almost 60 years later.",
+    "'It made a difference,' he says."
+   ],
+   "url": "https://www.goodnewsnetwork.org/dave-jacobson-letters-from-gloucester-project/",
+   "linkLabel": "GNN",
+   "image": {
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Screenshot-2026-11-19-124524.png",
+    "credit": "Good News Network",
+    "creditUrl": "https://www.goodnewsnetwork.org/dave-jacobson-letters-from-gloucester-project/",
     "preview": true
    },
    "embed": true

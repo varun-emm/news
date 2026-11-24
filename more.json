@@ -1,48 +1,117 @@
 {
- "date": "2026-11-24",
- "generatedAt": "2026-11-24T03:51:17+05:30",
+ "date": "2026-11-25",
+ "generatedAt": "2026-11-25T03:48:41+05:30",
  "stories": [
   {
-   "id": "2026-11-24-x1",
+   "id": "2026-11-25-x1",
    "section": "money",
    "source": "TechCrunch",
-   "kicker": "AI",
-   "emoji": "🚢",
-   "stat": "Auto",
-   "statLabel": "approval of routine code",
-   "headline": "Anthropic launches Claude Ship to review, fix and approve code",
+   "kicker": "Nvidia",
+   "emoji": "🗣️",
+   "stat": "'I hurt all of you'",
+   "statLabel": "Huang to staff",
+   "headline": "Jensen Huang tells Nvidia staff he's in therapy and thanks the White House",
    "body": [
-    "Claude Ship is a suite of AI agents that review code changes and fix problems.",
-    "One agent can approve routine changes automatically, based on rules a team sets.",
-    "It targets the review bottleneck as AI writes more code."
+    "Huang held Nvidia's first all-hands since his reinstatement on Tuesday.",
+    "He apologised and admitted he broke the code of conduct he helped write, CNBC reported.",
+    "He thanked the White House for his second chance."
    ],
-   "joke": "Code review, now on autopilot.",
-   "vc": "Faster code shipping could cut software development costs.",
-   "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+   "joke": "Hardest meeting ever: second place.",
+   "vc": "Staff trust matters for keeping top engineers.",
+   "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
    "linkLabel": "TechCrunch",
    "color": "#a16207",
    "font": "tech"
   },
   {
-   "id": "2026-11-24-x2",
-   "section": "f1",
-   "source": "Autosport",
-   "kicker": "Haas",
-   "emoji": "✍️",
-   "stat": "2027",
-   "statLabel": "the season in question",
-   "headline": "Why Oliver Bearman's 2027 Haas deal is still unsigned",
+   "id": "2026-11-25-x2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Music",
+   "emoji": "🎵",
+   "stat": "29M+",
+   "statLabel": "AI songs to be removed",
+   "headline": "Tidal will ban and delete fully AI-generated songs",
    "body": [
-    "Bearman has ruled out racing elsewhere in 2027 and Haas wants to keep him.",
-    "Autosport says talks have stalled over the financial terms with Haas.",
-    "Ferrari has already exercised its option to keep him in its driver programme."
+    "Tidal says more than 43% of uploads in the last 90 days were AI-generated.",
+    "It will start removing fully AI-made music on December 9, deleting over 29 million songs by year-end.",
+    "Songs made with AI help are still allowed."
    ],
-   "joke": "Contract: agreed in spirit, not in ink.",
-   "vc": "Driver deals are also money deals between teams.",
-   "url": "https://www.autosport.com/f1/news/why-bearmans-expected-2027-haas-f1-deal-remains-unsigned/10877066/",
-   "linkLabel": "Autosport",
-   "color": "#4338ca",
-   "font": "impact"
+   "joke": "Robots, please leave the stage.",
+   "vc": "Cutting AI spam protects payouts for human artists.",
+   "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+   "linkLabel": "TechCrunch",
+   "color": "#4c1d95",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-25-x3",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Logistics",
+   "emoji": "📦",
+   "stat": "₹23.3 Cr",
+   "statLabel": "deal value",
+   "headline": "Shadowfax buys Borzo's India unit for same-city deliveries",
+   "body": [
+    "Shadowfax bought the Indian arm of Borzo, formerly WeFast, for ₹23.3 crore.",
+    "It gets Shadowfax into on-demand deliveries within cities for small businesses and individuals.",
+    "Borzo has over 32,000 delivery partners in five-plus cities."
+   ],
+   "joke": "Same city, same day, new owner.",
+   "vc": "Logistics firms are racing to own fast local delivery.",
+   "url": "https://inc42.com/buzz/shadowfax-to-acquire-wefast-to-expand-into-intra-city-deliveries/",
+   "linkLabel": "Inc42",
+   "color": "#0e7490",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-25-x4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Robotaxis",
+   "emoji": "🚙",
+   "stat": "Q1 2027",
+   "statLabel": "planned launch",
+   "headline": "Uber and Nuro start driverless tests of Lucid robotaxis",
+   "body": [
+    "Uber and Nuro are testing driverless Lucid Gravity SUVs in the San Francisco Bay Area.",
+    "Employees will soon get rides, ahead of a public launch in early 2027.",
+    "Uber agreed to buy at least 20,000 Lucid Gravity SUVs over six years."
+   ],
+   "joke": "Look, no hands, and no driver.",
+   "vc": "A big fleet order gives struggling Lucid steadier revenue.",
+   "url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
+   "linkLabel": "TechCrunch",
+   "color": "#334155",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Lucid_Gravity%2C_GIMS_2024%2C_Le_Grand-Saconnex_%28GIMS0054-3-RR%29.jpg/1280px-Lucid_Gravity%2C_GIMS_2024%2C_Le_Grand-Saconnex_%28GIMS0054-3-RR%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Matti Blume / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Lucid_Gravity,_GIMS_2024,_Le_Grand-Saconnex_(GIMS0054-3-RR).jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-25-x5",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Autos",
+   "emoji": "🚗",
+   "stat": "₹8,000",
+   "statLabel": "max Hyundai price rise",
+   "headline": "Tata, Hyundai and Audi raise car prices from December",
+   "body": [
+    "Tata Motors will raise prices by an average of 0.5% from December 1.",
+    "Hyundai will raise some models by up to ₹8,000.",
+    "Both cite rising input and commodity costs."
+   ],
+   "joke": "December: the month cars get pricier and resolutions get cheaper.",
+   "vc": "Price hikes may pull some purchases forward into November.",
+   "url": "https://www.thehindu.com/business/Industry/rising-input-costs-drive-tata-motors-hyundai-audi-and-maruti-to-raise-vehicle-prices/article71738772.ece",
+   "linkLabel": "The Hindu",
+   "color": "#065f46",
+   "font": "finance"
   }
  ]
 }

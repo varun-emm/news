@@ -1,0 +1,515 @@
+{
+ "date": "2026-11-24",
+ "generatedAt": "2026-11-24T03:51:17+05:30",
+ "stories": [
+  {
+   "id": "2026-11-24-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Baltics",
+   "emoji": "⚠️",
+   "stat": "Summoned",
+   "statLabel": "Estonia's envoy in Moscow",
+   "headline": "Russia warns 'hostile' Estonia is on the verge of open war",
+   "body": [
+    "Russia's foreign ministry says Estonia's actions are 'on the verge of triggering open war'.",
+    "It summoned Estonia's envoy after Tallinn announced it would close its border with Russia.",
+    "Moscow also says Estonia let Ukrainian drones use its airspace; Estonia denies it."
+   ],
+   "joke": "",
+   "vc": "Baltic tension adds risk for shipping and European markets.",
+   "url": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war",
+   "linkLabel": "Al Jazeera",
+   "color": "#7f1d1d",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Border_posts_of_Estonia_%28foreground%29_and_Russia_%28background%29_in_Narva-J%C3%B5esuu_%282024_August%29.jpg/1280px-Border_posts_of_Estonia_%28foreground%29_and_Russia_%28background%29_in_Narva-J%C3%B5esuu_%282024_August%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Sillerkiil / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Border_posts_of_Estonia_(foreground)_and_Russia_(background)_in_Narva-J%C3%B5esuu_(2024_August).jpg",
+    "license": "CC0"
+   }
+  },
+  {
+   "id": "2026-11-24-w2",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Iran",
+   "emoji": "🏦",
+   "stat": "24+",
+   "statLabel": "exchange houses and firms sanctioned",
+   "headline": "US sanctions Iran's 'shadow banking' networks",
+   "body": [
+    "The US Treasury sanctioned more than two dozen Iranian exchange houses, front companies and staff.",
+    "It says they move billions of dollars to get Iran foreign currency despite sanctions.",
+    "Treasury Secretary Scott Bessent called the system 'the last financial lifeline' of the regime."
+   ],
+   "joke": "",
+   "vc": "Tighter money routes squeeze Iran's oil and petrochemical trade.",
+   "url": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks",
+   "linkLabel": "Al Jazeera",
+   "color": "#1f2937",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-24-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Bangladesh",
+   "emoji": "🧵",
+   "stat": "32,000 taka",
+   "statLabel": "workers' monthly wage demand",
+   "headline": "Bangladesh garment workers reject employers' pay offer",
+   "body": [
+    "Worker representatives rejected factory owners' minimum-wage offer at Monday's wage board talks.",
+    "The board says the offer is above 14,500 taka ($116) a month; workers want 32,000 taka ($258).",
+    "The industry earns about $38bn a year and employs around four million people."
+   ],
+   "joke": "",
+   "vc": "Higher wages or long strikes could raise clothing costs for global brands.",
+   "url": "https://www.aljazeera.com/news/2026/11/23/protesting-bangladesh-garment-workers-reject-pay-offer",
+   "linkLabel": "Al Jazeera",
+   "color": "#92400e",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-24-i1",
+   "section": "india",
+   "source": "Kotak Neo",
+   "kicker": "Markets",
+   "emoji": "📉",
+   "stat": "−1,484",
+   "statLabel": "Sensex points lost",
+   "headline": "Sensex falls 1,484 points as bank stocks drag markets",
+   "body": [
+    "The Sensex fell 1.77% to 82,435.99 and the Nifty fell 1.75% to 25,349.65.",
+    "Bank Nifty dropped 3.17% and metal stocks fell 3.68%.",
+    "IT stocks bucked the trend, rising 1.69%."
+   ],
+   "joke": "Banks had a bad day; coders had a good one.",
+   "vc": "A sharp fall hits mutual fund and PF portfolios across India.",
+   "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-close-lower-as-banking-stocks-weigh-on-markets/",
+   "linkLabel": "Kotak Neo",
+   "color": "#b91c1c",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-24-i2",
+   "section": "india",
+   "source": "Inc42",
+   "kicker": "Payments",
+   "emoji": "🛑",
+   "stat": "Dec 14",
+   "statLabel": "feedback deadline",
+   "headline": "RBI proposes a 'Stop Switch' to freeze payments during fraud",
+   "body": [
+    "The RBI wants banks to offer a 'Stop Switch' that instantly disables all outgoing debits, new mandates and new UPI registrations.",
+    "Incoming money and existing standing instructions would keep working.",
+    "A 'Trusted Person' would add an extra check on big transfers. The rules would start July 1, 2027."
+   ],
+   "joke": "Finally, a panic button for your bank account.",
+   "vc": "Faster fraud controls could cut losses from digital payment scams.",
+   "url": "https://inc42.com/buzz/rbi-proposes-stop-switch-to-block-digital-payment-frauds/",
+   "linkLabel": "Inc42",
+   "color": "#1d4ed8",
+   "font": "finance",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Reserve_bank_of_India_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Soham Banerjee / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Reserve_bank_of_India_Headquarters.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-24-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Bengaluru",
+   "emoji": "🚇",
+   "stat": "310M",
+   "statLabel": "journeys in FY26",
+   "headline": "Namma Metro ridership up 12%, fare revenue up 49%",
+   "body": [
+    "Bengaluru's Namma Metro carried 310.49 million passenger journeys in 2025–26, up 12.29%.",
+    "Average daily ridership rose to 8.51 lakh, with a record 10.82 lakh on August 14, 2025.",
+    "Fare revenue jumped 49% to ₹1,125.58 crore."
+   ],
+   "joke": "Silk Board traffic: the metro's best salesman.",
+   "vc": "Rising fares and ridership help, but the metro still faces big finance costs.",
+   "url": "https://www.thehindu.com/news/national/karnataka/bengaluru-namma-metro-records-1229-growth-in-ridership-fare-revenue-jumps-49-to-1125-crore/article71733703.ece",
+   "linkLabel": "The Hindu",
+   "color": "#7c2d12",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Emergency_Trip_System%2C_Namma_metro%2C_Bengaluru_%282026%29.jpg/1280px-Emergency_Trip_System%2C_Namma_metro%2C_Bengaluru_%282026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Gpkp / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Emergency_Trip_System,_Namma_metro,_Bengaluru_(2026).jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-24-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Nvidia",
+   "emoji": "🔄",
+   "stat": "<2 weeks",
+   "statLabel": "between exit and return",
+   "headline": "Nvidia brings back Jensen Huang as CEO",
+   "body": [
+    "Nvidia's board reinstated Jensen Huang as CEO and president, less than two weeks after he resigned.",
+    "He had admitted affairs, one with a woman the US government suspects is a Chinese spy.",
+    "The board says it consulted senior US officials before deciding he is no security risk. (Axios Pro Rata had nothing checkable, so this is TechCrunch's report.)"
+   ],
+   "joke": "The shortest CEO search in history.",
+   "vc": "Leadership certainty matters for the world's most valuable chipmaker.",
+   "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+   "linkLabel": "TechCrunch",
+   "color": "#15803d",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Jensen_huang_stanford_2026-04-30_025.jpg/1280px-Jensen_huang_stanford_2026-04-30_025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Anders Eidesvik / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_025.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-24-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "M&A",
+   "emoji": "🛡️",
+   "stat": "$43.9B",
+   "statLabel": "all-stock deal",
+   "headline": "CrowdStrike agrees to buy Zscaler for $43.9 billion",
+   "body": [
+    "Cybersecurity giant CrowdStrike will buy Zscaler in an all-stock deal.",
+    "Zscaler sells cloud 'zero-trust' security to about 8,000 enterprise customers.",
+    "The firms say the deal positions them for the AI era. (No Economist piece was readable, so this is TechCrunch's report.)"
+   ],
+   "joke": "Security, now in a bigger padlock.",
+   "vc": "Consolidation could give big companies fewer, larger security vendors to choose from.",
+   "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+   "linkLabel": "TechCrunch",
+   "color": "#991b1b",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-24-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Funding",
+   "emoji": "🚀",
+   "stat": "$30B",
+   "statLabel": "Sierra's new valuation",
+   "headline": "Bret Taylor's Sierra doubles its valuation to $30 billion",
+   "body": [
+    "Customer-service AI company Sierra raised $1.75 billion in a Series F round.",
+    "The valuation doubled from $15 billion in under six months.",
+    "It says it serves almost half the Fortune 50, including BNY, HSBC and Wells Fargo."
+   ],
+   "joke": "Customer service bots, now worth more than many banks they serve.",
+   "vc": "Investors are betting AI agents will replace large call-centre budgets.",
+   "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+   "linkLabel": "TechCrunch",
+   "color": "#6d28d9",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Bret_Taylor_-_TechCrunch_Real-Time_Stream_Crunchup_-_2009.jpg/1280px-Bret_Taylor_-_TechCrunch_Real-Time_Stream_Crunchup_-_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Brian Solis / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Bret_Taylor_-_TechCrunch_Real-Time_Stream_Crunchup_-_2009.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-24-m4",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Export controls",
+   "emoji": "🚫",
+   "stat": "Entity List",
+   "statLabel": "where Megaspeed is headed",
+   "headline": "Megaspeed, linked to the Nvidia scandal, faces a US blacklist",
+   "body": [
+    "The US Commerce Department will add Megaspeed to its Entity List, Semafor reports.",
+    "Alice Huang, the woman at the centre of the alleged espionage scandal, led the firm for over two years.",
+    "US companies would need a special licence to sell to it. (Stratechery's new post is subscriber-only, so this is TechCrunch's report.)"
+   ],
+   "joke": "",
+   "vc": "Blacklists can cut off chip sales and spook supply chains.",
+   "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+   "linkLabel": "TechCrunch",
+   "color": "#334155",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-24-m5",
+   "section": "money",
+   "source": "Inc42",
+   "kicker": "Block deal",
+   "emoji": "👓",
+   "stat": "₹920.6 Cr",
+   "statLabel": "Lenskart shares sold",
+   "headline": "Steadview Capital sells Lenskart shares worth ₹921 crore",
+   "body": [
+    "Hedge fund Steadview Capital sold 1.27 crore Lenskart shares at ₹725 each.",
+    "Goldman Sachs and Societe Generale bought them.",
+    "Early backers have sold at least ₹8,840 crore of Lenskart shares in three months. (No Unhedged piece was readable, so this is Inc42's report.)"
+   ],
+   "joke": "Early investors see clearly: it's time to cash out.",
+   "vc": "Big institutional buyers stepping in signals confidence in Lenskart.",
+   "url": "https://inc42.com/buzz/steadview-capital-sells-lenskart-shares-worth-%e2%82%b9921-cr/",
+   "linkLabel": "Inc42",
+   "color": "#0e7490",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Lenskart_at_Ashok_Nagar.jpg/1280px-Lenskart_at_Ashok_Nagar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Saishna96 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Lenskart_at_Ashok_Nagar.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-24-v1",
+   "section": "women",
+   "source": "The Hindu",
+   "kicker": "Rajasthan",
+   "emoji": "🎓",
+   "stat": "11",
+   "statLabel": "BRICS countries involved",
+   "headline": "Rajasthan women's university to host a BRICS women's leadership centre",
+   "body": [
+    "Banasthali Vidyapith, a women's university in Tonk, signed an MoU with BRICS nations on Monday.",
+    "The new centre will work on women's education and leadership worldwide.",
+    "It came at the end of a five-day BRICS women leaders' summit on campus."
+   ],
+   "joke": "Tonk to the world.",
+   "vc": "Leadership training can open more senior jobs to women.",
+   "url": "https://www.thehindu.com/news/national/rajasthan/rajasthan-womens-varsity-signs-mou-with-brics-nations-for-global-leadership-centre/article71736242.ece",
+   "linkLabel": "The Hindu",
+   "color": "#be185d",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-24-v2",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "US politics",
+   "emoji": "🗳️",
+   "stat": "2028",
+   "statLabel": "the election in focus",
+   "headline": "The anti-abortion movement faces a reckoning before 2028",
+   "body": [
+    "Overturning Roe v. Wade could now help Democrats win the White House, The 19th reports.",
+    "A national abortion ban is so unpopular that many Republican front-runners avoid backing it.",
+    "Democrats could pass a law protecting abortion rights if they win the presidency and Congress."
+   ],
+   "joke": "",
+   "vc": "Abortion policy affects women's health costs and where they choose to live and work.",
+   "url": "https://19thnews.org/2026/11/anti-abortion-movement-reckoning-2028/",
+   "linkLabel": "The 19th",
+   "color": "#9d174d",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/May_2022_abortion_protest_at_Foley_Square_08.jpg/1280px-May_2022_abortion_protest_at_Foley_Square_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Legoktm / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:May_2022_abortion_protest_at_Foley_Square_08.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-24-v3",
+   "section": "women",
+   "source": "The 19th",
+   "kicker": "Gaming",
+   "emoji": "🎮",
+   "stat": "1st",
+   "statLabel": "GTA game with a required woman lead",
+   "headline": "GTA 6 puts a woman lead at the centre for the first time",
+   "body": [
+    "For the first time in GTA history, a woman protagonist isn't optional.",
+    "Lucia Caminos, a Latina just out of prison, teams up with Jason Duval in a Bonnie-and-Clyde partnership.",
+    "The 19th says the game also explores love and relationships, not just violence."
+   ],
+   "joke": "Vice City finally hired a woman as co-lead.",
+   "vc": "Women leads can widen gaming's audience and sales.",
+   "url": "https://19thnews.org/2026/11/grand-theft-auto-vi-women-gender-relationships/",
+   "linkLabel": "The 19th",
+   "color": "#a21caf",
+   "font": "impact"
+  },
+  {
+   "id": "2026-11-24-h1",
+   "section": "health",
+   "source": "ET HealthWorld",
+   "kicker": "Hospitals",
+   "emoji": "🏥",
+   "stat": "$150M",
+   "statLabel": "possible deal size",
+   "headline": "Aster DM in talks to buy Narayana Health's north India hospitals",
+   "body": [
+    "Aster DM Healthcare is in talks to buy Narayana Hrudayalaya's hospitals in north India for up to $150 million, Bloomberg reports.",
+    "Blackstone owns about 30% of Aster.",
+    "The deal would deepen Aster's push into India."
+   ],
+   "joke": "Hospital chains, swapping wards.",
+   "vc": "Consolidation can change prices and access for patients in north India.",
+   "url": "https://health.economictimes.indiatimes.com/news/hospitals/blackstone-backed-aster-dm-in-talks-to-acquire-rival-hospitals-in-deeper-india-push/136015710",
+   "linkLabel": "ET HealthWorld",
+   "color": "#0369a1",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-24-h2",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Odisha",
+   "emoji": "🔥",
+   "stat": "1,500+",
+   "statLabel": "burn patients treated in 10 years",
+   "headline": "AIIMS Bhubaneswar becomes India's third national burn-care training centre",
+   "body": [
+    "AIIMS Bhubaneswar's burns and plastic surgery department will train doctors in burn injury care for the whole country.",
+    "The health ministry approved it under the national trauma and burns programme.",
+    "The department, now 10 years old, has treated over 1,500 burn patients."
+   ],
+   "joke": "Training the people who heal the worst injuries.",
+   "vc": "More trained burn specialists means better survival after fires and accidents.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/aiims-bhubaneswar-named-indias-third-national-training-centre-for-burn-care-183785",
+   "linkLabel": "Medical Dialogues",
+   "color": "#c2410c",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/AIIMS_Bhubaneswar_04.jpg/1280px-AIIMS_Bhubaneswar_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Krupasindhu Muduli / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:AIIMS_Bhubaneswar_04.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-24-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Karnataka",
+   "emoji": "💊",
+   "stat": "3 in 4",
+   "statLabel": "bacteria samples resistant to ceftriaxone",
+   "headline": "Karnataka plans antibiotic audits in hospitals to fight superbugs",
+   "body": [
+    "Karnataka's 2026–2030 plan against antimicrobial resistance proposes prescription audits in hospitals.",
+    "It also wants stricter curbs on over-the-counter antibiotic sales.",
+    "Nearly three in four Gram-negative bacteria samples resisted ceftriaxone, a common antibiotic."
+   ],
+   "joke": "Antibiotics: not sweets, please.",
+   "vc": "Resistant infections make hospital stays longer and costlier.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/karnataka-unveils-five-year-action-plan-to-combat-antimicrobial-resistance-183721",
+   "linkLabel": "Medical Dialogues",
+   "color": "#115e59",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Generic_amoxicillin-clavulanic_acid_tablets_with_875mg_amoxicillin.jpg/1280px-Generic_amoxicillin-clavulanic_acid_tablets_with_875mg_amoxicillin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Sage Ross / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Generic_amoxicillin-clavulanic_acid_tablets_with_875mg_amoxicillin.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-24-t1",
+   "section": "hft",
+   "source": "The TRADE",
+   "kicker": "Data",
+   "emoji": "📊",
+   "stat": "25,000+",
+   "statLabel": "event outcomes covered",
+   "headline": "LSEG Workspace adds Kalshi prediction-market data",
+   "body": [
+    "Kalshi has put its prediction-market data into LSEG Workspace.",
+    "Users get real-time prices and probabilities for more than 25,000 event outcomes.",
+    "Categories include elections, politics, economics and financials."
+   ],
+   "joke": "The trading screen now has a crystal ball.",
+   "vc": "Institutional interest in prediction markets is growing fast.",
+   "url": "https://www.thetradenews.com/lseg-workspace-integrates-core-kalshi-prediction-markets-data/",
+   "linkLabel": "The TRADE",
+   "color": "#1e1b4b",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Paternoster_Square.jpg/1280px-Paternoster_Square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "gren / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Paternoster_Square.jpg",
+    "license": "Public domain"
+   }
+  },
+  {
+   "id": "2026-11-24-t2",
+   "section": "hft",
+   "source": "TechCrunch",
+   "kicker": "AI trading",
+   "emoji": "🤖",
+   "stat": "$20M",
+   "statLabel": "seed round",
+   "headline": "Supertake raises $20M for AI agents that turn market 'takes' into portfolios",
+   "body": [
+    "Supertake lets people turn their market ideas into real investment portfolios using AI trading agents.",
+    "Its $20 million seed round was led by Adjacent.",
+    "Coinbase Ventures and Union Square Ventures also invested."
+   ],
+   "joke": "Hot takes, now with a brokerage account.",
+   "vc": "Automated agents could bring algorithmic trading to everyday investors.",
+   "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+   "linkLabel": "TechCrunch",
+   "color": "#0f766e",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-24-t3",
+   "section": "hft",
+   "source": "The TRADE",
+   "kicker": "Explainer",
+   "emoji": "🎓",
+   "stat": "70¢",
+   "statLabel": "= about a 70% chance",
+   "headline": "Explainer: What is a prediction market?",
+   "body": [
+    "Imagine your class trades cards that pay one sweet if it rains tomorrow, and nothing if it doesn't.",
+    "If a card sells for 70% of a sweet, the class thinks rain is about 70% likely.",
+    "That's a prediction market: the price works like a guess of how likely something is.",
+    "Kalshi runs markets like this on real events, like elections and the economy.",
+    "This week, LSEG put Kalshi's live prices on its screens for big investors."
+   ],
+   "joke": "Price = guess.",
+   "vc": "Odds help traders see what crowds expect.",
+   "url": "https://www.thetradenews.com/lseg-workspace-integrates-core-kalshi-prediction-markets-data/",
+   "linkLabel": "The TRADE",
+   "color": "#0c4a6e",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-24-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "Endurance",
+   "emoji": "🏁",
+   "stat": "Jan 28–31",
+   "statLabel": "2027 Daytona 24 Hours",
+   "headline": "Verstappen is looking into racing the 2027 Daytona 24 Hours",
+   "body": [
+    "Max Verstappen visited Daytona before the Las Vegas GP to film with Red Bull.",
+    "He says a 2027 entry is being looked into: 'That's definitely one that I want to do.'",
+    "He would race a GT3 car, in the GTD Pro class, during F1's winter break."
+   ],
+   "joke": "Max's idea of a winter holiday: 24 hours of racing.",
+   "vc": "A star F1 entry would be a big draw for US sportscar racing.",
+   "url": "https://www.autosport.com/f1/news/max-verstappen-reveals-he-is-considering-2027-daytona-24-hours-entry/10877159/",
+   "linkLabel": "Autosport",
+   "color": "#dc2626",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Daytona-International-Speedway-June-30-2005-Night.jpg/1280px-Daytona-International-Speedway-June-30-2005-Night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Jake N. / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Daytona-International-Speedway-June-30-2005-Night.jpg",
+    "license": "CC BY 2.0"
+   }
+  }
+ ]
+}

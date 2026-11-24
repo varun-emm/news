@@ -5,7 +5,7 @@
  "items": [
   {
    "day": "2026-11-25",
-   "id": "2026-11-25-w1",
+   "id": "2026-11-25-fw1",
    "type": "fashion",
    "category": "grooming",
    "source": "Dazed",
@@ -30,7 +30,7 @@
   },
   {
    "day": "2026-11-25",
-   "id": "2026-11-25-w2",
+   "id": "2026-11-25-fw2",
    "type": "fashion",
    "category": "accessory",
    "source": "Vogue",
@@ -55,32 +55,7 @@
   },
   {
    "day": "2026-11-25",
-   "id": "2026-11-25-w3",
-   "type": "fashion",
-   "category": "watch",
-   "source": "GQ UK",
-   "emoji": "🎩",
-   "color": "#14532d",
-   "headline": "What even is a dress watch?",
-   "caption": "GQ UK says the old rules shouldn't decide what you wear.",
-   "body": [
-    "A writer's £1,595 Raymond Weil was mistaken for a Patek.",
-    "Slim cases and quiet dials are the classic look.",
-    "Style lesson: wear what you love with black tie."
-   ],
-   "url": "https://www.gq-magazine.co.uk/article/dress-watches-new-rolex-padellone-22-11-2026",
-   "linkLabel": "GQ UK",
-   "published": "2026-11-22",
-   "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6b006368c38f212636163690/16:9/w_1280,c_limit/Timesheet_header.jpg",
-    "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/dress-watches-new-rolex-padellone-22-11-2026",
-    "preview": true
-   }
-  },
-  {
-   "day": "2026-11-25",
-   "id": "2026-11-25-w4",
+   "id": "2026-11-25-fw3",
    "type": "fashion",
    "category": "celebrity",
    "source": "Esquire UK",
@@ -105,7 +80,7 @@
   },
   {
    "day": "2026-11-25",
-   "id": "2026-11-25-w5",
+   "id": "2026-11-25-fw4",
    "type": "fashion",
    "category": "celebrity",
    "source": "GQ UK",
@@ -130,7 +105,7 @@
   },
   {
    "day": "2026-11-25",
-   "id": "2026-11-25-w6",
+   "id": "2026-11-25-fw5",
    "type": "fashion",
    "category": "clothing",
    "source": "Vogue",
@@ -155,7 +130,7 @@
   },
   {
    "day": "2026-11-25",
-   "id": "2026-11-25-w7",
+   "id": "2026-11-25-fw6",
    "type": "fashion",
    "category": "footwear",
    "source": "GQ",
@@ -180,7 +155,7 @@
   },
   {
    "day": "2026-11-25",
-   "id": "2026-11-25-w8",
+   "id": "2026-11-25-fw7",
    "type": "fashion",
    "category": "brand",
    "source": "WWD",
@@ -204,8 +179,8 @@
    }
   },
   {
-   "day": "2026-11-26",
-   "id": "2026-11-26-w1",
+   "day": "2026-11-25",
+   "id": "2026-11-25-fw8",
    "type": "fashion",
    "category": "culture",
    "source": "Esquire",
@@ -230,7 +205,32 @@
   },
   {
    "day": "2026-11-26",
-   "id": "2026-11-26-w2",
+   "id": "2026-11-26-fw1",
+   "type": "fashion",
+   "category": "watch",
+   "source": "GQ UK",
+   "emoji": "🎩",
+   "color": "#14532d",
+   "headline": "What even is a dress watch?",
+   "caption": "GQ UK says the old rules shouldn't decide what you wear.",
+   "body": [
+    "A writer's £1,595 Raymond Weil was mistaken for a Patek.",
+    "Slim cases and quiet dials are the classic look.",
+    "Style lesson: wear what you love with black tie."
+   ],
+   "url": "https://www.gq-magazine.co.uk/article/dress-watches-new-rolex-padellone-22-11-2026",
+   "linkLabel": "GQ UK",
+   "published": "2026-11-22",
+   "image": {
+    "url": "https://media.gq-magazine.co.uk/photos/6b006368c38f212636163690/16:9/w_1280,c_limit/Timesheet_header.jpg",
+    "credit": "GQ UK",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/dress-watches-new-rolex-padellone-22-11-2026",
+    "preview": true
+   }
+  },
+  {
+   "day": "2026-11-26",
+   "id": "2026-11-26-fw2",
    "type": "fashion",
    "category": "celebrity",
    "source": "Vogue",
@@ -255,7 +255,7 @@
   },
   {
    "day": "2026-11-26",
-   "id": "2026-11-26-w3",
+   "id": "2026-11-26-fw3",
    "type": "fashion",
    "category": "accessory",
    "source": "Vogue",
@@ -280,7 +280,7 @@
   },
   {
    "day": "2026-11-26",
-   "id": "2026-11-26-w4",
+   "id": "2026-11-26-fw4",
    "type": "fashion",
    "category": "culture",
    "source": "Highsnobiety",
@@ -305,7 +305,7 @@
   },
   {
    "day": "2026-11-26",
-   "id": "2026-11-26-w5",
+   "id": "2026-11-26-fw5",
    "type": "fashion",
    "category": "watch",
    "source": "Robb Report",
@@ -330,7 +330,7 @@
   },
   {
    "day": "2026-11-26",
-   "id": "2026-11-26-w6",
+   "id": "2026-11-26-fw6",
    "type": "fashion",
    "category": "clothing",
    "source": "Esquire",
@@ -355,7 +355,7 @@
   },
   {
    "day": "2026-11-26",
-   "id": "2026-11-26-w7",
+   "id": "2026-11-26-fw7",
    "type": "fashion",
    "category": "accessory",
    "source": "GQ",
@@ -380,32 +380,7 @@
   },
   {
    "day": "2026-11-27",
-   "id": "2026-11-27-w1",
-   "type": "fashion",
-   "category": "celebrity",
-   "source": "GQ",
-   "emoji": "🪑",
-   "color": "#7c2d12",
-   "headline": "The real-life wardrobe of Michael Bennett",
-   "caption": "The Super Bowl champion traded the NFL for furniture design.",
-   "body": [
-    "He studied architecture and interior design after retiring.",
-    "He calls NFL tunnel style 'terrible'.",
-    "Style lesson: dress for your next chapter."
-   ],
-   "url": "https://www.gq.com/story/real-life-wardrobe-michael-bennett",
-   "linkLabel": "GQ",
-   "published": "2026-11-23",
-   "image": {
-    "url": "https://media.gq.com/photos/6b04aa8f7caa32c455ecf224/16:9/w_1280,c_limit/RLW-Social%20Template.jpg",
-    "credit": "GQ",
-    "creditUrl": "https://www.gq.com/story/real-life-wardrobe-michael-bennett",
-    "preview": true
-   }
-  },
-  {
-   "day": "2026-11-27",
-   "id": "2026-11-27-w2",
+   "id": "2026-11-27-fw1",
    "type": "fashion",
    "category": "celebrity",
    "source": "Vogue",
@@ -430,7 +405,7 @@
   },
   {
    "day": "2026-11-27",
-   "id": "2026-11-27-w3",
+   "id": "2026-11-27-fw2",
    "type": "fashion",
    "category": "watch",
    "source": "GQ UK",
@@ -455,7 +430,7 @@
   },
   {
    "day": "2026-11-27",
-   "id": "2026-11-27-w4",
+   "id": "2026-11-27-fw3",
    "type": "fashion",
    "category": "culture",
    "source": "Highsnobiety",
@@ -480,7 +455,7 @@
   },
   {
    "day": "2026-11-27",
-   "id": "2026-11-27-w5",
+   "id": "2026-11-27-fw4",
    "type": "fashion",
    "category": "watch",
    "source": "Robb Report",
@@ -505,7 +480,7 @@
   },
   {
    "day": "2026-11-27",
-   "id": "2026-11-27-w6",
+   "id": "2026-11-27-fw5",
    "type": "fashion",
    "category": "footwear",
    "source": "GQ",
@@ -530,7 +505,7 @@
   },
   {
    "day": "2026-11-27",
-   "id": "2026-11-27-w7",
+   "id": "2026-11-27-fw6",
    "type": "fashion",
    "category": "brand",
    "source": "Dazed",
@@ -554,8 +529,33 @@
    }
   },
   {
+   "day": "2026-11-27",
+   "id": "2026-11-27-fw7",
+   "type": "fashion",
+   "category": "celebrity",
+   "source": "Robb Report",
+   "emoji": "💍",
+   "color": "#7c2d12",
+   "headline": "Miley Cyrus and Maxx Morando married in matching Saint Laurent",
+   "caption": "They wed in Palm Springs on Saturday.",
+   "body": [
+    "Both wore Saint Laurent by Anthony Vaccarello.",
+    "Cyrus also wore Chopard jewellery.",
+    "Style lesson: matching, but not identical."
+   ],
+   "url": "https://robbreport.com/style/fashion/miley-cyrus-maxx-morando-wedding-saint-laurent-chopard-1238858377/",
+   "linkLabel": "Robb Report",
+   "published": "2026-11-23",
+   "image": {
+    "url": "https://robbreport.com/wp-content/uploads/2026/11/miley-cyrus-maxx-morando-wedding-2.jpg?w=681&h=383&crop=1",
+    "credit": "Robb Report",
+    "creditUrl": "https://robbreport.com/style/fashion/miley-cyrus-maxx-morando-wedding-saint-laurent-chopard-1238858377/",
+    "preview": true
+   }
+  },
+  {
    "day": "2026-11-28",
-   "id": "2026-11-28-w1",
+   "id": "2026-11-28-fw1",
    "type": "fashion",
    "category": "watch",
    "source": "GQ UK",
@@ -580,7 +580,7 @@
   },
   {
    "day": "2026-11-28",
-   "id": "2026-11-28-w2",
+   "id": "2026-11-28-fw2",
    "type": "fashion",
    "category": "celebrity",
    "source": "Vogue",
@@ -605,7 +605,7 @@
   },
   {
    "day": "2026-11-28",
-   "id": "2026-11-28-w3",
+   "id": "2026-11-28-fw3",
    "type": "fashion",
    "category": "celebrity",
    "source": "Vogue",
@@ -630,7 +630,7 @@
   },
   {
    "day": "2026-11-28",
-   "id": "2026-11-28-w4",
+   "id": "2026-11-28-fw4",
    "type": "fashion",
    "category": "watch",
    "source": "Robb Report",
@@ -655,7 +655,7 @@
   },
   {
    "day": "2026-11-28",
-   "id": "2026-11-28-w5",
+   "id": "2026-11-28-fw5",
    "type": "fashion",
    "category": "accessory",
    "source": "Dazed",
@@ -680,7 +680,7 @@
   },
   {
    "day": "2026-11-28",
-   "id": "2026-11-28-w6",
+   "id": "2026-11-28-fw6",
    "type": "fashion",
    "category": "brand",
    "source": "WWD",
@@ -705,7 +705,7 @@
   },
   {
    "day": "2026-11-28",
-   "id": "2026-11-28-w7",
+   "id": "2026-11-28-fw7",
    "type": "fashion",
    "category": "culture",
    "source": "GQ",
@@ -730,7 +730,7 @@
   },
   {
    "day": "2026-11-29",
-   "id": "2026-11-29-w1",
+   "id": "2026-11-29-fw1",
    "type": "fashion",
    "category": "clothing",
    "source": "Highsnobiety",
@@ -755,7 +755,7 @@
   },
   {
    "day": "2026-11-29",
-   "id": "2026-11-29-w2",
+   "id": "2026-11-29-fw2",
    "type": "fashion",
    "category": "brand",
    "source": "WWD",
@@ -780,7 +780,7 @@
   },
   {
    "day": "2026-11-29",
-   "id": "2026-11-29-w3",
+   "id": "2026-11-29-fw3",
    "type": "fashion",
    "category": "brand",
    "source": "Dazed",
@@ -805,7 +805,7 @@
   },
   {
    "day": "2026-11-29",
-   "id": "2026-11-29-w4",
+   "id": "2026-11-29-fw4",
    "type": "fashion",
    "category": "culture",
    "source": "Dazed",
@@ -830,7 +830,7 @@
   },
   {
    "day": "2026-11-29",
-   "id": "2026-11-29-w5",
+   "id": "2026-11-29-fw5",
    "type": "fashion",
    "category": "culture",
    "source": "Vogue",
@@ -855,7 +855,7 @@
   },
   {
    "day": "2026-11-29",
-   "id": "2026-11-29-w6",
+   "id": "2026-11-29-fw6",
    "type": "fashion",
    "category": "celebrity",
    "source": "GQ",
@@ -880,7 +880,7 @@
   },
   {
    "day": "2026-11-29",
-   "id": "2026-11-29-w7",
+   "id": "2026-11-29-fw7",
    "type": "fashion",
    "category": "watch",
    "source": "GQ UK",
@@ -905,32 +905,32 @@
   },
   {
    "day": "2026-11-30",
-   "id": "2026-11-30-w1",
+   "id": "2026-11-30-fw1",
    "type": "fashion",
    "category": "celebrity",
-   "source": "Robb Report",
-   "emoji": "💍",
+   "source": "GQ",
+   "emoji": "🪑",
    "color": "#7c2d12",
-   "headline": "Miley Cyrus and Maxx Morando married in matching Saint Laurent",
-   "caption": "They wed in Palm Springs on Saturday.",
+   "headline": "The real-life wardrobe of Michael Bennett",
+   "caption": "The Super Bowl champion traded the NFL for furniture design.",
    "body": [
-    "Both wore Saint Laurent by Anthony Vaccarello.",
-    "Cyrus also wore Chopard jewellery.",
-    "Style lesson: matching, but not identical."
+    "He studied architecture and interior design after retiring.",
+    "He calls NFL tunnel style 'terrible'.",
+    "Style lesson: dress for your next chapter."
    ],
-   "url": "https://robbreport.com/style/fashion/miley-cyrus-maxx-morando-wedding-saint-laurent-chopard-1238858377/",
-   "linkLabel": "Robb Report",
+   "url": "https://www.gq.com/story/real-life-wardrobe-michael-bennett",
+   "linkLabel": "GQ",
    "published": "2026-11-23",
    "image": {
-    "url": "https://robbreport.com/wp-content/uploads/2026/11/miley-cyrus-maxx-morando-wedding-2.jpg?w=681&h=383&crop=1",
-    "credit": "Robb Report",
-    "creditUrl": "https://robbreport.com/style/fashion/miley-cyrus-maxx-morando-wedding-saint-laurent-chopard-1238858377/",
+    "url": "https://media.gq.com/photos/6b04aa8f7caa32c455ecf224/16:9/w_1280,c_limit/RLW-Social%20Template.jpg",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/real-life-wardrobe-michael-bennett",
     "preview": true
    }
   },
   {
    "day": "2026-11-30",
-   "id": "2026-11-30-w2",
+   "id": "2026-11-30-fw2",
    "type": "fashion",
    "category": "brand",
    "source": "WWD",
@@ -955,7 +955,7 @@
   },
   {
    "day": "2026-11-30",
-   "id": "2026-11-30-w3",
+   "id": "2026-11-30-fw3",
    "type": "fashion",
    "category": "accessory",
    "source": "Esquire",
@@ -980,7 +980,7 @@
   },
   {
    "day": "2026-11-30",
-   "id": "2026-11-30-w4",
+   "id": "2026-11-30-fw4",
    "type": "fashion",
    "category": "watch",
    "source": "Esquire",
@@ -1005,7 +1005,7 @@
   },
   {
    "day": "2026-11-30",
-   "id": "2026-11-30-w5",
+   "id": "2026-11-30-fw5",
    "type": "fashion",
    "category": "footwear",
    "source": "Vogue",
@@ -1030,7 +1030,7 @@
   },
   {
    "day": "2026-11-30",
-   "id": "2026-11-30-w6",
+   "id": "2026-11-30-fw6",
    "type": "fashion",
    "category": "brand",
    "source": "Dazed",
@@ -1055,7 +1055,7 @@
   },
   {
    "day": "2026-11-30",
-   "id": "2026-11-30-w7",
+   "id": "2026-11-30-fw7",
    "type": "fashion",
    "category": "watch",
    "source": "GQ UK",
@@ -1080,7 +1080,7 @@
   },
   {
    "day": "2026-12-01",
-   "id": "2026-12-01-w1",
+   "id": "2026-12-01-fw1",
    "type": "fashion",
    "category": "celebrity",
    "source": "Vogue",
@@ -1105,7 +1105,7 @@
   },
   {
    "day": "2026-12-01",
-   "id": "2026-12-01-w2",
+   "id": "2026-12-01-fw2",
    "type": "fashion",
    "category": "celebrity",
    "source": "WWD",
@@ -1130,7 +1130,7 @@
   },
   {
    "day": "2026-12-01",
-   "id": "2026-12-01-w3",
+   "id": "2026-12-01-fw3",
    "type": "fashion",
    "category": "clothing",
    "source": "Esquire",
@@ -1155,7 +1155,7 @@
   },
   {
    "day": "2026-12-01",
-   "id": "2026-12-01-w4",
+   "id": "2026-12-01-fw4",
    "type": "fashion",
    "category": "clothing",
    "source": "GQ",
@@ -1180,7 +1180,7 @@
   },
   {
    "day": "2026-12-01",
-   "id": "2026-12-01-w5",
+   "id": "2026-12-01-fw5",
    "type": "fashion",
    "category": "culture",
    "source": "Dazed",
@@ -1205,7 +1205,7 @@
   },
   {
    "day": "2026-12-01",
-   "id": "2026-12-01-w6",
+   "id": "2026-12-01-fw6",
    "type": "fashion",
    "category": "watch",
    "source": "Esquire",
@@ -1230,7 +1230,7 @@
   },
   {
    "day": "2026-12-01",
-   "id": "2026-12-01-w7",
+   "id": "2026-12-01-fw7",
    "type": "fashion",
    "category": "culture",
    "source": "WWD",
