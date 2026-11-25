@@ -1,275 +1,230 @@
 {
- "date": "2026-11-25",
- "generatedAt": "2026-11-25T03:48:41+05:30",
+ "date": "2026-11-26",
+ "generatedAt": "2026-11-26T03:45:59+05:30",
  "items": [
   {
-   "id": "2026-11-25-fw1",
-   "type": "fashion",
-   "source": "Dazed",
-   "emoji": "🧢",
-   "color": "#7c2d12",
-   "headline": "Does a skull cap actually make you hotter?",
-   "caption": "TikTok's new before-and-after trend is men in beanies.",
-   "body": [
-    "Dazed compares it to 2015's 'Don't Judge' challenge.",
-    "The tight cap frames the face.",
-    "How to wear it: a snug knit beanie, ears covered."
-   ],
-   "url": "https://www.dazeddigital.com/fashion/article/71398/1/skull-cap-actually-make-you-hotter-tik-tok-trend-menswear",
-   "linkLabel": "Dazed",
-   "image": {
-    "url": "https://images-prod.dazeddigital.com/1200/azure/dazed-prod/1460/0/1460042.jpg",
-    "credit": "Dazed",
-    "creditUrl": "https://www.dazeddigital.com/fashion/article/71398/1/skull-cap-actually-make-you-hotter-tik-tok-trend-menswear",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-11-25-fw2",
-   "type": "fashion",
-   "source": "Vogue",
-   "emoji": "💎",
-   "color": "#1e3a8a",
-   "headline": "The best jewellery on Vogue's Best Dressed list",
-   "caption": "Margot Robbie borrowed Elizabeth Taylor's Taj Mahal diamond.",
-   "body": [
-    "Céline Dion recreated her 1997 Oscars Chanel necklace.",
-    "Colman Domingo is on the list too.",
-    "Style lesson: jewellery with a story."
-   ],
-   "url": "https://www.vogue.com/article/jewelry-highlights-from-the-vogue-2026-best-dressed-list",
-   "linkLabel": "Vogue",
-   "image": {
-    "url": "https://assets.vogue.com/photos/6afb6a22c24504cad9817cce/16:9/w_1280,c_limit/Jewelry_16x9.jpg",
-    "credit": "Vogue",
-    "creditUrl": "https://www.vogue.com/article/jewelry-highlights-from-the-vogue-2026-best-dressed-list",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-25-fw3",
-   "type": "fashion",
-   "source": "Esquire UK",
-   "emoji": "🖤",
-   "color": "#581c87",
-   "headline": "Jack O'Connell wore all-black McQueen to the Governors Awards",
-   "caption": "Ultra-wide lapels and polished Jermyn brogues.",
-   "body": [
-    "The suit came from McQueen's SS27 pre-collection.",
-    "He stars in 'Sinners'.",
-    "Style lesson: all-black, sharp lapels."
-   ],
-   "url": "https://www.esquire.com/uk/style/fashion/a74490310/jack-oconnell-godzilla-sinners-mcqueen/",
-   "linkLabel": "Esquire UK",
-   "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/d439860f-4145-42dd-a486-e014d282e864.jpg?crop=1.00xw:0.752xh;0,0.0577xh&resize=1200:*",
-    "credit": "Esquire UK",
-    "creditUrl": "https://www.esquire.com/uk/style/fashion/a74490310/jack-oconnell-godzilla-sinners-mcqueen/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-25-fw4",
+   "id": "2026-11-26-fw1",
    "type": "fashion",
    "source": "GQ UK",
-   "emoji": "🌊",
-   "color": "#9f1239",
-   "headline": "Is Joseph Zada following Jeremy Allen-White's lead again?",
-   "caption": "From curls and backward caps to something more chic.",
+   "emoji": "🎩",
+   "color": "#14532d",
+   "headline": "What even is a dress watch?",
+   "caption": "GQ UK says the old rules shouldn't decide what you wear.",
    "body": [
-    "The 21-year-old stars with Florence Pugh in 'East of Eden'.",
-    "He's in the next Hunger Games film too.",
-    "Style lesson: grow up your look slowly."
+    "A writer's £1,595 Raymond Weil was mistaken for a Patek.",
+    "Slim cases and quiet dials are the classic look.",
+    "Style lesson: wear what you love with black tie."
    ],
-   "url": "https://www.gq-magazine.co.uk/article/joseph-zada-louis-vuitton-watch-19-11-2026",
+   "url": "https://www.gq-magazine.co.uk/article/dress-watches-new-rolex-padellone-22-11-2026",
    "linkLabel": "GQ UK",
    "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6afc76e32cb1d7a4264eb198/16:9/w_1280,c_limit/067-LV-watch.jpg",
+    "url": "https://media.gq-magazine.co.uk/photos/6b006368c38f212636163690/16:9/w_1280,c_limit/Timesheet_header.jpg",
     "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/joseph-zada-louis-vuitton-watch-19-11-2026",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/dress-watches-new-rolex-padellone-22-11-2026",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-25-fw5",
+   "id": "2026-11-26-fw2",
    "type": "fashion",
    "source": "Vogue",
-   "emoji": "🤠",
-   "color": "#0f766e",
-   "headline": "The Nudie suit is everywhere again",
-   "caption": "Polly Parsons wore a modern take at the Rock & Roll Hall of Fame.",
+   "emoji": "🌟",
+   "color": "#1e3a8a",
+   "headline": "Vogue's 2026 Next Gen Style Stars",
+   "caption": "Breakout names to watch, from American sportswear to vintage tees.",
    "body": [
-    "Nudie Cohn made famous rhinestone Western suits.",
-    "Vogue shows how to get the look.",
-    "Style lesson: one embroidered jacket is enough."
+    "True Whitaker of 'I Love LA' is one.",
+    "They're new, but making their mark fast.",
+    "Style lesson: find your signature early."
    ],
-   "url": "https://www.vogue.com/article/polly-parsons-nudie-suit-style",
+   "url": "https://www.vogue.com/article/2026-best-dressed-next-gen-style-stars",
    "linkLabel": "Vogue",
    "image": {
-    "url": "https://assets.vogue.com/photos/6afcb60d7bb239e20a72004a/16:9/w_1280,c_limit/GettyImages-85238318.jpg",
+    "url": "https://assets.vogue.com/photos/6afdaea5eecfe3dacbc10cbc/16:9/w_1280,c_limit/It_Girls_16x9_V2%20(1).jpg",
     "credit": "Vogue",
-    "creditUrl": "https://www.vogue.com/article/polly-parsons-nudie-suit-style",
+    "creditUrl": "https://www.vogue.com/article/2026-best-dressed-next-gen-style-stars",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-25-fw6",
+   "id": "2026-11-26-fw3",
    "type": "fashion",
-   "source": "GQ",
-   "emoji": "👟",
-   "color": "#78350f",
-   "headline": "An Air Jordan 1 for Japanese denim lovers",
-   "caption": "Social Status covered it in sashiko stitching.",
+   "source": "Vogue",
+   "emoji": "👜",
+   "color": "#581c87",
+   "headline": "Harry Styles loves a big bag",
+   "caption": "He carried a Chanel flap bag around Rome.",
    "body": [
-    "The North Carolina boutique has worked with Nike for years.",
-    "Its last proper Jordan collab was in 2019.",
-    "How to wear it: with raw selvedge jeans."
+    "He took a break between tour legs.",
+    "He's off to Australia next.",
+    "Style lesson: a big bag can be part of the look."
    ],
-   "url": "https://www.gq.com/story/social-status-air-jordan-1-low-sashiko-11-17-2026",
-   "linkLabel": "GQ",
+   "url": "https://www.vogue.com/article/harry-styles-pro-schlep-big-bag-chanel-2026-11-22",
+   "linkLabel": "Vogue",
    "image": {
-    "url": "https://media.gq.com/photos/6afc698b5ef96f2d813f5c90/16:9/w_1280,c_limit/Header%20GQ.jpeg",
-    "credit": "GQ",
-    "creditUrl": "https://www.gq.com/story/social-status-air-jordan-1-low-sashiko-11-17-2026",
+    "url": "https://assets.vogue.com/photos/6b03365218f3d16f885ae619/16:9/w_1280,c_limit/BGUS_3746810_036.jpg",
+    "credit": "Vogue",
+    "creditUrl": "https://www.vogue.com/article/harry-styles-pro-schlep-big-bag-chanel-2026-11-22",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-25-fw7",
+   "id": "2026-11-26-fw4",
    "type": "fashion",
-   "source": "WWD",
-   "emoji": "🏔️",
-   "color": "#334155",
-   "headline": "Stefano Ricci takes Fall 2027 to Bhutan",
-   "caption": "The tenth chapter of its 'SR Explorer' series.",
+   "source": "Highsnobiety",
+   "emoji": "🎪",
+   "color": "#9f1239",
+   "headline": "Five young artists on Tyler, the Creator's Camp Flog Gnaw",
+   "caption": "Why 'alt' style thrives at the Dodger Stadium festival.",
    "body": [
-    "The team visited the Tiger's Nest monastery.",
-    "The brand supports Himalayan communities.",
-    "Style lesson: travel can inspire a wardrobe."
+    "Tyler has run it since 2012.",
+    "He handpicks the lineup each year.",
+    "Style lesson: dress for the crowd you want."
    ],
-   "url": "https://wwd.com/menswear-news/mens-designer-luxury/stefano-ricci-fall-2027-collection-explores-bhutan-1239418782/",
-   "linkLabel": "WWD",
+   "url": "https://www.highsnobiety.com/p/five-young-artists-on-why-alt-shit-thrives-at-tyler-the-creators-camp-flog-gnaw/",
+   "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://wwd.com/wp-content/uploads/2026/11/LOOK_03_CheleLaPass_4-Steve-McCurry-for-Stefano-Ricci-1.jpg?w=1000&h=563&crop=1",
-    "credit": "WWD",
-    "creditUrl": "https://wwd.com/menswear-news/mens-designer-luxury/stefano-ricci-fall-2027-collection-explores-bhutan-1239418782/",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1795209903-lab-edit1.jpeg",
+    "credit": "Highsnobiety",
+    "creditUrl": "https://www.highsnobiety.com/p/five-young-artists-on-why-alt-shit-thrives-at-tyler-the-creators-camp-flog-gnaw/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-25-fw8",
+   "id": "2026-11-26-fw5",
+   "type": "fashion",
+   "source": "Robb Report",
+   "emoji": "📕",
+   "color": "#0f766e",
+   "headline": "A $10 million vintage Rolex collection, now in a book",
+   "caption": "Bob's Watches CEO Paul Altieri shows 134 watches.",
+   "body": [
+    "The book is called 'Not for Sale'.",
+    "Every watch is a vintage Rolex.",
+    "Style lesson: collect what you'll keep."
+   ],
+   "url": "https://robbreport.com/style/watch-collector/paul-altieri-vintage-rolex-collection-book-1238849455/",
+   "linkLabel": "Robb Report",
+   "image": {
+    "url": "https://robbreport.com/wp-content/uploads/2026/11/not-for-sale-a-private-collection-of-vintage-rolex-watches-1.jpg?w=681&h=383&crop=1",
+    "credit": "Robb Report",
+    "creditUrl": "https://robbreport.com/style/watch-collector/paul-altieri-vintage-rolex-collection-book-1238849455/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-26-fw6",
    "type": "fashion",
    "source": "Esquire",
-   "emoji": "🏎️",
-   "color": "#14532d",
-   "headline": "Inside Louis Vuitton's Dolomites vintage car rally",
-   "caption": "An Esquire writer drove nearly century-old cars through the Alps, and won.",
+   "emoji": "🧥",
+   "color": "#78350f",
+   "headline": "Esquire's most-worn winter jacket costs $250",
+   "caption": "Filson's Insulated Canvas Outfitter.",
    "body": [
-    "Some teams navigate with a hundred-page road book.",
-    "The cars stay on the road, not under glass.",
-    "Style lesson: driving gloves and a good jacket."
+    "A practical alternative to fragile vintage workwear.",
+    "Part of the Esquire Endorsement series.",
+    "How to wear it: over a flannel shirt and jeans."
    ],
-   "url": "https://www.esquire.com/style/mens-fashion/a74416598/louis-vuitton-dolomites-classic-run-vintage-car-rally/",
+   "url": "https://www.esquire.com/style/mens-fashion/a74454200/filson-insulated-canvas-outfitter-review/",
    "linkLabel": "Esquire",
    "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/3228c888-98f0-4caa-95d1-10536d8f0602.jpg?crop=0.954xw:0.776xh;0.046xw,0.224xh&resize=1200:*",
+    "url": "https://hips.hearstapps.com/hmg-prod/images/da485b67-9561-4255-9fad-f91cc9507148.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
     "credit": "Esquire",
-    "creditUrl": "https://www.esquire.com/style/mens-fashion/a74416598/louis-vuitton-dolomites-classic-run-vintage-car-rally/",
+    "creditUrl": "https://www.esquire.com/style/mens-fashion/a74454200/filson-insulated-canvas-outfitter-review/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-25-f1",
+   "id": "2026-11-26-fw7",
+   "type": "fashion",
+   "source": "GQ",
+   "emoji": "👓",
+   "color": "#334155",
+   "headline": "Joaquin Phoenix stars in Gentle Monster's AI glasses campaign",
+   "caption": "Jonathan Glazer directed the film.",
+   "body": [
+    "The glasses can live-translate speech.",
+    "They're from Gentle Monster's Intelligent Eyewear line.",
+    "Style lesson: dark frames, sharp look."
+   ],
+   "url": "https://www.gq.com/story/joaquin-phoenix-gentle-monster-intelligent-eyewear-interview",
+   "linkLabel": "GQ",
+   "image": {
+    "url": "https://media.gq.com/photos/6afb77ebec919995f7ec83ec/16:9/w_1280,c_limit/GM_IE_NYCPOPUP_JOAQUIN_2880x2160%20(1).jpg",
+    "credit": "GQ",
+    "creditUrl": "https://www.gq.com/story/joaquin-phoenix-gentle-monster-intelligent-eyewear-interview",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-26-f1",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🦟",
+   "emoji": "🌾",
    "color": "#166534",
-   "headline": "Dengue-blocking mosquitoes cut infections 68% in Brazil",
-   "caption": "Releasing Wolbachia mosquitoes protected schoolchildren in Belo Horizonte.",
+   "headline": "Cape Cod land returned to Native American care, 400 years on",
+   "caption": "126 acres near First Encounter Beach go to the Native Land Conservancy.",
    "body": [
-    "Wolbachia bacteria stop mosquitoes spreading dengue, Zika and chikungunya.",
-    "It worked even during Brazil's biggest dengue outbreak."
+    "The Nature Conservancy handed over the salt marsh on October 30.",
+    "It links to a 20.4-acre parcel bought earlier this year."
    ],
-   "url": "https://www.goodnewsnetwork.org/major-success-sees-viral-infections-fall-68-in-brazil-after-releasing-wolbachia-infected-mosquitoes/",
+   "url": "https://www.goodnewsnetwork.org/land-returned-indigenous-care-first-encounter-beach/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2015/07/mosquito-Aedes_Albopictus-publicdomain.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/1280px-Waiting_for_Sunset_14287123165.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/major-success-sees-viral-infections-fall-68-in-brazil-after-releasing-wolbachia-infected-mosquitoes/",
+    "creditUrl": "https://www.goodnewsnetwork.org/land-returned-indigenous-care-first-encounter-beach/",
     "preview": true
    },
    "embed": true
   },
   {
-   "id": "2026-11-25-f2",
+   "id": "2026-11-26-f2",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🥥",
+   "emoji": "🚗",
    "color": "#065f46",
-   "headline": "A school takes coconuts instead of tuition fees",
-   "caption": "Faith Christian Academy on Micronesia's Yap Island accepts coconuts as fees.",
+   "headline": "Texas mechanics keep giving away free cars to neighbours in need",
+   "caption": "Cathy and Dane Bailey's 'Autos for Love' refurbishes donated cars.",
    "body": [
-    "Families can pay with what they grow.",
-    "The coconuts help revive the island's coconut oil industry."
+    "They started with one car a year.",
+    "Now they give away several each year."
    ],
-   "url": "https://www.goodnewsnetwork.org/charity-swaps-tuition-fees-for-coconuts-so-every-islander-can-afford-school/",
+   "url": "https://www.goodnewsnetwork.org/texas-auto-shop-couple-is-hungry-to-keep-giving-cars-away-to-neighbors-in-need/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/FCA-students-Shaya-Lani-and-Joyleen-with-coconuts.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Cathy-and-Dane-Bailey-from-Auto-Experts-of-Colleyville-credit-Autos-for-Love.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/charity-swaps-tuition-fees-for-coconuts-so-every-islander-can-afford-school/",
+    "creditUrl": "https://www.goodnewsnetwork.org/texas-auto-shop-couple-is-hungry-to-keep-giving-cars-away-to-neighbors-in-need/",
     "preview": true
    },
    "embed": true
   },
   {
-   "id": "2026-11-25-f3",
+   "id": "2026-11-26-f3",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🎸",
-   "color": "#7c3aed",
-   "headline": "Retired teacher turns old guitars into bird feeders",
-   "caption": "Rob Burke's 'Frets and Feathers Cafe' on Prince Edward Island.",
+   "emoji": "🗿",
+   "color": "#7c2d12",
+   "headline": "A 13th-century Virgin Mary stolen in 1979 is going home",
+   "caption": "Police found the carving, taken by art thief 'Erik the Belgian', in a UK collection.",
    "body": [
-    "People donated six guitars, a violin and drum parts.",
-    "He had to fix the perches when heavier blue jays arrived."
+    "It vanished from a small church in Navarre, Spain.",
+    "The case sat unsolved for nearly half a century."
    ],
-   "url": "https://www.goodnewsnetwork.org/retired-teacher-turns-retired-musical-instruments-into-bird-feeders-look/",
+   "url": "https://www.goodnewsnetwork.org/detectives-recover-13th-century-sculpture-stolen-by-notorious-gentleman-thief-erik-the-belgian/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Credit-Rob-Burke-retrieved-from-Facebook.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-13th-century-Virgin-pictured-during-its-handover-in-London-at-the-Embassy-of-Spain-Courtesy-Ministry-of-Foreign-Affairs-European-Union.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/retired-teacher-turns-retired-musical-instruments-into-bird-feeders-look/",
-    "preview": true
-   },
-   "embed": true
-  },
-  {
-   "id": "2026-11-25-f4",
-   "type": "good",
-   "source": "Good News Network",
-   "emoji": "✉️",
-   "color": "#1e40af",
-   "headline": "A son is finding the 33 kids who wrote to his wounded dad in 1967",
-   "caption": "Their letters helped a Navy corpsman wounded in Vietnam.",
-   "body": [
-    "Dave Jacobson wants to thank each of them, almost 60 years later.",
-    "'It made a difference,' he says."
-   ],
-   "url": "https://www.goodnewsnetwork.org/dave-jacobson-letters-from-gloucester-project/",
-   "linkLabel": "GNN",
-   "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Screenshot-2026-11-19-124524.png",
-    "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/dave-jacobson-letters-from-gloucester-project/",
+    "creditUrl": "https://www.goodnewsnetwork.org/detectives-recover-13th-century-sculpture-stolen-by-notorious-gentleman-thief-erik-the-belgian/",
     "preview": true
    },
    "embed": true
