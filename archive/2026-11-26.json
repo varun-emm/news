@@ -1,0 +1,509 @@
+{
+ "date": "2026-11-26",
+ "generatedAt": "2026-11-26T03:45:59+05:30",
+ "stories": [
+  {
+   "id": "2026-11-26-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Egypt",
+   "emoji": "🔥",
+   "stat": "30",
+   "statLabel": "people killed",
+   "headline": "Fuel truck fire on Cairo ring road kills at least 30",
+   "body": [
+    "A vehicle carrying petroleum products overturned and caught fire on a major ring road in Greater Cairo.",
+    "At least 30 people died and 25 were injured, Egypt's health ministry said.",
+    "Prosecutors have opened an investigation."
+   ],
+   "joke": "",
+   "vc": "Road safety for fuel transport is a growing public concern.",
+   "url": "https://www.aljazeera.com/news/2026/11/25/at-least-30-killed-in-egypt-vehicle-fire-health-ministry-says",
+   "linkLabel": "Al Jazeera",
+   "color": "#7f1d1d",
+   "font": "serious",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Cairo_Ring_Road_in_Giza%2C_Egypt.jpg/1280px-Cairo_Ring_Road_in_Giza%2C_Egypt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Quintin Soloviev / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Cairo_Ring_Road_in_Giza,_Egypt.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-26-w2",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Iraq",
+   "emoji": "🛢️",
+   "stat": "Borders + oil",
+   "statLabel": "what Baghdad can take over",
+   "headline": "Iraq's top court lets Baghdad take over Kurdish borders",
+   "body": [
+    "Iraq's Federal Supreme Court ruled federal troops can deploy to all international borders, including in the Kurdish region.",
+    "It came a day after PM Ali al-Zaidi ordered forces to take over Kurdish-run crossings and oil fields to curb smuggling.",
+    "Kurdish authorities called the move an 'assault' on their rights."
+   ],
+   "joke": "",
+   "vc": "Control of Kurdish oil affects Iraq's budget and regional oil supply.",
+   "url": "https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields",
+   "linkLabel": "Al Jazeera",
+   "color": "#92400e",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Mountains_of_Kurdistan_in_Erbil_and_Hakkari_provinces.jpg/1280px-Mountains_of_Kurdistan_in_Erbil_and_Hakkari_provinces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Khoshhat / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Mountains_of_Kurdistan_in_Erbil_and_Hakkari_provinces.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-26-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Trade",
+   "emoji": "🚢",
+   "stat": "14",
+   "statLabel": "economies targeted",
+   "headline": "Trump plans new tariffs on 14 economies, including India",
+   "body": [
+    "The US plans new tariffs on 14 trading partners, including China, the EU and India.",
+    "It accuses them of using subsidies to overproduce and flood markets with cheap goods.",
+    "China faces the highest rates, after an eight-month investigation."
+   ],
+   "joke": "Tariffs: the gift that keeps on taxing.",
+   "vc": "Indian exporters may face higher costs selling to the US.",
+   "url": "https://www.aljazeera.com/news/2026/11/25/trump-announces-new-trade-tariffs-which-countries-will-they-target",
+   "linkLabel": "Al Jazeera",
+   "color": "#1e3a8a",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-26-i1",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Markets",
+   "emoji": "📈",
+   "stat": "+2,062",
+   "statLabel": "Sensex points at day's high",
+   "headline": "Sensex jumps over 2,000 points on foreign inflows and cheaper oil",
+   "body": [
+    "The Sensex rose 2,062 points to a day's high of 84,498 on Wednesday; the Nifty hit 25,951.",
+    "Foreign fund buying, lower crude oil and bank stocks led the rally.",
+    "Brent crude fell 1.43% to about $90 a barrel."
+   ],
+   "joke": "Green screens all round.",
+   "vc": "Cheaper oil and foreign money lift Indian portfolios.",
+   "url": "https://www.thehindu.com/business/markets/stock-markets-bse-nse-on-november-25-2026/article71741088.ece",
+   "linkLabel": "The Hindu",
+   "color": "#15803d",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1280px-BSE_-_Bombay_Stock_Exchange_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Niyantha Shekhar / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-26-i2",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Bengaluru",
+   "emoji": "🛒",
+   "stat": "11+ years",
+   "statLabel": "Krishnamurthy's tenure",
+   "headline": "Kalyan Krishnamurthy to step down as Flipkart CEO",
+   "body": [
+    "Flipkart's CEO Kalyan Krishnamurthy will step down after more than 11 years.",
+    "A successor will be named in the coming weeks; tech chief Balaji Thiagarajan and the board will run things meanwhile.",
+    "The business grew more than fivefold under him."
+   ],
+   "joke": "Cart checkout, CEO edition.",
+   "vc": "Leadership change comes as Flipkart prepares for its next phase of growth.",
+   "url": "https://www.thehindu.com/business/Industry/kalyan-krishnamurthy-to-step-down-as-flipkart-ceo/article71741751.ece",
+   "linkLabel": "The Hindu",
+   "color": "#1d4ed8",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-26-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Bengaluru",
+   "emoji": "🚇",
+   "stat": "19 km",
+   "statLabel": "Blue Line Phase 2A",
+   "headline": "Bengaluru's Blue Line metro trials begin from K.R. Puram",
+   "body": [
+    "Trial runs have started on the first four stations of the Blue Line from K.R. Puram.",
+    "The 19-km stretch to Central Silk Board has 13 stations along the Outer Ring Road.",
+    "Public service is targeted for mid-2027."
+   ],
+   "joke": "Silk Board, your days are numbered.",
+   "vc": "Metro access along the ORR could ease commutes to tech parks.",
+   "url": "https://www.thehindu.com/news/national/karnataka/bengalurus-blue-line-trials-begin-from-kr-puram-public-operations-targeted-for-mid-2027-says-minister/article71739248.ece",
+   "linkLabel": "The Hindu",
+   "color": "#0e7490",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-26-m1",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Space",
+   "emoji": "🛰️",
+   "stat": "1M",
+   "statLabel": "satellites approved",
+   "headline": "FCC approves SpaceX's plan for AI data centres in space",
+   "body": [
+    "The US FCC gave SpaceX conditional approval for up to 1 million satellites for orbital data centres.",
+    "Amazon, Viasat and astronomers objected over debris, interference and the environment.",
+    "Amazon called it 'a lofty ambition rather than a real plan'. (No new Unhedged episode, so this is TechCrunch's report.)"
+   ],
+   "joke": "The cloud, now literally above the clouds.",
+   "vc": "Space data centres could reshape where AI computing gets built.",
+   "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+   "linkLabel": "TechCrunch",
+   "color": "#334155",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/SpaceX_Starship_ignition_during_IFT-5.jpg/1280px-SpaceX_Starship_ignition_during_IFT-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Steve Jurvetson / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:SpaceX_Starship_ignition_during_IFT-5.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-26-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "OpenAI",
+   "emoji": "⏳",
+   "stat": "1",
+   "statLabel": "usage meter for Chat and Work",
+   "headline": "ChatGPT's heaviest users may hit limits sooner as Chat and Work merge",
+   "body": [
+    "OpenAI is combining ChatGPT's Chat and Work modes with a single usage meter.",
+    "It's rolling out first to some Pro subscribers.",
+    "OpenAI says most users won't notice, but its heaviest users may. (Axios Pro Rata had nothing checkable, so this is TechCrunch's report.)"
+   ],
+   "joke": "All-you-can-eat, with a smaller plate.",
+   "vc": "Usage limits show how costly heavy AI use is to serve.",
+   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+   "linkLabel": "TechCrunch",
+   "color": "#0f766e",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-26-m3",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Anthropic",
+   "emoji": "🧭",
+   "stat": "'Absurd'",
+   "statLabel": "Amodei's verdict on the claims",
+   "headline": "Dario Amodei rejects claims he wants AI to replace human control",
+   "body": [
+    "Anthropic CEO Dario Amodei called claims that he favours surrendering human free will to AI 'absurd'.",
+    "He wrote that handing governance to AI is 'a bad idea'.",
+    "Rivals had warned human agency is at risk. (No new Stratechery post, so this is TechCrunch's report.)"
+   ],
+   "joke": "Humans stay in the driver's seat, for now.",
+   "vc": "AI safety debates shape regulation and investor risk.",
+   "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+   "linkLabel": "TechCrunch",
+   "color": "#4c1d95",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Dario_Amodei_at_TechCrunch_Disrupt_2023_06.jpg/1280px-Dario_Amodei_at_TechCrunch_Disrupt_2023_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "TechCrunch / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_06.jpg",
+    "license": "CC BY 2.0"
+   }
+  },
+  {
+   "id": "2026-11-26-m4",
+   "section": "money",
+   "source": "Inc42",
+   "kicker": "IPO",
+   "emoji": "📱",
+   "stat": "$12–15B",
+   "statLabel": "target valuation",
+   "headline": "PhonePe revives IPO plans for March 2027",
+   "body": [
+    "Walmart-backed PhonePe has restarted talks with bankers for a March 2027 listing, sources told Inc42.",
+    "It may sell up to ₹12,000 crore of shares at a $12–15 billion valuation.",
+    "It paused its IPO in March citing global volatility. (TechCrunch Venture had no fresh deal, so this is Inc42's report.)"
+   ],
+   "joke": "UPI to IPO.",
+   "vc": "A PhonePe listing would be one of India's biggest fintech IPOs.",
+   "url": "https://inc42.com/buzz/phonepe-revives-ipo-plans-eyes-march-2027-listing-at-up-to-15-bn-valuation/",
+   "linkLabel": "Inc42",
+   "color": "#6d28d9",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-26-m5",
+   "section": "money",
+   "source": "Inc42",
+   "kicker": "Impact VC",
+   "emoji": "🌱",
+   "stat": "$130M+",
+   "statLabel": "first close of Fund V",
+   "headline": "Lok Capital raises over $130M for its fifth impact fund",
+   "body": [
+    "Lok Capital raised over $130 million in the first close of Fund V, targeting $200–250 million.",
+    "It will back 10–12 companies in financial inclusion and climate.",
+    "IFC, the European Investment Bank and FMO plan to invest. (No Economist piece was readable, so this is Inc42's report.)"
+   ],
+   "joke": "Doing good, with a term sheet.",
+   "vc": "Impact funds bring growth money to businesses serving underserved Indians.",
+   "url": "https://inc42.com/buzz/lok-capital-announces-first-close-of-fund-v-at-130-mn/",
+   "linkLabel": "Inc42",
+   "color": "#047857",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-26-v1",
+   "section": "women",
+   "source": "The Hindu",
+   "kicker": "Inheritance",
+   "emoji": "⚖️",
+   "stat": "Equal share",
+   "statLabel": "what she is asking for",
+   "headline": "Lakshmi Venu sues for her share of Venu Srinivasan family assets",
+   "body": [
+    "Lakshmi Venu, daughter of TVS Holdings chairman Venu Srinivasan, has asked the Madras High Court to split the family's joint assets.",
+    "Her lawyers say talks failed.",
+    "Her mother, Mallika Srinivasan, backs her: 'a son and daughter are equal in every respect'."
+   ],
+   "joke": "",
+   "vc": "Daughters' equal inheritance rights matter for women's wealth and business control.",
+   "url": "https://www.thehindu.com/business/Industry/lakshmi-venu-files-suit-for-partition-of-venu-srinivasan-family-assets/article71741444.ece",
+   "linkLabel": "The Hindu",
+   "color": "#be185d",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Madras_High_Court_-_panoramio.jpg/1280px-Madras_High_Court_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Raki_Man / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Madras_High_Court_-_panoramio.jpg",
+    "license": "CC BY 3.0"
+   }
+  },
+  {
+   "id": "2026-11-26-v2",
+   "section": "women",
+   "source": "Stockholm Center for Freedom",
+   "kicker": "Turkey",
+   "emoji": "🚫",
+   "stat": "24 hours",
+   "statLabel": "gathering ban in Beyoğlu",
+   "headline": "Istanbul blocks a women's march despite court rulings",
+   "body": [
+    "Istanbul authorities banned gatherings and blocked Taksim Square to stop a November 25 march against violence on women.",
+    "Courts had overturned similar bans in 2024 and 2025.",
+    "Organisers said they would march anyway."
+   ],
+   "joke": "",
+   "vc": "Protest rights are key to pushing for laws that protect women.",
+   "url": "https://stockholmcf.org/istanbul-authorities-ban-womens-rights-march-despite-rulings-overturning-previous-bans",
+   "linkLabel": "SCF",
+   "color": "#9d174d",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/View_of_Istiklal_Avenue_from_the_entrance_of_Galatasaray_High_School.jpg/1280px-View_of_Istiklal_Avenue_from_the_entrance_of_Galatasaray_High_School.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "ismail soytekınoglu / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:View_of_Istiklal_Avenue_from_the_entrance_of_Galatasaray_High_School.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-26-v3",
+   "section": "women",
+   "source": "UN News",
+   "kicker": "Violence",
+   "emoji": "🧡",
+   "stat": "129",
+   "statLabel": "orange flags, one per woman killed daily",
+   "headline": "UN deputy chief: 'far too much failure' on violence against women",
+   "body": [
+    "UN Deputy Secretary-General Amina Mohammed called for justice for survivors and consequences for abusers.",
+    "Her event launched 16 Days of Activism against gender-based violence.",
+    "129 orange flags marked the women and girls killed by partners or family each day."
+   ],
+   "joke": "",
+   "vc": "Justice that works for survivors helps women rebuild lives and careers.",
+   "url": "https://news.un.org/en/story/2026/11/1168868",
+   "linkLabel": "UN News",
+   "color": "#c2410c",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-26-h1",
+   "section": "health",
+   "source": "The News Mill",
+   "kicker": "Delhi",
+   "emoji": "🏥",
+   "stat": "1,815",
+   "statLabel": "beds in two new hospitals",
+   "headline": "Delhi to open two hospitals with 1,815 beds in 2027",
+   "body": [
+    "CM Rekha Gupta said hospitals in Siraspur and Hastal, with 1,815 beds together, will open next year.",
+    "40 new Ayushman Arogya Mandir clinics will open in December.",
+    "She warned officials against delays."
+   ],
+   "joke": "More beds, fewer corridor stretchers.",
+   "vc": "New public beds ease pressure on Delhi's crowded big hospitals.",
+   "url": "https://thenewsmill.com/2026/11/delhi-to-open-two-new-hospitals-with-1815-beds-in-2027/",
+   "linkLabel": "The News Mill",
+   "color": "#0369a1",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-26-h2",
+   "section": "health",
+   "source": "UNI",
+   "kicker": "Himachal Pradesh",
+   "emoji": "🏔️",
+   "stat": "100",
+   "statLabel": "beds",
+   "headline": "Himachal opens a 100-bed civil hospital in Kangra",
+   "body": [
+    "CM Sukhvinder Singh Sukhu opened a new 100-bed Civil Hospital building at Shahpur in Kangra district.",
+    "It cost ₹11.50 crore.",
+    "He said staffing in state health centres has risen from 35% to nearly 70% of sanctioned posts."
+   ],
+   "joke": "Mountain views, now with a ward.",
+   "vc": "Local hospitals cut long trips to cities for hill communities.",
+   "url": "https://www.uniindia.com/north-india/admin-hp-hospital-inaugurated/252171",
+   "linkLabel": "UNI",
+   "color": "#115e59",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-26-h3",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Ahmedabad",
+   "emoji": "❤️",
+   "stat": "16",
+   "statLabel": "new surgical ICU beds",
+   "headline": "Free heart hospital in Ahmedabad opens a 16-bed surgical ICU",
+   "body": [
+    "Sri Sathya Sai Heart Hospital in Kasindra, Ahmedabad, opened a 16-bed advanced surgical ICU.",
+    "The hospital offers completely free treatment.",
+    "It has served Ahmedabad for eight years and Rajkot for 26."
+   ],
+   "joke": "Free care, upgraded.",
+   "vc": "More ICU beds mean more heart surgeries for patients who can't pay.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/sri-sathya-sai-heart-hospital-ahmedabad-inaugurates-16-bed-advanced-surgical-icu-183930",
+   "linkLabel": "Medical Dialogues",
+   "color": "#0891b2",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-26-t1",
+   "section": "hft",
+   "source": "Finance Magnates",
+   "kicker": "Fees",
+   "emoji": "🪙",
+   "stat": "2¢ → 1¢",
+   "statLabel": "NFA fee per side",
+   "headline": "US futures watchdog posts record surplus as it halves its trade fee",
+   "body": [
+    "The National Futures Association ended its fiscal year with a record $22.5 million surplus.",
+    "Most income comes from a fee on every futures trade, which rose with volumes.",
+    "It cut the fee from 2 cents to 1 cent per side for 12 months from July."
+   ],
+   "joke": "Half price, still profitable.",
+   "vc": "Lower per-trade fees matter most to high-volume traders.",
+   "url": "https://www.financemagnates.com/institutional-forex/regulation/us-futures-watchdog-posts-record-225-million-surplus-as-it-halves-trading-fee/",
+   "linkLabel": "Finance Magnates",
+   "color": "#1e1b4b",
+   "font": "finance",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Chicago_Board_of_Trade_and_Continental_and_Commercial_Bank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credit": "Wynn Diancin / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Chicago_Board_of_Trade_and_Continental_and_Commercial_Bank.jpg",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-26-t2",
+   "section": "hft",
+   "source": "Finance Magnates",
+   "kicker": "Post-trade",
+   "emoji": "🔁",
+   "stat": "$821.9B",
+   "statLabel": "Tradeweb daily repo volume",
+   "headline": "LSEG and Tradeweb automate settlement of repo trades",
+   "body": [
+    "LSEG and Tradeweb launched RepoAgent, which turns repo trades into settlement instructions automatically.",
+    "It starts with euro repo settling at Euroclear and Clearstream.",
+    "Tradeweb's repo platforms averaged $821.9 billion a day in October."
+   ],
+   "joke": "Fewer spreadsheets, more sleep.",
+   "vc": "Automation cuts errors and costs after a trade is done.",
+   "url": "https://www.financemagnates.com/institutional-forex/exchanges/london-stock-exchange-owner-and-tradeweb-automate-settlement-of-uncleared-repo-trades/",
+   "linkLabel": "Finance Magnates",
+   "color": "#0c4a6e",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Euroclear_krakow_office.jpg/1280px-Euroclear_krakow_office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Plogeo / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Euroclear_krakow_office.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-26-t3",
+   "section": "hft",
+   "source": "Finance Magnates",
+   "kicker": "Explainer",
+   "emoji": "🎓",
+   "stat": "1¢",
+   "statLabel": "per side, per trade",
+   "headline": "Explainer: Why do tiny trading fees matter?",
+   "body": [
+    "Imagine the school shop charges one paisa every time you buy or sell a sweet.",
+    "Grown-ups call this a per-trade fee, and 'per side' means both buyer and seller pay it.",
+    "This year, the group that oversees US futures cut its fee from 2 cents to 1 cent per side.",
+    "One cent sounds like nothing.",
+    "But fast traders make thousands of trades a day, so tiny fees add up to big money."
+   ],
+   "joke": "Small coins, big piles.",
+   "vc": "Fees shape which trades are worth doing.",
+   "url": "https://www.financemagnates.com/institutional-forex/regulation/us-futures-watchdog-posts-record-225-million-surplus-as-it-halves-trading-fee/",
+   "linkLabel": "Finance Magnates",
+   "color": "#312e81",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-26-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "Cost cap",
+   "emoji": "💷",
+   "stat": "£627,000",
+   "statLabel": "Williams' overspend",
+   "headline": "Williams breached F1's 2025 cost cap and loses some wind tunnel time",
+   "body": [
+    "Williams overspent F1's 2025 budget cap by £627,000, or 0.48%, the FIA said.",
+    "The FIA found it unintentional, but Williams loses 1.5% of its wind tunnel and CFD testing for 12 months.",
+    "Alpine was fined for a procedural breach."
+   ],
+   "joke": "Paperwork: F1's most dangerous corner.",
+   "vc": "Cost-cap rules aim to keep spending fair between rich and smaller teams.",
+   "url": "https://www.autosport.com/f1/news/williams-breaches-2025-f1-cost-cap-reveals-penalty/10877744/",
+   "linkLabel": "Autosport",
+   "color": "#dc2626",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/2025_Singapore_GP_-_Williams_-_Carlos_Sainz_-_FP2.jpg/1280px-2025_Singapore_GP_-_Williams_-_Carlos_Sainz_-_FP2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Liauzh / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:2025_Singapore_GP_-_Williams_-_Carlos_Sainz_-_FP2.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  }
+ ]
+}

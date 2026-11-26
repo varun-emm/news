@@ -1,68 +1,47 @@
 {
- "date": "2026-11-26",
- "generatedAt": "2026-11-26T03:45:59+05:30",
+ "date": "2026-11-27",
+ "generatedAt": "2026-11-27T03:47:43+05:30",
  "stories": [
   {
-   "id": "2026-11-26-x1",
+   "id": "2026-11-27-x1",
    "section": "india",
    "source": "The Hindu",
-   "kicker": "Economy",
-   "emoji": "📉",
-   "stat": "−$4.95B",
-   "statLabel": "net FDI in September",
-   "headline": "India's net FDI hits a 5.5-year low in September",
+   "kicker": "Bengaluru",
+   "emoji": "📲",
+   "stat": "24 lakh",
+   "statLabel": "property owners getting e-Khatas",
+   "headline": "Bengaluru starts sending e-Khatas to property owners on WhatsApp",
    "body": [
-    "Net foreign direct investment was −$4.95 billion in September, the lowest since at least March 2021.",
-    "Gross inflows slumped while outflows jumped 40%.",
-    "First-half net FDI was still over 20% higher than last year."
+    "The Greater Bengaluru Authority has begun sending free e-Khata certificates on WhatsApp.",
+    "About 24 lakh property owners across five corporations will get them.",
+    "It is part of the state's 'My Khata, My Right' guarantee."
    ],
-   "joke": "Money left faster than it arrived.",
-   "vc": "Weak FDI can pressure the rupee.",
-   "url": "https://www.thehindu.com/business/Economy/net-fdi-fell-to-more-than-55-year-low-in-september-2026-as-outflows-jumped-40/article71742778.ece",
+   "joke": "Property papers, now with blue ticks.",
+   "vc": "Digital records cut middlemen and speed up property deals.",
+   "url": "https://www.thehindu.com/news/cities/bangalore/bengaluru-gba-begins-sending-e-khatas-to-24-lakh-property-owners-on-whatsapp/article71745934.ece",
    "linkLabel": "The Hindu",
-   "color": "#b91c1c",
-   "font": "finance"
+   "color": "#0e7490",
+   "font": "news"
   },
   {
-   "id": "2026-11-26-x2",
+   "id": "2026-11-27-x2",
    "section": "india",
    "source": "The Hindu",
-   "kicker": "Markets",
-   "emoji": "🪪",
-   "stat": "KRA",
-   "statLabel": "where shared KYC details will sit",
-   "headline": "SEBI eases KYC rules to simplify investor sign-ups",
+   "kicker": "Food safety",
+   "emoji": "🏷️",
+   "stat": "4 months",
+   "statLabel": "deadline for FSSAI",
+   "headline": "Supreme Court orders red warning labels on unhealthy packaged food",
    "body": [
-    "SEBI will centralise common client details at KYC registration agencies.",
-    "Investors won't have to resubmit the same details to every broker.",
-    "Documents are easier for OCI cardholders and resident foreign nationals."
+    "The Supreme Court told FSSAI to require prominent red labels on packaged foods high in sugar, saturated fat or salt.",
+    "It must finalise the rules within four months.",
+    "The court said the right to health obliges the state to regulate harmful industry practices."
    ],
-   "joke": "Fill the form once. Revolutionary.",
-   "vc": "Easier onboarding could bring more new investors into markets.",
-   "url": "https://www.thehindu.com/business/sebi-eases-kyc-norms-simplifies-client-onboarding/article71743597.ece",
+   "joke": "Chips, now with a warning.",
+   "vc": "Clear labels could push food firms to cut sugar and salt.",
+   "url": "https://www.thehindu.com/news/national/supreme-court-directs-tightening-of-front-of-package-nutrition-labelling/article71746251.ece",
    "linkLabel": "The Hindu",
-   "color": "#4338ca",
-   "font": "finance"
-  },
-  {
-   "id": "2026-11-26-x3",
-   "section": "world",
-   "source": "Al Jazeera",
-   "kicker": "UK",
-   "emoji": "🎓",
-   "stat": "38%",
-   "statLabel": "Muslim students facing Islamophobia",
-   "headline": "Over a third of UK Muslim students face Islamophobia, report says",
-   "body": [
-    "A FOSIS report found 38% of Muslim students in the UK faced Islamophobia.",
-    "Students described being spat at, assaulted and humiliated.",
-    "One hijab-wearing student said she felt there was no one to report it to."
-   ],
-   "joke": "",
-   "vc": "Safe campuses help universities keep and attract students.",
-   "url": "https://www.aljazeera.com/news/2026/11/25/we-need-to-be-seen-over-a-third-of-uk-muslim-students-face-islamophobia",
-   "linkLabel": "Al Jazeera",
-   "color": "#374151",
+   "color": "#c2410c",
    "font": "news"
   }
  ]

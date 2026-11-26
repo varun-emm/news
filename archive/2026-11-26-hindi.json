@@ -1,0 +1,300 @@
+{
+ "date": "2026-11-26",
+ "generatedAt": "2026-11-26T03:45:59+05:30",
+ "levels": {
+  "basic": [
+   {
+    "hi": "Aaj chhutti hai?",
+    "en": "Is today a holiday?"
+   },
+   {
+    "hi": "Nahi, aaj kaam hai.",
+    "en": "No, there's work today."
+   },
+   {
+    "hi": "Achha, phir shaam ko milo.",
+    "en": "Okay, then meet in the evening."
+   },
+   {
+    "hi": "Mujhe coffee pasand hai.",
+    "en": "I like coffee."
+   },
+   {
+    "hi": "Mujhe chai zyada pasand hai.",
+    "en": "I like tea more."
+   },
+   {
+    "hi": "Dono achhe hain.",
+    "en": "Both are good."
+   },
+   {
+    "hi": "Tumhara ghar kahan hai?",
+    "en": "Where is your house?"
+   },
+   {
+    "hi": "Koramangala mein.",
+    "en": "In Koramangala."
+   },
+   {
+    "hi": "Woh paas hai.",
+    "en": "That's close by."
+   },
+   {
+    "hi": "Aaj mausam achha hai.",
+    "en": "The weather is nice today."
+   },
+   {
+    "hi": "Haan, thandi hawa hai.",
+    "en": "Yes, there's a cool breeze."
+   },
+   {
+    "hi": "Bahar chalein?",
+    "en": "Shall we go outside?"
+   },
+   {
+    "hi": "Mera bhai aa raha hai.",
+    "en": "My brother is coming."
+   },
+   {
+    "hi": "Kab aayega?",
+    "en": "When will he come?"
+   },
+   {
+    "hi": "Kal subah.",
+    "en": "Tomorrow morning."
+   },
+   {
+    "hi": "Yeh kya hai?",
+    "en": "What is this?"
+   },
+   {
+    "hi": "Yeh naya phone hai.",
+    "en": "This is a new phone."
+   },
+   {
+    "hi": "Bahut sundar hai.",
+    "en": "It's very nice."
+   },
+   {
+    "hi": "Mujhe madad chahiye.",
+    "en": "I need help."
+   },
+   {
+    "hi": "Haan, bolo.",
+    "en": "Yes, tell me."
+   },
+   {
+    "hi": "Mera bag bhaari hai.",
+    "en": "My bag is heavy."
+   },
+   {
+    "hi": "Ghar chalo.",
+    "en": "Let's go home."
+   },
+   {
+    "hi": "Main thoda ruk jaata hoon.",
+    "en": "I'll wait a bit."
+   },
+   {
+    "hi": "Phir milenge.",
+    "en": "We'll meet again."
+   }
+  ],
+  "acha": [
+   {
+    "hi": "Kal raat bahut der tak kaam kiya.",
+    "en": "I worked very late last night."
+   },
+   {
+    "hi": "Isliye aaj aankhein laal hain?",
+    "en": "Is that why your eyes are red today?"
+   },
+   {
+    "hi": "Haan yaar, neend poori nahi hui.",
+    "en": "Yes man, I didn't get enough sleep."
+   },
+   {
+    "hi": "Tune naya flat dekha kya?",
+    "en": "Did you see the new flat?"
+   },
+   {
+    "hi": "Haan, par rent bahut zyada hai.",
+    "en": "Yes, but the rent is too high."
+   },
+   {
+    "hi": "Bengaluru mein yahi problem hai.",
+    "en": "That's the problem in Bengaluru."
+   },
+   {
+    "hi": "Aaj lunch mein kya khaya?",
+    "en": "What did you have for lunch today?"
+   },
+   {
+    "hi": "Canteen ka biryani khaya.",
+    "en": "I had the canteen biryani."
+   },
+   {
+    "hi": "Kaisa tha? Theek-thaak?",
+    "en": "How was it? Just okay?"
+   },
+   {
+    "hi": "Mummy ka phone aaya tha.",
+    "en": "Mum called."
+   },
+   {
+    "hi": "Puch rahi thi ghar kab aaoge.",
+    "en": "She was asking when I'll come home."
+   },
+   {
+    "hi": "Maine bola agle mahine.",
+    "en": "I said next month."
+   },
+   {
+    "hi": "Kal match mein kaun jeetega?",
+    "en": "Who'll win tomorrow's match?"
+   },
+   {
+    "hi": "Mujhe lagta hai India jeetegi.",
+    "en": "I think India will win."
+   },
+   {
+    "hi": "Dekhte hain, toss pe depend karta hai.",
+    "en": "Let's see, it depends on the toss."
+   },
+   {
+    "hi": "Mera wallet ghar pe reh gaya.",
+    "en": "I left my wallet at home."
+   },
+   {
+    "hi": "Koi baat nahi, main pay kar deta hoon.",
+    "en": "No problem, I'll pay."
+   },
+   {
+    "hi": "Kal pakka lauta dunga.",
+    "en": "I'll definitely pay you back tomorrow."
+   },
+   {
+    "hi": "Is weekend kahin ghoomne chalein?",
+    "en": "Shall we go somewhere this weekend?"
+   },
+   {
+    "hi": "Mysore kaisa rahega?",
+    "en": "How about Mysore?"
+   },
+   {
+    "hi": "Mast idea hai, car le chalte hain.",
+    "en": "Great idea, let's take the car."
+   },
+   {
+    "hi": "Tune message ka reply kyun nahi kiya?",
+    "en": "Why didn't you reply to my message?"
+   },
+   {
+    "hi": "Phone silent pe tha, dekha hi nahi.",
+    "en": "My phone was on silent, I didn't see it."
+   },
+   {
+    "hi": "Theek hai, agli baar call kar dena.",
+    "en": "Okay, call me next time."
+   }
+  ],
+  "bahut": [
+   {
+    "hi": "Aaj toh subah se dimaag ka dahi ho gaya hai.",
+    "en": "My brain has been fried since this morning."
+   },
+   {
+    "hi": "Kya hua? Phir se client ka natak?",
+    "en": "What happened? The client's drama again?"
+   },
+   {
+    "hi": "Haan, har baar aakhri waqt pe sab badal dete hain.",
+    "en": "Yes, they change everything at the last minute every time."
+   },
+   {
+    "hi": "Jab tak chai na mile, mera dimaag nahi chalta.",
+    "en": "Until I get tea, my brain doesn't work."
+   },
+   {
+    "hi": "Chal, neeche tapri pe chalte hain.",
+    "en": "Come on, let's go to the tea stall downstairs."
+   },
+   {
+    "hi": "Bas do minute, yeh mail bhej doon.",
+    "en": "Just two minutes, let me send this mail."
+   },
+   {
+    "hi": "Itne dinon se socha tha, aaj jaake kaam bana.",
+    "en": "I'd been planning it for ages, and finally it worked out today."
+   },
+   {
+    "hi": "Mehnat ka phal meetha hota hai, bhai.",
+    "en": "Hard work pays off, bro."
+   },
+   {
+    "hi": "Ab party kab de raha hai?",
+    "en": "So when are you throwing the party?"
+   },
+   {
+    "hi": "Yeh traffic dekh ke toh rona aa jaata hai.",
+    "en": "Seeing this traffic makes me want to cry."
+   },
+   {
+    "hi": "Ek ghante se ek hi jagah atke hain.",
+    "en": "We've been stuck in one spot for an hour."
+   },
+   {
+    "hi": "Agli baar metro se hi jaayenge, pakka.",
+    "en": "Next time we're definitely taking the metro."
+   },
+   {
+    "hi": "Usne itni badi baat chhupa ke rakhi.",
+    "en": "He kept such a big thing hidden."
+   },
+   {
+    "hi": "Mujhe toh sun ke yakeen hi nahi hua.",
+    "en": "I couldn't believe it when I heard."
+   },
+   {
+    "hi": "Dost ho toh aisa, sab sach bata de.",
+    "en": "A real friend tells you the whole truth."
+   },
+   {
+    "hi": "Shaadi mein itna khaana khaya ki hil bhi nahi pa raha.",
+    "en": "Ate so much at the wedding I can barely move."
+   },
+   {
+    "hi": "Mithai pe toh tu toot pada tha.",
+    "en": "You totally pounced on the sweets."
+   },
+   {
+    "hi": "Kya karoon, gulab jamun dekh ke control nahi hota.",
+    "en": "What can I do, I lose control when I see gulab jamun."
+   },
+   {
+    "hi": "Aajkal har koi apni duniya mein khoya hai.",
+    "en": "These days everyone's lost in their own world."
+   },
+   {
+    "hi": "Sach mein, phone ne sabko door kar diya.",
+    "en": "Really, phones have pushed everyone apart."
+   },
+   {
+    "hi": "Chal, aaj phone side mein rakh ke baat karte hain.",
+    "en": "Come on, let's put our phones aside and talk today."
+   },
+   {
+    "hi": "Mujhe pata hai tu kar lega, bas himmat rakh.",
+    "en": "I know you'll manage it, just stay strong."
+   },
+   {
+    "hi": "Tere bharose pe hi toh main yahan tak aaya.",
+    "en": "I only got this far because of your support."
+   },
+   {
+    "hi": "Bas, ab emotional mat kar, chal khaana khaate hain.",
+    "en": "That's enough, don't get emotional, let's go eat."
+   }
+  ]
+ }
+}

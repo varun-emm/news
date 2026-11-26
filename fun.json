@@ -1,233 +1,249 @@
 {
- "date": "2026-11-26",
- "generatedAt": "2026-11-26T03:45:59+05:30",
+ "date": "2026-11-27",
+ "generatedAt": "2026-11-27T03:47:43+05:30",
  "items": [
   {
-   "id": "2026-11-26-fw1",
+   "id": "2026-11-27-fw1",
+   "type": "fashion",
+   "source": "Vogue",
+   "emoji": "🎥",
+   "color": "#1e3a8a",
+   "headline": "2026 belonged to the best-dressed directors",
+   "caption": "From Chloé Zhao to Jordan Firstman.",
+   "body": [
+    "Directors aren't tied to brand deals.",
+    "Sofia Coppola even made T-shirts.",
+    "Style lesson: dress for yourself, not a sponsor."
+   ],
+   "url": "https://www.vogue.com/article/best-dressed-directors-2026",
+   "linkLabel": "Vogue",
+   "image": {
+    "url": "https://assets.vogue.com/photos/6aff79cb5733c7dce3043422/16:9/w_1280,c_limit/Best_Dressed.jpg",
+    "credit": "Vogue",
+    "creditUrl": "https://www.vogue.com/article/best-dressed-directors-2026",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-27-fw2",
    "type": "fashion",
    "source": "GQ UK",
-   "emoji": "🎩",
+   "emoji": "🏁",
    "color": "#14532d",
-   "headline": "What even is a dress watch?",
-   "caption": "GQ UK says the old rules shouldn't decide what you wear.",
+   "headline": "Mercedes F1 drivers raced in glowing suits in Vegas",
+   "caption": "Antonelli and Russell's suits were inspired by IWC's Ceralume watch.",
    "body": [
-    "A writer's £1,595 Raymond Weil was mistaken for a Patek.",
-    "Slim cases and quiet dials are the classic look.",
-    "Style lesson: wear what you love with black tie."
+    "Ceralume is a glowing ceramic.",
+    "It's IWC's first watch using it.",
+    "Style lesson: let one detail glow."
    ],
-   "url": "https://www.gq-magazine.co.uk/article/dress-watches-new-rolex-padellone-22-11-2026",
+   "url": "https://www.gq-magazine.co.uk/article/kimi-antonelli-george-russell-f1-racing-suits-iwc-21-11-2026",
    "linkLabel": "GQ UK",
    "image": {
-    "url": "https://media.gq-magazine.co.uk/photos/6b006368c38f212636163690/16:9/w_1280,c_limit/Timesheet_header.jpg",
+    "url": "https://media.gq-magazine.co.uk/photos/6b015f3265b46e0f64c445c3/16:9/w_1280,c_limit/23rqerg.jpg",
     "credit": "GQ UK",
-    "creditUrl": "https://www.gq-magazine.co.uk/article/dress-watches-new-rolex-padellone-22-11-2026",
+    "creditUrl": "https://www.gq-magazine.co.uk/article/kimi-antonelli-george-russell-f1-racing-suits-iwc-21-11-2026",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-26-fw2",
-   "type": "fashion",
-   "source": "Vogue",
-   "emoji": "🌟",
-   "color": "#1e3a8a",
-   "headline": "Vogue's 2026 Next Gen Style Stars",
-   "caption": "Breakout names to watch, from American sportswear to vintage tees.",
-   "body": [
-    "True Whitaker of 'I Love LA' is one.",
-    "They're new, but making their mark fast.",
-    "Style lesson: find your signature early."
-   ],
-   "url": "https://www.vogue.com/article/2026-best-dressed-next-gen-style-stars",
-   "linkLabel": "Vogue",
-   "image": {
-    "url": "https://assets.vogue.com/photos/6afdaea5eecfe3dacbc10cbc/16:9/w_1280,c_limit/It_Girls_16x9_V2%20(1).jpg",
-    "credit": "Vogue",
-    "creditUrl": "https://www.vogue.com/article/2026-best-dressed-next-gen-style-stars",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-26-fw3",
-   "type": "fashion",
-   "source": "Vogue",
-   "emoji": "👜",
-   "color": "#581c87",
-   "headline": "Harry Styles loves a big bag",
-   "caption": "He carried a Chanel flap bag around Rome.",
-   "body": [
-    "He took a break between tour legs.",
-    "He's off to Australia next.",
-    "Style lesson: a big bag can be part of the look."
-   ],
-   "url": "https://www.vogue.com/article/harry-styles-pro-schlep-big-bag-chanel-2026-11-22",
-   "linkLabel": "Vogue",
-   "image": {
-    "url": "https://assets.vogue.com/photos/6b03365218f3d16f885ae619/16:9/w_1280,c_limit/BGUS_3746810_036.jpg",
-    "credit": "Vogue",
-    "creditUrl": "https://www.vogue.com/article/harry-styles-pro-schlep-big-bag-chanel-2026-11-22",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-26-fw4",
+   "id": "2026-11-27-fw3",
    "type": "fashion",
    "source": "Highsnobiety",
-   "emoji": "🎪",
-   "color": "#9f1239",
-   "headline": "Five young artists on Tyler, the Creator's Camp Flog Gnaw",
-   "caption": "Why 'alt' style thrives at the Dodger Stadium festival.",
+   "emoji": "🍟",
+   "color": "#581c87",
+   "headline": "GTA VI is drowning in merch tie-ins",
+   "caption": "Highsnobiety says the products muddle the game's satire.",
    "body": [
-    "Tyler has run it since 2012.",
-    "He handpicks the lineup each year.",
-    "Style lesson: dress for the crowd you want."
+    "One tie-in turns the game case into a ketchup and fries box.",
+    "Only 40 were made.",
+    "Style lesson: not every collab is worth buying."
    ],
-   "url": "https://www.highsnobiety.com/p/five-young-artists-on-why-alt-shit-thrives-at-tyler-the-creators-camp-flog-gnaw/",
+   "url": "https://www.highsnobiety.com/p/gta-vi-merch/",
    "linkLabel": "Highsnobiety",
    "image": {
-    "url": "https://www.highsnobiety.com/static-assets/dato/1795209903-lab-edit1.jpeg",
+    "url": "https://www.highsnobiety.com/static-assets/dato/1795427129-gta-vi-merch-000-1.jpg",
     "credit": "Highsnobiety",
-    "creditUrl": "https://www.highsnobiety.com/p/five-young-artists-on-why-alt-shit-thrives-at-tyler-the-creators-camp-flog-gnaw/",
+    "creditUrl": "https://www.highsnobiety.com/p/gta-vi-merch/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-26-fw5",
+   "id": "2026-11-27-fw4",
    "type": "fashion",
    "source": "Robb Report",
-   "emoji": "📕",
-   "color": "#0f766e",
-   "headline": "A $10 million vintage Rolex collection, now in a book",
-   "caption": "Bob's Watches CEO Paul Altieri shows 134 watches.",
+   "emoji": "🎞️",
+   "color": "#9f1239",
+   "headline": "Joan Collins's 1960s Cartier Tank goes to auction",
+   "caption": "A yellow-gold Cartier London Tank, circa 1968.",
    "body": [
-    "The book is called 'Not for Sale'.",
-    "Every watch is a vintage Rolex.",
-    "Style lesson: collect what you'll keep."
+    "It sells at Bonhams London on December 10.",
+    "It comes from the actor's own collection.",
+    "Style lesson: a Tank never dates."
    ],
-   "url": "https://robbreport.com/style/watch-collector/paul-altieri-vintage-rolex-collection-book-1238849455/",
+   "url": "https://robbreport.com/style/watch-collector/joan-collins-cartier-tank-auction-1238847688/",
    "linkLabel": "Robb Report",
    "image": {
-    "url": "https://robbreport.com/wp-content/uploads/2026/11/not-for-sale-a-private-collection-of-vintage-rolex-watches-1.jpg?w=681&h=383&crop=1",
+    "url": "https://robbreport.com/wp-content/uploads/2026/11/joan-collins-cartier.jpg?w=681&h=383&crop=1",
     "credit": "Robb Report",
-    "creditUrl": "https://robbreport.com/style/watch-collector/paul-altieri-vintage-rolex-collection-book-1238849455/",
+    "creditUrl": "https://robbreport.com/style/watch-collector/joan-collins-cartier-tank-auction-1238847688/",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-26-fw6",
-   "type": "fashion",
-   "source": "Esquire",
-   "emoji": "🧥",
-   "color": "#78350f",
-   "headline": "Esquire's most-worn winter jacket costs $250",
-   "caption": "Filson's Insulated Canvas Outfitter.",
-   "body": [
-    "A practical alternative to fragile vintage workwear.",
-    "Part of the Esquire Endorsement series.",
-    "How to wear it: over a flannel shirt and jeans."
-   ],
-   "url": "https://www.esquire.com/style/mens-fashion/a74454200/filson-insulated-canvas-outfitter-review/",
-   "linkLabel": "Esquire",
-   "image": {
-    "url": "https://hips.hearstapps.com/hmg-prod/images/da485b67-9561-4255-9fad-f91cc9507148.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
-    "credit": "Esquire",
-    "creditUrl": "https://www.esquire.com/style/mens-fashion/a74454200/filson-insulated-canvas-outfitter-review/",
-    "preview": true
-   },
-   "embed": false
-  },
-  {
-   "id": "2026-11-26-fw7",
+   "id": "2026-11-27-fw5",
    "type": "fashion",
    "source": "GQ",
-   "emoji": "👓",
-   "color": "#334155",
-   "headline": "Joaquin Phoenix stars in Gentle Monster's AI glasses campaign",
-   "caption": "Jonathan Glazer directed the film.",
+   "emoji": "🧣",
+   "color": "#0f766e",
+   "headline": "Noah wraps the Converse Chuck 70 in tartan",
+   "caption": "The third Converse x Noah drop this year.",
    "body": [
-    "The glasses can live-translate speech.",
-    "They're from Gentle Monster's Intelligent Eyewear line.",
-    "Style lesson: dark frames, sharp look."
+    "The New York label and Converse first teamed up this spring.",
+    "Just in time for the holidays.",
+    "How to wear it: with grey flannel trousers."
    ],
-   "url": "https://www.gq.com/story/joaquin-phoenix-gentle-monster-intelligent-eyewear-interview",
+   "url": "https://www.gq.com/story/converse-noah-black-watch-chuck-taylor-70-low-11-18-2026",
    "linkLabel": "GQ",
    "image": {
-    "url": "https://media.gq.com/photos/6afb77ebec919995f7ec83ec/16:9/w_1280,c_limit/GM_IE_NYCPOPUP_JOAQUIN_2880x2160%20(1).jpg",
+    "url": "https://media.gq.com/photos/6afdc465ad0e9ecd44f60240/16:9/w_1280,c_limit/HO26_NOAH_A23863C_IN-SITU_02.jpg",
     "credit": "GQ",
-    "creditUrl": "https://www.gq.com/story/joaquin-phoenix-gentle-monster-intelligent-eyewear-interview",
+    "creditUrl": "https://www.gq.com/story/converse-noah-black-watch-chuck-taylor-70-low-11-18-2026",
     "preview": true
    },
    "embed": false
   },
   {
-   "id": "2026-11-26-f1",
+   "id": "2026-11-27-fw6",
+   "type": "fashion",
+   "source": "Dazed",
+   "emoji": "🧢",
+   "color": "#78350f",
+   "headline": "chöke: the buzzy London brand with an ancient China twist",
+   "caption": "Neil Zhao's label started with button caps from his Central Saint Martins show.",
+   "body": [
+    "He also slotted tabi shoes into flip-flops.",
+    "People asked to buy them, so a brand was born.",
+    "Style lesson: one odd detail can make a piece."
+   ],
+   "url": "https://www.dazeddigital.com/fashion/article/71348/1/choke-london-fashion-brand-ancient-china-chiense-central-saint-martins",
+   "linkLabel": "Dazed",
+   "image": {
+    "url": "https://images-prod.dazeddigital.com/1200/0-0-2400-1600/azure/dazed-prod/1450/9/1459521.jpg",
+    "credit": "Dazed",
+    "creditUrl": "https://www.dazeddigital.com/fashion/article/71348/1/choke-london-fashion-brand-ancient-china-chiense-central-saint-martins",
+    "preview": true
+   },
+   "embed": true
+  },
+  {
+   "id": "2026-11-27-fw7",
+   "type": "fashion",
+   "source": "Robb Report",
+   "emoji": "💍",
+   "color": "#7c2d12",
+   "headline": "Miley Cyrus and Maxx Morando married in matching Saint Laurent",
+   "caption": "They wed in Palm Springs on Saturday.",
+   "body": [
+    "Both wore Saint Laurent by Anthony Vaccarello.",
+    "Cyrus also wore Chopard jewellery.",
+    "Style lesson: matching, but not identical."
+   ],
+   "url": "https://robbreport.com/style/fashion/miley-cyrus-maxx-morando-wedding-saint-laurent-chopard-1238858377/",
+   "linkLabel": "Robb Report",
+   "image": {
+    "url": "https://robbreport.com/wp-content/uploads/2026/11/miley-cyrus-maxx-morando-wedding-2.jpg?w=681&h=383&crop=1",
+    "credit": "Robb Report",
+    "creditUrl": "https://robbreport.com/style/fashion/miley-cyrus-maxx-morando-wedding-saint-laurent-chopard-1238858377/",
+    "preview": true
+   },
+   "embed": false
+  },
+  {
+   "id": "2026-11-27-f1",
+   "type": "good",
+   "source": "Good News Network",
+   "emoji": "🦃",
+   "color": "#9a3412",
+   "headline": "Town buys a new car for the woman who feeds 2,000 every Thanksgiving",
+   "caption": "After 37 years of Gloria Kennard's dinners, her Texas community raised $27,000.",
+   "body": [
+    "She started the meal in 1988.",
+    "'Thank you so very much, community,' she said."
+   ],
+   "url": "https://www.goodnewsnetwork.org/town-rewards-a-woman-whose-thanksgiving-meal-feeds-thousands-with-a-new-car/",
+   "linkLabel": "GNN",
+   "image": {
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/maxresdefault-7.jpg",
+    "credit": "Good News Network",
+    "creditUrl": "https://www.goodnewsnetwork.org/town-rewards-a-woman-whose-thanksgiving-meal-feeds-thousands-with-a-new-car/",
+    "preview": true
+   },
+   "embed": true
+  },
+  {
+   "id": "2026-11-27-f2",
    "type": "good",
    "source": "Good News Network",
    "emoji": "🌾",
-   "color": "#166534",
-   "headline": "Cape Cod land returned to Native American care, 400 years on",
-   "caption": "126 acres near First Encounter Beach go to the Native Land Conservancy.",
+   "color": "#3f6212",
+   "headline": "Texans farm for free to fund local kids' college",
+   "caption": "Nearly 1,000 volunteers farm Gruver school district's 640 acres.",
    "body": [
-    "The Nature Conservancy handed over the salt marsh on October 30.",
-    "It links to a 20.4-acre parcel bought earlier this year."
+    "The 15-year tradition has paid out $3 million in scholarships.",
+    "A landowner left the farm to the district in 1984."
    ],
-   "url": "https://www.goodnewsnetwork.org/land-returned-indigenous-care-first-encounter-beach/",
+   "url": "https://www.goodnewsnetwork.org/texans-work-for-free-on-farms-that-arent-theirs-to-send-others-kids-to-college/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/1280px-Waiting_for_Sunset_14287123165.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Gruver-High-School.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/land-returned-indigenous-care-first-encounter-beach/",
+    "creditUrl": "https://www.goodnewsnetwork.org/texans-work-for-free-on-farms-that-arent-theirs-to-send-others-kids-to-college/",
     "preview": true
    },
    "embed": true
   },
   {
-   "id": "2026-11-26-f2",
+   "id": "2026-11-27-f3",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🚗",
+   "emoji": "🍽️",
    "color": "#065f46",
-   "headline": "Texas mechanics keep giving away free cars to neighbours in need",
-   "caption": "Cathy and Dane Bailey's 'Autos for Love' refurbishes donated cars.",
+   "headline": "A New York restaurant owner feeds people in need every Wednesday",
+   "caption": "Ali Riza Dogan hands out hot meals weekly, not just at Thanksgiving.",
    "body": [
-    "They started with one car a year.",
-    "Now they give away several each year."
+    "He owns Ali Baba Mediterranean & Turkish Cuisine in Midtown.",
+    "He's done it every week for five years."
    ],
-   "url": "https://www.goodnewsnetwork.org/texas-auto-shop-couple-is-hungry-to-keep-giving-cars-away-to-neighbors-in-need/",
+   "url": "https://www.goodnewsnetwork.org/for-this-nyc-restaurant-owner-thanksgiving-comes-every-wednesday/",
    "linkLabel": "GNN",
    "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Cathy-and-Dane-Bailey-from-Auto-Experts-of-Colleyville-credit-Autos-for-Love.jpg",
+    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2015/11/turkey-tribune-video-permission.jpg",
     "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/texas-auto-shop-couple-is-hungry-to-keep-giving-cars-away-to-neighbors-in-need/",
+    "creditUrl": "https://www.goodnewsnetwork.org/for-this-nyc-restaurant-owner-thanksgiving-comes-every-wednesday/",
     "preview": true
    },
    "embed": true
   },
   {
-   "id": "2026-11-26-f3",
+   "id": "2026-11-27-f4",
    "type": "good",
    "source": "Good News Network",
-   "emoji": "🗿",
-   "color": "#7c2d12",
-   "headline": "A 13th-century Virgin Mary stolen in 1979 is going home",
-   "caption": "Police found the carving, taken by art thief 'Erik the Belgian', in a UK collection.",
+   "emoji": "🎗️",
+   "color": "#1e40af",
+   "headline": "Baby given weeks to live is now brain cancer-free",
+   "caption": "Imani's records reached St. Jude just after it finished a study on her cancer.",
    "body": [
-    "It vanished from a small church in Navarre, Spain.",
-    "The case sat unsolved for nearly half a century."
+    "Her family had sent her records to 15 hospitals.",
+    "That was seven years ago; she has fully recovered."
    ],
-   "url": "https://www.goodnewsnetwork.org/detectives-recover-13th-century-sculpture-stolen-by-notorious-gentleman-thief-erik-the-belgian/",
+   "url": "https://www.goodnewsnetwork.org/girl-given-weeks-to-live-on-christmas-eve-makes-miracle-recovery-after-serendipitous-call-to-st-jude/",
    "linkLabel": "GNN",
-   "image": {
-    "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-13th-century-Virgin-pictured-during-its-handover-in-London-at-the-Embassy-of-Spain-Courtesy-Ministry-of-Foreign-Affairs-European-Union.jpg",
-    "credit": "Good News Network",
-    "creditUrl": "https://www.goodnewsnetwork.org/detectives-recover-13th-century-sculpture-stolen-by-notorious-gentleman-thief-erik-the-belgian/",
-    "preview": true
-   },
-   "embed": true
+   "embed": false
   }
  ]
 }
