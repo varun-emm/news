@@ -1,0 +1,491 @@
+{
+ "date": "2026-11-27",
+ "generatedAt": "2026-11-27T03:47:43+05:30",
+ "stories": [
+  {
+   "id": "2026-11-27-w1",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Saudi Arabia",
+   "emoji": "🔥",
+   "stat": "1",
+   "statLabel": "worker killed",
+   "headline": "Attack on Saudi Arabia's Jazan refinery kills a worker",
+   "body": [
+    "A projectile hit an oil refinery in Jazan on Saudi Arabia's Red Sea coast, killing a Nepali worker and injuring several people.",
+    "It caused a fire and briefly halted some operations.",
+    "The Saudi-led coalition blamed Yemen's Houthis."
+   ],
+   "joke": "",
+   "vc": "Attacks on Saudi oil sites add risk to global fuel prices.",
+   "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations",
+   "linkLabel": "Al Jazeera",
+   "color": "#7f1d1d",
+   "font": "serious"
+  },
+  {
+   "id": "2026-11-27-w2",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Mexico",
+   "emoji": "🚀",
+   "stat": "Starbase",
+   "statLabel": "launch site near the border",
+   "headline": "Mexico wants US talks over suspected SpaceX debris",
+   "body": [
+    "Mexico is seeking talks with US aviation authorities about rocket debris from SpaceX launches in Texas.",
+    "President Claudia Sheinbaum said Mexico may ask for limits on airspace use or even moving the launch site.",
+    "Mexican authorities recovered debris after a Starship launch this month."
+   ],
+   "joke": "Space junk, now an international postal problem.",
+   "vc": "Launch limits could slow SpaceX's busy Starship schedule.",
+   "url": "https://www.aljazeera.com/news/2026/11/26/mexico-seeks-us-talks-about-suspected-spacex-debris",
+   "linkLabel": "Al Jazeera",
+   "color": "#334155",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-27-w3",
+   "section": "world",
+   "source": "Al Jazeera",
+   "kicker": "Italy–Ukraine",
+   "emoji": "⚓",
+   "stat": "Libya",
+   "statLabel": "where the ships were hit",
+   "headline": "Italy rebukes Ukraine for striking Russian ships off Libya",
+   "body": [
+    "Italy said Ukraine was wrong to 'violate Libya's sovereignty' by attacking Russian vessels there.",
+    "It is a rare crack in Rome's support for Kyiv.",
+    "Analysts say Italy fears instability in Libya could hurt its energy interests and migration controls."
+   ],
+   "joke": "",
+   "vc": "Libyan instability threatens Italy's gas supplies.",
+   "url": "https://www.aljazeera.com/news/2026/11/26/why-is-italy-angry-with-ukraine-for-striking-russian-ships-off-libya",
+   "linkLabel": "Al Jazeera",
+   "color": "#1e3a8a",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Palazzo_Chigi_-_esterno.jpg/1280px-Palazzo_Chigi_-_esterno.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "DellaGherardesca / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Palazzo_Chigi_-_esterno.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-27-i1",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Markets",
+   "emoji": "📈",
+   "stat": "84,328",
+   "statLabel": "Sensex close",
+   "headline": "Markets rise for a second day as IT stocks lead",
+   "body": [
+    "The Sensex rose 390 points to 84,328.59 and the Nifty closed at 25,884.50.",
+    "HCL Tech jumped 6.28%, leading IT stocks higher.",
+    "Foreign fund buying continued to lift sentiment."
+   ],
+   "joke": "IT stands for 'It's Thursday, buy'.",
+   "vc": "Steady foreign inflows support the rupee and Indian shares.",
+   "url": "https://www.thehindu.com/business/markets/stock-markets-rally-for-2nd-day-on-foreign-fund-inflows-buying-in-it-shares/article71746150.ece",
+   "linkLabel": "The Hindu",
+   "color": "#15803d",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/BSE_building_at_Dalal_Street.JPG/1280px-BSE_building_at_Dalal_Street.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "BSEINDIA / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:BSE_building_at_Dalal_Street.JPG",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-27-i2",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Corporate",
+   "emoji": "🏛️",
+   "stat": "66%",
+   "statLabel": "Tata Trusts' stake in Tata Sons",
+   "headline": "Tata Trusts goes to court against Chandrasekaran's reappointment",
+   "body": [
+    "Tata Trusts, which owns 66% of Tata Sons, filed two suits in the Bombay High Court.",
+    "It challenges N. Chandrasekaran's reappointment as executive chairman for a third term.",
+    "The hearing is set for Friday."
+   ],
+   "joke": "Family business, now with lawyers.",
+   "vc": "A boardroom fight could unsettle investors in Tata group companies.",
+   "url": "https://www.thehindu.com/business/Industry/tata-trusts-to-move-high-court-against-reappointment-of-n-chandrasekaran-as-executive-chairman-of-tata-sons/article71745407.ece",
+   "linkLabel": "The Hindu",
+   "color": "#1d4ed8",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-27-i3",
+   "section": "india",
+   "source": "The Hindu",
+   "kicker": "Banking",
+   "emoji": "🏦",
+   "stat": "₹8,415 Cr",
+   "statLabel": "write-down being reversed",
+   "headline": "Yes Bank AT1 verdict could leave 60 lakh shareholders footing the bill",
+   "body": [
+    "The Supreme Court upheld an order quashing the 2020 write-down of Yes Bank's AT1 bonds.",
+    "It said the rescue administrator lacked authority to write them down.",
+    "Analysts warn about 60 lakh small shareholders may share the ₹8,415 crore cost."
+   ],
+   "joke": "Bondholders win; shareholders get the bill.",
+   "vc": "The case sets a precedent for how bank rescues treat risky bonds.",
+   "url": "https://www.thehindu.com/business/yes-bank-at1-bond-verdict-60-lakh-retail-shareholders-face-8415-crore-bill/article71746924.ece",
+   "linkLabel": "The Hindu",
+   "color": "#b91c1c",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-27-m1",
+   "section": "money",
+   "source": "FT Unhedged",
+   "kicker": "Markets",
+   "emoji": "🎙️",
+   "stat": "1-year low",
+   "statLabel": "gold's slide",
+   "headline": "Unhedged: what should a fund manager do in choppy markets?",
+   "body": [
+    "FT's Unhedged podcast says stocks, bonds and even gold are swinging wildly.",
+    "Gold, usually a safe haven, touched its lowest level in a year.",
+    "Katie Martin asks ex-fund manager Toby Nangle how to navigate it."
+   ],
+   "joke": "Even the safe haven needs a safe haven.",
+   "vc": "When everything moves together, spreading risk gets harder.",
+   "url": "https://shows.acast.com/unhedged/episodes/whats-a-fund-manager-to-do",
+   "linkLabel": "Unhedged",
+   "color": "#9a3412",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Gold_ingot_and_bar_of_Banque_de_France.jpg/1280px-Gold_ingot_and_bar_of_Banque_de_France.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Ibex73 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Gold_ingot_and_bar_of_Banque_de_France.jpg",
+    "license": "CC BY 4.0"
+   }
+  },
+  {
+   "id": "2026-11-27-m2",
+   "section": "money",
+   "source": "TechCrunch",
+   "kicker": "Chips",
+   "emoji": "⏸️",
+   "stat": "24%",
+   "statLabel": "China AI compute via remote data centres",
+   "headline": "Nvidia pauses server shipments to four Southeast Asian countries",
+   "body": [
+    "Nvidia told partners like Dell and Super Micro to pause server shipments to Malaysia, Singapore, Thailand and Indonesia, the WSJ reports.",
+    "Chinese firms had used data centres there to access Nvidia chips remotely.",
+    "A think tank estimates such sites supply about 24% of China's AI compute. (Axios Pro Rata had nothing checkable, so this is TechCrunch's report.)"
+   ],
+   "joke": "Shipping: paused. Scrutiny: unpaused.",
+   "vc": "Tighter controls could slow Nvidia's sales growth in Asia.",
+   "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+   "linkLabel": "TechCrunch",
+   "color": "#0f766e",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-27-m3",
+   "section": "money",
+   "source": "The Hindu",
+   "kicker": "SpaceX",
+   "emoji": "🎁",
+   "stat": "2",
+   "statLabel": "SpaceX shares per US child",
+   "headline": "Musk says every US child will get two SpaceX shares",
+   "body": [
+    "SpaceX will give one new share to every active 'Trump Account', and Musk says he'll personally match it.",
+    "That means two shares per child, Musk posted on X.",
+    "SpaceX didn't say whether any conditions apply. (No new Stratechery post, so this is a Reuters report via The Hindu.)"
+   ],
+   "joke": "Pocket money, rocket-powered.",
+   "vc": "Gifting shares makes millions of children SpaceX shareholders.",
+   "url": "https://www.thehindu.com/news/international/elon-musk-says-every-child-in-us-will-get-two-spacex-shares/article71745692.ece",
+   "linkLabel": "The Hindu",
+   "color": "#4c1d95",
+   "font": "finance",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Starship_SN9_Launch_Pad_and_Build_Site.jpg/1280px-Starship_SN9_Launch_Pad_and_Build_Site.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Jared Krahn / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Starship_SN9_Launch_Pad_and_Build_Site.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-27-m4",
+   "section": "money",
+   "source": "Inc42",
+   "kicker": "Climate VC",
+   "emoji": "🌱",
+   "stat": "$615M",
+   "statLabel": "first close, Fund IV",
+   "headline": "GEF Capital raises $615M for its biggest India climate fund",
+   "body": [
+    "GEF Capital Partners closed $615 million for its fourth India climate fund.",
+    "It is 40% larger than its previous $440 million fund.",
+    "Its portfolio includes ReNew Power, Indian Energy Exchange and Yulu. (TechCrunch Venture had no fresh deal, so this is Inc42's report.)"
+   ],
+   "joke": "Green money, growing.",
+   "vc": "Big climate funds signal investor confidence in India's energy shift.",
+   "url": "https://inc42.com/buzz/gef-capital-partners-announces-first-close-of-india-climate-fund-iv-at-615-mn/",
+   "linkLabel": "Inc42",
+   "color": "#047857",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-27-m5",
+   "section": "money",
+   "source": "The Hindu",
+   "kicker": "Airlines",
+   "emoji": "✈️",
+   "stat": "−85%",
+   "statLabel": "share price fall",
+   "headline": "Norse Atlantic suspends flights and warns of bankruptcy",
+   "body": [
+    "Budget long-haul airline Norse Atlantic suspended all flights on Thursday.",
+    "Its board says it will file for bankruptcy unless urgent short-term financing is found.",
+    "Its shares fell 85% after it called its finances 'critical'. (No Economist piece was readable, so this is a Reuters report via The Hindu.)"
+   ],
+   "joke": "",
+   "vc": "Budget long-haul flying remains a tough business.",
+   "url": "https://www.thehindu.com/business/Industry/airline-norse-atlantic-suspends-flights-warns-of-possible-bankruptcy/article71745843.ece",
+   "linkLabel": "The Hindu",
+   "color": "#374151",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-27-v1",
+   "section": "women",
+   "source": "The Hindu",
+   "kicker": "Child marriage",
+   "emoji": "📞",
+   "stat": "3 days",
+   "statLabel": "before the wedding she called",
+   "headline": "A Rajasthan schoolgirl secretly stopped her own child marriage",
+   "body": [
+    "A 16-year-old in Sikar called the 1098 child helpline over six times after her family fixed her wedding.",
+    "Officials got a court order and stopped it with 72 hours to spare.",
+    "Sikar prevented 29 child marriages in 2024 and 10 in 2025."
+   ],
+   "joke": "",
+   "vc": "Girls who stay in school are more likely to earn and be independent.",
+   "url": "https://www.thehindu.com/news/national/rajasthan/in-rajasthan-the-girls-who-refuse-to-be-spoken-for/article71742334.ece",
+   "linkLabel": "The Hindu",
+   "color": "#be185d",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-27-v2",
+   "section": "women",
+   "source": "The Local",
+   "kicker": "Spain",
+   "emoji": "📣",
+   "stat": "2004",
+   "statLabel": "year of Spain's gender-violence law",
+   "headline": "Thousands march in Madrid to defend Spain's gender-violence law",
+   "body": [
+    "Thousands marched in Madrid to defend Spain's protections against violence on women before Sunday's election.",
+    "Far-right Vox wants to repeal the landmark 2004 law.",
+    "Polls suggest the conservative PP may need Vox to govern."
+   ],
+   "joke": "",
+   "vc": "Protections for women affect their safety at home and at work.",
+   "url": "https://thelocal.es/20261126/protesters-rally-in-spain-against-gender-violence-ahead-of-election",
+   "linkLabel": "The Local",
+   "color": "#9d174d",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-27-v3",
+   "section": "women",
+   "source": "Balkan Insight",
+   "kicker": "Balkans",
+   "emoji": "✊",
+   "stat": "4",
+   "statLabel": "countries with marches",
+   "headline": "Protesters across the Balkans demand action on violence against women",
+   "body": [
+    "People marched in Bulgaria, Kosovo, North Macedonia and Turkey on November 25.",
+    "In Sofia, they called for better data, more shelters and prevention plans.",
+    "In Kosovo, organisers want femicide made a separate crime."
+   ],
+   "joke": "",
+   "vc": "Shelters and prevention need steady public funding.",
+   "url": "https://balkaninsight.com/2026/11/26/protesters-across-balkans-demand-action-to-curb-violence-against-women/bi/",
+   "linkLabel": "Balkan Insight",
+   "color": "#a21caf",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-27-h1",
+   "section": "health",
+   "source": "Nation Press",
+   "kicker": "Assam",
+   "emoji": "🏥",
+   "stat": "870",
+   "statLabel": "beds in the new annex",
+   "headline": "Guwahati's GMCH gets an 870-bed annex hospital on December 2",
+   "body": [
+    "Assam's CM Himanta Biswa Sarma will open an 870-bed hospital attached to Gauhati Medical College on December 2.",
+    "It has about 120 ICU beds with ventilators.",
+    "Seven departments, including emergency and surgery, will move in."
+   ],
+   "joke": "870 beds: Guwahati's biggest housewarming.",
+   "vc": "A big boost in ICU beds strengthens emergency care across the Northeast.",
+   "url": "https://www.nationpress.com/national/870-bed-gmch-annex-opens-in-guwahati-dec-2",
+   "linkLabel": "Nation Press",
+   "color": "#0369a1",
+   "font": "news",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/GAUHATI_MEDICAL_COLLEGE.JPG/1280px-GAUHATI_MEDICAL_COLLEGE.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Sardar Hironjyoti Beshra / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:GAUHATI_MEDICAL_COLLEGE.JPG",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "2026-11-27-h2",
+   "section": "health",
+   "source": "Medical Dialogues",
+   "kicker": "Uttar Pradesh",
+   "emoji": "🤝",
+   "stat": "30 years",
+   "statLabel": "PPP contract length",
+   "headline": "UP hands four government hospitals to private operators",
+   "body": [
+    "Uttar Pradesh approved private operators to run four government hospital facilities for 30 years.",
+    "They include a 300-bed hospital in Bareilly and a 200-bed hospital in Banda.",
+    "Health group Jan Swasthya Abhiyan has criticised the move."
+   ],
+   "joke": "Public hospital, private manager.",
+   "vc": "PPP deals can add investment but raise concerns about costs for poor patients.",
+   "url": "https://medicaldialogues.in/news/health/hospital-diagnostics/up-govts-move-to-hand-over-four-government-hospitals-to-private-players-draws-criticism-from-jan-swasthya-abhiyan-184013",
+   "linkLabel": "Medical Dialogues",
+   "color": "#115e59",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-27-h3",
+   "section": "health",
+   "source": "Express Healthcare",
+   "kicker": "Noida",
+   "emoji": "🫁",
+   "stat": "ILD + COPD",
+   "statLabel": "conditions covered",
+   "headline": "Fortis Noida opens a lung failure clinic",
+   "body": [
+    "Fortis Hospital Noida launched a clinic for advanced and end-stage lung disease.",
+    "It will spot patients early who may need a lung transplant.",
+    "It covers conditions like pulmonary fibrosis and COPD."
+   ],
+   "joke": "Breathing room, literally.",
+   "vc": "Specialist clinics help hospital chains grow high-value services.",
+   "url": "https://www.expresshealthcare.in/news/fortis-noida-launches-lung-failure-clinic-for-advanced-respiratory-disease-management-and-transplant-care/456017/",
+   "linkLabel": "Express Healthcare",
+   "color": "#0891b2",
+   "font": "news"
+  },
+  {
+   "id": "2026-11-27-t1",
+   "section": "hft",
+   "source": "Finance Magnates",
+   "kicker": "Exchanges",
+   "emoji": "📊",
+   "stat": "+52%",
+   "statLabel": "MOEX derivatives fee income",
+   "headline": "Moscow Exchange's derivatives revenue jumps 52%",
+   "body": [
+    "Derivatives brought MOEX RUB 4.63 billion ($56.2 million) in fees in Q3, up nearly 53%.",
+    "Trading volume rose 62.4% to RUB 55.16 trillion.",
+    "Currency derivatives turnover jumped 81%."
+   ],
+   "joke": "Volatility: the exchange's best friend.",
+   "vc": "Fee income grew slower than volume as cheaper contracts dominated.",
+   "url": "https://www.financemagnates.com/institutional-forex/exchanges/moex-derivatives-revenue-surges-52-outpacing-cme-and-ice/",
+   "linkLabel": "Finance Magnates",
+   "color": "#1e1b4b",
+   "font": "finance"
+  },
+  {
+   "id": "2026-11-27-t2",
+   "section": "hft",
+   "source": "The TRADE",
+   "kicker": "Post-trade",
+   "emoji": "🗓️",
+   "stat": "Oct 11, 2027",
+   "statLabel": "T+1 start in EU, UK, Switzerland",
+   "headline": "Pirum launches a tool to match settlement details before T+1",
+   "body": [
+    "Pirum launched SSIConnect, which matches standing settlement instructions across a trade's life.",
+    "It prepares firms for T+1 settlement in the EU, UK and Switzerland on 11 October 2027.",
+    "It can plug into firms' existing systems."
+   ],
+   "joke": "Paperwork, but faster.",
+   "vc": "Shorter settlement leaves less time to fix errors.",
+   "url": "https://www.thetradenews.com/pirum-launches-ssi-matching-service-ahead-of-t1/",
+   "linkLabel": "The TRADE",
+   "color": "#0c4a6e",
+   "font": "tech",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/West_India_Quay_DLR_station_MMB_05_5%2C_25_and_1_Canada_Square.jpg/1280px-West_India_Quay_DLR_station_MMB_05_5%2C_25_and_1_Canada_Square.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "mattbuck (category) / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:West_India_Quay_DLR_station_MMB_05_5,_25_and_1_Canada_Square.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "2026-11-27-t3",
+   "section": "hft",
+   "source": "The TRADE",
+   "kicker": "Explainer",
+   "emoji": "🎓",
+   "stat": "T+1",
+   "statLabel": "one day after the trade",
+   "headline": "Explainer: What does 'T+1 settlement' mean?",
+   "body": [
+    "Imagine you agree to swap cricket cards at school today, but the actual cards change hands tomorrow.",
+    "Grown-ups call that handover 'settlement'. 'T+1' means it happens one day after the trade.",
+    "The EU, UK and Switzerland move to T+1 on 11 October 2027.",
+    "This week, Pirum launched a tool so firms can match payment details in time.",
+    "A shorter wait means less time for things to go wrong between the deal and the delivery."
+   ],
+   "joke": "Deal today, cards tomorrow.",
+   "vc": "Speedier settlement cuts risk.",
+   "url": "https://www.thetradenews.com/pirum-launches-ssi-matching-service-ahead-of-t1/",
+   "linkLabel": "The TRADE",
+   "color": "#312e81",
+   "font": "tech"
+  },
+  {
+   "id": "2026-11-27-r1",
+   "section": "f1",
+   "source": "Autosport",
+   "kicker": "Haas",
+   "emoji": "✍️",
+   "stat": "23 of 31",
+   "statLabel": "Haas points scored by Bearman",
+   "headline": "Haas finally confirms Oliver Bearman for 2027",
+   "body": [
+    "Haas has signed Oliver Bearman for 2027, alongside Brazilian rookie Rafael Camara.",
+    "That completes the 2027 grid before the last two races of 2026.",
+    "Bearman has scored 23 of Haas' 31 points this season."
+   ],
+   "joke": "Signed, sealed, finally delivered.",
+   "vc": "Keeping its star driver helps Haas pitch to sponsors.",
+   "url": "https://www.autosport.com/f1/news/haas-announce-bearman-f1-2027/10877815/",
+   "linkLabel": "Autosport",
+   "color": "#dc2626",
+   "font": "impact",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/2025_Japan_GP_-_Haas_-_Oliver_Bearman_-_FP2.jpg/1280px-2025_Japan_GP_-_Haas_-_Oliver_Bearman_-_FP2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Liauzh / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:2025_Japan_GP_-_Haas_-_Oliver_Bearman_-_FP2.jpg",
+    "license": "CC BY-SA 4.0"
+   }
+  }
+ ]
+}
